@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MURWallLight>벽등</MURWallLight>
+	<MURWallLight_LightRadName>조명 반경</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>광원으로 부터 얼마나 멀리 빛이 퍼질지 설정합니다. 기본값: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>강철 비용</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>하나의 조명을 만드는데 얼마나 많은 강철이 필요한지 설정합니다. 기본값: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>전력 소모량</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>하나의 조명이 얼마나 많은 전력을 소모할지 설정합니다. 기본값: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>조명 범위 보기 (실험적)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>조명이 켜졌을 때 어느 정도 범위를 밝힐지 대략적으로 봅니다. 실험적: 현재 기본 조명 반경 (값: 8)에서만 동작합니다.</MURWallLight_ShowRadiusDesc>
+	
+	<MURWallLight_WarningNeedWall>벽위에 설치되어야 합니다.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>지나갈 수 있는 타일을 마주보고 있어야 합니다.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>벽 위에 설치되어야 하고 지나갈 수 있는 타일을 마주보고 있어야 합니다.</MURWallLight_WarningBoth>
+	
+	<MURWallLight_AlertDisableRadius>조명 범위 보기는 현재 기본 조명 범위(값: 8)에서만 동작합니다. 비활성화 합니다.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>변경사항을 적용하려면 게임을 저장 후, 다시 불러오세요.</MURWallLight_AlertReload>
+	
+	<MURWallLight_DestroyedBlocked>건설로 인해 조명 파괴됨.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>벽 제거로 인해 조명 파괴됨.</MURWallLight_DestroyedWall>
+</LanguageData>

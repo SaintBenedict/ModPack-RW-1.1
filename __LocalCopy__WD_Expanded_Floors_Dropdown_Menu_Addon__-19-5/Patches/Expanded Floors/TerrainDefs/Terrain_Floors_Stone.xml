@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+  <!-- ================= Stone Tile ================= -->   
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[@Name = "TileStoneBase"]/designatorDropdown</xpath>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "TileStoneBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_Tile</designatorDropdown>
+		</value>
+	</Operation>	
+	
+  <!-- ================= Flagstone ================= -->     	
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[@Name = "FlagstoneBase"]/designatorDropdown</xpath>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "FlagstoneBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_Flagstone</designatorDropdown>
+		</value>
+	</Operation>	
+	
+  <!-- ================= Rough stone tile ================= --> 	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDRoughStoneTileBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDRoughStoneTile</designatorDropdown>
+		</value>
+	</Operation>
+
+  <!-- ================= Stone tile ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDStoneTileBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDStoneTile</designatorDropdown>
+		</value>
+	</Operation>
+
+  <!-- ================= Check Stone tile ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDCheckStoneTileBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDCheckStoneTile</designatorDropdown>
+		</value>
+	</Operation>  
+	
+  <!-- ================= Mosaic Stone Floor ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDMosaicStoneFloorBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMosaicStoneFloor</designatorDropdown>
+		</value>
+	</Operation>  
+	
+  <!-- ================= Check Stone Floor ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDCheckStoneFloorBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDCheckStoneFloor</designatorDropdown>
+		</value>  
+	</Operation>		
+		
+  <!-- ================= Polished Stone Floor ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDPolishedStoneFloorBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDPolishedStoneFloor</designatorDropdown>
+		</value>
+	</Operation>
+
+	<!-- ================= Stone Plate Floor ================= --> 	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDStonePlateFloorBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDStonePlateFloor</designatorDropdown>
+		</value>
+	</Operation>
+	
+</Patch>

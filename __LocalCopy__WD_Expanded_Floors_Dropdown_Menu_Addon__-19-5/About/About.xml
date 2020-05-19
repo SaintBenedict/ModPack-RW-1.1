@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>Wemd.ExpFloorsDropdownMenuAddon</packageId>
+	<name>[WD] Expanded Floors (Dropdown Menu Addon)</name>
+	<description>Addon which returns dropdown menus from 1.0 version for the floors. 
+Attention! Must be installed after "[WD] Expanded Floors" mod. \n\nUpdated: 08.04.2020</description>
+	<author>Wemd</author>
+    <supportedVersions>
+    <li>1.1</li>
+    <li>1.0</li>
+    </supportedVersions>
+</ModMetaData>

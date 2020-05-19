@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[@Name = "CarpetFineBase"]</xpath>
+			<value>
+				<designatorDropdown>Floor_WDFineCarpet</designatorDropdown>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

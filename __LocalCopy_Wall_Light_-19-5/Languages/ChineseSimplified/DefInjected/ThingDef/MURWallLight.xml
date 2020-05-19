@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Lighting_MURWallLight.label>壁灯</Lighting_MURWallLight.label>
+	<Lighting_MURWallLight.description>安装在墙上的灯.</Lighting_MURWallLight.description>
+
+	<Lighting_MURWallLightRed.label>壁灯(红)</Lighting_MURWallLightRed.label>
+	<Lighting_MURWallLightRed.description>安装在墙上的灯.产生红光.</Lighting_MURWallLightRed.description>
+
+	<Lighting_MURWallLightGreen.label>壁灯(绿)</Lighting_MURWallLightGreen.label>
+	<Lighting_MURWallLightGreen.description>安装在墙上的灯.产生绿光.</Lighting_MURWallLightGreen.description>
+
+	<Lighting_MURWallLightBlue.label>壁灯(蓝)</Lighting_MURWallLightBlue.label>
+	<Lighting_MURWallLightBlue.description>安装在墙上的灯.产生蓝光.</Lighting_MURWallLightBlue.description>
+	
+</LanguageData>

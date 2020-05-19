@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLight.label>Candeeiro de Parede (VELHO)</Lighting_MURWallLight.label>
+  <Lighting_MURWallLight.description>Um candeeiro feito para ser montada numa parede.</Lighting_MURWallLight.description>
+  <Blueprint_Install_Lighting_MURWallLight.label>Candeeiro (velho). Mova.</Blueprint_Install_Lighting_MURWallLight.label>
+
+  <Lighting_MURWallLightRed.label>Candeeiro Vermelho (VELHO)</Lighting_MURWallLightRed.label>
+  <Lighting_MURWallLightRed.description>Um candeeiro feito para ser montada numa parede, de cor vermelha.</Lighting_MURWallLightRed.description>
+  <Blueprint_Install_Lighting_MURWallLightRed.label>Candeeiro vermelho (velho). Mova.</Blueprint_Install_Lighting_MURWallLightRed.label>
+
+  <Lighting_MURWallLightGreen.label>Candeeiro Verde (VELHO)</Lighting_MURWallLightGreen.label>
+  <Lighting_MURWallLightGreen.description>Um candeeiro feito para ser montada numa parede, de cor verde.</Lighting_MURWallLightGreen.description>
+  <Blueprint_Install_Lighting_MURWallLightGreen.label>Candeeiro verde (velho). Mova.</Blueprint_Install_Lighting_MURWallLightGreen.label>
+
+  <Lighting_MURWallLightBlue.label>Candeeiro Azul (VELHO)</Lighting_MURWallLightBlue.label>
+  <Lighting_MURWallLightBlue.description>Um candeeiro feito para ser montada numa parede, de cor azul.</Lighting_MURWallLightBlue.description>
+  <Blueprint_Install_Lighting_MURWallLightBlue.label>Candeeiro azul (velho). Mova.</Blueprint_Install_Lighting_MURWallLightBlue.label>
+
+</LanguageData>

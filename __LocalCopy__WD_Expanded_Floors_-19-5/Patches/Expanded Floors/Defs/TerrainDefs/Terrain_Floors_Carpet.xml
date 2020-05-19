@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Removes fine carpets based on a def from Royalty to prevent errors 
+  when Royalty is not installed -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+		<operations>				
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineCream"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineYellow"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineOrange"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineBrown"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFinePink"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "CarpetFineBurgundy"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "CarpetFineIndigo"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFinePurple"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineBlue"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineSkyBlue"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineLightGreen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineGreen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "CarpetFineWhite"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineGrey"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineDark"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">		
+				<xpath>/Defs/TerrainDef[defName = "WDCarpetFineBlack"]</xpath>
+			</li>
+		</operations>		
+		</nomatch>
+	</Operation>  
+	
+</Patch>
+

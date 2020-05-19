@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<HairDef>
+    <label>GL longA</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongA</texPath>
+    <defName>longA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+ <HairDef>
+    <label>GL longB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongB</texPath>
+    <defName>longB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL longC</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongC</texPath>
+    <defName>longC</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL longD</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongD</texPath>
+    <defName>longD</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL longE</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongE</texPath>
+    <defName>longE</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL longF</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/LongF</texPath>
+    <defName>longF</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL Middle Cut</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/middlA</texPath>
+    <defName>middleeA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+  <HairDef>
+    <label>GL Middle CutB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/middlB</texPath>
+    <defName>middleeB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL Wave longA</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/WavelongA</texPath>
+    <defName>WavelongA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+ <HairDef>
+    <label>GL Wave longB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/WavelongB</texPath>
+    <defName>WavelongB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL ponyA</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/ponyA</texPath>
+    <defName>ponyA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL ponyB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/ponyB</texPath>
+    <defName>ponyB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL ponyC</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/ponyC</texPath>
+    <defName>ponyC</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL Side ponyA</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/side_ponyA</texPath>
+    <defName>side_ponyA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL Side ponyB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/side_ponyB</texPath>
+    <defName>side_ponyB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL Twin tailA</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinA</texPath>
+    <defName>twinA</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL Twin tailB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinB</texPath>
+    <defName>twinB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL Twin tailC</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinC</texPath>
+    <defName>twinC</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+ <HairDef>
+    <label>GL Twin tailD</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinD</texPath>
+    <defName>tailD</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+ <HairDef>
+    <label>GL Twin tailE</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinE</texPath>
+    <defName>tailE</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+ <HairDef>
+    <label>GL Twin tailF</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/twinF</texPath>
+    <defName>tailF</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL Braided BunB</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/BraidedB</texPath>
+    <defName>BraidedB</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef>
+<HairDef>
+    <label>GL Side tail</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/side_tail</texPath>
+    <defName>side_tail</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL all back1</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/allback</texPath>
+    <defName>allback1</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL all back2</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/allback2</texPath>
+    <defName>allback2</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL all back3</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/allback3</texPath>
+    <defName>allback3</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL loss</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/loss</texPath>
+    <defName>loss</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL loss2</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/loss2</texPath>
+    <defName>loss2</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL wolf cut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/wolf</texPath>
+    <defName>wlof</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL wolf cut2</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/wolf2</texPath>
+    <defName>wlof2</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+<HairDef>
+    <label>GL dandy cut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hair/dandy</texPath>
+    <defName>dandy</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </HairDef> 
+</Defs>

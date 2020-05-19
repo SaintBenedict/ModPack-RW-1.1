@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDStrawFloor</defName>
+    <label>straw floor</label>
+    <renderPrecedence>360</renderPrecedence>
+    <description>Ground covered with straw</description>
+    <texturePath>Terrain/Surfaces/Misc/StrawFloor</texturePath>
+    <edgeType>FadeRough</edgeType>		
+	<burnedDef>WDBurnedStrawFloor</burnedDef>	
+    <statBases>
+      <WorkToBuild>60</WorkToBuild>
+	  <Flammability>1</Flammability>	  
+    </statBases>
+    <costList>
+      <Hay>8</Hay>
+    </costList>
+    <constructEffect>ConstructDirt</constructEffect>
+  </TerrainDef>   
+  
+  <TerrainDef>
+    <defName>WDPackedDirtFloor</defName>
+    <label>packed dirt</label>
+    <layerable>true</layerable>	
+    <description>Simple smoothened dirt. Looks better and less dirty than normal soil.</description>		
+    <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>360</renderPrecedence>
+    <pathCost>1</pathCost>	
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <WorkToBuild>180</WorkToBuild>	  
+      <Cleanliness>-0.5</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>	  
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+	<!--generatedFilth>Filth_Dirt</generatedFilth-->
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>		
+  </TerrainDef>  
+  
+  <!-- ================= Jade ================= -->   
+  
+  <TerrainDef Name="WDJadeFloorBase" ParentName="FloorBase" Abstract="True">
+    <renderPrecedence>271</renderPrecedence>
+    <color>(100,147,80)</color>	
+  </TerrainDef> 
+  
+	<TerrainDef ParentName="WDJadeFloorBase">
+    <defName>WDJadeTile</defName>
+    <label>jade tile</label>
+    <description>Simple tiles made of jade.</description>
+    <texturePath>Terrain/Surfaces/Misc/JadeTile</texturePath>
+    <statBases>
+      <WorkToBuild>720</WorkToBuild>
+      <Beauty>3</Beauty>	  
+    </statBases>
+    <costList>
+      <Jade>4</Jade>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>	
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDJadeFloorBase">
+    <defName>WDJadeFloor</defName>
+    <label>jade floor</label>
+    <description>Floor made of jade plates. Beautiful, but hard to build.</description>
+    <texturePath>Terrain/Surfaces/Misc/JadeFloor</texturePath>	
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>6</Beauty>	  
+    </statBases>
+    <costList>
+      <Jade>8</Jade>
+    </costList>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="WDJadeFloorBase">
+    <defName>WDSmoothJadeFloor</defName>
+    <label>smooth jade floor</label>
+    <description>Beautiful floor made of polished jade plates. Looks great, but very expensive and hard to build</description>
+    <texturePath>Terrain/Surfaces/Misc/SmoothJadeFloor</texturePath>
+    <statBases>
+      <WorkToBuild>1800</WorkToBuild>
+      <Beauty>8</Beauty>		  
+    </statBases>
+    <costList>
+      <Jade>12</Jade>
+    </costList>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>   
+    
+</Defs>

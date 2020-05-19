@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- ================= Flagstone ================= -->     
+
+	<TerrainDef Abstract="True" ParentName="FloorBase" Name="FlagstoneBase">
+		<renderPrecedence>266</renderPrecedence>
+		<description>Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways.</description>
+		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
+		<statBases>
+			<WorkToBuild>360</WorkToBuild>
+			<Beauty>0</Beauty>
+		</statBases>
+		<tags>
+			<li>Road</li>
+		</tags>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneSandstone</defName>
+		<label>sandstone flagstone</label>
+		<color>(126,104,94)</color>
+		<costList>
+			<BlocksSandstone>2</BlocksSandstone>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneGranite</defName>
+		<label>granite flagstone</label>
+		<color>(105,95,97)</color>
+		<costList>
+			<BlocksGranite>2</BlocksGranite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneLimestone</defName>
+		<label>limestone flagstone</label>
+		<color>(158,153,135)</color>
+		<costList>
+			<BlocksLimestone>2</BlocksLimestone>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneSlate</defName>
+		<label>slate flagstone</label>
+		<color>(105,105,105)</color>
+		<costList>
+			<BlocksSlate>2</BlocksSlate>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneMarble</defName>
+		<label>marble flagstone</label>
+		<color>(132,135,132)</color>
+		<costList>
+			<BlocksMarble>2</BlocksMarble>
+		</costList>
+	</TerrainDef>
+  
+  <!-- ================= Rough Stone Tile ================= -->      
+  
+  <TerrainDef Name="WDRoughStoneTileBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>267</renderPrecedence> 
+    <description>Simple stone tiles. Fast and cheap to build</description>
+    <texturePath>Terrain/Surfaces/Stone/RoughStoneTile</texturePath>
+    <statBases>
+      <WorkToBuild>480</WorkToBuild>
+    </statBases>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>	
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughSandstoneTile</defName>
+    <label>rough sandstone tile</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>2</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughGraniteTile</defName>
+    <label>rough granite tile</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>2</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughLimestoneTile</defName>
+    <label>rough limestone tile</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>2</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughSlateTile</defName>
+    <label>rough slate tile</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>2</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughMarbleTile</defName>
+    <label>rough marble tile</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>2</BlocksMarble>
+    </costList>
+  </TerrainDef>  
+ 
+  <!-- ================= Stone Tile ================= -->     
+  
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="TileStoneBase">
+    <renderPrecedence>265</renderPrecedence>
+    <description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</description>
+    <texturePath>Terrain/Surfaces/TileStone</texturePath>
+    <statBases>
+      <WorkToBuild>720</WorkToBuild>
+      <Beauty>1</Beauty>
+    </statBases>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileSandstone</defName>
+    <label>sandstone tile</label>
+    <color>(126,104,94)</color>
+    <costList>
+      <BlocksSandstone>4</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileGranite</defName>
+    <label>granite tile</label>
+    <color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>4</BlocksGranite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileLimestone</defName>
+    <label>limestone tile</label>
+    <color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>4</BlocksLimestone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileSlate</defName>
+    <label>slate tile</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>4</BlocksSlate>
+  </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileMarble</defName>
+    <label>marble tile</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>4</BlocksMarble>
+    </costList>
+  </TerrainDef>   
+ 
+  <!-- ================= Stone tile ================= --> 
+  
+  <TerrainDef Name="WDStoneTileBase" ParentName="FloorBase"  Abstract="True">
+    <renderPrecedence>268</renderPrecedence> 
+    <description>Floor made of smooth stone tiles.</description>
+    <texturePath>Terrain/Surfaces/Stone/StoneTile</texturePath>
+    <statBases>
+      <WorkToBuild>720</WorkToBuild>
+      <Beauty>1</Beauty>	  
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>	
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDSandstoneTile</defName>
+    <label>sandstone tile</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>4</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDGraniteTile</defName>
+    <label>granite tile</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>4</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDLimestoneTile</defName>
+    <label>limestone tile</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>4</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDSlateTile</defName>
+    <label>slate tile</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>4</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDMarbleTile</defName>
+    <label>marble tile</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>4</BlocksMarble>
+    </costList>
+  </TerrainDef>    
+  
+  <!-- ================= Check stone tile ================= --> 
+  
+  <TerrainDef Name="WDCheckStoneTileBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>269</renderPrecedence> 
+    <description>Checked smooth stone tiles.</description>
+    <texturePath>Terrain/Surfaces/Stone/CheckStoneTile</texturePath>
+    <statBases>
+      <WorkToBuild>840</WorkToBuild>
+      <Beauty>1</Beauty>	  
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>	
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckSandstoneTile</defName>
+    <label>check sandstone tile</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>4</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckGraniteTile</defName>
+    <label>check granite tile</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>4</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckLimestoneTile</defName>
+    <label>check limestone tile</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>4</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckSlateTile</defName>
+    <label>check slate tile</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>4</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckMarbleTile</defName>
+    <label>check marble tile</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>4</BlocksMarble>
+    </costList>
+  </TerrainDef>
+   
+<!-- ================= Mosaic Stone Floor ================= --> 
+  
+  <TerrainDef Name="WDMosaicStoneFloorBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>270</renderPrecedence> 
+    <description>Beautiful mosaic floor made of stone bricks.</description>
+    <texturePath>Terrain/Surfaces/Stone/MosaicStoneFloor</texturePath>
+    <statBases>
+      <WorkToBuild>1020</WorkToBuild>
+      <Beauty>2</Beauty>	  
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>		
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicSandstoneFloor</defName>
+    <label>mosaic sandstone floor</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>5</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicGraniteFloor</defName>
+    <label>mosaic granite floor</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>5</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicLimestoneFloor</defName>
+    <label>mosaic limestone floor</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>5</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicSlateFloor</defName>
+    <label>mosaic slate floor</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>5</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicMarbleFloor</defName>
+    <label>mosaic marble floor</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>5</BlocksMarble>
+    </costList>
+  </TerrainDef>
+  
+  <!-- ================= Check Stone Floor ================= --> 
+  
+  <TerrainDef Name="WDCheckStoneFloorBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>270</renderPrecedence> 
+    <description>Beautiful check floor made of stone bricks.</description>
+    <texturePath>Terrain/Surfaces/Stone/CheckStoneFloor</texturePath>
+    <statBases>
+      <WorkToBuild>1020</WorkToBuild>
+      <Beauty>2</Beauty>	  
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckSandstoneFloor</defName>
+    <label>check sandstone floor</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>5</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckGraniteFloor</defName>
+    <label>check granite floor</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>5</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckLimestoneFloor</defName>
+    <label>check limestone floor</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>5</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckSlateFloor</defName>
+    <label>check slate floor</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>5</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckMarbleFloor</defName>
+    <label>check marble floor</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>5</BlocksMarble>
+    </costList>
+  </TerrainDef>
+  
+  <!-- ================= Polished Stone Floor ================= --> 
+  
+  <TerrainDef Name="WDPolishedStoneFloorBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>271</renderPrecedence> 
+    <description>Beautiful floor made of polished stone.</description>
+    <texturePath>Terrain/Surfaces/Stone/PolishedStoneFloor</texturePath>
+    <statBases>
+      <WorkToBuild>1400</WorkToBuild>
+      <Beauty>3</Beauty>	
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedSandstoneFloor</defName>
+    <label>polished sandstone floor</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>6</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedGraniteFloor</defName>
+    <label>polished granite floor</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>6</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedLimestoneFloor</defName>
+    <label>polished limestone floor</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>6</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedSlateFloor</defName>
+    <label>polished slate floor</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>6</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedMarbleFloor</defName>
+    <label>polished marble floor</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>6</BlocksMarble>
+    </costList>
+  </TerrainDef> 
+
+  <!-- ================= Stone Plate Floor ================= --> 
+  
+  <TerrainDef Name="WDStonePlateFloorBase" ParentName="FloorBase" Abstract="True" >
+    <renderPrecedence>271</renderPrecedence> 
+    <description>Beautiful floor made of stone plates.</description>
+    <texturePath>Terrain/Surfaces/Stone/StonePlateFloor</texturePath>
+    <statBases>
+      <WorkToBuild>1400</WorkToBuild>
+      <Beauty>3</Beauty>	  
+    </statBases>	
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDSandstonePlateFloor</defName>
+    <label>sandstone plate floor</label>
+	<color>(126,104,94)</color>	
+    <costList>
+      <BlocksSandstone>6</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDGranitePlateFloor</defName>
+    <label>granite plate floor</label>
+	<color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>6</BlocksGranite>
+    </costList>
+  </TerrainDef>   
+
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDLimestonePlateFloor</defName>
+    <label>limestone plate floor</label>
+	<color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>6</BlocksLimestone>
+    </costList>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDSlatePlateFloor</defName>
+    <label>slate plate floor</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>6</BlocksSlate>
+    </costList>
+  </TerrainDef> 
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDMarblePlateFloor</defName>
+    <label>marble plate floor</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>6</BlocksMarble>
+    </costList>
+  </TerrainDef>
+  
+  <!-- ================= Fine Tile ================= -->     
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSandstone</defName>
+    <label>fine sandstone tile</label>
+    <color>(126,104,94)</color>
+    <costList>
+      <BlocksSandstone>8</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileGranite</defName>
+    <label>fine granite tile</label>
+    <color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>8</BlocksGranite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLimestone</defName>
+    <label>fine limestone tile</label>
+    <color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>8</BlocksLimestone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSlate</defName>
+    <label>fine slate tile</label>
+    <color>(100,100,100)</color>
+    <costList>
+      <BlocksSlate>8</BlocksSlate>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileMarble</defName>
+    <label>fine marble tile</label>
+    <color>(132,135,132)</color>
+    <costList>
+      <BlocksMarble>8</BlocksMarble>
+    </costList>
+  </TerrainDef>  
+    
+</Defs>

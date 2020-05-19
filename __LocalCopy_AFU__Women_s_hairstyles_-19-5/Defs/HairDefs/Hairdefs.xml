@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<HairDef>
+    <label>AFUf01</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf01</texPath>
+    <defName>AFUhairF01</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf02</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf02</texPath>
+    <defName>AFUhairF02</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf03</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf03</texPath>
+    <defName>AFUhairF03</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf04</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf04</texPath>
+    <defName>AFUhairF04</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf05</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf05</texPath>
+    <defName>AFUhairF05</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf06</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf06</texPath>
+    <defName>AFUhairF06</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf07</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf07</texPath>
+    <defName>AFUhairF07</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf08</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf08</texPath>
+    <defName>AFUhairF08</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf09</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf09</texPath>
+    <defName>AFUhairF09</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf10</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf10</texPath>
+    <defName>AFUhairF10</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf11</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf11</texPath>
+    <defName>AFUhairF11</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf12</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf12</texPath>
+    <defName>AFUhairF12</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf13</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf13</texPath>
+    <defName>AFUhairF13</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf14</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf14</texPath>
+    <defName>AFUhairF14</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf15</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf15</texPath>
+    <defName>AFUhairF15</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf16</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf16</texPath>
+    <defName>AFUhairF16</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf17</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf17</texPath>
+    <defName>AFUhairF17</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf18</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf18</texPath>
+    <defName>AFUhairF18</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf19</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf19</texPath>
+    <defName>AFUhairF19</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf20</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf20</texPath>
+    <defName>AFUhairF20</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf21</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf21</texPath>
+    <defName>AFUhairF21</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf22</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf22</texPath>
+    <defName>AFUhairF22</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf23</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf23</texPath>
+    <defName>AFUhairF23</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf24</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf24</texPath>
+    <defName>AFUhairF24</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf25</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf25</texPath>
+    <defName>AFUhairF25</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf26</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf26</texPath>
+    <defName>AFUhairF26</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf27</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf27</texPath>
+    <defName>AFUhairF27</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf28</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf28</texPath>
+    <defName>AFUhairF28</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf29</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf29</texPath>
+    <defName>AFUhairF29</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+<HairDef>
+    <label>AFUf30</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/AFUf30</texPath>
+    <defName>AFUhairF30</defName>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+</HairDef>
+</Defs>

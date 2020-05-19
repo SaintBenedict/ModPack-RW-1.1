@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[SS]Lovely Hair Style</name>
+  <author>BJInternetSupervision</author>
+  <packageId>LingLuo.LovelyHairStyle</packageId>
+  <supportedVersions>
+	<li>1.1</li>
+	<li>1.0</li>
+  </supportedVersions>
+  <description>Adding lovely hair styles.</description>
+</ModMetaData>

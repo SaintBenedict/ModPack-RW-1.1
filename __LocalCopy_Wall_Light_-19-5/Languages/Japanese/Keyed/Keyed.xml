@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MURWallLight>壁灯</MURWallLight>
+  <MURWallLight_LightRadName>照明範囲</MURWallLight_LightRadName>
+  <MURWallLight_LightRadDesc>光源から光が届く距離(セル)です。初期値：8</MURWallLight_LightRadDesc>
+  <MURWallLight_SteelCostName>必要スチール</MURWallLight_SteelCostName>
+  <MURWallLight_SteelCostDesc>1つの照明を建設するのに必要なスチールの量です。初期値：5</MURWallLight_SteelCostDesc>
+  <MURWallLight_PowerCostName>消費電力</MURWallLight_PowerCostName>
+  <MURWallLight_PowerCostDesc>1つの照明が消費する電力量(W)です。初期値：10</MURWallLight_PowerCostDesc>
+  <MURWallLight_ShowRadiusName>照明範囲表示(実験中)</MURWallLight_ShowRadiusName>
+  <MURWallLight_ShowRadiusDesc>点灯する照明の周囲に大まかな照明範囲を表示します。実験中の機能：現在は照明範囲の初期値を8固定でのみ動作します。</MURWallLight_ShowRadiusDesc>
+
+  <MURWallLight_WarningNeedWall>壁に重ねて設置しなければなりません。</MURWallLight_WarningNeedWall>
+  <MURWallLight_WarningBlocked>通行可能な床に面している必要があります。</MURWallLight_WarningBlocked>
+  <MURWallLight_WarningBoth>通行可能な床に面している壁に重ねて設置する必要があります。</MURWallLight_WarningBoth>
+
+  <MURWallLight_AlertDisableRadius>現在、照明範囲表示は照明範囲の初期設定が8固定でのみ動作します。</MURWallLight_AlertDisableRadius>
+  <MURWallLight_AlertReload>変更を有効化するには、ゲームをセーブしてから再度ロードしてください。</MURWallLight_AlertReload>
+
+  <MURWallLight_DestroyedBlocked>建設によって照明が破壊された。</MURWallLight_DestroyedBlocked>
+  <MURWallLight_DestroyedWall>壁が壊れたので照明が破壊された。</MURWallLight_DestroyedWall>
+
+</LanguageData>

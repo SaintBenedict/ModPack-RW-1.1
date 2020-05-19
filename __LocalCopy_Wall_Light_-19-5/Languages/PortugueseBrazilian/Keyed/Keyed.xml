@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MURWallLight>Luminária de Parede</MURWallLight>
+	<MURWallLight_LightRadName>Raio de Iluminação</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>O quão longe a luz irradia da fonte. Padrão: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Custo de Aço</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>Quanto aço uma única luminária custa para construir. Padrão: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Custo Energético</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>Quanta energia uma única luminária consome. Padrão: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Mostrar Área Iluminada (EXPERIMENTAL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Mostrar área aproximada ao redor das lâmpadas que será iluminada. EXPERIMENTAL: Atualmente funciona apenas com o raio de iluminação padrão de 8.</MURWallLight_ShowRadiusDesc>
+	
+	<MURWallLight_WarningNeedWall>Deve ser colocada sobre uma parede.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Deve estar de frente para um ladrilho passável.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Deve ser colocada sobre uma parede, de frente para um ladrilho passável.</MURWallLight_WarningBoth>
+	
+	<MURWallLight_AlertDisableRadius>Mostrar Área Iluminada atualmente só funciona com o raio de iluminação padrão de 8. Desabilitando.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Por favor salve e carregue o jogo para que as mudanças tenham efeito.</MURWallLight_AlertReload>
+	
+	<MURWallLight_DestroyedBlocked>Luminária destruída por construção.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Luminária destruída por destruição da parede.</MURWallLight_DestroyedWall>
+</LanguageData>

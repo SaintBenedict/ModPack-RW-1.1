@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MURWallLight>Candeeiro de Parede</MURWallLight>
+	<MURWallLight_LightRadName>Raio de Iluminação</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>Distância que a luz irradia da fonte. Padrão: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Custo em Aço</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>Custo em aço para construir um único candeeiro. Padrão: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Custo Energético</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>Energia consumida por um único candeeiro. Padrão: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Mostrar Região Iluminada (EXPERIMENTAL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Mostrar região aproximada ao redor dos candeeiros que será iluminada. EXPERIMENTAL: Atualmente funciona apenas com o raio de iluminação padrão de 8.</MURWallLight_ShowRadiusDesc>
+	
+	<MURWallLight_WarningNeedWall>Deve ser colocado numa parede.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Deve estar de frente para um ladrilho caminhável.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Deve ser colocado numa parede, de frente para um ladrilho caminhável.</MURWallLight_WarningBoth>
+	
+	<MURWallLight_AlertDisableRadius>Mostrar Região Iluminada, de momento, só funciona com o raio de iluminação padrão de 8. Desativando.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Por favor guarda e volta a carregar para que as alterações tenham efeito.</MURWallLight_AlertReload>
+	
+	<MURWallLight_DestroyedBlocked>Candeeiro destruído por construção.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Candeeiro destruído por destruição da parede.</MURWallLight_DestroyedWall>
+</LanguageData>

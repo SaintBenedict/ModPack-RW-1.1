@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Lighting_MURWallLightVII.label>Wandleuchte</Lighting_MURWallLightVII.label>
+	<Lighting_MURWallLightVII.description>Eine Lampe, die an der Wand montiert wird.</Lighting_MURWallLightVII.description>
+
+	<Lighting_MURWallLightRedVII.label>Wandleuchte (rot)</Lighting_MURWallLightRedVII.label>
+	<Lighting_MURWallLightRedVII.description>Eine Lampe, die an der Wand montiert wird. Erzeugt rotes Licht.</Lighting_MURWallLightRedVII.description>
+
+	<Lighting_MURWallLightGreenVII.label>Wandleuchte (grün)</Lighting_MURWallLightGreenVII.label>
+	<Lighting_MURWallLightGreenVII.description>Eine Lampe, die an der Wand montiert wird. Erzeugt grünes Licht.</Lighting_MURWallLightGreenVII.description>
+
+	<Lighting_MURWallLightBlueVII.label>Wandleuchte (blau)</Lighting_MURWallLightBlueVII.label>
+	<Lighting_MURWallLightBlueVII.description>Eine Lampe, die an der Wand montiert wird. Erzeugt blaues Licht.</Lighting_MURWallLightBlueVII.description>
+
+	<Lighting_MURWallLightVII_Glower.label>Wandleuchte</Lighting_MURWallLightVII_Glower.label>
+	<Lighting_MURWallLightVII_Glower.description>Eine Lampe, die an der Wand montiert wird.</Lighting_MURWallLightVII_Glower.description>
+
+	<Lighting_MURWallLightVII_GlowerRed.label>Wandleuchte (rot)</Lighting_MURWallLightVII_GlowerRed.label>
+	<Lighting_MURWallLightVII_GlowerRed.description>Eine Lampe, die an der Wand montiert wird. Erzeugt rotes Licht.</Lighting_MURWallLightVII_GlowerRed.description>
+
+	<Lighting_MURWallLightVII_GlowerGreen.label>Wandleuchte (grün)</Lighting_MURWallLightVII_GlowerGreen.label>
+	<Lighting_MURWallLightVII_GlowerGreen.description>Eine Lampe, die an der Wand montiert wird. Erzeugt grünes Licht.</Lighting_MURWallLightVII_GlowerGreen.description>
+
+	<Lighting_MURWallLightVII_GlowerBlue.label>Wandleuchte (blau)</Lighting_MURWallLightVII_GlowerBlue.label>
+	<Lighting_MURWallLightVII_GlowerBlue.description>Eine Lampe, die an der Wand montiert wird. Erzeugt blaues Licht.</Lighting_MURWallLightVII_GlowerBlue.description>
+</LanguageData>

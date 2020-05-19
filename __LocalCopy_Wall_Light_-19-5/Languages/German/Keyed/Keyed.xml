@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MURWallLight>Wandleuchte</MURWallLight>
+	<MURWallLight_LightRadName>Lichtradius</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>Legt fest, wie weit das Licht ausgestrahlt wird. Standard: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Stahlkosten</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>Legt fest, wie viel Stahl für den Bau einer Wandleuchte benötigt wird. Standard: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Benötigte Leistung</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>Legt fest, wie viel Leistung für das Betreiben einer Wandleuchte benötigt wird. Standard: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Beleuchteten Bereich anzeigen (EXPERIMENTELL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Zeigt den ungefähren Bereich an, welcher durch die Lampen beleuchtet wird. EXPERIMENTELL: Funktioniert derzeit nur mit dem Standardlichtradius von 8.</MURWallLight_ShowRadiusDesc>
+
+	<MURWallLight_WarningNeedWall>Muss an einer Wand platziert werden.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Muss einem begehbaren Bereich zugewandt sein.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Muss an einer Wand platziert werden, die einem begehbaren Bereich zugewandt ist.</MURWallLight_WarningBoth>
+
+	<MURWallLight_AlertDisableRadius>Die Darstellung des beleuchteten Bereichs funktioniert derzeit nur mit dem Standardlichtradius von 8. Wird deaktiviert.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Bitte speichere das Spiel und lade es erneut, damit die Änderungen wirksam werden.</MURWallLight_AlertReload>
+
+	<MURWallLight_DestroyedBlocked>Eine Lampe wurde durch eine andere Konstruktion zerstört.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Eine Lampe wurde durch die Dekonstruktion einer Wand zerstört.</MURWallLight_DestroyedWall>
+</LanguageData>

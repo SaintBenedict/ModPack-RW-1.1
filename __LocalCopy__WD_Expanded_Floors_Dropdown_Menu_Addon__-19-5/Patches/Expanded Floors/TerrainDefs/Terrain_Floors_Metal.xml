@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- ================= Metal Tiles ================= -->   
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "MetalTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalTiles</designatorDropdown>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "SilverTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalTiles</designatorDropdown>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "GoldTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalTiles</designatorDropdown>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WDPlasteelTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalTiles</designatorDropdown>
+		</value>
+	</Operation>	
+
+	<!-- ================= Metal Tiles ================= -->   
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WDMetalCheckTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalCheckTiles</designatorDropdown>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WDSilverCheckTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalCheckTiles</designatorDropdown>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WDGoldCheckTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalCheckTiles</designatorDropdown>
+		</value>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WDPlasteelCheckTile"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDMetalCheckTiles</designatorDropdown>
+		</value>
+	</Operation>	
+
+</Patch>  

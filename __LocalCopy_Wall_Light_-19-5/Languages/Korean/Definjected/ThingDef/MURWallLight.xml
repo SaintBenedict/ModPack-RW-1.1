@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLight.label>벽등 (오래된)</Lighting_MURWallLight.label>
+  <Lighting_MURWallLight.description>벽에 부착하도록 디자인된 조명입니다.</Lighting_MURWallLight.description>
+
+  <Lighting_MURWallLightRed.label>빨간 벽등 (오래된)</Lighting_MURWallLightRed.label>
+  <Lighting_MURWallLightRed.description>벽에 부착하도록 디자인된 조명이며 빨간색을 빛춥니다.</Lighting_MURWallLightRed.description>
+
+  <Lighting_MURWallLightGreen.label>녹색 벽등 (오래된)</Lighting_MURWallLightGreen.label>
+  <Lighting_MURWallLightGreen.description>벽에 부착하도록 디자인된 조명이며 초록색을 빛춥니다.</Lighting_MURWallLightGreen.description>
+
+  <Lighting_MURWallLightBlue.label>파랑 벽등 (오래된)</Lighting_MURWallLightBlue.label>
+  <Lighting_MURWallLightBlue.description>벽에 부착하도록 디자인된 조명이며 파란색을 빛춥니다.</Lighting_MURWallLightBlue.description>
+
+</LanguageData>

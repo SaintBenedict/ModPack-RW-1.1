@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <!-- ================= Carpets ================= -->
+  
+  <TerrainDef Name="CarpetBase" ParentName="FloorBase" Abstract="True">
+    <texturePath>Terrain/Surfaces/Carpet</texturePath>
+    <researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <costList>
+      <Cloth>8</Cloth>
+    </costList>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>CarpetCream</defName>
+    <label>cream carpet</label>
+    <renderPrecedence>165</renderPrecedence>
+    <description>Inviting cream-colored carpet.</description>
+    <color>(195,192,176)</color>
+    <designationHotKey>Misc11</designationHotKey>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetYellow</defName>
+    <label>yellow carpet</label>
+    <renderPrecedence>166</renderPrecedence>
+    <description>Yellow carpet.</description>
+    <color>(203,167,104)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetOrange</defName>
+    <label>orange carpet</label>
+    <renderPrecedence>167</renderPrecedence>
+    <description>Orange carpet.</description>
+    <color>(175,121,78)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetBrown</defName>
+    <label>brown carpet</label>
+    <renderPrecedence>168</renderPrecedence>
+    <description>Brown carpet.</description>
+    <color>(124,82,59)</color>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetPink</defName>
+    <label>pink carpet</label>
+    <renderPrecedence>169</renderPrecedence>
+    <description>Pink carpet.</description>
+    <color>(168,99,99)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>CarpetRed</defName>
+    <label>red carpet</label>
+    <renderPrecedence>170</renderPrecedence>
+    <description>Plush carpet in a lovely rose hue.</description>
+    <color>(118,49,57)</color>
+    <designationHotKey>Misc8</designationHotKey>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetIndigo</defName>
+    <label>indigo carpet</label>
+    <renderPrecedence>180</renderPrecedence>	
+    <description>Indigo carpet.</description>		
+    <color>(150,88,150)</color>
+  </TerrainDef>   
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetPurple</defName>
+    <label>purple carpet</label>
+    <renderPrecedence>181</renderPrecedence>
+    <description>Purple carpet.</description>
+    <color>(95,60,112)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>CarpetBlue</defName>
+    <label>blue carpet</label>
+    <renderPrecedence>182</renderPrecedence>
+    <description>Toe-hugging plush carpet in a cool blue color.</description>
+    <color>(24,65,121)</color>
+    <designationHotKey>Misc10</designationHotKey>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetSkyBlue</defName>
+    <label>sky blue carpet</label>
+    <renderPrecedence>183</renderPrecedence>	
+    <description>Sky blue carpet.</description>	
+    <color>(109,137,165)</color>
+  </TerrainDef>   
+ 
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetLightGreen</defName>
+    <label>light green carpet</label>
+    <renderPrecedence>184</renderPrecedence>	
+    <description>Light green carpet.</description>	
+    <color>(106,138,77)</color>
+  </TerrainDef>       
+
+  <TerrainDef ParentName="CarpetBase">
+    <defName>CarpetGreen</defName>
+    <label>green carpet</label>
+    <renderPrecedence>185</renderPrecedence>
+    <description>Naturalistic-feeling green carpet. Earth tones, dude.</description>
+    <color>(89,105,62)</color>
+    <designationHotKey>Misc9</designationHotKey>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetWhite</defName>
+    <label>white carpet</label>
+    <renderPrecedence>186</renderPrecedence>
+    <description>White carpet.</description>	
+    <color>(220,220,220)</color>
+  </TerrainDef>  
+  
+    <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetGrey</defName>
+    <label>grey carpet</label>
+    <renderPrecedence>187</renderPrecedence>
+    <description>Grey carpet.</description>	
+    <color>(144,144,144)</color>
+  </TerrainDef>    
+  
+  <TerrainDef ParentName="CarpetBase">
+    <defName>CarpetDark</defName>
+    <label>dark carpet</label>
+    <renderPrecedence>188</renderPrecedence>
+    <description>Professional-looking dark gray carpet.</description>
+    <color>(81,81,81)</color>
+    <designationHotKey>Misc12</designationHotKey>
+  </TerrainDef>   
+  
+    <TerrainDef ParentName="CarpetBase">
+    <defName>WDCarpetBlack</defName>
+    <label>black carpet</label>
+    <renderPrecedence>189</renderPrecedence>
+    <description>Black carpet.</description>	
+    <color>(52,52,52)</color>
+  </TerrainDef>  
+
+  <!-- ================= Check Carpets ================= -->    
+	
+  <TerrainDef Name="WDCheckCarpetBase" ParentName="FloorBase" Abstract="True">
+    <texturePath>Terrain/Surfaces/Carpet/CheckCarpet</texturePath>
+    <researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <costList>
+      <Cloth>12</Cloth>
+    </costList>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>1080</WorkToBuild>
+    </statBases>
+	<tags>
+		<li>FineFloor</li>
+	</tags>		
+  </TerrainDef>	
+ 
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetCream</defName>
+    <label>check cream carpet</label>
+    <renderPrecedence>190</renderPrecedence>	
+    <description>Check cream carpet.</description>		
+    <color>(195,192,176)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetYellow</defName>
+    <label>check yellow carpet</label>
+    <renderPrecedence>191</renderPrecedence>	
+    <description>Check yellow carpet.</description>		
+    <color>(203,167,104)</color>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetOrange</defName>
+    <label>check orange carpet</label>
+    <renderPrecedence>192</renderPrecedence>	
+    <description>Check orange carpet.</description>		
+	<color>(175,121,78)</color>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetBrown</defName>
+    <label>check brown carpet</label>
+    <renderPrecedence>193</renderPrecedence>	
+    <description>Check brown carpet.</description>		
+	<color>(124,82,59)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetPink</defName>
+    <label>check pink carpet</label>
+    <renderPrecedence>175</renderPrecedence>	
+    <description>Check pink carpet.</description>		
+    <color>(168,99,99)</color>
+  </TerrainDef>       
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetRed</defName>
+    <label>check red carpet</label>
+    <renderPrecedence>194</renderPrecedence>	
+    <description>Check red carpet.</description>		
+    <color>(118,49,57)</color>
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetIndigo</defName>
+    <label>check indigo carpet</label>
+    <renderPrecedence>195</renderPrecedence>	
+    <description>Check indigo carpet.</description>		
+    <color>(150,88,150)</color>
+  </TerrainDef> 
+
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetPurple</defName>
+    <label>check purple carpet</label>
+    <renderPrecedence>196</renderPrecedence>	
+    <description>Check purple carpet.</description>		
+    <color>(95,60,112)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetBlue</defName>
+    <label>check blue carpet</label>
+    <renderPrecedence>197</renderPrecedence>	
+    <description>Check blue carpet.</description>		
+    <color>(24,65,121)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetSkyBlue</defName>
+    <label>check sky blue carpet</label>
+    <renderPrecedence>198</renderPrecedence>	
+    <description>Check sky blue carpet.</description>		
+    <color>(109,137,165)</color>
+  </TerrainDef>   
+  
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetLightGreen</defName>
+    <label>check light green carpet</label>
+    <renderPrecedence>199</renderPrecedence>	
+    <description>Check light green carpet.</description>		
+    <color>(106,138,77)</color>
+  </TerrainDef>    
+
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetGreen</defName>
+    <label>check green carpet</label>
+    <renderPrecedence>200</renderPrecedence>	
+    <description>Check green carpet.</description>		
+    <color>(89,105,62)</color>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetWhite</defName>
+    <label>check white carpet</label>
+    <renderPrecedence>201</renderPrecedence>	
+    <description>Check white carpet.</description>		
+    <color>(220,220,220)</color>
+  </TerrainDef>  
+ 
+    <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetGrey</defName>
+    <label>check grey carpet</label>
+    <renderPrecedence>202</renderPrecedence>	
+    <description>Check grey carpet.</description>		
+    <color>(144,144,144)</color>
+  </TerrainDef> 
+ 
+  <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetDark</defName>
+    <label>check dark carpet</label>
+    <renderPrecedence>203</renderPrecedence>
+    <description>Check dark carpet.</description>		
+    <color>(81,81,81)</color>
+  </TerrainDef>  
+ 
+    <TerrainDef ParentName="WDCheckCarpetBase">
+    <defName>WDCheckCarpetBlack</defName>
+    <label>check black carpet</label>
+    <renderPrecedence>204</renderPrecedence>	
+    <description>Check black carpet.</description>		
+    <color>(52,52,52)</color>
+  </TerrainDef>  
+
+  <!-- ================= Fine Carpets ================= -->   
+
+  <!-- Additional colors for fine carpets from Royalty. -->    
+ 
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineCream</defName>
+    <label>fine cream carpet</label>
+    <renderPrecedence>205</renderPrecedence>	
+    <description>Fine cream carpet.</description>		
+    <color>(195,192,176)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineYellow</defName>
+    <label>fine yellow carpet</label>
+    <renderPrecedence>206</renderPrecedence>	
+    <description>Fine yellow carpet.</description>		
+    <color>(203,167,104)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineOrange</defName>
+    <label>fine orange carpet</label>
+    <renderPrecedence>207</renderPrecedence>	
+    <description>Fine orange carpet.</description>		
+    <color>(175,121,78)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineBrown</defName>
+    <label>fine brown carpet</label>
+    <renderPrecedence>208</renderPrecedence>	
+    <description>Fine brown carpet.</description>		
+    <color>(124,82,59)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFinePink</defName>
+    <label>fine pink carpet</label>
+    <renderPrecedence>209</renderPrecedence>	
+    <description>fine pink carpet.</description>		
+    <color>(168,99,99)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineBurgundy</defName>
+    <label>fine red carpet</label>
+    <renderPrecedence>210</renderPrecedence>	
+    <description>Fine red carpet.</description>		
+    <color>(118,49,57)</color>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineIndigo</defName>
+    <label>fine indigo carpet</label>
+    <renderPrecedence>211</renderPrecedence>
+    <description>Soft and silky indigo carpet, for that extra sense of pomp.</description>
+    <color>(150,88,150)</color>
+    <designationHotKey>Misc9</designationHotKey>
+  </TerrainDef>  
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFinePurple</defName>
+    <label>fine purple carpet</label>
+    <renderPrecedence>212</renderPrecedence>	
+    <description>Fine purple carpet.</description>		
+    <color>(95,60,112)</color>
+  </TerrainDef> 
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineBlue</defName>
+    <label>fine blue carpet</label>
+    <renderPrecedence>213</renderPrecedence>	
+    <description>Fine blue carpet.</description>		
+    <color>(24,65,121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineSkyBlue</defName>
+    <label>fine sky blue carpet</label>
+    <renderPrecedence>214</renderPrecedence>	
+    <description>Fine sky blue carpet.</description>		
+    <color>(109,137,165)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineLightGreen</defName>
+    <label>fine light green carpet</label>
+    <renderPrecedence>215</renderPrecedence>	
+    <description>Fine light green carpet.</description>		
+    <color>(106,138,77)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineGreen</defName>
+    <label>fine green carpet</label>
+    <renderPrecedence>216</renderPrecedence>	
+    <description>Fine green carpet.</description>		
+    <color>(89,105,62)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineWhite</defName>
+    <label>fine white carpet</label>
+    <renderPrecedence>217</renderPrecedence>
+    <description>Sublime white carpet, glimmering with subtle patterns.</description>
+    <color>(220,220,220)</color>
+    <designationHotKey>Misc10</designationHotKey>
+  </TerrainDef>
+ 
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineGrey</defName>
+    <label>fine grey carpet</label>
+    <renderPrecedence>218</renderPrecedence>	
+    <description>Fine grey carpet.</description>		
+    <color>(144,144,144)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineDark</defName>
+    <label>fine dark carpet</label>
+    <renderPrecedence>219</renderPrecedence>	
+    <description>Fine dark carpet.</description>		
+    <color>(81,81,81)</color>
+  </TerrainDef> 
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>WDCarpetFineBlack</defName>
+    <label>fine black carpet</label>
+    <renderPrecedence>220</renderPrecedence>	
+    <description>Fine black carpet.</description>		
+    <color>(52,52,52)</color>
+  </TerrainDef>
+  
+</Defs>

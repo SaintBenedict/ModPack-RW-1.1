@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLightVII.label>Настенный светильник</Lighting_MURWallLightVII.label>
+  <Lighting_MURWallLightVII.description>Светильник, предназначенный для установки на стену.</Lighting_MURWallLightVII.description>
+  <Blueprint_Lighting_MURWallLightVII.label>Настенный светильник (дизайн)</Blueprint_Lighting_MURWallLightVII.label>
+  <Blueprint_Install_Lighting_MURWallLightVII.label>Настенный светильник (перемещение)</Blueprint_Install_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.label>Настенный светильник (строительство)</Frame_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.description>Светильник, предназначенный для установки на стену.</Frame_Lighting_MURWallLightVII.description>
+
+  <Lighting_MURWallLightRedVII.label>Настенный светильник (красный)</Lighting_MURWallLightRedVII.label>
+  <Lighting_MURWallLightRedVII.description>Светильник, предназначенный для установки на стену. Красный свет.</Lighting_MURWallLightRedVII.description>
+  <Blueprint_Lighting_MURWallLightRedVII.label>Настенный светильник (красный) (дизайн)</Blueprint_Lighting_MURWallLightRedVII.label>
+  <Blueprint_Install_Lighting_MURWallLightRedVII.label>Настенный светильник (красный) (перемещение)</Blueprint_Install_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.label>Настенный светильник (красный) (строительство)</Frame_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.description>Светильник, предназначенный для установки на стену. Красный свет.</Frame_Lighting_MURWallLightRedVII.description>
+
+  <Lighting_MURWallLightGreenVII.label>Настенный светильник (зеленый)</Lighting_MURWallLightGreenVII.label>
+  <Lighting_MURWallLightGreenVII.description>Светильник, предназначенный для установки на стену. Зеленый свет.</Lighting_MURWallLightGreenVII.description>
+  <Blueprint_Lighting_MURWallLightGreenVII.label>Настенный светильник (зеленый) (дизайн)</Blueprint_Lighting_MURWallLightGreenVII.label>
+  <Blueprint_Install_Lighting_MURWallLightGreenVII.label>Настенный светильник (зеленый) (перемещение)</Blueprint_Install_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.label>Настенный светильник (зеленый) (строительство)</Frame_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.description>Светильник, предназначенный для установки на стену. Зеленый свет.</Frame_Lighting_MURWallLightGreenVII.description>
+
+  <Lighting_MURWallLightBlueVII.label>Настенный светильник (синий)</Lighting_MURWallLightBlueVII.label>
+  <Lighting_MURWallLightBlueVII.description>Светильник, предназначенный для установки на стену. Синий свет.</Lighting_MURWallLightBlueVII.description>
+  <Blueprint_Lighting_MURWallLightBlueVII.label>Настенный светильник (синий) (дизайн)</Blueprint_Lighting_MURWallLightBlueVII.label>
+  <Blueprint_Install_Lighting_MURWallLightBlueVII.label>Настенный светильник (синий) (перемещение)</Blueprint_Install_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.label>Настенный светильник (синий) (строительство)</Frame_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.description>Светильник, предназначенный для установки на стену. Синий свет.</Frame_Lighting_MURWallLightBlueVII.description>
+
+  <Lighting_MURWallLightVII_Glower.label>Настенный светильник</Lighting_MURWallLightVII_Glower.label>
+  <Lighting_MURWallLightVII_Glower.description>Светильник, предназначенный для установки на стену.</Lighting_MURWallLightVII_Glower.description>
+
+  <Lighting_MURWallLightVII_GlowerRed.label>Настенный светильник (красный)</Lighting_MURWallLightVII_GlowerRed.label>
+  <Lighting_MURWallLightVII_GlowerRed.description>Светильник, предназначенный для установки на стену. Красный свет.</Lighting_MURWallLightVII_GlowerRed.description>
+
+  <Lighting_MURWallLightVII_GlowerGreen.label>Настенный светильник (зеленый)</Lighting_MURWallLightVII_GlowerGreen.label>
+  <Lighting_MURWallLightVII_GlowerGreen.description>Светильник, предназначенный для установки на стену. Зеленый свет.</Lighting_MURWallLightVII_GlowerGreen.description>
+
+  <Lighting_MURWallLightVII_GlowerBlue.label>Настенный светильник (синий)</Lighting_MURWallLightVII_GlowerBlue.label>
+  <Lighting_MURWallLightVII_GlowerBlue.description>Светильник, предназначенный для установки на стену. Синий свет.</Lighting_MURWallLightVII_GlowerBlue.description>
+
+</LanguageData>

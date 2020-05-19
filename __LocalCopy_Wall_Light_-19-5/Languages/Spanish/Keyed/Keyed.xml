@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageData>
+
+    <MURWallLight>lámpara de pared</MURWallLight>
+	<MURWallLight_LightRadName>Radio de luz</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>A qué distancia de la fuente se irradia la luz.</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Costo de acero</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>La cantidad de acero que cuesta construir una lámpara.</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Costo de energía</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>Cuánta energía consume una lámpara.</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Mostrar área iluminada (EXPERIMENTAL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Muestra el área aproximada que se iluminará. EXPERIMENTAL: actualmente sólo funciona con el radio de luz predeterminado de 8.</MURWallLight_ShowRadiusDesc>
+
+	<MURWallLight_WarningNeedWall>Debe colocarse sobre un muro.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Debe estar frente a una baldosa transitable.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Debe colocarse en un muro, frente a una baldosa transitable.</MURWallLight_WarningBoth>
+
+	<MURWallLight_AlertDisableRadius>Mostrar el área iluminada actualmente sólo funciona con la configuración predeterminada. Desactivando.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Por favor, reinicie el juego para que los cambios surtan efecto.</MURWallLight_AlertReload>
+
+	<MURWallLight_DestroyedBlocked>Luz destruida por una construcción.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Luz destruida por la destrucción del muro.</MURWallLight_DestroyedWall>
+
+</LanguageData>

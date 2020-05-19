@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLight.label>壁灯(旧式)</Lighting_MURWallLight.label>
+  <Lighting_MURWallLight.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLight.description>
+  <Blueprint_Install_Lighting_MURWallLight.label>壁灯(旧式)(移動先)</Blueprint_Install_Lighting_MURWallLight.label>
+
+  <Lighting_MURWallLightRed.label>壁灯(赤)(旧式)</Lighting_MURWallLightRed.label>
+  <Lighting_MURWallLightRed.description>壁に取り付けられるように設計された照明器具です。赤色に光ります。</Lighting_MURWallLightRed.description>
+  <Blueprint_Install_Lighting_MURWallLightRed.label>壁灯(赤)(旧式)(移動先)</Blueprint_Install_Lighting_MURWallLightRed.label>
+
+  <Lighting_MURWallLightGreen.label>壁灯(緑)(旧式)</Lighting_MURWallLightGreen.label>
+  <Lighting_MURWallLightGreen.description>壁に取り付けられるように設計された照明器具です。緑色に光ります。</Lighting_MURWallLightGreen.description>
+  <Blueprint_Install_Lighting_MURWallLightGreen.label>壁灯(緑)(旧式)(移動先)</Blueprint_Install_Lighting_MURWallLightGreen.label>
+
+  <Lighting_MURWallLightBlue.label>壁灯(青)(旧式)</Lighting_MURWallLightBlue.label>
+  <Lighting_MURWallLightBlue.description>壁に取り付けられるように設計された照明器具です。青色に光ります。</Lighting_MURWallLightBlue.description>
+  <Blueprint_Install_Lighting_MURWallLightBlue.label>壁灯(青)(旧式)(移動先)</Blueprint_Install_Lighting_MURWallLightBlue.label>
+
+</LanguageData>

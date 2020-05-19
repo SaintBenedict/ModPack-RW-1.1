@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>			
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/TerrainDef[@Name = "CarpetFineBase"]/texturePath</xpath>
+				<value>
+					<texturePath>Terrain/Surfaces/Carpet/CarpetFineMod</texturePath>
+				</value>
+			</li>			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TerrainDef[@Name = "CarpetFineBase"]/designatorDropdown</xpath>
+			</li>
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/TerrainDef[@Name = "CarpetFineBase"]/costList</xpath>
+				<value>
+					<costList>
+					  <Cloth>16</Cloth>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/TerrainDef[@Name = "CarpetFineBase"]/statBases/WorkToBuild</xpath>
+				<value>
+					<WorkToBuild>1400</WorkToBuild>
+				</value>
+			</li>	
+		</operations>		
+		</match>
+	</Operation>
+
+</Patch>

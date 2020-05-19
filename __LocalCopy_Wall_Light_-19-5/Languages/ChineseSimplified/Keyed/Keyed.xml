@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MURWallLight>壁灯</MURWallLight>
+	<MURWallLight_LightRadName>光源半径</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>光源照亮半径.默认8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>制造成本:钢铁</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>制造所需的钢铁.默认5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>所需电力</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>壁灯消耗的功率.默认10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>显示照明区域(试验性)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>显示所照亮的大致区域.试验性功能,目前仅作用于8的标准半径.</MURWallLight_ShowRadiusDesc>
+
+	<MURWallLight_WarningNeedWall>必须放在墙上.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>必须面对可访问的区域.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>必须放置在面向可访问的区域的墙壁上.</MURWallLight_WarningBoth>
+
+	<MURWallLight_AlertDisableRadius>当前照明区域的显示仅在标准照亮半径8下显示.当前已禁用.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>请保存游戏并重新启动,以使更改生效.</MURWallLight_AlertReload>
+
+	<MURWallLight_DestroyedBlocked>壁灯因建筑被破坏而毁坏了.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>壁灯因墙体被破坏而毁坏了.</MURWallLight_DestroyedWall>
+	
+</LanguageData>

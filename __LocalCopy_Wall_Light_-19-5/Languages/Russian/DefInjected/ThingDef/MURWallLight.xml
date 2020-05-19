@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLight.label>Светильник (старый)</Lighting_MURWallLight.label>
+  <Lighting_MURWallLight.description>Светильник, предназначенный для установки на стене.</Lighting_MURWallLight.description>
+  <Blueprint_Install_Lighting_MURWallLight.label>Светильник (старый). Перемещение.</Blueprint_Install_Lighting_MURWallLight.label>
+
+  <Lighting_MURWallLightRed.label>Красный светильник (старый)</Lighting_MURWallLightRed.label>
+  <Lighting_MURWallLightRed.description>Светильник, предназначенный для установки на стене. Красый свет.</Lighting_MURWallLightRed.description>
+  <Blueprint_Install_Lighting_MURWallLightRed.label>Красный светильник (старый). Перемещение.</Blueprint_Install_Lighting_MURWallLightRed.label>
+
+  <Lighting_MURWallLightGreen.label>Зеленый светильник (старый)</Lighting_MURWallLightGreen.label>
+  <Lighting_MURWallLightGreen.description>Светильник, предназначенный для установки на стене. Зеленый свет.</Lighting_MURWallLightGreen.description>
+  <Blueprint_Install_Lighting_MURWallLightGreen.label>Зеленый светильник (старый). Перемещение.</Blueprint_Install_Lighting_MURWallLightGreen.label>
+
+  <Lighting_MURWallLightBlue.label>Синий светильник (старый)</Lighting_MURWallLightBlue.label>
+  <Lighting_MURWallLightBlue.description>Светильник, предназначенный для установки на стене. Синий свет.</Lighting_MURWallLightBlue.description>
+  <Blueprint_Install_Lighting_MURWallLightBlue.label>Синий светильник (старый). Перемещение.</Blueprint_Install_Lighting_MURWallLightBlue.label>
+
+</LanguageData>

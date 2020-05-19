@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MURWallLight>Wall Light</MURWallLight>
+	<MURWallLight_LightRadName>Light Radius</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>How far the light radiates from the source. Default: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Steel Cost</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>How much steel a single light costs to build. Default: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Power Cost</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>How much power a single light consumes. Default: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Show Lit Area (EXPERIMENTAL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Show approximate area around lights that will be lit. EXPERIMENTAL: Currently only works with the default light radius of 8.</MURWallLight_ShowRadiusDesc>
+	
+	<MURWallLight_WarningNeedWall>Must be placed over a wall.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Must be facing a passable tile.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Must be placed over a wall, facing a passable tile.</MURWallLight_WarningBoth>
+	
+	<MURWallLight_AlertDisableRadius>Show Lit Area currently only works with the default light radius setting of 8. Disabling.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Please save and load the game for changes to take effect.</MURWallLight_AlertReload>
+	
+	<MURWallLight_DestroyedBlocked>Light destroyed by construction.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Light destroyed by wall destruction.</MURWallLight_DestroyedWall>
+</LanguageData>

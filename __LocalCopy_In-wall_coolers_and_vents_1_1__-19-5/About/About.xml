@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>In-wall coolers and vents [1.1]</name>
+    <packageId>Hanabishi.InwallCoolersAndVents</packageId>
+    <author>Hanabishi</author>
+    <supportedVersions>
+        <li>1.0</li>
+        <li>1.1</li>
+    </supportedVersions>
+    <description>Do you hate when raiders easily break into your rooms via coolers? This mod is for you! With this mod coolers and vents can be built on top of the walls. So after a cooler destruction the wall remain still.
+
+[Installation] Compatible with existing saves. Just place additional walls in coolers and vents positions to stop the air get through.
+
+[Uninstallation] All coolers and vents placed on top of the walls will be disassembled into components.</description>
+</ModMetaData>

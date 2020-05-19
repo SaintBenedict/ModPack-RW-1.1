@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LanguageData>
+	
+	
+	<AHSbz.label>AHS半遮面麻花辫</AHSbz.label>
+	<AHSblc.label>AHS波浪长发</AHSblc.label>
+	<AHSdf.label>AHS短发</AHSdf.label>
+	<AHSdmw.label>AHS短马尾</AHSdmw.label>
+        <AHSdva.label>AHSDva</AHSdva.label>
+        <AHSlam.label>AHS拉姆</AHSlam.label>
+        <AHSlem.label>AHS蕾姆</AHSlem.label>
+        <AHSlljf.label>AHS萝莉卷发</AHSlljf.label>
+        <AHSpsc.label>AHS蓬松长发</AHSpsc.label>
+        <AHSpsd.label>AHS蓬松短发</AHSpsd.label>
+        <AHSpjmw.label>AHS披肩马尾</AHSpjmw.label>
+        <AHSqzc.label>AHS齐刘海直长发</AHSqzc.label>
+        <AHSsjf.label>AHS双卷发</AHSsjf.label>
+        <AHSsmh.label>AHS双麻花</AHSsmh.label>
+        <AHSsmw.label>AHS双马尾</AHSsmw.label>
+        <AHSwzt.label>AHS丸子头</AHSwzt.label>
+        <AHSxcf.label>AHS细长发</AHSxcf.label>
+        <AHSxlhc.label>AHS斜刘海长发</AHSxlhc.label>
+        <AHSxsdf.label>AHS学生短发</AHSxsdf.label>
+        <AHShdj.label>AHS蝴蝶结</AHShdj.label>
+
+</LanguageData>

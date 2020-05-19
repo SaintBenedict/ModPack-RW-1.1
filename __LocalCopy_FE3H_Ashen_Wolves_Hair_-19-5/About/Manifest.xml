@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>FE3H Ashen Wolves Hair</identifier>
+    <version>1.0.0</version>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadBefore>    </loadBefore>
+    <loadAfter>    </loadAfter>
+    <suggests>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri></manifestUri>
+    <downloadUri></downloadUri>
+</Manifest>

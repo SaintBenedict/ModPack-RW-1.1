@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Woodworking</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+	<!-- ================= Plywood Floor ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WDPlywoodFloor"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WDPlywoodFloor</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDPlywoodFloorBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WDPlywoodFloor</designatorDropdown>
+				</value>
+			</li>				
+	<!-- ================= Wood Plank Floor ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WoodPlankFloor"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WoodPlankFloor</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDWoodPlankFloorBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WoodPlankFloor</designatorDropdown>
+				</value>
+			</li>		
+	<!-- ================= Wide Plank Floor ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WDWidePlanksFloor"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WDWidePlanksFloor</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDWidePlanksFloorBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WDWidePlanksFloor</designatorDropdown>
+				</value>
+			</li>
+	<!-- ================= Check Wooden Floor ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WDCheckWoodenFloor"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WDCheckWoodenFloor</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDCheckWoodenFloorBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WDCheckWoodenFloor</designatorDropdown>
+				</value>
+			</li>	
+	<!-- ================= Parquet ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WDParquet"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WDParquet</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDParquetBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WDParquet</designatorDropdown>
+				</value>
+			</li>
+	<!-- ================= Mosaic Wooden Floor ================= -->			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [defName = "WDMosaicWoodenFloor"]</xpath>
+				<value>
+					<designatorDropdown>Floor_WDMosaicWoodenFloor</designatorDropdown>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef [@Name = "WDMosaicWoodenFloorBase"]</xpath>
+				<value>
+	    			<designatorDropdown>Floor_WDMosaicWoodenFloor</designatorDropdown>
+				</value>
+			</li>				
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

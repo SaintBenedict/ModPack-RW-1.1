@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedWidePlanks</defName>
+    <label>burned wide planks</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood plank flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/BurnedWidePlanks</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>  
+	
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedCheckWoodenFloor</defName>
+    <label>burned check wooden floor</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood plank flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/BurnedCheckWoodenFloor</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>  
+	
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedParquet</defName>
+    <label>burned parquet</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood plank flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/BurnedParquet</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>		
+	
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedMosaicWoodenFloor</defName>
+    <label>burned mosaic wooden floor</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood plank flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/MosaicWoodenFloor</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>
+	
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedPlywoodFloor</defName>
+    <label>burned plywood floor</label>
+    <renderPrecedence>251</renderPrecedence>
+    <description>Burned-out wood flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/BurnedPlywoodFloor</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>
+	
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>WDBurnedStrawFloor</defName>
+    <label>burned straw floor</label>
+    <renderPrecedence>400</renderPrecedence>
+    <description>Burned-out straw flooring.</description>
+    <texturePath>Terrain/Surfaces/Burned/BurnedStrawFloor</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>	
+
+</Defs>

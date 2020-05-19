@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLight.label>Luminária de Parede (VELHA)</Lighting_MURWallLight.label>
+  <Lighting_MURWallLight.description>Uma luminária feita para ser montada em uma parede.</Lighting_MURWallLight.description>
+  <Blueprint_Install_Lighting_MURWallLight.label>Luminária (velha). Mova.</Blueprint_Install_Lighting_MURWallLight.label>
+
+  <Lighting_MURWallLightRed.label>Luminária Vermelha (VELHA)</Lighting_MURWallLightRed.label>
+  <Lighting_MURWallLightRed.description>Uma luminária feita para ser montada em uma parede, colorida vermelha.</Lighting_MURWallLightRed.description>
+  <Blueprint_Install_Lighting_MURWallLightRed.label>Luminária vermelha (velha). Mova.</Blueprint_Install_Lighting_MURWallLightRed.label>
+
+  <Lighting_MURWallLightGreen.label>Luminária Verde (VELHA)</Lighting_MURWallLightGreen.label>
+  <Lighting_MURWallLightGreen.description>Uma luminária feita para ser montada em uma parede, colorida verde.</Lighting_MURWallLightGreen.description>
+  <Blueprint_Install_Lighting_MURWallLightGreen.label>Luminária verde (velha). Mova.</Blueprint_Install_Lighting_MURWallLightGreen.label>
+
+  <Lighting_MURWallLightBlue.label>Luminária Azul (VELHA)</Lighting_MURWallLightBlue.label>
+  <Lighting_MURWallLightBlue.description>Uma luminária feita para ser montada em uma parede, colorida azul.</Lighting_MURWallLightBlue.description>
+  <Blueprint_Install_Lighting_MURWallLightBlue.label>Luminária azul (velha). Mova.</Blueprint_Install_Lighting_MURWallLightBlue.label>
+
+</LanguageData>

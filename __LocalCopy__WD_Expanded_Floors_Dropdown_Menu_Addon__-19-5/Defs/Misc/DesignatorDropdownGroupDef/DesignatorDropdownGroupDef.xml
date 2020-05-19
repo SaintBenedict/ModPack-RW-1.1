@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDCheckCarpet</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDRoughStoneTile</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDStoneTile</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDCheckStoneTile</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDMosaicStoneFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDCheckStoneFloor</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDPolishedStoneFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDStonePlateFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDCheckWoodenFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDPlywoodFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WoodPlankFloor</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDMosaicWoodenFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDParquet</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDWidePlanksFloor</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDMetalTiles</defName>
+  </DesignatorDropdownGroupDef>
+ 
+ <DesignatorDropdownGroupDef>
+    <defName>Floor_WDMetalCheckTiles</defName>
+  </DesignatorDropdownGroupDef>
+
+  <!-- Royalty -->
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDFineCarpet</defName>
+  </DesignatorDropdownGroupDef> 
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_WDFineStoneTile</defName>
+  </DesignatorDropdownGroupDef>
+
+
+</Defs>

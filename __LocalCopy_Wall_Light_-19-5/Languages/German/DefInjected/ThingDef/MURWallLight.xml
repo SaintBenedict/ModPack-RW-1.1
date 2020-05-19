@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Lighting_MURWallLight.label>Wandleuchte (ALT)</Lighting_MURWallLight.label>
+	<Lighting_MURWallLight.description>Eine Lampe, die an der Wand montiert wird.</Lighting_MURWallLight.description>
+
+	<Lighting_MURWallLightRed.label>Alte Wandleuchte (rot)(ALT)</Lighting_MURWallLightRed.label>
+	<Lighting_MURWallLightRed.description>Eine Lampe, die an der Wand montiert wird. Erzeugt rotes Licht.</Lighting_MURWallLightRed.description>
+
+	<Lighting_MURWallLightGreen.label>Alte Wandleuchte (grün)(ALT)</Lighting_MURWallLightGreen.label>
+	<Lighting_MURWallLightGreen.description>Eine Lampe, die an der Wand montiert wird. Erzeugt grünes Licht.</Lighting_MURWallLightGreen.description>
+
+	<Lighting_MURWallLightBlue.label>Alte Wandleuchte (blau)(ALT)</Lighting_MURWallLightBlue.label>
+	<Lighting_MURWallLightBlue.description>Eine Lampe, die an der Wand montiert wird. Erzeugt blaues Licht.</Lighting_MURWallLightBlue.description>
+</LanguageData>

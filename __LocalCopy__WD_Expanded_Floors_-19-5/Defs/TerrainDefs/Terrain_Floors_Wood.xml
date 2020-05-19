@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================= Wooden floors ================= --> 
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>WDPlywoodFloor</defName>
+		<label>plywood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Plywood floor. Doesn't look great, but cheap. Perfect to cover big areas fast.</description>
+		<texturePath>Terrain/Surfaces/Wooden/Plywood</texturePath>
+		<burnedDef>WDBurnedPlywoodFloor</burnedDef>
+		<statBases>
+			<WorkToBuild>180</WorkToBuild>
+			<Flammability>0.22</Flammability>
+		</statBases>
+		<costList>
+			<WoodLog>1</WoodLog>
+		</costList>
+	<constructEffect>ConstructWood</constructEffect>		
+	</TerrainDef>	
+	
+	<TerrainDef  ParentName="FloorBase">
+		<defName>WoodPlankFloor</defName>
+		<label>wood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<Flammability>0.22</Flammability>
+	        <Beauty>1</Beauty>				
+		</statBases>
+		<costList>
+			<WoodLog>3</WoodLog>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<designationHotKey>Misc7</designationHotKey>
+	</TerrainDef>	
+  
+		<TerrainDef  ParentName="FloorBase">
+		<defName>WDWidePlanksFloor</defName>
+		<label>wide planks</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Floor made of smooth wide wooden planks. Simple and nice.</description>
+		<texturePath>Terrain/Surfaces/Wooden/WidePlanksFloor</texturePath>
+		<burnedDef>WDBurnedWidePlanks</burnedDef>
+		<statBases>
+			<WorkToBuild>540</WorkToBuild>
+			<Flammability>0.22</Flammability>
+	        <Beauty>1</Beauty>			
+		</statBases>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	<constructEffect>ConstructWood</constructEffect>	
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>	
+	</TerrainDef>
+	
+	<TerrainDef  ParentName="FloorBase">
+		<defName>WDCheckWoodenFloor</defName>
+		<label>checkered wooden floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Nice looking checkered floor made of small wooden planks.</description>
+		<texturePath>Terrain/Surfaces/Wooden/CheckWoodenFloor</texturePath>
+		<burnedDef>WDBurnedCheckWoodenFloor</burnedDef>
+		<statBases>
+			<WorkToBuild>900</WorkToBuild>
+			<Flammability>0.22</Flammability>
+	        <Beauty>2</Beauty>			
+		</statBases>
+		<costList>
+			<WoodLog>6</WoodLog>
+		</costList>
+	<constructEffect>ConstructWood</constructEffect>		
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>	
+	</TerrainDef>
+
+	<TerrainDef  ParentName="FloorBase">
+		<defName>WDParquet</defName>
+		<label>parquet</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Floor made of fine smooth wooden planks. Makes any room better, but expensive and hard to build.</description>
+		<texturePath>Terrain/Surfaces/Wooden/Parquet</texturePath>
+		<burnedDef>WDBurnedParquet</burnedDef>
+		<statBases>
+			<WorkToBuild>1200</WorkToBuild>
+			<Flammability>0.22</Flammability>
+			<Beauty>3</Beauty>	
+		</statBases>
+		<costList>
+			<WoodLog>8</WoodLog>
+		</costList>
+	<constructEffect>ConstructWood</constructEffect>	
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+	</TerrainDef>	
+
+	<TerrainDef  ParentName="FloorBase">
+		<defName>WDMosaicWoodenFloor</defName>
+		<label>mosaic wooden floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Polished wooden floor made of small planks fitted to each other. Looks fine but very expensive and hard to build.</description>
+		<texturePath>Terrain/Surfaces/Wooden/MosaicWoodenFloor</texturePath>
+		<burnedDef>WDBurnedMosaicWoodenFloor</burnedDef>
+		<statBases>
+			<WorkToBuild>1400</WorkToBuild>
+			<Flammability>0.22</Flammability>
+			<Beauty>4</Beauty>	
+		</statBases>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+	<constructEffect>ConstructWood</constructEffect>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+	</TerrainDef>			
+	
+</Defs>

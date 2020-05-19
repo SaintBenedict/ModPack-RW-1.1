@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>		
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/TerrainDef[@Name = "FineTileStoneBase"]/texturePath</xpath>
+				<value>
+					<texturePath>Terrain/Surfaces/Stone/TileStoneFineMod</texturePath>
+				</value>
+			</li>			
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/TerrainDef[@Name = "FineTileStoneBase"]/designatorDropdown</xpath>
+			</li>
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/TerrainDef[@Name = "FineTileStoneBase"]/statBases/WorkToBuild</xpath>
+				<value>
+					<WorkToBuild>1600</WorkToBuild>
+				</value>
+			</li>	
+		</operations>		
+		</match>
+	</Operation>  
+	
+</Patch>

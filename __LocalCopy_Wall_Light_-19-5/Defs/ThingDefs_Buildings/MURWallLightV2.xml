@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>MURWallLights</defName>
+  </DesignatorDropdownGroupDef>
+  
+  <ThingDef Abstract="True" Name="MURWallLightVIIBase" ParentName="BuildingBase">
+	<thingClass>Building</thingClass>
+	<thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Item</altitudeLayer>
+    <passability>Standable</passability>
+	<statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+	  <Mass>2</Mass>
+    </statBases>
+    <size>(1,1)</size>
+	<placeWorkers>
+		<li>MURWallLight.PlaceWorker_WallLight</li>
+	</placeWorkers>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>10</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+	  <li Class="CompProperties_Glower">
+        <glowRadius>0</glowRadius>
+        <glowColor>(0,0,0,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+      <isEdifice>false</isEdifice>
+	  <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+	<tickerType>Never</tickerType>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>true</rotatable>
+	<selectable>true</selectable>
+	<destroyable>true</destroyable>
+	<useHitPoints>false</useHitPoints>
+	<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+	<clearBuildingArea>false</clearBuildingArea>
+	<defaultPlacingRot>South</defaultPlacingRot>
+	<researchPrerequisites><li>Electricity</li></researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightVII" ParentName="MURWallLightVIIBase">
+	<defName>Lighting_MURWallLightVII</defName>
+    <label>Wall light</label>
+	<graphicData>
+      <texPath>Things/Building/MURWallLightOffVII</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/MURWallLight_UI</uiIconPath>
+    <description>A light fixture designed to be mounted on a wall.</description>
+	<thingClass>MURWallLight.WallLight</thingClass>
+	<designatorDropdown>MURWallLights</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightRedVII" ParentName="MURWallLightVIIBase">
+	<defName>Lighting_MURWallLightRedVII</defName>
+    <label>Wall light (red)</label>
+    <graphicData>
+      <texPath>Things/Building/MURWallLightOffVII</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/MURWallLightRed_UI</uiIconPath>
+    <description>A light fixture designed to be mounted on a wall. Colored red.</description>
+	<thingClass>MURWallLight.WallLightRed</thingClass>
+	<designatorDropdown>MURWallLights</designatorDropdown>
+	<researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightGreenVII" ParentName="MURWallLightVIIBase">
+	<defName>Lighting_MURWallLightGreenVII</defName>
+    <label>Wall light (green)</label>
+    <graphicData>
+      <texPath>Things/Building/MURWallLightOffVII</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/MURWallLightGreen_UI</uiIconPath>
+    <description>A light fixture designed to be mounted on a wall. Colored green.</description>
+	<thingClass>MURWallLight.WallLightGreen</thingClass>
+	<designatorDropdown>MURWallLights</designatorDropdown>
+	<researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightBlueVII" ParentName="MURWallLightVIIBase">
+	<defName>Lighting_MURWallLightBlueVII</defName>
+    <label>Wall light (blue)</label>
+    <graphicData>
+      <texPath>Things/Building/MURWallLightOffVII</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/MURWallLightBlue_UI</uiIconPath>
+    <description>A light fixture designed to be mounted on a wall. Colored blue.</description>
+	<thingClass>MURWallLight.WallLightBlue</thingClass>
+	<designatorDropdown>MURWallLights</designatorDropdown>
+	<researchPrerequisites><li>ColoredLights</li></researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Abstract = "True" Name="MURWallLightVIIGlowerBase" ParentName = "BuildingBase">
+	<thingClass>MURWallLight.WallLightGlower</thingClass>
+	<label>Wall light</label>
+	<description>A light fixture designed to be mounted on a wall.</description>
+	<category>Attachment</category>
+    <defName>Lighting_MURWallLightVII_GlowerBase</defName>
+    <graphicData>
+	  <texPath>Things/Building/MURWallLightVII_T</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1,1</drawSize>
+    </graphicData>
+	<building>
+		<isEdifice>false</isEdifice>
+	</building>
+	<statBases>
+		<Flammability>0</Flammability>
+	</statBases>
+	<altitudeLayer>Floor</altitudeLayer>
+	<passability>Standable</passability>
+	<destroyable>false</destroyable>
+	<rotatable>false</rotatable>
+	<clearBuildingArea>false</clearBuildingArea>
+	<selectable>false</selectable>
+	<coversFloor>false</coversFloor>
+	<useHitPoints>false</useHitPoints>
+	<tradeability>None</tradeability>
+	<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightVIIGlower" ParentName = "MURWallLightVIIGlowerBase">
+    <defName>Lighting_MURWallLightVII_Glower</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightVIIGlowerRed" ParentName = "MURWallLightVIIGlowerBase">
+	<defName>Lighting_MURWallLightVII_GlowerRed</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(642,0,0,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightVIIGlowerGreen" ParentName = "MURWallLightVIIGlowerBase">
+	<defName>Lighting_MURWallLightVII_GlowerGreen</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,642,0,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightVIIGlowerBlue" ParentName = "MURWallLightVIIGlowerBase">
+	<defName>Lighting_MURWallLightVII_GlowerBlue</defName>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(0,0,642,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Flickable" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Abstract = "True" Name="MURWallLightOnVIIBase" ParentName = "BuildingBase">
+	<thingClass>MURWallLight.WallLight</thingClass>
+	<label>Wall light (On)</label>
+	<description>You shouldn't be seeing this.</description>
+	<category>Mote</category>
+    <defName>Lighting_MURWallLightVII_OnBase</defName>
+	<building>
+		<isEdifice>false</isEdifice>
+	</building>
+	<statBases>
+		<Flammability>0</Flammability>
+	</statBases>
+	<altitudeLayer>ItemImportant</altitudeLayer>
+	<passability>Standable</passability>
+	<destroyable>false</destroyable>
+	<rotatable>false</rotatable>
+	<clearBuildingArea>false</clearBuildingArea>
+	<selectable>false</selectable>
+	<coversFloor>false</coversFloor>
+	<useHitPoints>false</useHitPoints>
+	<tradeability>None</tradeability>
+	<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightVII_On</defName>
+    <graphicData>
+	  <texPath>Things/Building/MURWallLightVII</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightRedOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightRedVII_On</defName>
+    <graphicData>
+	  <texPath>Things/Building/MURWallLightRedVII</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightGreenOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightGreenVII_On</defName>
+    <graphicData>
+	  <texPath>Things/Building/MURWallLightGreenVII</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef Name="MURWallLightBlueOnVII" ParentName = "MURWallLightOnVIIBase">
+    <defName>Lighting_MURWallLightBlueVII_On</defName>
+    <graphicData>
+	  <texPath>Things/Building/MURWallLightBlueVII</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.1,1.1</drawSize>
+    </graphicData>
+  </ThingDef>  
+</Defs>

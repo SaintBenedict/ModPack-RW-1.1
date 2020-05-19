@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLightVII.label>Candeeiro de Parede</Lighting_MURWallLightVII.label>
+  <Lighting_MURWallLightVII.description>Um candeeiro feito para ser montado numa parede.</Lighting_MURWallLightVII.description>
+  <Blueprint_Lighting_MURWallLightVII.label>Candeeiro de Parede (planta)</Blueprint_Lighting_MURWallLightVII.label>
+  <Blueprint_Install_Lighting_MURWallLightVII.label>Candeeiro de Parede (a mover)</Blueprint_Install_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.label>Candeeiro de Parede (construção)</Frame_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.description>Um candeeiro feito para ser montado numa parede.</Frame_Lighting_MURWallLightVII.description>
+
+  <Lighting_MURWallLightRedVII.label>Candeeiro de Parede (vermelho)</Lighting_MURWallLightRedVII.label>
+  <Lighting_MURWallLightRedVII.description>Um candeeiro feito para ser montado numa parede, de cor vermelha.</Lighting_MURWallLightRedVII.description>
+  <Blueprint_Lighting_MURWallLightRedVII.label>Candeeiro de Parede (vermelho) (planta)</Blueprint_Lighting_MURWallLightRedVII.label>
+  <Blueprint_Install_Lighting_MURWallLightRedVII.label>Candeeiro de Parede (vermelho) (a mover)</Blueprint_Install_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.label>Candeeiro de Parede (vermelho) (construção)</Frame_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.description>Um candeeiro feito para ser montado numa parede, de cor vermelha.</Frame_Lighting_MURWallLightRedVII.description>
+
+  <Lighting_MURWallLightGreenVII.label>Candeeiro de Parede (verde)</Lighting_MURWallLightGreenVII.label>
+  <Lighting_MURWallLightGreenVII.description>Um candeeiro feito para ser montado numa parede, de cor verde.</Lighting_MURWallLightGreenVII.description>
+  <Blueprint_Lighting_MURWallLightGreenVII.label>Candeeiro de Parede (verde) (planta)</Blueprint_Lighting_MURWallLightGreenVII.label>
+  <Blueprint_Install_Lighting_MURWallLightGreenVII.label>Candeeiro de Parede (verde) (a mover)</Blueprint_Install_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.label>Candeeiro de Parede (verde) (construção)</Frame_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.description>Um candeeiro feito para ser montado numa parede, de cor verde.</Frame_Lighting_MURWallLightGreenVII.description>
+
+  <Lighting_MURWallLightBlueVII.label>Candeeiro de Parede (azul)</Lighting_MURWallLightBlueVII.label>
+  <Lighting_MURWallLightBlueVII.description>Um candeeiro feito para ser montado numa parede, de cor azul.</Lighting_MURWallLightBlueVII.description>
+  <Blueprint_Lighting_MURWallLightBlueVII.label>Candeeiro de Parede (azul) (planta)</Blueprint_Lighting_MURWallLightBlueVII.label>
+  <Blueprint_Install_Lighting_MURWallLightBlueVII.label>Candeeiro de Parede (azul) (a mover)</Blueprint_Install_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.label>Candeeiro de Parede (azul) (construção)</Frame_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.description>Um candeeiro feito para ser montado numa parede, de cor azul.</Frame_Lighting_MURWallLightBlueVII.description>
+
+  <Lighting_MURWallLightVII_Glower.label>Candeeiro de Parede</Lighting_MURWallLightVII_Glower.label>
+  <Lighting_MURWallLightVII_Glower.description>Um candeeiro feito para ser montado numa parede.</Lighting_MURWallLightVII_Glower.description>
+
+  <Lighting_MURWallLightVII_GlowerRed.label>Candeeiro de Parede (vermelho)</Lighting_MURWallLightVII_GlowerRed.label>
+  <Lighting_MURWallLightVII_GlowerRed.description>Um candeeiro feito para ser montado numa parede, de cor vermelha.</Lighting_MURWallLightVII_GlowerRed.description>
+
+  <Lighting_MURWallLightVII_GlowerGreen.label>Candeeiro de Parede (verde)</Lighting_MURWallLightVII_GlowerGreen.label>
+  <Lighting_MURWallLightVII_GlowerGreen.description>Um candeeiro feito para ser montado numa parede, de cor verde.</Lighting_MURWallLightVII_GlowerGreen.description>
+
+  <Lighting_MURWallLightVII_GlowerBlue.label>Candeeiro de Parede (azul)</Lighting_MURWallLightVII_GlowerBlue.label>
+  <Lighting_MURWallLightVII_GlowerBlue.description>Um candeeiro feito para ser montado numa parede, de cor azul.</Lighting_MURWallLightVII_GlowerBlue.description>
+
+</LanguageData>

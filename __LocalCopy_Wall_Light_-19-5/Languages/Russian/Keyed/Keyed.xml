@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MURWallLight>Настенный светильник</MURWallLight>
+	<MURWallLight_LightRadName>Радиус освещения</MURWallLight_LightRadName>
+	<MURWallLight_LightRadDesc>Как далеко распростроняется свет от источника. Default: 8</MURWallLight_LightRadDesc>
+	<MURWallLight_SteelCostName>Стоимость</MURWallLight_SteelCostName>
+	<MURWallLight_SteelCostDesc>Сколько стали стоит построить один светильник. Default: 5</MURWallLight_SteelCostDesc>
+	<MURWallLight_PowerCostName>Потребляемая электроэнергия</MURWallLight_PowerCostName>
+	<MURWallLight_PowerCostDesc>Сколько электроэнергии потребляет один светильник. Default: 10</MURWallLight_PowerCostDesc>
+	<MURWallLight_ShowRadiusName>Показывать освещенное пространство (EXPERIMENTAL)</MURWallLight_ShowRadiusName>
+	<MURWallLight_ShowRadiusDesc>Show approximate area around lights that will be lit. EXPERIMENTAL: Currently only works with the default light radius of 8.</MURWallLight_ShowRadiusDesc>
+	
+	<MURWallLight_WarningNeedWall>Должен распологаться на стене.</MURWallLight_WarningNeedWall>
+	<MURWallLight_WarningBlocked>Должен быть направлен на проходимый тайл.</MURWallLight_WarningBlocked>
+	<MURWallLight_WarningBoth>Должен распологаться на стене, и направлен на проходимый тайл.</MURWallLight_WarningBoth>
+	
+	<MURWallLight_AlertDisableRadius>Show Lit Area currently only works with the default light radius setting of 8. Disabling.</MURWallLight_AlertDisableRadius>
+	<MURWallLight_AlertReload>Please save and load the game for changes to take effect.</MURWallLight_AlertReload>
+	
+	<MURWallLight_DestroyedBlocked>Светильник уничтожен при строительстве.</MURWallLight_DestroyedBlocked>
+	<MURWallLight_DestroyedWall>Светильник уничтожен в связи с уничтожением стены.</MURWallLight_DestroyedWall>
+</LanguageData>

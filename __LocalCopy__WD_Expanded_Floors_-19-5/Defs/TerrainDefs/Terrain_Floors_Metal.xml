@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================= Metal Different ================= --> 
+  
+	<TerrainDef ParentName="FloorBase">
+		<defName>Concrete</defName>
+		<label>concrete</label>
+		<description>Rough concrete. It is fast to walk on, cheap, and quick to build, but quite ugly.</description>
+		<texturePath>Terrain/Surfaces/Concrete</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>70</renderPrecedence>
+		<statBases>
+			<WorkToBuild>180</WorkToBuild>
+		</statBases>
+		<costList>	
+			<Steel>1</Steel>
+		</costList>
+		<designationHotKey>Misc6</designationHotKey>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>PavedTile</defName>
+		<label>paved tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>Concrete tiles. Cheap and quick to move around on, but neutral in terms of looks and slow to build.</description>
+		<texturePath>Terrain/Surfaces/PavedTile</texturePath>
+		<statBases>
+			<WorkToBuild>180</WorkToBuild>
+		</statBases>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<designationHotKey>Misc5</designationHotKey>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+	</TerrainDef> 
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>WDMetalSheets</defName>
+		<label>metal sheets</label>
+		<renderPrecedence>243</renderPrecedence> 
+		<description>Floor made of simple metal sheets. Don't look great, but cheap and fast to build. Good to cover big industrial areas.</description>
+		<texturePath>Terrain/Surfaces/Metal/MetalSheets</texturePath>
+	    <color>(0.369, 0.369, 0.369)</color>		
+		<statBases>
+			<WorkToBuild>360</WorkToBuild>	
+		</statBases>
+		<costList>
+		    <Steel>2</Steel>
+		</costList>
+    <constructEffect>ConstructMetal</constructEffect>			
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+	</TerrainDef>  	
+	
+	<TerrainDef ParentName="FloorBase">
+		<defName>WDStripedMetalTile</defName>
+		<label>striped metal tile</label>
+		<renderPrecedence>263</renderPrecedence> 
+		<description>Caution metal floor for industrial areas painted with black and yellow stripes.</description>
+		<texturePath>Terrain/Surfaces/Metal/StripedMetalTile</texturePath>		
+		<statBases>
+			<WorkToBuild>480</WorkToBuild>					
+		</statBases>
+		<costList>
+		    <Steel>2</Steel>
+		</costList>
+    <constructEffect>ConstructMetal</constructEffect>			
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+	</TerrainDef> 	
+	
+	<TerrainDef ParentName="FloorBase">
+		<defName>WDPatternedMetalTile</defName>
+		<label>patterned metal tile</label>
+		<renderPrecedence>264</renderPrecedence> 
+		<description>Floor made of simple metal sheets. Don't look great, but cheap and fast to build. Good to cover big industrial areas.</description>
+		<texturePath>Terrain/Surfaces/Metal/PatternedMetalTile</texturePath>
+	    <color>(0.369, 0.369, 0.369)</color>		
+		<statBases>
+			<WorkToBuild>540</WorkToBuild>
+            <Beauty>1</Beauty>						
+		</statBases>
+		<costList>
+		    <Steel>4</Steel>
+		</costList>
+    <constructEffect>ConstructMetal</constructEffect>			
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+	</TerrainDef> 
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>WDHexMetalFloor</defName>
+		<label>hexagonal metal floor</label>
+		<renderPrecedence>264</renderPrecedence> 
+		<description>Floor made of metal hexagonal tiles. Looks nice, but takes pretty much of time and materials to build.</description>
+		<texturePath>Terrain/Surfaces/Metal/HexMetalFloor</texturePath>
+	    <color>(0.369, 0.369, 0.369)</color>		
+		<statBases>
+			<WorkToBuild>540</WorkToBuild>
+            <Beauty>1</Beauty>						
+		</statBases>
+		<costList>
+		    <Steel>4</Steel>
+		</costList>
+    <constructEffect>ConstructMetal</constructEffect>			
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+	</TerrainDef>  	 
+	
+  <!-- ================= Steel ================= -->   
+  
+	<TerrainDef ParentName="FloorBase">
+    <defName>MetalTile</defName>
+    <label>metal tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Metal tiles, for that spaceship look. Pretty, but labor and material-intensive.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(0.369, 0.369, 0.369)</color>
+    <statBases>
+      <WorkToBuild>600</WorkToBuild>
+	  <Beauty>2</Beauty>
+      <Cleanliness>0.2</Cleanliness>			
+    </statBases>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc1</designationHotKey>
+  </TerrainDef>  
+  
+   <TerrainDef ParentName="FloorBase">
+    <defName>WDMetalCheckTile</defName>
+    <label>metal check tile</label>
+    <renderPrecedence>241</renderPrecedence>
+    <description>Floor made of small square metal plates. Cheaper, but slower to build than normal metal tiles.</description>
+    <texturePath>Terrain/Surfaces/Metal/CheckTile</texturePath>
+    <color>(0.369, 0.369, 0.369)</color>
+    <statBases>
+      <WorkToBuild>720</WorkToBuild>
+	  <Beauty>2</Beauty>
+      <Cleanliness>0.2</Cleanliness>	  
+    </statBases>
+    <costList>
+      <Steel>6</Steel>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>	
+  </TerrainDef>    
+  
+  <!-- ================= Silver ================= -->  
+ 
+  <TerrainDef ParentName="FloorBase">
+    <defName>SilverTile</defName>
+    <label>silver tile</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They get a bonus to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(145,145,145)</color>
+    <statBases>
+      <Beauty>6</Beauty>
+      <WorkToBuild>840</WorkToBuild>
+      <Cleanliness>0.3</Cleanliness>
+    </statBases>
+    <costList>
+      <Silver>65</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef> 
+ 
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDSilverCheckTile</defName>
+    <label>silver check tile</label>
+    <renderPrecedence>260</renderPrecedence>
+    <description>For a futuristic but royal look, check silver tiles fit perfectly into luxurious rooms. They get a bonus to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/Metal/CheckTile</texturePath>
+    <color>(145,145,145)</color>
+    <statBases>
+      <Beauty>6</Beauty>
+      <WorkToBuild>960</WorkToBuild>
+      <Cleanliness>0.3</Cleanliness>
+    </statBases>
+    <costList>
+      <Silver>65</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef> 
+  
+  <!-- ================= Gold ================= -->
+  
+  <TerrainDef ParentName="FloorBase">
+    <defName>GoldTile</defName>
+    <label>gold tile</label>
+    <renderPrecedence>242</renderPrecedence>
+    <description>For overbearing extravagance, nothing beats gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(213,168,92)</color>   
+    <statBases>
+      <Beauty>12</Beauty>
+      <WorkToBuild>1020</WorkToBuild>
+      <Cleanliness>0.3</Cleanliness>
+    </statBases>
+    <costList>
+      <Gold>35</Gold>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc3</designationHotKey>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>  
+  
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDGoldCheckTile</defName>
+    <label>gold check tile</label>
+    <renderPrecedence>261</renderPrecedence>
+    <description>For overbearing extravagance, nothing beats check gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them.</description>
+    <texturePath>Terrain/Surfaces/Metal/CheckTile</texturePath>
+    <color>(213,168,92)</color>   
+    <statBases>
+      <Beauty>12</Beauty>
+      <WorkToBuild>1140</WorkToBuild>
+      <Cleanliness>0.3</Cleanliness>
+    </statBases>
+    <costList>
+      <Gold>35</Gold>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>  
+
+  <!-- ================= Plasteel ================= -->  
+  
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDPlasteelTile</defName>
+    <label>plasteel tile</label>
+    <renderPrecedence>262</renderPrecedence>
+    <description>Plasteel tiles, for that spaceship look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(136, 170, 173)</color> 
+    <statBases>
+      <WorkToBuild>1020</WorkToBuild>
+	  <Beauty>4</Beauty>
+      <Cleanliness>0.4</Cleanliness>
+    </statBases>
+    <costList>
+      <Plasteel>6</Plasteel>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef> 
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDPlasteelCheckTile</defName>
+    <label>plasteel check tile</label>
+    <renderPrecedence>263</renderPrecedence>
+    <description>Plasteel check tiles, for that spaceship look. Slightly easier to clean. Expensive and slow to build, but very pretty. The smooth tile surface gets a bonus to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/Metal/CheckTile</texturePath>
+    <color>(136, 170, 173)</color>
+    <statBases>
+      <WorkToBuild>1140</WorkToBuild>
+	  <Beauty>4</Beauty>
+      <Cleanliness>0.4</Cleanliness>
+    </statBases>
+    <costList>
+      <Plasteel>6</Plasteel>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<tags>
+		<li>FineFloor</li>
+	</tags>			
+  </TerrainDef>
+ 
+  <!-- ================= Sterile ================= --> 
+  
+    <TerrainDef ParentName="FloorBase">
+    <defName>SterileTile</defName>
+    <label>sterile tile</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(203,203,203)</color>
+    <statBases>
+      <WorkToBuild>1600</WorkToBuild>
+	  <Beauty>2</Beauty>	  
+      <Cleanliness>0.6</Cleanliness>
+    </statBases>
+    <costList>
+      <Steel>4</Steel>
+      <Silver>20</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>SterileMaterials</li>
+    </researchPrerequisites>
+  </TerrainDef> 
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>WDCheckSterileTile</defName>
+    <label>check sterile tile</label>
+    <renderPrecedence>244</renderPrecedence>
+    <description>Check sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build.</description>
+    <texturePath>Terrain/Surfaces/Metal/CheckTile</texturePath>
+    <color>(203,203,203)</color>
+    <statBases>
+      <WorkToBuild>1720</WorkToBuild>
+	  <Beauty>2</Beauty>	  
+      <Cleanliness>0.6</Cleanliness>
+    </statBases>
+    <costList>
+      <Steel>4</Steel>
+      <Silver>20</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>SterileMaterials</li>
+    </researchPrerequisites>
+  </TerrainDef>
+
+</Defs>  

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+  <!-- ================= Carpets ================= -->
+  
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[@Name = "CarpetBase"]/designatorDropdown</xpath>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "CarpetBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_Carpet</designatorDropdown>
+		</value>
+	</Operation>	
+	
+  <!-- ================= Check Carpets ================= -->    	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef [@Name = "WDCheckCarpetBase"]</xpath>
+		<value>
+		  <designatorDropdown>Floor_WDCheckCarpet</designatorDropdown>
+		</value>
+	</Operation>
+	
+</Patch>

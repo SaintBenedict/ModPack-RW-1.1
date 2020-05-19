@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Lighting_MURWallLight.label>lámpara de pared (antiguo)</Lighting_MURWallLight.label>
+	<Lighting_MURWallLight.description>Una lámpara diseñada para ser montada en un muro.</Lighting_MURWallLight.description>
+
+	<Lighting_MURWallLightRed.label>lámpara de pared (rojo (antiguo))</Lighting_MURWallLightRed.label>
+	<Lighting_MURWallLightRed.description>Una lámpara de color rojo, diseñada para ser montada en un muro.</Lighting_MURWallLightRed.description>
+
+	<Lighting_MURWallLightGreen.label>lámpara de pared (verde (antiguo))</Lighting_MURWallLightGreen.label>
+	<Lighting_MURWallLightGreen.description>Una lámpara de color verde, diseñada para ser montada en un muro.</Lighting_MURWallLightGreen.description>
+
+	<Lighting_MURWallLightBlue.label>lámpara de pared (azul (antiguo))</Lighting_MURWallLightBlue.label>
+	<Lighting_MURWallLightBlue.description>Una lámpara de color azul, diseñada para ser montada en un muro.</Lighting_MURWallLightBlue.description>
+
+</LanguageData>

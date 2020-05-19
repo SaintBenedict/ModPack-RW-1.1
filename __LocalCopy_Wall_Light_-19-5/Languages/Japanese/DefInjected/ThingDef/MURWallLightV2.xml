@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLightVII.label>壁灯</Lighting_MURWallLightVII.label>
+  <Lighting_MURWallLightVII.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLightVII.description>
+  <Blueprint_Lighting_MURWallLightVII.label>壁灯(設計)</Blueprint_Lighting_MURWallLightVII.label>
+  <Blueprint_Install_Lighting_MURWallLightVII.label>壁灯(移動先)</Blueprint_Install_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.label>壁灯(施工)</Frame_Lighting_MURWallLightVII.label>
+  <Frame_Lighting_MURWallLightVII.description>壁に取り付けられるように設計された照明器具です。</Frame_Lighting_MURWallLightVII.description>
+
+  <Lighting_MURWallLightRedVII.label>壁灯(赤)</Lighting_MURWallLightRedVII.label>
+  <Lighting_MURWallLightRedVII.description>壁に取り付けられるように設計された照明器具です。赤色に光ります。</Lighting_MURWallLightRedVII.description>
+  <Blueprint_Lighting_MURWallLightRedVII.label>壁灯(赤)(設計)</Blueprint_Lighting_MURWallLightRedVII.label>
+  <Blueprint_Install_Lighting_MURWallLightRedVII.label>壁灯(赤)(移動先)</Blueprint_Install_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.label>壁灯(赤)(施工)</Frame_Lighting_MURWallLightRedVII.label>
+  <Frame_Lighting_MURWallLightRedVII.description>壁に取り付けられるように設計された照明器具です。赤色に光ります。</Frame_Lighting_MURWallLightRedVII.description>
+
+  <Lighting_MURWallLightGreenVII.label>壁灯(緑)</Lighting_MURWallLightGreenVII.label>
+  <Lighting_MURWallLightGreenVII.description>壁に取り付けられるように設計された照明器具です。緑色に光ります。</Lighting_MURWallLightGreenVII.description>
+  <Blueprint_Lighting_MURWallLightGreenVII.label>壁灯(緑)(設計)</Blueprint_Lighting_MURWallLightGreenVII.label>
+  <Blueprint_Install_Lighting_MURWallLightGreenVII.label>壁灯(緑)(移動先)</Blueprint_Install_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.label>壁灯(緑)(施工)</Frame_Lighting_MURWallLightGreenVII.label>
+  <Frame_Lighting_MURWallLightGreenVII.description>壁に取り付けられるように設計された照明器具です。緑色に光ります。</Frame_Lighting_MURWallLightGreenVII.description>
+
+  <Lighting_MURWallLightBlueVII.label>壁灯(青)</Lighting_MURWallLightBlueVII.label>
+  <Lighting_MURWallLightBlueVII.description>壁に取り付けられるように設計された照明器具です。青色に光ります。</Lighting_MURWallLightBlueVII.description>
+  <Blueprint_Lighting_MURWallLightBlueVII.label>壁灯(青)(設計)</Blueprint_Lighting_MURWallLightBlueVII.label>
+  <Blueprint_Install_Lighting_MURWallLightBlueVII.label>壁灯(青)(移動先)</Blueprint_Install_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.label>壁灯(青)(施工)</Frame_Lighting_MURWallLightBlueVII.label>
+  <Frame_Lighting_MURWallLightBlueVII.description>壁に取り付けられるように設計された照明器具です。青色に光ります。</Frame_Lighting_MURWallLightBlueVII.description>
+
+  <Lighting_MURWallLightVII_Glower.label>壁灯</Lighting_MURWallLightVII_Glower.label>
+  <Lighting_MURWallLightVII_Glower.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLightVII_Glower.description>
+
+  <Lighting_MURWallLightVII_GlowerRed.label>壁灯</Lighting_MURWallLightVII_GlowerRed.label>
+  <Lighting_MURWallLightVII_GlowerRed.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLightVII_GlowerRed.description>
+
+  <Lighting_MURWallLightVII_GlowerGreen.label>壁灯</Lighting_MURWallLightVII_GlowerGreen.label>
+  <Lighting_MURWallLightVII_GlowerGreen.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLightVII_GlowerGreen.description>
+
+  <Lighting_MURWallLightVII_GlowerBlue.label>壁灯</Lighting_MURWallLightVII_GlowerBlue.label>
+  <Lighting_MURWallLightVII_GlowerBlue.description>壁に取り付けられるように設計された照明器具です。</Lighting_MURWallLightVII_GlowerBlue.description>
+
+</LanguageData>

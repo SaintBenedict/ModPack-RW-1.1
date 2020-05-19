@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Lighting_MURWallLightVII.label>lámpara de pared</Lighting_MURWallLightVII.label>
+	<Lighting_MURWallLightVII.description>Una lámpara diseñada para ser montada en un muro.</Lighting_MURWallLightVII.description>
+
+	<Lighting_MURWallLightRedVII.label>lámpara de pared (rojo)</Lighting_MURWallLightRedVII.label>
+	<Lighting_MURWallLightRedVII.description>Una lámpara de color rojo, diseñada para ser montada en un muro.</Lighting_MURWallLightRedVII.description>
+
+	<Lighting_MURWallLightGreenVII.label>lámpara de pared (verde)</Lighting_MURWallLightGreenVII.label>
+	<Lighting_MURWallLightGreenVII.description>Una lámpara de color verde, diseñada para ser montada en un muro.</Lighting_MURWallLightGreenVII.description>
+
+	<Lighting_MURWallLightBlueVII.label>lámpara de pared (azul)</Lighting_MURWallLightBlueVII.label>
+	<Lighting_MURWallLightBlueVII.description>Una lámpara de color azul, diseñada para ser montada en un muro.</Lighting_MURWallLightBlueVII.description>
+
+	<Lighting_MURWallLightVII_Glower.label>lámpara de pared</Lighting_MURWallLightVII_Glower.label>
+	<Lighting_MURWallLightVII_Glower.description>Una lámpara diseñada para ser montada en un muro.</Lighting_MURWallLightVII_Glower.description>
+
+	<Lighting_MURWallLightVII_GlowerRed.label>lámpara de pared (rojo)</Lighting_MURWallLightVII_GlowerRed.label>
+	<Lighting_MURWallLightVII_GlowerRed.description>Una lámpara de color rojo, diseñada para ser montada en un muro.</Lighting_MURWallLightVII_GlowerRed.description>
+
+	<Lighting_MURWallLightVII_GlowerGreen.label>lámpara de pared (verde)</Lighting_MURWallLightVII_GlowerGreen.label>
+	<Lighting_MURWallLightVII_GlowerGreen.description>Una lámpara de color verde, diseñada para ser montada en un muro.</Lighting_MURWallLightVII_GlowerGreen.description>
+
+	<Lighting_MURWallLightVII_GlowerBlue.label>lámpara de pared (azul)</Lighting_MURWallLightVII_GlowerBlue.label>
+	<Lighting_MURWallLightVII_GlowerBlue.description>Una lámpara de color azul, diseñada para ser montada en un muro.</Lighting_MURWallLightVII_GlowerBlue.description>
+
+</LanguageData>

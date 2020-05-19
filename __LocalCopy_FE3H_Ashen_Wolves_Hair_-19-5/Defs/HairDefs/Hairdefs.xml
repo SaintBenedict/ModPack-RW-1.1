@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HairDef>
+        <label>[FE3H]Yuri</label>
+        <hairGender>Male</hairGender>
+        <texPath>Hair/Yuri</texPath>
+        <defName>FE_Yuri</defName>
+        <hairTags>
+         <li>Urban</li>
+         <li>Rural</li>
+         <li>Royalty</li>
+     </hairTags>
+ </HairDef>
+
+    <HairDef>
+        <label>[FE3H]Balthus</label>
+        <hairGender>Male</hairGender>
+        <texPath>Hair/Balthus</texPath>
+        <defName>FE_Balthus</defName>
+        <hairTags>
+         <li>Urban</li>
+         <li>Rural</li>
+         <li>Royalty</li>
+     </hairTags>
+ </HairDef>
+
+    <HairDef>
+        <label>[FE3H]Constance</label>
+        <hairGender>Female</hairGender>
+        <texPath>Hair/Constance</texPath>
+        <defName>FE_Constance</defName>
+        <hairTags>
+         <li>Urban</li>
+         <li>Rural</li>
+         <li>Royalty</li>
+     </hairTags>
+ </HairDef>
+
+     <HairDef>
+        <label>[FE3H]Hapi</label>
+        <hairGender>Female</hairGender>
+        <texPath>Hair/Hapi</texPath>
+        <defName>FE_Hapi</defName>
+        <hairTags>
+         <li>Urban</li>
+         <li>Rural</li>
+         <li>Royalty</li>
+     </hairTags>
+ </HairDef>
+
+</Defs>
