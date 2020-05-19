@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <RC_PlantWheat.label>пшеница</RC_PlantWheat.label>
+  <RC_PlantWheat.description>Широко выращиваемая культура полезна для кормления больших масс. Несъедобна сама по себе и должна быть измельчена в муку, чтобы стать съедобной; Лучше всего растёт на хорошей почве.</RC_PlantWheat.description>
+
+  <RC_PlantOats.label>овёс</RC_PlantOats.label>
+  <RC_PlantOats.description>Выносливый злак употребляемый как людьми, так и домашним скотом, овёс хорошо растет на разных почвах, даёт вкусный и богатый питательными веществами урожай.</RC_PlantOats.description>
+
+  <RC_PlantBarley.label>ячмень</RC_PlantBarley.label>
+  <RC_PlantBarley.description>>Небольшая, но выносливая трава, которая почти одинаково растет как на гравии, так и в обычной почве, поскольку она делает почву плодородной.</RC_PlantBarley.description>
+
+
+</LanguageData>

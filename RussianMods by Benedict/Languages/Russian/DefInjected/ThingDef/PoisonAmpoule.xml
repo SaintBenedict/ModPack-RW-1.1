@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_PoisonAmpoule.label>Ампула с ядом</GR_PoisonAmpoule.label>
+  <GR_PoisonAmpoule.description>Этот крошечный флакон заполнен концентрированным раствором слюны Муффало-комодо, который действует как мощный нейромышечно-блокирующий препарат. Это эффективно парализует любого достаточно глупого, чтобы выпить его, хотя он не смертелен. Полезен для контроля заключенных.</GR_PoisonAmpoule.description>
+  <GR_PoisonAmpoule.ingestible.ingestCommandString>Выпить {0}</GR_PoisonAmpoule.ingestible.ingestCommandString>
+  <GR_PoisonAmpoule.ingestible.ingestReportString>Пьет {0}</GR_PoisonAmpoule.ingestible.ingestReportString>
+
+
+</LanguageData>

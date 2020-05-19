@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Rodent - Bear -->
+
+  <GR_Bearmole.label>медведь-крот</GR_Bearmole.label>
+  <GR_Bearmole.description>Гибрид медведя / крота. У этого слепого животного очень острое чувство вибраций, все это позволяет обнаружить свою добычу даже лучше, чем со зрением.\n\nПолезные способности: Хорошее охранное животное. Очень быстрое размножение.</GR_Bearmole.description>
+  <GR_Bearmole.tools.0.label>левый коготь</GR_Bearmole.tools.0.label>
+  <GR_Bearmole.tools.1.label>правый коготь</GR_Bearmole.tools.1.label>
+  <GR_Bearmole.tools.3.label>голова</GR_Bearmole.tools.3.label>
+  <!-- Use Leather From: Alphabeaver -->
+  <!-- Use Meat From: Alphabeaver -->
+  <GR_Bearmole_Corpse.label>Труп медведя-крота</GR_Bearmole_Corpse.label>
+  <GR_Bearmole_Corpse.description>Труп медведя-крота.</GR_Bearmole_Corpse.description>
+
+
+  <!-- Rodent - Boomalope -->
+
+  <GR_Boomsquirrel.label>бумбелка</GR_Boomsquirrel.label>
+  <GR_Boomsquirrel.description>Гибрид белки / бумалопы. Этот маленький и быстрый грызун имеет несколько наростов химической смеси на спине.\n\nПолезные способности: Взрывается когда умирает. Довольно быстро производит небольшое количество химического топлива. Очень быстрое размножение.</GR_Boomsquirrel.description>
+  <GR_Boomsquirrel.tools.0.label>левый коготь</GR_Boomsquirrel.tools.0.label>
+  <GR_Boomsquirrel.tools.1.label>правый коготь</GR_Boomsquirrel.tools.1.label>
+  <GR_Boomsquirrel.tools.3.label>голова</GR_Boomsquirrel.tools.3.label>
+  <!-- Use Leather From: Squirrel -->
+  <!-- Use Meat From: Squirrel -->
+  <GR_Boomsquirrel_Corpse.label>Труп бумбелки</GR_Boomsquirrel_Corpse.label>
+  <GR_Boomsquirrel_Corpse.description>Труп бумбелки.</GR_Boomsquirrel_Corpse.description>
+
+
+  <!-- Rabbit - Chicken -->
+
+  <GR_Chickenrabbit.label>курица-кролик</GR_Chickenrabbit.label>
+  <GR_Chickenrabbit.description>Гибрид кролика / курицы. Что происходит, когда вы искусственно скрещиваете двух быстрых размножающихся существ? Курица-кролик - экологическая катастрофа, ожидающая случая.\n\nПолезные способности: несёт яйца. ЧРЕЗВЫЧАЙНО быстрое размножение.</GR_Chickenrabbit.description>
+  <GR_Chickenrabbit.tools.0.label>когти</GR_Chickenrabbit.tools.0.label>
+  <GR_Chickenrabbit.tools.2.label>голова</GR_Chickenrabbit.tools.2.label>
+  <!-- Use Leather From: Chicken -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenrabbit_Corpse.label>Труп курицы-кролика</GR_Chickenrabbit_Corpse.label>
+  <GR_Chickenrabbit_Corpse.description>Труп курицы-кролика.</GR_Chickenrabbit_Corpse.description>
+
+
+  <!-- Rat - Muffalo -->
+
+  <GR_Muffalorat.label>муффало-крыса</GR_Muffalorat.label>
+  <GR_Muffalorat.description>Гибрид крысы / муффало. Недолгоживущий стайный зверь, который быстро размножается.\n\nПолезные способности: Повадки стайного зверя. Производит небольшое количество молока и шерсти с довольно высокой скоростью. Быстрое размножение.</GR_Muffalorat.description>
+  <GR_Muffalorat.tools.0.label>голова</GR_Muffalorat.tools.0.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalorat_Corpse.label>Труп муффало-крысы</GR_Muffalorat_Corpse.label>
+  <GR_Muffalorat_Corpse.description>Труп муффало-крысы.</GR_Muffalorat_Corpse.description>
+
+
+  <!-- Rat - Thrumbo -->
+
+  <GR_Thrumborat.label>трумбо-крыса</GR_Thrumborat.label>
+  <GR_Thrumborat.description>Гибрид крысы / трумбо. Что может быть страшнее, чем быстрое размножение?\n\nПолезные способности: Быстрое размножение и быстрое взросление для существа такого размера. Не очень долго живет.</GR_Thrumborat.description>
+  <GR_Thrumborat.tools.0.label>рог</GR_Thrumborat.tools.0.label>
+  <GR_Thrumborat.tools.2.label>левая лапа</GR_Thrumborat.tools.2.label>
+  <GR_Thrumborat.tools.3.label>правая лапа</GR_Thrumborat.tools.3.label>
+  <GR_Thrumborat.tools.4.label>голова</GR_Thrumborat.tools.4.label>
+  <!-- Use Leather From: Rat -->
+  <!-- Use Meat From: Rat -->
+  <GR_Thrumborat_Corpse.label>Труп трумбо-крысы</GR_Thrumborat_Corpse.label>
+  <GR_Thrumborat_Corpse.description>Труп трумбо-крысы.</GR_Thrumborat_Corpse.description>
+
+
+  <!-- Beaver - Wolf -->
+
+  <GR_Wolfbeaver.label>волк-бобёр</GR_Wolfbeaver.label>
+  <GR_Wolfbeaver.description>Гибрид бобра / волка. Этот быстрорастущий хищник может быть утечкой на ваших запасах деревьев, если только вы не обеспечите его свежим мясом.\n\nПолезные способности: Быстрое размножение.</GR_Wolfbeaver.description>
+  <GR_Wolfbeaver.tools.0.label>левый коготь</GR_Wolfbeaver.tools.0.label>
+  <GR_Wolfbeaver.tools.1.label>правый коготь</GR_Wolfbeaver.tools.1.label>
+  <GR_Wolfbeaver.tools.3.label>голова</GR_Wolfbeaver.tools.3.label>
+  <!-- Use Leather From: Alphabeaver -->
+  <!-- Use Meat From: Alphabeaver -->
+  <GR_Wolfbeaver_Corpse.label>Труп волка-бобра</GR_Wolfbeaver_Corpse.label>
+  <GR_Wolfbeaver_Corpse.description>Труп волка-бобра.</GR_Wolfbeaver_Corpse.description>
+
+
+</LanguageData>

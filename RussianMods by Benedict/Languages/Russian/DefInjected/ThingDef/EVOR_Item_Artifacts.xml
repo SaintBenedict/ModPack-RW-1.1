@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Artifact_Lesions.label>чумные язвы</EVOR_Item_Artifact_Lesions.label>
+  <EVOR_Item_Artifact_Lesions.description>Эти поражения кожи не излечиваются и сохраняются в открытом состоянии, однако при получении в ближнем бою урона они заражают агрессора быстродействующей формой чумы.</EVOR_Item_Artifact_Lesions.description>
+
+  <EVOR_Item_Artifact_Tortoise.label>укрепленный черепаший панцирь</EVOR_Item_Artifact_Tortoise.label>
+  <EVOR_Item_Artifact_Tortoise.description>Эти прочные кожные наросты покрывают туловище хозяина, обеспечивая исключительную защиту. Однако вес этой защиты серьезно замедляет хозяина.</EVOR_Item_Artifact_Tortoise.description>
+
+
+</LanguageData>

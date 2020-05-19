@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hybrid Implants Bases -->
+
+  <GR_CraftImplantSteelWireMesh.label>сделать гибридный имплант стальной сети (уровень 1)</GR_CraftImplantSteelWireMesh.label>
+  <GR_CraftImplantSteelWireMesh.description>Сделать гибридный имплант стальной сети.</GR_CraftImplantSteelWireMesh.description>
+  <GR_CraftImplantSteelWireMesh.jobString>делает гибридный имплант стальной сети</GR_CraftImplantSteelWireMesh.jobString>
+
+  <GR_CraftImplantPlasteelWireMesh.label>сделать гибридный имплант пласталевой сети</GR_CraftImplantPlasteelWireMesh.label>
+  <GR_CraftImplantPlasteelWireMesh.description>Сделать гибридный имплант пласталевой сети.</GR_CraftImplantPlasteelWireMesh.description>
+  <GR_CraftImplantPlasteelWireMesh.jobString>Делает гибридный имплант сети.</GR_CraftImplantPlasteelWireMesh.jobString>
+
+  <GR_CraftImplantUraniumWireMesh.label>сделать гибридный имплант урановой сети (уровень 3)</GR_CraftImplantUraniumWireMesh.label>
+  <GR_CraftImplantUraniumWireMesh.description>Сделать гибридный имплант урановой сети.</GR_CraftImplantUraniumWireMesh.description>
+  <GR_CraftImplantUraniumWireMesh.jobString>делает имплант сеть</GR_CraftImplantUraniumWireMesh.jobString>
+
+
+  <!-- Legs -->
+
+  <GR_BearLeg.label>имплант животного: нога медведя (уровень 1)</GR_BearLeg.label>
+  <GR_BearLeg.description>Сделать протез ноги животного усиленный медвежьими мышцами, и заканчивающаяся мощным медвежьими когтями, которые добавляют мощную атаку в ближнем бою.</GR_BearLeg.description>
+  <GR_BearLeg.jobString>делает имплант ноги медведя.</GR_BearLeg.jobString>
+
+  <GR_LizardLeg.label>имплант животного: бионическая нога ящера (уровень 2)</GR_LizardLeg.label>
+  <GR_LizardLeg.description>Сделать бионическую ногу животного усиленную жесткой кожей ящерицы.</GR_LizardLeg.description>
+  <GR_LizardLeg.jobString>делает имплант ноги ящера.</GR_LizardLeg.jobString>
+
+  <GR_ThrumboLeg.label>имплант животного: бионическая нога трумбо (уровень 3)</GR_ThrumboLeg.label>
+  <GR_ThrumboLeg.description>Сделать бионическую ногу животного усиленную мышечной тканью мощного трумбо.</GR_ThrumboLeg.description>
+  <GR_ThrumboLeg.jobString>делает имплант ноги трумбо.</GR_ThrumboLeg.jobString>
+
+
+  <!-- Tail -->
+
+  <GR_ScytherTail.label>имплант животного: хвост жнеца (уровень 2)</GR_ScytherTail.label>
+  <GR_ScytherTail.description>Сделать хвост жнеца, прикрепив клинок жнеца к хвосту животного. Хммм... куда ты положил все старые клинки жнецов? Вы поспрашивали и в наши дни караваны, похоже не торгуют ими... Ну, вам придется изготовить один используя коктейль из разных генов. Обратите внимание, что только существа с естественным хвостом смогут использовать этот имплант.</GR_ScytherTail.description>
+  <GR_ScytherTail.jobString>делает имплант хвост жнеца.</GR_ScytherTail.jobString>
+
+  <GR_MechaTail.label>имплант животного: хвост механоида (уровень 3)</GR_MechaTail.label>
+  <GR_MechaTail.description>Сделать передовой хвост механоида еще более мощный, чем старый хвост жнеца. Обратите внимание, что только существа с естественным хвостом могут использовать этот имплант.</GR_MechaTail.description>
+  <GR_MechaTail.jobString>делает имплант хвост механоида.</GR_MechaTail.jobString>
+
+
+  <!-- Eyes -->
+
+  <GR_CanidEye.label>имплант животного: канид глаз (уровень 1)</GR_CanidEye.label>
+  <GR_CanidEye.description>Сделать имплант глаза, который использует генетическое сращивание с генами канид, чтобы придать старому (или поврежденному) глазу нормальное зрение. Этот имплант не предназначен для замены здоровых глаз.</GR_CanidEye.description>
+  <GR_CanidEye.jobString>делает имплант канид глаз.</GR_CanidEye.jobString>
+
+  <GR_InsectileEye.label>имплант животного: глаз инсектоида (уровень 2)</GR_InsectileEye.label>
+  <GR_InsectileEye.description>Сделать бионический имплант, который дает существам сложные глаза инсектоида. По сравнению с простыми глазами, сложные обладают очень большим углом обзора и способны замечать быстрые движения.</GR_InsectileEye.description>
+  <GR_InsectileEye.jobString>делает имплант глаз инсектоида.</GR_InsectileEye.jobString>
+
+  <GR_ThrumboEye.label>имплант животного: бионический глаз трумбо (уровень 3)</GR_ThrumboEye.label>
+  <GR_ThrumboEye.description>Сделать бионический глаз усиленный специализированными фоторецепторами от сильного трубмо.</GR_ThrumboEye.description>
+  <GR_ThrumboEye.jobString>делает имплант бионический глаз.</GR_ThrumboEye.jobString>
+
+
+  <!-- Ears -->
+
+  <GR_RodentEar.label>имплант животного: ухо грызуна (уровень 1)</GR_RodentEar.label>
+  <GR_RodentEar.description>Сделать имплант уха, который применяет генетическое сращивание с генами грызунов, чтобы придать старому (или поврежденному) уху нормальный слух. Этот имплант не предназначен для замены здоровых ушей.</GR_RodentEar.description>
+  <GR_RodentEar.jobString>делает имплант ухо грызуна.</GR_RodentEar.jobString>
+
+  <GR_MothTympanalOrgan.label>имплант животного: тимпанальный орган мотылька (уровень 2)</GR_MothTympanalOrgan.label>
+  <GR_MothTympanalOrgan.description>Сделать бионический имплант добавив тимпанальный орган мотылька к уху существа. Мотыльки могут слышать звуки более высоких частот, чем может создать любая летучая мышь.</GR_MothTympanalOrgan.description>
+  <GR_MothTympanalOrgan.jobString>делает имплант тимпанальный орган мотылька.</GR_MothTympanalOrgan.jobString>
+
+  <GR_MechaReceptors.label>имплант животного: слуховые рецепторы маханоида (уровень 3)</GR_MechaReceptors.label>
+  <GR_MechaReceptors.description>Сделать слуховые рецепторы механоида, которые могут сканировать очень широкий диапазон частот.</GR_MechaReceptors.description>
+  <GR_MechaReceptors.jobString>делает имплант слуховые рецепторы маханоида.</GR_MechaReceptors.jobString>
+
+
+  <!-- Noses -->
+
+  <GR_RodentNose.label>имплант животного: нос грызуна (уровень 1)</GR_RodentNose.label>
+  <GR_RodentNose.description>Сделать имплант, который применяет генетическое сращивание с генами грызунов, чтобы придать старому (или поврежденному) носу нормальный нюх. Этот имплант не предназначен для замены здоровых носов. Нельзя вживлять птицам и насекомым.</GR_RodentNose.description>
+  <GR_RodentNose.jobString>делает имплант нос грызуна.</GR_RodentNose.jobString>
+
+  <GR_InsectoidPheromones.label>имплант животного: феромоны инсектоида (уровень 2)</GR_InsectoidPheromones.label>
+  <GR_InsectoidPheromones.description>Сделать имплант, который применяет генетическое сращивание с чужеродными генами инсектоидов, чтобы дать возможность обнаруживать феромоны, тем самым улучшая органы обоняния. Нельзя вживлять птицам и (по иронии судьбы) насекомым.</GR_InsectoidPheromones.description>
+  <GR_InsectoidPheromones.jobString>делает имплант феромоны инсектоида.</GR_InsectoidPheromones.jobString>
+
+  <GR_MiniatureThrumboHorn.label>имплант животного: миниатюрный рог трумбо (уровень 3)</GR_MiniatureThrumboHorn.label>
+  <GR_MiniatureThrumboHorn.description>Сделать бионический имплант для добавления небольшого рога трумбо туда, где раньше был нос существа. Этот имплант работает как нос, позволяя существу дышать и чувствовать запахи, и может использоваться существом в ближнем бою. Птицы, насекомые и существа, у которых уже есть рог трумбо не имеют достаточно места на черепе для вживления этого импланта.</GR_MiniatureThrumboHorn.description>
+  <GR_MiniatureThrumboHorn.jobString>делает имплант миниатюрный рог трумбо.</GR_MiniatureThrumboHorn.jobString>
+
+
+  <!-- Jaws -->
+
+  <GR_WolfJaws.label>имплант животного: челюсти волка (уровень 1)</GR_WolfJaws.label>
+  <GR_WolfJaws.description>Сделать имплант, который применяет генетическое сращивание с генами волка, чтобы придать старой (или поврежденной) челюсти нормальное функционирование. Этот имплант не предназначен для замены здоровых челюстей.</GR_WolfJaws.description>
+  <GR_WolfJaws.jobString>делает имплант челюсти волк.</GR_WolfJaws.jobString>
+
+  <GR_InsectMandibles.label>имплант животного: мандибулы инсектоидов (уровень 2)</GR_InsectMandibles.label>
+  <GR_InsectMandibles.description>Сделать бионический имплант добавляя мандибулы насекомых к лицу существа. Мандибулы насекомых улучшают работу и прием пищи, а также работают как вспомогательное оружие.</GR_InsectMandibles.description>
+  <GR_InsectMandibles.jobString>делает имплант мандибулы инсектоидов.</GR_InsectMandibles.jobString>
+
+  <GR_ThrumboJaws.label>имплант животного: бионические челюсти трумбо (уровень 3)</GR_ThrumboJaws.label>
+  <GR_ThrumboJaws.description>Сделайте бионический имплант добавляя челюсти трумбо в рот существа. Эти существа пожирают деревья, так что вы можете себе представить, как их челюсти справляются с задачами.</GR_ThrumboJaws.description>
+  <GR_ThrumboJaws.jobString>делает имплант бионические челюсти трумбо.</GR_ThrumboJaws.jobString>
+
+
+  <!-- Spines -->
+
+  <GR_MuffaloSpine.label>имплант животного: позвоночник муффало (уровень 1)</GR_MuffaloSpine.label>
+  <GR_MuffaloSpine.description>Сделать имплант позвоночника, который применяет генетическое сращивание с генами муффало, чтобы придать старому (или поврежденному) позвоночнику нормальное функционирование. Этот имплант не предназначен для замены здоровых позвоночников.</GR_MuffaloSpine.description>
+  <GR_MuffaloSpine.jobString>делает имплант позвоночник муффало.</GR_MuffaloSpine.jobString>
+
+  <GR_CrocodileSpine.label>имплант животного: позвоночник крокодила (уровень 2)</GR_CrocodileSpine.label>
+  <GR_CrocodileSpine.description>Сделать бионический имплант добавив крепкий позвоночник крокодила к скелетной системе существа.</GR_CrocodileSpine.description>
+  <GR_CrocodileSpine.jobString>делает имплант позвоночник крокодила.</GR_CrocodileSpine.jobString>
+
+  <GR_MechaSpine.label>имплант животного: позвоночник маханоида (уровень 3)</GR_MechaSpine.label>
+  <GR_MechaSpine.description>Сделать бионический имплант добавляя пасталевую конструкцию с активными механитами к скелетной системе существа.</GR_MechaSpine.description>
+  <GR_MechaSpine.jobString>делает имплант позвоночник маханоида.</GR_MechaSpine.jobString>
+
+
+  <!-- Brain -->
+
+  <GR_ChickenBrains.label>имплант животного: куриные мозги (уровень 1)</GR_ChickenBrains.label>
+  <GR_ChickenBrains.description>Сделать имплант, который использует куриную мозговую ткань для исправления поврежденных неврологических путей. Этот имплант предназначен для мертвых мозгов существ.</GR_ChickenBrains.description>
+  <GR_ChickenBrains.jobString>делает имплант куриные мозги.</GR_ChickenBrains.jobString>
+
+  <GR_MonitorLizardBrain.label>имплант животного: контроль мозга ящерицы (уровень 2)</GR_MonitorLizardBrain.label>
+  <GR_MonitorLizardBrain.description>Сделать бионический имплант, используя контроль мозга ящерицы. У этой довольно умной рептилии очень быстрые рефлексы.</GR_MonitorLizardBrain.description>
+  <GR_MonitorLizardBrain.jobString>делает имплант контроль мозга ящерицы.</GR_MonitorLizardBrain.jobString>
+
+  <GR_ThrumboBrain.label>имплант животного: бионический мозг трумбо (уровень 3)</GR_ThrumboBrain.label>
+  <GR_ThrumboBrain.description>Сделать бионический имплант мозга используя нервную ткань трумбо. Превосходный интеллект и рефлексы.</GR_ThrumboBrain.description>
+  <GR_ThrumboBrain.jobString>делает имплант бионический мозг трумбо.</GR_ThrumboBrain.jobString>
+
+
+  <!-- Hearts -->
+
+  <GR_BoomalopeHeart.label>имплант животного: сердце бумалопы (уровень 1)</GR_BoomalopeHeart.label>
+  <GR_BoomalopeHeart.description>Сделать имплант, который использует химическое топливо для перекачивания крови в теле животного. Этот имплант предназначен для существ, чье сердце катастрофически слабое, поскольку оно куда менее эффективно относительно естественного сердца.</GR_BoomalopeHeart.description>
+  <GR_BoomalopeHeart.jobString>делает имплант сердце бумалопы.</GR_BoomalopeHeart.jobString>
+
+  <GR_ChitinousHeart.label>имплант животного: хитиновое сердце (уровень 2)</GR_ChitinousHeart.label>
+  <GR_ChitinousHeart.description>Сделать бионический имплант сердца используя армированную оболочку хитина инсектоидов для защиты. Это сердце предназначено для биения. Каламбур, но он последний, я обещаю.</GR_ChitinousHeart.description>
+  <GR_ChitinousHeart.jobString>делает  имплант хитиновое сердце.</GR_ChitinousHeart.jobString>
+
+  <GR_MechaHeart.label>имплант животного: сердце маханоида (уровень 3)</GR_MechaHeart.label>
+  <GR_MechaHeart.description>Сделать бионическое сердце усиленное деятельностью активных механитов.</GR_MechaHeart.description>
+  <GR_MechaHeart.jobString>делает имплант сердце маханоида.</GR_MechaHeart.jobString>
+
+
+  <!-- Lungs -->
+
+  <GR_MuffaloLung.label>имплант животного: лёгкое муффало (уровень 1)</GR_MuffaloLung.label>
+  <GR_MuffaloLung.description>Сделать имплант, который применяет гены муффало для увеличения дыхательной способности.</GR_MuffaloLung.description>
+  <GR_MuffaloLung.jobString>делает имплант лёгкое муффало.</GR_MuffaloLung.jobString>
+
+
+  <!-- Liver -->
+
+  <GR_BearLiver.label>имплант животного: печень медведя (уровень 1)</GR_BearLiver.label>
+  <GR_BearLiver.description>Сделать имплант, который применяет гены медведя для улучшения функции печени. Особенно полезно для этих цыплят алкоголиков.</GR_BearLiver.description>
+  <GR_BearLiver.jobString>делает имплант печень медведя.</GR_BearLiver.jobString>
+
+
+  <!-- Kidney -->
+
+  <GR_ChickenKidney.label>имплант животного: почка курицы (уровень 1)</GR_ChickenKidney.label>
+  <GR_ChickenKidney.description>Сделать имплант, который использует гены курицы для улучшения функции почек. У птиц большие почки. Да, сегодня ты узнал об этом.</GR_ChickenKidney.description>
+  <GR_ChickenKidney.jobString>делает имплант почка курицы.</GR_ChickenKidney.jobString>
+
+
+  <!-- Stomach -->
+
+  <GR_BoomalopeStomach.label>имплант животного: желудок бумалопы (уровень 1)</GR_BoomalopeStomach.label>
+  <GR_BoomalopeStomach.description>Сделать имплант, который применяет гены бумалопы для улучшения функции желудка.</GR_BoomalopeStomach.description>
+  <GR_BoomalopeStomach.jobString>делает имплант желудок бумалопы.</GR_BoomalopeStomach.jobString>
+
+
+  <!-- Human Hybrid Implants -->
+
+  <GR_CraftBearClaws.label>имплант человека: когти медведя</GR_CraftBearClaws.label>
+  <GR_CraftBearClaws.description>Сделать медвежьи когти, гибридный имплант, содержащий гуманоидную и медвежью ДНК, которая добавляет мощную атаку ближнего боя.</GR_CraftBearClaws.description>
+  <GR_CraftBearClaws.jobString>Делает когти медведя.</GR_CraftBearClaws.jobString>
+
+  <GR_CraftOvipositor.label>имплант человека: яйцеклад</GR_CraftOvipositor.label>
+  <GR_CraftOvipositor.description>Создайте яйцеклад, гибридный имплант, содержащий гуманоидную и куриную ДНК, которые... вы уверены, что это хорошая идея? В самом деле? Бесплатные человеческие яйца? Тьфу...</GR_CraftOvipositor.description>
+  <GR_CraftOvipositor.jobString>Делает яйцеклад.</GR_CraftOvipositor.jobString>
+
+  <GR_CraftMuffaloMuscles.label>имплант человека: мускулы муффало</GR_CraftMuffaloMuscles.label>
+  <GR_CraftMuffaloMuscles.description>Сделать мускулы муффало, гибридный имплант, содержащий гуманоидную и муффловую ДНК, которая усиливает мышечную систему субъекта.</GR_CraftMuffaloMuscles.description>
+  <GR_CraftMuffaloMuscles.jobString>Делает мускулы муффало.</GR_CraftMuffaloMuscles.jobString>
+
+  <GR_CraftMuffaloMammaries.label>имплант человека: молочные железы муффало</GR_CraftMuffaloMammaries.label>
+  <GR_CraftMuffaloMammaries.description>Имплантируя молочные железы муффало в колониста... Подождите, что??? Кто придумал эту идею????? В любом случае... этот имплант позволяет доить вашего колониста... Тьфу, я сдаюсь.</GR_CraftMuffaloMammaries.description>
+  <GR_CraftMuffaloMammaries.jobString>Делает молочные железы муффало</GR_CraftMuffaloMammaries.jobString>
+
+  <GR_CraftBoomalopeNodules.label>имплант человека: наросты бумалопы</GR_CraftBoomalopeNodules.label>
+  <GR_CraftBoomalopeNodules.description>Сделать наросты бумалопы, гибридный имплант, содержащий гуманоидную и бумалоповую ДНК, который вызывает огромный взрыв, если субъект гибнет.</GR_CraftBoomalopeNodules.description>
+  <GR_CraftBoomalopeNodules.jobString>Делает наросты бумалопы.</GR_CraftBoomalopeNodules.jobString>
+
+  <GR_CraftWolfMuscularFibers.label>имплант человека: мышечные волокна волка</GR_CraftWolfMuscularFibers.label>
+  <GR_CraftWolfMuscularFibers.description>Создайте волчьи мышечные волокна, которые могут модифицировать ноги субъекта путем сплетения гибридных человеческих / волчьих мышечных волокон в основной ткани, придавая им значительную силу и увеличение скорости.</GR_CraftWolfMuscularFibers.description>
+  <GR_CraftWolfMuscularFibers.jobString>Делает мышечные волокна волка.</GR_CraftWolfMuscularFibers.jobString>
+
+  <GR_CraftBunnyEars.label>имплант человека: уши кролика</GR_CraftBunnyEars.label>
+  <GR_CraftBunnyEars.description>Сделать уши кролика. Эти огромные зайцевые уши дают потрясающий усиленный слух. Кроме того, супер миилые!</GR_CraftBunnyEars.description>
+  <GR_CraftBunnyEars.jobString>делает уши кролика</GR_CraftBunnyEars.jobString>
+
+  <GR_CraftInsectoidAntennae.label>имплант человека: антенну инсектоида</GR_CraftInsectoidAntennae.label>
+  <GR_CraftInsectoidAntennae.description>Сделать гибридные гуманоидные / инсектоидные придатки, которые могут быть имплантированы в голову субъекта, полностью изменяя способ, которым субъект «видит» и чувствует окружающий мир. Опыт может быть немного подавляющим из-за сенсорной перегрузки.</GR_CraftInsectoidAntennae.description>
+  <GR_CraftInsectoidAntennae.jobString>Делает антенну инсектоида.</GR_CraftInsectoidAntennae.jobString>
+
+  <GR_CraftHumanThrumboHorn.label>имплант человека: рог трумбо</GR_CraftHumanThrumboHorn.label>
+  <GR_CraftHumanThrumboHorn.description>Генетически модифицированный рог трумбо, который может быть имплантирован в лоб субъекта. Противный.</GR_CraftHumanThrumboHorn.description>
+  <GR_CraftHumanThrumboHorn.jobString>Делает рог трумбо.</GR_CraftHumanThrumboHorn.jobString>
+
+  <GR_CraftVenomousFangs.label>имплант человека: ядовитые клыки</GR_CraftVenomousFangs.label>
+  <GR_CraftVenomousFangs.description>Этот гибридный имплант заменяет челюсть субъекта множеством ядовитых клыков. Полезен в бою, но не очень удобен.</GR_CraftVenomousFangs.description>
+  <GR_CraftVenomousFangs.jobString>Делает ядовитые клыки.</GR_CraftVenomousFangs.jobString>
+
+
+</LanguageData>

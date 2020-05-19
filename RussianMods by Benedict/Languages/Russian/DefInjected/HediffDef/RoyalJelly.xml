@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_RoyalJellyHigh.label>королевское желе - тепло</GR_RoyalJellyHigh.label>
+
+
+  <!-- Ambrosia addiction -->
+
+  <GR_RoyalJellyTolerance.label>толерантность к королевскому желе</GR_RoyalJellyTolerance.label>
+  <GR_RoyalJellyTolerance.stages.0.label>малая</GR_RoyalJellyTolerance.stages.0.label>
+  <GR_RoyalJellyTolerance.stages.1.label>малая</GR_RoyalJellyTolerance.stages.1.label>
+  <GR_RoyalJellyTolerance.stages.2.label>большая</GR_RoyalJellyTolerance.stages.2.label>
+  <GR_RoyalJellyTolerance.stages.3.label>огромная</GR_RoyalJellyTolerance.stages.3.label>
+
+  <GR_RoyalJellyAddiction.label>зависимость от королевского желе</GR_RoyalJellyAddiction.label>
+  <GR_RoyalJellyAddiction.stages.1.label>ломка</GR_RoyalJellyAddiction.stages.1.label>
+
+
+</LanguageData>

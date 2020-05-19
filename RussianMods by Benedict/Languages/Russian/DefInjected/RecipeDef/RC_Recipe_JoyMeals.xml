@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCandy.label>сделать конфеты</MakeCandy.label>
+  <MakeCandy.description>Использовать сладости, чтобы сделать вкусные, вкусные конфеты. Сделать 5.</MakeCandy.description>
+  <MakeCandy.jobString>делает конфеты.</MakeCandy.jobString>
+
+  <MakeCandyBulk.label>сделать много конфет</MakeCandyBulk.label>
+  <MakeCandyBulk.description>Использовать сладости, чтобы сделать вкусные, вкусные конфеты. Сделать 25.</MakeCandyBulk.description>
+  <MakeCandyBulk.jobString>делает конфеты.</MakeCandyBulk.jobString>
+
+  <MakePastry.label>выпечь кондитерские изделия</MakePastry.label>
+  <MakePastry.description>Использовать сладости для выпечки. Нет, не пироги, кондитерские изделия! Однако будьте осторожны с любыми правоохранительными органами, поскольку они все съедят. Сделать 5</MakePastry.description>
+  <MakePastry.jobString>выпекает кондитерские изделия.</MakePastry.jobString>
+
+  <MakePastryBulk.label>выпечь много кондитерских изделий</MakePastryBulk.label>
+  <MakePastryBulk.description>Использовать сладости для выпечки. Нет, не пироги, кондитерские изделия! Однако будьте осторожны с любыми правоохранительными органами, поскольку они все съедят. Сделать 25</MakePastryBulk.description>
+  <MakePastryBulk.jobString>выпекает кондитерские изделия.</MakePastryBulk.jobString>
+
+  <RC_MakeTart.label>испечь фруктовых пирогов</RC_MakeTart.label>
+  <RC_MakeTart.description>Использовать сочетание фруктов сладостей и муки, чтобы выпечь вкусные пироги. Сделать 10.</RC_MakeTart.description>
+  <RC_MakeTart.jobString>делает сладости.</RC_MakeTart.jobString>
+
+  <RC_MakeTartBulk.label>испечь много фруктовых пирогов</RC_MakeTartBulk.label>
+  <RC_MakeTartBulk.description>Использовать сочетание фруктов сладостей и муки, чтобы выпечь вкусные пироги. Сделать 10.</RC_MakeTartBulk.description>
+  <RC_MakeTartBulk.jobString>делает сладости.</RC_MakeTartBulk.jobString>
+
+  <MakeJuice.label>сделать сок</MakeJuice.label>
+  <MakeJuice.description>Использовать один или больше фруктов, чтобы сделать вкусный сок. Сделать 5.</MakeJuice.description>
+  <MakeJuice.jobString>делает сок.</MakeJuice.jobString>
+
+  <MakeJuiceBulk.label>сделать много сока</MakeJuiceBulk.label>
+  <MakeJuiceBulk.description>Использовать один или больше фруктов, чтобы сделать вкусный сок. Сделать 25.</MakeJuiceBulk.description>
+  <MakeJuiceBulk.jobString>делает сок.</MakeJuiceBulk.jobString>
+
+  <ProcessCoffee.label>сварить кофе</ProcessCoffee.label>
+  <ProcessCoffee.description>Сварить из сырых кофейных зёрен вкусный кофе.</ProcessCoffee.description>
+  <ProcessCoffee.jobString>варит кофе.</ProcessCoffee.jobString>
+
+  <ProcessCoffeeBulk.label>сварить много кофе</ProcessCoffeeBulk.label>
+  <ProcessCoffeeBulk.description>Сварить из сырых кофейных зёрен вкусный кофе. Объёмный Рецепт!</ProcessCoffeeBulk.description>
+  <ProcessCoffeeBulk.jobString>варит кофе.</ProcessCoffeeBulk.jobString>
+
+  <BrewTea.label>сварить зелёный чай</BrewTea.label>
+  <BrewTea.description>Заварить из чайных листьев зелёный чай.</BrewTea.description>
+  <BrewTea.jobString>варит зелёный чай.</BrewTea.jobString>
+
+  <BrewTeaBulk.label>сварить много зелёного чая</BrewTeaBulk.label>
+  <BrewTeaBulk.description>Заварить из чайных листьев зелёный чай. Объёмный рецепт сделать 5x</BrewTeaBulk.description>
+  <BrewTeaBulk.jobString>варит много зелёного чая.</BrewTeaBulk.jobString>
+
+
+</LanguageData>

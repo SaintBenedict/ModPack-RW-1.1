@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Boomalope -->
+
+  <GR_Bearalope.label>медведелопа</GR_Bearalope.label>
+  <GR_Bearalope.description>Гибрид медведя / бумалопы. Не такой сильный в ближнем бою, как обычный медведь, но его нестабильные химические резервуары взрываются с большой силой, когда он умирает. К сожалению, крайняя вирулентность этих химикатов вредна для существа и у него очень короткая, жалкая продолжительность жизни.\n\nПолезные способности:Большой взрыв вызывается смертью гибрида. Достойное производство химического топлива.</GR_Bearalope.description>
+  <GR_Bearalope.tools.0.label>левый коготь</GR_Bearalope.tools.0.label>
+  <GR_Bearalope.tools.1.label>правый коготь</GR_Bearalope.tools.1.label>
+  <GR_Bearalope.tools.3.label>голова</GR_Bearalope.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_Bearalope_Corpse.label>Труп медведелопы</GR_Bearalope_Corpse.label>
+  <GR_Bearalope_Corpse.description>Труп медведелопы.</GR_Bearalope_Corpse.description>
+
+
+  <!-- Bear - Chicken -->
+
+  <GR_Bearchicken.label>медвекур</GR_Bearchicken.label>
+  <GR_Bearchicken.description>Гибрид медведя / курицы. Прозвище «сова» среди колонистов. Гораздо слабее в ближнем бою, чем обычный медведь, но он откладывает яйца и очевидно, может защищаться в бою гораздо лучше, чем курица.\n\nПолезные способности:Откладывает яйца и регулярно производит перья, которые могут быть превращены в косяк из пыль-перьев.</GR_Bearchicken.description>
+  <GR_Bearchicken.tools.0.label>левый коготь</GR_Bearchicken.tools.0.label>
+  <GR_Bearchicken.tools.1.label>правый коготь</GR_Bearchicken.tools.1.label>
+  <GR_Bearchicken.tools.3.label>голова</GR_Bearchicken.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_Bearchicken_Corpse.label>Труп медвекура</GR_Bearchicken_Corpse.label>
+  <GR_Bearchicken_Corpse.description>Труп медвекура.</GR_Bearchicken_Corpse.description>
+
+
+  <!-- Bear - Muffalo -->
+
+  <GR_Bearffalo.label>медведеффало</GR_Bearffalo.label>
+  <GR_Bearffalo.description>Гибрид медведя / муффало. Производит молоко и шерсть, это стайное животное, как муффало, в то же время немного лучше в бою. Это слишком темпераментно для стайного зверя.\n\nПолезные способности:Производит специальное высококачественное молоко и шерсть. Ведёт себя как стайный зверь.</GR_Bearffalo.description>
+  <GR_Bearffalo.tools.0.label>левый коготь</GR_Bearffalo.tools.0.label>
+  <GR_Bearffalo.tools.1.label>правый коготь</GR_Bearffalo.tools.1.label>
+  <GR_Bearffalo.tools.3.label>голова</GR_Bearffalo.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_Bearffalo_Corpse.label>Труп медведеффало</GR_Bearffalo_Corpse.label>
+  <GR_Bearffalo_Corpse.description>Труп медведеффало.</GR_Bearffalo_Corpse.description>
+
+
+  <!-- Bear - Wolf -->
+
+  <GR_Bearwolf.label>медведеволк</GR_Bearwolf.label>
+  <GR_Bearwolf.description>Гибрид медведя / волка. Сильный как медведь и быстр, как волк. Отличные быстрые удары, но их быстрый метаболизм означает, что им нужно много еды.\n\nПолезные способности:Хороший охранник. Разделка дает клыки медвеволка, которые можно продать.</GR_Bearwolf.description>
+  <GR_Bearwolf.tools.0.label>левый коготь</GR_Bearwolf.tools.0.label>
+  <GR_Bearwolf.tools.1.label>правый коготь</GR_Bearwolf.tools.1.label>
+  <GR_Bearwolf.tools.3.label>голова</GR_Bearwolf.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_Bearwolf_Corpse.label>Труп медведеволка</GR_Bearwolf_Corpse.label>
+  <GR_Bearwolf_Corpse.description>Труп медведеволка.</GR_Bearwolf_Corpse.description>
+
+
+  <!-- Use Leather From: GrizzlyBear -->
+  <!-- Use Meat From: GrizzlyBear -->
+
+</LanguageData>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Legs -->
+
+  <GR_BearLeg.label>имплант животного: нога медведя (уровень 1)</GR_BearLeg.label>
+  <GR_BearLeg.description>Протез ноги животного усиленный медвежьими мышцами, и заканчивающаяся мощным медвежьими когтями, которые добавляют мощную атаку в ближнем бою.</GR_BearLeg.description>
+
+  <GR_LizardLeg.label>имплант животного: нога ящера (уровень 2)</GR_LizardLeg.label>
+  <GR_LizardLeg.description>Бионическая нога животного усиленная жесткой кожей ящерицы.</GR_LizardLeg.description>
+
+  <GR_ThrumboLeg.label>имплант животного: нога трумбо (уровень 3)</GR_ThrumboLeg.label>
+  <GR_ThrumboLeg.description>Бионическая нога животного усиленная мышечной тканью мощного трумбо.</GR_ThrumboLeg.description>
+
+
+  <!-- Tails -->
+
+  <GR_ScytherTail.label>имплант животного: хвост жнеца (уровень 2)</GR_ScytherTail.label>
+  <GR_ScytherTail.description>Хвост жнеца созданный прикреплением клинка жнеца к хвосту животного. Обратите внимание, что только существа с естественным хвостом смогут использовать этот имплант.</GR_ScytherTail.description>
+
+  <GR_MechaTail.label>имплант животного: хвост механоида (уровень 3)</GR_MechaTail.label>
+  <GR_MechaTail.description>Передовой хвост механоида еще более мощный, чем старый хвост жнеца. Обратите внимание, что только существа с естественным хвостом смогут использовать этот имплант.</GR_MechaTail.description>
+
+
+  <!-- Eyes -->
+
+  <GR_CanidEye.label>имплант животного: канид глаз (уровень 1)</GR_CanidEye.label>
+  <GR_CanidEye.description>Имплант глаза, который использует генетическое сращивание с генами канид, чтобы придать старому (или поврежденному) глазу нормальное зрение. Этот имплант не предназначен для замены здоровых глаз.</GR_CanidEye.description>
+
+  <GR_InsectileEye.label>имплант животного: глаз инсектоида (уровень 2)</GR_InsectileEye.label>
+  <GR_InsectileEye.description>Бионический имплант, который дает существам сложные глаза инсектоида. По сравнению с простыми глазами, сложные обладают очень большим углом обзора и способны замечать быстрые движения.</GR_InsectileEye.description>
+
+  <GR_ThrumboEye.label>имплант животного: бионический глаз трумбо (уровень 3)</GR_ThrumboEye.label>
+  <GR_ThrumboEye.description>Бионический глаз усиленный специализированными фоторецепторами от сильного трубмо.</GR_ThrumboEye.description>
+
+
+  <!-- Ears -->
+
+  <GR_RodentEar.label>имплант животного: ухо грызуна (уровень 1)</GR_RodentEar.label>
+  <GR_RodentEar.description>Имплант уха, который применяет генетическое сращивание с генами грызунов, чтобы придать старому (или поврежденному) уху нормальный слух. Этот имплант не предназначен для замены здоровых ушей.</GR_RodentEar.description>
+
+  <GR_MothTympanalOrgan.label>имплант животного: тимпанальный орган мотылька (уровень 2)</GR_MothTympanalOrgan.label>
+  <GR_MothTympanalOrgan.description>Бионический имплант добавив тимпанальный орган мотылька к уху существа. Мотыльки могут слышать звуки более высоких частот, чем может создать любая летучая мышь.</GR_MothTympanalOrgan.description>
+
+  <GR_MechaReceptors.label>имплант животного: слуховые рецепторы маханоида (уровень 3)</GR_MechaReceptors.label>
+  <GR_MechaReceptors.description>Слуховые рецепторы механоида, которые могут сканировать очень широкий диапазон частот.</GR_MechaReceptors.description>
+
+
+  <!-- Noses -->
+
+  <GR_RodentNose.label>имплант животного: нос грызуна (уровень 1)</GR_RodentNose.label>
+  <GR_RodentNose.description>Имплант, который применяет генетическое сращивание с генами грызунов, чтобы придать старому (или поврежденному) носу нормальный нюх. Этот имплант не предназначен для замены здоровых носов. Нельзя вживлять птицам и насекомым.</GR_RodentNose.description>
+
+  <GR_InsectoidPheromones.label>имплант животного: феромоны инсектоида (уровень 2)</GR_InsectoidPheromones.label>
+  <GR_InsectoidPheromones.description>Имплант, который применяет генетическое сращивание с чужеродными генами инсектоидов, чтобы дать возможность обнаруживать феромоны, тем самым улучшая органы обоняния. Нельзя вживлять птицам и (по иронии судьбы) насекомым.</GR_InsectoidPheromones.description>
+
+  <GR_MiniatureThrumboHorn.label>имплант животного: миниатюрный рог трумбо (уровень 3)</GR_MiniatureThrumboHorn.label>
+  <GR_MiniatureThrumboHorn.description>Бионический имплант добавляет небольшой рог трумбо туда, где раньше был нос существа. Этот имплант работает как нос, позволяя существу дышать и чувствовать запахи, и может использоваться существом в ближнем бою. Птицы, насекомые и существа, у которых уже есть рог трумбо не имеют достаточно места на черепе для вживления этого импланта.</GR_MiniatureThrumboHorn.description>
+
+
+  <!-- Jaws -->
+
+  <GR_WolfJaws.label>имплант животного: челюсти волка (уровень 1)</GR_WolfJaws.label>
+  <GR_WolfJaws.description>Имплант, который применяет генетическое сращивание с генами волка, чтобы придать старой (или поврежденной) челюсти нормальное функционирование. Этот имплант не предназначен для замены здоровых челюстей.</GR_WolfJaws.description>
+
+  <GR_InsectMandibles.label>имплант животного: мандибулы инсектоидов (уровень 2)</GR_InsectMandibles.label>
+  <GR_InsectMandibles.description>Бионический имплант добавляет мандибулы насекомых к лицу существа. Мандибулы насекомых улучшают работу и прием пищи, а также работают как вспомогательное оружие.</GR_InsectMandibles.description>
+
+  <GR_ThrumboJaws.label>имплант животного: бионические челюсти трумбо (уровень 3)</GR_ThrumboJaws.label>
+  <GR_ThrumboJaws.description>Бионический имплант добавляет челюсти трумбо в рот существа. Эти существа пожирают деревья, так что вы можете себе представить, как их челюсти справляются с задачами.</GR_ThrumboJaws.description>
+
+
+  <!-- Spines -->
+
+  <GR_MuffaloSpine.label>имплант животного: позвоночник муффало (уровень 1)</GR_MuffaloSpine.label>
+  <GR_MuffaloSpine.description>Имплант позвоночника, который применяет генетическое сращивание с генами муффало, чтобы придать старому (или поврежденному) позвоночнику нормальное функционирование. Этот имплант не предназначен для замены здоровых позвоночников.</GR_MuffaloSpine.description>
+
+  <GR_CrocodileSpine.label>имплант животного: позвоночник крокодила (уровень 2)</GR_CrocodileSpine.label>
+  <GR_CrocodileSpine.description>Бионический имплант добавляет крепкий позвоночник крокодила к скелетной системе существа.</GR_CrocodileSpine.description>
+
+  <GR_MechaSpine.label>имплант животного: позвоночник маханоида (уровень 3)</GR_MechaSpine.label>
+  <GR_MechaSpine.description>Бионический имплант добавляет пасталевую конструкцию с активными механитами к скелетной системе существа.</GR_MechaSpine.description>
+
+
+  <!-- Brains -->
+
+  <GR_ChickenBrains.label>имплант животного: куриные мозги (уровень 1)</GR_ChickenBrains.label>
+  <GR_ChickenBrains.description>Имплант, который использует куриную мозговую ткань для исправления поврежденных неврологических путей. Этот имплант предназначен для мертвых мозгов существ.</GR_ChickenBrains.description>
+
+  <GR_MonitorLizardBrain.label>имплант животного: контроль мозга ящерицы (уровень 2)</GR_MonitorLizardBrain.label>
+  <GR_MonitorLizardBrain.description>Бионический имплант, использует контроль мозга ящерицы. У этой довольно умной рептилии очень быстрые рефлексы.</GR_MonitorLizardBrain.description>
+
+  <GR_ThrumboBrain.label>имплант животного: бионический мозг трумбо (уровень 3)</GR_ThrumboBrain.label>
+  <GR_ThrumboBrain.description>Бионический имплант мозга использует нервную ткань трумбо. Превосходный интеллект и рефлексы.</GR_ThrumboBrain.description>
+
+
+  <!-- Hearts -->
+
+  <GR_BoomalopeHeart.label>имплант животного: сердце бумалопы (уровень 1)</GR_BoomalopeHeart.label>
+  <GR_BoomalopeHeart.description>Имплант, который использует химическое топливо для перекачивания крови в теле животного. Этот имплант предназначен для существ, чье сердце катастрофически слабое, поскольку оно куда менее эффективно относительно естественного сердца.</GR_BoomalopeHeart.description>
+
+  <GR_ChitinousHeart.label>имплант животного: хитиновое сердце (уровень 2)</GR_ChitinousHeart.label>
+  <GR_ChitinousHeart.description>Бионический имплант сердца с армированной оболочкой из хитина инсектоидов для защиты. Это сердце предназначено для биения. Каламбур, но он последний, я обещаю.</GR_ChitinousHeart.description>
+
+  <GR_MechaHeart.label>имплант животного: сердце маханоида (уровень 3)</GR_MechaHeart.label>
+  <GR_MechaHeart.description>Бионическое сердце усиленное деятельностью активных механитов.</GR_MechaHeart.description>
+
+
+  <!-- Lungs -->
+
+  <GR_MuffaloLung.label>имплант животного: лёгкое муффало (уровень 1)</GR_MuffaloLung.label>
+  <GR_MuffaloLung.description>Имплант, который применяет гены муффало для увеличения дыхательной способности.</GR_MuffaloLung.description>
+
+
+  <!-- Liver -->
+
+  <GR_BearLiver.label>имплант животного: печень медведя (уровень 1)</GR_BearLiver.label>
+  <GR_BearLiver.description>Имплант, который применяет гены медведя для улучшения функции печени. Особенно полезно для этих цыплят алкоголиков.</GR_BearLiver.description>
+
+
+  <!-- Kidney -->
+
+  <GR_ChickenKidney.label>имплант животного: почка курицы (уровень 1)</GR_ChickenKidney.label>
+  <GR_ChickenKidney.description>Имплант, который использует гены курицы для улучшения функции почек. У птиц большие почки. Да, сегодня ты узнал об этом.</GR_ChickenKidney.description>
+
+
+  <!-- Stomach -->
+
+  <GR_BoomalopeStomach.label>имплант животного: желудок бумалопы (уровень 1)</GR_BoomalopeStomach.label>
+  <GR_BoomalopeStomach.description>Имплант, который применяет гены бумалопы для улучшения функции желудка.</GR_BoomalopeStomach.description>
+
+
+  <!-- Human Hybrid Implants -->
+
+  <GR_BearClaws.label>имплант человека: Когти медведя</GR_BearClaws.label>
+  <GR_BearClaws.description>Улучшение над бионическим силовым когтем, эти когти были выращены в чане со смесью человеческой и медвежьей ДНК и заменяют руку субъекта универсальными, не убирающимися когтями.</GR_BearClaws.description>
+
+  <GR_Ovipositor.label>имплант человека: Яйцеклад</GR_Ovipositor.label>
+  <GR_Ovipositor.description>Вы знаете, что зашли слишком далеко в своих научных экспериментах, когда вы насаждаете человека яйцекладом. Это позволит колонисту откладывать куриные яйца два раза в день. Однако это больно. Кроме того, гадостно.</GR_Ovipositor.description>
+
+  <GR_MuffaloMuscles.label>имплант человека: Усиленные мышцы муффало</GR_MuffaloMuscles.label>
+  <GR_MuffaloMuscles.description>Благодаря сплетению мускулатурных нитей с мышцами мышечной системы значительно повышаются сила, упругость и грузоподъемность.</GR_MuffaloMuscles.description>
+
+  <GR_MuffaloMammaries.label>имплант человека: молочные железы муффало</GR_MuffaloMammaries.label>
+  <GR_MuffaloMammaries.description>Имплантируя молочные железы муффало в колониста... Подождите, что??? Кто придумал эту идею????? В любом случае... этот имплант позволяет доить вашего колониста... Тьфу, я сдаюсь.</GR_MuffaloMammaries.description>
+
+  <GR_BoomalopeNodules.label>имплант человека: Наросты бумалопы</GR_BoomalopeNodules.label>
+  <GR_BoomalopeNodules.description>Эти кожаные наросты могут быть интегрированы в торс человека, вызывая огромный взрыв, если испытуемые гибнут.</GR_BoomalopeNodules.description>
+
+  <GR_WolfMuscularFibers.label>имплант человека: Волчьи мышечные волокна</GR_WolfMuscularFibers.label>
+  <GR_WolfMuscularFibers.description>Ноги испытуемых могут быть модифицированы путем сплетения гибридных человеческих / волчьих мышечных волокон в основную ткань, что дает ей значительную силу и увеличение скорости.</GR_WolfMuscularFibers.description>
+
+  <GR_BunnyEars.label>имплант человека: уши кролика</GR_BunnyEars.label>
+  <GR_BunnyEars.description>Эти огромные заячьи уши дают потрясающий усиленный слух. Кроме того, супер миилые!</GR_BunnyEars.description>
+
+  <GR_InsectoidAntennae.label>имплант человека: Усики инсектоидов</GR_InsectoidAntennae.label>
+  <GR_InsectoidAntennae.description>Этот гибрид гуманоидных / инсектоидных ощущений может быть имплантирован в голову субъекта, полностью изменяя то, как субъект «видит» и чувствует окружающий мир. Опыт может быть немного подавляющим из-за сенсорной перегрузки.</GR_InsectoidAntennae.description>
+
+  <GR_HumanThrumboHorn.label>имплант человека: Рог трумбо</GR_HumanThrumboHorn.label>
+  <GR_HumanThrumboHorn.description>Генетически модифицированный рог трумбо, который может быть имплантирован в лоб субъекта. Противный.</GR_HumanThrumboHorn.description>
+
+  <GR_VenomousFangs.label>имплант человека: Ядовитые клыки</GR_VenomousFangs.label>
+  <GR_VenomousFangs.description>Этот гибридный имплант заменяет челюсть субъекта множеством ядовитых клыков. Полезен в бою, но не очень удобен.</GR_VenomousFangs.description>
+
+
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Muffalo - Bear -->
+
+  <GR_Muffalobear.label>муффало-медведь</GR_Muffalobear.label>
+  <GR_Muffalobear.labelPlural>муффало-медведи</GR_Muffalobear.labelPlural>
+  <GR_Muffalobear.lifeStages.0.label>телёнок муффало-медведя</GR_Muffalobear.lifeStages.0.label>
+  <GR_Muffalobear.lifeStages.0.labelPlural>телята муффало-медведя</GR_Muffalobear.lifeStages.0.labelPlural>
+
+
+  <!-- Muffalo - Boomalope -->
+
+  <GR_Muffalope.label>муффалопа</GR_Muffalope.label>
+  <GR_Muffalope.labelPlural>муффалопы</GR_Muffalope.labelPlural>
+  <GR_Muffalope.lifeStages.0.label>телёнок муффалопы</GR_Muffalope.lifeStages.0.label>
+  <GR_Muffalope.lifeStages.0.labelPlural>телята муффалопы</GR_Muffalope.lifeStages.0.labelPlural>
+
+
+  <!-- Muffalo - Chicken -->
+
+  <GR_Muffalochicken.label>муффало-курица</GR_Muffalochicken.label>
+  <GR_Muffalochicken.labelPlural>муффало-курицы</GR_Muffalochicken.labelPlural>
+  <GR_Muffalochicken.lifeStages.0.label>телёнок муффало-курицы</GR_Muffalochicken.lifeStages.0.label>
+  <GR_Muffalochicken.lifeStages.0.labelPlural>телята муффало-курицы</GR_Muffalochicken.lifeStages.0.labelPlural>
+
+
+  <!-- Muffalo - Wolf -->
+
+  <GR_Muffalowolf.label>муффало-волк</GR_Muffalowolf.label>
+  <GR_Muffalowolf.labelPlural>муффало-волки</GR_Muffalowolf.labelPlural>
+  <GR_Muffalowolf.lifeStages.0.label>телёнок муффало-волка</GR_Muffalowolf.lifeStages.0.label>
+  <GR_Muffalowolf.lifeStages.0.labelPlural>телята муффало-волка</GR_Muffalowolf.lifeStages.0.labelPlural>
+
+
+</LanguageData>

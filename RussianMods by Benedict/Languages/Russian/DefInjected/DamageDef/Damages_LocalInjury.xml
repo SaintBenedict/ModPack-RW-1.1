@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_VeryToxicBite.label>Вирулентный ядовитый укус</GR_VeryToxicBite.label>
+  <GR_VeryToxicBite.deathMessage>{0} был искусан до смерти.</GR_VeryToxicBite.deathMessage>
+
+  <GR_LightToxicBite.label>Легкий токсический укус</GR_LightToxicBite.label>
+  <GR_LightToxicBite.deathMessage>{0} был искусан до смерти.</GR_LightToxicBite.deathMessage>
+
+  <GR_ToxicExplosion.label>Токсический взрыв</GR_ToxicExplosion.label>
+  <GR_ToxicExplosion.deathMessage>{0} был убит.</GR_ToxicExplosion.deathMessage>
+
+  <GR_PlagueBite.label>чумной укус</GR_PlagueBite.label>
+  <GR_PlagueBite.deathMessage>{0} был искусан до смерти.</GR_PlagueBite.deathMessage>
+
+  <GR_MiniGrain.label>бомба</GR_MiniGrain.label>
+  <GR_MiniGrain.deathMessage>{0} умер во время взрыва.</GR_MiniGrain.deathMessage>
+
+
+</LanguageData>

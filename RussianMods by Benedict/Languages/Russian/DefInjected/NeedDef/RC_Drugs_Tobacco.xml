@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Nicotine addiction -->
+
+  <Chemical_Nicotine.label>никотин</Chemical_Nicotine.label>
+  <Chemical_Nicotine.description>Из-за никотиновой зависимости этот человек должен регулярно потреблять препарат, чтобы избежать симптомов отмены.</Chemical_Nicotine.description>
+
+
+</LanguageData>

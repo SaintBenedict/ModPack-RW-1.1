@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_NormalArm.label>ускоренная рука</EVOR_Item_NormalArm.label>
+  <EVOR_Item_NormalArm.description>Усиленные мышцы руки, а также улучшенная нервная система позволяют хозяину этой руки быстрее справляться с любыми задачами.</EVOR_Item_NormalArm.description>
+
+  <EVOR_Item_BoneSaber.label>костяная рука-сабля</EVOR_Item_BoneSaber.label>
+  <EVOR_Item_BoneSaber.description>Выращивая костяные отростки, которые способны сохранять неестественную остроту, мы можем создать придаток, более смертоносный, чем любой меч.</EVOR_Item_BoneSaber.description>
+
+  <EVOR_Item_HighPincer.label>пневмо-клешни</EVOR_Item_HighPincer.label>
+  <EVOR_Item_HighPincer.description>Когти на этой конечности сделаны из самого жесткого хитина, а также опираются на мышцы, более крепкие, чем челюстные у большинства животных. Конечным результатом являются клещи, которые могут раздавить любой металл, чтобы добраться до того, что прячется внутри.</EVOR_Item_HighPincer.description>
+
+  <EVOR_Item_SonicMace.label>звуковая булава</EVOR_Item_SonicMace.label>
+  <EVOR_Item_SonicMace.description>Эта конечность создана из массы укрепленной кости покрытой сложным рядом отверстий, которые служат для усиления звука. Результат: булава, которая создает большую дезориентирующую звуковую волну при ударе.</EVOR_Item_SonicMace.description>
+
+  <EVOR_Item_PlatedLimb.label>бронированная рука</EVOR_Item_PlatedLimb.label>
+  <EVOR_Item_PlatedLimb.description>В обмен на уменьшение способности к манипуляции предметами добавляет прочное хитиновое покрытие конечности, что позволяет пользователю парировать иные смертельные удары голой рукой.</EVOR_Item_PlatedLimb.description>
+
+
+  <!-- <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_ShockTentacle</defName>
+    <label>electroshock tentacle</label>
+    <description>While not possessing strong musculature, this tentacle's main purpose is to incapacitate an opponent with strong shocks of electricity.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Limbs2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>30</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>6</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef> -->
+
+  <EVOR_Item_RendingClaw.label>раздирающие когти</EVOR_Item_RendingClaw.label>
+  <EVOR_Item_RendingClaw.description>Хоть и менее ловкая, чем ускоренная рука, эта конечность снабжена острейшими когтями, которые усиливают возможности пользователя в сражении.</EVOR_Item_RendingClaw.description>
+
+
+</LanguageData>

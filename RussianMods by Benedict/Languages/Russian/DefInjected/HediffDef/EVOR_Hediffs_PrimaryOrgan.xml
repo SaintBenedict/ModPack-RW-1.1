@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Primary Heart -->
+
+  <EVOR_Hediff_Heart.label>сплетенное сердце</EVOR_Hediff_Heart.label>
+  <EVOR_Hediff_Heart.description>Переплетая мускулатуру в трех разных направлениях, а не в одном, это сердце получает не только больший контроль и объем кровотока, но и увеличивает эффективность за счет дополнительной мускулатуры.</EVOR_Hediff_Heart.description>
+  <EVOR_Hediff_Heart.labelNoun>сплетенное сердце</EVOR_Hediff_Heart.labelNoun>
+
+
+  <!-- Kidney -->
+
+  <EVOR_Hediff_Kidney.label>тройные почки</EVOR_Hediff_Kidney.label>
+  <EVOR_Hediff_Kidney.description>Благодаря созданию гениальной системы, в которой кровь трижды фильтруется без снижения других параметров производительности, эффективность этих почек резко возрастает.</EVOR_Hediff_Kidney.description>
+  <EVOR_Hediff_Kidney.labelNoun>тройные почки</EVOR_Hediff_Kidney.labelNoun>
+
+
+  <!-- Lung -->
+
+  <EVOR_Hediff_Lung.label>нано-альвеолы легких</EVOR_Hediff_Lung.label>
+  <EVOR_Hediff_Lung.description>Уменьшая размер альвеол до неслыханных размеров, резко увеличивается внутренняя площадь легких, позволяя перерабатывать больше газа, к сожалению также повышая всасываемость в кровь токсинов, содержащихся в воздухе.</EVOR_Hediff_Lung.description>
+  <EVOR_Hediff_Lung.labelNoun>нано-альвеолы легких</EVOR_Hediff_Lung.labelNoun>
+
+
+  <!-- Stomach -->
+
+  <EVOR_Hediff_Stomach.label>многокамерный желудок</EVOR_Hediff_Stomach.label>
+  <EVOR_Hediff_Stomach.description>Разделяя пищеварение в отдельные специализированные камеры, позволяет желудку эффективнее перерабатывать пищу и выделять из нее питательные вещества, увеличивая скорость пищеварения.</EVOR_Hediff_Stomach.description>
+  <EVOR_Hediff_Stomach.labelNoun>многокамерный желудок</EVOR_Hediff_Stomach.labelNoun>
+
+
+  <!-- Liver -->
+
+  <EVOR_Hediff_Liver.label>четырехдольная печень</EVOR_Hediff_Liver.label>
+  <EVOR_Hediff_Liver.description>Увеличив плотность клеток печени в два раза, можно расширить печень, включив в нее вдвое больше независимо действующих долей, увеличивая ее функциональность.</EVOR_Hediff_Liver.description>
+  <EVOR_Hediff_Liver.labelNoun>четырехдольная печень</EVOR_Hediff_Liver.labelNoun>
+
+
+</LanguageData>

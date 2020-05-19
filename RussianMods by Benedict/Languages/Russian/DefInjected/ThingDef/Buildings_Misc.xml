@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Spacer_SunLamp.label>солнечная термолампа</Spacer_SunLamp.label>
+	<Spacer_SunLamp.description>Большая водонепроницаемая лампа, которая производит достаточно света и тепла для выращивания растений в любое время года. Умеренно потребляет энергию и не отключается в ночное время.</Spacer_SunLamp.description>
+	<Spacer_SunLamp_Blueprint.label>солнечная термолампа (проект)</Spacer_SunLamp_Blueprint.label>
+	<Spacer_SunLamp_Blueprint_Install.label>солнечная термолампа (проект)</Spacer_SunLamp_Blueprint_Install.label>
+	<Spacer_SunLamp_Frame.label>солнечная термолампа (постройка)</Spacer_SunLamp_Frame.label>
+	<Spacer_SunLamp_Frame.description>Большая водонепроницаемая лампа, которая производит достаточно света и тепла для выращивания растений в любое время года. Умеренно потребляет энергию и не отключается в ночное время.</Spacer_SunLamp_Frame.description>
+
+	<Light_SpacerLamp.label>термолампа</Light_SpacerLamp.label>
+	<Light_SpacerLamp.description>Водонепроницаемый светильник со встроенным обогревателем, который способен поднять температуру в помещении до +15C.</Light_SpacerLamp.description>
+	<Light_SpacerLamp_Blueprint.label>термолампа (проект)</Light_SpacerLamp_Blueprint.label>
+	<Light_SpacerLamp_Blueprint_Install.label>термолампа (проект)</Light_SpacerLamp_Blueprint_Install.label>
+	<Light_SpacerLamp_Frame.label>термолампа (постройка)</Light_SpacerLamp_Frame.label>
+	<Light_SpacerLamp_Frame.description>Водонепроницаемый светильник со встроенным обогревателем, который способен поднять температуру в помещении до +15C.</Light_SpacerLamp_Frame.description>
+
+	<Shelf_RepairRack.label>ремполка</Shelf_RepairRack.label>
+	<Shelf_RepairRack.description>Высокотехнологичный станок в форме небольшой полки, который посредством механитов медленно восстанавливает изношенную одежду, броню или оружие.</Shelf_RepairRack.description>
+	<Shelf_RepairRack_Blueprint.label>ремполка (проект)</Shelf_RepairRack_Blueprint.label>
+	<Shelf_RepairRack_Blueprint_Install.label>ремполка (проект)</Shelf_RepairRack_Blueprint_Install.label>
+	<Shelf_RepairRack_Frame.label>ремполка (постройка)</Shelf_RepairRack_Frame.label>
+	<Shelf_RepairRack_Frame.description>Высокотехнологичный станок в форме небольшой полки, который посредством механитов медленно восстанавливает изношенную одежду, броню или оружие.</Shelf_RepairRack_Frame.description>
+
+	<Spacer_OutdoorLamp.label>автономный фонарь</Spacer_OutdoorLamp.label>
+	<Spacer_OutdoorLamp.description>Автономный водонепроницаемый уличный фонарь. Работает 24/7 используя солнечные панели днём и батареи ночью.</Spacer_OutdoorLamp.description>
+	<Spacer_OutdoorLamp_Blueprint.label>автономный фонарь (проект)</Spacer_OutdoorLamp_Blueprint.label>
+	<Spacer_OutdoorLamp_Blueprint_Install.label>автономный фонарь (проект)</Spacer_OutdoorLamp_Blueprint_Install.label>
+	<Spacer_OutdoorLamp_Frame.label>автономный фонарь (постройка)</Spacer_OutdoorLamp_Frame.label>
+	<Spacer_OutdoorLamp_Frame.description>Автономный водонепроницаемый уличный фонарь. Работает 24/7 используя солнечные панели днём и батареи ночью.</Spacer_OutdoorLamp_Frame.description>
+
+	<Reinforced_WallAT.label>укреплённая стена</Reinforced_WallAT.label>
+	<Reinforced_WallAT.description>Укреплённая непроходимая стена, созданная по принципу слоёного пирога. Достаточно крепка, чтобы поддерживать крышу.</Reinforced_WallAT.description>
+	<Reinforced_WallAT_Blueprint.label>укреплённая стена (проект)</Reinforced_WallAT_Blueprint.label>
+	<Reinforced_WallAT_Frame.label>укреплённая стена (постройка)</Reinforced_WallAT_Frame.label>
+	<Reinforced_WallAT_Frame.description>Укреплённая непроходимая стена, созданная по принципу слоёного пирога. Достаточно крепка, чтобы поддерживать крышу.</Reinforced_WallAT_Frame.description>
+
+	<Light_Streetlamp.label>уличный фонарь</Light_Streetlamp.label>
+	<Light_Streetlamp.description>Высокая электрическая лампа, которая освещает площадь, может быть помещена снаружи, не коротит под дождём, что делает ее идеальной для дорожного освещения и она автоматически включается ночью.</Light_Streetlamp.description>
+	<Light_Streetlamp.comps.1.offMessage>Выключен в светлое время суток</Light_Streetlamp.comps.1.offMessage>
+
+	<Misc_FileCabinet.label>картотека</Misc_FileCabinet.label>
+	<Misc_FileCabinet.description>Предмет мебели, используемый для организации документов и записей в бумажном виде.</Misc_FileCabinet.description>
+
+	<Shelf_1x1c.label>шкаф (1x1)</Shelf_1x1c.label>
+	<Shelf_1x1c.description>Небольшая полка для хранения разных предметов. Предметы, хранящиеся в нем, не испортятся, даже если они находятся снаружи.</Shelf_1x1c.description>
+
+	<Shelf_WeaponRack.label>оружейный стеллаж</Shelf_WeaponRack.label>
+	<Shelf_WeaponRack.description>Тяжелый стеллаж для хранения оружия. Оружие, хранящееся в нем, не будет портиться, даже если оно находится снаружи.</Shelf_WeaponRack.description>
+
+	<Bin_Small.label>Маленький мусорное ведро</Bin_Small.label>
+	<Bin_Small.description>Небольшой мусорное ведро, сохраняет область вокруг него чистой. Медленно удаляет мусор и грязь в радиусе 10 клеток.</Bin_Small.description>
+
+	<Bin_Large.label>Большой мусорный бак</Bin_Large.label>
+	<Bin_Large.description>Большое мусорный бак, сохраняет чистоту вокруг него. Медленно удаляет мусор и грязь в радиусе 20 клеток.</Bin_Large.description>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <RC_PlantSoybean.label>соевые бобы</RC_PlantSoybean.label>
+  <RC_PlantSoybean.description>SСоевые бобы, которые часто используются в качестве заменителя мяса для тех, кто слишком брезглив, чтобы есть плоть мертвых.</RC_PlantSoybean.description>
+
+  <RC_PlantQuinoa.label>киноа</RC_PlantQuinoa.label>
+  <RC_PlantQuinoa.description>Растение, которое растет в горной местности и хорошо известно своими крахмалистыми семенами, что довольно вкусны.</RC_PlantQuinoa.description>
+
+  <RC_PlantGrapes.label>виноградная лоза</RC_PlantGrapes.label>
+  <RC_PlantGrapes.description>Виноградные лозы выращиваются на протяжении веков и являются источником вкусного винограда. Просто будьте осторожны, виноград - прекрасное растение, которое не любит холода.</RC_PlantGrapes.description>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LowerShoulder.label>нижнее плечо</LowerShoulder.label>
+  <BodyCavity1.label>левая грудная полость</BodyCavity1.label>
+  <BodyCavity2.label>правая грудная полость</BodyCavity2.label>
+  <BodyCavityA.label>брюшная полость</BodyCavityA.label>
+  <Back.label>спина</Back.label>
+  <Tail.label>хвост</Tail.label>
+
+
+  <!--[Core] <Tail.label>хвост</Tail.label>-->
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_FeatherdustHigh.stages.0.label>под кайфом от пыль-перьев</GR_FeatherdustHigh.stages.0.label>
+  <GR_FeatherdustHigh.stages.0.description>Я просто курил перья от наземной научной мерзости и... Я чувствую себя хорошо.</GR_FeatherdustHigh.stages.0.description>
+
+
+  <!-- Smokeleaf addiction -->
+
+  <GR_FeatherdustWithdrawal.stages.1.label>ломка от пыль-перьев</GR_FeatherdustWithdrawal.stages.1.label>
+  <GR_FeatherdustWithdrawal.stages.1.description>Я действительно хочу курить это.</GR_FeatherdustWithdrawal.stages.1.description>
+
+
+</LanguageData>

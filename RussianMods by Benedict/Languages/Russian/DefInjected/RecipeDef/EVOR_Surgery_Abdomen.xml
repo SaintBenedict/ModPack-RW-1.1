@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Aux Lung - 1
+    Aux Heart - 2
+    Combat - A
+    Cultivator - A 
+    Hormone - A 1 2
+    Lymph - A 1 2
+    NoAge - A -->
+
+  <EVOR_Surgery_Abd_ThirdLung.label>&lt;color=#00FFF7&gt;вживить легкое с нанофильтром&lt;/color&gt;</EVOR_Surgery_Abd_ThirdLung.label>
+  <EVOR_Surgery_Abd_ThirdLung.description>Вживить легкое с нанофильтром.</EVOR_Surgery_Abd_ThirdLung.description>
+  <EVOR_Surgery_Abd_ThirdLung.jobString>Вживляет легкое с нанофильтром.</EVOR_Surgery_Abd_ThirdLung.jobString>
+
+  <EVOR_Surgery_Abd_SecondHeart.label>&lt;color=#00FFF7&gt;вживить вспомогательное сердце&lt;/color&gt;</EVOR_Surgery_Abd_SecondHeart.label>
+  <EVOR_Surgery_Abd_SecondHeart.description>Вживить вспомогательное сердце.</EVOR_Surgery_Abd_SecondHeart.description>
+  <EVOR_Surgery_Abd_SecondHeart.jobString>Вживляет вспомогательное сердце.</EVOR_Surgery_Abd_SecondHeart.jobString>
+
+  <EVOR_Surgery_Abd_Combat.label>&lt;color=#00FFF7&gt;вживить железу боевой сыворотки&lt;/color&gt;</EVOR_Surgery_Abd_Combat.label>
+  <EVOR_Surgery_Abd_Combat.description>Вживить железу боевой сыворотки.</EVOR_Surgery_Abd_Combat.description>
+  <EVOR_Surgery_Abd_Combat.jobString>Вживляет железу боевой сыворотки.</EVOR_Surgery_Abd_Combat.jobString>
+
+
+  <!-- Hormone Surgeries -->
+
+  <EVOR_Surgery_Abd_Hormone_1.label>&lt;color=#00FFF7&gt;вживить регулятор гормонов&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_1.label>
+  <EVOR_Surgery_Abd_Hormone_1.description>Вживить регулятор гормонов.</EVOR_Surgery_Abd_Hormone_1.description>
+  <EVOR_Surgery_Abd_Hormone_1.jobString>Вживляет регулятор гормонов.</EVOR_Surgery_Abd_Hormone_1.jobString>
+
+  <EVOR_Surgery_Abd_Hormone_2.label>&lt;color=#00FFF7&gt;вживить регулятор гормонов&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_2.label>
+  <EVOR_Surgery_Abd_Hormone_2.description>Вживить регулятор гормонов.</EVOR_Surgery_Abd_Hormone_2.description>
+  <EVOR_Surgery_Abd_Hormone_2.jobString>Вживляет регулятор гормонов.</EVOR_Surgery_Abd_Hormone_2.jobString>
+
+  <EVOR_Surgery_Abd_Hormone_A.label>&lt;color=#00FFF7&gt;вживить регулятор гормонов&lt;/color&gt;</EVOR_Surgery_Abd_Hormone_A.label>
+  <EVOR_Surgery_Abd_Hormone_A.description>Вживить регулятор гормонов.</EVOR_Surgery_Abd_Hormone_A.description>
+  <EVOR_Surgery_Abd_Hormone_A.jobString>Вживляет регулятор гормонов.</EVOR_Surgery_Abd_Hormone_A.jobString>
+
+
+  <!-- Lymph Surgeries -->
+
+  <EVOR_Surgery_Abd_Lymph_1.label>&lt;color=#00FFF7&gt;вживить лимфатический пролифератор&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_1.label>
+  <EVOR_Surgery_Abd_Lymph_1.description>Вживить лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_1.description>
+  <EVOR_Surgery_Abd_Lymph_1.jobString>Вживляет лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_1.jobString>
+
+  <EVOR_Surgery_Abd_Lymph_2.label>&lt;color=#00FFF7&gt;вживить лимфатический пролифератор&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_2.label>
+  <EVOR_Surgery_Abd_Lymph_2.description>Вживить лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_2.description>
+  <EVOR_Surgery_Abd_Lymph_2.jobString>Вживляет лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_2.jobString>
+
+  <EVOR_Surgery_Abd_Lymph_A.label>&lt;color=#00FFF7&gt;вживить лимфатический пролифератор&lt;/color&gt;</EVOR_Surgery_Abd_Lymph_A.label>
+  <EVOR_Surgery_Abd_Lymph_A.description>Вживить лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_A.description>
+  <EVOR_Surgery_Abd_Lymph_A.jobString>Вживляет лимфатический пролифератор.</EVOR_Surgery_Abd_Lymph_A.jobString>
+
+  <EVOR_Surgery_Abd_NoAge.label>&lt;color=#00FFF7&gt;вживить вакуоль Ра&lt;/color&gt;</EVOR_Surgery_Abd_NoAge.label>
+  <EVOR_Surgery_Abd_NoAge.description>Вживить вакуоль Ра.</EVOR_Surgery_Abd_NoAge.description>
+  <EVOR_Surgery_Abd_NoAge.jobString>Вживляет вакуоль Ра.</EVOR_Surgery_Abd_NoAge.jobString>
+
+
+  <!-- Aux Lung - 1
+    Aux Heart - 2
+    Combat - A
+    Cultivator - A 
+    Hormone - A 1 2
+    Lymph - A 1 2 -->
+
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZopeHigh.label>под кайфом от зопе</ZopeHigh.label>
+  <ZopeHigh.stages.0.label>немного</ZopeHigh.stages.0.label>
+  <ZopeHigh.stages.1.label>сильно</ZopeHigh.stages.1.label>
+  <ZopeHigh.stages.2.label>под кайфом от зопе</ZopeHigh.stages.2.label>
+
+
+  <!-- Zopioid addiction -->
+
+  <ZopioidTolerance.label>толерантность к зопиойду</ZopioidTolerance.label>
+  <ZopioidTolerance.stages.0.label>небольшая</ZopioidTolerance.stages.0.label>
+  <ZopioidTolerance.stages.1.label>небольшая</ZopioidTolerance.stages.1.label>
+  <ZopioidTolerance.stages.2.label>средняя</ZopioidTolerance.stages.2.label>
+  <ZopioidTolerance.stages.3.label>сильная</ZopioidTolerance.stages.3.label>
+
+  <ZopioidAddiction.label>зависимость от зопиойда</ZopioidAddiction.label>
+  <ZopioidAddiction.stages.1.label>ломка</ZopioidAddiction.stages.1.label>
+
+
+</LanguageData>

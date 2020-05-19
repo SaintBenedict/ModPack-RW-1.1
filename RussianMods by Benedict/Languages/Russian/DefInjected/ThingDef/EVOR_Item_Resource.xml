@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Resource_Protein.label>белковый концентрат</EVOR_Resource_Protein.label>
+  <EVOR_Resource_Protein.description>Флакон с белками животного происхождения, готовый для синтеза с помощью механитов и превращения в специализированный придаток или орган.</EVOR_Resource_Protein.description>
+
+  <EVOR_Resource_Mechanites.label>нано-механиты</EVOR_Resource_Mechanites.label>
+  <EVOR_Resource_Mechanites.description>Флакон с наномашинами, используется для программирования процесса превращения массы клеток в большой, сложный орган.</EVOR_Resource_Mechanites.description>
+
+
+</LanguageData>

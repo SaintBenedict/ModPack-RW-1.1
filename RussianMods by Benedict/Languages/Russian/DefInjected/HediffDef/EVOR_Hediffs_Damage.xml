@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Hediff_Damage_Sonic.label>звуковой удар</EVOR_Hediff_Damage_Sonic.label>
+  <EVOR_Hediff_Damage_Sonic.description>Дезориентация из-за применения громкого звука.</EVOR_Hediff_Damage_Sonic.description>
+  <EVOR_Hediff_Damage_Sonic.stages.0.label>скрытый</EVOR_Hediff_Damage_Sonic.stages.0.label>
+  <EVOR_Hediff_Damage_Sonic.stages.1.label>начальный</EVOR_Hediff_Damage_Sonic.stages.1.label>
+  <EVOR_Hediff_Damage_Sonic.stages.2.label>меньший</EVOR_Hediff_Damage_Sonic.stages.2.label>
+  <EVOR_Hediff_Damage_Sonic.stages.3.label>средний</EVOR_Hediff_Damage_Sonic.stages.3.label>
+  <EVOR_Hediff_Damage_Sonic.stages.4.label>тяжелый</EVOR_Hediff_Damage_Sonic.stages.4.label>
+
+
+  <!-- <HediffDef>
+        <defName>EVOR_Hediff_Damage_Shock</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+        <label>shock damage</label>
+        <lethalSeverity>4</lethalSeverity>
+        <makesSickThought>false</makesSickThought>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <comps>
+        <li Class="HediffCompProperties_Immunizable">
+            <severityPerDayNotImmune>-1.00</severityPerDayNotImmune>
+        </li>
+        </comps>
+        <stages>
+            <li>
+                <label>initial</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <label>initial</label>
+                <minSeverity>0.01</minSeverity>
+            </li>
+            <li>
+                <label>initial</label>
+                <minSeverity>0.10</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>minor</label>
+                <minSeverity>0.20</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.20</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>moderate</label>
+                <minSeverity>0.40</minSeverity>
+                <vomitMtbDays>5</vomitMtbDays>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.035</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <label>high</label>
+                <minSeverity>0.80</minSeverity>
+                <vomitMtbDays>5</vomitMtbDays>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.50</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef> -->
+
+  <EVOR_Hediff_Damage_PurgleRot.label>чумная гниль</EVOR_Hediff_Damage_PurgleRot.label>
+  <EVOR_Hediff_Damage_PurgleRot.description>По-настоящему опасная инфекция, вызванная специально разработанными бактериями. Исключительно смертельна.</EVOR_Hediff_Damage_PurgleRot.description>
+  <EVOR_Hediff_Damage_PurgleRot.stages.0.label>начальная</EVOR_Hediff_Damage_PurgleRot.stages.0.label>
+  <EVOR_Hediff_Damage_PurgleRot.stages.1.label>серьезная</EVOR_Hediff_Damage_PurgleRot.stages.1.label>
+  <EVOR_Hediff_Damage_PurgleRot.stages.2.label>экстремальная</EVOR_Hediff_Damage_PurgleRot.stages.2.label>
+  <EVOR_Hediff_Damage_PurgleRot.stages.3.label>экстремальна</EVOR_Hediff_Damage_PurgleRot.stages.3.label>
+
+
+</LanguageData>

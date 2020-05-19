@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Stone_Campfire.label>каменный костер</Stone_Campfire.label>
+  <Stone_Campfire.description>Готовит еду, производит меньше тепла, но больше света, выгорает медленнее, чем стандартный костер.
+     Как и в случае с другими источниками тепла, каменный костёр должен быть помещен в помещении, чтобы он имел замкнутое пространство для обогрева.
+     Можно заправлять.</Stone_Campfire.description>
+  <Stone_Campfire_Blueprint.label>каменный костер (проект)</Stone_Campfire_Blueprint.label>
+  <Stone_Campfire_Frame.label>каменный костер</Stone_Campfire_Frame.label>
+  <Stone_Campfire_Frame.description>Готовит еду, производит меньше тепла, но больше света, выгорает медленнее, чем стандартный костер.
+     Как и в случае с другими источниками тепла, каменный костёр должен быть помещен в помещении, чтобы он имел замкнутое пространство для обогрева.
+     Можно заправлять.</Stone_Campfire_Frame.description>
+
+
+</LanguageData>

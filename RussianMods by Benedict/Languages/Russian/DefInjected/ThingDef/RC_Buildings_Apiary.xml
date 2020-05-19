@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_Apiary.label>пасека</RC_Apiary.label>
+  <RC_Apiary.description>Органический-кажущийся искусственным улей для пчелиного роя. Периодически производит мёд.</RC_Apiary.description>
+  <RC_Apiary_Blueprint.label>пасека (проект)</RC_Apiary_Blueprint.label>
+  <RC_Apiary_Blueprint_Install.label>пасека (проект)</RC_Apiary_Blueprint_Install.label>
+  <RC_Apiary_Frame.label>пасека (постройка)</RC_Apiary_Frame.label>
+
+
+</LanguageData>

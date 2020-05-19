@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Wolf - Bear -->
+
+  <GR_Wolfbear.label>волк-медведь</GR_Wolfbear.label>
+  <GR_Wolfbear.description>Гибрид волка / медведя. Очень похож на обычного лесного волка, но с лучшей выносливостью.\n\nПолезные способности: Хорошее охранное животное. Разделка дает лапы волка-медведя, которые можно продать.</GR_Wolfbear.description>
+  <GR_Wolfbear.tools.0.label>левый коготь</GR_Wolfbear.tools.0.label>
+  <GR_Wolfbear.tools.1.label>правый коготь</GR_Wolfbear.tools.1.label>
+  <GR_Wolfbear.tools.3.label>голова</GR_Wolfbear.tools.3.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_Wolfbear_Corpse.label>Труп волка-медведя</GR_Wolfbear_Corpse.label>
+  <GR_Wolfbear_Corpse.description>Труп волка-медведя.</GR_Wolfbear_Corpse.description>
+
+
+  <!-- Wolf - Boomalope -->
+
+  <GR_Wolfalope.label>волколопа</GR_Wolfalope.label>
+  <GR_Wolfalope.description>Гибрид волка / бумалопы. Очень опасный хищник, который имеет тенденцию взрываться, когда сталкивается с добычей, слишком большой для них. Разногласия между шкурой существа и наростами бумалопы постоянно создает статическое электричество, которое внезапно освобождается, когда существо умирает, и наросты взрываются.\n\nПолезные способности: Взрывается при смерти, освобождая опасный электромагнитный импульс (ЭМИ урон). Производит среднее количество химического топлива.</GR_Wolfalope.description>
+  <GR_Wolfalope.tools.0.label>левый коготь</GR_Wolfalope.tools.0.label>
+  <GR_Wolfalope.tools.1.label>правый коготь</GR_Wolfalope.tools.1.label>
+  <GR_Wolfalope.tools.3.label>голова</GR_Wolfalope.tools.3.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_Wolfalope_Corpse.label>Труп волколопы</GR_Wolfalope_Corpse.label>
+  <GR_Wolfalope_Corpse.description>Труп волколопы.</GR_Wolfalope_Corpse.description>
+
+
+  <!-- Wolf - Chicken -->
+
+  <GR_Wolfchicken.label>волк-курица</GR_Wolfchicken.label>
+  <GR_Wolfchicken.description>Гибрид волка / курицы. Вы знаете поговорку: когда вы позволяете волкам охранять курятник, там обязательно будет несколько куриных обедов. Ну, не больше.\n\nПолезные способности: Несёт яйца. Регулярно производит перья, которые можно прибыльно продать</GR_Wolfchicken.description>
+  <GR_Wolfchicken.tools.0.label>левый коготь</GR_Wolfchicken.tools.0.label>
+  <GR_Wolfchicken.tools.1.label>правый коготь</GR_Wolfchicken.tools.1.label>
+  <GR_Wolfchicken.tools.3.label>голова</GR_Wolfchicken.tools.3.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_Wolfchicken_Corpse.label>Труп волка-курицы</GR_Wolfchicken_Corpse.label>
+  <GR_Wolfchicken_Corpse.description>Труп волка-курицы.</GR_Wolfchicken_Corpse.description>
+
+
+  <!-- Wolf - Muffalo -->
+
+  <GR_Wolffalo.label>волкффало</GR_Wolffalo.label>
+  <GR_Wolffalo.description>Гибрид волка / муффало. Невероятно хорош, как стайный зверь, однако очень быстро производит шерсть.\n\nПолезные способности: Разводится как стайный зверь. Производит небольшое количество молока и шерсти с довольно высокой скоростью.</GR_Wolffalo.description>
+  <GR_Wolffalo.tools.0.label>левый коготь</GR_Wolffalo.tools.0.label>
+  <GR_Wolffalo.tools.1.label>правый коготь</GR_Wolffalo.tools.1.label>
+  <GR_Wolffalo.tools.2.label>голова</GR_Wolffalo.tools.2.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_Wolffalo_Corpse.label>Труп волкффало</GR_Wolffalo_Corpse.label>
+  <GR_Wolffalo_Corpse.description>Труп волкффало.</GR_Wolffalo_Corpse.description>
+
+
+  <!-- Use Leather From: WolfTimber -->
+  <!-- Use Meat From: WolfTimber -->
+
+</LanguageData>

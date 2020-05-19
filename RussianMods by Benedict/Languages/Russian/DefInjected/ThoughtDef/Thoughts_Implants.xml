@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_WearingThrumboHorn.stages.0.label>носит рог трумбо</GR_WearingThrumboHorn.stages.0.label>
+  <GR_WearingThrumboHorn.stages.0.description>Я такой рогатый.</GR_WearingThrumboHorn.stages.0.description>
+
+  <GR_WearingBunnyEars.stages.0.label>носит кроличьи уши</GR_WearingBunnyEars.stages.0.label>
+  <GR_WearingBunnyEars.stages.0.description>Миило!!!</GR_WearingBunnyEars.stages.0.description>
+
+  <GR_HeWearsAntennae.stages.0.label>носит усики инсектоида</GR_HeWearsAntennae.stages.0.label>
+  <GR_HeWearsAntennae.stages.0.description>Так много информации! Остановите это!</GR_HeWearsAntennae.stages.0.description>
+
+  <GR_DamnMammaries.stages.0.label>чувствую себя жирной коровой</GR_DamnMammaries.stages.0.label>
+  <GR_DamnMammaries.stages.0.description>Меня доят, как животное! Это действительно крайне унизительно!</GR_DamnMammaries.stages.0.description>
+
+
+</LanguageData>

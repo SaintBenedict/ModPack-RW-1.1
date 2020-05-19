@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear -->
+
+  <GR_AlphaBear.label>альфа-медведь</GR_AlphaBear.label>
+
+
+  <!-- Wildboar -->
+
+  <GR_AlphaWildBoar.label>дикий альфа-кабан</GR_AlphaWildBoar.label>
+
+
+  <!-- Boomalope -->
+
+  <GR_AlphaBoomalope.label>альфа-бумалопа</GR_AlphaBoomalope.label>
+  <GR_AlphaBoomalope.labelPlural>альфа-бумалопы</GR_AlphaBoomalope.labelPlural>
+  <GR_AlphaBoomalope.lifeStages.0.label>телята бумалопы</GR_AlphaBoomalope.lifeStages.0.label>
+
+
+  <!-- Chicken -->
+
+  <GR_AlphaChicken.label>альфа-курица</GR_AlphaChicken.label>
+  <GR_AlphaChicken.labelPlural>альфа-курицы</GR_AlphaChicken.labelPlural>
+  <GR_AlphaChicken.lifeStages.0.label>цыплёнок</GR_AlphaChicken.lifeStages.0.label>
+  <GR_AlphaChicken.lifeStages.0.labelPlural>цыплята</GR_AlphaChicken.lifeStages.0.labelPlural>
+  <GR_AlphaChicken.labelMale>альфа-петух</GR_AlphaChicken.labelMale>
+  <GR_AlphaChicken.labelMalePlural>альфа-петухи</GR_AlphaChicken.labelMalePlural>
+  <GR_AlphaChicken.labelFemale>альфа-курица</GR_AlphaChicken.labelFemale>
+  <GR_AlphaChicken.labelFemalePlural>альфа-курицы</GR_AlphaChicken.labelFemalePlural>
+
+
+  <!-- Emu -->
+
+  <GR_AlphaEmu.label>альфа-эму</GR_AlphaEmu.label>
+  <GR_AlphaEmu.labelPlural>альфа-эмы</GR_AlphaEmu.labelPlural>
+
+
+  <!-- Muffalo -->
+
+  <GR_AlphaMuffalo.label>альфа-муффало</GR_AlphaMuffalo.label>
+  <GR_AlphaMuffalo.labelPlural>альфа-муффало</GR_AlphaMuffalo.labelPlural>
+  <GR_AlphaMuffalo.lifeStages.0.label>телёнок альфа-муффало</GR_AlphaMuffalo.lifeStages.0.label>
+  <GR_AlphaMuffalo.lifeStages.0.labelPlural>телята альфа-муффало</GR_AlphaMuffalo.lifeStages.0.labelPlural>
+
+
+  <!-- Ostrich -->
+
+  <GR_AlphaOstrich.label>альфа-страус</GR_AlphaOstrich.label>
+  <GR_AlphaOstrich.labelPlural>альфа-страусы</GR_AlphaOstrich.labelPlural>
+
+
+  <!-- Rhino -->
+
+  <GR_AlphaRhinoceros.label>альфа-носорог</GR_AlphaRhinoceros.label>
+  <GR_AlphaRhinoceros.labelPlural>альфа-носороги</GR_AlphaRhinoceros.labelPlural>
+
+
+  <!-- Wolf -->
+
+  <GR_AlphaWolfTimber.label>лесной альфа-волк</GR_AlphaWolfTimber.label>
+  <GR_AlphaWolfTimber.labelPlural>лесные альфа-волки</GR_AlphaWolfTimber.labelPlural>
+  <GR_AlphaWolfTimber.lifeStages.0.label>щенок лесного альфа-волка</GR_AlphaWolfTimber.lifeStages.0.label>
+  <GR_AlphaWolfTimber.lifeStages.0.labelPlural>щенки лесного альфа-волка</GR_AlphaWolfTimber.lifeStages.0.labelPlural>
+
+
+  <!-- Hare -->
+
+  <GR_AlphaHare.label>альфа-заяц</GR_AlphaHare.label>
+  <GR_AlphaHare.labelPlural>альфа-зайцы</GR_AlphaHare.labelPlural>
+
+
+  <!-- Iguana -->
+
+  <GR_AlphaIguana.label>альфа-игуана</GR_AlphaIguana.label>
+  <GR_AlphaIguana.labelPlural>альфа-игуаны</GR_AlphaIguana.labelPlural>
+
+
+  <!-- Pig -->
+
+  <GR_AlphaPig.label>альфа-свинья</GR_AlphaPig.label>
+  <GR_AlphaPig.labelPlural>альфа-свиньи</GR_AlphaPig.labelPlural>
+  <GR_AlphaPig.lifeStages.0.label>альфа-поросенок</GR_AlphaPig.lifeStages.0.label>
+  <GR_AlphaPig.lifeStages.0.labelPlural>альфа-поросята</GR_AlphaPig.lifeStages.0.labelPlural>
+  <GR_AlphaPig.labelMale>альфа-свин</GR_AlphaPig.labelMale>
+  <GR_AlphaPig.labelMalePlural>альфа-свиньи</GR_AlphaPig.labelMalePlural>
+  <GR_AlphaPig.labelFemale>альфа-свинья</GR_AlphaPig.labelFemale>
+  <GR_AlphaPig.labelFemalePlural>альфа-свиньи</GR_AlphaPig.labelFemalePlural>
+
+
+  <!-- Rat -->
+
+  <GR_AlphaRat.label>альфа-крыса</GR_AlphaRat.label>
+  <GR_AlphaRat.labelPlural>альфа-крысы</GR_AlphaRat.labelPlural>
+
+
+  <!-- Tortoise -->
+
+  <GR_AlphaTortoise.label>альфа-черепаха</GR_AlphaTortoise.label>
+  <GR_AlphaTortoise.labelPlural>альфа-черепахи</GR_AlphaTortoise.labelPlural>
+
+
+</LanguageData>

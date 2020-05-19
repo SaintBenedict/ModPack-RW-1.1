@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Large Machining Table -->
+
+  <VFE_TableMachiningLarge.label>большой верстак</VFE_TableMachiningLarge.label>
+  <VFE_TableMachiningLarge.description>Электрический верстак со всеми инструментами и достаточным количеством свободного места для производства большого количества различных устройств.</VFE_TableMachiningLarge.description>
+  <VFE_TableMachiningLarge_Blueprint.label>большой верстак (проект)</VFE_TableMachiningLarge_Blueprint.label>
+  <VFE_TableMachiningLarge_Frame.label>большой верстак (постройка)</VFE_TableMachiningLarge_Frame.label>
+  <VFE_TableMachiningLarge_Frame.description>Электрический верстак со всеми инструментами и достаточным количеством свободного места для производства большого количества различных устройств.</VFE_TableMachiningLarge_Frame.description>
+
+
+  <!-- Large Electric Smithy -->
+
+  <VFE_TableSmithyLarge.label>большая электрокузня</VFE_TableSmithyLarge.label>
+  <VFE_TableSmithyLarge.description>Электрический плавильный верстак для производства простых инструментов и холодного оружия. Потребляет много энергии.</VFE_TableSmithyLarge.description>
+  <VFE_TableSmithyLarge_Blueprint.label>большая электрокузня (проект)</VFE_TableSmithyLarge_Blueprint.label>
+  <VFE_TableSmithyLarge_Frame.label>большая электрокузня (постройка)</VFE_TableSmithyLarge_Frame.label>
+  <VFE_TableSmithyLarge_Frame.description>Электрический плавильный верстак для производства простых инструментов и холодного оружия. Потребляет много энергии.</VFE_TableSmithyLarge_Frame.description>
+
+
+  <!-- Large Stove Table -->
+
+  <VFE_TableStoveLarge.label>большая электроплита</VFE_TableStoveLarge.label>
+  <VFE_TableStoveLarge.description>Большая промышленная печь, которая ускоряет приготовление и повышает качество блюд. А большое количество конфорок и духовок позволяет готовить несколько блюд одновременно.</VFE_TableStoveLarge.description>
+  <VFE_TableStoveLarge_Blueprint.label>большая электропечь (проект)</VFE_TableStoveLarge_Blueprint.label>
+  <VFE_TableStoveLarge_Frame.label>большая электропечь (постройка)</VFE_TableStoveLarge_Frame.label>
+  <VFE_TableStoveLarge_Frame.description>Большая промышленная печь, которая ускоряет приготовление и повышает качество блюд.</VFE_TableStoveLarge_Frame.description>
+
+
+  <!-- Large Tailoring Table -->
+
+  <VFE_TableTailorLarge.label>швейный верстак</VFE_TableTailorLarge.label>
+  <VFE_TableTailorLarge.description>Большой верстак со швейной машиной и набором инструментов закройщика для быстрого пошива одежды. Может работать без электроэнергии с эффективностью в 33% от обычной.</VFE_TableTailorLarge.description>
+  <VFE_TableTailorLarge_Blueprint.label>швейный верстак (проект)</VFE_TableTailorLarge_Blueprint.label>
+  <VFE_TableTailorLarge_Frame.label>швейный верстак (постройка)</VFE_TableTailorLarge_Frame.label>
+  <VFE_TableTailorLarge_Frame.description>Большой верстак со швейной машиной и набором инструментов закройщика для быстрого пошива одежды. Может работать без электроэнергии с эффективностью в 33% от обычной.</VFE_TableTailorLarge_Frame.description>
+
+
+</LanguageData>

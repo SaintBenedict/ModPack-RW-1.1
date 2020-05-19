@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <BasicCooking.label>основы готовки</BasicCooking.label>
+  <BasicCooking.description>Знания, необходимые для производства сахара и муки, а также простого рагу и галет.</BasicCooking.description>
+
+  <IntermediateCooking.label>промежуточная готовка</IntermediateCooking.label>
+  <IntermediateCooking.description>Знание более совершенной кулинарии, включая создание печи: готовка тушеного мяса и основная переработка пищевых продуктов с помощью жёрнов.</IntermediateCooking.description>
+
+  <AdvancedCooking.label>продвинутая готовка</AdvancedCooking.label>
+  <AdvancedCooking.description>Продвинутые методы приготовления пищи, включая: электрическую печь, валковую мельницу, приготовление конфет и выпечки.</AdvancedCooking.description>
+
+  <IntermediateFoodPreservation.label>промежуточное консервирование еды</IntermediateFoodPreservation.label>
+  <IntermediateFoodPreservation.description>Знание о мариновании овощей в рассоле, приготовление фруктовых консервов и галет.</IntermediateFoodPreservation.description>
+
+  <AdvancedFoodPreservation.label>продвинутое консервирование еды</AdvancedFoodPreservation.label>
+  <AdvancedFoodPreservation.description>Знание о консервировании и возможность создавать стол для консервирования. Консервированная еда хранится бесконечно.</AdvancedFoodPreservation.description>
+
+  <BasicAgriculture.label>основы земледелия</BasicAgriculture.label>
+  <BasicAgriculture.description>Знания о посадке сельскохозяйственных культур. Очень простой материал.</BasicAgriculture.description>
+
+  <BasicForestry.label>основы лесоводства</BasicForestry.label>
+  <BasicForestry.description>Знания о посадке деревьев. Очень простой материал.</BasicForestry.description>
+
+  <IntermediateAgriculture.label>промежуточное земледелие</IntermediateAgriculture.label>
+  <IntermediateAgriculture.description>Знания о посадке более совершенных культур.</IntermediateAgriculture.description>
+
+  <AdvancedAgriculture.label>продвинутое земледелие</AdvancedAgriculture.label>
+  <AdvancedAgriculture.description>Знания о посадке более совершенных и полезных культур.</AdvancedAgriculture.description>
+
+  <ZopioidRefining.label>очистка зопиойдов</ZopioidRefining.label>
+  <ZopioidRefining.description>Знания об очистке Зопе в Скаг и Сонную Палочку.</ZopioidRefining.description>
+
+  <AdvancedZopioidRefining.label>продвинутая очистка зопиойдов</AdvancedZopioidRefining.label>
+  <AdvancedZopioidRefining.description>Более продвинутые знания о превращении зопе и лечебного корня в относительно безопасное болеутоляющее, Вико.</AdvancedZopioidRefining.description>
+
+
+</LanguageData>

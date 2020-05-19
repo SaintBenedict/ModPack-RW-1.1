@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_VirulentPoison.label>вирулентный яд</GR_VirulentPoison.label>
+  <GR_VirulentPoison.description>Этот крошечный флакон заполнен небольшим количеством яда трумбо-ящера. При проглатывании вся система жертвы умирает, сродни анафилактической реакции. Нет противоядия и нет способа пережить яд.</GR_VirulentPoison.description>
+  <GR_VirulentPoison.ingestible.ingestCommandString>принять {0}</GR_VirulentPoison.ingestible.ingestCommandString>
+  <GR_VirulentPoison.ingestible.ingestReportString>принимает {0}.</GR_VirulentPoison.ingestible.ingestReportString>
+
+
+</LanguageData>

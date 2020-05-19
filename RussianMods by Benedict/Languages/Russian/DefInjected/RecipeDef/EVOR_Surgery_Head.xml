@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Skull_Shielding.label>&lt;color=#00FFF7&gt;вживить защиту от помех&lt;/color&gt;</EVOR_Surgery_Skull_Shielding.label>
+  <EVOR_Surgery_Skull_Shielding.description>Вживить защиту от помех.</EVOR_Surgery_Skull_Shielding.description>
+  <EVOR_Surgery_Skull_Shielding.jobString>Вживляет защиту от помех.</EVOR_Surgery_Skull_Shielding.jobString>
+
+  <EVOR_Surgery_Skull_Plating.label>&lt;color=#00FFF7&gt;вживить черепное покрытие&lt;/color&gt;</EVOR_Surgery_Skull_Plating.label>
+  <EVOR_Surgery_Skull_Plating.description>Вживить черепное покрытие.</EVOR_Surgery_Skull_Plating.description>
+  <EVOR_Surgery_Skull_Plating.jobString>Вживляет черепное покрытие.</EVOR_Surgery_Skull_Plating.jobString>
+
+
+</LanguageData>

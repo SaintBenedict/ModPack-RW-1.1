@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Brain_Hyper.label>&lt;color=#00FFF7&gt;вживить нейронный считыватель&lt;/color&gt;</EVOR_Surgery_Brain_Hyper.label>
+  <EVOR_Surgery_Brain_Hyper.description>Вживить нейронный считыватель.</EVOR_Surgery_Brain_Hyper.description>
+  <EVOR_Surgery_Brain_Hyper.jobString>Вживляет нейронный считыватель.</EVOR_Surgery_Brain_Hyper.jobString>
+
+  <EVOR_Surgery_Brain_Nails.label>&lt;color=#00FFF7&gt;вживить иглы мясника&lt;/color&gt;</EVOR_Surgery_Brain_Nails.label>
+  <EVOR_Surgery_Brain_Nails.description>Вживить иглы мясника.</EVOR_Surgery_Brain_Nails.description>
+  <EVOR_Surgery_Brain_Nails.jobString>Вживляет иглы мясника.</EVOR_Surgery_Brain_Nails.jobString>
+
+
+</LanguageData>

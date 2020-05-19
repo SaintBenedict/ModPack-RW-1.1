@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<PoliticsPolemicsTech.label>полемика</PoliticsPolemicsTech.label>
+	<PoliticsPolemicsTech.description>Хорошо сконструированная и агрессивная защита интересов идеологии. Лучшие писатели ведут лучшую полемику, но все равно будет трудно повлиять на разум и свободомыслие.</PoliticsPolemicsTech.description>
+
+	<PoliticsPoliticalTheoryTech.label>политическая теория</PoliticsPoliticalTheoryTech.label>
+	<PoliticsPoliticalTheoryTech.description>Более развитые и сложные общества требуют более совершенных и сложных методов управления. Требуется написать полемику для продвинутых форм правления.</PoliticsPoliticalTheoryTech.description>
+
+	<PoliticsExotheologyTech.label>экзотеология</PoliticsExotheologyTech.label>
+	<PoliticsExotheologyTech.description>С небольшой дипломатией и владением языком можно будет писать апологетику для внепланетных религий. Требуется написать апологетику для древних религий Земли.</PoliticsExotheologyTech.description>
+
+</LanguageData>

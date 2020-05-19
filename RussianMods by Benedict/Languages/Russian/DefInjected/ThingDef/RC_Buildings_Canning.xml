@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_Cannery.label>стол для консервирования</RC_Cannery.label>
+  <RC_Cannery.description>Электрическая плита со столешницей для приготовления блюд.</RC_Cannery.description>
+  <RC_Cannery_Blueprint.label>стол для консервирования (проект)</RC_Cannery_Blueprint.label>
+  <RC_Cannery_Blueprint_Install.label>стол для консервирования (проект)</RC_Cannery_Blueprint_Install.label>
+  <RC_Cannery_Frame.label>стол для консервирования (постройка)</RC_Cannery_Frame.label>
+
+
+</LanguageData>

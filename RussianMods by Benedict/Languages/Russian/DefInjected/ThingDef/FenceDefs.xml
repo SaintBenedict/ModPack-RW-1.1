@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- [CLOSEBOARD FENCE] -->
+
+  <Closeboard.label>прочный забор</Closeboard.label>
+  <Closeboard.description>Прочный деревянный забор для защиты вашей лужайки.</Closeboard.description>
+  <Closeboard_Blueprint.label>прочный забор (проект)</Closeboard_Blueprint.label>
+  <Closeboard_Frame.label>прочный забор (постройка)</Closeboard_Frame.label>
+
+
+  <!-- [CLOSEBOARD GATE] -->
+
+  <CloseboardGateHori.label>прочные ворота (Горизонтальные)</CloseboardGateHori.label>
+  <CloseboardGateHori.description>Прочные деревянные ворота для защиты вашей лужайки.</CloseboardGateHori.description>
+  <CloseboardGateHori_Blueprint.label>прочные ворота (Горизонтальные) (проект)</CloseboardGateHori_Blueprint.label>
+  <CloseboardGateHori_Frame.label>прочные ворота (Горизонтальные) (постройка)</CloseboardGateHori_Frame.label>
+
+  <CloseboardGateVerti.label>прочные ворота (Вертикальные)</CloseboardGateVerti.label>
+  <CloseboardGateVerti.description>Прочные деревянные ворота для защиты вашей лужайки.</CloseboardGateVerti.description>
+  <CloseboardGateVerti_Blueprint.label>прочные ворота (Вертикальные) (проект)</CloseboardGateVerti_Blueprint.label>
+  <CloseboardGateVerti_Frame.label>прочные ворота (Вертикальные) (постройка)</CloseboardGateVerti_Frame.label>
+
+
+  <!-- [SOLID FENCE] -->
+
+  <Solid.label>обычный забор</Solid.label>
+  <Solid.description>Деревянный забор для защиты вашей лужайки.</Solid.description>
+  <Solid_Blueprint.label>обычный забор (проект)</Solid_Blueprint.label>
+  <Solid_Frame.label>обычный забор (постройка)</Solid_Frame.label>
+
+
+  <!-- [обычные ворота] -->
+
+  <SolidGateHori.label>обычные ворота (Горизонтальные)</SolidGateHori.label>
+  <SolidGateHori.description>Обычные деревянные ворота для защиты вашей лужайки.</SolidGateHori.description>
+  <SolidGateHori_Blueprint.label>обычные ворота (Горизонтальные) (проект)</SolidGateHori_Blueprint.label>
+  <SolidGateHori_Frame.label>обычные ворота (Горизонтальные) (постройка)</SolidGateHori_Frame.label>
+
+  <SolidGateVerti.label>обычные ворота (Вертикальные)</SolidGateVerti.label>
+  <SolidGateVerti.description>Обычные деревянные ворота для защиты вашей лужайки.</SolidGateVerti.description>
+  <SolidGateVerti_Blueprint.label>обычные ворота (Вертикальные) (проект)</SolidGateVerti_Blueprint.label>
+  <SolidGateVerti_Frame.label>обычные ворота (Вертикальные) (постройка)</SolidGateVerti_Frame.label>
+
+
+  <!-- [PICKET FENCE] -->
+
+  <Picket.label>штакетник</Picket.label>
+  <Picket.description>Деревянный штакетный забор для защиты вашей лужайки.</Picket.description>
+  <Picket_Blueprint.label>штакетник (проект)</Picket_Blueprint.label>
+  <Picket_Frame.label>штакетник (постройка)</Picket_Frame.label>
+
+
+  <!-- [штакетные ворота] -->
+
+  <PicketGateHori.label>штакетные ворота (Горизонтальные)</PicketGateHori.label>
+  <PicketGateHori.description>Деревянные штакетные ворота для защиты вашей лужайки.</PicketGateHori.description>
+  <PicketGateHori_Blueprint.label>штакетные ворота (Горизонтальные) (проект)</PicketGateHori_Blueprint.label>
+  <PicketGateHori_Frame.label>штакетные ворота (Горизонтальные) (постройка)</PicketGateHori_Frame.label>
+
+  <PicketGateVerti.label>штакетные ворота (Вертикальные)</PicketGateVerti.label>
+  <PicketGateVerti.description>Деревянные штакетные ворота для защиты вашей лужайки.</PicketGateVerti.description>
+  <PicketGateVerti_Blueprint.label>штакетные ворота (Вертикальные) (проект)</PicketGateVerti_Blueprint.label>
+  <PicketGateVerti_Frame.label>штакетные ворота (Вертикальные) (постройка)</PicketGateVerti_Frame.label>
+
+
+  <!-- [FARM FENCE] -->
+
+  <Farm.label>забор-ранчо</Farm.label>
+  <Farm.description>Деревянный забор-ранчо для защиты вашей лужайки.</Farm.description>
+  <Farm_Blueprint.label>забор-ранчо (проект)</Farm_Blueprint.label>
+  <Farm_Frame.label>забор-ранчо (постройка)</Farm_Frame.label>
+
+
+  <!-- [ворота-ранчо] -->
+
+  <FarmGateHori.label>ворота-ранчо (Горизонтальные)</FarmGateHori.label>
+  <FarmGateHori.description>Деревянные ворота-ранчо для защиты вашей лужайки.</FarmGateHori.description>
+  <FarmGateHori_Blueprint.label>ворота-ранчо (Горизонтальные) (проект)</FarmGateHori_Blueprint.label>
+  <FarmGateHori_Frame.label>ворота-ранчо (Горизонтальные) (постройка)</FarmGateHori_Frame.label>
+
+  <FarmGateVerti.label>ворота-ранчо (Вертикальные)</FarmGateVerti.label>
+  <FarmGateVerti.description>Деревянные ворота-ранчо для защиты вашей лужайки.</FarmGateVerti.description>
+  <FarmGateVerti_Blueprint.label>ворота-ранчо (Вертикальные) (проект)</FarmGateVerti_Blueprint.label>
+  <FarmGateVerti_Frame.label>ворота-ранчо (Вертикальные) (постройка)</FarmGateVerti_Frame.label>
+
+
+  <!-- [BAR FENCE] -->
+
+  <Bar.label>решётчатый забор</Bar.label>
+  <Bar.description>Решётчатый металлический забор для защиты вашей лужайки.</Bar.description>
+  <Bar_Blueprint.label>решётчатый забор (проект)</Bar_Blueprint.label>
+  <Bar_Frame.label>решётчатый забор (постройка)</Bar_Frame.label>
+
+
+  <!-- [BAR GATE] -->
+
+  <BarGateHori.label>решётчатые ворота (Горизонтальные)</BarGateHori.label>
+  <BarGateHori.description>Решётчатые металлические ворота для защиты вашей лужайки.</BarGateHori.description>
+  <BarGateHori_Blueprint.label>решётчатые ворота (Горизонтальные) (проект)</BarGateHori_Blueprint.label>
+  <BarGateHori_Frame.label>решётчатые ворота (Горизонтальные) (постройка)</BarGateHori_Frame.label>
+
+  <BarGateVerti.label>решётчатые ворота (Вертикальные)</BarGateVerti.label>
+  <BarGateVerti.description>Решётчатые металлические ворота для защиты вашей лужайки.</BarGateVerti.description>
+  <BarGateVerti_Blueprint.label>решётчатые ворота (Вертикальные) (проект)</BarGateVerti_Blueprint.label>
+  <BarGateVerti_Frame.label>решётчатые ворота (Вертикальные) (постройка)</BarGateVerti_Frame.label>
+
+
+  <!-- [TALL CHAINLINK FENCE] -->
+
+  <TallChainLink.label>забор рабица</TallChainLink.label>
+  <TallChainLink.description>Металлический забор рабица для защиты вашей лужайки.</TallChainLink.description>
+  <TallChainLink_Blueprint.label>забор рабица (проект)</TallChainLink_Blueprint.label>
+  <TallChainLink_Frame.label>забор рабица (постройка)</TallChainLink_Frame.label>
+
+
+  <!-- [CHAINLINK GATE] -->
+
+  <ChainlinkGateHori.label>ворота рабица (Горизонтальные)</ChainlinkGateHori.label>
+  <ChainlinkGateHori.description>Металлические ворота рабица для защиты вашей лужайки.</ChainlinkGateHori.description>
+  <ChainlinkGateHori_Blueprint.label>ворота рабица (Горизонтальные) (проект)</ChainlinkGateHori_Blueprint.label>
+  <ChainlinkGateHori_Frame.label>ворота рабица (Горизонтальные) (постройка)</ChainlinkGateHori_Frame.label>
+
+  <ChainlinkGateVerti.label>ворота рабица (Вертикальные)</ChainlinkGateVerti.label>
+  <ChainlinkGateVerti.description>Металлические ворота рабица для защиты вашей лужайки.</ChainlinkGateVerti.description>
+  <ChainlinkGateVerti_Blueprint.label>ворота рабица (Вертикальные) (проект)</ChainlinkGateVerti_Blueprint.label>
+  <ChainlinkGateVerti_Frame.label>ворота рабица (Вертикальные) (постройка)</ChainlinkGateVerti_Frame.label>
+
+
+  <!-- [BRICK FENCE] -->
+
+  <ShortBrick.label>кирпичный забор (низкий)</ShortBrick.label>
+  <ShortBrick.description>Низкий кирпичный забор для защиты вашей лужайки.</ShortBrick.description>
+  <ShortBrick_Blueprint.label>кирпичный забор (низкий) (проект)</ShortBrick_Blueprint.label>
+  <ShortBrick_Frame.label>кирпичный забор (низкий) (постройка)</ShortBrick_Frame.label>
+
+
+  <!-- [FORTIFIED BRICK FENCE] -->
+
+  <TallBrick.label>кирпичный забор (высокий)</TallBrick.label>
+  <TallBrick.description>Высокий кирпичный забор для защиты вашей лужайки.</TallBrick.description>
+  <TallBrick_Blueprint.label>кирпичный забор (высокий) (проект)</TallBrick_Blueprint.label>
+  <TallBrick_Frame.label>кирпичный забор (высокий) (постройка)</TallBrick_Frame.label>
+
+
+</LanguageData>

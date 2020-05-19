@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Russian Mods Translate</name>
+	<author>stBenedict</author>
+	<packageId>stBenedict.RusTrans</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Dalrae.GaramAdvancedApparel</packageId>
+			<displayName>Garam Advanced Apparel</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2013223606</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Dalrae.GaramAdvancedApparel</li>
+	</loadAfter>
+	<description>========== Info ==========
+	Сборка любительских переводов (автор переводов не я, я только собрал их в один отдельный мод) на некоторые моды
+	</description>
+</ModMetaData>

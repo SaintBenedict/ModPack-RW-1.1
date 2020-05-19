@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VFE_CookBulkSimple.label>приготовить 3 простых блюда</VFE_CookBulkSimple.label>
+  <VFE_CookBulkSimple.description>Приготовить три простых блюда из ингредиента растительного или животного происхождения.</VFE_CookBulkSimple.description>
+  <VFE_CookBulkSimple.jobString>Готовит 3 простых блюда.</VFE_CookBulkSimple.jobString>
+
+  <VFE_CookBulkFine.label>приготовить 3 вкусных блюда</VFE_CookBulkFine.label>
+  <VFE_CookBulkFine.description>Приготовить три вкусных сбалансированных блюда из ингредиентов растительного и животного происхождения.</VFE_CookBulkFine.description>
+  <VFE_CookBulkFine.jobString>Готовит 3 вкусных блюда.</VFE_CookBulkFine.jobString>
+
+  <VFE_CookBulkLavish.label>приготовить 3 шикарных блюда</VFE_CookBulkLavish.label>
+  <VFE_CookBulkLavish.description>Приготовить три сложных изысканных блюда из ингредиентов растительного и животного происхождения. Большая часть ингредиентов уйдёт впустую.</VFE_CookBulkLavish.description>
+  <VFE_CookBulkLavish.jobString>Готовит 3 шикарных блюда.</VFE_CookBulkLavish.jobString>
+
+  <VFE_CookBulkSurvival.label>приготовить 3 сухпайка</VFE_CookBulkSurvival.label>
+  <VFE_CookBulkSurvival.description>Приготовить три запечатанных сухих пайка из ингредиентов растительного и животного происхождения. В процессе консервации большая часть ингредиентов уйдёт впустую.</VFE_CookBulkSurvival.description>
+  <VFE_CookBulkSurvival.jobString>Готовит 3 сухпайка.</VFE_CookBulkSurvival.jobString>
+
+
+</LanguageData>

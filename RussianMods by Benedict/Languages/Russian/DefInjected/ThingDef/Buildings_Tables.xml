@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Table_interactive_1x1c.label>интерактивный стол (1x1)</Table_interactive_1x1c.label>
+  <Table_interactive_1x1c.description>Обеденный стол с интерактивным дисплеем на котором можно смотреть видео, играть в электронные игры, писать заметки и т.п. Когда стол подключен к электросети, потребности поселенцев в отдыхе и еде восполняются одновременно.</Table_interactive_1x1c.description>
+  <Table_interactive_1x1c_Blueprint.label>интерактивный стол (1x1) (проект)</Table_interactive_1x1c_Blueprint.label>
+  <Table_interactive_1x1c_Blueprint_Install.label>интерактивный стол (1x1) (проект)</Table_interactive_1x1c_Blueprint_Install.label>
+  <Table_interactive_1x1c_Frame.label>интерактивный стол (1x1) (постройка)</Table_interactive_1x1c_Frame.label>
+  <Table_interactive_1x1c_Frame.description>Обеденный стол с интерактивным дисплеем на котором можно смотреть видео, играть в электронные игры, писать заметки и т.п. Когда стол подключен к электросети, потребности поселенцев в отдыхе и еде восполняются одновременно.</Table_interactive_1x1c_Frame.description>
+
+  <Table_interactive_2x2c.label>интерактивный стол (2x2)</Table_interactive_2x2c.label>
+  <Table_interactive_2x2c.description>Обеденный стол с интерактивным дисплеем на котором можно смотреть видео, играть в электронные игры, писать заметки и т.п. Когда стол подключен к электросети, потребности поселенцев в отдыхе и еде восполняются одновременно.</Table_interactive_2x2c.description>
+  <Table_interactive_2x2c_Blueprint.label>интерактивный стол (2x2) (проект)</Table_interactive_2x2c_Blueprint.label>
+  <Table_interactive_2x2c_Blueprint_Install.label>интерактивный стол (2x2) (проект)</Table_interactive_2x2c_Blueprint_Install.label>
+  <Table_interactive_2x2c_Frame.label>интерактивный стол (2x2) (постройка)</Table_interactive_2x2c_Frame.label>
+  <Table_interactive_2x2c_Frame.description>Обеденный стол с интерактивным дисплеем на котором можно смотреть видео, играть в электронные игры, писать заметки и т.п. Когда стол подключен к электросети, потребности поселенцев в отдыхе и еде восполняются одновременно.</Table_interactive_2x2c_Frame.description>
+
+
+</LanguageData>

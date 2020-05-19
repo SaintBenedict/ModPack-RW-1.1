@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Rodent - Bear -->
+
+  <GR_Bearmole.label>медведь-крот</GR_Bearmole.label>
+  <GR_Bearmole.labelPlural>медведи-кроты</GR_Bearmole.labelPlural>
+
+
+  <!-- Rodent - Boomalope -->
+
+  <GR_Boomsquirrel.label>бумбелка</GR_Boomsquirrel.label>
+  <GR_Boomsquirrel.labelPlural>бумбелки</GR_Boomsquirrel.labelPlural>
+
+
+  <!-- Rabbit - Chicken -->
+
+  <GR_Chickenrabbit.label>курица-кролик</GR_Chickenrabbit.label>
+  <GR_Chickenrabbit.labelPlural>курицы-кролики</GR_Chickenrabbit.labelPlural>
+  <GR_Chickenrabbit.lifeStages.0.label>цыплёнок курицы-кролика</GR_Chickenrabbit.lifeStages.0.label>
+  <GR_Chickenrabbit.lifeStages.0.labelPlural>цыплята курицы-кролика</GR_Chickenrabbit.lifeStages.0.labelPlural>
+
+
+  <!-- Rat - Muffalo -->
+
+  <GR_Muffalorat.label>муффало-крыса</GR_Muffalorat.label>
+  <GR_Muffalorat.labelPlural>муффало-крысы</GR_Muffalorat.labelPlural>
+  <GR_Muffalorat.lifeStages.0.label>телёнок муффало-крысы</GR_Muffalorat.lifeStages.0.label>
+  <GR_Muffalorat.lifeStages.0.labelPlural>телята муффало-крысы</GR_Muffalorat.lifeStages.0.labelPlural>
+
+
+  <!-- Rat - Thrumbo -->
+
+  <GR_Thrumborat.label>трумбо-крыса</GR_Thrumborat.label>
+  <GR_Thrumborat.labelPlural>трумбо-крысы</GR_Thrumborat.labelPlural>
+  <GR_Thrumborat.lifeStages.0.label>телёнок трумбо-крысы</GR_Thrumborat.lifeStages.0.label>
+  <GR_Thrumborat.lifeStages.0.labelPlural>телята трумбо-крысы</GR_Thrumborat.lifeStages.0.labelPlural>
+
+
+  <!-- Beaver - Wolf -->
+
+  <GR_Wolfbeaver.label>волк-бобёр</GR_Wolfbeaver.label>
+  <GR_Wolfbeaver.labelPlural>волки-бобры</GR_Wolfbeaver.labelPlural>
+  <GR_Wolfbeaver.lifeStages.0.label>щенок волка-бобра</GR_Wolfbeaver.lifeStages.0.label>
+  <GR_Wolfbeaver.lifeStages.0.labelPlural>щенки волка-бобра</GR_Wolfbeaver.lifeStages.0.labelPlural>
+
+
+</LanguageData>

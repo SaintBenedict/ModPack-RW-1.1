@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Napalm.label>напалм</Napalm.label>
+  <Napalm.description>Легковоспламеняющийся липкий напалм используемый в зажигательных бомбах, состоит из химического топлива сгущенного синтиленом.</Napalm.description>
+
+  <OilBarrel.label>бочка нефти</OilBarrel.label>
+  <OilBarrel.description>Бочка наполненная сырой нефтью, может быть выброшена, сожжена или переработана.</OilBarrel.description>
+
+  <UncuredPlasteel.label>неотверждённая пласталь</UncuredPlasteel.label>
+  <UncuredPlasteel.description>Неотверждённая пласталь, требуется обжиг в автоклаве.</UncuredPlasteel.description>
+
+  <Synthamide.label>синтамид</Synthamide.label>
+  <Synthamide.description>Синтамидные волокна термостойкие и прочные их можно использовать для создания очень прочной одежды или высокопрочных композитных материалов.</Synthamide.description>
+  <Synthamide.stuffProps.stuffAdjective>синтамид</Synthamide.stuffProps.stuffAdjective>
+
+  <Synthylene.label>синтилен</Synthylene.label>
+  <Synthylene.description>Синтетический строительный материал.</Synthylene.description>
+  <Synthylene.stuffProps.stuffAdjective>синтилен</Synthylene.stuffProps.stuffAdjective>
+
+  <SynthyleneWhite.label>белый синтилен</SynthyleneWhite.label>
+  <SynthyleneWhite.description>Синтетический строительный материал.</SynthyleneWhite.description>
+  <SynthyleneWhite.stuffProps.stuffAdjective>белый синтилен</SynthyleneWhite.stuffProps.stuffAdjective>
+
+  <SynthyleneBlack.label>чёрный синтилен</SynthyleneBlack.label>
+  <SynthyleneBlack.description>Синтетический строительный материал.</SynthyleneBlack.description>
+  <SynthyleneBlack.stuffProps.stuffAdjective>чёрный синтилен</SynthyleneBlack.stuffProps.stuffAdjective>
+
+  <SynthyleneGreen.label>зелёный синтилен</SynthyleneGreen.label>
+  <SynthyleneGreen.description>Синтетический строительный материал.</SynthyleneGreen.description>
+  <SynthyleneGreen.stuffProps.stuffAdjective>зелёный синтилен</SynthyleneGreen.stuffProps.stuffAdjective>
+
+  <SynthyleneBlue.label>синий синтилен</SynthyleneBlue.label>
+  <SynthyleneBlue.description>Синтетический строительный материал.</SynthyleneBlue.description>
+  <SynthyleneBlue.stuffProps.stuffAdjective>синий синтилен</SynthyleneBlue.stuffProps.stuffAdjective>
+
+  <SynthyleneViolet.label>фиолетовый синтилен</SynthyleneViolet.label>
+  <SynthyleneViolet.description>Синтетический строительный материал.</SynthyleneViolet.description>
+  <SynthyleneViolet.stuffProps.stuffAdjective>фиолетовый синтилен</SynthyleneViolet.stuffProps.stuffAdjective>
+
+  <SynthyleneOrange.label>оранжевый синтилен</SynthyleneOrange.label>
+  <SynthyleneOrange.description>Синтетический строительный материал.</SynthyleneOrange.description>
+  <SynthyleneOrange.stuffProps.stuffAdjective>оранжевый синтилен</SynthyleneOrange.stuffProps.stuffAdjective>
+
+  <SynthyleneYellow.label>жёлтый синтилен</SynthyleneYellow.label>
+  <SynthyleneYellow.description>Синтетический строительный материал.</SynthyleneYellow.description>
+  <SynthyleneYellow.stuffProps.stuffAdjective>жёлтый синтилен</SynthyleneYellow.stuffProps.stuffAdjective>
+
+  <SynthyleneRed.label>красный синтилен</SynthyleneRed.label>
+  <SynthyleneRed.description>Синтетический строительный материал.</SynthyleneRed.description>
+  <SynthyleneRed.stuffProps.stuffAdjective>красный синтилен</SynthyleneRed.stuffProps.stuffAdjective>
+
+  <SynthyleneOlive.label>оливковый синтилен</SynthyleneOlive.label>
+  <SynthyleneOlive.description>Синтетический строительный материал.</SynthyleneOlive.description>
+  <SynthyleneOlive.stuffProps.stuffAdjective>оливковый синтилен</SynthyleneOlive.stuffProps.stuffAdjective>
+
+  <SynthyleneSand.label>песочный синтилен</SynthyleneSand.label>
+  <SynthyleneSand.description>Синтетический строительный материал.</SynthyleneSand.description>
+  <SynthyleneSand.stuffProps.stuffAdjective>песочный синтилен</SynthyleneSand.stuffProps.stuffAdjective>
+
+  <UncuredComposite.label>неотверждённый синтамидный композит</UncuredComposite.label>
+  <UncuredComposite.description>Неотверждённый синтамидный композит, требуется обжиг в автоклаве.</UncuredComposite.description>
+
+  <FiberComposite.label>композит</FiberComposite.label>
+  <FiberComposite.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberComposite.description>
+  <FiberComposite.stuffProps.stuffAdjective>композит</FiberComposite.stuffProps.stuffAdjective>
+
+  <FiberCompositeWhite.label>белый композит</FiberCompositeWhite.label>
+  <FiberCompositeWhite.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeWhite.description>
+  <FiberCompositeWhite.stuffProps.stuffAdjective>белый композит</FiberCompositeWhite.stuffProps.stuffAdjective>
+
+  <FiberCompositeBlack.label>чёрный композит</FiberCompositeBlack.label>
+  <FiberCompositeBlack.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeBlack.description>
+  <FiberCompositeBlack.stuffProps.stuffAdjective>чёрный композит</FiberCompositeBlack.stuffProps.stuffAdjective>
+
+  <FiberCompositeGreen.label>зелёный композит</FiberCompositeGreen.label>
+  <FiberCompositeGreen.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeGreen.description>
+  <FiberCompositeGreen.stuffProps.stuffAdjective>зелёный композит</FiberCompositeGreen.stuffProps.stuffAdjective>
+
+  <FiberCompositeBlue.label>синий композит</FiberCompositeBlue.label>
+  <FiberCompositeBlue.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeBlue.description>
+  <FiberCompositeBlue.stuffProps.stuffAdjective>синий композит</FiberCompositeBlue.stuffProps.stuffAdjective>
+
+  <FiberCompositeViolet.label>фиолетовый композит</FiberCompositeViolet.label>
+  <FiberCompositeViolet.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeViolet.description>
+  <FiberCompositeViolet.stuffProps.stuffAdjective>фиолетовый композит</FiberCompositeViolet.stuffProps.stuffAdjective>
+
+  <FiberCompositeOrange.label>оранжевый композит</FiberCompositeOrange.label>
+  <FiberCompositeOrange.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeOrange.description>
+  <FiberCompositeOrange.stuffProps.stuffAdjective>оранжевый композит</FiberCompositeOrange.stuffProps.stuffAdjective>
+
+  <FiberCompositeYellow.label>жёлтый композит</FiberCompositeYellow.label>
+  <FiberCompositeYellow.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeYellow.description>
+  <FiberCompositeYellow.stuffProps.stuffAdjective>жёлтый композит</FiberCompositeYellow.stuffProps.stuffAdjective>
+
+  <FiberCompositeRed.label>Composite red</FiberCompositeRed.label>
+  <FiberCompositeRed.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeRed.description>
+  <FiberCompositeRed.stuffProps.stuffAdjective>red композит</FiberCompositeRed.stuffProps.stuffAdjective>
+
+  <FiberCompositeOlive.label>оливковый композит</FiberCompositeOlive.label>
+  <FiberCompositeOlive.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeOlive.description>
+  <FiberCompositeOlive.stuffProps.stuffAdjective>оливковый композит</FiberCompositeOlive.stuffProps.stuffAdjective>
+
+  <FiberCompositeSand.label>песочный композит</FiberCompositeSand.label>
+  <FiberCompositeSand.description>Синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из полимерной матрицы армированной синтамидными волокнами.</FiberCompositeSand.description>
+  <FiberCompositeSand.stuffProps.stuffAdjective>песочный композит</FiberCompositeSand.stuffProps.stuffAdjective>
+
+
+</LanguageData>

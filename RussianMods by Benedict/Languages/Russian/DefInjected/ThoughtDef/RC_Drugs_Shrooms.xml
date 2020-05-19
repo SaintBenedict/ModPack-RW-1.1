@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_ShroomsHigh.stages.0.label>небольшое грибное путешествие</RC_ShroomsHigh.stages.0.label>
+  <RC_ShroomsHigh.stages.0.description>Вау.. Я чувствую.. хорошо..</RC_ShroomsHigh.stages.0.description>
+  <RC_ShroomsHigh.stages.1.label>среднее грибное путешествие</RC_ShroomsHigh.stages.1.label>
+  <RC_ShroomsHigh.stages.1.description>Я слышу цвета и вижу звуки! Ууууууаааааааа!</RC_ShroomsHigh.stages.1.description>
+  <RC_ShroomsHigh.stages.2.label>глубокое грибное путешествие</RC_ShroomsHigh.stages.2.label>
+  <RC_ShroomsHigh.stages.2.description>ЧТО ТАКОЕ РЕАЛЬНОСТЬ? КТО РЕАЛЬНОСТЬ? ПОЧЕМУ РЕАЛЬНОСТЬ? Я ПОД НАРКОТОЙ!</RC_ShroomsHigh.stages.2.description>
+
+
+  <!-- Zopioid addiction -->
+
+  <ShroomsWithdrawal.stages.1.label>Shrooms withdrawal</ShroomsWithdrawal.stages.1.label>
+  <ShroomsWithdrawal.stages.1.description>What? These aren't addictive silly!</ShroomsWithdrawal.stages.1.description>
+
+
+</LanguageData>

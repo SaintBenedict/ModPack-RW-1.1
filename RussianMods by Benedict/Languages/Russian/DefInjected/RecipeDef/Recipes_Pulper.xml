@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_PulpWood.label>Извлечь органическую массу из дерева</GR_PulpWood.label>
+  <GR_PulpWood.description>Извлечь органическую массу из дерева.</GR_PulpWood.description>
+  <GR_PulpWood.jobString>Извлекает массу.</GR_PulpWood.jobString>
+
+  <GR_PulpWoodExpensive.label>Извлечь органическую массу из дерева</GR_PulpWoodExpensive.label>
+  <GR_PulpWoodExpensive.description>Извлечь органическую массу из древесины. Этот рецепт дороже, чем тот, который содержится в измельчителе и может быть построен с помощью исследований в области генной инженерии.</GR_PulpWoodExpensive.description>
+  <GR_PulpWoodExpensive.jobString>Извлекает массу</GR_PulpWoodExpensive.jobString>
+
+  <GR_PulpCorpse.label>Извлечь органическую массу из трупа</GR_PulpCorpse.label>
+  <GR_PulpCorpse.description>Извлечь органическую массу из трупа.</GR_PulpCorpse.description>
+  <GR_PulpCorpse.jobString>Извлекает массу.</GR_PulpCorpse.jobString>
+
+  <GR_RecycleIncubator.label>извлечь органическую массу из ненужного инкубатора</GR_RecycleIncubator.label>
+  <GR_RecycleIncubator.description>Извлеките органическую массу из ненужного инкубатора. Осторожно, эта операция захватит ближайший инкубатор. Планируйте соответственно.</GR_RecycleIncubator.description>
+  <GR_RecycleIncubator.jobString>Извлекает массу.</GR_RecycleIncubator.jobString>
+
+
+</LanguageData>

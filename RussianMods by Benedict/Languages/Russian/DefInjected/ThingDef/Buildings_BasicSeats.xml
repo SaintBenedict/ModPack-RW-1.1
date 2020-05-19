@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Seat_Cushion.label>кресло мешок</Seat_Cushion.label>
+  <Seat_Cushion.description>Простая подушка для сидения, популярная среди племен. Может использоваться за столом, рабочем месте и в других местах.</Seat_Cushion.description>
+
+  <Seat_Bench.label>скамейка</Seat_Bench.label>
+  <Seat_Bench.description>Простая длинная платформа, на которой одновременно могут сидеть несколько человек, не очень удобная, но гораздо лучше, чем ничего. Может использоваться за столом, рабочем месте и в других местах.</Seat_Bench.description>
+
+  <Seat_SquareChair.label>квадратный стул</Seat_SquareChair.label>
+  <Seat_SquareChair.description>Удобное и привлекательный стул, специально не используемое за ужинином. Может использоваться за столом, рабочем месте и в других местах.</Seat_SquareChair.description>
+
+
+</LanguageData>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Insectoid -->
+
+  <GR_Bearscarab.label>медведь-скарабей</GR_Bearscarab.label>
+  <GR_Bearscarab.labelPlural>медведи-скарабеи</GR_Bearscarab.labelPlural>
+
+
+  <!-- Boomalope - Insectoid -->
+
+  <GR_Boombeetle.label>бумжук</GR_Boombeetle.label>
+  <GR_Boombeetle.labelPlural>бумжук</GR_Boombeetle.labelPlural>
+
+
+  <!-- Chicken - Insectoid -->
+
+  <GR_Chickenspider.label>курица-паук</GR_Chickenspider.label>
+  <GR_Chickenspider.labelPlural>курицы-пауки</GR_Chickenspider.labelPlural>
+
+
+  <!-- Muffalo - Insectoid -->
+
+  <GR_Muffalopede.label>муффало-жук</GR_Muffalopede.label>
+  <GR_Muffalopede.labelPlural>муффало-жуки</GR_Muffalopede.labelPlural>
+
+
+  <!-- Thrumbo - Insectoid -->
+
+  <GR_Thrumbospider.label>трумбо-паук</GR_Thrumbospider.label>
+  <GR_Thrumbospider.labelPlural>трумбо-пауки</GR_Thrumbospider.labelPlural>
+
+
+  <!-- Wolf - Insectoid -->
+
+  <GR_Wolfscarab.label>волк-скарабей</GR_Wolfscarab.label>
+  <GR_Wolfscarab.labelPlural>волки-скарабеи</GR_Wolfscarab.labelPlural>
+  <GR_Wolfscarab.lifeStages.0.label>щенок лесного волка</GR_Wolfscarab.lifeStages.0.label>
+  <GR_Wolfscarab.lifeStages.0.labelPlural>щенки лесного волка</GR_Wolfscarab.lifeStages.0.labelPlural>
+
+
+</LanguageData>

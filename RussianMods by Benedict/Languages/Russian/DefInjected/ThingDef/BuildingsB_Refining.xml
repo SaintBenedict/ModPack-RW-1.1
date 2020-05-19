@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ChemfuelHopper.label>насос химтоплива</ChemfuelHopper.label>
+  <ChemfuelHopper.description>Выкачивают химтопливо из хранилищ химического топлива в пригодные для использования/продажи канистры.</ChemfuelHopper.description>
+  <ChemfuelHopper_Blueprint.label>насос химтоплива (проект)</ChemfuelHopper_Blueprint.label>
+  <ChemfuelHopper_Frame.label>насос химтоплива (постройка)</ChemfuelHopper_Frame.label>
+
+  <ChemfuelSiphon.label>сифон химтоплива</ChemfuelSiphon.label>
+  <ChemfuelSiphon.description>Откачивают химтопливо из канистр в хранилища химического топлива.</ChemfuelSiphon.description>
+  <ChemfuelSiphon_Blueprint.label>сифон химтоплива (проект)</ChemfuelSiphon_Blueprint.label>
+  <ChemfuelSiphon_Frame.label>сифон химтоплива (постройка)</ChemfuelSiphon_Frame.label>
+
+  <RefineryLoadingBay.label>разгрузочная платформа переработчика</RefineryLoadingBay.label>
+  <RefineryLoadingBay.description>Платформа необходимая переработчикам для выгрузки продукта.</RefineryLoadingBay.description>
+  <RefineryLoadingBay_Blueprint.label>разгрузочная платформа переработчика (проект)</RefineryLoadingBay_Blueprint.label>
+  <RefineryLoadingBay_Frame.label>разгрузочная платформа переработчика (постройка)</RefineryLoadingBay_Frame.label>
+
+  <SynthyleneRefiner.label>переработчик синтилена</SynthyleneRefiner.label>
+  <SynthyleneRefiner.description>Перерабатывает химическое топливо в синтилен с выбором цветов, синтилен можно использовать в качестве основного строительного материала и в качестве ингредиента для компонентов.</SynthyleneRefiner.description>
+  <SynthyleneRefiner_Blueprint.label>переработчик синтилена (проект)</SynthyleneRefiner_Blueprint.label>
+  <SynthyleneRefiner_Frame.label>переработчик синтилена (постройка)</SynthyleneRefiner_Frame.label>
+
+  <SynthreadRefiner.label>переработчик синткани</SynthreadRefiner.label>
+  <SynthreadRefiner.description>Перерабатывает химическое топливо в синткань, синтетическое волокно для одежды.</SynthreadRefiner.description>
+  <SynthreadRefiner_Blueprint.label>переработчик синткани (проект)</SynthreadRefiner_Blueprint.label>
+  <SynthreadRefiner_Frame.label>переработчик синткани (постройка)</SynthreadRefiner_Frame.label>
+
+  <SynthamideRefiner.label>переработчик синтамида</SynthamideRefiner.label>
+  <SynthamideRefiner.description>Перерабатывает химическое топливо в ткань из синтамида, высокопрочное синтетическое волокно</SynthamideRefiner.description>
+  <SynthamideRefiner_Blueprint.label>переработчик синтамида (проект)</SynthamideRefiner_Blueprint.label>
+  <SynthamideRefiner_Frame.label>переработчик синтамида (постройка)</SynthamideRefiner_Frame.label>
+
+  <HyperweaveRefiner.label>переработчик гиперткани</HyperweaveRefiner.label>
+  <HyperweaveRefiner.description>Перерабатывает химическое топливо в гиперткань, высокопрочное синтетическое волокно</HyperweaveRefiner.description>
+  <HyperweaveRefiner_Blueprint.label>переработчик гиперткани (проект)</HyperweaveRefiner_Blueprint.label>
+  <HyperweaveRefiner_Frame.label>переработчик гиперткани (постройка)</HyperweaveRefiner_Frame.label>
+
+  <NeutroamineRefiner.label>переработчик нейтроамина</NeutroamineRefiner.label>
+  <NeutroamineRefiner.description>Перерабатывает химическое топливо в нейтроамина для производства медикаментов.</NeutroamineRefiner.description>
+  <NeutroamineRefiner_Blueprint.label>переработчик нейтроамина (проект)</NeutroamineRefiner_Blueprint.label>
+  <NeutroamineRefiner_Frame.label>переработчик нейтроамина (постройка)</NeutroamineRefiner_Frame.label>
+
+  <Autoclave.label>автоклав</Autoclave.label>
+  <Autoclave.description>Обжигает неотверждённую пласталь или синтамидный композит в конечный продукт</Autoclave.description>
+  <Autoclave_Blueprint.label>автоклав (проект)</Autoclave_Blueprint.label>
+  <Autoclave_Frame.label>автоклав (постройка)</Autoclave_Frame.label>
+
+
+</LanguageData>

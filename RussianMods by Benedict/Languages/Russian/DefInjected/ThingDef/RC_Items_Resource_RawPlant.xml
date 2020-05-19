@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- TEMPORARY, NEEDS CHANGING, IS NOT FRUIT -->
+
+  <RawPlantain.label>бананы</RawPlantain.label>
+  <RawPlantain.description>сырые бананы. Вкусные желтые фрукты встречаются гроздьями и часто используются в качестве формы измерения.</RawPlantain.description>
+
+  <RawApples.label>яблоки</RawApples.label>
+  <RawApples.description>сырые яблоки. Вкусные красные / жёлтые фрукты со сладким и слегка кислым привкусом. Сочные и свежие!</RawApples.description>
+
+  <RawWheat.label>пшеничные зёрна</RawWheat.label>
+  <RawWheat.description>Сырые зерна пшеницы. Не съедобно для людей в сыром виде, они должны быть обработаны и приготовлены.</RawWheat.description>
+
+  <RawOnion.label>лук</RawOnion.label>
+  <RawOnion.description>Сырой лук. Вкусные, вонючие луковицы, слои которых очищены. Отличны с маслом.</RawOnion.description>
+
+  <RawTomato.label>томаты</RawTomato.label>
+  <RawTomato.description>Сырые томаты. Идеально подходит для соусов!</RawTomato.description>
+
+  <RawOrange.label>апельсины</RawOrange.label>
+  <RawOrange.description>Сырые апельсины. Отлично подходит для защиты от цинги!</RawOrange.description>
+
+  <RawSoybean.label>соевые бобы</RawSoybean.label>
+  <RawSoybean.description>Сырые соевые бобы. Используется в супе и блюдах, но также превращается в заменитель мяса.</RawSoybean.description>
+
+  <RawOats.label>овёс</RawOats.label>
+  <RawOats.description>Сырой овёс. Отлично подходит для приготовления печенья и каши, не говоря уже о смеси из сухофруктов и орехов!</RawOats.description>
+
+  <RawFigs.label>инжир</RawFigs.label>
+  <RawFigs.description>Сырой инжир. Вкусный прямо с дерева, Инжир используются в ряде вкусных блюд.</RawFigs.description>
+
+  <RawSugarcane.label>сахарный тростник</RawSugarcane.label>
+  <RawSugarcane.description>Сырой сахарный тростник. Хоть вы и можете пососать его, чтобы немного насладиться сладким соком, технически он не съедобен.</RawSugarcane.description>
+
+  <RawQuinoa.label>лебеда</RawQuinoa.label>
+  <RawQuinoa.description>Сырая лебеда.</RawQuinoa.description>
+
+  <RawChickpeas.label>нут</RawChickpeas.label>
+  <RawChickpeas.description>Сырой нут.</RawChickpeas.description>
+
+  <RawPomegranates.label>гранаты</RawPomegranates.label>
+  <RawPomegranates.description>Сырые гранаты. Вкусные прямо с дерева, Гранаты используются в ряде вкусных блюд.</RawPomegranates.description>
+
+  <RawCoffeeBeans.label>кофейные бобы</RawCoffeeBeans.label>
+  <RawCoffeeBeans.description>Сырые кофейные бобы. КОФФЕЕЕЕ!</RawCoffeeBeans.description>
+
+  <RawCacaoBeans.label>какао-бобы</RawCacaoBeans.label>
+  <RawCacaoBeans.description>Сырые какао-бобы. Шоколад!</RawCacaoBeans.description>
+
+  <RawBarley.label>ячмень</RawBarley.label>
+  <RawBarley.description>Сырой ячмень.</RawBarley.description>
+
+  <RawCactusFruit.label>плоды кактуса</RawCactusFruit.label>
+  <RawCactusFruit.description>Сырые плоды кактуса.</RawCactusFruit.description>
+
+  <RawTruffles.label>трюфели</RawTruffles.label>
+  <RawTruffles.description>Сырые трюфели. В значительной степени полюбились торговцами из-за их редкости и вкуса.</RawTruffles.description>
+
+  <RawCoconut.label>кокосы</RawCoconut.label>
+  <RawCoconut.description>Сырые кокосы.</RawCoconut.description>
+
+  <RawDreamflower.label>стручки цветка грёз</RawDreamflower.label>
+  <RawDreamflower.description>Сырые, обрезанные стручки цветка грёз.</RawDreamflower.description>
+
+  <RawHealroot.label>лечебный корень</RawHealroot.label>
+  <RawHealroot.description>Сырые срезанные стебли, стручки и корнеплоды лечебного корня.</RawHealroot.description>
+
+  <RawTeaLeaves.label>чайные листья</RawTeaLeaves.label>
+  <RawTeaLeaves.description>Неферментированные чайные листья. Используются для приготовления зелёного чая.</RawTeaLeaves.description>
+
+  <RawTobacco.label>листья табака</RawTobacco.label>
+  <RawTobacco.description>Листья табака готовые к использованию в сигарах или сигаретах.</RawTobacco.description>
+
+  <RawJuniperBerries.label>ягоды можжевельника</RawJuniperBerries.label>
+  <RawJuniperBerries.description>Свежие ягоды можжевельника. Не очень вкусные, но съедобные. В основном используются в создании джина.</RawJuniperBerries.description>
+
+  <RawGrapes.label>виноград</RawGrapes.label>
+  <RawGrapes.description>Ассорти из винограда. Вкусный и сырой, но лучше всего использовать в виноделии!</RawGrapes.description>
+
+
+</LanguageData>

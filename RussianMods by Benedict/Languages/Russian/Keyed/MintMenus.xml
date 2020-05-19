@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReplacePlantMenu>Красочное окно с описанием вместо краткого списка</ReplacePlantMenu>
+  <ResearchCompletionMode>Завершение исследования</ResearchCompletionMode>
+  <MintHelpLinks>Ссылки поддержки</MintHelpLinks>
+  <MintDiscord>Dubs Mods Discord</MintDiscord>
+  <ProjectStalled>Требования исследовательского проекта не выполнены</ProjectStalled>
+  <ProjectStopped>Проект остановлен</ProjectStopped>
+  <MintWiki>Mint Menus Wiki</MintWiki>
+  <SetButtonsFromBuildo>Добавьте желаемое через меню Создание (Ctrl + щелчок на Проекты)</SetButtonsFromBuildo>
+  <BillSearchTip>К искомым словам относятся:\n\nЛюбые слова задач, описания вещей, например "штаны"\n\nВиды материалов, например "кожа"\n\nПрименимость (укрытие) к частям тела, например "голова","левое ухо"\n\nПризнаки, например промышленные\n\nСлои одежды (Тип), например "бельё""головной убор"\n\nОт переводчика - на русскм языке поиск не по всем заявленным признакам работает.</BillSearchTip>
+  <NoActiveProject>Нет действующего проекта</NoActiveProject>
+  <TargetProject>Конечный целевой проект: {0}</TargetProject>
+  <MintWheelDesc>Колесо быстрых действий {0}/{1} Ctrl+ щелчок Левой Кнопкой Мыши</MintWheelDesc>
+  <MintWheelMenu>Mint Колесо</MintWheelMenu>
+  <MintWheelonrightclick>Колесо по щелчку правой кнопкой мыши</MintWheelonrightclick>
+  <MintWheelRightClickDesc>Открыть Колесо быстрых действий по щелчку правой кнопкой мыши вместо разворачивания вкладки "Проекты" или модового списка "Создание".\n\nДобавляются в Колесо иконки действий или строительства чего-либо в модовом списке "Создание" - Ctrl+ щелчок Левой Кнопкой Мыши на желаемое, удаляются так же.</MintWheelRightClickDesc>
+  <MintWheel>Кнопка Колеса БыстрДейст</MintWheel>
+  <MintBuildMenu>Mint Создание</MintBuildMenu>
+  <AutoFocusSearch>Наведение на окно поиска для печати</AutoFocusSearch>
+  <AutoFocusSearchDesc>Наведение на окно поиска для печати каждый раз при открытии "Создание".\n\nОт переводчика -  срабатывает далеко не всегда</AutoFocusSearchDesc>
+  <OverrideArchitectTab>Переопределить вкладку "Проекты"</OverrideArchitectTab>
+  <OverrideArchitectTabDesc>Вместо обычного набора плиток действий исходной вкладки "Проекты"  - открывается список "Создание" от мода Mint Menus (иначе при Ctrl + щелчок по "Проекты")</OverrideArchitectTabDesc>
+  <ResearchMenu>Mint Исследования</ResearchMenu>
+  <MintListWidth>Ширина списка названий</MintListWidth>
+  <OverrideResearchTab>Переопределить исследовательскую вкладку</OverrideResearchTab>
+  <OverrideResearchTabDesc>Включить отображение модовой вкладки исследований вместо исходной (иначе при Ctrl + щелчок по "Технологии")</OverrideResearchTabDesc>
+  <UnlockedThings>Открывает доступ к созданию этих вещей:</UnlockedThings>
+  <HideFinishedProjects>Скрыть готовые исследования</HideFinishedProjects>
+  <HideLockedProjects>Скрыть недоступные пока исследования</HideLockedProjects>
+
+  <MintExperimental>Дополнительно</MintExperimental>
+  <Autoprojectstep>Самовключение в цепочке исследований</Autoprojectstep>
+  <AutoprojectstepDesc>Самостоятельно начинается следующее исследование в цепочке для достижения конечного</AutoprojectstepDesc>
+  <MintBills>Mint Задания (на верстаках, столах)</MintBills>
+  <ListWidth>Ширина списка доступных задач</ListWidth>
+  <RowHeight>Высота строки отдельной задачи</RowHeight>
+  <InfocardWidth>Ширина описания задачи</InfocardWidth>
+  <TopOffset>Верхнее смещение</TopOffset>
+  <MaxHeight>Наибольшая высота</MaxHeight>
+  <MintPlants>Mint Растительность</MintPlants>
+  <BoxSizeX>Ширина окна</BoxSizeX>
+  <BoxSizeY>Высота окна</BoxSizeY>
+  <MintResetAll>Сбросить все настройки</MintResetAll>
+
+</LanguageData>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<TargetLightRadius>Радиус освещения</TargetLightRadius>
+	<CurrentLightOpacity>Яркость освещения</CurrentLightOpacity>
+
+	<CommandRaiseLightRDesc>Добавить радиус освещения.</CommandRaiseLightRDesc>
+	<CommandLowerLightRDesc>Убавить радиус освещения.</CommandLowerLightRDesc>
+
+	<CommandRaiseLightIntDesc>Повысить яркость освещения.</CommandRaiseLightIntDesc>
+	<CommandLowerLightIntDesc>Снизить яркость освещения.</CommandLowerLightIntDesc>
+
+	<LightIntensityPercent>% яркости</LightIntensityPercent>
+	<LightRadiusCells> тайлов</LightRadiusCells>
+
+	<SwitchedColourDesc>Сменить цвет на </SwitchedColourDesc>
+	<LightColourRed>красный</LightColourRed>
+	<LightColourGreen>зелёный</LightColourGreen>
+	<LightColourBlue>синий</LightColourBlue>
+	<LightColourWhite>белый</LightColourWhite>
+
+	<!-- Item Production -->
+
+	<IncubatorProgress>Прогресс инкубации</IncubatorProgress>
+	<ResourceGrowth>Рост ресурсов</ResourceGrowth>
+	<FeatherGrowth>Рост пера</FeatherGrowth>
+	<JellyGrowth>Заполненность королевским желе</JellyGrowth>
+	<VanillaJellyGrowth>Заполненность: желе насекомых</VanillaJellyGrowth>
+	<SacGrowth>Рост взрывчатых мешков</SacGrowth>
+	<SilkGrowth>Рост шелка</SilkGrowth>
+	<PoisonGrowth>Заполненность ядом</PoisonGrowth>
+	<SkinShed>Время сброса шкуры</SkinShed>
+	<TentacleGrowth>Балансируемый рост щупальца</TentacleGrowth>
+	<JellyGrowth2>Обилие жуткого желе</JellyGrowth2>
+	<ChocolateEgg>Рост шоколадного яйца</ChocolateEgg>
+	<Cryofuel>Производство криотоплива</Cryofuel>
+	<ChemfuelProd>Производство химического топлива</ChemfuelProd>
+	<NeutroglycerinProd>Производство нейроглицерина</NeutroglycerinProd>
+	<ComponentIndustrialDesc>Производство продвинутого компонента</ComponentIndustrialDesc>
+
+
+
+	<!-- Gene Pods Control -->
+
+	<GR_ExtractGenes>Бак 1 пуст</GR_ExtractGenes>
+	<GR_ExtractGenesDesc>Извлечение генетического материала из резервуара #1</GR_ExtractGenesDesc>
+
+	<GR_ExtractGenes2>Бак 2 пуст</GR_ExtractGenes2>
+	<GR_ExtractGenes2Desc>Извлечение генетического материала из резервуара #2</GR_ExtractGenes2Desc>
+
+	<GR_InsertGenes>Поместить в бак 1</GR_InsertGenes>
+	<GR_InsertGenesDesc>Поместить генетический материал в бак #1</GR_InsertGenesDesc>
+
+	<GR_InsertGenes2>Поместить в бак 2</GR_InsertGenes2>
+	<GR_InsertGenes2Desc>Поместить генетический материал в бак #2</GR_InsertGenes2Desc>
+
+	<GR_NoGenes>Нет доступных генетических материалов!</GR_NoGenes>
+
+	<GR_AllGenesNotPresent>Заполните оба бака генетическим материалом, чтобы начать обработку</GR_AllGenesNotPresent>
+	<GR_MixingGenes>Смешивание генетического материала. Прогресс:</GR_MixingGenes>
+
+
+
+
+
+	<!-- Creature Control Commands -->
+
+	<GR_CreatureMindControl>Контроль разума существа</GR_CreatureMindControl>
+	<GR_CreatureMindControlDesc>Используйте контроль разума, чтобы приказывать этому существу вблизи карты.</GR_CreatureMindControlDesc>
+	<GR_CreatureRageAttack>Яростная атака</GR_CreatureRageAttack>
+	<GR_CreatureRageAttackDesc>Отправляйте существо в кровожадной ярости против своей цели.</GR_CreatureRageAttackDesc>
+	<GR_DetonateChemfuel>Взорвать хим. топливо</GR_DetonateChemfuel>
+	<GR_DetonateChemfuelDesc>Удаленно взорвать запасы химического топлива этого существа. Это очевидно убьёт бедного зверя.</GR_DetonateChemfuelDesc>
+	<GR_InflictChickenRimPox>Заразить куриным римпоксом (сифилис)</GR_InflictChickenRimPox>
+	<GR_InflictChickenRimPoxDesc>Атакует цель и наносит куриный римпокс (сифилис), ослабляющая болезнь.</GR_InflictChickenRimPoxDesc>
+	<GR_CarryMore>Переносить больше веса</GR_CarryMore>
+	<GR_CarryMoreDesc>Этот гибрид перенесёт больше веса, чем обычно, из-за влияния центра контроля животных</GR_CarryMoreDesc>
+	<GR_StartAdrenalineBurst>Взрыв адреналина</GR_StartAdrenalineBurst>
+	<GR_StartAdrenalineBurstDesc>Заставляет существо на некоторое время двигаться намного быстрее, ценой усталости после почти на полдня.</GR_StartAdrenalineBurstDesc>
+	<GR_ReleaseInsectClouds>Освобождение облако насекомых</GR_ReleaseInsectClouds>
+	<GR_ReleaseInsectCloudsDesc>Позволяет существу выпустить облако насекомых вокруг него, нанося ущерб каждой пешке, которая не является гибридом насекомого.</GR_ReleaseInsectCloudsDesc>
+	<GR_StartStampede>Начать панический бег</GR_StartStampede>
+	<GR_StartStampedeDesc>Панический бег, двигаясь быстрее и создавая пылевые облака, которые блокируют линию обзора для снарядов. Через некоторое время, существо становится уставшим.</GR_StartStampedeDesc>
+	<GR_CreatePoisonousCloud>Освободить ядовитое облако</GR_CreatePoisonousCloud>
+	<GR_CreatePoisonousCloudDesc>Создает облако яда в месте нахождения цели.</GR_CreatePoisonousCloudDesc>
+	<GR_StartBurrowing>Начать рыть</GR_StartBurrowing>
+	<GR_StartBurrowingDesc>Посылает существо под землю в норный режим, что делает его очень устойчивым к повреждениям на некоторое время.</GR_StartBurrowingDesc>
+	<GR_StartStamina>Увеличение выносливости</GR_StartStamina>
+	<GR_StartStaminaDesc>Делает существо более устойчивым к повреждениям на некоторое время</GR_StartStaminaDesc>
+	<GR_StartInvokingInsanity>Вызывать безумие</GR_StartInvokingInsanity>
+	<GR_StartInvokingInsanityDesc>Вызывает безумие тем, что человек не должен знать</GR_StartInvokingInsanityDesc>
+	<GR_StartMechaBlast>меха-взрыв</GR_StartMechaBlast>
+	<GR_StartMechaBlastDesc>Вентилирует выхлопные газы на клетки окружающие гибридного механоида, сжигая все, что близко к нему</GR_StartMechaBlastDesc>
+
+	<GR_AbilityRecharging>Способность перезаряжается. Проверьте вкладку здоровья животного</GR_AbilityRecharging>
+	<GR_PoisonCloudRange>Ядовитое облако имеет максимальный диапазон 10. Подойдите ближе к цели!</GR_PoisonCloudRange>
+	<GR_InvokingInsanityRange>Вызов безумия имеет максимальную дистанцию 10. Подойдите ближе к цели!</GR_InvokingInsanityRange>
+
+
+
+	<!-- Misc -->
+
+	<GR_ANewCreatureWasBorn>Инкубатор вылупился!</GR_ANewCreatureWasBorn>
+	<GR_ANewCreatureWasBornMutant>В инкубаторе есть выводок... Подождите, ЧТО ЭТО ЗА штука???</GR_ANewCreatureWasBornMutant>
+
+
+	<!-- This isn't used for now -->
+
+	<AccAgeProg>Прогресс ускоренного старения</AccAgeProg>
+	<CannotCarryToAccelerationPod>Не может перенести к блоку ускоренного взросления</CannotCarryToAccelerationPod>
+	<NoAccelerationPod>Не найдено подходящего блока ускоренного взросления</NoAccelerationPod>
+
+</LanguageData>

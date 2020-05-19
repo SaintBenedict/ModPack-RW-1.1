@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_FeatherdustJoint.label>Косяк из пыль-перьев</GR_FeatherdustJoint.label>
+  <GR_FeatherdustJoint.description>Перья медвекура могут быть собраны и переработаны в мелкий порошок, который вызывает легкое эйфорическое ощущение при горении и вдыхании. Использование пероксида может вызвать зависимость.</GR_FeatherdustJoint.description>
+  <GR_FeatherdustJoint.ingestible.ingestCommandString>курить {0}</GR_FeatherdustJoint.ingestible.ingestCommandString>
+  <GR_FeatherdustJoint.ingestible.ingestReportString>курит {0}.</GR_FeatherdustJoint.ingestible.ingestReportString>
+
+
+</LanguageData>

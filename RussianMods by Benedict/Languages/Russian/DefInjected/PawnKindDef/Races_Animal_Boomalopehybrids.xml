@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Boomalope - Bear -->
+
+  <GR_Boomabear.label>бумамедведь</GR_Boomabear.label>
+  <GR_Boomabear.labelPlural>бумамедведи</GR_Boomabear.labelPlural>
+  <GR_Boomabear.lifeStages.0.label>телёнок бумамедведя</GR_Boomabear.lifeStages.0.label>
+  <GR_Boomabear.lifeStages.0.labelPlural>телята бумамедведя</GR_Boomabear.lifeStages.0.labelPlural>
+
+
+  <!-- Boomalope - Chicken -->
+
+  <GR_Boomachicken.label>бумкурица</GR_Boomachicken.label>
+  <GR_Boomachicken.labelPlural>бумкурицы</GR_Boomachicken.labelPlural>
+  <GR_Boomachicken.lifeStages.0.label>телёнок бумкурицы</GR_Boomachicken.lifeStages.0.label>
+  <GR_Boomachicken.lifeStages.0.labelPlural>телята бумкурицы</GR_Boomachicken.lifeStages.0.labelPlural>
+
+
+  <!-- Boomalope - Muffalo -->
+
+  <GR_Boomffalo.label>бумффало</GR_Boomffalo.label>
+  <GR_Boomffalo.labelPlural>бумффалы</GR_Boomffalo.labelPlural>
+  <GR_Boomffalo.lifeStages.0.label>телёнок бумффало</GR_Boomffalo.lifeStages.0.label>
+  <GR_Boomffalo.lifeStages.0.labelPlural>телята бумффало</GR_Boomffalo.lifeStages.0.labelPlural>
+
+
+  <!-- Boomalope - Wolf -->
+
+  <GR_Boomwolf.label>бумволк</GR_Boomwolf.label>
+  <GR_Boomwolf.labelPlural>бумволки</GR_Boomwolf.labelPlural>
+  <GR_Boomwolf.lifeStages.0.label>телёнок бумволка</GR_Boomwolf.lifeStages.0.label>
+  <GR_Boomwolf.lifeStages.0.labelPlural>телята бумволка</GR_Boomwolf.lifeStages.0.labelPlural>
+
+
+</LanguageData>

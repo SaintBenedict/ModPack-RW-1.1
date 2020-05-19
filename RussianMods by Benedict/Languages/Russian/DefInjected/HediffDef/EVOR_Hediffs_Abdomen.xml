@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Hediff_Abd_ThirdLung.label>легкое с нанофильтром</EVOR_Hediff_Abd_ThirdLung.label>
+  <EVOR_Hediff_Abd_ThirdLung.description>Несмотря на то, что этот протез является лишь незначительно более эффективным, чем обычное легкое, он оснащен рядом фильтров способных перерабатывать большую часть токсинов, находящихся в воздухе.</EVOR_Hediff_Abd_ThirdLung.description>
+  <EVOR_Hediff_Abd_ThirdLung.labelNoun>легкое с нанофильтром</EVOR_Hediff_Abd_ThirdLung.labelNoun>
+
+  <EVOR_Hediff_Abd_SecondHeart.label>вспомогательное сердце</EVOR_Hediff_Abd_SecondHeart.label>
+  <EVOR_Hediff_Abd_SecondHeart.description>Это вспомогательное сердце увеличивает количество кислорода, поступающего через тело человека, позволяя ему выполнять работу более эффективно.</EVOR_Hediff_Abd_SecondHeart.description>
+  <EVOR_Hediff_Abd_SecondHeart.labelNoun>вспомогательное сердце</EVOR_Hediff_Abd_SecondHeart.labelNoun>
+
+  <EVOR_Hediff_Abd_Combat.label>железа боевой сыворотки</EVOR_Hediff_Abd_Combat.label>
+  <EVOR_Hediff_Abd_Combat.description>Эта железа впрыскивает в организм большое количество мощных боевых коктейлей, значительно увеличивая возможности ближнего боя.</EVOR_Hediff_Abd_Combat.description>
+  <EVOR_Hediff_Abd_Combat.labelNoun>железа боевой сыворотки</EVOR_Hediff_Abd_Combat.labelNoun>
+
+  <EVOR_Hediff_Abd_Hormone.label>регулятор гормонов</EVOR_Hediff_Abd_Hormone.label>
+  <EVOR_Hediff_Abd_Hormone.description>Это железа регулирует настроение хозяина, делая его менее уязвимым к нервным срывам.</EVOR_Hediff_Abd_Hormone.description>
+  <EVOR_Hediff_Abd_Hormone.labelNoun>регулятор гормонов</EVOR_Hediff_Abd_Hormone.labelNoun>
+
+  <EVOR_Hediff_Abd_Lymph.label>лимфатический пролифератор</EVOR_Hediff_Abd_Lymph.label>
+  <EVOR_Hediff_Abd_Lymph.description>Эта железа значительно повышает возможности иммунитета хозяина, делая его организм невосприимчивыми к большинству обычных возбудителей инфекций.</EVOR_Hediff_Abd_Lymph.description>
+  <EVOR_Hediff_Abd_Lymph.labelNoun>лимфатический пролифератор</EVOR_Hediff_Abd_Lymph.labelNoun>
+
+
+  <!-- <HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Abd_Cultivate</defName>
+		<label>microbiome cultivator</label>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<labelNoun>a microbiome cultivator</labelNoun>
+		<spawnThingOnRemoved>EVOR_Item_Abd_Cultivate</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<RangedWeapon_Cooldown>-0.85</RangedWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> -->
+
+  <EVOR_Hediff_Abd_NoAge.label>вакуоль Ра</EVOR_Hediff_Abd_NoAge.label>
+  <EVOR_Hediff_Abd_NoAge.description>Эта железа подавляет возрастные изменения, она не излечит ничего, что уже есть.</EVOR_Hediff_Abd_NoAge.description>
+  <EVOR_Hediff_Abd_NoAge.labelNoun>вакуоль Ра</EVOR_Hediff_Abd_NoAge.labelNoun>
+
+
+</LanguageData>

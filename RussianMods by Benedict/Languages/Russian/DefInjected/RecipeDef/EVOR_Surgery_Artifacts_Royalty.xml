@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Artifact_Royalty_NornCrown.label>&lt;color=#00FFF7&gt;вживить корону Норн&lt;/color&gt;</EVOR_Surgery_Artifact_Royalty_NornCrown.label>
+  <EVOR_Surgery_Artifact_Royalty_NornCrown.description>Вживить корону Норн.</EVOR_Surgery_Artifact_Royalty_NornCrown.description>
+  <EVOR_Surgery_Artifact_Royalty_NornCrown.jobString>Вживляет корону Норн.</EVOR_Surgery_Artifact_Royalty_NornCrown.jobString>
+
+  <EVOR_Surgery_Artifact_Royalty_ReactiveWorms.label>&lt;color=#00FFF7&gt;вживить мерцающих червей&lt;/color&gt;</EVOR_Surgery_Artifact_Royalty_ReactiveWorms.label>
+  <EVOR_Surgery_Artifact_Royalty_ReactiveWorms.description>Вживить мерцающих червей.</EVOR_Surgery_Artifact_Royalty_ReactiveWorms.description>
+  <EVOR_Surgery_Artifact_Royalty_ReactiveWorms.jobString>Вживляет мерцающих червей.</EVOR_Surgery_Artifact_Royalty_ReactiveWorms.jobString>
+
+
+</LanguageData>

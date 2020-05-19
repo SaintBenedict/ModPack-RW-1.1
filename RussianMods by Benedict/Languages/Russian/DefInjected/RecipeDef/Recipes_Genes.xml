@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_BaseIncubator.label>Изготовить пустой инкубатор</GR_BaseIncubator.label>
+  <GR_BaseIncubator.description>Изготовить пустой инкубатор используя сталь и соединения органической массы.</GR_BaseIncubator.description>
+  <GR_BaseIncubator.jobString>Изготавливает пустой инкубатор.</GR_BaseIncubator.jobString>
+
+  <GR_ExtractGenesBear.label>Извлечь гены из медведя</GR_ExtractGenesBear.label>
+  <GR_ExtractGenesBear.description>Извлечь генетический материал из трупа медведя.</GR_ExtractGenesBear.description>
+  <GR_ExtractGenesBear.jobString>Извлекает генетический материал.</GR_ExtractGenesBear.jobString>
+
+  <GR_ExtractGenesChicken.label>Извлечь гены из птицы</GR_ExtractGenesChicken.label>
+  <GR_ExtractGenesChicken.description>Извлечь генетический материал из трупа птицы.</GR_ExtractGenesChicken.description>
+  <GR_ExtractGenesChicken.jobString>Извлекает генетический материал.</GR_ExtractGenesChicken.jobString>
+
+  <GR_ExtractGenesBoomalope.label>Извлечь гены из бумалопы</GR_ExtractGenesBoomalope.label>
+  <GR_ExtractGenesBoomalope.description>Извлечь генетический материал из трупа бумалопы.</GR_ExtractGenesBoomalope.description>
+  <GR_ExtractGenesBoomalope.jobString>Извлекает генетический материал.</GR_ExtractGenesBoomalope.jobString>
+
+  <GR_ExtractGenesMuffalo.label>Извлечь гены из муффало</GR_ExtractGenesMuffalo.label>
+  <GR_ExtractGenesMuffalo.description>Извлечь генетический материал из трупа муффало.</GR_ExtractGenesMuffalo.description>
+  <GR_ExtractGenesMuffalo.jobString>Извлекает генетический материал.</GR_ExtractGenesMuffalo.jobString>
+
+  <GR_ExtractGenesWolf.label>Извлечь гены из псовых</GR_ExtractGenesWolf.label>
+  <GR_ExtractGenesWolf.description>Извлечь генетический материал из трупа волка, варга или собаки.</GR_ExtractGenesWolf.description>
+  <GR_ExtractGenesWolf.jobString>Извлекает генетический материал.</GR_ExtractGenesWolf.jobString>
+
+  <GR_ExtractGenesRodent.label>Извлечь гены из грызунов или зайцевых</GR_ExtractGenesRodent.label>
+  <GR_ExtractGenesRodent.description>Извлечь генетический материал из трупов грызунов или зайцевых.</GR_ExtractGenesRodent.description>
+  <GR_ExtractGenesRodent.jobString>Извлекает генетический материал.</GR_ExtractGenesRodent.jobString>
+
+  <GR_ExtractGenesInsectoid.label>Извлечь гены из инсектоида</GR_ExtractGenesInsectoid.label>
+  <GR_ExtractGenesInsectoid.description>Извлечь генетический материал из трупа инопланетного инсектоида.</GR_ExtractGenesInsectoid.description>
+  <GR_ExtractGenesInsectoid.jobString>Извлекает генетический материал.</GR_ExtractGenesInsectoid.jobString>
+
+  <GR_ExtractGenesReptilian.label>Извлечь гены из рептилии</GR_ExtractGenesReptilian.label>
+  <GR_ExtractGenesReptilian.description>Извлечь генетический материал из трупа рептилии.</GR_ExtractGenesReptilian.description>
+  <GR_ExtractGenesReptilian.jobString>Извлекает генетический материал.</GR_ExtractGenesReptilian.jobString>
+
+  <GR_ExtractGenesHuman.label>Извлечь гены из гуманоида</GR_ExtractGenesHuman.label>
+  <GR_ExtractGenesHuman.description>Извлечь генетический материал из трупа гуманоида.</GR_ExtractGenesHuman.description>
+  <GR_ExtractGenesHuman.jobString>Извлекает генетический материал.</GR_ExtractGenesHuman.jobString>
+
+  <GR_ExtractGenesThrumbo.label>Извлечь гены из трумбо</GR_ExtractGenesThrumbo.label>
+  <GR_ExtractGenesThrumbo.description>Извлечь генетический материал из трупа трумбо.</GR_ExtractGenesThrumbo.description>
+  <GR_ExtractGenesThrumbo.jobString>Извлекает генетический материал.</GR_ExtractGenesThrumbo.jobString>
+
+  <GR_ExtractGenesMechanoid.label>Извлечь гены из механоида</GR_ExtractGenesMechanoid.label>
+  <GR_ExtractGenesMechanoid.description>Извлечь генетический материал из трупа механоида.</GR_ExtractGenesMechanoid.description>
+  <GR_ExtractGenesMechanoid.jobString>Извлекает генетический материал</GR_ExtractGenesMechanoid.jobString>
+
+
+</LanguageData>

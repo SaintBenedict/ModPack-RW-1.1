@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Eye.label>&lt;color=#00FFF7&gt;вживить мультиспектровый глаз&lt;/color&gt;</EVOR_Surgery_Eye.label>
+  <EVOR_Surgery_Eye.description>Вживить мультиспектровый глаз.</EVOR_Surgery_Eye.description>
+  <EVOR_Surgery_Eye.jobString>Вживляет мультиспектровый глаз.</EVOR_Surgery_Eye.jobString>
+
+  <EVOR_Surgery_Nose.label>&lt;color=#00FFF7&gt;вживить носовой микроанализатор&lt;/color&gt;</EVOR_Surgery_Nose.label>
+  <EVOR_Surgery_Nose.description>Вживить носовой микроанализатор.</EVOR_Surgery_Nose.description>
+  <EVOR_Surgery_Nose.jobString>Вживляет носовой микроанализатор.</EVOR_Surgery_Nose.jobString>
+
+  <EVOR_Surgery_Nose_Pheromones.label>&lt;color=#00FFF7&gt;вживить нос с феромонными железами&lt;/color&gt;</EVOR_Surgery_Nose_Pheromones.label>
+  <EVOR_Surgery_Nose_Pheromones.description>Вживить нос с феромонными железами.</EVOR_Surgery_Nose_Pheromones.description>
+  <EVOR_Surgery_Nose_Pheromones.jobString>Вживляет нос с феромонными железами.</EVOR_Surgery_Nose_Pheromones.jobString>
+
+  <EVOR_Surgery_Ear.label>&lt;color=#00FFF7&gt;вживить чуткое ухо&lt;/color&gt;</EVOR_Surgery_Ear.label>
+  <EVOR_Surgery_Ear.description>Вживить чуткое ухо.</EVOR_Surgery_Ear.description>
+  <EVOR_Surgery_Ear.jobString>Вживляет чуткое ухо.</EVOR_Surgery_Ear.jobString>
+
+  <EVOR_Surgery_Spine.label>&lt;color=#00FFF7&gt;вживить нейроускоренный позвоночник&lt;/color&gt;</EVOR_Surgery_Spine.label>
+  <EVOR_Surgery_Spine.description>Вживить нейроускоренный позвоночник.</EVOR_Surgery_Spine.description>
+  <EVOR_Surgery_Spine.jobString>Вживляет нейроускоренный позвоночник.</EVOR_Surgery_Spine.jobString>
+
+
+</LanguageData>

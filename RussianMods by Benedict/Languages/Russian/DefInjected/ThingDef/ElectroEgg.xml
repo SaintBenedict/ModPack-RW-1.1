@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_ElectroEgg.label>яйцо механоида</GR_ElectroEgg.label>
+  <GR_ElectroEgg.description>Это миниатюрное яйцо сначала по природе кажется металлическим, но оно достаточно мягкое, что его можно раздавить между двумя пальцами. После такого раздавливания его можно нормально проглотить, а активные механиты внутри оказывают живительное воздействие на съевшего. Однако этот эффект может вызвать привыкание.</GR_ElectroEgg.description>
+  <GR_ElectroEgg.ingestible.ingestCommandString>съесть {0}</GR_ElectroEgg.ingestible.ingestCommandString>
+  <GR_ElectroEgg.ingestible.ingestReportString>ест {0}.</GR_ElectroEgg.ingestible.ingestReportString>
+
+
+</LanguageData>

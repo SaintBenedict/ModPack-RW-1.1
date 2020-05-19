@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_BearffaloWool.label>Шерсть медведеффало</GR_BearffaloWool.label>
+  <GR_BearffaloWool.description>Грубая, прочная шерсть. Шерсть медведеффало обеспечивает отличную защиту от тепла и достойную защиту.</GR_BearffaloWool.description>
+  <GR_BearffaloWool.stuffProps.stuffAdjective>Шерсть медведеффало</GR_BearffaloWool.stuffProps.stuffAdjective>
+
+  <GR_BoomffaloWool.label>Шерсть бумффало</GR_BoomffaloWool.label>
+  <GR_BoomffaloWool.description>Хрупкая, странная пахнущая шерсть. Не лучшая шерсть для изготовления одежды, хотя это лучше, чем ничего. Обеспечивает хорошую электроизоляцию.</GR_BoomffaloWool.description>
+  <GR_BoomffaloWool.stuffProps.stuffAdjective>Шерсть бумффало</GR_BoomffaloWool.stuffProps.stuffAdjective>
+
+  <GR_MuffalopeWool.label>Шерсть муффалопы</GR_MuffalopeWool.label>
+  <GR_MuffalopeWool.description>Кажется, что с этой шерсти постоянно капают нестабильные химические соединения. Не лучшая шерсть для изготовления одежды, хотя это лучше, чем ничего. Обеспечивает хорошую электроизоляцию.</GR_MuffalopeWool.description>
+  <GR_MuffalopeWool.stuffProps.stuffAdjective>Шерсть муффалопы</GR_MuffalopeWool.stuffProps.stuffAdjective>
+
+  <GR_ChickenffaloWool.label>Шерсть куроффало</GR_ChickenffaloWool.label>
+  <GR_ChickenffaloWool.description>Пряди этой чистой белой шерсти невероятно малы и спутаны. Отличная защита от колющих атак.</GR_ChickenffaloWool.description>
+  <GR_ChickenffaloWool.stuffProps.stuffAdjective>Шерсть куроффало</GR_ChickenffaloWool.stuffProps.stuffAdjective>
+
+  <GR_MuffalochickenWool.label>Шерсть муффало-курицы</GR_MuffalochickenWool.label>
+  <GR_MuffalochickenWool.description>Кажется, это объединение перьев и шерсти, отлично сплетено. Отличная защита от тупых атак.</GR_MuffalochickenWool.description>
+  <GR_MuffalochickenWool.stuffProps.stuffAdjective>Шерсть муффало-курицы</GR_MuffalochickenWool.stuffProps.stuffAdjective>
+
+  <GR_MuffalowolfWool.label>Шерсть муффало-волка</GR_MuffalowolfWool.label>
+  <GR_MuffalowolfWool.description>Эта темно-серая шерсть стильная и очень теплая.</GR_MuffalowolfWool.description>
+  <GR_MuffalowolfWool.stuffProps.stuffAdjective>Шерсть муффало-волка</GR_MuffalowolfWool.stuffProps.stuffAdjective>
+
+  <GR_WolffaloWool.label>Шерсть волкффало</GR_WolffaloWool.label>
+  <GR_WolffaloWool.description>Эта темно-серая шерсть стильная и очень теплая.</GR_WolffaloWool.description>
+  <GR_WolffaloWool.stuffProps.stuffAdjective>Шерсть волкффало</GR_WolffaloWool.stuffProps.stuffAdjective>
+
+  <GR_ChickenspiderSilk.label>Шелк курицы-паука</GR_ChickenspiderSilk.label>
+  <GR_ChickenspiderSilk.description>Ткань спряденная из волокон, извлеченных из курицы-паука. Легко противостоит тупым и колющим повреждениям, но практически не защищает от сильной жары.</GR_ChickenspiderSilk.description>
+  <GR_ChickenspiderSilk.stuffProps.stuffAdjective>Шелк курицы-паука</GR_ChickenspiderSilk.stuffProps.stuffAdjective>
+
+  <GR_SpidersnakeSilk.label>Шелк паука-змеи</GR_SpidersnakeSilk.label>
+  <GR_SpidersnakeSilk.description>Ткань спряденная из волокон, извлеченных из паука-змеи. Сбалансированная ткань для изготовления одежды.</GR_SpidersnakeSilk.description>
+  <GR_SpidersnakeSilk.stuffProps.stuffAdjective>Шелк паука-змеи</GR_SpidersnakeSilk.stuffProps.stuffAdjective>
+
+  <GR_MuffalopedeChitin.label>Хитин муффало-жука</GR_MuffalopedeChitin.label>
+  <GR_MuffalopedeChitin.description>Хитин инсектоида, можно использовать в качестве материала для изготовления одежды. Он обеспечивает отличную защиту от тупых атак.</GR_MuffalopedeChitin.description>
+  <GR_MuffalopedeChitin.stuffProps.stuffAdjective>хитин муффало-жука</GR_MuffalopedeChitin.stuffProps.stuffAdjective>
+
+  <GR_WolfsnakeSkin.label>Шкура волка-змеи</GR_WolfsnakeSkin.label>
+  <GR_WolfsnakeSkin.description>Сброшенная шкура волка-змеи. Легкая, прочная и хорошо изолирующая.</GR_WolfsnakeSkin.description>
+  <GR_WolfsnakeSkin.stuffProps.stuffAdjective>Шкура волка-змеи</GR_WolfsnakeSkin.stuffProps.stuffAdjective>
+
+  <GR_ThrumbearWool.label>Шерсть трумбо-медведя</GR_ThrumbearWool.label>
+  <GR_ThrumbearWool.description>Толстая шерсть трумбо-медведя, прочная и теплая. Вероятно, лучшая шерсть в царстве животных.</GR_ThrumbearWool.description>
+  <GR_ThrumbearWool.stuffProps.stuffAdjective>Шерсть трумбо-медведя</GR_ThrumbearWool.stuffProps.stuffAdjective>
+
+  <GR_ThrumffaloWool.label>Шерсть трумффало</GR_ThrumffaloWool.label>
+  <GR_ThrumffaloWool.description>Шерсть трумффало - лучшая защита от экстремальных климатических условий.</GR_ThrumffaloWool.description>
+  <GR_ThrumffaloWool.stuffProps.stuffAdjective>Шерсть трумффало</GR_ThrumffaloWool.stuffProps.stuffAdjective>
+
+  <GR_MechaWool.label>шерсть механоида</GR_MechaWool.label>
+  <GR_MechaWool.description>Кажется эта шерсть усиленна пласталевыми микроволокнами и покрыта передовыми схемами.</GR_MechaWool.description>
+  <GR_MechaWool.stuffProps.stuffAdjective>шерсть механоида</GR_MechaWool.stuffProps.stuffAdjective>
+
+
+</LanguageData>

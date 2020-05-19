@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_WeirdMilk.label>Странное молоко</GR_WeirdMilk.label>
+  <GR_WeirdMilk.description>У этого странного молока кислый, химический вкус.</GR_WeirdMilk.description>
+
+  <GR_MuffalopeMilk.label>Молоко муффалопы</GR_MuffalopeMilk.label>
+  <GR_MuffalopeMilk.description>Это желтое, густое молоко определенно не съедобно. Он очень нестабильно, поэтому его можно использовать в качестве самодельной взрывчатки, если у вас есть надлежащие знания.</GR_MuffalopeMilk.description>
+
+  <GR_MechaMilk.label>молоко механоида</GR_MechaMilk.label>
+  <GR_MechaMilk.description>Это металлическое вещество, похожее на ртуть не съедобно. Оно может быть обработан на перегонном аппарате для получения нейтроамина, химического топлива и немного серебра.</GR_MechaMilk.description>
+
+  <GR_BearffaloMilk.label>Молоко медведеффало</GR_BearffaloMilk.label>
+  <GR_BearffaloMilk.description>Молоко с медведеффало. Довольно высокое содержание жира и очень питательное.</GR_BearffaloMilk.description>
+
+  <GR_ThrumffaloMilk.label>Молоко трумффало</GR_ThrumffaloMilk.label>
+  <GR_ThrumffaloMilk.description>Молоко с трумффало. Очень питательное. Также с высоким содержанием холестерина, но на крае вас никто не судит.</GR_ThrumffaloMilk.description>
+
+  <GR_MuffalochickenMilk.label>Молоко муффало-курицы</GR_MuffalochickenMilk.label>
+  <GR_MuffalochickenMilk.description>Это комковатое молоко, похоже, с концентрированными кусочками белка, при дегустации, такие же как наггетсы. Отвратительно, но колонистам это нравится.</GR_MuffalochickenMilk.description>
+
+  <GR_ChickenffaloMilk.label>Молоко куроффало</GR_ChickenffaloMilk.label>
+  <GR_ChickenffaloMilk.description>Молоко из куроффало. Похоже, на разбавленное молоко. Наверное, не намного лучше воды.</GR_ChickenffaloMilk.description>
+
+  <GR_MuffalobearMilk.label>Молоко муффало-медведя</GR_MuffalobearMilk.label>
+  <GR_MuffalobearMilk.description>Вкусное молоко с нотками обжарки. Очень приятно есть, но не очень питательно.</GR_MuffalobearMilk.description>
+
+  <GR_WolffaloMilk.label>Молоко волкффало</GR_WolffaloMilk.label>
+  <GR_WolffaloMilk.description>Это молоко, похоже, заполнено прядями серой шерсти. Отвратительно и довольно трудно пить...</GR_WolffaloMilk.description>
+
+
+</LanguageData>

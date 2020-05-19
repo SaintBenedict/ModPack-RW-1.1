@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_AnimalResource.reportString>собирает животные ресурсы из TargetA.</GR_AnimalResource.reportString>
+  <GR_AttackMeleeOnceAndChickenRimPox.reportString>наносит удар куриному римпоксу в TargetA.</GR_AttackMeleeOnceAndChickenRimPox.reportString>
+  <GR_InsertGenesIntoGenePodJob.reportString>помещает генетический материал в генетическую капсулу.</GR_InsertGenesIntoGenePodJob.reportString>
+  <GR_InsertGenesIntoGenePodJob2.reportString>помещает генетический материал в генетическую капсулу.</GR_InsertGenesIntoGenePodJob2.reportString>
+
+
+</LanguageData>

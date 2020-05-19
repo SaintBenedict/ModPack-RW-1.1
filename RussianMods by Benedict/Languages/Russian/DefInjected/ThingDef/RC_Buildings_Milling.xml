@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_FoodPrepSpot.label>место готовки</RC_FoodPrepSpot.label>
+  <RC_FoodPrepSpot.description>Место для приготовления ингредиентов используемых в готовке.</RC_FoodPrepSpot.description>
+  <RC_FoodPrepSpot_Blueprint.label>место готовки (проект)</RC_FoodPrepSpot_Blueprint.label>
+  <RC_FoodPrepSpot_Frame.label>место готовки (постройка)</RC_FoodPrepSpot_Frame.label>
+
+  <RC_Quernstone.label>жёрнов</RC_Quernstone.label>
+  <RC_Quernstone.description>Маленький мукомольный камень ручного действия для быстрого измельчения сырых растений.</RC_Quernstone.description>
+  <RC_Quernstone_Blueprint.label>жёрнов (проект)</RC_Quernstone_Blueprint.label>
+  <RC_Quernstone_Blueprint_Install.label>жёрнов (проект)</RC_Quernstone_Blueprint_Install.label>
+  <RC_Quernstone_Frame.label>жёрнов (постройка)</RC_Quernstone_Frame.label>
+
+  <RC_RollerMill.label>валковая мельница</RC_RollerMill.label>
+  <RC_RollerMill.description>Небольшая, электрическая измельчающая машина, использующая валки для измельчения растительного материала.</RC_RollerMill.description>
+  <RC_RollerMill_Blueprint.label>валковая мельница (проект)</RC_RollerMill_Blueprint.label>
+  <RC_RollerMill_Blueprint_Install.label>валковая мельниц (проект)</RC_RollerMill_Blueprint_Install.label>
+  <RC_RollerMill_Frame.label>валковая мельница (постройка)</RC_RollerMill_Frame.label>
+
+
+</LanguageData>

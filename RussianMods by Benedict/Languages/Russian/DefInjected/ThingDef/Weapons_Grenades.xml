@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_Weapon_ThrownSac.label>взрывчатый мешок</GR_Weapon_ThrownSac.label>
+  <GR_Weapon_ThrownSac.description>Этот органический мешок заполнен нестабильными химическими веществами, которые будут взрываться при контакте.</GR_Weapon_ThrownSac.description>
+  <GR_Weapon_ThrownSac.verbs.0.label>бросить взрывчатый мешок</GR_Weapon_ThrownSac.verbs.0.label>
+
+
+</LanguageData>

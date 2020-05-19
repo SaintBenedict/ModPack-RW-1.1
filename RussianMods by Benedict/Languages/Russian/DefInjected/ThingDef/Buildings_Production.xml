@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Component Fabrication Bench -->
+
+	<VFE_ComponentFabricationBench.label>сборочный станок</VFE_ComponentFabricationBench.label>
+	<VFE_ComponentFabricationBench.description>Сложный высокоточный станок для производства компонентов.</VFE_ComponentFabricationBench.description>
+	<VFE_ComponentFabricationBench_Blueprint.label>сборочный станок (проект)</VFE_ComponentFabricationBench_Blueprint.label>
+	<VFE_ComponentFabricationBench_Frame.label>сборочный станок (постройка)</VFE_ComponentFabricationBench_Frame.label>
+	<VFE_ComponentFabricationBench_Frame.description>Сложный высокоточный станок для производства компонентов.</VFE_ComponentFabricationBench_Frame.description>
+
+
+	<!-- Electric Butcher -->
+
+	<VFE_TableButcherElectric.label>электробойня</VFE_TableButcherElectric.label>
+	<VFE_TableButcherElectric.description>Тяжёлый стол с циркулярной пилой и дренажной системой для быстрой разделки туш различных существ. Потребляет много энергии.</VFE_TableButcherElectric.description>
+	<VFE_TableButcherElectric_Blueprint.label>электробойня (проект)</VFE_TableButcherElectric_Blueprint.label>
+	<VFE_TableButcherElectric_Blueprint_Install.label>электробойня (проект)</VFE_TableButcherElectric_Blueprint_Install.label>
+	<VFE_TableButcherElectric_Frame.label>электробойня (постройка)</VFE_TableButcherElectric_Frame.label>
+	<VFE_TableButcherElectric_Frame.description>Тяжёлый стол с циркулярной пилой и дренажной системой для быстрой разделки туш различных существ. Потребляет много энергии.</VFE_TableButcherElectric_Frame.description>
+
+
+	<!-- Electric Drug Lab -->
+
+	<VFE_TableDrugLabElectric.label>химический комплекс</VFE_TableDrugLabElectric.label>
+	<VFE_TableDrugLabElectric.description>Стол с набором сложных устройств для быстрого производства медикаментов. Потребляет много энергии.</VFE_TableDrugLabElectric.description>
+	<VFE_TableDrugLabElectric_Blueprint.label>химический комплекс (проект)</VFE_TableDrugLabElectric_Blueprint.label>
+	<VFE_TableDrugLabElectric_Blueprint_Install.label>химический комплекс (проект)</VFE_TableDrugLabElectric_Blueprint_Install.label>
+	<VFE_TableDrugLabElectric_Frame.label>химический комплекс (постройка)</VFE_TableDrugLabElectric_Frame.label>
+	<VFE_TableDrugLabElectric_Frame.description>Стол с набором сложных устройств для быстрого производства медикаментов. Потребляет много энергии.</VFE_TableDrugLabElectric_Frame.description>
+
+
+	<!-- Fueled Smelter -->
+
+	<VFE_FueledSmelter.label>плавильня на дровах</VFE_FueledSmelter.label>
+	<VFE_FueledSmelter.description>Извлекает металл из кусков металлолома и других предметов, которые могут содержать металл. Использует дерево в качестве топлива.</VFE_FueledSmelter.description>
+	<VFE_FueledSmelter_Blueprint.label>плавильня на дровах (проект)</VFE_FueledSmelter_Blueprint.label>
+	<VFE_FueledSmelter_Blueprint_Install.label>плавильня на дровах (проект)</VFE_FueledSmelter_Blueprint_Install.label>
+	<VFE_FueledSmelter_Frame.label>плавильня на дровах (постройка)</VFE_FueledSmelter_Frame.label>
+	<VFE_FueledSmelter_Frame.description>Извлекает металл из кусков металлолома и других предметов, которые могут содержать металл. Использует дерево в качестве топлива.</VFE_FueledSmelter_Frame.description>
+
+
+	<!-- Electric Stone Cutter -->
+
+	<VFE_TableStonecutterElectric.label>камнерезный станок</VFE_TableStonecutterElectric.label>
+	<VFE_TableStonecutterElectric.description>Станок оснащённый пилами, бурами и формовочной рамой для быстрого превращения большого количества камня в различные каменные блоки. Потребляет много энергии.</VFE_TableStonecutterElectric.description>
+	<VFE_TableStonecutterElectric_Blueprint.label>камнерезный станок (проект)</VFE_TableStonecutterElectric_Blueprint.label>
+	<VFE_TableStonecutterElectric_Blueprint_Install.label>камнерезный станок (проект)</VFE_TableStonecutterElectric_Blueprint_Install.label>
+	<VFE_TableStonecutterElectric_Frame.label>камнерезный станок (постройка)</VFE_TableStonecutterElectric_Frame.label>
+	<VFE_TableStonecutterElectric_Frame.description>Станок оснащённый пилами, бурами и формовочной рамой для быстрого превращения большого количества камня в различные каменные блоки. Потребляет много энергии.</VFE_TableStonecutterElectric_Frame.description>
+
+	<GR_GeneticExtractionTable.label>стол извлечения генов</GR_GeneticExtractionTable.label>
+	<GR_GeneticExtractionTable.description>Стол генетической инженерии.</GR_GeneticExtractionTable.description>
+	<GR_GeneticExtractionTable_Blueprint.label>Стол извлечения генов (проект)</GR_GeneticExtractionTable_Blueprint.label>
+	<GR_GeneticExtractionTable_Blueprint_Install.label>стол извлечения генов (проект)</GR_GeneticExtractionTable_Blueprint_Install.label>
+	<GR_GeneticExtractionTable_Frame.label>Стол извлечения генов (постройка)</GR_GeneticExtractionTable_Frame.label>
+
+	<GR_GenePod.label>Генетическая капсула</GR_GenePod.label>
+	<GR_GenePod.description>Образцы генетического материала объединяются и выращиваются в этой лаборатории.</GR_GenePod.description>
+	<GR_GenePod_Blueprint.label>Генетическая капсула (проект)</GR_GenePod_Blueprint.label>
+	<GR_GenePod_Frame.label>Генетическая капсула (постройка)</GR_GenePod_Frame.label>
+
+	<GR_AdvancedGenePod.label>Передовая генетическая капсула</GR_AdvancedGenePod.label>
+	<GR_AdvancedGenePod.description>Образцы генетического материала объединяются и выращиваются в этой лаборатории. Ванны растительного состава ускоряют некоторые из самых сложных экспериментов.</GR_AdvancedGenePod.description>
+	<GR_AdvancedGenePod_Blueprint.label>Передовая генетическая капсула (проект)</GR_AdvancedGenePod_Blueprint.label>
+	<GR_AdvancedGenePod_Frame.label>Передовая генетическая капсула (постройка)</GR_AdvancedGenePod_Frame.label>
+
+	<GR_Pulper.label>Измельчитель</GR_Pulper.label>
+	<GR_Pulper.description>Превращает древесину и органические ресурсы в органическую массу, полезную в качестве основного органического соединения.</GR_Pulper.description>
+	<GR_Pulper_Blueprint.label>Измельчитель (проект)</GR_Pulper_Blueprint.label>
+	<GR_Pulper_Frame.label>Измельчитель (постройка)</GR_Pulper_Frame.label>
+
+	<GR_PulpRecycler.label>Переработчик</GR_PulpRecycler.label>
+	<GR_PulpRecycler.description>Превращает трупы в массу, полезную в качестве основного органического соединения.</GR_PulpRecycler.description>
+	<GR_PulpRecycler_Blueprint.label>Переработчик (проект)</GR_PulpRecycler_Blueprint.label>
+	<GR_PulpRecycler_Frame.label>Переработчик (постройка)</GR_PulpRecycler_Frame.label>
+
+	<GR_GeneRecombinator.label>ген-рекомбинатор</GR_GeneRecombinator.label>
+	<GR_GeneRecombinator.description>Смешивает гены разных видов и произвольно производит гены других видов. Или нет. Кроме того, будьте осторожны, вы не хотите смешивать лягушек с другими вещами. Жизнь находит способ.</GR_GeneRecombinator.description>
+	<GR_GeneRecombinator_Blueprint.label>ген-рекомбинатор (проект)</GR_GeneRecombinator_Blueprint.label>
+	<GR_GeneRecombinator_Frame.label>ген-рекомбинатор (постройка)</GR_GeneRecombinator_Frame.label>
+
+	<GR_TissueGrowingVat.label>Чан для выращивания тканей</GR_TissueGrowingVat.label>
+	<GR_TissueGrowingVat.description>Ускоряет рост органических структур, что позволяет ускорить разработку генетически модифицированных гибридных имплантов.</GR_TissueGrowingVat.description>
+	<GR_TissueGrowingVat_Blueprint.label>Чан для выращивания тканей (проект)</GR_TissueGrowingVat_Blueprint.label>
+	<GR_TissueGrowingVat_Frame.label>Чан для выращивания тканей (постройка)</GR_TissueGrowingVat_Frame.label>
+
+	<GR_AlphaSerumExtractionTable.label>стол извлечения альфа-сыворотки</GR_AlphaSerumExtractionTable.label>
+	<GR_AlphaSerumExtractionTable.description>Этот рабочий стол позволяет вам очищать гены животных и извлекать концентрированную эссенцию, называемой - альфа-сывороткой, которая может быть использована для выращивания более развитых версий ваших животных в центре обогащения животных.</GR_AlphaSerumExtractionTable.description>
+	<GR_AlphaSerumExtractionTable_Blueprint.label>Стол извлечения альфа-сыворотки (проект)</GR_AlphaSerumExtractionTable_Blueprint.label>
+	<GR_AlphaSerumExtractionTable_Blueprint_Install.label>стол извлечения альфа-сыворотки (проект)</GR_AlphaSerumExtractionTable_Blueprint_Install.label>
+	<GR_AlphaSerumExtractionTable_Frame.label>Стол извлечения альфа-сыворотки (постройка)</GR_AlphaSerumExtractionTable_Frame.label>
+
+	<GR_AnimalEnrichmentCenter.label>Центр по обогащению животных</GR_AnimalEnrichmentCenter.label>
+	<GR_AnimalEnrichmentCenter.description>Эта машина может заполнить инкубатор специальной альфа-сывороткой и органическим составом для создания продвинутых версий ваших базовых существ.</GR_AnimalEnrichmentCenter.description>
+	<GR_AnimalEnrichmentCenter_Blueprint.label>Центр по обогащению животных (проект)</GR_AnimalEnrichmentCenter_Blueprint.label>
+	<GR_AnimalEnrichmentCenter_Frame.label>Центр по обогащению животных (постройка)</GR_AnimalEnrichmentCenter_Frame.label>
+
+
+</LanguageData>

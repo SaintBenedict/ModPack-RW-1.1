@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_HugeBearRug.label>Огромный ковер из медведя</GR_HugeBearRug.label>
+  <GR_HugeBearRug_Blueprint.label>Огромный ковер из медведя (проект)</GR_HugeBearRug_Blueprint.label>
+  <GR_HugeBearRug_Blueprint_Install.label>Огромный ковер из медведя (проект)</GR_HugeBearRug_Blueprint_Install.label>
+  <GR_HugeBearRug_Frame.label>Огромный ковер из медведя (постройка)</GR_HugeBearRug_Frame.label>
+
+  <GR_WolfRug.label>Ковер из волка</GR_WolfRug.label>
+  <GR_WolfRug_Blueprint.label>Ковер из волка (проект)</GR_WolfRug_Blueprint.label>
+  <GR_WolfRug_Blueprint_Install.label>Ковер из волка (проект)</GR_WolfRug_Blueprint_Install.label>
+  <GR_WolfRug_Frame.label>Ковер из волка (постройка)</GR_WolfRug_Frame.label>
+
+  <GR_MuffaloRug.label>Ковер из шкуры муффало</GR_MuffaloRug.label>
+  <GR_MuffaloRug_Blueprint.label>Ковер из шкуры муффало (проект)</GR_MuffaloRug_Blueprint.label>
+  <GR_MuffaloRug_Blueprint_Install.label>Ковер из шкуры муффало (проект)</GR_MuffaloRug_Blueprint_Install.label>
+  <GR_MuffaloRug_Frame.label>Ковер из шкуры муффало (постройка)</GR_MuffaloRug_Frame.label>
+
+  <GR_BoarTuskStatuette.label>маленькая статуя бивня кабана</GR_BoarTuskStatuette.label>
+  <GR_BoarTuskStatuette.description>Клык кабана, вырезанный в художественной форме.</GR_BoarTuskStatuette.description>
+  <GR_BoarTuskStatuette_Blueprint.label>маленькая статуя бивня кабана (проект)</GR_BoarTuskStatuette_Blueprint.label>
+  <GR_BoarTuskStatuette_Blueprint_Install.label>Маленькая статуя бивня кабана (проект)</GR_BoarTuskStatuette_Blueprint_Install.label>
+  <GR_BoarTuskStatuette_Frame.label>маленькая статуя бивня кабана (постройка)</GR_BoarTuskStatuette_Frame.label>
+
+
+</LanguageData>

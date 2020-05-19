@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_CryostabilizedEngine.label>крио-стабилизированный генератор</GR_CryostabilizedEngine.label>
+  <GR_CryostabilizedEngine.description>Крио-стабилизированный генератор представляет собой генератор на химическом топливе, который был модифицирован для работы на криогенном топливе. Производит энергию, потребляя криотопливо и должен заправляться вручную.</GR_CryostabilizedEngine.description>
+  <GR_CryostabilizedEngine_Blueprint.label>крио-стабилизированный генератор (проект)</GR_CryostabilizedEngine_Blueprint.label>
+  <GR_CryostabilizedEngine_Frame.label>крио-стабилизированный генератор (постройка)</GR_CryostabilizedEngine_Frame.label>
+
+
+</LanguageData>

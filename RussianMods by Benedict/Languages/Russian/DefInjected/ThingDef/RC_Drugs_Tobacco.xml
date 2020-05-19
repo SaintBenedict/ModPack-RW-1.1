@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cigarette.label>сигарета</Cigarette.label>
+  <Cigarette.description>Сигареты скручиваются из листьев табака в бумажные цилиндры, которые затем поджигаются на одном конце и курятся. Они вызывают привыкание и рак, но рассматриваются как социальная активность на окраинном мире и в других местах. Они завоевали популярность на высокотехнологичных мирах из-за наличия искусственно выращенных и кибернетических органов.</Cigarette.description>
+  <Cigarette.ingestible.ingestCommandString>курить {0}</Cigarette.ingestible.ingestCommandString>
+  <Cigarette.ingestible.ingestReportString>курит {0}.</Cigarette.ingestible.ingestReportString>
+
+  <Cigar.label>сигара</Cigar.label>
+  <Cigar.description>Как и сигареты, сигары скручиваются из листьев табака. Основное различие заключается в том, что они являются гораздо более качественным продуктом, используя меньше наполняющих ингредиентов. Зачастую они ароматны и обычно курятся вместе с алкоголем.</Cigar.description>
+  <Cigar.ingestible.ingestCommandString>курить {0}</Cigar.ingestible.ingestCommandString>
+  <Cigar.ingestible.ingestReportString>курит {0}.</Cigar.ingestible.ingestReportString>
+
+
+</LanguageData>

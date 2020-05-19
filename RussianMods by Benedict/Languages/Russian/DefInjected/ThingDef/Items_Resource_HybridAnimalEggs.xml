@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AlphaChicken Egg -->
+
+  <GR_AlphaChickenEggUnfertilized.label>Яйцо альфа-курицы (неопл.)</GR_AlphaChickenEggUnfertilized.label>
+  <GR_AlphaChickenEggUnfertilized.description>Неоплодотворенное яйцо альфа-курицы. Его можно съесть сырым, но гораздо лучше приготовить. Эти яйца чистые, нетронутые, идеальные примеры куриных яиц. Безупречные яйца.</GR_AlphaChickenEggUnfertilized.description>
+
+  <GR_AlphaChickenEggFertilized.label>Яйцо альфа-курицы (опл.)</GR_AlphaChickenEggFertilized.label>
+  <GR_AlphaChickenEggFertilized.description>Оплодотворенное яйцо альфа-курицы. Его можно съесть сырым, но его гораздо лучше приготовить. Эти яйца чистые, нетронутые, идеальные примеры куриных яиц. Безупречные яйца. Если все пойдет хорошо, оно должно вылупиться в альфа-курицу.</GR_AlphaChickenEggFertilized.description>
+
+
+  <!-- AlphaEmu Egg -->
+
+  <GR_AlphaEmuEggUnfertilized.label>Яйцо альфа-эму (неопл.)</GR_AlphaEmuEggUnfertilized.label>
+  <GR_AlphaEmuEggUnfertilized.description>Неоплодотворенное яйцо альфа-курицы. Его можно съесть сырым, но гораздо лучше приготовить. Эта вещь огромна.</GR_AlphaEmuEggUnfertilized.description>
+
+  <GR_AlphaEmuEggFertilized.label>йцо альфа-эму (опл.)</GR_AlphaEmuEggFertilized.label>
+  <GR_AlphaEmuEggFertilized.description>Оплодотворенное яйцо альфа-эму. Его можно съесть сырым, но его гораздо лучше приготовить. Эта вещь огромна. Если все пойдет хорошо, оно должно вылупиться в альфа-эму.</GR_AlphaEmuEggFertilized.description>
+
+
+  <!-- AlphaOstrich Egg -->
+
+  <GR_AlphaOstrichEggUnfertilized.label>Яйцо альфа-страуса (неопл.)</GR_AlphaOstrichEggUnfertilized.label>
+  <GR_AlphaOstrichEggUnfertilized.description>Неоплодотворенное яйцо альфа-страуса. Его можно съесть сырым, но гораздо лучше приготовить. Эта вещь огромна.</GR_AlphaOstrichEggUnfertilized.description>
+
+  <GR_AlphaOstrichEggFertilized.label>Яйцо альфа-страуса (опл.)</GR_AlphaOstrichEggFertilized.label>
+  <GR_AlphaOstrichEggFertilized.description>Оплодотворенное яйцо альфа-страуса. Его можно съесть сырым, но его намного лучше приготовить. Эта вещь огромна. Если все пойдет хорошо, оно должно вылупиться в альфа-страуса.</GR_AlphaOstrichEggFertilized.description>
+
+
+  <!-- AlphaIguana Egg -->
+
+  <GR_AlphaIguanaEggUnfertilized.label>Яйцо альфа-игуаны (неопл.)</GR_AlphaIguanaEggUnfertilized.label>
+  <GR_AlphaIguanaEggUnfertilized.description>Неоплодотворенное яйцо альфа-игуаны. Его можно съесть сырым, но гораздо лучше приготовить.</GR_AlphaIguanaEggUnfertilized.description>
+
+  <GR_AlphaIguanaEggFertilized.label>Яйцо альфа-игуаны (опл.)</GR_AlphaIguanaEggFertilized.label>
+  <GR_AlphaIguanaEggFertilized.description>Оплодотворенное яйцо альфа-игуаны. Его можно съесть сырым, но его гораздо лучше приготовить. Если все пойдет хорошо, оно должно вылупиться в альфа-игуану.</GR_AlphaIguanaEggFertilized.description>
+
+
+  <!-- AlphaTortoise Egg -->
+
+  <GR_AlphaTortoiseEggUnfertilized.label>Яйцо альфа-черепахи (неопл.)</GR_AlphaTortoiseEggUnfertilized.label>
+  <GR_AlphaTortoiseEggUnfertilized.description>Неоплодотворенное яйцо альфа-черепахи. Его можно съесть сырым, но гораздо лучше приготовить.</GR_AlphaTortoiseEggUnfertilized.description>
+
+  <GR_AlphaTortoiseEggFertilized.label>Яйцо альфа-черепахи (опл.)</GR_AlphaTortoiseEggFertilized.label>
+  <GR_AlphaTortoiseEggFertilized.description>Оплодотворенное яйцо альфа-черепахи. Его можно съесть сырым, но его гораздо лучше приготовить. Если все пойдет хорошо, оно должно вылупиться в альфа-черепаху.</GR_AlphaTortoiseEggFertilized.description>
+
+
+  <!-- Bear / Chicken Egg -->
+
+  <GR_BearChickenEggUnfertilized.label>Яйцо медвекура (неопл.)</GR_BearChickenEggUnfertilized.label>
+  <GR_BearChickenEggUnfertilized.description>Неоплодотворенное яйцо медвекура. Его можно съесть сырым, но гораздо лучше приготовить.</GR_BearChickenEggUnfertilized.description>
+
+  <GR_BearChickenEggFertilized.label>Яйцо медвекура (Опл.)</GR_BearChickenEggFertilized.label>
+  <GR_BearChickenEggFertilized.description>Оплодотворенное яйцо медвекура. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_BearChickenEggFertilized.description>
+
+
+  <!-- Chicken / Bear Egg -->
+
+  <GR_ChickenbearEggUnfertilized.label>Яйцо куромедведя (неопл.)</GR_ChickenbearEggUnfertilized.label>
+  <GR_ChickenbearEggUnfertilized.description>Неоплодотворенное яйцо медвекура. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenbearEggUnfertilized.description>
+
+  <GR_ChickenbearEggFertilized.label>Яйцо куромедведя (Опл.)</GR_ChickenbearEggFertilized.label>
+  <GR_ChickenbearEggFertilized.description>Оплодотворенное яйцо куромедведя. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenbearEggFertilized.description>
+
+
+  <!-- Chicken / Boomalope Egg -->
+
+  <GR_ChickenlopeEggUnfertilized.label>Яйцо куролопы (неопл.)</GR_ChickenlopeEggUnfertilized.label>
+  <GR_ChickenlopeEggUnfertilized.description>Неоплодотворенное яйцо куролопы. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenlopeEggUnfertilized.description>
+
+  <GR_ChickenlopeEggFertilized.label>Яйцо куролопы (Опл.)</GR_ChickenlopeEggFertilized.label>
+  <GR_ChickenlopeEggFertilized.description>Оплодотворенное яйцо куролопы. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenlopeEggFertilized.description>
+
+
+  <!-- Chicken / Muffalo Egg -->
+
+  <GR_ChickenffaloEggUnfertilized.label>Яйцо куроффалы (неопл.)</GR_ChickenffaloEggUnfertilized.label>
+  <GR_ChickenffaloEggUnfertilized.description>Неоплодотворенное яйцо куроффалы. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenffaloEggUnfertilized.description>
+
+  <GR_ChickenffaloEggFertilized.label>Яйцо куроффалы (Опл.)</GR_ChickenffaloEggFertilized.label>
+  <GR_ChickenffaloEggFertilized.description>Оплодотворенное яйцо куроффалы. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenffaloEggFertilized.description>
+
+
+  <!-- Chicken / Wolf Egg -->
+
+  <GR_ChickenwolfEggUnfertilized.label>Яйцо куроволка (неопл.)</GR_ChickenwolfEggUnfertilized.label>
+  <GR_ChickenwolfEggUnfertilized.description>Неоплодотворенное яйцо куроволка. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenwolfEggUnfertilized.description>
+
+  <GR_ChickenwolfEggFertilized.label>Яйцо куроволка (Опл.)</GR_ChickenwolfEggFertilized.label>
+  <GR_ChickenwolfEggFertilized.description>Оплодотворенное яйцо куроволка. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenwolfEggFertilized.description>
+
+
+  <!-- Muffalo / Chicken Egg -->
+
+  <GR_MuffalochickenEggUnfertilized.label>Яйцо муффалокура (Неопл.)</GR_MuffalochickenEggUnfertilized.label>
+  <GR_MuffalochickenEggUnfertilized.description>Неоплодотворенное яйцо муффалокура. Его можно съесть сырым, но гораздо лучше приготовить.</GR_MuffalochickenEggUnfertilized.description>
+
+  <GR_MuffalochickenEggFertilized.label>Яйцо муффалокура (Опл.)</GR_MuffalochickenEggFertilized.label>
+  <GR_MuffalochickenEggFertilized.description>Оплодотворенное яйцо муффалокура. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_MuffalochickenEggFertilized.description>
+
+
+  <!-- Rabbit / Chicken Egg -->
+
+  <GR_ChickenrabbitEggUnfertilized.label>яйцо курицы-кролика (Неопл.)</GR_ChickenrabbitEggUnfertilized.label>
+  <GR_ChickenrabbitEggUnfertilized.description>Неоплодотворенное яйцо курицы-кролика. Его можно съесть сырым, но его намного лучше приготовить. Колонисты клянутся, что оно было окрашено, когда животное снесло его.</GR_ChickenrabbitEggUnfertilized.description>
+
+  <GR_ChickenrabbitEggFertilized.label>яйцо курицы-кролика (Опл.)</GR_ChickenrabbitEggFertilized.label>
+  <GR_ChickenrabbitEggFertilized.description>Оплодотворенное яйцо курицы-кролика. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить. Колонисты клянутся, что оно было окрашено, когда животное снесло его.</GR_ChickenrabbitEggFertilized.description>
+
+
+  <!-- Boomalope / Chicken Egg -->
+
+  <GR_BoomachickenEggUnfertilized.label>Яйцо бумакуры (неопл.)</GR_BoomachickenEggUnfertilized.label>
+  <GR_BoomachickenEggUnfertilized.description>Неоплодотворенное яйцо бумакуры. Его можно съесть сырым, но гораздо лучше приготовить.</GR_BoomachickenEggUnfertilized.description>
+
+  <GR_BoomachickenEggFertilized.label>Яйцо бумакуры (Опл.)</GR_BoomachickenEggFertilized.label>
+  <GR_BoomachickenEggFertilized.description>Оплодотворенное яйцо бумакуры. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_BoomachickenEggFertilized.description>
+
+
+  <!-- Wolf / Chicken Egg -->
+
+  <GR_WolfchickenEggUnfertilized.label>Яйцо волкокура (неопл.)</GR_WolfchickenEggUnfertilized.label>
+  <GR_WolfchickenEggUnfertilized.description>Неоплодотворенное яйцо волкокура. Его можно съесть сырым, но гораздо лучше приготовить.</GR_WolfchickenEggUnfertilized.description>
+
+  <GR_WolfchickenEggFertilized.label>Яйцо волкокура (Опл.)</GR_WolfchickenEggFertilized.label>
+  <GR_WolfchickenEggFertilized.description>Оплодотворенное яйцо волкокура. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_WolfchickenEggFertilized.description>
+
+
+  <!-- Thrumbochicken Egg -->
+
+  <GR_ThrumbochickenEggUnfertilized.label>Яйцо трумбокура (неопл.)</GR_ThrumbochickenEggUnfertilized.label>
+  <GR_ThrumbochickenEggUnfertilized.description>Неоплодотворенное яйцо трумбокура. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ThrumbochickenEggUnfertilized.description>
+
+  <GR_ThrumbochickenEggFertilized.label>Яйцо трумбокура (Опл.)</GR_ThrumbochickenEggFertilized.label>
+  <GR_ThrumbochickenEggFertilized.description>Оплодотворенное яйцо трумбокура. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ThrumbochickenEggFertilized.description>
+
+
+  <!-- Chickenspider Egg -->
+
+  <GR_ChickenspiderEggUnfertilized.label>Яйцо курицы-паука (неопл.)</GR_ChickenspiderEggUnfertilized.label>
+  <GR_ChickenspiderEggUnfertilized.description>Неоплодотворенное яйцо курицы-паука. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenspiderEggUnfertilized.description>
+
+  <GR_ChickenspiderEggFertilized.label>Яйцо курицы-паука (Опл.)</GR_ChickenspiderEggFertilized.label>
+  <GR_ChickenspiderEggFertilized.description>Оплодотворенное яйцо курицы-паука. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenspiderEggFertilized.description>
+
+
+  <!-- Chickenlizard Egg -->
+
+  <GR_ChickenlizardEggUnfertilized.label>Яйцо курицы-ящера (неопл.)</GR_ChickenlizardEggUnfertilized.label>
+  <GR_ChickenlizardEggUnfertilized.description>Неоплодотворенное яйцо курицы-ящера. Его можно съесть сырым, но гораздо лучше приготовить.</GR_ChickenlizardEggUnfertilized.description>
+
+  <GR_ChickenlizardEggFertilized.label>Яйцо курицы-ящера (Опл.)</GR_ChickenlizardEggFertilized.label>
+  <GR_ChickenlizardEggFertilized.description>Оплодотворенное яйцо курицы-ящера. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_ChickenlizardEggFertilized.description>
+
+
+  <!-- Spidersnake Egg -->
+
+  <GR_SpidersnakeEggUnfertilized.label>Яйцо паука-змеи (неопл.)</GR_SpidersnakeEggUnfertilized.label>
+  <GR_SpidersnakeEggUnfertilized.description>Неоплодотворенное яйцо паука-змеи. Его можно съесть сырым, но гораздо лучше приготовить.</GR_SpidersnakeEggUnfertilized.description>
+
+  <GR_SpidersnakeEggFertilized.label>Яйцо паука-змеи (Опл.)</GR_SpidersnakeEggFertilized.label>
+  <GR_SpidersnakeEggFertilized.description>Оплодотворенное яйцо паука-змеи. Если все пойдет хорошо, из него должна вылупиться одна из этих мерзостей. Его можно съесть сырым, но его гораздо лучше приготовить.</GR_SpidersnakeEggFertilized.description>
+
+
+</LanguageData>

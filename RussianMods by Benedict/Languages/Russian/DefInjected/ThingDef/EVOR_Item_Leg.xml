@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Leg_Normal.label>укрепленная нога</EVOR_Item_Leg_Normal.label>
+  <EVOR_Item_Leg_Normal.description>Укрепляя мышцы и кости, мы можем создать ноги, которые позволят увеличить грузоподъемность и скорость.</EVOR_Item_Leg_Normal.description>
+
+  <EVOR_Item_Leg_Hand.label>цепкая нога</EVOR_Item_Leg_Hand.label>
+  <EVOR_Item_Leg_Hand.description>Имитируя конечности наших генетических родственников, мы можем создать универсальную часть тела, способную работать как ногой, так и рукой.</EVOR_Item_Leg_Hand.description>
+
+
+</LanguageData>

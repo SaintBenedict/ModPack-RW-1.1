@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_PreservationRecipeBase.label>сделать запасную еду</RC_PreservationRecipeBase.label>
+  <RC_PreservationRecipeBase.description>Запасти немного еды.</RC_PreservationRecipeBase.description>
+  <RC_PreservationRecipeBase.jobString>запасает еду.</RC_PreservationRecipeBase.jobString>
+
+  <RC_CookDriedMeat.label>сделать сушеное мясо</RC_CookDriedMeat.label>
+  <RC_CookDriedMeat.description>Высушить мясо, для длительного хранения.</RC_CookDriedMeat.description>
+  <RC_CookDriedMeat.jobString>сушит мясо.</RC_CookDriedMeat.jobString>
+
+  <RC_CookDriedMeatBulk.label>сделать много сушеного мяса</RC_CookDriedMeatBulk.label>
+  <RC_CookDriedMeatBulk.description>Высушить мясо, для длительного хранения. Сделать 5x.</RC_CookDriedMeatBulk.description>
+  <RC_CookDriedMeatBulk.jobString>сушит много мяса.</RC_CookDriedMeatBulk.jobString>
+
+  <RC_CookDriedFruit.label>сделать сушеные фрукты</RC_CookDriedFruit.label>
+  <RC_CookDriedFruit.description>Высушить фрукты, для длительного хранения.</RC_CookDriedFruit.description>
+  <RC_CookDriedFruit.jobString>сушит фрукты.</RC_CookDriedFruit.jobString>
+
+  <RC_CookDriedFruitBulk.label>сделать много сушеных фруктов</RC_CookDriedFruitBulk.label>
+  <RC_CookDriedFruitBulk.description>Высушить фрукты, для длительного хранения. Сделать 5x.</RC_CookDriedFruitBulk.description>
+  <RC_CookDriedFruitBulk.jobString>сушит много фруктов.</RC_CookDriedFruitBulk.jobString>
+
+  <RC_CookFruitPreserves.label>сделать фруктовое желе</RC_CookFruitPreserves.label>
+  <RC_CookFruitPreserves.description>Желе - некоторые фрукты в сочетании с сахаром, сохраняются с чрезвычайной сладостью.</RC_CookFruitPreserves.description>
+  <RC_CookFruitPreserves.jobString>делает фруктовое желе.</RC_CookFruitPreserves.jobString>
+
+  <RC_CookFruitPreservesBulk.label>сделать много фруктового желе</RC_CookFruitPreservesBulk.label>
+  <RC_CookFruitPreservesBulk.description>Желе - некоторые фрукты в сочетании с сахаром, сохраняются с чрезвычайной сладостью. Сделать 10x</RC_CookFruitPreservesBulk.description>
+  <RC_CookFruitPreservesBulk.jobString>делает много фруктового желе.</RC_CookFruitPreservesBulk.jobString>
+
+  <RC_CookPickledVegetables.label>сделать маринованные овощи</RC_CookPickledVegetables.label>
+  <RC_CookPickledVegetables.description>Замариновать немного овощей в рассоле, чтобы сохранить их. Не очень приятны на вкус.</RC_CookPickledVegetables.description>
+  <RC_CookPickledVegetables.jobString>маринует овощи.</RC_CookPickledVegetables.jobString>
+
+  <RC_CookPickledVegetablesBulk.label>сделать много маринованных овощей</RC_CookPickledVegetablesBulk.label>
+  <RC_CookPickledVegetablesBulk.description>Замариновать немного овощей в рассоле, чтобы сохранить их. Не очень приятны на вкус. Сделать 10x.</RC_CookPickledVegetablesBulk.description>
+  <RC_CookPickledVegetablesBulk.jobString>маринует много овощей.</RC_CookPickledVegetablesBulk.jobString>
+
+  <MakePemmicanBulk.label>сделать много пеммикана</MakePemmicanBulk.label>
+  <MakePemmicanBulk.description>Высушить мясо и смешать его с травами. Вкусовые качества у него сомнительные, зато такая пища может храниться целый год, даже находясь в тепле.</MakePemmicanBulk.description>
+  <MakePemmicanBulk.jobString>делает пеммикан.</MakePemmicanBulk.jobString>
+
+  <MakePemmicanCampfire.label>сделать пеммикан</MakePemmicanCampfire.label>
+  <MakePemmicanCampfire.description>Высушить мясо и смешать его с жиром и ингредиентами растительного происхождения. Вкусовые качества у такой пищи сомнительные, зато она может храниться целый год, даже находясь в тепле.</MakePemmicanCampfire.description>
+  <MakePemmicanCampfire.jobString>делает пеммикан.</MakePemmicanCampfire.jobString>
+
+  <MakeHardtack.label>сделать галету</MakeHardtack.label>
+  <MakeHardtack.description>Сделать галету, жесткое печенье или крекер, который хранится годами и насытит вас. Не слишком вкусный, но тем не менее.</MakeHardtack.description>
+  <MakeHardtack.jobString>делает галеты.</MakeHardtack.jobString>
+
+  <MakeHardtackCampfire.label>сделать галету</MakeHardtackCampfire.label>
+  <MakeHardtackCampfire.description>Сделать галету, жесткое печенье или крекер, который хранится годами и насытит вас. Не слишком вкусный, но тем не менее.</MakeHardtackCampfire.description>
+  <MakeHardtackCampfire.jobString>делает галеты.</MakeHardtackCampfire.jobString>
+
+  <MakeHardtackBulk.label>сделать много галет</MakeHardtackBulk.label>
+  <MakeHardtackBulk.description>Сделайте галету, жесткое печенье или крекер, который хранится годами и насытит вас. Не слишком вкусный, но тем не менее.</MakeHardtackBulk.description>
+  <MakeHardtackBulk.jobString>делает галеты.</MakeHardtackBulk.jobString>
+
+  <RC_CookCheese.label>сделать сыр</RC_CookCheese.label>
+  <RC_CookCheese.description>Приготовьте молоко и дайте ему застыть, пока оно не станет вкусным твердым сыром.</RC_CookCheese.description>
+  <RC_CookCheese.jobString>делает сыр.</RC_CookCheese.jobString>
+
+  <RC_CookCheeseBulk.label>сделать много сыра</RC_CookCheeseBulk.label>
+  <RC_CookCheeseBulk.description>Приготовьте молоко и дайте ему застыть, пока оно не станет вкусным твердым сыром. Сделать 5x.</RC_CookCheeseBulk.description>
+  <RC_CookCheeseBulk.jobString>делает сыр.</RC_CookCheeseBulk.jobString>
+
+
+</LanguageData>

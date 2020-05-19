@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_RecombineGenes.label>рекомбинировать гены</GR_RecombineGenes.label>
+  <GR_RecombineGenes.description>Рекомбинировать гены одного или нескольких видов, чтобы получить новые.</GR_RecombineGenes.description>
+  <GR_RecombineGenes.jobString>рекомбинирует генетический материал</GR_RecombineGenes.jobString>
+
+  <GR_RecombineSerums.label>рекомбинировать сыворотки</GR_RecombineSerums.label>
+  <GR_RecombineSerums.description>Рекомбинировать генетический материал из 5 сывороток животных для синтеза случайной альфа-сыворотки.</GR_RecombineSerums.description>
+  <GR_RecombineSerums.jobString>рекомбинирует сыворотки</GR_RecombineSerums.jobString>
+
+
+</LanguageData>

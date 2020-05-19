@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OilDrilling.label>бур для нефти</OilDrilling.label>
+  <OilDrilling.description>Бурение нефтяных скважин.</OilDrilling.description>
+
+  <DeepOilWells.label>глубокие скважины</DeepOilWells.label>
+  <DeepOilWells.description>Бурите глубокие скважины для доступа к новым крупным нефтяным залежам.</DeepOilWells.description>
+
+  <ChemfuelRefining.label>очистка химического топлива</ChemfuelRefining.label>
+  <ChemfuelRefining.description>Очистить сырую нефть в химическое топливо для хранения в резервуарах с химическим топливом.</ChemfuelRefining.description>
+
+  <NeutroamineProduction.label>нейтроамин</NeutroamineProduction.label>
+  <NeutroamineProduction.description>Производить нейтроамин используемый для изготовления медикаментов из хранимого химического топлива.</NeutroamineProduction.description>
+
+  <SynthyleneProduction.label>синтилен</SynthyleneProduction.label>
+  <SynthyleneProduction.description>Создавайте обычный синтиленовый материал из хранимого химического топлива для строительства с выбором цвета.</SynthyleneProduction.description>
+
+  <Napalm.label>напалм</Napalm.label>
+  <Napalm.description>Легковоспламеняющийся липкий напалм используется в зажигательных бомбах, состоит из химического топлива сгущенного синтиленом.</Napalm.description>
+
+  <ArtificialFloors.label>искусственные полы</ArtificialFloors.label>
+  <ArtificialFloors.description>Строительство искусственных полов из синтилена.</ArtificialFloors.description>
+
+  <SynthyleneComponents.label>компоненты из синтелена</SynthyleneComponents.label>
+  <SynthyleneComponents.description>Растяните свои запасы стали изготавливая компоненты используя смесь синтилена и стали.</SynthyleneComponents.description>
+
+  <SynthreadProduction.label>синткань</SynthreadProduction.label>
+  <SynthreadProduction.description>Создавайте синткань из хранимого химического топлива.</SynthreadProduction.description>
+
+  <SynthamideProduction.label>синтамид</SynthamideProduction.label>
+  <SynthamideProduction.description>Создавайте синтамид - синтамидные волокна термостойкие и прочные, их можно использовать для создания очень прочной одежды.</SynthamideProduction.description>
+
+  <SynthamideCompositeProduction.label>синтамидный композит</SynthamideCompositeProduction.label>
+  <SynthamideCompositeProduction.description>Создавайте синтамидный композит - высокопрочный, легкий огнестойкий композитный материал с технологичной прокладкой, изготавливается из синтиленовой матрицы армированной синтамидными волокнами.</SynthamideCompositeProduction.description>
+
+  <PlasteelProduction.label>пласталь</PlasteelProduction.label>
+  <PlasteelProduction.description>Откройте секреты создания пластали.</PlasteelProduction.description>
+
+  <HyperweaveProduction.label>гиперткань</HyperweaveProduction.label>
+  <HyperweaveProduction.description>Откройте секреты создания гиперткани</HyperweaveProduction.description>
+
+
+</LanguageData>

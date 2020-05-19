@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Insectoid -->
+
+  <GR_Bearscarab.label>медведь-скарабей</GR_Bearscarab.label>
+  <GR_Bearscarab.description>Гибрид медведя / мегапаука. Эти огромные скарабеи очень умны и могут быть легко обучены вести себя как сторожевые собаки. К сожалению, они не могут размножаться самостоятельно.\n\nПолезные способности: Производит королевское желе, мягкий стимулятор, улучшающий настроение колонистов.</GR_Bearscarab.description>
+  <GR_Bearscarab.tools.1.label>голова</GR_Bearscarab.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Bearscarab_Corpse.label>Труп медведя-скарабея</GR_Bearscarab_Corpse.label>
+  <GR_Bearscarab_Corpse.description>Труп медведя-скарабея.</GR_Bearscarab_Corpse.description>
+
+
+  <!-- Boomalope - Insectoid -->
+
+  <GR_Boombeetle.label>бумжук</GR_Boombeetle.label>
+  <GR_Boombeetle.description>Гибрид бумалопы / мегапаука. Этих огромных насекомых часто называют «бомбардирскими жуками» из-за их способности бросать взрывоопасные мешочки с нестабильными химикатами. Хотя это теоретически можно использовать в качестве защитного актива для колонии, жуки не очень умны и склонны либо бежать при признаке опасности, либо стоять в замешательстве. К сожалению, они не могут размножаться самостоятельно.\n\nПолезные способности: дальняя атака, а взрывчатые мешки периодически генерируются бум-жуком работая как одноразовые гранаты, которые могут использовать колонисты.</GR_Boombeetle.description>
+  <GR_Boombeetle.tools.1.label>голова</GR_Boombeetle.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Boombeetle_Corpse.label>Труп бумжука</GR_Boombeetle_Corpse.label>
+  <GR_Boombeetle_Corpse.description>Труп бумжука.</GR_Boombeetle_Corpse.description>
+
+
+  <!-- Chicken - Insectoid -->
+
+  <GR_Chickenspider.label>курица-паук</GR_Chickenspider.label>
+  <GR_Chickenspider.description>Гибрид курицы / мегапаука.Эти паукообразные существа производят высоко ценимый шёлк и могут откладывать яйца и размножаться в отличие от других эусоциальных насекомых.\n\nПолезные способности: производство шёлка.</GR_Chickenspider.description>
+  <GR_Chickenspider.tools.1.label>голова</GR_Chickenspider.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Chickenspider_Corpse.label>Труп курицы-паука</GR_Chickenspider_Corpse.label>
+  <GR_Chickenspider_Corpse.description>Труп курицы-паука.</GR_Chickenspider_Corpse.description>
+
+
+  <!-- Muffalo - Insectoid -->
+
+  <GR_Muffalopede.label>муффало-жук</GR_Muffalopede.label>
+  <GR_Muffalopede.description>Гибрид муффало / пещерного жука. Это бесплодное, похожее на гриб существо является одним из немногих инсектоидов, которые производят желе насекомых. Оно также сбрасывает хитин каждые несколько дней, который можно использовать для изготовления одежды, они могут размножаться самостоятельно.\n\nПолезные способности: Стайное животное. Периодически производит хитин и желе насекомых.</GR_Muffalopede.description>
+  <GR_Muffalopede.tools.1.label>голова</GR_Muffalopede.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Muffalopede_Corpse.label>Труп муффало-жука</GR_Muffalopede_Corpse.label>
+  <GR_Muffalopede_Corpse.description>Труп муффало-жука.</GR_Muffalopede_Corpse.description>
+
+
+  <!-- Thrumbo - Insectoid -->
+
+  <GR_Thrumbospider.label>трумбо-паук</GR_Thrumbospider.label>
+  <GR_Thrumbospider.description>Гибрид трумбо / мегапаука. Прожорливый аппетит трумбо в сочетании с быстрым метаболизмом мегапаука делает это существо очень сложным в содержании и заботе, но в боевой силе он почти непревзойден, хотя и медленный, они не могут размножаться самостоятельно.\n\nПолезные способности: Если оно правильно обучено, это существо полностью уничтожит ваших врагов.</GR_Thrumbospider.description>
+  <GR_Thrumbospider.tools.1.label>голова</GR_Thrumbospider.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Thrumbospider_Corpse.label>Труп трумбо-паука</GR_Thrumbospider_Corpse.label>
+  <GR_Thrumbospider_Corpse.description>Труп трумбо-паука.</GR_Thrumbospider_Corpse.description>
+
+
+  <!-- Wolf - Insectoid -->
+
+  <GR_Wolfscarab.label>волк-скарабей</GR_Wolfscarab.label>
+  <GR_Wolfscarab.description>Гибрид волка / мегаскарабея. Эти свирепые существа быстрее, чем большинство животных, и действительно эффективны в бою, они не могут размножаться самостоятельно.\n\nПолезные способности: Гораздо быстрее, чем большинство других существ.</GR_Wolfscarab.description>
+  <GR_Wolfscarab.tools.1.label>голова</GR_Wolfscarab.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Megaspider -->
+  <GR_Wolfscarab_Corpse.label>Труп волка-скарабея</GR_Wolfscarab_Corpse.label>
+  <GR_Wolfscarab_Corpse.description>Труп волка-скарабея.</GR_Wolfscarab_Corpse.description>
+
+
+</LanguageData>

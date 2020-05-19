@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chicken - Bear -->
+
+  <GR_Chickenbear.label>куромедведь</GR_Chickenbear.label>
+  <GR_Chickenbear.labelPlural>куромедведи</GR_Chickenbear.labelPlural>
+  <GR_Chickenbear.lifeStages.0.label>цыплёнок куромедведя</GR_Chickenbear.lifeStages.0.label>
+  <GR_Chickenbear.lifeStages.0.labelPlural>цыплята куромедведя</GR_Chickenbear.lifeStages.0.labelPlural>
+
+
+  <!-- Chicken - Boomalope -->
+
+  <GR_Chickenlope.label>куролопа</GR_Chickenlope.label>
+  <GR_Chickenlope.labelPlural>куролопы</GR_Chickenlope.labelPlural>
+  <GR_Chickenlope.lifeStages.0.label>цыплёнок куролопы</GR_Chickenlope.lifeStages.0.label>
+  <GR_Chickenlope.lifeStages.0.labelPlural>цыплята куролопы</GR_Chickenlope.lifeStages.0.labelPlural>
+
+
+  <!-- Chicken - Muffalo -->
+
+  <GR_Chickenffalo.label>куроффало</GR_Chickenffalo.label>
+  <GR_Chickenffalo.labelPlural>куроффало</GR_Chickenffalo.labelPlural>
+  <GR_Chickenffalo.lifeStages.0.label>цыплёнок куроффало</GR_Chickenffalo.lifeStages.0.label>
+  <GR_Chickenffalo.lifeStages.0.labelPlural>цыплята куроффало</GR_Chickenffalo.lifeStages.0.labelPlural>
+
+
+  <!-- Chicken - Wolf -->
+
+  <GR_Chickenwolf.label>куроволк</GR_Chickenwolf.label>
+  <GR_Chickenwolf.labelPlural>куроволки</GR_Chickenwolf.labelPlural>
+  <GR_Chickenwolf.lifeStages.0.label>цыплёнок куроволка</GR_Chickenwolf.lifeStages.0.label>
+  <GR_Chickenwolf.lifeStages.0.labelPlural>цыплята куроволка</GR_Chickenwolf.lifeStages.0.labelPlural>
+
+
+</LanguageData>

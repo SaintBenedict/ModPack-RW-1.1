@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<GR_DoBillsGenetics.label>работать на столе генетики</GR_DoBillsGenetics.label>
+	<GR_DoBillsGenetics.verb>извлекать генетический материал</GR_DoBillsGenetics.verb>
+	<GR_DoBillsGenetics.gerund>извлекать генетический материал на</GR_DoBillsGenetics.gerund>
+
+	<GR_DoBillsGenePod.label>Работать на генетической капсуле</GR_DoBillsGenePod.label>
+	<GR_DoBillsGenePod.verb>комбинировать генетический материал</GR_DoBillsGenePod.verb>
+	<GR_DoBillsGenePod.gerund>комбинировать генетический материал на</GR_DoBillsGenePod.gerund>
+
+	<GR_DoBillsAdvancedGenePod.label>Работать на передовой генетической капсуле</GR_DoBillsAdvancedGenePod.label>
+	<GR_DoBillsAdvancedGenePod.verb>комбинировать генетический материал</GR_DoBillsAdvancedGenePod.verb>
+	<GR_DoBillsAdvancedGenePod.gerund>комбинировать генетический материал на</GR_DoBillsAdvancedGenePod.gerund>
+
+	<GR_DoBillsPulper.label>Работать на древесном измельчителе</GR_DoBillsPulper.label>
+	<GR_DoBillsPulper.verb>измельчать дерево</GR_DoBillsPulper.verb>
+	<GR_DoBillsPulper.gerund>измельчать дерево на</GR_DoBillsPulper.gerund>
+
+	<GR_DoBillsRecycler.label>работать на переработчике</GR_DoBillsRecycler.label>
+	<GR_DoBillsRecycler.verb>перерабатывать трупы</GR_DoBillsRecycler.verb>
+	<GR_DoBillsRecycler.gerund>перерабатывать трупы на</GR_DoBillsRecycler.gerund>
+
+	<GR_DoBillsGeneRecombinator.label>работает на генном рекомбинаторе</GR_DoBillsGeneRecombinator.label>
+	<GR_DoBillsGeneRecombinator.verb>рекомбинировать гены</GR_DoBillsGeneRecombinator.verb>
+	<GR_DoBillsGeneRecombinator.gerund>рекомбинировать гены на</GR_DoBillsGeneRecombinator.gerund>
+
+	<GR_DoBillsVat.label>Работать на чане для выращивания тканей</GR_DoBillsVat.label>
+	<GR_DoBillsVat.verb>выращивать ткани</GR_DoBillsVat.verb>
+	<GR_DoBillsVat.gerund>выращивать ткани на</GR_DoBillsVat.gerund>
+
+	<GR_DoBillsSerumTable.label>работает на столе извлечения альфа-сыворотки</GR_DoBillsSerumTable.label>
+	<GR_DoBillsSerumTable.verb>извлекать сыворотку</GR_DoBillsSerumTable.verb>
+	<GR_DoBillsSerumTable.gerund>извлекать сыворотку на</GR_DoBillsSerumTable.gerund>
+
+	<GR_DoBillsAnimalEnrichment.label>работать в центре обогащения животных</GR_DoBillsAnimalEnrichment.label>
+	<GR_DoBillsAnimalEnrichment.verb>смешивать альфа-сыворотку</GR_DoBillsAnimalEnrichment.verb>
+	<GR_DoBillsAnimalEnrichment.gerund>смешивать альфа-сыворотку на</GR_DoBillsAnimalEnrichment.gerund>
+
+	<GR_AnimalResource.label>собирать ресурсы с животных</GR_AnimalResource.label>
+	<GR_AnimalResource.verb>собирать ресурсы из животных</GR_AnimalResource.verb>
+	<GR_AnimalResource.gerund>собирает ресурсы из</GR_AnimalResource.gerund>
+
+	<GR_InsertGenesIntoGenePod.label>помещать генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod.label>
+	<GR_InsertGenesIntoGenePod.verb>помещать генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod.verb>
+	<GR_InsertGenesIntoGenePod.gerund>помещает генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod.gerund>
+
+	<GR_InsertGenesIntoGenePod2.label>помещать генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod2.label>
+	<GR_InsertGenesIntoGenePod2.verb>помещать генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod2.verb>
+	<GR_InsertGenesIntoGenePod2.gerund>помещает генетический материал в генетическую капсулу</GR_InsertGenesIntoGenePod2.gerund>
+
+	<EmptyAutoclave.label>опорожнить автоклав</EmptyAutoclave.label>
+	<EmptyAutoclave.verb>опорожнить автоклав</EmptyAutoclave.verb>
+	<EmptyAutoclave.gerund>опорожняет автоклав</EmptyAutoclave.gerund>
+
+	<FillAutoclave.label>заполнять автоклав</FillAutoclave.label>
+	<FillAutoclave.verb>заполнять автоклав</FillAutoclave.verb>
+	<FillAutoclave.gerund>заполняет автоклав</FillAutoclave.gerund>
+
+	<CleanOil.label>убрать нефть</CleanOil.label>
+	<CleanOil.verb>убрать нефть</CleanOil.verb>
+	<CleanOil.gerund>убирает нефть</CleanOil.gerund>
+
+	<SuperviseDrilling.label>контролирование бурения</SuperviseDrilling.label>
+	<SuperviseDrilling.verb>контролирование</SuperviseDrilling.verb>
+	<SuperviseDrilling.gerund>контролирует</SuperviseDrilling.gerund>
+
+	<OperateResourceConsole.label>управление консолью ресурсов</OperateResourceConsole.label>
+	<OperateResourceConsole.verb>управление</OperateResourceConsole.verb>
+	<OperateResourceConsole.gerund>управляет</OperateResourceConsole.gerund>
+
+
+</LanguageData>

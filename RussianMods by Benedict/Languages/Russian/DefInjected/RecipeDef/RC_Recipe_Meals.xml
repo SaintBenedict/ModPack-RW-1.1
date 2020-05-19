@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSimpleBulk.label>приготовить много простых блюд</CookMealSimpleBulk.label>
+  <CookMealSimpleBulk.description>Приготовить простое блюдо из одного ингредиента. Сделать 10x.</CookMealSimpleBulk.description>
+  <CookMealSimpleBulk.jobString>готовит простое блюдо.</CookMealSimpleBulk.jobString>
+
+  <CookMealSimpleCampfire.label>приготовить простое блюдо</CookMealSimpleCampfire.label>
+  <CookMealSimpleCampfire.description>Приготовить простое блюдо из одного ингредиента.</CookMealSimpleCampfire.description>
+  <CookMealSimpleCampfire.jobString>готовит простое блюдо.</CookMealSimpleCampfire.jobString>
+
+  <CookMealFineBulk.label>приготовить много вкусных блюд</CookMealFineBulk.label>
+  <CookMealFineBulk.description>Приготовить вкусное блюдо из мяса, зёрен овощей или фруктов.</CookMealFineBulk.description>
+  <CookMealFineBulk.jobString>готовит вкусное блюдо.</CookMealFineBulk.jobString>
+
+  <CookMealExtravagant.label>приготовить экстравагантное блюдо</CookMealExtravagant.label>
+  <CookMealExtravagant.description>Приготовить экстравагантное блюдо из сочетания мяса, муки, овощей, фруктов и специй. Большая часть ингредиентов теряется. Однако это того стоит.</CookMealExtravagant.description>
+  <CookMealExtravagant.jobString>готовит экстравагантное блюдо.</CookMealExtravagant.jobString>
+
+  <CookWeakStew.label>приготовить слабо тушеное рагу</CookWeakStew.label>
+  <CookWeakStew.description>Приготовить нежное, простое рагу из нескольких ингредиентов. Сделать 10 блюд.</CookWeakStew.description>
+  <CookWeakStew.jobString>готовит слабо тушеное рагу.</CookWeakStew.jobString>
+
+  <CookHeartyStew.label>приготовить хорошо тушеное рагу</CookHeartyStew.label>
+  <CookHeartyStew.description>Приготовить сытное рагу из мяса и любой растительной пищи. Сделать 10 блюд.</CookHeartyStew.description>
+  <CookHeartyStew.jobString>готовит хорошо тушеное рагу.</CookHeartyStew.jobString>
+
+
+</LanguageData>

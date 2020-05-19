@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<ReligionsAtheist.degreeDatas.0.label>Атеист</ReligionsAtheist.degreeDatas.0.label>
+	<ReligionsAtheist.degreeDatas.0.description>{PAWN_nameDef} не хватает веры.</ReligionsAtheist.degreeDatas.0.description>
+
+	<ReligionsAntitheist.degreeDatas.0.label>Антитейст</ReligionsAntitheist.degreeDatas.0.label>
+	<ReligionsAntitheist.degreeDatas.0.description>{PAWN_nameDef} ненавидит верующих.</ReligionsAntitheist.degreeDatas.0.description>
+
+	<ReligionsAgnostic.degreeDatas.0.label>Агностик</ReligionsAgnostic.degreeDatas.0.label>
+	<ReligionsAgnostic.degreeDatas.0.description>{PAWN_nameDef} развлекает возможность божества.</ReligionsAgnostic.degreeDatas.0.description>
+
+	<ReligionsChristian.degreeDatas.0.label>Христианин</ReligionsChristian.degreeDatas.0.label>
+	<ReligionsChristian.degreeDatas.0.description>{PAWN_nameDef} верит во Христа.</ReligionsChristian.degreeDatas.0.description>
+
+	<ReligionsJudaism.degreeDatas.0.label>Иудей</ReligionsJudaism.degreeDatas.0.label>
+	<ReligionsJudaism.degreeDatas.0.description>{PAWN_nameDef} верит в Иудаизм.</ReligionsJudaism.degreeDatas.0.description>
+
+	<ReligionsTaoism.degreeDatas.0.label>Даос</ReligionsTaoism.degreeDatas.0.label>
+	<ReligionsTaoism.degreeDatas.0.description>{PAWN_nameDef} верит в Даосизм.</ReligionsTaoism.degreeDatas.0.description>
+
+	<ReligionsBuddhism.degreeDatas.0.label>Буддист</ReligionsBuddhism.degreeDatas.0.label>
+	<ReligionsBuddhism.degreeDatas.0.description>{PAWN_nameDef} верит в Буддизм.</ReligionsBuddhism.degreeDatas.0.description>
+
+	<ReligionsSikhism.degreeDatas.0.label>Сикхист</ReligionsSikhism.degreeDatas.0.label>
+	<ReligionsSikhism.degreeDatas.0.description>{PAWN_nameDef} верит в Сикхизм.</ReligionsSikhism.degreeDatas.0.description>
+
+	<ReligionsHinduism.degreeDatas.0.label>Индуист</ReligionsHinduism.degreeDatas.0.label>
+	<ReligionsHinduism.degreeDatas.0.description>{PAWN_nameDef} верит в Индуизм.</ReligionsHinduism.degreeDatas.0.description>
+
+	<ReligionsJainism.degreeDatas.0.label>Джайнист</ReligionsJainism.degreeDatas.0.label>
+	<ReligionsJainism.degreeDatas.0.description>{PAWN_nameDef} верит в Джайнизм.</ReligionsJainism.degreeDatas.0.description>
+
+	<ReligionsZoroastrianism.degreeDatas.0.label>Зороастрийец</ReligionsZoroastrianism.degreeDatas.0.label>
+	<ReligionsZoroastrianism.degreeDatas.0.description>{PAWN_nameDef} верит в Зороастризм.</ReligionsZoroastrianism.degreeDatas.0.description>
+
+	<ReligionsIslamic.degreeDatas.0.label>Исламист</ReligionsIslamic.degreeDatas.0.label>
+	<ReligionsIslamic.degreeDatas.0.description>{PAWN_nameDef} верит в Ислам.</ReligionsIslamic.degreeDatas.0.description>
+
+	<ReligionsPagan.degreeDatas.0.label>Язычник</ReligionsPagan.degreeDatas.0.label>
+	<ReligionsPagan.degreeDatas.0.description>{PAWN_nameDef} верит в Язычество.</ReligionsPagan.degreeDatas.0.description>
+
+	<ReligionsMysticism.degreeDatas.0.label>Мистик</ReligionsMysticism.degreeDatas.0.label>
+	<ReligionsMysticism.degreeDatas.0.description>{PAWN_nameDef} верит в Мистицизм.</ReligionsMysticism.degreeDatas.0.description>
+
+	<ReligionsMother.degreeDatas.0.label>Вера Матери Планеты</ReligionsMother.degreeDatas.0.label>
+	<ReligionsMother.degreeDatas.0.description>{PAWN_nameDef} верит в Планету Мать.</ReligionsMother.degreeDatas.0.description>
+
+	<ReligionsFather.degreeDatas.0.label>Вера Небесного Отца</ReligionsFather.degreeDatas.0.label>
+	<ReligionsFather.degreeDatas.0.description>{PAWN_nameDef} верит в Небесного Отца.</ReligionsFather.degreeDatas.0.description>
+
+	<ReligionsArchon.degreeDatas.0.label>Архонтист</ReligionsArchon.degreeDatas.0.label>
+	<ReligionsArchon.degreeDatas.0.description>{PAWN_nameDef} верит в воюющего Демиурга.</ReligionsArchon.degreeDatas.0.description>
+
+	<ReligionsAnimism.degreeDatas.0.label>Анимист</ReligionsAnimism.degreeDatas.0.label>
+	<ReligionsAnimism.degreeDatas.0.description>{PAWN_nameDef} верит в духов.</ReligionsAnimism.degreeDatas.0.description>
+
+	<ReligionsSacrifice.degreeDatas.0.label>Культист</ReligionsSacrifice.degreeDatas.0.label>
+	<ReligionsSacrifice.degreeDatas.0.description>{PAWN_nameDef} является членом культа, посвященного жертвоприношению жизни.</ReligionsSacrifice.degreeDatas.0.description>
+
+</LanguageData>

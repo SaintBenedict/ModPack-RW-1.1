@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bed_Kingsize.label>королевская кровать</Bed_Kingsize.label>
+  <Bed_Kingsize.description>Кровать, подходящая для короля, инкрустированная золотом и с высоким подголовником. Чрезвычайно удобно и красиво, это настоящая роскошь. Подходит для двоих.</Bed_Kingsize.description>
+
+  <Table_RoyalEndTable.label>королевская тумбочка</Table_RoyalEndTable.label>
+  <Table_RoyalEndTable.description>Небольшой прикроватный столик, который был украшен роскошной золотой фурнитурой, делая соседние кровати более удобными. Должно быть размещено непосредственно рядом с изголовьем кровати. Размещение нескольких тумбочек рядом с одной кроватью не имеет никакого эффекта.</Table_RoyalEndTable.description>
+
+  <Table_RoyalDresser.label>королевский комод</Table_RoyalDresser.label>
+  <Table_RoyalDresser.description>Роскошный комод, украшенный цельным золотом и элегантный по дизайну, делает соседние кровати более удобными.Размещение нескольких комодов рядом с одной кроватью не имеет никакого эффекта.</Table_RoyalDresser.description>
+
+  <Seat_RoyalChair.label>королевский стул</Seat_RoyalChair.label>
+  <Seat_RoyalChair.description>Удобное мягкое сиденье с высокой спинкой, расположенной в золотой раме. Может использоваться за столом, рабочем месте и в других местах.</Seat_RoyalChair.description>
+
+  <Seat_RoyalArmchair.label>королевское кресло</Seat_RoyalArmchair.label>
+  <Seat_RoyalArmchair.description>Большое, мягкое, роскошное кресло с золотой рамкой только для самых богатых элит. Может использоваться за столом, рабочем месте и в других местах.</Seat_RoyalArmchair.description>
+
+  <Table_Royal1x1c.label>королевский стол (1x1)</Table_Royal1x1c.label>
+  <Table_Royal1x1c.description>Впечатляюще выглядящий стол для еды, этот был дополнен золотым внешним ободком и закругленными концами, подходящими для богатых.</Table_Royal1x1c.description>
+
+  <Table_Royal2x2c.label>королевский стол (2x2)</Table_Royal2x2c.label>
+  <Table_Royal2x2c.description>Впечатляюще выглядящий стол для еды, этот был дополнен золотым внешним ободком и закругленными концами, подходящими для богатых.</Table_Royal2x2c.description>
+
+  <Table_Royal1x2c.label>королевский стол (1x2)</Table_Royal1x2c.label>
+  <Table_Royal1x2c.description>Впечатляюще выглядящий стол для еды, этот был дополнен золотым внешним ободком и закругленными концами, подходящими для богатых.</Table_Royal1x2c.description>
+
+  <Table_Royal3x3c.label>королевский стол (3x3)</Table_Royal3x3c.label>
+  <Table_Royal3x3c.description>Впечатляюще выглядящий стол для еды, этот был дополнен золотым внешним ободком и закругленными концами, подходящими для богатых.</Table_Royal3x3c.description>
+
+  <Table_Royal2x4c.label>королевский стол (2x4)</Table_Royal2x4c.label>
+  <Table_Royal2x4c.description>Впечатляюще выглядящий стол для еды, этот был дополнен золотым внешним ободком и закругленными концами, подходящими для богатых.</Table_Royal2x4c.description>
+
+
+</LanguageData>

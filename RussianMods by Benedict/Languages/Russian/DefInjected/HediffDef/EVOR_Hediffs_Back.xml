@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Hediff_Back_Wing.label>перьевые крылья</EVOR_Hediff_Back_Wing.label>
+  <EVOR_Hediff_Back_Wing.description>Крылья, достаточно мощные, чтобы держать тело в воздухе, при этом достаточно маленькие, чтобы не мешать повседневной жизни. Способны быстро увеличивать скорость.</EVOR_Hediff_Back_Wing.description>
+  <EVOR_Hediff_Back_Wing.labelNoun>перьевые крылья</EVOR_Hediff_Back_Wing.labelNoun>
+
+  <EVOR_Hediff_Back_Hand.label>щупальца</EVOR_Hediff_Back_Hand.label>
+  <EVOR_Hediff_Back_Hand.description>Добавление небольшого количества щупалец-манипуляторов растущих из спины может увеличить производительность и скорость труда.</EVOR_Hediff_Back_Hand.description>
+  <EVOR_Hediff_Back_Hand.labelNoun>щупальца</EVOR_Hediff_Back_Hand.labelNoun>
+
+  <EVOR_Hediff_Back_Muscle.label>дополнительная мускулатура</EVOR_Hediff_Back_Muscle.label>
+  <EVOR_Hediff_Back_Muscle.description>Добавление дополнительных мышечных волокон, а также укрепленная связующая ткань для соединения с костями, позволяет хозяину бить сильнее и нести больше.</EVOR_Hediff_Back_Muscle.description>
+  <EVOR_Hediff_Back_Muscle.labelNoun>дополнительная мускулатура</EVOR_Hediff_Back_Muscle.labelNoun>
+
+
+</LanguageData>

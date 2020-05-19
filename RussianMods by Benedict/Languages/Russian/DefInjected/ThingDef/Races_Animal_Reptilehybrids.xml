@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Reptile - Bear -->
+
+  <GR_Bearodile.label>медведедил</GR_Bearodile.label>
+  <GR_Bearodile.description>Гибрид рептилии / медведя. Гены рептилии, используемые для порождения этого гибрида, дали ему некоторые древние рептилоидные характеристики, с видом сходным с рептилиями в пермский период на Земле. Он также развил ядовитый укус.\n\nПолезные способности: Очень умные и ядовитые. Отличный защитник базы, если он правильно обучен.</GR_Bearodile.description>
+  <GR_Bearodile.tools.0.label>левый коготь</GR_Bearodile.tools.0.label>
+  <GR_Bearodile.tools.1.label>правый коготь</GR_Bearodile.tools.1.label>
+  <GR_Bearodile.tools.3.label>голова</GR_Bearodile.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_Bearodile_Corpse.label>Труп медведедила</GR_Bearodile_Corpse.label>
+  <GR_Bearodile_Corpse.description>Труп медведедила.</GR_Bearodile_Corpse.description>
+
+
+  <!-- Reptile - Boomalope -->
+
+  <GR_Boomsnake.label>бумзмея</GR_Boomsnake.label>
+  <GR_Boomsnake.description>Гибрид рептилии / бумалопы. Бумзмея не очень сильная или подвижная. Однако, когда она умирает, то взрывается в облаке ядовитых облаков, которые могут быть достаточно сильными, чтобы растворить плоть.\n\nПолезные способности: её токсический взрыв может легко уничтожить вражеский налёт, если она правильно обучена. Не производит химическое топливо.</GR_Boomsnake.description>
+  <GR_Boomsnake.tools.1.label>голова</GR_Boomsnake.tools.1.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_Boomsnake_Corpse.label>Труп бумзмеи</GR_Boomsnake_Corpse.label>
+  <GR_Boomsnake_Corpse.description>Труп бумзмеи.</GR_Boomsnake_Corpse.description>
+
+
+  <!-- Reptile - Chicken -->
+
+  <GR_Chickenlizard.label>курица-ящер</GR_Chickenlizard.label>
+  <GR_Chickenlizard.description>Гибрид рептилии / курицы. У этой курицы-рептилии есть слегка ядовитый укус. Не очень сильный, но учитывая как быстро растут цыплята, орды куриц-ящеров, может быть достаточно, чтобы одолеть гораздо более крупное существо с их ядом.\n\nПолезные способности: Маленькие, быстрые размножаемые, ядовитые цыплята.</GR_Chickenlizard.description>
+  <GR_Chickenlizard.tools.0.label>когти</GR_Chickenlizard.tools.0.label>
+  <GR_Chickenlizard.tools.2.label>голова</GR_Chickenlizard.tools.2.label>
+  <!-- Use Leather From: Chicken -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenlizard_Corpse.label>Труп курицы-ящера</GR_Chickenlizard_Corpse.label>
+  <GR_Chickenlizard_Corpse.description>Труп курицы-ящера.</GR_Chickenlizard_Corpse.description>
+
+
+  <!-- Reptile - Muffalo -->
+
+  <GR_Muffalokomodo.label>муффало-комодо</GR_Muffalokomodo.label>
+  <GR_Muffalokomodo.description>Гибрид рептилии / муффало. Этот эластичный зверь может переносить больший вес, чем обычный муффало и обладает сильным ядовитым укусом.\n\nПолезные способности: Регулярно производит достаточно ядовитой слюны, чтобы заполнить ампулу мощным ядом, который действует как сильный парализующий агент.</GR_Muffalokomodo.description>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalokomodo_Corpse.label>Труп муффало-комодо</GR_Muffalokomodo_Corpse.label>
+  <GR_Muffalokomodo_Corpse.description>Труп муффало-комодо.</GR_Muffalokomodo_Corpse.description>
+
+
+  <!-- Reptile - Insectoid -->
+
+  <GR_Spidersnake.label>паук-змея</GR_Spidersnake.label>
+  <GR_Spidersnake.description>Гибрид рептилии / инсектоида. Эта ядовитая, бронированная змея может быть очень опасной в достаточно высоких количествах.\n\nПолезные способности: Регулярно сбрасывают кожу, которая может быть обработана в нарколаборатории в небольшое количество нейтроамина, а также шёлк паука-змеи.</GR_Spidersnake.description>
+  <GR_Spidersnake.tools.1.label>голова</GR_Spidersnake.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Cobra -->
+  <GR_Spidersnake_Corpse.label>Труп паука-змеи</GR_Spidersnake_Corpse.label>
+  <GR_Spidersnake_Corpse.description>Труп паука-змеи.</GR_Spidersnake_Corpse.description>
+
+
+  <!-- Reptile - Thrumbo -->
+
+  <GR_Thrumbolizard.label>трумбо-ящер</GR_Thrumbolizard.label>
+  <GR_Thrumbolizard.description>Гибрид рептилии / инсектоида. Массивное, крокодиловое существо с невероятно мощными челюстями и ядовитым ядом.\n\nПолезные способности: Регулярно вырабатывает достаточное количество яда для заполнения небольших ампул. Яд трумбо-ящера на 100% смертелен, и нет противоядия, которое могло бы действовать достаточно быстро.</GR_Thrumbolizard.description>
+  <GR_Thrumbolizard.tools.0.label>рог</GR_Thrumbolizard.tools.0.label>
+  <GR_Thrumbolizard.tools.2.label>левая стопа</GR_Thrumbolizard.tools.2.label>
+  <GR_Thrumbolizard.tools.3.label>правая стопа</GR_Thrumbolizard.tools.3.label>
+  <GR_Thrumbolizard.tools.4.label>голова</GR_Thrumbolizard.tools.4.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumbolizard_Corpse.label>Труп трумбо-ящера</GR_Thrumbolizard_Corpse.label>
+  <GR_Thrumbolizard_Corpse.description>Труп трумбо-ящера.</GR_Thrumbolizard_Corpse.description>
+
+
+  <!-- Reptile - Wolf -->
+
+  <GR_Wolfsnake.label>волк-змея</GR_Wolfsnake.label>
+  <GR_Wolfsnake.description>Гибрид рептилии / волка. Эти змеевидные хищники быстры, как молния и вооружены сильным ядовитым укусом.\n\nПолезные способности: скорость и яд делают его очень эффективным защитником базы. Время от времени сбрасывает кожу волка-змеи.</GR_Wolfsnake.description>
+  <GR_Wolfsnake.tools.0.label>левый коготь</GR_Wolfsnake.tools.0.label>
+  <GR_Wolfsnake.tools.1.label>правый коготь</GR_Wolfsnake.tools.1.label>
+  <GR_Wolfsnake.tools.3.label>голова</GR_Wolfsnake.tools.3.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_Wolfsnake_Corpse.label>Труп волка-змеи</GR_Wolfsnake_Corpse.label>
+  <GR_Wolfsnake_Corpse.description>Труп волка-змеи.</GR_Wolfsnake_Corpse.description>
+
+
+</LanguageData>

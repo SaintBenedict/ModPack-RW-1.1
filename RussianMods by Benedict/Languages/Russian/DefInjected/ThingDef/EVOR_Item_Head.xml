@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Skull_Shielding.label>защита от помех</EVOR_Item_Skull_Shielding.label>
+  <EVOR_Item_Skull_Shielding.description>Используя материал, устойчивый к психическим воздействиям, мы можем создать клетку Фарадея вокруг мозга, позволяющую хозяину противостоять любому психическому влиянию.</EVOR_Item_Skull_Shielding.description>
+
+  <EVOR_Item_Skull_Plating.label>черепное покрытие</EVOR_Item_Skull_Plating.label>
+  <EVOR_Item_Skull_Plating.description>Повышая упругость и прочность черепа, мы можем эффективнее защитить драгоценное содержимое черепной коробки.</EVOR_Item_Skull_Plating.description>
+
+
+</LanguageData>

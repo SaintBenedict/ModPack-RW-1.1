@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <RC_PlantOnion.label>лук</RC_PlantOnion.label>
+  <RC_PlantOnion.description>Растет как большая, белая волосяных луковица в земле. Луковицы имеют острый запах, но плод, который отслаивается слоями, восхитителен при приготовлении. Несмотря на то, что обожают их все от племен до космонавтов, они вызывают неприятный запах изо рта и тела у тех, кто их ест.</RC_PlantOnion.description>
+
+  <RC_PlantTomato.label>томат</RC_PlantTomato.label>
+  <RC_PlantTomato.description>Этот ярко-красный шарик - плод смертельного сорта ядовитых растений. К счастью, сам плод не является ядовитым, и на самом деле он очень вкусный, особенно когда его готовят в соусе или делают из него кетчуп. Хотя шеф-поварами он классифицируется как овощ. Они просто не знают ничего лучше.</RC_PlantTomato.description>
+
+  <RC_PlantChickpeas.label>нут</RC_PlantChickpeas.label>
+  <RC_PlantChickpeas.description>Нут.</RC_PlantChickpeas.description>
+
+  <RC_PlantSugarcane.label>сахарный тростник</RC_PlantSugarcane.label>
+  <RC_PlantSugarcane.description>У этой высокой травы стебли, которые при обработке создают великолепный сахар, отлично подходящий для разрушения ваших зубов.</RC_PlantSugarcane.description>
+
+  <RC_PlantDreamflower.label>цветок грёз</RC_PlantDreamflower.label>
+  <RC_PlantDreamflower.description>Растение полезно своими декоративными свойствами - но, что более важно, используется при производстве различных лекарств и медикаментов.</RC_PlantDreamflower.description>
+
+  <RC_PlantCoffee.label>кофе</RC_PlantCoffee.label>
+  <RC_PlantCoffee.description>Кофе!</RC_PlantCoffee.description>
+
+  <RC_PlantTea.label>чай</RC_PlantTea.label>
+  <RC_PlantTea.description>Листья чайного растения используются для приготовления разнообразных видов травяного чая, в зависимости от того когда листья собираются и как они обрабатываются после сбора урожая.</RC_PlantTea.description>
+
+  <RC_PlantTobacco.label>табак</RC_PlantTobacco.label>
+  <RC_PlantTobacco.description>(Неправильное оригинальное описание, эта запись будет исправлена после соответствующего исправления автором мода)</RC_PlantTobacco.description>
+
+
+</LanguageData>

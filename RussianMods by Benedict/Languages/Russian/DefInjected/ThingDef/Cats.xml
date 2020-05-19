@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CatAbyssinian -->
+
+  <AEXP_CatAbyssinian.label>Абиссинская кошка</AEXP_CatAbyssinian.label>
+  <AEXP_CatAbyssinian.description>Стройная, тонкокостная, кустарниковая кошка среднего размера.</AEXP_CatAbyssinian.description>
+  <AEXP_CatAbyssinian.tools.0.label>левая лапа</AEXP_CatAbyssinian.tools.0.label>
+  <AEXP_CatAbyssinian.tools.1.label>правая лапа</AEXP_CatAbyssinian.tools.1.label>
+  <AEXP_CatAbyssinian.tools.3.label>голова</AEXP_CatAbyssinian.tools.3.label>
+  <AEXP_CatAbyssinian_Leather.label>кожа Абиссинской кошки</AEXP_CatAbyssinian_Leather.label>
+  <AEXP_CatAbyssinian_Leather.description>кожа Абиссинской кошки</AEXP_CatAbyssinian_Leather.description>
+  <AEXP_CatAbyssinian_Leather.stuffProps.stuffAdjective>кожа Абиссинской кошки</AEXP_CatAbyssinian_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatAbyssinian_Meat.label>мясо Абиссинской кошки</AEXP_CatAbyssinian_Meat.label>
+  <AEXP_CatAbyssinian_Meat.description>мясо Абиссинской кошки</AEXP_CatAbyssinian_Meat.description>
+  <AEXP_CatAbyssinian_Corpse.label>труп Абиссинской кошки</AEXP_CatAbyssinian_Corpse.label>
+  <AEXP_CatAbyssinian_Corpse.description>труп Абиссинской кошки</AEXP_CatAbyssinian_Corpse.description>
+
+
+  <!-- CatBengal -->
+
+  <AEXP_CatBengal.label>Бенгальская кошка</AEXP_CatBengal.label>
+  <AEXP_CatBengal.description>Одомашненный гибрид домашней кошки и тропического леопарда.</AEXP_CatBengal.description>
+  <AEXP_CatBengal.tools.0.label>левая лапа</AEXP_CatBengal.tools.0.label>
+  <AEXP_CatBengal.tools.1.label>правая лапа</AEXP_CatBengal.tools.1.label>
+  <AEXP_CatBengal.tools.3.label>голова</AEXP_CatBengal.tools.3.label>
+  <AEXP_CatBengal_Leather.label>кожа Бенгальской кошки</AEXP_CatBengal_Leather.label>
+  <AEXP_CatBengal_Leather.description>кожа Бенгальской кошки</AEXP_CatBengal_Leather.description>
+  <AEXP_CatBengal_Leather.stuffProps.stuffAdjective>кожа Бенгальской кошки</AEXP_CatBengal_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatBengal_Meat.label>мясо Бенгальской кошки</AEXP_CatBengal_Meat.label>
+  <AEXP_CatBengal_Meat.description>мясо Бенгальской кошки</AEXP_CatBengal_Meat.description>
+  <AEXP_CatBengal_Corpse.label>труп Бенгальской кошки</AEXP_CatBengal_Corpse.label>
+  <AEXP_CatBengal_Corpse.description>труп Бенгальской кошки</AEXP_CatBengal_Corpse.description>
+
+
+  <!-- CatBritishShorthair -->
+
+  <AEXP_CatBritishShorthair.label>Британская короткошёрстная кошка</AEXP_CatBritishShorthair.label>
+  <AEXP_CatBritishShorthair.description>Породистая версия обычной британской кошки, с отчетливо коренастым телом, плотной шерстью и очень широким лицом. Будучи относительно мощными на вид благодаря большой груди и массивным лапам, эти кошки абсолютно безвредны.</AEXP_CatBritishShorthair.description>
+  <AEXP_CatBritishShorthair.tools.0.label>левая лапа</AEXP_CatBritishShorthair.tools.0.label>
+  <AEXP_CatBritishShorthair.tools.1.label>правая лапа</AEXP_CatBritishShorthair.tools.1.label>
+  <AEXP_CatBritishShorthair.tools.3.label>голова</AEXP_CatBritishShorthair.tools.3.label>
+  <AEXP_CatBritishShorthair_Leather.label>кожа Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Leather.label>
+  <AEXP_CatBritishShorthair_Leather.description>кожа Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Leather.description>
+  <AEXP_CatBritishShorthair_Leather.stuffProps.stuffAdjective>кожа Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatBritishShorthair_Meat.label>мясо Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Meat.label>
+  <AEXP_CatBritishShorthair_Meat.description>мясо Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Meat.description>
+  <AEXP_CatBritishShorthair_Corpse.label>труп Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Corpse.label>
+  <AEXP_CatBritishShorthair_Corpse.description>труп Британской короткошёрстной кошки</AEXP_CatBritishShorthair_Corpse.description>
+
+
+  <!-- CatMaineCoon -->
+
+  <AEXP_CatMaineCoon.label>Мейн-кун</AEXP_CatMaineCoon.label>
+  <AEXP_CatMaineCoon.description>Крупнейшая одомашненная кошка, она имеет отличительный внешний вид и ценные охотничьи навыки. Это большая и общительная кошка, поэтому ей дали прозвище «нежный великан».</AEXP_CatMaineCoon.description>
+  <AEXP_CatMaineCoon.tools.0.label>левая лапа</AEXP_CatMaineCoon.tools.0.label>
+  <AEXP_CatMaineCoon.tools.1.label>правая лапа</AEXP_CatMaineCoon.tools.1.label>
+  <AEXP_CatMaineCoon.tools.3.label>голова</AEXP_CatMaineCoon.tools.3.label>
+  <AEXP_CatMaineCoon_Leather.label>кожа Мейн-куна</AEXP_CatMaineCoon_Leather.label>
+  <AEXP_CatMaineCoon_Leather.description>кожа Мейн-куна</AEXP_CatMaineCoon_Leather.description>
+  <AEXP_CatMaineCoon_Leather.stuffProps.stuffAdjective>кожа Мейн-куна</AEXP_CatMaineCoon_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatMaineCoon_Meat.label>мясо Мейн-куна</AEXP_CatMaineCoon_Meat.label>
+  <AEXP_CatMaineCoon_Meat.description>мясо Мейн-куна</AEXP_CatMaineCoon_Meat.description>
+  <AEXP_CatMaineCoon_Corpse.label>труп Мейн-куна</AEXP_CatMaineCoon_Corpse.label>
+  <AEXP_CatMaineCoon_Corpse.description>труп Мейн-куна</AEXP_CatMaineCoon_Corpse.description>
+
+
+  <!-- CatMunchkin -->
+
+  <AEXP_CatMunchkin.label>Манчкин</AEXP_CatMunchkin.label>
+  <AEXP_CatMunchkin.description>Также известный как колбасный кот, Эта новая порода кошек имеет отчетливо короткие ноги. Милые добродушные, игривые и ориентированные на людей, эти кошки являются идеальными компаньонами для людей с ленивым образом жизни.</AEXP_CatMunchkin.description>
+  <AEXP_CatMunchkin.tools.0.label>левая лапа</AEXP_CatMunchkin.tools.0.label>
+  <AEXP_CatMunchkin.tools.1.label>правая лапа</AEXP_CatMunchkin.tools.1.label>
+  <AEXP_CatMunchkin.tools.3.label>голова</AEXP_CatMunchkin.tools.3.label>
+  <AEXP_CatMunchkin_Leather.label>кожа Манчкина</AEXP_CatMunchkin_Leather.label>
+  <AEXP_CatMunchkin_Leather.description>кожа Манчкина</AEXP_CatMunchkin_Leather.description>
+  <AEXP_CatMunchkin_Leather.stuffProps.stuffAdjective>кожа Манчкина</AEXP_CatMunchkin_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatMunchkin_Meat.label>мясо Манчкина</AEXP_CatMunchkin_Meat.label>
+  <AEXP_CatMunchkin_Meat.description>мясо Манчкина</AEXP_CatMunchkin_Meat.description>
+  <AEXP_CatMunchkin_Corpse.label>труп Манчкина</AEXP_CatMunchkin_Corpse.label>
+  <AEXP_CatMunchkin_Corpse.description>труп Манчкина</AEXP_CatMunchkin_Corpse.description>
+
+
+  <!-- NorwegianForestCat -->
+
+  <AEXP_CatNorwegianForest.label>Норвежская лесная кошка</AEXP_CatNorwegianForest.label>
+  <AEXP_CatNorwegianForest.description>Кошка адаптирована к очень холодному климату благодаря верхнему слою блестящих, выпадающих волос.</AEXP_CatNorwegianForest.description>
+  <AEXP_CatNorwegianForest.tools.0.label>левая лапа</AEXP_CatNorwegianForest.tools.0.label>
+  <AEXP_CatNorwegianForest.tools.1.label>правая лапа</AEXP_CatNorwegianForest.tools.1.label>
+  <AEXP_CatNorwegianForest.tools.3.label>голова</AEXP_CatNorwegianForest.tools.3.label>
+  <AEXP_CatNorwegianForest_Leather.label>кожа Норвежской лесной кошки</AEXP_CatNorwegianForest_Leather.label>
+  <AEXP_CatNorwegianForest_Leather.description>кожа Норвежской лесной кошки</AEXP_CatNorwegianForest_Leather.description>
+  <AEXP_CatNorwegianForest_Leather.stuffProps.stuffAdjective>кожа Норвежской лесной кошки</AEXP_CatNorwegianForest_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatNorwegianForest_Meat.label>мясо Норвежской лесной кошки</AEXP_CatNorwegianForest_Meat.label>
+  <AEXP_CatNorwegianForest_Meat.description>мясо Норвежской лесной кошки</AEXP_CatNorwegianForest_Meat.description>
+  <AEXP_CatNorwegianForest_Corpse.label>труп Норвежской лесной кошки</AEXP_CatNorwegianForest_Corpse.label>
+  <AEXP_CatNorwegianForest_Corpse.description>труп Норвежской лесной кошки</AEXP_CatNorwegianForest_Corpse.description>
+
+
+  <!-- CatPersian -->
+
+  <AEXP_CatPersian.label>Персидская кошка</AEXP_CatPersian.label>
+  <AEXP_CatPersian.description>Длинношерстные кошки, происходящие из пустынных диких кошек, персидские кошки царственные, умные и ловкие, что делает их превосходными для охоты на мелких грызунов и птиц.</AEXP_CatPersian.description>
+  <AEXP_CatPersian.tools.0.label>левая лапа</AEXP_CatPersian.tools.0.label>
+  <AEXP_CatPersian.tools.1.label>правая лапа</AEXP_CatPersian.tools.1.label>
+  <AEXP_CatPersian.tools.3.label>голова</AEXP_CatPersian.tools.3.label>
+  <AEXP_CatPersian_Leather.label>кожа Персидской кошки</AEXP_CatPersian_Leather.label>
+  <AEXP_CatPersian_Leather.description>кожа Персидской кошки</AEXP_CatPersian_Leather.description>
+  <AEXP_CatPersian_Leather.stuffProps.stuffAdjective>кожа Персидской кошки</AEXP_CatPersian_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatPersian_Meat.label>мясо Персидской кошки</AEXP_CatPersian_Meat.label>
+  <AEXP_CatPersian_Meat.description>мясо Персидской кошки</AEXP_CatPersian_Meat.description>
+  <AEXP_CatPersian_Corpse.label>труп Персидской кошки</AEXP_CatPersian_Corpse.label>
+  <AEXP_CatPersian_Corpse.description>труп Персидской кошки</AEXP_CatPersian_Corpse.description>
+
+
+  <!-- CatSiamese -->
+
+  <AEXP_CatSiamese.label>Сиамская кошка</AEXP_CatSiamese.label>
+  <AEXP_CatSiamese.description>Кошка с отчетливо треугольной головой, голубыми глазами и длинным мускулистым телом, известная своей социальной природой.</AEXP_CatSiamese.description>
+  <AEXP_CatSiamese.tools.0.label>левая лапа</AEXP_CatSiamese.tools.0.label>
+  <AEXP_CatSiamese.tools.1.label>правая лапа</AEXP_CatSiamese.tools.1.label>
+  <AEXP_CatSiamese.tools.3.label>голова</AEXP_CatSiamese.tools.3.label>
+  <AEXP_CatSiamese_Leather.label>кожа Сиамской кошки</AEXP_CatSiamese_Leather.label>
+  <AEXP_CatSiamese_Leather.description>кожа Сиамской кошки</AEXP_CatSiamese_Leather.description>
+  <AEXP_CatSiamese_Leather.stuffProps.stuffAdjective>кожа Сиамской кошки</AEXP_CatSiamese_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatSiamese_Meat.label>мясо Сиамской кошки</AEXP_CatSiamese_Meat.label>
+  <AEXP_CatSiamese_Meat.description>мясо Сиамской кошки</AEXP_CatSiamese_Meat.description>
+  <AEXP_CatSiamese_Corpse.label>труп Сиамской кошки</AEXP_CatSiamese_Corpse.label>
+  <AEXP_CatSiamese_Corpse.description>труп Сиамской кошки</AEXP_CatSiamese_Corpse.description>
+
+
+  <!-- CatSomali -->
+
+  <AEXP_CatSomali.label>Сомали</AEXP_CatSomali.label>
+  <AEXP_CatSomali.description>Кустарниковый кот, принадлежащий к той же семье, что и абиссинский кот. У него густой хвост и миндалевидные глаза.</AEXP_CatSomali.description>
+  <AEXP_CatSomali.tools.0.label>левая лапа</AEXP_CatSomali.tools.0.label>
+  <AEXP_CatSomali.tools.1.label>правая лапа</AEXP_CatSomali.tools.1.label>
+  <AEXP_CatSomali.tools.3.label>голова</AEXP_CatSomali.tools.3.label>
+  <AEXP_CatSomali_Leather.label>кожа Сомали</AEXP_CatSomali_Leather.label>
+  <AEXP_CatSomali_Leather.description>кожа Сомали</AEXP_CatSomali_Leather.description>
+  <AEXP_CatSomali_Leather.stuffProps.stuffAdjective>кожа Сомали</AEXP_CatSomali_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatSomali_Meat.label>мясо Сомали</AEXP_CatSomali_Meat.label>
+  <AEXP_CatSomali_Meat.description>мясо Сомали</AEXP_CatSomali_Meat.description>
+  <AEXP_CatSomali_Corpse.label>труп Сомали</AEXP_CatSomali_Corpse.label>
+  <AEXP_CatSomali_Corpse.description>труп Сомали</AEXP_CatSomali_Corpse.description>
+
+
+  <!-- CatSphynx -->
+
+  <AEXP_CatSphynx.label>Сфинкс</AEXP_CatSphynx.label>
+  <AEXP_CatSphynx.description>Кошка, известная ее отсутствием меха, развитая из-за селекции. Будучи теплыми на ощупь, они легко теряют температуру тела, что заставляет его искать источники тепла.</AEXP_CatSphynx.description>
+  <AEXP_CatSphynx.tools.0.label>левая лапа</AEXP_CatSphynx.tools.0.label>
+  <AEXP_CatSphynx.tools.1.label>правая лапа</AEXP_CatSphynx.tools.1.label>
+  <AEXP_CatSphynx.tools.3.label>голова</AEXP_CatSphynx.tools.3.label>
+  <AEXP_CatSphynx_Leather.label>кожа Сфинкса</AEXP_CatSphynx_Leather.label>
+  <AEXP_CatSphynx_Leather.description>кожа Сфинкса</AEXP_CatSphynx_Leather.description>
+  <AEXP_CatSphynx_Leather.stuffProps.stuffAdjective>кожа Сфинкса</AEXP_CatSphynx_Leather.stuffProps.stuffAdjective>
+  <AEXP_CatSphynx_Meat.label>мясо Сфинкса</AEXP_CatSphynx_Meat.label>
+  <AEXP_CatSphynx_Meat.description>мясо Сфинкса</AEXP_CatSphynx_Meat.description>
+  <AEXP_CatSphynx_Corpse.label>труп Сфинкса</AEXP_CatSphynx_Corpse.label>
+  <AEXP_CatSphynx_Corpse.description>труп Сфинкса</AEXP_CatSphynx_Corpse.description>
+
+
+</LanguageData>

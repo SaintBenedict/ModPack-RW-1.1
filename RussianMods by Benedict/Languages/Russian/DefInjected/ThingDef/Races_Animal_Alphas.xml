@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear -->
+
+  <GR_AlphaBear.label>альфа-медведь</GR_AlphaBear.label>
+  <GR_AlphaBear.description>Этот массивный медведь может вырасти до размеров карликового обычного медведя гризли, доходящих до метрической тонны в весе. Их толстая шкура - почти идеально адаптирована к холодному климату, позволяющая им выживать в течение нескольких месяцев в спячке, если это необходимо. Пока еще всеядны их зубы лучше подходят для более высокой степени травоядных, чем медведей гризли.\n\nПолезные способности: шкуры альфа-медведей можно продать или переработать в декоративные коврики.</GR_AlphaBear.description>
+  <GR_AlphaBear.tools.0.label>левый коготь</GR_AlphaBear.tools.0.label>
+  <GR_AlphaBear.tools.1.label>правый коготь</GR_AlphaBear.tools.1.label>
+  <GR_AlphaBear.tools.3.label>голова</GR_AlphaBear.tools.3.label>
+  <!-- Use Leather From: Bear_Grizzly -->
+  <!-- Use Meat From: Bear_Grizzly -->
+  <GR_AlphaBear_Corpse.label>труп альфа-медведя</GR_AlphaBear_Corpse.label>
+  <GR_AlphaBear_Corpse.description>Мёртвое тело альфа-медведя.</GR_AlphaBear_Corpse.description>
+
+
+  <!-- Wildboar -->
+
+  <GR_AlphaWildBoar.label>альфа-кабан</GR_AlphaWildBoar.label>
+  <GR_AlphaWildBoar.description>Это сильное, мускулистое существо отчаянно территориально и его мощные изогнутые клыки могут быть чрезвычайно опасны для неосторожного охотника.\n\nПолезные способности: клыки альфа-кабана ценятся за их слоновые кости и могут быть вырезаны в статуэтки.</GR_AlphaWildBoar.description>
+  <GR_AlphaWildBoar.tools.0.label>бивень</GR_AlphaWildBoar.tools.0.label>
+  <GR_AlphaWildBoar.tools.2.label>голова</GR_AlphaWildBoar.tools.2.label>
+  <!-- Use Leather From: Pig -->
+  <!-- Use Meat From: Pig -->
+  <GR_AlphaWildBoar_Corpse.label>труп альфа-кабана</GR_AlphaWildBoar_Corpse.label>
+  <GR_AlphaWildBoar_Corpse.description>Мёртвое тело альфа-кабана.</GR_AlphaWildBoar_Corpse.description>
+
+
+  <!-- Boomalope -->
+
+  <GR_AlphaBoomalope.label>альфа-бумалопа</GR_AlphaBoomalope.label>
+  <GR_AlphaBoomalope.description>Это высокое, худое копытное обычно действует как доминирующий индивидуум в стаде бумалоп. Более устойчивые и более сильные, чем обычные бумалопы, альфа-бумалопы также несут большие количества нестабильных мешков с химическим наполнением, поэтому ни один хищник не хочет даже приближаться к ним.\n\nПолезные способности: альфа-бумалопы взрываются, когда их убивают, с большей силой, чем обычные бумалопы. Они также производят большое количество химического топлива.</GR_AlphaBoomalope.description>
+  <GR_AlphaBoomalope.tools.0.label>голова</GR_AlphaBoomalope.tools.0.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_AlphaBoomalope_Corpse.label>труп альфа-бумалопы</GR_AlphaBoomalope_Corpse.label>
+  <GR_AlphaBoomalope_Corpse.description>Мёртвое тело альфа-бумалопы.</GR_AlphaBoomalope_Corpse.description>
+
+
+  <!-- Chicken -->
+
+  <GR_AlphaChicken.label>альфа-курица</GR_AlphaChicken.label>
+  <GR_AlphaChicken.description>Эта огромная курица возвышается над своими обычными братьями. Яйца, отложенные этим видом, являются легендарным материалом.\n\nПолезные способности: Быстрое размножение, больше мяса, чем у обычных куриц и вкусные яйца. Хорошее сельскохозяйственное животное!</GR_AlphaChicken.description>
+  <GR_AlphaChicken.tools.0.label>когти</GR_AlphaChicken.tools.0.label>
+  <GR_AlphaChicken.tools.2.label>голова</GR_AlphaChicken.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <GR_AlphaChicken_Meat.label>Мясо альфа-курицы</GR_AlphaChicken_Meat.label>
+  <GR_AlphaChicken_Meat.description>Мясо альфа-курицы</GR_AlphaChicken_Meat.description>
+  <GR_AlphaChicken_Corpse.label>труп альфа-курицы</GR_AlphaChicken_Corpse.label>
+  <GR_AlphaChicken_Corpse.description>Мёртвое тело альфа-курицы.</GR_AlphaChicken_Corpse.description>
+
+
+  <!-- Emu -->
+
+  <GR_AlphaEmu.label>альфа-эму</GR_AlphaEmu.label>
+  <GR_AlphaEmu.description>Эта огромная нелетающая птица невероятно плохая и уродлива, как грех. Тем не менее, она производит несколько огромных яиц и её жир можно натирать на кожу, и использовать в качестве примитивного лекарства.\n\nПолезные способности: Очень питательные яйца. После убийства её жир можно использовать в качестве базового лекарства.</GR_AlphaEmu.description>
+  <GR_AlphaEmu.tools.0.label>когти</GR_AlphaEmu.tools.0.label>
+  <GR_AlphaEmu.tools.2.label>голова</GR_AlphaEmu.tools.2.label>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Cassowary -->
+  <GR_AlphaEmu_Corpse.label>труп альфа-эму</GR_AlphaEmu_Corpse.label>
+  <GR_AlphaEmu_Corpse.description>Мёртвое тело альфа-эму.</GR_AlphaEmu_Corpse.description>
+
+
+  <!-- Muffalo -->
+
+  <GR_AlphaMuffalo.label>альфа-муффало</GR_AlphaMuffalo.label>
+  <GR_AlphaMuffalo.description>Огромное, волосатое четвероногое, идеально приспособленное к экстремальным холодным климатам. Мирное, если не тревожить.\n\nПолезные способности: Вьючное животное. Производит молоко и шерсть в немного большем количестве, чем обычное муффало. Его шкура ценна и может использоваться как декоративный коврик.</GR_AlphaMuffalo.description>
+  <GR_AlphaMuffalo.tools.0.label>голова</GR_AlphaMuffalo.tools.0.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_AlphaMuffalo_Corpse.label>труп альфа-муффало</GR_AlphaMuffalo_Corpse.label>
+  <GR_AlphaMuffalo_Corpse.description>Мёртвое тело альфа-муффало.</GR_AlphaMuffalo_Corpse.description>
+
+
+  <!-- Ostrich -->
+
+  <GR_AlphaOstrich.label>альфа-страус</GR_AlphaOstrich.label>
+  <GR_AlphaOstrich.description>Поистине огромный страус. Эта нелетающая птица кладет огромные яйца, очень питательные.\n\nПолезные способности: Откладывает самые большие яйца среди любого негибридного существа.</GR_AlphaOstrich.description>
+  <GR_AlphaOstrich.tools.0.label>когти</GR_AlphaOstrich.tools.0.label>
+  <GR_AlphaOstrich.tools.2.label>голова</GR_AlphaOstrich.tools.2.label>
+  <!-- Use Leather From: Ostrich -->
+  <!-- Use Meat From: Cassowary -->
+  <GR_AlphaOstrich_Corpse.label>труп альфа-страуса</GR_AlphaOstrich_Corpse.label>
+  <GR_AlphaOstrich_Corpse.description>Мёртвое тело альфа-страуса.</GR_AlphaOstrich_Corpse.description>
+
+
+  <!-- Rhino -->
+
+  <GR_AlphaRhinoceros.label>альфа-носорог</GR_AlphaRhinoceros.label>
+  <GR_AlphaRhinoceros.description>Сама земля дрожит, когда это массивное травоядное животное движется. Хотя, как правило оно довольно мирное, он может быть очень агрессивным когда его провоцируют. Его рог считается очень ценным, несмотря на отсутствие научных доказательств его полезности вообще в таких областях, как медицина.\n\nПолезные способности: это рог ценен и... вы не хотите быть на пути разъяренного альфа-носорога.</GR_AlphaRhinoceros.description>
+  <GR_AlphaRhinoceros.tools.0.label>рог</GR_AlphaRhinoceros.tools.0.label>
+  <GR_AlphaRhinoceros.tools.1.label>рог</GR_AlphaRhinoceros.tools.1.label>
+  <GR_AlphaRhinoceros.tools.3.label>голова</GR_AlphaRhinoceros.tools.3.label>
+  <!-- Use Leather From: Rhinoceros -->
+  <!-- Use Meat From: Rhinoceros -->
+  <GR_AlphaRhinoceros_Corpse.label>труп альфа-носорога</GR_AlphaRhinoceros_Corpse.label>
+  <GR_AlphaRhinoceros_Corpse.description>Мёртвое тело альфа-носорога.</GR_AlphaRhinoceros_Corpse.description>
+
+
+  <!-- Wolf -->
+
+  <GR_AlphaWolfTimber.label>альфа-волк</GR_AlphaWolfTimber.label>
+  <GR_AlphaWolfTimber.description>Этот огромный волк может быть обратится в ожесточенного, верного спутника, если он правильно обучен. Волчьи шкуры долгое время использовались в качестве торговых товаров.\n\nПолезные способности: шкуру альфа-волка можно продать или использовать для изготовления ковра из волка, который не будет липким вообще. Неа.</GR_AlphaWolfTimber.description>
+  <GR_AlphaWolfTimber.tools.0.label>левый коготь</GR_AlphaWolfTimber.tools.0.label>
+  <GR_AlphaWolfTimber.tools.1.label>правый коготь</GR_AlphaWolfTimber.tools.1.label>
+  <GR_AlphaWolfTimber.tools.3.label>голова</GR_AlphaWolfTimber.tools.3.label>
+  <!-- Use Leather From: Wolf_Timber -->
+  <!-- Use Meat From: Wolf_Timber -->
+  <GR_AlphaWolfTimber_Corpse.label>труп лесного альфа-волка</GR_AlphaWolfTimber_Corpse.label>
+  <GR_AlphaWolfTimber_Corpse.description>Мёртвое тело лесного альфа-волка.</GR_AlphaWolfTimber_Corpse.description>
+
+
+  <!-- Hare -->
+
+  <GR_AlphaHare.label>альфа-заяц</GR_AlphaHare.label>
+  <GR_AlphaHare.description>У этого маленького существа свирепый взгляд и довольно плохой настрой. Будьте осторожны с этими тварями, так как они размножаются, как... ну... кролики.\n\nПолезные способности: Из-за ужасного чувства юмора у ваших ученых, это существо откладывает съедобные шоколадные яйца...</GR_AlphaHare.description>
+  <GR_AlphaHare.tools.1.label>голова</GR_AlphaHare.tools.1.label>
+  <!-- Use Leather From: Hare -->
+  <!-- Use Meat From: Hare -->
+  <GR_AlphaHare_Corpse.label>труп альфа-зайца</GR_AlphaHare_Corpse.label>
+  <GR_AlphaHare_Corpse.description>Мёртвое тело альфа-зайца.</GR_AlphaHare_Corpse.description>
+
+
+  <!-- Iguana -->
+
+  <GR_AlphaIguana.label>альфа-игуана</GR_AlphaIguana.label>
+  <GR_AlphaIguana.description>У этой большой ящерицы на щечках есть красивый радужный блеск. Вопреки обычным игуанам, этот альфа-образец имеет неприятный ядовитый укус.\n\nПолезные способности: откладывает яйца и имеет ядовитый укус.</GR_AlphaIguana.description>
+  <GR_AlphaIguana.tools.0.label>левый коготь</GR_AlphaIguana.tools.0.label>
+  <GR_AlphaIguana.tools.1.label>правый коготь</GR_AlphaIguana.tools.1.label>
+  <GR_AlphaIguana.tools.3.label>голова</GR_AlphaIguana.tools.3.label>
+  <!-- Use Leather From: Iguana -->
+  <!-- Use Meat From: Iguana -->
+  <GR_AlphaIguana_Corpse.label>труп альфа-игуаны</GR_AlphaIguana_Corpse.label>
+  <GR_AlphaIguana_Corpse.description>Мёртвое тело альфа-игуаны.</GR_AlphaIguana_Corpse.description>
+
+
+  <!-- Pig -->
+
+  <GR_AlphaPig.label>альфа-свинья</GR_AlphaPig.label>
+  <GR_AlphaPig.description>У этой огромной свиньи прожорливый аппетит, но качество ее мяса легендарно.\n\nПолезные способности: Процесс разделки приведет к получению вяленого бекона и хамон серрано, двум деликатесам, которые можно хранить в течение нескольких месяцев без охлаждения.</GR_AlphaPig.description>
+  <GR_AlphaPig.tools.1.label>голова</GR_AlphaPig.tools.1.label>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Pig -->
+  <GR_AlphaPig_Corpse.label>труп альфа-свиньи</GR_AlphaPig_Corpse.label>
+  <GR_AlphaPig_Corpse.description>Мёртвое тело альфа-свиньи.</GR_AlphaPig_Corpse.description>
+
+
+  <!-- Rat -->
+
+  <GR_AlphaRat.label>альфа-крыса</GR_AlphaRat.label>
+  <GR_AlphaRat.description>Эта крыса, явно заражена.\n\nПолезные способности: альфа-крысы распространяют бубонную чуму при укусе. Осторожнее!</GR_AlphaRat.description>
+  <GR_AlphaRat.tools.0.label>левый коготь</GR_AlphaRat.tools.0.label>
+  <GR_AlphaRat.tools.1.label>правый коготь</GR_AlphaRat.tools.1.label>
+  <GR_AlphaRat.tools.3.label>голова</GR_AlphaRat.tools.3.label>
+  <!-- Use Leather From: Rat -->
+  <!-- Use Meat From: Rat -->
+  <GR_AlphaRat_Corpse.label>труп альфа-крысы</GR_AlphaRat_Corpse.label>
+  <GR_AlphaRat_Corpse.description>Мёртвое тело альфа-крысы.</GR_AlphaRat_Corpse.description>
+
+
+  <!-- Tortoise -->
+
+  <GR_AlphaTortoise.label>альфа-черепаха</GR_AlphaTortoise.label>
+  <GR_AlphaTortoise.description>Эта тяжело бронированная наземная рептилия известна своей медленной скоростью и неожиданно злобным укусом.</GR_AlphaTortoise.description>
+  <GR_AlphaTortoise.tools.1.label>голова</GR_AlphaTortoise.tools.1.label>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Tortoise -->
+  <GR_AlphaTortoise_Corpse.label>труп альфа-черепахи</GR_AlphaTortoise_Corpse.label>
+  <GR_AlphaTortoise_Corpse.description>Мёртвое тело альфа-черепахи.</GR_AlphaTortoise_Corpse.description>
+
+
+  <!-- Use Leather From: GrizzlyBear -->
+  <!-- Use Meat From: GrizzlyBear -->
+  <!-- Use Leather From: WolfTimber -->
+  <!-- Use Meat From: WolfTimber -->
+  <!-- Use Leather From: Emu -->
+
+</LanguageData>

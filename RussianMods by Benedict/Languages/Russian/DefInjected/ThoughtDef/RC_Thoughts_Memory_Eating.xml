@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ate as Ingredient Thoughts -->
+
+  <AteUncommonAsIngredient.stages.0.label>съел необычный ингредиент</AteUncommonAsIngredient.stages.0.label>
+  <AteUncommonAsIngredient.stages.0.description>Это было очень вкусно!</AteUncommonAsIngredient.stages.0.description>
+
+  <AteRareAsIngredient.stages.0.label>съел редкий ингредиент</AteRareAsIngredient.stages.0.label>
+  <AteRareAsIngredient.stages.0.description>Это было восхитительно!</AteRareAsIngredient.stages.0.description>
+
+  <AteExoticAsIngredient.stages.0.label>съел экзотический ингредиент</AteExoticAsIngredient.stages.0.label>
+  <AteExoticAsIngredient.stages.0.description>Мммм, такой вкус.. такая текстура.. так приятно..</AteExoticAsIngredient.stages.0.description>
+
+  <AtePoorAsIngredient.stages.0.label>съел плохой ингредиент</AtePoorAsIngredient.stages.0.label>
+  <AtePoorAsIngredient.stages.0.description>Уф, он не очень вкусный.</AtePoorAsIngredient.stages.0.description>
+
+  <AteTofuAsIngredient.stages.0.label>съел тофу</AteTofuAsIngredient.stages.0.label>
+  <AteTofuAsIngredient.stages.0.description>Ох, отвратительно, они называют это заменителем мяса? Дайте мне настоящего мяса!</AteTofuAsIngredient.stages.0.description>
+
+  <AteChocolateAsIngredient.stages.0.label>съел шоколад</AteChocolateAsIngredient.stages.0.label>
+  <AteChocolateAsIngredient.stages.0.description>Я ЛЮБЛЮ ШОКОЛАД!</AteChocolateAsIngredient.stages.0.description>
+
+
+  <!-- Meal thoughts -->
+
+  <AteExtravagantMeal.stages.0.label>съел экстравагантное блюдо</AteExtravagantMeal.stages.0.label>
+  <AteExtravagantMeal.stages.0.description>Это экстравагантное блюдо было потрясающим. Оно напитало мое тело и душу.</AteExtravagantMeal.stages.0.description>
+
+
+  <!-- Ate Directly Thoughts -->
+
+  <AteTastySnack.stages.0.label>съел вкусную закуску</AteTastySnack.stages.0.label>
+  <AteTastySnack.stages.0.description>Я люблю закуски!</AteTastySnack.stages.0.description>
+
+  <AteExoticSnack.stages.0.label>съел очень вкусную закуску</AteExoticSnack.stages.0.label>
+  <AteExoticSnack.stages.0.description>Эта закуска была великолепна!!</AteExoticSnack.stages.0.description>
+
+  <DrankTastyDrink.stages.0.label>выпил вкусный напиток</DrankTastyDrink.stages.0.label>
+  <DrankTastyDrink.stages.0.description>Ммм, освежающе!</DrankTastyDrink.stages.0.description>
+
+  <AtePoorFood.stages.0.label>съел бедную пищу</AtePoorFood.stages.0.label>
+  <AtePoorFood.stages.0.description>Уф. Я имею в виду, что могло быть хуже..</AtePoorFood.stages.0.description>
+
+  <AteUncommonFood.stages.0.label>съел необычную еду</AteUncommonFood.stages.0.label>
+  <AteUncommonFood.stages.0.description>Мм, вполне неплохо!</AteUncommonFood.stages.0.description>
+
+  <AteRareFood.stages.0.label>съел редкую еду</AteRareFood.stages.0.label>
+  <AteRareFood.stages.0.description>Я могу есть её хоть весь день!</AteRareFood.stages.0.description>
+
+  <AteExoticFood.stages.0.label>съел экзотическую еду</AteExoticFood.stages.0.label>
+  <AteExoticFood.stages.0.description>Я.. Теперь я могу умереть счастливым..</AteExoticFood.stages.0.description>
+
+
+</LanguageData>

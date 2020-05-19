@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1 Incubators -->
+
+  <GR_CreateBearBoomalopeIncubator.label>Инкубация медведь/бумалопа</GR_CreateBearBoomalopeIncubator.label>
+  <GR_CreateBearBoomalopeIncubator.description>Заполнить инкубатор генами медведя и бумалопы.</GR_CreateBearBoomalopeIncubator.description>
+  <GR_CreateBearBoomalopeIncubator.jobString>Заполняет инкубатор.</GR_CreateBearBoomalopeIncubator.jobString>
+
+  <GR_CreateBearChickenIncubator.label>Инкубация медведь/курица</GR_CreateBearChickenIncubator.label>
+  <GR_CreateBearChickenIncubator.description>Заполнить инкубатор генами медведя и курицы.</GR_CreateBearChickenIncubator.description>
+  <GR_CreateBearChickenIncubator.jobString>Заполняет инкубатор.</GR_CreateBearChickenIncubator.jobString>
+
+  <GR_CreateBearMuffaloIncubator.label>Инкубация медведь/муффало</GR_CreateBearMuffaloIncubator.label>
+  <GR_CreateBearMuffaloIncubator.description>Заполнить инкубатор генами медведя и муффало.</GR_CreateBearMuffaloIncubator.description>
+  <GR_CreateBearMuffaloIncubator.jobString>Заполняет инкубатор.</GR_CreateBearMuffaloIncubator.jobString>
+
+  <GR_CreateBearWolfIncubator.label>Инкубация медведь/волк</GR_CreateBearWolfIncubator.label>
+  <GR_CreateBearWolfIncubator.description>Заполнить инкубатор генами медведя и волка.</GR_CreateBearWolfIncubator.description>
+  <GR_CreateBearWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateBearWolfIncubator.jobString>
+
+  <GR_CreateBoomalopeChickenIncubator.label>Инкубация бумалопа/курица</GR_CreateBoomalopeChickenIncubator.label>
+  <GR_CreateBoomalopeChickenIncubator.description>Заполнить инкубатор генами бумалопы и курицы.</GR_CreateBoomalopeChickenIncubator.description>
+  <GR_CreateBoomalopeChickenIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomalopeChickenIncubator.jobString>
+
+  <GR_CreateBoomalopeMuffaloIncubator.label>Инкубация бумалопа/муффало</GR_CreateBoomalopeMuffaloIncubator.label>
+  <GR_CreateBoomalopeMuffaloIncubator.description>Заполнить инкубатор генами бумалопы и муффало.</GR_CreateBoomalopeMuffaloIncubator.description>
+  <GR_CreateBoomalopeMuffaloIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomalopeMuffaloIncubator.jobString>
+
+  <GR_CreateBoomalopeWolfIncubator.label>Инкубация бумалопа/волк</GR_CreateBoomalopeWolfIncubator.label>
+  <GR_CreateBoomalopeWolfIncubator.description>Заполнить инкубатор генами бумалопы и волка.</GR_CreateBoomalopeWolfIncubator.description>
+  <GR_CreateBoomalopeWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomalopeWolfIncubator.jobString>
+
+  <GR_CreateChickenMuffaloIncubator.label>Инкубация курица/муффало</GR_CreateChickenMuffaloIncubator.label>
+  <GR_CreateChickenMuffaloIncubator.description>Заполнить инкубатор генами курицы и муффало.</GR_CreateChickenMuffaloIncubator.description>
+  <GR_CreateChickenMuffaloIncubator.jobString>Заполняет инкубатор.</GR_CreateChickenMuffaloIncubator.jobString>
+
+  <GR_CreateChickenWolfIncubator.label>Инкубация курица/волк</GR_CreateChickenWolfIncubator.label>
+  <GR_CreateChickenWolfIncubator.description>Заполнить инкубатор генами курицы и волка.</GR_CreateChickenWolfIncubator.description>
+  <GR_CreateChickenWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateChickenWolfIncubator.jobString>
+
+  <GR_CreateMuffaloWolfIncubator.label>Инкубация муффало/волк</GR_CreateMuffaloWolfIncubator.label>
+  <GR_CreateMuffaloWolfIncubator.description>Заполнить инкубатор генами муффало и волка.</GR_CreateMuffaloWolfIncubator.description>
+  <GR_CreateMuffaloWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateMuffaloWolfIncubator.jobString>
+
+  <GR_CreateBearmoleIncubator.label>Инкубация медведь/грызун</GR_CreateBearmoleIncubator.label>
+  <GR_CreateBearmoleIncubator.description>Заполнить инкубатор генами медведя и грызуна.</GR_CreateBearmoleIncubator.description>
+  <GR_CreateBearmoleIncubator.jobString>Заполняет инкубатор.</GR_CreateBearmoleIncubator.jobString>
+
+  <GR_CreateBoomsquirrelIncubator.label>Инкубация бумалопа/грызун</GR_CreateBoomsquirrelIncubator.label>
+  <GR_CreateBoomsquirrelIncubator.description>Заполнить инкубатор генами бумалопы и грызуна.</GR_CreateBoomsquirrelIncubator.description>
+  <GR_CreateBoomsquirrelIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomsquirrelIncubator.jobString>
+
+  <GR_CreateChickenrabbitIncubator.label>Инкубация курица/зайцевые</GR_CreateChickenrabbitIncubator.label>
+  <GR_CreateChickenrabbitIncubator.description>Заполнить инкубатор генами курицы и зайцевых.</GR_CreateChickenrabbitIncubator.description>
+  <GR_CreateChickenrabbitIncubator.jobString>Заполняет инкубатор.</GR_CreateChickenrabbitIncubator.jobString>
+
+  <GR_CreateMuffaloratIncubator.label>Инкубация муффало/грызун</GR_CreateMuffaloratIncubator.label>
+  <GR_CreateMuffaloratIncubator.description>Заполнить инкубатор генами муффало и грызуна.</GR_CreateMuffaloratIncubator.description>
+  <GR_CreateMuffaloratIncubator.jobString>Заполняет инкубатор.</GR_CreateMuffaloratIncubator.jobString>
+
+  <GR_CreateWolfbeaverIncubator.label>Инкубация волк/грызун</GR_CreateWolfbeaverIncubator.label>
+  <GR_CreateWolfbeaverIncubator.description>Заполнить инкубатор генами волка и грызуна.</GR_CreateWolfbeaverIncubator.description>
+  <GR_CreateWolfbeaverIncubator.jobString>Заполняет инкубатор.</GR_CreateWolfbeaverIncubator.jobString>
+
+
+  <!-- Insectoid Tier Incubators -->
+
+  <GR_CreateBearscarabIncubator.label>Инкубация инсектоид/медведь</GR_CreateBearscarabIncubator.label>
+  <GR_CreateBearscarabIncubator.description>Заполнить инкубатор генами инсектоида и медведя.</GR_CreateBearscarabIncubator.description>
+  <GR_CreateBearscarabIncubator.jobString>Заполняет инкубатор.</GR_CreateBearscarabIncubator.jobString>
+
+  <GR_CreateBoomBeetleIncubator.label>Инкубация инсектоид/бумалопа</GR_CreateBoomBeetleIncubator.label>
+  <GR_CreateBoomBeetleIncubator.description>Заполнить инкубатор генами инсектоида и бумалопы.</GR_CreateBoomBeetleIncubator.description>
+  <GR_CreateBoomBeetleIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomBeetleIncubator.jobString>
+
+  <CreateChickenspiderIncubator.label>Инкубация инсектоид/курица</CreateChickenspiderIncubator.label>
+  <CreateChickenspiderIncubator.description>Заполнить инкубатор генами инсектоида и курицы.</CreateChickenspiderIncubator.description>
+  <CreateChickenspiderIncubator.jobString>Заполняет инкубатор.</CreateChickenspiderIncubator.jobString>
+
+  <GR_CreateMuffalopedeIncubator.label>Инкубация инсектоид/муффало</GR_CreateMuffalopedeIncubator.label>
+  <GR_CreateMuffalopedeIncubator.description>Заполнить инкубатор генами инсектоида и муффало.</GR_CreateMuffalopedeIncubator.description>
+  <GR_CreateMuffalopedeIncubator.jobString>Заполняет инкубатор.</GR_CreateMuffalopedeIncubator.jobString>
+
+  <GR_CreateWolfscarabIncubator.label>Инкубация инсектоид/волк</GR_CreateWolfscarabIncubator.label>
+  <GR_CreateWolfscarabIncubator.description>Заполнить инкубатор генами инсектоида и волка.</GR_CreateWolfscarabIncubator.description>
+  <GR_CreateWolfscarabIncubator.jobString>Заполняет инкубатор.</GR_CreateWolfscarabIncubator.jobString>
+
+  <GR_CreateThrumbospiderIncubator.label>Инкубация инсектоид/трумбо</GR_CreateThrumbospiderIncubator.label>
+  <GR_CreateThrumbospiderIncubator.description>Заполнить инкубатор генами инсектоида и трумбо.</GR_CreateThrumbospiderIncubator.description>
+  <GR_CreateThrumbospiderIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumbospiderIncubator.jobString>
+
+
+  <!-- Reptilian Tier Incubators -->
+
+  <GR_CreateBearodileIncubator.label>Инкубация рептилия/медведь</GR_CreateBearodileIncubator.label>
+  <GR_CreateBearodileIncubator.description>Заполнить инкубатор генами рептилии и медведя.</GR_CreateBearodileIncubator.description>
+  <GR_CreateBearodileIncubator.jobString>Заполняет инкубатор.</GR_CreateBearodileIncubator.jobString>
+
+  <GR_CreateBoomsnakeIncubator.label>Инкубация рептилия/бумалопа</GR_CreateBoomsnakeIncubator.label>
+  <GR_CreateBoomsnakeIncubator.description>Заполнить инкубатор генами рептилии и бумалопы.</GR_CreateBoomsnakeIncubator.description>
+  <GR_CreateBoomsnakeIncubator.jobString>Заполняет инкубатор.</GR_CreateBoomsnakeIncubator.jobString>
+
+  <GR_CreateChickenlizardIncubator.label>Инкубация рептилия/курица</GR_CreateChickenlizardIncubator.label>
+  <GR_CreateChickenlizardIncubator.description>Заполнить инкубатор генами рептилии и курицы.</GR_CreateChickenlizardIncubator.description>
+  <GR_CreateChickenlizardIncubator.jobString>Заполняет инкубатор.</GR_CreateChickenlizardIncubator.jobString>
+
+  <GR_CreateMuffalokomodoIncubator.label>Инкубация рептилия/муффало</GR_CreateMuffalokomodoIncubator.label>
+  <GR_CreateMuffalokomodoIncubator.description>Заполнить инкубатор генами рептилии и муффало.</GR_CreateMuffalokomodoIncubator.description>
+  <GR_CreateMuffalokomodoIncubator.jobString>Заполняет инкубатор.</GR_CreateMuffalokomodoIncubator.jobString>
+
+  <GR_CreateSpidersnakeIncubator.label>Инкубация рептилия/инсектоид</GR_CreateSpidersnakeIncubator.label>
+  <GR_CreateSpidersnakeIncubator.description>Заполнить инкубатор генами рептилии и инсектоида.</GR_CreateSpidersnakeIncubator.description>
+  <GR_CreateSpidersnakeIncubator.jobString>Заполняет инкубатор.</GR_CreateSpidersnakeIncubator.jobString>
+
+  <GR_CreateThrumbolizardIncubator.label>Инкубация рептилия/трумбо</GR_CreateThrumbolizardIncubator.label>
+  <GR_CreateThrumbolizardIncubator.description>Заполнить инкубатор генами рептилии и трумбо.</GR_CreateThrumbolizardIncubator.description>
+  <GR_CreateThrumbolizardIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumbolizardIncubator.jobString>
+
+  <GR_CreateWolfsnakeIncubator.label>Инкубация рептилия/волк</GR_CreateWolfsnakeIncubator.label>
+  <GR_CreateWolfsnakeIncubator.description>Заполнить инкубатор генами рептилии и волка.</GR_CreateWolfsnakeIncubator.description>
+  <GR_CreateWolfsnakeIncubator.jobString>Заполняет инкубатор.</GR_CreateWolfsnakeIncubator.jobString>
+
+
+  <!-- Thrumbo Tier Incubators -->
+
+  <GR_CreateThrumboWolfIncubator.label>Инкубация трумбо/волк</GR_CreateThrumboWolfIncubator.label>
+  <GR_CreateThrumboWolfIncubator.description>Заполнить инкубатор генами трумбо и волка.</GR_CreateThrumboWolfIncubator.description>
+  <GR_CreateThrumboWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumboWolfIncubator.jobString>
+
+  <GR_CreateThrumboBearIncubator.label>Инкубация трумбо/медведь</GR_CreateThrumboBearIncubator.label>
+  <GR_CreateThrumboBearIncubator.description>Заполнить инкубатор генами трумбо и медведя.</GR_CreateThrumboBearIncubator.description>
+  <GR_CreateThrumboBearIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumboBearIncubator.jobString>
+
+  <GR_CreateThrumbochickenIncubator.label>Инкубация трумбо/курица</GR_CreateThrumbochickenIncubator.label>
+  <GR_CreateThrumbochickenIncubator.description>Заполнить инкубатор генами трумбо и курицы.</GR_CreateThrumbochickenIncubator.description>
+  <GR_CreateThrumbochickenIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumbochickenIncubator.jobString>
+
+  <GR_CreateThrumbalopeIncubator.label>Инкубация трумбо/бумалопа</GR_CreateThrumbalopeIncubator.label>
+  <GR_CreateThrumbalopeIncubator.description>Заполнить инкубатор генами трумбо и бумалопы.</GR_CreateThrumbalopeIncubator.description>
+  <GR_CreateThrumbalopeIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumbalopeIncubator.jobString>
+
+  <GR_CreateThrumffaloIncubator.label>Инкубация трумбо/муффало</GR_CreateThrumffaloIncubator.label>
+  <GR_CreateThrumffaloIncubator.description>Заполнить инкубатор генами трумбо и муффало.</GR_CreateThrumffaloIncubator.description>
+  <GR_CreateThrumffaloIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumffaloIncubator.jobString>
+
+  <GR_CreateThrumboratIncubator.label>Инкубация трумбо/грызуна</GR_CreateThrumboratIncubator.label>
+  <GR_CreateThrumboratIncubator.description>Заполнить инкубатор генами трумбо и грызуна.</GR_CreateThrumboratIncubator.description>
+  <GR_CreateThrumboratIncubator.jobString>Заполняет инкубатор.</GR_CreateThrumboratIncubator.jobString>
+
+
+  <!-- Mechanoid incubators -->
+
+  <GR_CreateMechabearIncubator.label>инкубация механоид / медведь</GR_CreateMechabearIncubator.label>
+  <GR_CreateMechabearIncubator.description>Заполнить инкубатор генами медведя и активными механитами</GR_CreateMechabearIncubator.description>
+  <GR_CreateMechabearIncubator.jobString>Заполняет инкубатор</GR_CreateMechabearIncubator.jobString>
+
+  <GR_CreateMechamuffaloIncubator.label>инкубация механоид / муффало</GR_CreateMechamuffaloIncubator.label>
+  <GR_CreateMechamuffaloIncubator.description>Заполнить инкубатор генами муффало и активными механитами</GR_CreateMechamuffaloIncubator.description>
+  <GR_CreateMechamuffaloIncubator.jobString>Заполняет инкубатор</GR_CreateMechamuffaloIncubator.jobString>
+
+  <GR_CreateMechalopeIncubator.label>инкубация механоид / бумалопа</GR_CreateMechalopeIncubator.label>
+  <GR_CreateMechalopeIncubator.description>Заполнить инкубатор генами бумалопы и активными механитами</GR_CreateMechalopeIncubator.description>
+  <GR_CreateMechalopeIncubator.jobString>Заполняет инкубатор</GR_CreateMechalopeIncubator.jobString>
+
+  <GR_CreateMechachickenIncubator.label>инкубация механоид / курица</GR_CreateMechachickenIncubator.label>
+  <GR_CreateMechachickenIncubator.description>Заполнить инкубатор генами курицы и активными механитами</GR_CreateMechachickenIncubator.description>
+  <GR_CreateMechachickenIncubator.jobString>Заполняет инкубатор</GR_CreateMechachickenIncubator.jobString>
+
+  <GR_CreateMechawolfIncubator.label>инкубация механоид / волк</GR_CreateMechawolfIncubator.label>
+  <GR_CreateMechawolfIncubator.description>Заполнить инкубатор генами волка и активными механитами</GR_CreateMechawolfIncubator.description>
+  <GR_CreateMechawolfIncubator.jobString>Заполняет инкубатор</GR_CreateMechawolfIncubator.jobString>
+
+  <GR_CreateMecharatIncubator.label>инкубация механоид / грызун</GR_CreateMecharatIncubator.label>
+  <GR_CreateMecharatIncubator.description>Заполнить инкубатор генами грызуна и активными механитами</GR_CreateMecharatIncubator.description>
+  <GR_CreateMecharatIncubator.jobString>Заполняет инкубатор</GR_CreateMecharatIncubator.jobString>
+
+  <GR_CreateMechaspiderIncubator.label>инкубация механоид / инсектоид</GR_CreateMechaspiderIncubator.label>
+  <GR_CreateMechaspiderIncubator.description>Заполнить инкубатор генамиn инсектоида и активными механитами</GR_CreateMechaspiderIncubator.description>
+  <GR_CreateMechaspiderIncubator.jobString>Заполняет инкубатор</GR_CreateMechaspiderIncubator.jobString>
+
+  <GR_CreateMechaturtleIncubator.label>инкубация механоид / рептилия</GR_CreateMechaturtleIncubator.label>
+  <GR_CreateMechaturtleIncubator.description>Заполнить инкубатор генами рептилии и активными механитами</GR_CreateMechaturtleIncubator.description>
+  <GR_CreateMechaturtleIncubator.jobString>Заполняет инкубатор</GR_CreateMechaturtleIncubator.jobString>
+
+  <GR_CreateMechathrumboIncubator.label>инкубация механоид / трумбо</GR_CreateMechathrumboIncubator.label>
+  <GR_CreateMechathrumboIncubator.description>Заполнить инкубатор генами трумбо и активными механитами</GR_CreateMechathrumboIncubator.description>
+  <GR_CreateMechathrumboIncubator.jobString>Заполняет инкубатор</GR_CreateMechathrumboIncubator.jobString>
+
+
+</LanguageData>

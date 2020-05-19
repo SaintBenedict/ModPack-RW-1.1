@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Books.label>Книги</Books.label>
+	<Polemics.label>Полемика</Polemics.label>
+	<Apologetics.label>Апологетика</Apologetics.label>
+
+	<GR_GeneticMaterial.label>генетические материалы</GR_GeneticMaterial.label>
+	<GR_Incubators.label>инкубаторы</GR_Incubators.label>
+	<GR_AlphaSerums.label>альфа сыворотки</GR_AlphaSerums.label>
+
+	<alienCorpseCategory.label>инопланетные трупы</alienCorpseCategory.label>
+
+	<Oil.label>нефть</Oil.label>
+
+</LanguageData>

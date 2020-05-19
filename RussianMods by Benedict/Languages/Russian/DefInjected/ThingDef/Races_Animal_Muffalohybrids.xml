@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Muffalo - Bear -->
+
+  <GR_Muffalobear.label>муффало-медведь</GR_Muffalobear.label>
+  <GR_Muffalobear.description>Гибрид муффало / медведя. муффало-медведь - более сильный вариант муффало, который не производит шерсть.\n\nПолезные способности: Муффало-медведи производят специальное молоко, менее питательное, но с мягким эйфорическим эффектом. Они - стайные животные, которые переносят больше веса, чем обычные муффало.</GR_Muffalobear.description>
+  <GR_Muffalobear.tools.0.label>голова</GR_Muffalobear.tools.0.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalobear_Corpse.label>Труп муффало-медведя</GR_Muffalobear_Corpse.label>
+  <GR_Muffalobear_Corpse.description>Труп муффало-медведя.</GR_Muffalobear_Corpse.description>
+
+
+  <!-- Muffalo - Boomalope -->
+
+  <GR_Muffalope.label>муффалопа</GR_Muffalope.label>
+  <GR_Muffalope.description>Гибрид муффало / бумалопа. Потому что это так здорово, когда ваши караваны могут ВЗРЫВАТЬ.\n\nПолезные способности: Молоко, произведенное этими животными, не является съедобным, но очень взрывоопасно, поэтому его можно использовать для создания СВУ. Может быть острижено для получения шерсти низкого качества. Производит приличное количество химического топлива.</GR_Muffalope.description>
+  <GR_Muffalope.tools.0.label>голова</GR_Muffalope.tools.0.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalope_Corpse.label>Труп муффалопы</GR_Muffalope_Corpse.label>
+  <GR_Muffalope_Corpse.description>Труп муффалопы.</GR_Muffalope_Corpse.description>
+
+
+  <!-- Muffalo - Chicken -->
+
+  <GR_Muffalochicken.label>муффало-курица</GR_Muffalochicken.label>
+  <GR_Muffalochicken.description>Гибрид муффало / курицы. Очень странный скот, который несет яйца.\n\nПолезные способности: Производит высококачественное молоко, шерсть и яйца.</GR_Muffalochicken.description>
+  <GR_Muffalochicken.tools.0.label>голова</GR_Muffalochicken.tools.0.label>
+  <GR_Muffalochicken.tools.1.label>клюв</GR_Muffalochicken.tools.1.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalochicken_Corpse.label>Труп муффало-курицы</GR_Muffalochicken_Corpse.label>
+  <GR_Muffalochicken_Corpse.description>Труп муффало-курицы.</GR_Muffalochicken_Corpse.description>
+
+
+  <!-- Muffalo - Wolf -->
+
+  <GR_Muffalowolf.label>муффало-волк</GR_Muffalowolf.label>
+  <GR_Muffalowolf.description>Гибрид муффало / волка. Быстрее обычного муффало и лучше защищается, но потерял способность производить молоко.\n\nПолезные способности: Довольно быстрый, стайный зверь.</GR_Muffalowolf.description>
+  <GR_Muffalowolf.tools.0.label>голова</GR_Muffalowolf.tools.0.label>
+  <!-- Use Leather From: Muffalo -->
+  <!-- Use Meat From: Muffalo -->
+  <GR_Muffalowolf_Corpse.label>Труп муффало-волка</GR_Muffalowolf_Corpse.label>
+  <GR_Muffalowolf_Corpse.description>Труп муффало-волка.</GR_Muffalowolf_Corpse.description>
+
+
+</LanguageData>

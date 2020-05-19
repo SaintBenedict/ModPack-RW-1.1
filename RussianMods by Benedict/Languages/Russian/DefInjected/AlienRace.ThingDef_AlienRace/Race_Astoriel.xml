@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Astoriel Base -->
+
+  <Alien_Astoriel.label>Асториэль</Alien_Astoriel.label>
+  <Alien_Astoriel.description>Почти бессмертная раса - Асториэль развивались отдельно от большинства других разумных видов жизни. Их уникальная физиология дает им много преимуществ.</Alien_Astoriel.description>
+  <Alien_Astoriel.tools.0.label>левый кулак</Alien_Astoriel.tools.0.label>
+  <Alien_Astoriel.tools.1.label>правый кулак</Alien_Astoriel.tools.1.label>
+  <Alien_Astoriel.tools.2.label>голова</Alien_Astoriel.tools.2.label>
+
+
+</LanguageData>

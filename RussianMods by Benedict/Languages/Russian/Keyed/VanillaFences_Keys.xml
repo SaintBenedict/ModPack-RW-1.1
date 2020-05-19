@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fence Desc -->
+<!--   <CloseboardDesc>Крепкий и высокий забор, этого вполне достаточно, чтобы стать стеной.</CloseboardDesc>
+  <SolidDesc>Высоты забора из деревянных досок хватит, чтобы сдержать кроликов.</SolidDesc>
+  <PicketDesc>Декоративный забор для хвастовства своей зелёной лужайкой.</PicketDesc>
+  <FarmDesc>Фермерский забор способный сдержать даже самого смышлёного трумбо.</FarmDesc>
+  <BarDesc>Крайне ограничивающий забор, используемый для разделения участков... или в качестве тюремных решёток.</BarDesc>
+  <TallChainlinkDesc>Высокий забор рабица, через который легко стрелять.</TallChainlinkDesc>
+  <ShortBrickDesc>Низкий и прочный забор приятно сочетающийся с выложенными дорожками.</ShortBrickDesc>
+  <TallBrickDesc>Усиленный каменный забор, способный выдержать осаду.</TallBrickDesc> -->
+
+  <!-- Fence Gate Desc -->
+<!--   <CloseboardGateDesc>Крепкие и высокие ворота, этого вполне достаточно, чтобы стать стеной.</CloseboardGateDesc>
+  <SolidGateDesc>Высоты ворот из деревянных досок хватит, чтобы сдержать кроликов.</SolidGateDesc>
+  <PicketGateDesc>Декоративные ворота для хвастовства своей зелёной лужайкой.</PicketGateDesc>
+  <FarmGateDesc>Фермерские ворота способные сдержать даже самого смышлёного трумбо.</FarmGateDesc>
+  <BarGateDesc>Крайне ограничивающие ворота, используемые для разделения участков... или в качестве тюремной решётки.</BarGateDesc>
+  <TallChainlinkGateDesc>Высокие ворота рабица, через которые легко стрелять.</TallChainlinkGateDesc>
+  <ShortBrickGateDesc>Низкие и прочные ворота приятно сочетающееся с выложенными дорожками.</ShortBrickGateDesc>
+  <TallBrickGateDesc>Усиленные каменные ворота, способные выдержать осаду.</TallBrickGateDesc> -->
+
+  <!--Settings Desc-->
+  <RestartNote>ПРИМЕЧАНИЕ: ПЕРЕЗАГРУЗИТЕ ДЛЯ ПРИМЕНЕНИЯ ИЗМЕНЕНИЙ</RestartNote>
+  <CostDesc>Cost: количество ресурсов необходимых для строительства забора.</CostDesc>
+  <MHPDesc>BaseHP: базовые HP забора умноженные на множитель материала.</MHPDesc>
+  <BDesc>Beauty: показатель красоты вида забора.</BDesc>
+  <FPDesc>Fill(%): процент земли занимаемый забором. ПРИМЕЧАНИЕ: у мешка с песком это 65%</FPDesc>
+  <PCDesc>PathCost: затраты передвижения требуемые для прохождения через забор.</PCDesc>
+  <PDesc>Passability: возможность проходимости забора. \n 1 = Непроходим \n 2 = PassThroughOnly \n 3 = Проходим</PDesc>
+
+  <!--Extra Options-->
+  <FenceLinkable>Позволить заборам соединятся со стенами: </FenceLinkable>
+  <FenceRoofable>Позволить заборам поддерживать крыши: </FenceRoofable>
+
+</LanguageData>

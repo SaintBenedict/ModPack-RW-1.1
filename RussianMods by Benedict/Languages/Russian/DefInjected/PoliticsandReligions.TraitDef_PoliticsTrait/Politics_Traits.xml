@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Individual Liberty -->
+
+  <PoliticsRepublican.degreeDatas.0.label>Республиканец</PoliticsRepublican.degreeDatas.0.label>
+  <PoliticsRepublican.degreeDatas.0.description>{PAWN_nameDef} считает республику идеальной формой правления.</PoliticsRepublican.degreeDatas.0.description>
+
+  <PoliticsDemocrat.degreeDatas.0.label>Демократ</PoliticsDemocrat.degreeDatas.0.label>
+  <PoliticsDemocrat.degreeDatas.0.description>{PAWN_nameDef} считает демократию идеальной формой управления.</PoliticsDemocrat.degreeDatas.0.description>
+
+
+  <!-- Collectivist -->
+
+  <PoliticsFascist.degreeDatas.0.label>Фашист</PoliticsFascist.degreeDatas.0.label>
+  <PoliticsFascist.degreeDatas.0.description>{PAWN_nameDef} считает фашизм идеальной формой правления.</PoliticsFascist.degreeDatas.0.description>
+
+  <PoliticsSocialist.degreeDatas.0.label>Социалист</PoliticsSocialist.degreeDatas.0.label>
+  <PoliticsSocialist.degreeDatas.0.description>{PAWN_nameDef} считает социализм идеальной формой управления.</PoliticsSocialist.degreeDatas.0.description>
+
+  <PoliticsCommunist.degreeDatas.0.label>Коммунист</PoliticsCommunist.degreeDatas.0.label>
+  <PoliticsCommunist.degreeDatas.0.description>{PAWN_nameDef} считает коммунизм идеальной формой управления.</PoliticsCommunist.degreeDatas.0.description>
+
+
+  <!-- Autocratic -->
+
+  <PoliticsMonarchist.degreeDatas.0.label>Монархист</PoliticsMonarchist.degreeDatas.0.label>
+  <PoliticsMonarchist.degreeDatas.0.description>{PAWN_nameDef} считает монархию идеальной формой управления.</PoliticsMonarchist.degreeDatas.0.description>
+
+  <PoliticsTheocrat.degreeDatas.0.label>Теократ</PoliticsTheocrat.degreeDatas.0.label>
+  <PoliticsTheocrat.degreeDatas.0.description>{PAWN_nameDef} считает теократию идеальной формой управления.</PoliticsTheocrat.degreeDatas.0.description>
+
+  <PoliticsDespot.degreeDatas.0.label>Деспотист</PoliticsDespot.degreeDatas.0.label>
+  <PoliticsDespot.degreeDatas.0.description>{PAWN_nameDef} считает деспотизм идеальной формой управления.</PoliticsDespot.degreeDatas.0.description>
+
+
+  <!-- Anti-Government -->
+
+  <PoliticsAnarchist.degreeDatas.0.label>Анархист</PoliticsAnarchist.degreeDatas.0.label>
+  <PoliticsAnarchist.degreeDatas.0.description>{PAWN_nameDef} считает анархию идеальной формой управления.</PoliticsAnarchist.degreeDatas.0.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_NeutroamineFromSkin.label>Извлечь нейтроамин из шкуры паука-змеи</GR_NeutroamineFromSkin.label>
+  <GR_NeutroamineFromSkin.description>Сброшенная шкура паука-змеи может быть измельчена и обработана в нарколаборатории для извлечения мелкого количества нейтроамина.</GR_NeutroamineFromSkin.description>
+  <GR_NeutroamineFromSkin.jobString>Извлекает нейтроамин.</GR_NeutroamineFromSkin.jobString>
+
+  <GR_CraftBoarTuskSculpture.label>Изготовить статуэтку бивень кабана</GR_CraftBoarTuskSculpture.label>
+  <GR_CraftBoarTuskSculpture.description>Бивни альфа-кабана могут быть тщательно вырезаны и обработаны в маленькую статуэтку. Уютная!</GR_CraftBoarTuskSculpture.description>
+  <GR_CraftBoarTuskSculpture.jobString>Делает статуэтку бивень кабана.</GR_CraftBoarTuskSculpture.jobString>
+
+
+</LanguageData>

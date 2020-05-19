@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Leg_Normal.label>&lt;color=#00FFF7&gt;вживить укрепленную ногу&lt;/color&gt;</EVOR_Surgery_Leg_Normal.label>
+  <EVOR_Surgery_Leg_Normal.description>Вживить укрепленную ногу.</EVOR_Surgery_Leg_Normal.description>
+  <EVOR_Surgery_Leg_Normal.jobString>Вживляет укрепленную ногу.</EVOR_Surgery_Leg_Normal.jobString>
+
+  <EVOR_Surgery_Leg_Hand.label>&lt;color=#00FFF7&gt;вживить цепкую ногу&lt;/color&gt;</EVOR_Surgery_Leg_Hand.label>
+  <EVOR_Surgery_Leg_Hand.description>Вживить цепкую ногу.</EVOR_Surgery_Leg_Hand.description>
+  <EVOR_Surgery_Leg_Hand.jobString>Вживляет цепкую ногу.</EVOR_Surgery_Leg_Hand.jobString>
+
+  <EVOR_Surgery_Leg_Blade.label>&lt;color=#00FFF7&gt;вживить костяную ногу-лезвие&lt;/color&gt;</EVOR_Surgery_Leg_Blade.label>
+  <EVOR_Surgery_Leg_Blade.description>Вживить костяную ногу-лезвие.</EVOR_Surgery_Leg_Blade.description>
+  <EVOR_Surgery_Leg_Blade.jobString>Вживляет костяную ногу-лезвие.</EVOR_Surgery_Leg_Blade.jobString>
+
+
+</LanguageData>

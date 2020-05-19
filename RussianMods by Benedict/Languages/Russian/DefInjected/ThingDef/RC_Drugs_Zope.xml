@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Zope.label>зопе</Zope.label>
+  <Zope.description>Зопе, базовый препарат для ряда зопиоидов, представляет собой высушенный и обработанный смолистый млечный сок из цветка грёз. Либо выкуривается, либо используется для создания более сильных наркотиков.</Zope.description>
+  <Zope.ingestible.ingestCommandString>курить {0}</Zope.ingestible.ingestCommandString>
+  <Zope.ingestible.ingestReportString>курит {0}.</Zope.ingestible.ingestReportString>
+
+
+</LanguageData>

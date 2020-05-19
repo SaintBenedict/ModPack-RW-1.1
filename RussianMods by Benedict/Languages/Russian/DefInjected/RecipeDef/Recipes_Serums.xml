@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_ExtractSerumBear.label>Извлечь альфа-сыворотку из медведя</GR_ExtractSerumBear.label>
+  <GR_ExtractSerumBear.description>Извлечь альфа-сыворотку из трупа медведя.</GR_ExtractSerumBear.description>
+  <GR_ExtractSerumBear.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumBear.jobString>
+
+  <GR_ExtractSerumBoar.label>Извлечь альфа-сыворотку из кабана</GR_ExtractSerumBoar.label>
+  <GR_ExtractSerumBoar.description>Извлечь альфа-сыворотку из трупа кабана.</GR_ExtractSerumBoar.description>
+  <GR_ExtractSerumBoar.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumBoar.jobString>
+
+  <GR_ExtractSerumBoomalope.label>Извлечь альфа-сыворотку из бумалопы</GR_ExtractSerumBoomalope.label>
+  <GR_ExtractSerumBoomalope.description>Извлечь альфа-сыворотку из трупа бумалопы.</GR_ExtractSerumBoomalope.description>
+  <GR_ExtractSerumBoomalope.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumBoomalope.jobString>
+
+  <GR_ExtractSerumChicken.label>Извлечь альфа-сыворотку из курицы</GR_ExtractSerumChicken.label>
+  <GR_ExtractSerumChicken.description>Извлечь альфа-сыворотку из трупа курицы.</GR_ExtractSerumChicken.description>
+  <GR_ExtractSerumChicken.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumChicken.jobString>
+
+  <GR_ExtractSerumEmu.label>Извлечь альфа-сыворотку из эму</GR_ExtractSerumEmu.label>
+  <GR_ExtractSerumEmu.description>Извлечь альфа-сыворотку из трупа эму.</GR_ExtractSerumEmu.description>
+  <GR_ExtractSerumEmu.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumEmu.jobString>
+
+  <GR_ExtractSerumMuffalo.label>Извлечь альфа-сыворотку из муффало</GR_ExtractSerumMuffalo.label>
+  <GR_ExtractSerumMuffalo.description>Извлечь альфа-сыворотку из трупа муффало.</GR_ExtractSerumMuffalo.description>
+  <GR_ExtractSerumMuffalo.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumMuffalo.jobString>
+
+  <GR_ExtractSerumOstrich.label>Извлечь альфа-сыворотку из страуса</GR_ExtractSerumOstrich.label>
+  <GR_ExtractSerumOstrich.description>Извлечь альфа-сыворотку из трупа страуса.</GR_ExtractSerumOstrich.description>
+  <GR_ExtractSerumOstrich.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumOstrich.jobString>
+
+  <GR_ExtractSerumRhino.label>Извлечь альфа-сыворотку из носорога</GR_ExtractSerumRhino.label>
+  <GR_ExtractSerumRhino.description>Извлечь альфа-сыворотку из трупа носорога.</GR_ExtractSerumRhino.description>
+  <GR_ExtractSerumRhino.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumRhino.jobString>
+
+  <GR_ExtractSerumWolf.label>Извлечь альфа-сыворотку из волка</GR_ExtractSerumWolf.label>
+  <GR_ExtractSerumWolf.description>Извлечь альфа-сыворотку из трупа волка.</GR_ExtractSerumWolf.description>
+  <GR_ExtractSerumWolf.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumWolf.jobString>
+
+  <GR_ExtractSerumHare.label>Извлечь альфа-сыворотку из зайца</GR_ExtractSerumHare.label>
+  <GR_ExtractSerumHare.description>Извлечь альфа-сыворотку из трупа зайца.</GR_ExtractSerumHare.description>
+  <GR_ExtractSerumHare.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumHare.jobString>
+
+  <GR_ExtractSerumIguana.label>Извлечь альфа-сыворотку из игуаны</GR_ExtractSerumIguana.label>
+  <GR_ExtractSerumIguana.description>Извлечь альфа-сыворотку из трупа игуаны.</GR_ExtractSerumIguana.description>
+  <GR_ExtractSerumIguana.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumIguana.jobString>
+
+  <GR_ExtractSerumPig.label>Извлечь альфа-сыворотку из свиньи</GR_ExtractSerumPig.label>
+  <GR_ExtractSerumPig.description>Извлечь альфа-сыворотку из трупа свиньи.</GR_ExtractSerumPig.description>
+  <GR_ExtractSerumPig.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumPig.jobString>
+
+  <GR_ExtractSerumRat.label>Извлечь альфа-сыворотку из крысы</GR_ExtractSerumRat.label>
+  <GR_ExtractSerumRat.description>Извлечь альфа-сыворотку из трупа крысы.</GR_ExtractSerumRat.description>
+  <GR_ExtractSerumRat.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumRat.jobString>
+
+  <GR_ExtractSerumTortoise.label>Извлечь альфа-сыворотку из черепахи</GR_ExtractSerumTortoise.label>
+  <GR_ExtractSerumTortoise.description>Извлечь альфа-сыворотку из трупа черепахи.</GR_ExtractSerumTortoise.description>
+  <GR_ExtractSerumTortoise.jobString>Извлекает альфа-сыворотку.</GR_ExtractSerumTortoise.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Tail_Blade.label>&lt;color=#00FFF7&gt;вживить хвост с зазубренным жалом&lt;/color&gt;</EVOR_Surgery_Tail_Blade.label>
+  <EVOR_Surgery_Tail_Blade.description>Вживить хвост с зазубренным жалом.</EVOR_Surgery_Tail_Blade.description>
+  <EVOR_Surgery_Tail_Blade.jobString>Вживляет хвост с зазубренным жалом.</EVOR_Surgery_Tail_Blade.jobString>
+
+  <EVOR_Surgery_Tail_Hand.label>&lt;color=#00FFF7&gt;вживить хвост-манипулятор&lt;/color&gt;</EVOR_Surgery_Tail_Hand.label>
+  <EVOR_Surgery_Tail_Hand.description>Вживить хвост-манипулятор.</EVOR_Surgery_Tail_Hand.description>
+  <EVOR_Surgery_Tail_Hand.jobString>Вживляет хвост-манипулятор.</EVOR_Surgery_Tail_Hand.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <RC_PlantCactusFruit.label>колючие кактусовые груши</RC_PlantCactusFruit.label>
+  <RC_PlantCactusFruit.description>Большелистный пустынный кактус со съедобными фруктами.</RC_PlantCactusFruit.description>
+
+  <RC_PlantTruffles.label>трюфель</RC_PlantTruffles.label>
+  <RC_PlantTruffles.description>Съедобный гриб, который трудно найти, а также высоко ценится из своего вкуса.</RC_PlantTruffles.description>
+
+  <RC_PlantJuniper.label>куст можжевельника</RC_PlantJuniper.label>
+  <RC_PlantJuniper.description>Вечнозеленые кустарники, которые растут в холодных климатах, на кустах можжевельника растёт особый вид ягод, который используется как специя и в создании джина.</RC_PlantJuniper.description>
+
+  <RC_PlantFlax.label>лён</RC_PlantFlax.label>
+  <RC_PlantFlax.description>Лён, это волокно пригодное для изготовления льняной ткани.</RC_PlantFlax.description>
+
+  <RC_PlantShrooms.label>магические грибы</RC_PlantShrooms.label>
+  <RC_PlantShrooms.description>...вид съедобных грибов, не в плане его питательной пользы, а как психоделик для эйфории, которую он даёт при употреблении. Осторожнее, слишком много... и ты можешь никогда не найти путь к реальности.</RC_PlantShrooms.description>
+
+
+  <!-- Fruit Trees -->
+
+  <RC_PlantCoconutTree.label>кокосовое дерево</RC_PlantCoconutTree.label>
+  <RC_PlantCoconutTree.description>Плодоносящая пальма, на которой растут кокосы.</RC_PlantCoconutTree.description>
+
+  <PlantBeeTree.label>дерево с ульем</PlantBeeTree.label>
+  <PlantBeeTree.description>Дерево, на котором находится улей. Подождите, пока он созреет для сбора урожая!</PlantBeeTree.description>
+
+
+</LanguageData>

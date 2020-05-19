@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZopeHigh.stages.0.label>зопе - немного</ZopeHigh.stages.0.label>
+  <ZopeHigh.stages.0.description>Большая доза зопе прекратила действие. Я чувствую себя хорошо.</ZopeHigh.stages.0.description>
+  <ZopeHigh.stages.1.label>зопе - много</ZopeHigh.stages.1.label>
+  <ZopeHigh.stages.1.description>Оооо, вот это вещь!</ZopeHigh.stages.1.description>
+
+
+  <!-- Zopioid addiction -->
+
+  <ZopioidWithdrawal.stages.1.label>ломка от зопиойда</ZopioidWithdrawal.stages.1.label>
+  <ZopioidWithdrawal.stages.1.description>Мне нужна помощь! Все болит, и меня тошнит.</ZopioidWithdrawal.stages.1.description>
+
+
+</LanguageData>

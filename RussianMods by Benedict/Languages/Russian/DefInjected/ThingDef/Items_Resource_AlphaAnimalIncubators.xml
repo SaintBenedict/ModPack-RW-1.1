@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_AlphaBearIncubator.label>Инкубатор альфа-медведя</GR_AlphaBearIncubator.label>
+  <GR_AlphaBearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа медведя-гризли.</GR_AlphaBearIncubator.description>
+
+  <GR_AlphaBoarIncubator.label>Инкубатор альфа-кабана</GR_AlphaBoarIncubator.label>
+  <GR_AlphaBoarIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-кабана.</GR_AlphaBoarIncubator.description>
+
+  <GR_AlphaBoomalopeIncubator.label>Инкубатор альфа-бумалопы</GR_AlphaBoomalopeIncubator.label>
+  <GR_AlphaBoomalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-бумалопу.</GR_AlphaBoomalopeIncubator.description>
+
+  <GR_AlphaChickenIncubator.label>Инкубатор альфа-курицы</GR_AlphaChickenIncubator.label>
+  <GR_AlphaChickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-курицу.</GR_AlphaChickenIncubator.description>
+
+  <GR_AlphaEmuIncubator.label>Инкубатор альфа-эму</GR_AlphaEmuIncubator.label>
+  <GR_AlphaEmuIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-эму.</GR_AlphaEmuIncubator.description>
+
+  <GR_AlphaMuffaloIncubator.label>Инкубатор альфа-муффало</GR_AlphaMuffaloIncubator.label>
+  <GR_AlphaMuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-муффало.</GR_AlphaMuffaloIncubator.description>
+
+  <GR_AlphaOstrichIncubator.label>Инкубатор альфа-страуса</GR_AlphaOstrichIncubator.label>
+  <GR_AlphaOstrichIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-страуса.</GR_AlphaOstrichIncubator.description>
+
+  <GR_AlphaRhinoIncubator.label>Инкубатор альфа-носорога</GR_AlphaRhinoIncubator.label>
+  <GR_AlphaRhinoIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-носорога.</GR_AlphaRhinoIncubator.description>
+
+  <GR_AlphaWolfIncubator.label>Инкубатор альфа-волка</GR_AlphaWolfIncubator.label>
+  <GR_AlphaWolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-волка.</GR_AlphaWolfIncubator.description>
+
+  <GR_AlphaHareIncubator.label>Инкубатор альфа-зайца</GR_AlphaHareIncubator.label>
+  <GR_AlphaHareIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся вальфа-зайца.</GR_AlphaHareIncubator.description>
+
+  <GR_AlphaIguanaIncubator.label>Инкубатор альфа-игуану</GR_AlphaIguanaIncubator.label>
+  <GR_AlphaIguanaIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-игуану.</GR_AlphaIguanaIncubator.description>
+
+  <GR_AlphaPigIncubator.label>Инкубатор альфа-свинью</GR_AlphaPigIncubator.label>
+  <GR_AlphaPigIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-свинью.</GR_AlphaPigIncubator.description>
+
+  <GR_AlphaRatIncubator.label>Инкубатор альфа-крысу</GR_AlphaRatIncubator.label>
+  <GR_AlphaRatIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-крысу.</GR_AlphaRatIncubator.description>
+
+  <GR_AlphaTortoiseIncubator.label>Инкубатор альфа-чрепаху</GR_AlphaTortoiseIncubator.label>
+  <GR_AlphaTortoiseIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Зародыш разовьётся в альфа-чрепаху.</GR_AlphaTortoiseIncubator.description>
+
+
+</LanguageData>

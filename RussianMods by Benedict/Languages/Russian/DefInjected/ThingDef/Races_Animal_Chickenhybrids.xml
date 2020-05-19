@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chicken - Bear -->
+
+  <GR_Chickenbear.label>куромедведь</GR_Chickenbear.label>
+  <GR_Chickenbear.description>Гибрид курицы / медведя. Откладывает яйца и может защищаться в бою немного лучше, чем курица.\n\nУдобные способности: Их острые мелкие зубы можно собирать, когда их убивают они легки, и едва ценны.</GR_Chickenbear.description>
+  <GR_Chickenbear.tools.0.label>когти</GR_Chickenbear.tools.0.label>
+  <GR_Chickenbear.tools.2.label>голова</GR_Chickenbear.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenbear_Corpse.label>Труп куромедведя</GR_Chickenbear_Corpse.label>
+  <GR_Chickenbear_Corpse.description>Труп куромедведя.</GR_Chickenbear_Corpse.description>
+
+
+  <!-- Chicken - Boomalope -->
+
+  <GR_Chickenlope.label>куролопа</GR_Chickenlope.label>
+  <GR_Chickenlope.description>Гибрид курицы / бумалопы. Это болезненно выглядящее существо в основном бесполезно. Теперь, если вы много их соберете, убейте в цепной реакции...\n\nУдобные способности: Взрывается при смерти. Производит мельчайшее количество химического топлива каждый день.</GR_Chickenlope.description>
+  <GR_Chickenlope.tools.0.label>когти</GR_Chickenlope.tools.0.label>
+  <GR_Chickenlope.tools.2.label>голова</GR_Chickenlope.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenlope_Corpse.label>Труп куролопы</GR_Chickenlope_Corpse.label>
+  <GR_Chickenlope_Corpse.description>Труп куролопы.</GR_Chickenlope_Corpse.description>
+
+
+  <!-- Chicken - Muffalo -->
+
+  <GR_Chickenffalo.label>куроффало</GR_Chickenffalo.label>
+  <GR_Chickenffalo.description>Гибрид курицы / муффало. Откладывает яйца, производит молоко, шерсть и может быть использовано в качестве скота. Конечно, оно не преуспевает в производстве любого продукта, но это цена, которую вы платите за удобство. Они такие милые, хотя, носят свои крошечные сумки...</GR_Chickenffalo.description>
+  <GR_Chickenffalo.tools.0.label>когти</GR_Chickenffalo.tools.0.label>
+  <GR_Chickenffalo.tools.1.label>голова</GR_Chickenffalo.tools.1.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenffalo_Corpse.label>Труп куроффало</GR_Chickenffalo_Corpse.label>
+  <GR_Chickenffalo_Corpse.description>Труп куроффало.</GR_Chickenffalo_Corpse.description>
+
+
+  <!-- Chicken - Wolf -->
+
+  <GR_Chickenwolf.label>куроволк</GR_Chickenwolf.label>
+  <GR_Chickenwolf.description>Гибрид курицы / волка. Быстро двигается, и неприятно кусается!\n\nУдобные способности: Их острые мелкие зубы можно собирать, когда их убивают они легки, и едва ценны.</GR_Chickenwolf.description>
+  <GR_Chickenwolf.tools.0.label>когти</GR_Chickenwolf.tools.0.label>
+  <GR_Chickenwolf.tools.2.label>голова</GR_Chickenwolf.tools.2.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Use Meat From: Chicken -->
+  <GR_Chickenwolf_Corpse.label>Труп куроволка</GR_Chickenwolf_Corpse.label>
+  <GR_Chickenwolf_Corpse.description>Труп куроволка.</GR_Chickenwolf_Corpse.description>
+
+
+</LanguageData>

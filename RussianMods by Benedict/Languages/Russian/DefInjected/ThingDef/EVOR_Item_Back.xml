@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Back_Wing.label>перьвые крылья</EVOR_Item_Back_Wing.label>
+  <EVOR_Item_Back_Wing.description>Крылья, достаточно мощные, чтобы держать тело в воздухе, при этом достаточно маленькие, чтобы не мешать повседневной жизни. Способны быстро увеличивать скорость.</EVOR_Item_Back_Wing.description>
+
+  <EVOR_Item_Back_Hand.label>щупальца</EVOR_Item_Back_Hand.label>
+  <EVOR_Item_Back_Hand.description>Добавление небольшого количества щупалец-манипуляторов растущих из спины может увеличить производительность и скорость труда.</EVOR_Item_Back_Hand.description>
+
+  <EVOR_Item_Back_Muscle.label>Дополнительная мускулатура</EVOR_Item_Back_Muscle.label>
+  <EVOR_Item_Back_Muscle.description>Добавление дополнительных мышечных волокон, а также укрепленная связующая ткань для соединения с костями, позволяет хозяину бить сильнее и нести больше.</EVOR_Item_Back_Muscle.description>
+
+
+</LanguageData>

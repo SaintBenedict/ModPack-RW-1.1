@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Thrumbo -->
+
+  <GR_Thrumbear.label>трумбо-медведь</GR_Thrumbear.label>
+  <GR_Thrumbear.labelPlural>трумбо-медведи</GR_Thrumbear.labelPlural>
+  <GR_Thrumbear.lifeStages.0.label>телёнок трумбо-медведя</GR_Thrumbear.lifeStages.0.label>
+ 
+
+  <!-- Boomalope - Thrumbo -->
+
+  <GR_Thrumbalope.label>трумболопа</GR_Thrumbalope.label>
+  <GR_Thrumbalope.labelPlural>трумболопы</GR_Thrumbalope.labelPlural>
+  <GR_Thrumbalope.lifeStages.0.label>телёнок трумболопы</GR_Thrumbalope.lifeStages.0.label>
+  <GR_Thrumbalope.lifeStages.0.labelPlural>телята трумболопы</GR_Thrumbalope.lifeStages.0.labelPlural>
+
+
+  <!-- Chicken - Thrumbo -->
+
+  <GR_Thrumbochicken.label>трумбо-курица</GR_Thrumbochicken.label>
+  <GR_Thrumbochicken.labelPlural>трумбо-курицы</GR_Thrumbochicken.labelPlural>
+  <GR_Thrumbochicken.lifeStages.0.label>цыплёнок трумбо-курицы</GR_Thrumbochicken.lifeStages.0.label>
+  <GR_Thrumbochicken.lifeStages.0.labelPlural>цыплята трумбо-курицы</GR_Thrumbochicken.lifeStages.0.labelPlural>
+
+
+  <!-- Muffalo - Thrumbo -->
+
+  <GR_Thrumffalo.label>трумффало</GR_Thrumffalo.label>
+  <GR_Thrumffalo.labelPlural>трумффалы</GR_Thrumffalo.labelPlural>
+  <GR_Thrumffalo.lifeStages.0.label>телёнок трумффало</GR_Thrumffalo.lifeStages.0.label>
+  <GR_Thrumffalo.lifeStages.0.labelPlural>телята трумффало</GR_Thrumffalo.lifeStages.0.labelPlural>
+
+
+  <!-- Wolf - Thrumbo -->
+
+  <GR_Thrumwolf.label>трумволк</GR_Thrumwolf.label>
+  <GR_Thrumwolf.labelPlural>трумволки</GR_Thrumwolf.labelPlural>
+  <GR_Thrumwolf.lifeStages.0.label>щенок трумволка</GR_Thrumwolf.lifeStages.0.label>
+  <GR_Thrumwolf.lifeStages.0.labelPlural>щенки трумволка</GR_Thrumwolf.lifeStages.0.labelPlural>
+
+
+</LanguageData>

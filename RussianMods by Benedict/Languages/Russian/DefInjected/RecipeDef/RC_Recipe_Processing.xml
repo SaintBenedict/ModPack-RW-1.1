@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_MillingBase.label>приготовить ингредиенты</RC_MillingBase.label>
+  <RC_MillingBase.description>Приготовить немного ингредиентов.</RC_MillingBase.description>
+  <RC_MillingBase.jobString>готовит ингредиенты.</RC_MillingBase.jobString>
+
+  <ProcessSugarcane.label>сделать сахар из сахарного тростника</ProcessSugarcane.label>
+  <ProcessSugarcane.description>Обработать сахарный тростник в восхитительный, уничтожающий зубы белый порошок.</ProcessSugarcane.description>
+  <ProcessSugarcane.jobString>обрабатывает сахарный тростник.</ProcessSugarcane.jobString>
+
+  <ProcessSugarcaneBulk.label>сделать много сахара из сахарного тростника</ProcessSugarcaneBulk.label>
+  <ProcessSugarcaneBulk.description>Обработать сахарный тростник в восхитительный, уничтожающий зубы белый порошок. Сделать 5 Сахара.</ProcessSugarcaneBulk.description>
+  <ProcessSugarcaneBulk.jobString>обрабатывает много сахарного тростника.</ProcessSugarcaneBulk.jobString>
+
+  <ProcessGrain.label>сделать муку из зёрен</ProcessGrain.label>
+  <ProcessGrain.description>Переработать зерна в муку, делая её пригодной для употребления в пищу.</ProcessGrain.description>
+  <ProcessGrain.jobString>перемалывает зёрна в муку.</ProcessGrain.jobString>
+
+  <ProcessGrainBulk.label>сделать много муки из зёрен</ProcessGrainBulk.label>
+  <ProcessGrainBulk.description>Переработать зерна в муку, делая её пригодной для употребления в пищу. Сделать 10 Муки</ProcessGrainBulk.description>
+  <ProcessGrainBulk.jobString>перемалывает много зёрен в муку.</ProcessGrainBulk.jobString>
+
+  <ProcessCacao.label>сделать шоколад</ProcessCacao.label>
+  <ProcessCacao.description>Смешайте какао-бобы и сахар, чтобы приготовить вкусный, вкусный шоколад.</ProcessCacao.description>
+  <ProcessCacao.jobString>делает шоколад</ProcessCacao.jobString>
+
+  <ProcessCacaoBulk.label>сделать много шоколада</ProcessCacaoBulk.label>
+  <ProcessCacaoBulk.description>Смешайте какао-бобы и сахар, чтобы приготовить вкусный, вкусный шоколад. Сделать 5.</ProcessCacaoBulk.description>
+  <ProcessCacaoBulk.jobString>делает много шоколада</ProcessCacaoBulk.jobString>
+
+  <ProcessSoybean.label>сделать тофу</ProcessSoybean.label>
+  <ProcessSoybean.description>Сделать тофу из сои. Фу.</ProcessSoybean.description>
+  <ProcessSoybean.jobString>делает тофу.</ProcessSoybean.jobString>
+
+  <ProcessSoybeanBulk.label>сделать много тофу</ProcessSoybeanBulk.label>
+  <ProcessSoybeanBulk.description>Сделать тофу из сои. Фу. Сделать 5x.</ProcessSoybeanBulk.description>
+  <ProcessSoybeanBulk.jobString>делает тофу.</ProcessSoybeanBulk.jobString>
+
+  <ProcessAgave.label>сделать нектар из агавы</ProcessAgave.label>
+  <ProcessAgave.description>Выжать из плодов агавы вкусный и липкий нектар.</ProcessAgave.description>
+  <ProcessAgave.jobString>выжимает агаву.</ProcessAgave.jobString>
+
+  <ProcessAgaveBulk.label>сделать много нектара из агавы</ProcessAgaveBulk.label>
+  <ProcessAgaveBulk.description>Выжать из плодов агавы вкусный и липкий нектар. сделать 5.</ProcessAgaveBulk.description>
+  <ProcessAgaveBulk.jobString>выжимает агаву.</ProcessAgaveBulk.jobString>
+
+
+</LanguageData>

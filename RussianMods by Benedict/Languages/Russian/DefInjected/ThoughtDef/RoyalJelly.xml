@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_RoyalJellyHigh.stages.0.label>королевское желе - тепло</GR_RoyalJellyHigh.stages.0.label>
+  <GR_RoyalJellyHigh.stages.0.description>Королевское желе вкусное... Я хочу съесть его еще больше!</GR_RoyalJellyHigh.stages.0.description>
+
+
+  <!-- Ambrosia addiction -->
+
+  <GR_RoyalJellyWithdrawal.stages.1.label>зависимость от королевского желе</GR_RoyalJellyWithdrawal.stages.1.label>
+  <GR_RoyalJellyWithdrawal.stages.1.description>Я действительно хотел бы съесть немного королевского желе прямо сейчас.</GR_RoyalJellyWithdrawal.stages.1.description>
+
+
+</LanguageData>

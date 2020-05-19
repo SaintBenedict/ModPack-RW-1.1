@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Gas : Thing -->
+
+	<VWE_ToxicGasCloud.label>токсичный газ</VWE_ToxicGasCloud.label>
+
+
+	<!-- Smoke : Thing -->
+
+	<VWE_SmokeCloud.label>облака дыма</VWE_SmokeCloud.label>
+
+	<GR_Gas_Ice.label>кристаллы льда</GR_Gas_Ice.label>
+	<GR_Poison_Gas.label>ядовитый газ</GR_Poison_Gas.label>
+	<GR_Poison_Cloud.label>облако яда</GR_Poison_Cloud.label>
+	<GR_InsectCloudMotes.label>облако насекомых</GR_InsectCloudMotes.label>
+	<GR_Gas_Dust.label>пыль</GR_Gas_Dust.label>
+
+
+</LanguageData>

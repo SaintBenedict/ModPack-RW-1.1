@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Eyes -->
+
+  <EVOR_Hediff_Eye.label>мультиспектровый глаз</EVOR_Hediff_Eye.label>
+  <EVOR_Hediff_Eye.description>усовершенствованные глаза с интегрированными клетками позволяющими собирать свет в ультрафиолетовом и инфракрасном спектре, эти глаза способны передавать в мозг хозяина гораздо больше визуальной информации.</EVOR_Hediff_Eye.description>
+  <EVOR_Hediff_Eye.labelNoun>мультиспектровый глаз</EVOR_Hediff_Eye.labelNoun>
+
+  <EVOR_Hediff_Nose.label>носовой микроанализатор</EVOR_Hediff_Nose.label>
+  <EVOR_Hediff_Nose.description>Увеличивая количество клеток, предназначенных для анализа определенных важных молекул, позволяет легче анализировать конкретные, переносимые воздухом, ароматы.</EVOR_Hediff_Nose.description>
+  <EVOR_Hediff_Nose.labelNoun>носовой микроанализатор</EVOR_Hediff_Nose.labelNoun>
+
+  <EVOR_Hediff_Nose_Pheromones.label>нос с феромонными железами</EVOR_Hediff_Nose_Pheromones.label>
+  <EVOR_Hediff_Nose_Pheromones.description>Добавляя специальные феромоновые железы в основание носа, хозяин может слегка изменять расположение тех, с кем общается.</EVOR_Hediff_Nose_Pheromones.description>
+  <EVOR_Hediff_Nose_Pheromones.labelNoun>нос с феромонными железами</EVOR_Hediff_Nose_Pheromones.labelNoun>
+
+  <EVOR_Hediff_Ear.label>чуткое ухо</EVOR_Hediff_Ear.label>
+  <EVOR_Hediff_Ear.description>Увеличивая спектр частот, которые могут быть услышаны, также позволяет хозяину временно сфокусироваться на одной частоте. Эти уши способны дать полную карту звуков вокруг хозяина.</EVOR_Hediff_Ear.description>
+  <EVOR_Hediff_Ear.labelNoun>чуткое ухо</EVOR_Hediff_Ear.labelNoun>
+
+  <EVOR_Hediff_Spine.label>нейроускоренный позвоночник</EVOR_Hediff_Spine.label>
+  <EVOR_Hediff_Spine.description>Хотя покрытие нервной трубки и увеличивает скорость передачи сигнала на порядок, более значительными улучшением является деблирующие нервные узелки, которые позволяют спинному мозгу самостоятельно обрабатывать сигналы с меньшей срочностью, снижая нагрузку на головной мозг.</EVOR_Hediff_Spine.description>
+  <EVOR_Hediff_Spine.labelNoun>нейроускоренный позвоночник</EVOR_Hediff_Spine.labelNoun>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Heart.label>&lt;color=#00FFF7&gt;вживить сплетенное сердце&lt;/color&gt;</EVOR_Surgery_Heart.label>
+  <EVOR_Surgery_Heart.description>Вживить сплетенное сердце.</EVOR_Surgery_Heart.description>
+  <EVOR_Surgery_Heart.jobString>Вживляет сплетенное сердце.</EVOR_Surgery_Heart.jobString>
+
+  <EVOR_Surgery_Kidney.label>&lt;color=#00FFF7&gt;вживить тройные почки&lt;/color&gt;</EVOR_Surgery_Kidney.label>
+  <EVOR_Surgery_Kidney.description>Вживить тройные почки.</EVOR_Surgery_Kidney.description>
+  <EVOR_Surgery_Kidney.jobString>Вживляет тройные почки.</EVOR_Surgery_Kidney.jobString>
+
+  <EVOR_Surgery_Lung.label>&lt;color=#00FFF7&gt;вживить нано-альвеолы легких&lt;/color&gt;</EVOR_Surgery_Lung.label>
+  <EVOR_Surgery_Lung.description>Вживить нано-альвеолы легких.</EVOR_Surgery_Lung.description>
+  <EVOR_Surgery_Lung.jobString>Вживляет нано-альвеолы легких.</EVOR_Surgery_Lung.jobString>
+
+  <EVOR_Surgery_Stomach.label>&lt;color=#00FFF7&gt;вживить многокамерный желудок&lt;/color&gt;</EVOR_Surgery_Stomach.label>
+  <EVOR_Surgery_Stomach.description>Вживить многокамерный желудок.</EVOR_Surgery_Stomach.description>
+  <EVOR_Surgery_Stomach.jobString>Вживляет многокамерный желудок.</EVOR_Surgery_Stomach.jobString>
+
+  <EVOR_Surgery_Liver.label>&lt;color=#00FFF7&gt;вживить четырехдольную печень&lt;/color&gt;</EVOR_Surgery_Liver.label>
+  <EVOR_Surgery_Liver.description>Вживить четырехдольную печень.</EVOR_Surgery_Liver.description>
+  <EVOR_Surgery_Liver.jobString>Вживляет четырехдольную печень.</EVOR_Surgery_Liver.jobString>
+
+
+</LanguageData>

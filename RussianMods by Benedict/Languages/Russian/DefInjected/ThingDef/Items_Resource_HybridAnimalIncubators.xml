@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_EmptyIncubator.label>инкубатор медведь / бумалопа</GR_EmptyIncubator.label>
+  <GR_EmptyIncubator.description>Инкубатор, заполненный смесью генетического материала животных.</GR_EmptyIncubator.description>
+
+
+  <!-- Items handling Bear / Boomalope hybrids -->
+
+  <GR_BearBoomalopePre.label>инкубатор бумалопа / медведь</GR_BearBoomalopePre.label>
+  <GR_BearBoomalopePre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BearBoomalopePre.description>
+
+  <GR_BearalopeIncubator.label>инкубатор бумалопа / медведь</GR_BearalopeIncubator.label>
+  <GR_BearalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид бумалопа / медведь или медведь / бумалопа</GR_BearalopeIncubator.description>
+
+  <GR_BoomabearIncubator.label>инкубатор бумалопа / медведь</GR_BoomabearIncubator.label>
+  <GR_BoomabearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид бумалопа / медведь или медведь / бумалопа</GR_BoomabearIncubator.description>
+
+
+  <!-- Items handling Bear / Chicken hybrids -->
+
+  <GR_BearChickenPre.label>инкубатор курица / медведь</GR_BearChickenPre.label>
+  <GR_BearChickenPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BearChickenPre.description>
+
+  <GR_ChickenBearIncubator.label>инкубатор муффало / медведь</GR_ChickenBearIncubator.label>
+  <GR_ChickenBearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / медведь или медведь / муффало</GR_ChickenBearIncubator.description>
+
+  <GR_BearChickenIncubator.label>инкубатор курица / медведь</GR_BearChickenIncubator.label>
+  <GR_BearChickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / медведь или медведь / курица</GR_BearChickenIncubator.description>
+
+
+  <!-- Items handling Bear / Muffalo hybrids -->
+
+  <GR_BearMuffaloPre.label>инкубатор муффало / медведь</GR_BearMuffaloPre.label>
+  <GR_BearMuffaloPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BearMuffaloPre.description>
+
+  <GR_BearMuffaloIncubator.label>инкубатор муффало / медведь</GR_BearMuffaloIncubator.label>
+  <GR_BearMuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / медведь или медведь / муффало</GR_BearMuffaloIncubator.description>
+
+  <GR_MuffaloBearIncubator.label>инкубатор муффало / медведь</GR_MuffaloBearIncubator.label>
+  <GR_MuffaloBearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / медведь или медведь / муффало</GR_MuffaloBearIncubator.description>
+
+
+  <!-- Items handling Bear / Wolf hybrids -->
+
+  <GR_BearWolfPre.label>инкубатор волк / медведь</GR_BearWolfPre.label>
+  <GR_BearWolfPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BearWolfPre.description>
+
+  <GR_BearWolfIncubator.label>инкубатор волк / медведь</GR_BearWolfIncubator.label>
+  <GR_BearWolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид волк / медведь или медведь / волк</GR_BearWolfIncubator.description>
+
+  <GR_WolfBearIncubator.label>инкубатор волк / медведь</GR_WolfBearIncubator.label>
+  <GR_WolfBearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид волк / медведь или медведь / волк</GR_WolfBearIncubator.description>
+
+
+  <!-- Items handling Boomalope / Chicken hybrids -->
+
+  <GR_BoomalopeChickenPre.label>инкубатор бумалопа / курица</GR_BoomalopeChickenPre.label>
+  <GR_BoomalopeChickenPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BoomalopeChickenPre.description>
+
+  <GR_BoomalopeChickenIncubator.label>инкубатор бумалопа / курица</GR_BoomalopeChickenIncubator.label>
+  <GR_BoomalopeChickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / бумалопа или бумалопа / курица</GR_BoomalopeChickenIncubator.description>
+
+  <GR_ChickenBoomalopeIncubator.label>инкубатор бумалопа / курица</GR_ChickenBoomalopeIncubator.label>
+  <GR_ChickenBoomalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / бумалопа или бумалопа / курица</GR_ChickenBoomalopeIncubator.description>
+
+
+  <!-- Items handling Boomalope / Muffalo hybrids -->
+
+  <GR_BoomalopeMuffaloPre.label>инкубатор бумалопа / муффало</GR_BoomalopeMuffaloPre.label>
+  <GR_BoomalopeMuffaloPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BoomalopeMuffaloPre.description>
+
+  <GR_BoomalopeMuffaloIncubator.label>инкубатор бумалопа / муффало</GR_BoomalopeMuffaloIncubator.label>
+  <GR_BoomalopeMuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / бумалопа или бумалопа / муффало</GR_BoomalopeMuffaloIncubator.description>
+
+  <GR_MuffaloBoomalopeIncubator.label>инкубатор бумалопа / муффало</GR_MuffaloBoomalopeIncubator.label>
+  <GR_MuffaloBoomalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / бумалопа или бумалопа / муффало</GR_MuffaloBoomalopeIncubator.description>
+
+
+  <!-- Items handling Boomalope / Wolf hybrids -->
+
+  <GR_BoomalopeWolfPre.label>инкубатор бумалопа / волк</GR_BoomalopeWolfPre.label>
+  <GR_BoomalopeWolfPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_BoomalopeWolfPre.description>
+
+  <GR_BoomalopeWolfIncubator.label>инкубатор бумалопа / волк</GR_BoomalopeWolfIncubator.label>
+  <GR_BoomalopeWolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид волк / бумалопа или бумалопа / волк</GR_BoomalopeWolfIncubator.description>
+
+  <GR_WolfBoomalopeIncubator.label>инкубатор бумалопа / волк</GR_WolfBoomalopeIncubator.label>
+  <GR_WolfBoomalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид волк / бумалопа или бумалопа / волк</GR_WolfBoomalopeIncubator.description>
+
+
+  <!-- Items handling Chicken / Muffalo hybrids -->
+
+  <GR_ChickenMuffaloPre.label>инкубатор курица / муффало</GR_ChickenMuffaloPre.label>
+  <GR_ChickenMuffaloPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_ChickenMuffaloPre.description>
+
+  <GR_ChickenMuffaloIncubator.label>инкубатор курица / муффало</GR_ChickenMuffaloIncubator.label>
+  <GR_ChickenMuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / муффало или муффало / курица</GR_ChickenMuffaloIncubator.description>
+
+  <GR_MuffaloChickenIncubator.label>инкубатор курица / муффало</GR_MuffaloChickenIncubator.label>
+  <GR_MuffaloChickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / муффало или муффало / курица</GR_MuffaloChickenIncubator.description>
+
+
+  <!-- Items handling Chicken / Wolf hybrids -->
+
+  <GR_ChickenWolfPre.label>инкубатор курица / волк</GR_ChickenWolfPre.label>
+  <GR_ChickenWolfPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_ChickenWolfPre.description>
+
+  <GR_ChickenWolfIncubator.label>инкубатор курица / волк</GR_ChickenWolfIncubator.label>
+  <GR_ChickenWolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / волк или волк / курица</GR_ChickenWolfIncubator.description>
+
+  <GR_WolfChickenIncubator.label>инкубатор курица / волк</GR_WolfChickenIncubator.label>
+  <GR_WolfChickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / волк или волк / курица</GR_WolfChickenIncubator.description>
+
+
+  <!-- Items handling Muffalo / Wolf hybrids -->
+
+  <GR_MuffaloWolfPre.label>инкубатор муффало / волк</GR_MuffaloWolfPre.label>
+  <GR_MuffaloWolfPre.description>Инкубатор, заполненный смесью генетического материала животных.</GR_MuffaloWolfPre.description>
+
+  <GR_MuffaloWolfIncubator.label>инкубатор муффало / волк</GR_MuffaloWolfIncubator.label>
+  <GR_MuffaloWolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / волк или волк / муффало</GR_MuffaloWolfIncubator.description>
+
+  <GR_WolfMuffaloIncubator.label>инкубатор муффало / волк</GR_WolfMuffaloIncubator.label>
+  <GR_WolfMuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / волк или волк / муффало</GR_WolfMuffaloIncubator.description>
+
+
+  <!-- Items handling Bear / Rodent hybrids -->
+
+  <GR_BearmoleIncubator.label>инкубатор медведь / грызун</GR_BearmoleIncubator.label>
+  <GR_BearmoleIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид медведь / грызун</GR_BearmoleIncubator.description>
+
+
+  <!-- Items handling Boomalope / Rodent hybrids -->
+
+  <GR_BoomsquirrelIncubator.label>инкубатор boomalope / грызун</GR_BoomsquirrelIncubator.label>
+  <GR_BoomsquirrelIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид бумалопа / грызун</GR_BoomsquirrelIncubator.description>
+
+
+  <!-- Items handling Chicken / Leporid hybrids -->
+
+  <GR_ChickenrabbitIncubator.label>инкубатор курица / зайцевые</GR_ChickenrabbitIncubator.label>
+  <GR_ChickenrabbitIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид курица / зайцевые</GR_ChickenrabbitIncubator.description>
+
+
+  <!-- Items handling Muffalo / Rodent hybrids -->
+
+  <GR_MuffaloratIncubator.label>инкубатор муффало / грызун</GR_MuffaloratIncubator.label>
+  <GR_MuffaloratIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид муффало / грызун</GR_MuffaloratIncubator.description>
+
+  <GR_WolfbeaverIncubator.label>инкубатор волк / грызун</GR_WolfbeaverIncubator.label>
+  <GR_WolfbeaverIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению. Эмбрион может развиться в гибрид волк / грызун</GR_WolfbeaverIncubator.description>
+
+
+  <!-- Items handling Thrumbo hybrids -->
+
+  <GR_ThrumbearIncubator.label>инкубатор трумбо / медведь</GR_ThrumbearIncubator.label>
+  <GR_ThrumbearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumbearIncubator.description>
+
+  <GR_ThrumffaloIncubator.label>инкубатор трумбо / муффало</GR_ThrumffaloIncubator.label>
+  <GR_ThrumffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumffaloIncubator.description>
+
+  <GR_ThrumbalopeIncubator.label>инкубатор трумбо / бумалопа</GR_ThrumbalopeIncubator.label>
+  <GR_ThrumbalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumbalopeIncubator.description>
+
+  <GR_ThrumbochickenIncubator.label>инкубатор трумбо / курица</GR_ThrumbochickenIncubator.label>
+  <GR_ThrumbochickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumbochickenIncubator.description>
+
+  <GR_ThrumwolfIncubator.label>инкубатор трумбо / волк</GR_ThrumwolfIncubator.label>
+  <GR_ThrumwolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumwolfIncubator.description>
+
+  <GR_ThrumboratIncubator.label>инкубатор трумбо / грызун</GR_ThrumboratIncubator.label>
+  <GR_ThrumboratIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumboratIncubator.description>
+
+
+  <!-- Items handling Insectoid hybrids -->
+
+  <GR_BearscarabIncubator.label>инкубатор инсектоид / медвель</GR_BearscarabIncubator.label>
+  <GR_BearscarabIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_BearscarabIncubator.description>
+
+  <GR_MuffalopedeIncubator.label>инкубатор инсектоид / муффало</GR_MuffalopedeIncubator.label>
+  <GR_MuffalopedeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MuffalopedeIncubator.description>
+
+  <GR_BoombeetleIncubator.label>инкубатор инсектоид / бумалопа</GR_BoombeetleIncubator.label>
+  <GR_BoombeetleIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_BoombeetleIncubator.description>
+
+  <GR_ChickenspiderIncubator.label>инкубатор инсектоид / курица</GR_ChickenspiderIncubator.label>
+  <GR_ChickenspiderIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ChickenspiderIncubator.description>
+
+  <GR_WolfscarabIncubator.label>инкубатор инсектоид / волк</GR_WolfscarabIncubator.label>
+  <GR_WolfscarabIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_WolfscarabIncubator.description>
+
+  <GR_ThrumbospiderIncubator.label>инкубатор инсектоид / трумбо</GR_ThrumbospiderIncubator.label>
+  <GR_ThrumbospiderIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumbospiderIncubator.description>
+
+
+  <!-- Items handling Reptilian hybrids -->
+
+  <GR_BearodileIncubator.label>инкубатор рептилия / медведь</GR_BearodileIncubator.label>
+  <GR_BearodileIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_BearodileIncubator.description>
+
+  <GR_BoomsnakeIncubator.label>инкубатор рептилия / бумалопа</GR_BoomsnakeIncubator.label>
+  <GR_BoomsnakeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_BoomsnakeIncubator.description>
+
+  <GR_ChickenlizardIncubator.label>инкубатор рептилия / курица</GR_ChickenlizardIncubator.label>
+  <GR_ChickenlizardIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ChickenlizardIncubator.description>
+
+  <GR_MuffalokomodoIncubator.label>инкубатор рептилия / муффало</GR_MuffalokomodoIncubator.label>
+  <GR_MuffalokomodoIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MuffalokomodoIncubator.description>
+
+  <GR_SpidersnakeIncubator.label>инкубатор рептилия / инсектоид</GR_SpidersnakeIncubator.label>
+  <GR_SpidersnakeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_SpidersnakeIncubator.description>
+
+  <GR_ThrumbolizardIncubator.label>инкубатор рептилия / трумбо</GR_ThrumbolizardIncubator.label>
+  <GR_ThrumbolizardIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_ThrumbolizardIncubator.description>
+
+  <GR_WolfsnakeIncubator.label>инкубатор рептилия / волк</GR_WolfsnakeIncubator.label>
+  <GR_WolfsnakeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_WolfsnakeIncubator.description>
+
+
+  <!-- Items handling Mechanoid hybrids -->
+
+  <GR_MechabearIncubator.label>инкубатор механоид / медведь</GR_MechabearIncubator.label>
+  <GR_MechabearIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechabearIncubator.description>
+
+  <GR_MechamuffaloIncubator.label>инкубатор механоид / муффало</GR_MechamuffaloIncubator.label>
+  <GR_MechamuffaloIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechamuffaloIncubator.description>
+
+  <GR_MechalopeIncubator.label>инкубатор механоид / бумалопа</GR_MechalopeIncubator.label>
+  <GR_MechalopeIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechalopeIncubator.description>
+
+  <GR_MechachickenIncubator.label>инкубатор механоид / курица</GR_MechachickenIncubator.label>
+  <GR_MechachickenIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechachickenIncubator.description>
+
+  <GR_MechawolfIncubator.label>инкубатор механоид / волк</GR_MechawolfIncubator.label>
+  <GR_MechawolfIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechawolfIncubator.description>
+
+  <GR_MecharatIncubator.label>инкубатор механоид / грызун</GR_MecharatIncubator.label>
+  <GR_MecharatIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MecharatIncubator.description>
+
+  <GR_MechaspiderIncubator.label>инкубатор механоид / инсектоид</GR_MechaspiderIncubator.label>
+  <GR_MechaspiderIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechaspiderIncubator.description>
+
+  <GR_MechaturtleIncubator.label>инкубатор механоид / рептилия</GR_MechaturtleIncubator.label>
+  <GR_MechaturtleIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechaturtleIncubator.description>
+
+  <GR_MechathrumboIncubator.label>инкубатор механоид / трумбо</GR_MechathrumboIncubator.label>
+  <GR_MechathrumboIncubator.description>Этот инкубатор должен поддерживаться при температуре от 0 до 50 градусов Цельсия, пока генетически модифицированный организм не будет готов к вылуплению.</GR_MechathrumboIncubator.description>
+
+
+</LanguageData>

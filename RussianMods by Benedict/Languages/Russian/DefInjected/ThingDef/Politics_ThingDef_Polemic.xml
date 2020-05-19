@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Neolithic -->
+
+	<Politics_Book_Anarchy.label>полемика о анархии</Politics_Book_Anarchy.label>
+	<Politics_Book_Anarchy.description>Структурированный аргумент, демонстрирующий достоинства самоопределения.</Politics_Book_Anarchy.description>
+	<Politics_Book_Anarchy.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Anarchy.comps.2.useLabel>
+
+	<Politics_Book_Despotism.label>полемика о деспотизму</Politics_Book_Despotism.label>
+	<Politics_Book_Despotism.description>Структурированный аргумент, демонстрирующий достоинства праведного завоевания.</Politics_Book_Despotism.description>
+	<Politics_Book_Despotism.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Despotism.comps.2.useLabel>
+
+	<Politics_Book_Monarchy.label>полемика о монархии</Politics_Book_Monarchy.label>
+	<Politics_Book_Monarchy.description>Структурированный аргумент, демонстрирующий достоинства правителя, основанного на божественном праве.</Politics_Book_Monarchy.description>
+	<Politics_Book_Monarchy.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Monarchy.comps.2.useLabel>
+
+	<Politics_Book_Theocracy.label>полемика о теократии</Politics_Book_Theocracy.label>
+	<Politics_Book_Theocracy.description>Структурированный аргумент, демонстрирующий достоинства правительства, ориентированного на религиозные принципы.</Politics_Book_Theocracy.description>
+	<Politics_Book_Theocracy.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Theocracy.comps.2.useLabel>
+
+	<!-- Medieval -->
+
+	<Politics_Book_Republic.label>полемика о республиках</Politics_Book_Republic.label>
+	<Politics_Book_Republic.description>Структурированный аргумент, демонстрирующий преимущества определения перехода власти через выборы.</Politics_Book_Republic.description>
+	<Politics_Book_Republic.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Republic.comps.2.useLabel>
+
+	<Politics_Book_Democracy.label>полемика о демократии</Politics_Book_Democracy.label>
+	<Politics_Book_Democracy.description>Структурированный аргумент, демонстрирующий преимущества участия в правительстве посредством избирательного права.</Politics_Book_Democracy.description>
+	<Politics_Book_Democracy.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Democracy.comps.2.useLabel>
+
+	<Politics_Book_Socialism.label>полемика о социализме</Politics_Book_Socialism.label>
+	<Politics_Book_Socialism.description>Структурированный аргумент, демонстрирующий преимущества содействия общим интересам перед человеком.</Politics_Book_Socialism.description>
+	<Politics_Book_Socialism.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Socialism.comps.2.useLabel>
+
+	<Politics_Book_Communism.label>полемика о комунизме</Politics_Book_Communism.label>
+	<Politics_Book_Communism.description>Структурированный аргумент, демонстрирующий преимущества предоставления власти единоличному владычеству правящей партии.</Politics_Book_Communism.description>
+	<Politics_Book_Communism.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Communism.comps.2.useLabel>
+
+	<Politics_Book_Fascism.label>полемика о фашизме</Politics_Book_Fascism.label>
+	<Politics_Book_Fascism.description>Структурированный аргумент, демонстрирующий преимущества усиление регулирующей роли государства посредством создания системы массовых организаций и социальных объединений.</Politics_Book_Fascism.description>
+	<Politics_Book_Fascism.comps.2.useLabel>Использовать политическую полемику</Politics_Book_Fascism.comps.2.useLabel>
+
+</LanguageData>

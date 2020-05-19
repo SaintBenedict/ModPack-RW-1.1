@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fruit Trees -->
+
+  <RC_PlantPlantainTree.label>банановое дерево</RC_PlantPlantainTree.label>
+  <RC_PlantPlantainTree.description>Фруктовое дерево, на котором растут многочисленные скопления бананов. После созревания плодоносит 3 раза в год.</RC_PlantPlantainTree.description>
+
+  <PlantOrangeTree.label>апельсиновое дерево</PlantOrangeTree.label>
+  <PlantOrangeTree.description>Цитрусовое дерево, на котором растут апельсины. После сбора урожая дерево не уничтожается.</PlantOrangeTree.description>
+
+  <RC_PlantFigTree.label>дерево инжира</RC_PlantFigTree.label>
+  <RC_PlantFigTree.description>Фруктовое дерево, на котором растут плоды инжира. После сбора урожая дерево не уничтожается.</RC_PlantFigTree.description>
+
+  <RC_PlantPomegranateTree.label>дерево граната</RC_PlantPomegranateTree.label>
+  <RC_PlantPomegranateTree.description>Фруктовое дерево, на котором растут гранаты. После сбора урожая дерево не уничтожается.</RC_PlantPomegranateTree.description>
+
+  <RC_PlantAppletree.label>яблоня</RC_PlantAppletree.label>
+  <RC_PlantAppletree.description>Фруктовое дерево, на котором растут большие, сочные красные яблоки. После сбора урожая дерево не уничтожается.</RC_PlantAppletree.description>
+
+  <RC_PlantSugarMapleTree.label>сахарный клен</RC_PlantSugarMapleTree.label>
+  <RC_PlantSugarMapleTree.description>Обычное дерево среднего размера, легко узнаваемое по отчетливому трехконечному листу. Эта особая порода дерева имеет высокое содержание сахара, идеально подходящее для производства сиропа.</RC_PlantSugarMapleTree.description>
+
+
+</LanguageData>

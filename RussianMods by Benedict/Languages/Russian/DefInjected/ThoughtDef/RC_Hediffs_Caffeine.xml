@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CaffeineHigh.stages.0.label>оживился</CaffeineHigh.stages.0.label>
+  <CaffeineHigh.stages.0.description>Кофеин - лучший выбор!</CaffeineHigh.stages.0.description>
+  <CaffeineHigh.stages.1.label>энергичный</CaffeineHigh.stages.1.label>
+  <CaffeineHigh.stages.1.description>Что за спешка!</CaffeineHigh.stages.1.description>
+  <CaffeineHigh.stages.2.label>нервный</CaffeineHigh.stages.2.label>
+  <CaffeineHigh.stages.2.description>Слишком много кофеина. Мои руки начинают дрожать.</CaffeineHigh.stages.2.description>
+  <CaffeineHigh.stages.3.label>дрожит</CaffeineHigh.stages.3.label>
+  <CaffeineHigh.stages.3.description>Ладони потные, колени слабые, руки тяжелые, мамины спагетти!</CaffeineHigh.stages.3.description>
+
+  <CaffeineWithdrawal.stages.1.label>ломка от кофеина</CaffeineWithdrawal.stages.1.label>
+  <CaffeineWithdrawal.stages.1.description>Мне нужен кофеин. У меня болит голова, трудно сосредоточиться, и все должны перестать шуметь.</CaffeineWithdrawal.stages.1.description>
+
+
+</LanguageData>

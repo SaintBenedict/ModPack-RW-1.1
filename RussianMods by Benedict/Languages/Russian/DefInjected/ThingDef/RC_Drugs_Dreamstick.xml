@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dreamstick.label>сонная палочка</Dreamstick.label>
+  <Dreamstick.description>Тщательно очищенный зопиоид, известный своими медицинскими применениями, санная палочка, как она известна на Окраинах - это боевое болеутоляющие, которое высоко ценят солдаты и врачи. Используя специально разработанный одноразовый автоинжектор, препарат можно безопасно и быстро вводить, чтобы облегчить боль быстро и относительно безопасно. Полезно для того, чтобы держать бойца в бою дольше или помогать в тылу. Будьте осторожны, после того как действие препарата закончится боль возвращается на короткое время.</Dreamstick.description>
+  <Dreamstick.ingestible.ingestCommandString>ввести {0}</Dreamstick.ingestible.ingestCommandString>
+  <Dreamstick.ingestible.ingestReportString>вводит {0}.</Dreamstick.ingestible.ingestReportString>
+
+
+</LanguageData>

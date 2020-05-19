@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_FeatherdustHigh.label>под кайфом от пыль-перьев</GR_FeatherdustHigh.label>
+
+
+  <!-- Smokeleaf addiction -->
+
+  <GR_FeatherdustTolerance.label>толерантность к пыль-перьям</GR_FeatherdustTolerance.label>
+  <GR_FeatherdustTolerance.stages.0.label>малая</GR_FeatherdustTolerance.stages.0.label>
+  <GR_FeatherdustTolerance.stages.1.label>малая</GR_FeatherdustTolerance.stages.1.label>
+  <GR_FeatherdustTolerance.stages.2.label>большая</GR_FeatherdustTolerance.stages.2.label>
+  <GR_FeatherdustTolerance.stages.3.label>огромная</GR_FeatherdustTolerance.stages.3.label>
+
+  <GR_FeatherdustAddiction.label>зависимость от пыль-перьев</GR_FeatherdustAddiction.label>
+  <GR_FeatherdustAddiction.stages.1.label>ломка</GR_FeatherdustAddiction.stages.1.label>
+
+
+</LanguageData>

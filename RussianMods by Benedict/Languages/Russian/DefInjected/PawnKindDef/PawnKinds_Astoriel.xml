@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Astoriel Civilians -->
+
+  <AstorielColonist.label>житель</AstorielColonist.label>
+  <AstorielColonist.labelPlural>жители</AstorielColonist.labelPlural>
+  <AstorielColonist.labelMale>житель</AstorielColonist.labelMale>
+  <AstorielColonist.labelMalePlural>жители</AstorielColonist.labelMalePlural>
+  <AstorielColonist.labelFemale>жительница</AstorielColonist.labelFemale>
+  <AstorielColonist.labelFemalePlural>жительницы</AstorielColonist.labelFemalePlural>
+
+  <AstorielRuler.label>правитель</AstorielRuler.label>
+  <AstorielRuler.labelPlural>правители</AstorielRuler.labelPlural>
+  <AstorielRuler.labelMale>правитель</AstorielRuler.labelMale>
+  <AstorielRuler.labelMalePlural>правители</AstorielRuler.labelMalePlural>
+  <AstorielRuler.labelFemale>правительница</AstorielRuler.labelFemale>
+  <AstorielRuler.labelFemalePlural>правительницы</AstorielRuler.labelFemalePlural>
+
+  <AstorielTrader.label>торговец</AstorielTrader.label>
+  <AstorielTrader.labelPlural>торговцы</AstorielTrader.labelPlural>
+  <AstorielTrader.labelMale>торговец</AstorielTrader.labelMale>
+  <AstorielTrader.labelMalePlural>торговцы</AstorielTrader.labelMalePlural>
+  <AstorielTrader.labelFemale>торговка</AstorielTrader.labelFemale>
+  <AstorielTrader.labelFemalePlural>торговки</AstorielTrader.labelFemalePlural>
+
+
+  <!-- Astoriel Security -->
+
+  <AstorielSecurityGuard.label>охранник</AstorielSecurityGuard.label>
+  <AstorielSecurityGuard.labelPlural>охранники</AstorielSecurityGuard.labelPlural>
+  <AstorielSecurityGuard.labelMale>охранник</AstorielSecurityGuard.labelMale>
+  <AstorielSecurityGuard.labelMalePlural>охранники</AstorielSecurityGuard.labelMalePlural>
+  <AstorielSecurityGuard.labelFemale>охранница</AstorielSecurityGuard.labelFemale>
+  <AstorielSecurityGuard.labelFemalePlural>охранницы</AstorielSecurityGuard.labelFemalePlural>
+
+
+  <!-- Astoriel Military -->
+
+  <AstorielRecruit.label>рекрут</AstorielRecruit.label>
+  <AstorielRecruit.labelPlural>рекруты</AstorielRecruit.labelPlural>
+  <AstorielRecruit.labelMale>рекрут</AstorielRecruit.labelMale>
+  <AstorielRecruit.labelMalePlural>рекруты</AstorielRecruit.labelMalePlural>
+  <AstorielRecruit.labelFemale>рекрут</AstorielRecruit.labelFemale>
+  <AstorielRecruit.labelFemalePlural>рекруты</AstorielRecruit.labelFemalePlural>
+
+  <AstorielHunter.label>охотник</AstorielHunter.label>
+  <AstorielHunter.labelPlural>охотники</AstorielHunter.labelPlural>
+  <AstorielHunter.labelMale>охотник</AstorielHunter.labelMale>
+  <AstorielHunter.labelMalePlural>охотники</AstorielHunter.labelMalePlural>
+  <AstorielHunter.labelFemale>охотница</AstorielHunter.labelFemale>
+  <AstorielHunter.labelFemalePlural>охотницы</AstorielHunter.labelFemalePlural>
+
+  <AstorielCommando.label>воин</AstorielCommando.label>
+  <AstorielCommando.labelPlural>воины</AstorielCommando.labelPlural>
+  <AstorielCommando.labelMale>воин</AstorielCommando.labelMale>
+  <AstorielCommando.labelMalePlural>воины</AstorielCommando.labelMalePlural>
+  <AstorielCommando.labelFemale>воительница</AstorielCommando.labelFemale>
+  <AstorielCommando.labelFemalePlural>воительницы</AstorielCommando.labelFemalePlural>
+
+  <AstorielCommandoElite.label>элитный воин</AstorielCommandoElite.label>
+  <AstorielCommandoElite.labelPlural>элитные воины</AstorielCommandoElite.labelPlural>
+  <AstorielCommandoElite.labelMale>элитный воин</AstorielCommandoElite.labelMale>
+  <AstorielCommandoElite.labelMalePlural>элитные воины</AstorielCommandoElite.labelMalePlural>
+  <AstorielCommandoElite.labelFemale>элитная воительница</AstorielCommandoElite.labelFemale>
+  <AstorielCommandoElite.labelFemalePlural>элитные воительницы</AstorielCommandoElite.labelFemalePlural>
+
+
+</LanguageData>

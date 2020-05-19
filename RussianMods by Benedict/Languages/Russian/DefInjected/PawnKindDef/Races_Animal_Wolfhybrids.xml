@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Wolf - Bear -->
+
+  <GR_Wolfbear.label>волк-медведь</GR_Wolfbear.label>
+  <GR_Wolfbear.labelPlural>волки-медведи</GR_Wolfbear.labelPlural>
+  <GR_Wolfbear.lifeStages.0.label>щенок волка-медведя</GR_Wolfbear.lifeStages.0.label>
+  <GR_Wolfbear.lifeStages.0.labelPlural>щенки волка-медведя</GR_Wolfbear.lifeStages.0.labelPlural>
+
+
+  <!-- Wolf - Boomalope -->
+
+  <GR_Wolfalope.label>волколопа</GR_Wolfalope.label>
+  <GR_Wolfalope.labelPlural>волколопы</GR_Wolfalope.labelPlural>
+  <GR_Wolfalope.lifeStages.0.label>щенок волколопы</GR_Wolfalope.lifeStages.0.label>
+  <GR_Wolfalope.lifeStages.0.labelPlural>щенки волколопы</GR_Wolfalope.lifeStages.0.labelPlural>
+
+
+  <!-- Wolf - Chicken -->
+
+  <GR_Wolfchicken.label>волк-курица</GR_Wolfchicken.label>
+  <GR_Wolfchicken.labelPlural>волки-курицы</GR_Wolfchicken.labelPlural>
+  <GR_Wolfchicken.lifeStages.0.label>щенок волка-курицы</GR_Wolfchicken.lifeStages.0.label>
+  <GR_Wolfchicken.lifeStages.0.labelPlural>щенки волка-курицы</GR_Wolfchicken.lifeStages.0.labelPlural>
+
+
+  <!-- Wolf - Muffalo -->
+
+  <GR_Wolffalo.label>волкфало</GR_Wolffalo.label>
+  <GR_Wolffalo.labelPlural>волкфало</GR_Wolffalo.labelPlural>
+  <GR_Wolffalo.lifeStages.0.label>щенок волкфало</GR_Wolffalo.lifeStages.0.label>
+  <GR_Wolffalo.lifeStages.0.labelPlural>щенки волкфало</GR_Wolffalo.lifeStages.0.labelPlural>
+
+
+</LanguageData>

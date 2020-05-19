@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_ElectroEggHigh.stages.0.label>активные механиты</GR_ElectroEggHigh.stages.0.label>
+  <GR_ElectroEggHigh.stages.0.description>Проглатывание этого яйца механоида заставило меня почувствовать себя великолепно. Я практически чувствую механитов в желудке!</GR_ElectroEggHigh.stages.0.description>
+
+
+  <!-- GR_ElectroEgg addiction -->
+
+  <GR_ElectroEggWithdrawal.stages.1.label>зависимость от активных механитов</GR_ElectroEggWithdrawal.stages.1.label>
+  <GR_ElectroEggWithdrawal.stages.1.description>Все мое тело чешется... Как будто механиты обернулись против меня.</GR_ElectroEggWithdrawal.stages.1.description>
+
+
+</LanguageData>

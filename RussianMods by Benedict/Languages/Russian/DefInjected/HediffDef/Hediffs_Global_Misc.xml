@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Minor_CryptoSickness.label>криптосонная болезнь (лёгкая)</Minor_CryptoSickness.label>
+
+	<GR_ToxicDamage.label>токсический урон</GR_ToxicDamage.label>
+	<GR_ToxicDamage.stages.0.label>начальный-скрытый</GR_ToxicDamage.stages.0.label>
+	<GR_ToxicDamage.stages.1.label>начальный</GR_ToxicDamage.stages.1.label>
+	<GR_ToxicDamage.stages.2.label>незначительный</GR_ToxicDamage.stages.2.label>
+	<GR_ToxicDamage.stages.3.label>средний</GR_ToxicDamage.stages.3.label>
+	<GR_ToxicDamage.stages.4.label>серьёзный</GR_ToxicDamage.stages.4.label>
+	<GR_ToxicDamage.stages.5.label>экстремальный</GR_ToxicDamage.stages.5.label>
+
+	<GR_Kamikaze.label>внезапная детонация</GR_Kamikaze.label>
+	<GR_Kamikaze.stages.0.label>начально-скрытая</GR_Kamikaze.stages.0.label>
+	<GR_Kamikaze.stages.1.label>критическая</GR_Kamikaze.stages.1.label>
+
+	<GR_AdrenalineBurst.label>взрыв адреналина</GR_AdrenalineBurst.label>
+	<GR_AdrenalineBurst.stages.1.label>измученный</GR_AdrenalineBurst.stages.1.label>
+
+	<GR_Stamina.label>повышенная выносливость</GR_Stamina.label>
+	<GR_Stamina.stages.1.label>измученный</GR_Stamina.stages.1.label>
+
+	<GR_InsectClouds.label>освобождение облака насекомых</GR_InsectClouds.label>
+	<GR_InsectClouds.stages.1.label>восстановление</GR_InsectClouds.stages.1.label>
+
+	<GR_Burrowing.label>зарылся под землю</GR_Burrowing.label>
+	<GR_Burrowing.stages.1.label>восстановление</GR_Burrowing.stages.1.label>
+
+	<GR_Stampeding.label>панический бег</GR_Stampeding.label>
+	<GR_Stampeding.stages.1.label>восстановление</GR_Stampeding.stages.1.label>
+
+	<GR_CausedPoisonCloud.label>недавно выпустил ядовитое облако</GR_CausedPoisonCloud.label>
+	<GR_CausedPoisonCloud.stages.0.label>восстановление</GR_CausedPoisonCloud.stages.0.label>
+
+	<GR_CausedHorror.label>недавно вызвал безумие тем, что человек не должен знать</GR_CausedHorror.label>
+	<GR_CausedHorror.stages.0.label>восстановление</GR_CausedHorror.stages.0.label>
+
+	<GR_VentedExhaust.label>недавно выпущенные газы</GR_VentedExhaust.label>
+	<GR_VentedExhaust.stages.0.label>восстановление</GR_VentedExhaust.stages.0.label>
+
+
+</LanguageData>

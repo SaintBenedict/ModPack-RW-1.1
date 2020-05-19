@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Artifact_Lesions.label>&lt;color=#00FFF7&gt;вживить чумные язвы&lt;/color&gt;</EVOR_Surgery_Artifact_Lesions.label>
+  <EVOR_Surgery_Artifact_Lesions.description>Вживить чумные язвы.</EVOR_Surgery_Artifact_Lesions.description>
+  <EVOR_Surgery_Artifact_Lesions.jobString>Вживляет чумные язвы.</EVOR_Surgery_Artifact_Lesions.jobString>
+
+  <EVOR_Surgery_Artifact_Tortoise.label>&lt;color=#00FFF7&gt;вживить укрепленный черепаший панцирь&lt;/color&gt;</EVOR_Surgery_Artifact_Tortoise.label>
+  <EVOR_Surgery_Artifact_Tortoise.description>Вживить укрепленный черепаший панцирь.</EVOR_Surgery_Artifact_Tortoise.description>
+  <EVOR_Surgery_Artifact_Tortoise.jobString>Вживляет укрепленный черепаший панцирь.</EVOR_Surgery_Artifact_Tortoise.jobString>
+
+
+</LanguageData>

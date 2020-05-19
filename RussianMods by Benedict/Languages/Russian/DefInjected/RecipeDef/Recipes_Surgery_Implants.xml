@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Legs -->
+
+  <GR_InstallBearLeg.label>вживить имплант животного: ногу медведя (уровень 1)</GR_InstallBearLeg.label>
+  <GR_InstallBearLeg.description>Вживить ногу медведя.</GR_InstallBearLeg.description>
+  <GR_InstallBearLeg.jobString>вживляет ногу медведя.</GR_InstallBearLeg.jobString>
+
+  <GR_InstallLizardLeg.label>вживить имплант животного: ногу ящера (уровень 2)</GR_InstallLizardLeg.label>
+  <GR_InstallLizardLeg.description>Вживить ногу ящера.</GR_InstallLizardLeg.description>
+  <GR_InstallLizardLeg.jobString>вживляет ногу ящера.</GR_InstallLizardLeg.jobString>
+
+  <GR_InstallThrumboLeg.label>вживить имплант животного: ногу трумбо (уровень 3)</GR_InstallThrumboLeg.label>
+  <GR_InstallThrumboLeg.description>Вживить ногу трумбо.</GR_InstallThrumboLeg.description>
+  <GR_InstallThrumboLeg.jobString>вживляет ногу трумбо.</GR_InstallThrumboLeg.jobString>
+
+
+  <!-- Tails -->
+
+  <GR_ВживитьcytherTail.label>вживить имплант животного: хвост жнеца (уровень 2)</GR_ВживитьcytherTail.label>
+  <GR_ВживитьcytherTail.description>Вживить хвост жнеца.</GR_ВживитьcytherTail.description>
+  <GR_ВживитьcytherTail.jobString>вживляет хвост жнеца.</GR_ВживитьcytherTail.jobString>
+
+  <GR_InstallMechaTail.label>вживить имплант животного: хвост механоида (уровень 3)</GR_InstallMechaTail.label>
+  <GR_InstallMechaTail.description>Вживить хвост механоида.</GR_InstallMechaTail.description>
+  <GR_InstallMechaTail.jobString>вживляет хвост механоида.</GR_InstallMechaTail.jobString>
+
+
+  <!-- Eyes -->
+
+  <GR_InstallCanidEye.label>вживить имплант животного: глаз канид (уровень 1)</GR_InstallCanidEye.label>
+  <GR_InstallCanidEye.description>Вживить глаз канид.</GR_InstallCanidEye.description>
+  <GR_InstallCanidEye.jobString>вживляет глаз канид.</GR_InstallCanidEye.jobString>
+
+  <GR_InstallInsectileEye.label>вживить имплант животного: глаз инсектоида (уровень 2)</GR_InstallInsectileEye.label>
+  <GR_InstallInsectileEye.description>Вживить глаз инсектоида.</GR_InstallInsectileEye.description>
+  <GR_InstallInsectileEye.jobString>вживляет глаз инсектоида.</GR_InstallInsectileEye.jobString>
+
+  <GR_InstallThrumboEye.label>вживить имплант животного: бионический глаз трумбо (уровень 3)</GR_InstallThrumboEye.label>
+  <GR_InstallThrumboEye.description>Вживить глаз трумбо.</GR_InstallThrumboEye.description>
+  <GR_InstallThrumboEye.jobString>вживляет глаз трумбо.</GR_InstallThrumboEye.jobString>
+
+
+  <!-- Ears -->
+
+  <GR_InstallRodentEar.label>вживить имплант животного: ухо грызуна (уровень 1)</GR_InstallRodentEar.label>
+  <GR_InstallRodentEar.description>Вживить ухо грызуна.</GR_InstallRodentEar.description>
+  <GR_InstallRodentEar.jobString>вживляет ухо грызуна.</GR_InstallRodentEar.jobString>
+
+  <GR_InstallMothTympanalOrgan.label>вживить имплант животного: тимпанальный орган мотылька (уровень 2)</GR_InstallMothTympanalOrgan.label>
+  <GR_InstallMothTympanalOrgan.description>Вживить тимпанальный орган мотылька.</GR_InstallMothTympanalOrgan.description>
+  <GR_InstallMothTympanalOrgan.jobString>вживляет тимпанальный орган мотылька.</GR_InstallMothTympanalOrgan.jobString>
+
+  <GR_InstallMechaReceptors.label>вживить имплант животного: слуховые рецепторы маханоида (уровень 3)</GR_InstallMechaReceptors.label>
+  <GR_InstallMechaReceptors.description>Вживить слуховые рецепторы маханоида.</GR_InstallMechaReceptors.description>
+  <GR_InstallMechaReceptors.jobString>вживляет слуховые рецепторы маханоида.</GR_InstallMechaReceptors.jobString>
+
+
+  <!-- Noses -->
+
+  <GR_InstallRodentNose.label>вживить имплант животного: нос грызуна (уровень 1)</GR_InstallRodentNose.label>
+  <GR_InstallRodentNose.description>Вживить нос грызуна.</GR_InstallRodentNose.description>
+  <GR_InstallRodentNose.jobString>вживляет нос грызуна.</GR_InstallRodentNose.jobString>
+
+  <GR_InstallInsectoidPheromones.label>вживить имплант животного: феромоны инсектоида (уровень 2)</GR_InstallInsectoidPheromones.label>
+  <GR_InstallInsectoidPheromones.description>Вживить феромоны инсектоида.</GR_InstallInsectoidPheromones.description>
+  <GR_InstallInsectoidPheromones.jobString>вживляет феромоны инсектоида.</GR_InstallInsectoidPheromones.jobString>
+
+  <GR_InstallMiniatureThrumboHorn.label>вживить имплант животного: миниатюрный рог трумбо (уровень 3)</GR_InstallMiniatureThrumboHorn.label>
+  <GR_InstallMiniatureThrumboHorn.description>Вживить миниатюрный рог трумбо.</GR_InstallMiniatureThrumboHorn.description>
+  <GR_InstallMiniatureThrumboHorn.jobString>вживляет миниатюрный рог трумбо.</GR_InstallMiniatureThrumboHorn.jobString>
+
+
+  <!-- Jaws -->
+
+  <GR_InstallWolfJaws.label>вживить имплант животного: волчьи челюсти (уровень 1)</GR_InstallWolfJaws.label>
+  <GR_InstallWolfJaws.description>Вживить волчьи челюсти.</GR_InstallWolfJaws.description>
+  <GR_InstallWolfJaws.jobString>вживляет волчьи челюсти.</GR_InstallWolfJaws.jobString>
+
+  <GR_InstallInsectMandibles.label>вживить имплант животного: мандибулы инсектоидов (уровень 2)</GR_InstallInsectMandibles.label>
+  <GR_InstallInsectMandibles.description>Вживить мандибулы инсектоидов.</GR_InstallInsectMandibles.description>
+  <GR_InstallInsectMandibles.jobString>вживляет мандибулы инсектоидов.</GR_InstallInsectMandibles.jobString>
+
+  <GR_InstallThrumboJaws.label>вживить имплант животного: бионические челюсти трумбо (уровень 3)</GR_InstallThrumboJaws.label>
+  <GR_InstallThrumboJaws.description>Вживить бионические челюсти трумбо.</GR_InstallThrumboJaws.description>
+  <GR_InstallThrumboJaws.jobString>вживляет бионические челюсти трумбо.</GR_InstallThrumboJaws.jobString>
+
+
+  <!-- Spines -->
+
+  <GR_InstallMuffaloSpine.label>вживить имплант животного: позвоночник муффало (уровень 1)</GR_InstallMuffaloSpine.label>
+  <GR_InstallMuffaloSpine.description>Вживить позвоночник муффало.</GR_InstallMuffaloSpine.description>
+  <GR_InstallMuffaloSpine.jobString>вживляет позвоночник муффало.</GR_InstallMuffaloSpine.jobString>
+
+  <GR_InstallCrocodileSpine.label>вживить имплант животного: позвоночник крокодила (уровень 2)</GR_InstallCrocodileSpine.label>
+  <GR_InstallCrocodileSpine.description>Вживить позвоночник крокодила.</GR_InstallCrocodileSpine.description>
+  <GR_InstallCrocodileSpine.jobString>вживляет позвоночник крокодила.</GR_InstallCrocodileSpine.jobString>
+
+  <GR_InstallMechaSpine.label>вживить имплант животного: позвоночник механоида (уровень 3)</GR_InstallMechaSpine.label>
+  <GR_InstallMechaSpine.description>Вживить позвоночник механоида.</GR_InstallMechaSpine.description>
+  <GR_InstallMechaSpine.jobString>вживляет позвоночник механоида.</GR_InstallMechaSpine.jobString>
+
+
+  <!-- Brains -->
+
+  <GR_InstallChickenBrains.label>вживить имплант животного: куриные мозги (уровень 1)</GR_InstallChickenBrains.label>
+  <GR_InstallChickenBrains.description>Вживить куриные мозги.</GR_InstallChickenBrains.description>
+  <GR_InstallChickenBrains.jobString>вживляет куриные мозги.</GR_InstallChickenBrains.jobString>
+
+  <GR_InstallMonitorLizardBrain.label>вживить имплант животного: контроль мозга ящерицы (уровень 2)</GR_InstallMonitorLizardBrain.label>
+  <GR_InstallMonitorLizardBrain.description>Вживить контроль мозга ящерицы.</GR_InstallMonitorLizardBrain.description>
+  <GR_InstallMonitorLizardBrain.jobString>вживляет контроль мозга ящерицы.</GR_InstallMonitorLizardBrain.jobString>
+
+  <GR_InstallThrumboBrain.label>вживить имплант животного: бионический мозг трумбо (уровень 3)</GR_InstallThrumboBrain.label>
+  <GR_InstallThrumboBrain.description>Вживить бионический мозг трумбо.</GR_InstallThrumboBrain.description>
+  <GR_InstallThrumboBrain.jobString>вживляет бионический мозг трумбо.</GR_InstallThrumboBrain.jobString>
+
+
+  <!-- Hearts -->
+
+  <GR_InstallBoomalopeHeart.label>вживить имплант животного: сердце бумалопы (уровень 1)</GR_InstallBoomalopeHeart.label>
+  <GR_InstallBoomalopeHeart.description>Вживить сердце бумалопы.</GR_InstallBoomalopeHeart.description>
+  <GR_InstallBoomalopeHeart.jobString>вживляет сердце бумалопы.</GR_InstallBoomalopeHeart.jobString>
+
+  <GR_InstallChitinousHeart.label>вживить имплант животного: хитиновое сердце (уровень 2)</GR_InstallChitinousHeart.label>
+  <GR_InstallChitinousHeart.description>Вживить хитиновое сердце.</GR_InstallChitinousHeart.description>
+  <GR_InstallChitinousHeart.jobString>вживляет хитиновое сердце.</GR_InstallChitinousHeart.jobString>
+
+  <GR_InstallMechaHeart.label>вживить имплант животного: сердце механоида (уровень 3)</GR_InstallMechaHeart.label>
+  <GR_InstallMechaHeart.description>Вживить сердце механоида.</GR_InstallMechaHeart.description>
+  <GR_InstallMechaHeart.jobString>вживляет сердце механоида.</GR_InstallMechaHeart.jobString>
+
+
+  <!-- Lungs -->
+
+  <GR_InstallMuffaloLung.label>вживить имплант животного: лёгкое муффало (уровень 1)</GR_InstallMuffaloLung.label>
+  <GR_InstallMuffaloLung.description>Вживить лёгкое муффало.</GR_InstallMuffaloLung.description>
+  <GR_InstallMuffaloLung.jobString>вживляет лёгкое муффало.</GR_InstallMuffaloLung.jobString>
+
+
+  <!-- Liver -->
+
+  <GR_InstallBearLiver.label>вживить имплант животного: печень медведя (уровень 1)</GR_InstallBearLiver.label>
+  <GR_InstallBearLiver.description>Вживить печень медведя.</GR_InstallBearLiver.description>
+  <GR_InstallBearLiver.jobString>вживляет печень медведя.</GR_InstallBearLiver.jobString>
+
+
+  <!-- Kidney -->
+
+  <GR_InstallChickenKidney.label>вживить имплант животного: куриную почку (уровень 1)</GR_InstallChickenKidney.label>
+  <GR_InstallChickenKidney.description>Вживить куриную почку.</GR_InstallChickenKidney.description>
+  <GR_InstallChickenKidney.jobString>вживляет куриную почку.</GR_InstallChickenKidney.jobString>
+
+  <GR_InstallBoomalopeStomach.label>вживить имплант животного: желудок бумалопы (уровень 1)</GR_InstallBoomalopeStomach.label>
+  <GR_InstallBoomalopeStomach.description>Вживить желудок бумалопы.</GR_InstallBoomalopeStomach.description>
+  <GR_InstallBoomalopeStomach.jobString>вживляет желудок бумалопы.</GR_InstallBoomalopeStomach.jobString>
+
+
+  <!-- Human Hybrid Implants -->
+
+  <GR_InstallBearClaws.label>Вживить медвежьи когти</GR_InstallBearClaws.label>
+  <GR_InstallBearClaws.description>Вживить медвежьи когти.</GR_InstallBearClaws.description>
+  <GR_InstallBearClaws.jobString>Вживляет медвежьи когти.</GR_InstallBearClaws.jobString>
+
+  <GR_InstallOvipositor.label>Вживить Яйцеклад</GR_InstallOvipositor.label>
+  <GR_InstallOvipositor.description>Вживить Яйцеклад.</GR_InstallOvipositor.description>
+  <GR_InstallOvipositor.jobString>Вживляет Яйцеклад.</GR_InstallOvipositor.jobString>
+
+  <GR_InstallMuffaloMuscles.label>Вживить усиленные мышцы муффало</GR_InstallMuffaloMuscles.label>
+  <GR_InstallMuffaloMuscles.description>Вживить усиленные мышцы муффало</GR_InstallMuffaloMuscles.description>
+  <GR_InstallMuffaloMuscles.jobString>Вживляет усиленные мышцы муффало.</GR_InstallMuffaloMuscles.jobString>
+
+  <GR_InstallMuffaloMammaries.label>вживить молочные железы муффало</GR_InstallMuffaloMammaries.label>
+  <GR_InstallMuffaloMammaries.description>Вживить молочные железы муффало.</GR_InstallMuffaloMammaries.description>
+  <GR_InstallMuffaloMammaries.jobString>вживляет молочные железы муффало.</GR_InstallMuffaloMammaries.jobString>
+
+  <GR_InstallBoomalopeNodules.label>Вживить наросты бумалопы</GR_InstallBoomalopeNodules.label>
+  <GR_InstallBoomalopeNodules.description>Вживить наросты бумалопы.</GR_InstallBoomalopeNodules.description>
+  <GR_InstallBoomalopeNodules.jobString>Вживляет наросты бумалопы.</GR_InstallBoomalopeNodules.jobString>
+
+  <GR_InstallWolfMuscularFibers.label>Вживить волчьи мышечные волокна</GR_InstallWolfMuscularFibers.label>
+  <GR_InstallWolfMuscularFibers.description>Вживить волчьи мышечные волокна.</GR_InstallWolfMuscularFibers.description>
+  <GR_InstallWolfMuscularFibers.jobString>Вживляет волчьи мышечные волокна.</GR_InstallWolfMuscularFibers.jobString>
+
+  <GR_InstallBunnyEars.label>вживить уши кролика</GR_InstallBunnyEars.label>
+  <GR_InstallBunnyEars.description>вживить уши кролика.</GR_InstallBunnyEars.description>
+  <GR_InstallBunnyEars.jobString>вживляет уши кролика.</GR_InstallBunnyEars.jobString>
+
+  <GR_InstallInsectoidAntennae.label>Вживить усики инсектоидов</GR_InstallInsectoidAntennae.label>
+  <GR_InstallInsectoidAntennae.description>Вживить усики инсектоидов.</GR_InstallInsectoidAntennae.description>
+  <GR_InstallInsectoidAntennae.jobString>Вживляет усики инсектоидов.</GR_InstallInsectoidAntennae.jobString>
+
+  <GR_InstallHumanThrumboHorn.label>Вживить рог трумбо</GR_InstallHumanThrumboHorn.label>
+  <GR_InstallHumanThrumboHorn.description>Вживить рог трумбо.</GR_InstallHumanThrumboHorn.description>
+  <GR_InstallHumanThrumboHorn.jobString>Вживляет рог трумбо.</GR_InstallHumanThrumboHorn.jobString>
+
+  <GR_InstallVenomousFangs.label>Вживить ядовитые клыки</GR_InstallVenomousFangs.label>
+  <GR_InstallVenomousFangs.description>Вживить ядовитые клыки.</GR_InstallVenomousFangs.description>
+  <GR_InstallVenomousFangs.jobString>Вживляет ядовитые клыки.</GR_InstallVenomousFangs.jobString>
+
+
+</LanguageData>

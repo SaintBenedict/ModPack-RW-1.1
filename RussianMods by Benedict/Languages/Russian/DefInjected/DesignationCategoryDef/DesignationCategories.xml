@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- More Furniture -->
+
+	<GR_GeneticsTab.label>Генетика</GR_GeneticsTab.label>
+	<GR_GeneticsTab.description>Предметы добавленные Genetic Rim.</GR_GeneticsTab.description>
+
+	<Rimefeller.label>Rimefeller</Rimefeller.label>
+	<Rimefeller.description>Всё для производства нефти и пластика.</Rimefeller.description>
+
+	<AOMorefurniture.label>Доп. мебель</AOMorefurniture.label>
+	<AOMorefurniture.description>Новые предметы мебели, добавленные модом extended furniture.</AOMorefurniture.description>
+
+
+</LanguageData>

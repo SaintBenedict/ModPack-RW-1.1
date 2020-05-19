@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TD.ReplaceStuff>Заменить материал</TD.ReplaceStuff>
+  <TD.Replace>Заменить</TD.Replace>
+  <TD.ReplaceDesc>Заменить материал вещей, например: заменить деревянную стену каменной</TD.ReplaceDesc>
+  <TD.ReplacingTag> (Замена)</TD.ReplacingTag>
+  <TD.ToggleBlueprintOverRock>Разместите проекты над горными породами</TD.ToggleBlueprintOverRock>
+  <TD.SettingsNoOverwallCoolers>Скройте эти супер-изящные кондиционеры поверх стены в меню проекты</TD.SettingsNoOverwallCoolers>
+  <TD.IncapableOfSmoothing>неспособен к сглаживанию</TD.IncapableOfSmoothing>
+  <TD.FailedStuffBeingReplaced>заменяемый материал</TD.FailedStuffBeingReplaced>
+
+</LanguageData>

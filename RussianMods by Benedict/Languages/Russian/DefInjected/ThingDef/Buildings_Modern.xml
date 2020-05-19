@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bed_Ergonomic.label>эргономичная кровать</Bed_Ergonomic.label>
+  <Bed_Ergonomic.description>Эргономичная кровать для поддержки позвоночника, распределения веса и улучшения качества сна.</Bed_Ergonomic.description>
+
+  <Bed_DoubleErgonomic.label>эргономичная двуспальная кровать</Bed_DoubleErgonomic.label>
+  <Bed_DoubleErgonomic.description>Эргономично двуспальная кровать для поддержки позвоночника, распределения веса и улучшения качества сна. Подходит для двоих.</Bed_DoubleErgonomic.description>
+
+  <Table_Wardrobe.label>гардероб</Table_Wardrobe.label>
+  <Table_Wardrobe.description>Высокий шкаф для хранения одежды и других предметов. Дает небольшой бонус эффективности сна всем соседним кроватям. Размещение более одного гардероба рядом с одной кроватью не имеет никакого эффекта.</Table_Wardrobe.description>
+
+  <Seat_ModernChair.label>эргономичное кресло</Seat_ModernChair.label>
+  <Seat_ModernChair.description>Гибкое эргономичное кресло, разработанное с учетом изгибов человеческого тела, повышающее комфорт.</Seat_ModernChair.description>
+
+  <Light_ModernLamp.label>современная лампа</Light_ModernLamp.label>
+  <Light_ModernLamp.description>Энергосберегающая лампа, которая более эффективно преобразует электричество в свет, полезна для освещения помещений. Коротит в дождь.</Light_ModernLamp.description>
+
+
+</LanguageData>

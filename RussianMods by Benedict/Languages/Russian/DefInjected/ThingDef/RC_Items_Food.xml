@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Flour.label>мука</Flour.label>
+  <Flour.description>Мука изготавливается из помола любого сорта зерна. Используется при выпечке и готовке, это основной продукт многих обществ, в том числе здесь, на окраине.</Flour.description>
+
+  <MealExtravagant.label>экстравагантное блюдо</MealExtravagant.label>
+  <MealExtravagant.description>Это шедевр кулинарного искусства, эта еда питает тело разум и душу.</MealExtravagant.description>
+
+  <WeakStew.label>слабо тушеное рагу</WeakStew.label>
+  <WeakStew.description>Нежное, простое рагу из нескольких ингредиентов.</WeakStew.description>
+
+  <HeartyStew.label>хорошо тушеное рагу</HeartyStew.label>
+  <HeartyStew.description>Приготовить сытное рагу из мяса и любой растительных ингредиентов. Вкусно!</HeartyStew.description>
+
+
+</LanguageData>

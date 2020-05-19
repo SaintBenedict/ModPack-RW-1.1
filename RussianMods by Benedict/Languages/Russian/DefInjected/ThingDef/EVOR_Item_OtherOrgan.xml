@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Eye.label>мультиспектровый глаз</EVOR_Item_Eye.label>
+  <EVOR_Item_Eye.description>Интегрируя клетки, которые позволяют собирать свет в ультрафиолетовом и инфракрасном спектре, эти глаза способны передавать в мозг хозяина гораздо больше визуальной информации.</EVOR_Item_Eye.description>
+
+  <EVOR_Item_Nose.label>носовой микроанализатор</EVOR_Item_Nose.label>
+  <EVOR_Item_Nose.description>Увеличивая количество клеток, предназначенных для анализа определенных важных молекул, позволяет легче анализировать конкретные, переносимые воздухом, ароматы.</EVOR_Item_Nose.description>
+
+  <EVOR_Item_Nose_Pheromones.label>нос с феромонными железами</EVOR_Item_Nose_Pheromones.label>
+  <EVOR_Item_Nose_Pheromones.description>Добавляя специальные феромоновые железы в основание носа, хозяин может слегка изменять расположение тех, с кем общается.</EVOR_Item_Nose_Pheromones.description>
+
+  <EVOR_Item_Ear.label>чуткое ухо</EVOR_Item_Ear.label>
+  <EVOR_Item_Ear.description>Увеличивая спектр частот, которые могут быть услышаны, также позволяет хозяину временно сфокусироваться на одной частоте. Эти уши способны дать полную карту звуков вокруг хозяина.</EVOR_Item_Ear.description>
+
+  <EVOR_Item_Spine.label>нейроускоренный позвоночник</EVOR_Item_Spine.label>
+  <EVOR_Item_Spine.description>Хотя покрытие нервной трубки и увеличивает скорость передачи сигнала на порядок, более значительными являются улучшение вторичных узелков обработки, которые позволяют спинному мозгу самостоятельно обрабатывать сигналы с меньшей срочностью, снижая нагрузку на головной мозг.</EVOR_Item_Spine.description>
+
+
+</LanguageData>

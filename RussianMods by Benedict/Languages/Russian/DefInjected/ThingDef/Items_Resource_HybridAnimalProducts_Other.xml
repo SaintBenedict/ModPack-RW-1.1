@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_Owlbearfeathers.label>Перья совомедведя</GR_Owlbearfeathers.label>
+  <GR_Owlbearfeathers.description>Перья медвекура могут быть собраны и переработаны в мелкий порошок, который вызывает легкое эйфорическое ощущение при горении и вдыхании.</GR_Owlbearfeathers.description>
+
+  <GR_BearwolfFangs.label>Клык медведеволка</GR_BearwolfFangs.label>
+  <GR_BearwolfFangs.description>Заостренные зубы медведеволка. Эти зубы практически бесполезны, но некоторые примитивные племена в окраинных мирах склонны использовать зубы животных как валюту, поскольку они прочны. Кто-то может заплатить за них.</GR_BearwolfFangs.description>
+
+  <GR_WolfchickenFeathers.label>Перья волка-курицы</GR_WolfchickenFeathers.label>
+  <GR_WolfchickenFeathers.description>Перья волка-курицы красочны и приятны. Довольно бесполезны, но кто-то может заплатить за них, как за декоративный предмет.</GR_WolfchickenFeathers.description>
+
+  <GR_WolfbearPaws.label>Лапы волка-медведя</GR_WolfbearPaws.label>
+  <GR_WolfbearPaws.description>Огромные, разрывающие лапы волка. Такие трофеи обычно считаются примитивными народами как знак удачи. Кто-то может заплатить за них.</GR_WolfbearPaws.description>
+
+  <GR_VerySmallTeeth.label>Очень маленькие зубы</GR_VerySmallTeeth.label>
+  <GR_VerySmallTeeth.description>Эти маленькие зубы очень прочные. Некоторые племена в окраинных мирах склонны использовать зубы животных как валюту, поэтому они могут быть немного ценными.</GR_VerySmallTeeth.description>
+
+  <GR_AlphaBoarTusks.label>Клык альфа-кабана</GR_AlphaBoarTusks.label>
+  <GR_AlphaBoarTusks.description>Эти бивни кабана твёрдые и вероятно, могут быть вырезаны в скульптуру кем-то склонным к художеству на столе для резки камня.</GR_AlphaBoarTusks.description>
+
+  <GR_HugeRhinoHorn.label>Огромный рог носорога</GR_HugeRhinoHorn.label>
+  <GR_HugeRhinoHorn.description>Этот огромный рог носорога не имеет ни внутренней ценности, ни полезности, но часто используется в лечении не эффективной альтернативной медицине. Ох, ну это край, лучше продавать рабов (или нет, те, кто мог судить, не выжили зимой).</GR_HugeRhinoHorn.description>
+
+  <GR_SpidersnakeSkin.label>Сброшенная шкура паука-змеи</GR_SpidersnakeSkin.label>
+  <GR_SpidersnakeSkin.description>Эта сброшенная шкура может быть измельчена и переработана в нарколаборатории, для извлечения незначительного количества нейтроамина.</GR_SpidersnakeSkin.description>
+
+  <GR_HugeBearPelt.label>Огромная медвежья шкура</GR_HugeBearPelt.label>
+  <GR_HugeBearPelt.description>Эта огромная медвежья шкура, вероятно, ценна как торговый товар. Или она также может быть переделана как огромный ковер.</GR_HugeBearPelt.description>
+
+  <GR_WolfPelt.label>Шкура волка</GR_WolfPelt.label>
+  <GR_WolfPelt.description>Эта волчья шкура, вероятно, ценна как торговый товар. Или она также может быть переделана как ковер из волка.</GR_WolfPelt.description>
+
+  <GR_MuffaloPelt.label>Шкура муффало</GR_MuffaloPelt.label>
+  <GR_MuffaloPelt.description>Круто! Теперь вы можете создать свою собственную Игру Престолов / косплей Rimworld! Или её можно также переделать в удобный коврик.</GR_MuffaloPelt.description>
+
+  <GR_EmuFatOintment.label>мазь с жиром эму</GR_EmuFatOintment.label>
+  <GR_EmuFatOintment.description>Этот кусок жира эму, можно использовать в качестве лечебной мази.</GR_EmuFatOintment.description>
+
+  <GR_ChocolateEgg.label>Шоколадное яйцо</GR_ChocolateEgg.label>
+  <GR_ChocolateEgg.description>Яйцо из шоколада хорошего качества. Вкусно!</GR_ChocolateEgg.description>
+
+  <GR_BaconStrips.label>Вяленый бекон</GR_BaconStrips.label>
+  <GR_BaconStrips.description>Консервированные соленые полоски сухого бекона. Может храниться в течение нескольких месяцев без охлаждения.</GR_BaconStrips.description>
+
+  <GR_JamonSerrano.label>Хамон серрано</GR_JamonSerrano.label>
+  <GR_JamonSerrano.description>Эта сушеная ветчина считается деликатесом. Она обычно подается тонкими ломтиками, иногда нарезанной кубиками. Её можно хранить в течение длительного времени без охлаждения.</GR_JamonSerrano.description>
+
+  <GR_TortoiseShell.label>Затвердевшая раковина черепахи</GR_TortoiseShell.label>
+  <GR_TortoiseShell.description>Очень редкий, твердый материал, полученный из раковин убитых гигантских черепах. Не подходит для массового использования, если вы не можете получить тонну черепах.</GR_TortoiseShell.description>
+  <GR_TortoiseShell.stuffProps.stuffAdjective>Затвердевшая раковина черепахи</GR_TortoiseShell.stuffProps.stuffAdjective>
+
+
+</LanguageData>

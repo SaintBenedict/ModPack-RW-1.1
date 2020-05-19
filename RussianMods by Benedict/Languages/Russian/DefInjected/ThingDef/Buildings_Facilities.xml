@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Facility_VitalsCentre.label>центр жизнеобеспечения</Facility_VitalsCentre.label>
+  <Facility_VitalsCentre.description>Большой центр мониторинга жизненных показателей сразу нескольких пациентов. Улучшает качество лечения, повышает вероятность успешной операции и скорость иммунизации. Должен быть размещён рядом с больничными кроватями или хирургическими столами.</Facility_VitalsCentre.description>
+  <Facility_VitalsCentre_Blueprint.label>центр жизнеобеспечения (проект)</Facility_VitalsCentre_Blueprint.label>
+  <Facility_VitalsCentre_Blueprint_Install.label>центр жизнеобеспечения (проект)</Facility_VitalsCentre_Blueprint_Install.label>
+  <Facility_VitalsCentre_Frame.label>центр жизнеобеспечения (постройка)</Facility_VitalsCentre_Frame.label>
+  <Facility_VitalsCentre_Frame.description>Большой центр мониторинга жизненных показателей сразу нескольких пациентов. Улучшает качество лечения, повышает вероятность успешной операции и скорость иммунизации.</Facility_VitalsCentre_Frame.description>
+
+  <Facility_IVDrip.label>капельница</Facility_IVDrip.label>
+  <Facility_IVDrip.description>Стойка с устройствами для внутривенного введения препаратов и жидкостей. Ускоряет выработку иммунитета и восстановление при кровопотере. Должна быть размещена рядом с больничной кроватью или хирургическим столом. Размещение нескольких капельниц у одной кровати эффекта не даст.</Facility_IVDrip.description>
+  <Facility_IVDrip_Blueprint.label>капельница (проект)</Facility_IVDrip_Blueprint.label>
+  <Facility_IVDrip_Blueprint_Install.label>капельница (проект)</Facility_IVDrip_Blueprint_Install.label>
+  <Facility_IVDrip_Frame.label>капельница (постройка)</Facility_IVDrip_Frame.label>
+  <Facility_IVDrip_Frame.description>Стойка с устройствами для внутривенного введения препаратов и жидкостей. Ускоряет выработку иммунитета и восстановление при кровопотере.</Facility_IVDrip_Frame.description>
+
+  <Facility_ResearchCounter.label>исследовательская стойка</Facility_ResearchCounter.label>
+  <Facility_ResearchCounter.description>Стерильная стойка для проведения сложных исследований. Немного ускоряет работу исследовательских столов и позволяет поддерживать чистоту помещения. К одному столу можно подключить до 20 стоек (20% ускорения исследований).</Facility_ResearchCounter.description>
+  <Facility_ResearchCounter_Blueprint.label>исследовательская стойка (проект)</Facility_ResearchCounter_Blueprint.label>
+  <Facility_ResearchCounter_Frame.label>исследовательская стойка (постройка)</Facility_ResearchCounter_Frame.label>
+  <Facility_ResearchCounter_Frame.description>Стерильная стойка для проведения сложных исследований. Немного ускоряет работу исследовательских столов и позволяет поддерживать чистоту помещения.</Facility_ResearchCounter_Frame.description>
+
+
+</LanguageData>

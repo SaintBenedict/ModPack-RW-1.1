@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mechanoid - Bear -->
+
+  <GR_Mechabear.label>меха-медведь</GR_Mechabear.label>
+  <GR_Mechabear.description>Этот кибернетический зверь мутировал далеко за пределы своей первоначальной формы. Тяжело бронированный для противостояния тяжёлому огню и вооружен пугающей плазменной пушкой. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдыхать, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ним, меха-медведь является эффективной оружейной платформой сродни ракетоносителю. Как и все гибриды механоидов, он производит продвинутые компоненты каждые пару дней.</GR_Mechabear.description>
+  <GR_Mechabear.tools.0.label>голова</GR_Mechabear.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechabear_Meat.label>мясо меха-медведя</GR_Mechabear_Meat.label>
+  <GR_Mechabear_Meat.description>Сырое мясо меха-медведя.</GR_Mechabear_Meat.description>
+  <GR_Mechabear_Corpse.label>труп меха-медведя</GR_Mechabear_Corpse.label>
+  <GR_Mechabear_Corpse.description>Труп меха-медведя.</GR_Mechabear_Corpse.description>
+
+
+  <!-- Mechanoid - Boomalope -->
+
+  <GR_Mechalope.label>меха-лопа</GR_Mechalope.label>
+  <GR_Mechalope.description>Эта кибернетическая бумалопа была оснащена четырьмя механизированными резервуарами химтоплива. Существо может использовать эти резервуары для выпуска струи горючего топлива подобно огнемёту, не невероятно вредного, но идеально подходящего для создания огромных пожаров. Как и всем гибридам механоидов ей не нужно есть, она не может размножаться и не стареет. Ей нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ней, меха-лопа является эффективной оружейной платформой сродни огнемёту. Как и все гибриды механоидов, она производит продвинутые компоненты каждые пару дней и химическое топливо, как и любая другая бумалопа.</GR_Mechalope.description>
+  <GR_Mechalope.tools.0.label>голова</GR_Mechalope.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechalope_Meat.label>мясо меха-лопы</GR_Mechalope_Meat.label>
+  <GR_Mechalope_Meat.description>Сырое мясо меха-лопы.</GR_Mechalope_Meat.description>
+  <GR_Mechalope_Corpse.label>труп меха-лопы</GR_Mechalope_Corpse.label>
+  <GR_Mechalope_Corpse.description>Труп меха-лопы.</GR_Mechalope_Corpse.description>
+
+
+  <!-- Mechanoid - Chicken -->
+
+  <GR_Mechachicken.label>меха-курица</GR_Mechachicken.label>
+  <GR_Mechachicken.description>Этот кибернетический организм хорошо разбирается в разведке и инфильтрации из-за его небольших размеров и скорости. Он вооружен маленьким снайперским дротикомётом. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ней, меха-курица может поражать цели с очень большого расстояния. Как и все гибриды механоидов, она производит продвинутые компоненты каждые пару дней и яйца. Хотя я не уверен, что буду есть эти яйца.</GR_Mechachicken.description>
+  <GR_Mechachicken.tools.0.label>голова</GR_Mechachicken.tools.0.label>
+  <GR_Mechachicken.verbs.0.label>снайперский дротикомёт</GR_Mechachicken.verbs.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechachicken_Meat.label>мясо меха-курицы</GR_Mechachicken_Meat.label>
+  <GR_Mechachicken_Meat.description>Сырое мясо меха-курицы.</GR_Mechachicken_Meat.description>
+  <GR_Mechachicken_Corpse.label>труп меха-курицы</GR_Mechachicken_Corpse.label>
+  <GR_Mechachicken_Corpse.description>Труп меха-курицы.</GR_Mechachicken_Corpse.description>
+
+
+  <!-- Mechanoid - Insectoid -->
+
+  <GR_Mechaspider.label>меха-паук</GR_Mechaspider.label>
+  <GR_Mechaspider.description>Этот кибернетический организм имеет черты как от его инсектоидного, так и механоидного происхождения. Меха-паук вооружен мощным двухкатушечным лазерным пулеметом, который идеально подходит для уничтожения врагов в дожде лазерного огня. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ним, меха-паук может поливать врагов смертельным дождём. Как и все гибриды механоидов, он производит продвинутые компоненты каждые пару дней.</GR_Mechaspider.description>
+  <GR_Mechaspider.tools.0.label>голова</GR_Mechaspider.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechaspider_Meat.label>мясо меха-паука</GR_Mechaspider_Meat.label>
+  <GR_Mechaspider_Meat.description>Сырое мясо меха-паука.</GR_Mechaspider_Meat.description>
+  <GR_Mechaspider_Corpse.label>труп меха-паука</GR_Mechaspider_Corpse.label>
+  <GR_Mechaspider_Corpse.description>Труп меха-паука.</GR_Mechaspider_Corpse.description>
+
+
+  <!-- Mechanoid - Muffalo -->
+
+  <GR_Mechamuffalo.label>меха-муффало</GR_Mechamuffalo.label>
+  <GR_Mechamuffalo.description>Этот неуклюжий кибернетический организм был усилен адаптивной пласталевой сетью, позволяющей ему переносить невероятное количество материала. Меха-муффало - идеальное животное, но оно совершенно бесполезно в наступательной роли. Однако для обороны он вооружен дымовой пушкой, которую может использовать, чтобы закрыть поле битвы плотным облаком пыли. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ним, меха-муффало может использовать свою дымовую пушку, чтобы сбить вражеское прицеливание. Как и все гибриды механоидов, он производит продвинутые компоненты каждые пару дней. Он также производит странную металлическую шерсть и металлическое молоко для дегустации.</GR_Mechamuffalo.description>
+  <GR_Mechamuffalo.tools.0.label>голова</GR_Mechamuffalo.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechamuffalo_Meat.label>мясо меха-муффало</GR_Mechamuffalo_Meat.label>
+  <GR_Mechamuffalo_Meat.description>Сырое мясо меха-муффало.</GR_Mechamuffalo_Meat.description>
+  <GR_Mechamuffalo_Corpse.label>труп меха-муффало</GR_Mechamuffalo_Corpse.label>
+  <GR_Mechamuffalo_Corpse.description>Труп меха-муффало.</GR_Mechamuffalo_Corpse.description>
+
+
+  <!-- Mechanoid - Rodent -->
+
+  <GR_Mecharat.label>меха-крыса</GR_Mecharat.label>
+  <GR_Mecharat.description>Этот крошечный кибернетический организм может быть массово произведен, как своего рода «самоубийственное оружие». Он очень быстр и вооружен оглушающей пушкой малой дальности, поэтому орды меха-крыс могут быть отправлены на линию фронта для ошеломления и контроля врага. Как и всем гибридам механоидов ей не нужно есть, она не может размножаться и не стареет. Ей нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ними, меха-крысы могут быть отправлены к врагу, чтобы оглушить его. Как и все гибриды механоидов, она производит продвинутые компоненты каждые пару дней.</GR_Mecharat.description>
+  <GR_Mecharat.tools.0.label>голова</GR_Mecharat.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mecharat_Meat.label>мясо меха-крысы</GR_Mecharat_Meat.label>
+  <GR_Mecharat_Meat.description>Сырое мясо меха-крысы.</GR_Mecharat_Meat.description>
+  <GR_Mecharat_Corpse.label>труп меха-крысы</GR_Mecharat_Corpse.label>
+  <GR_Mecharat_Corpse.description>Труп меха-крысы.</GR_Mecharat_Corpse.description>
+
+
+  <!-- Mechanoid - Reptile -->
+
+  <GR_Mechaturtle.label>меха-черепаха</GR_Mechaturtle.label>
+  <GR_Mechaturtle.description>Этот кибернетический зверь тяжело бронирован пласталевым биомеханическим панцирем. Он вооружен ядовитой пушкой. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ней, меха-черепаха может метать ядовитые снаряды во врагов. Как и все гибриды механоидов, она производит продвинутые компоненты каждые пару дней. Она достаточно медлительна.</GR_Mechaturtle.description>
+  <GR_Mechaturtle.tools.0.label>голова</GR_Mechaturtle.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechaturtle_Meat.label>мясо меха-черепахи</GR_Mechaturtle_Meat.label>
+  <GR_Mechaturtle_Meat.description>Сырое мясо меха-черепахи.</GR_Mechaturtle_Meat.description>
+  <GR_Mechaturtle_Corpse.label>труп меха-черепахи</GR_Mechaturtle_Corpse.label>
+  <GR_Mechaturtle_Corpse.description>Труп меха-черепахи.</GR_Mechaturtle_Corpse.description>
+
+
+  <!-- Mechanoid - Wolf -->
+
+  <GR_Mechawolf.label>меха-волк</GR_Mechawolf.label>
+  <GR_Mechawolf.description>Этот кибернетический зверь был усилен мощной синтетической структурой, способной генерировать волны криогенной жидкости. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ним, меха-волк может запускать крио-снаряды, которые замораживают землю (и врагов!) при контакте. Как и все гибриды механоидов, он производит продвинутые компоненты каждые пару дней.</GR_Mechawolf.description>
+  <GR_Mechawolf.tools.0.label>голова</GR_Mechawolf.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechawolf_Meat.label>мясо меха-волка</GR_Mechawolf_Meat.label>
+  <GR_Mechawolf_Meat.description>Сырое мясо меха-волка.</GR_Mechawolf_Meat.description>
+  <GR_Mechawolf_Corpse.label>труп меха-волка</GR_Mechawolf_Corpse.label>
+  <GR_Mechawolf_Corpse.description>Труп меха-волка.</GR_Mechawolf_Corpse.description>
+
+
+  <!-- Mechanoid - Thrumbo -->
+
+  <GR_Mechathrumbo.label>меха-трумбо</GR_Mechathrumbo.label>
+  <GR_Mechathrumbo.description>Этот неуклюжее кибернетическое чудовище - это то, что избавит вас от нужды в танках на окраинном мире. Его огромная пласталевый щит скрывает миниатюрный синхротрон, который постоянно генерирует небольшое количество антивещества, что мгновенно используется для заполнения миниатюрной анти-гравитационной боеголовки. Как и всем гибридам механоидов ему не нужно есть, он не может размножаться и не стареет. Ему нужно немного отдохнуть, чтобы зарядить свои органические компоненты.\n\nПолезные способности: Пока укротитель находится рядом с ним, меха-трумбо похож на минометную турель, вооруженную самозаряжающимися миниатюрными анти-гравитационными боеголовками. Это такой конец игры... Как и все гибриды механоидов, он производит продвинутые компоненты каждые пару дней.</GR_Mechathrumbo.description>
+  <GR_Mechathrumbo.tools.0.label>голова</GR_Mechathrumbo.tools.0.label>
+  <!-- No Leather: Butcher Products -->
+  <GR_Mechathrumbo_Meat.label>мясо меха-трумбо</GR_Mechathrumbo_Meat.label>
+  <GR_Mechathrumbo_Meat.description>Сырое мясо меха-трумбо.</GR_Mechathrumbo_Meat.description>
+  <GR_Mechathrumbo_Corpse.label>труп меха-трумбо</GR_Mechathrumbo_Corpse.label>
+  <GR_Mechathrumbo_Corpse.description>Труп меха-трумбо.</GR_Mechathrumbo_Corpse.description>
+
+
+</LanguageData>

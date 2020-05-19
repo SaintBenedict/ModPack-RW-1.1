@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Boomalope -->
+
+  <GR_Bearalope.label>медведелопа</GR_Bearalope.label>
+  <GR_Bearalope.labelPlural>медведелопы</GR_Bearalope.labelPlural>
+
+
+  <!-- Bear - Chicken -->
+
+  <GR_BearchickenKind.label>медвекур</GR_BearchickenKind.label>
+  <GR_BearchickenKind.labelPlural>медвекуры</GR_BearchickenKind.labelPlural>
+
+
+  <!-- Bear - Muffalo -->
+
+  <GR_Bearffalo.label>медведеффало</GR_Bearffalo.label>
+  <GR_Bearffalo.labelPlural>медведеффалы</GR_Bearffalo.labelPlural>
+
+
+  <!-- Bear - Wolf -->
+
+  <GR_Bearwolf.label>медведеволк</GR_Bearwolf.label>
+  <GR_Bearwolf.labelPlural>медведеволки</GR_Bearwolf.labelPlural>
+
+
+</LanguageData>

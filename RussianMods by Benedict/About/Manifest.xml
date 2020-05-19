@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>Russian Mods Translate</identifier>
+	<version>1.0.0</version>
+	<dependencies>
+		<li>Dalrae.GaramAdvancedApparel</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadAfter>
+		<li>Dalrae.GaramAdvancedApparel</li>
+	</loadAfter>
+	<suggests>
+	</suggests>
+	<manifestUri></manifestUri>
+	<downloadUri></downloadUri>
+</Manifest>

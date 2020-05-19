@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_AnimalControlHub.label>центр управления животными</GR_AnimalControlHub.label>
+  <GR_AnimalControlHub.description>Как только центр управления животными будет активен на вашей карте, вы сможете получить доступ к новым возможностям в своих гибридах, позволяя напрямую контролировать их.</GR_AnimalControlHub.description>
+  <GR_AnimalControlHub_Blueprint.label>центр управления животными (проект)</GR_AnimalControlHub_Blueprint.label>
+  <GR_AnimalControlHub_Blueprint_Install.label>центр управления животными (проект)</GR_AnimalControlHub_Blueprint_Install.label>
+  <GR_AnimalControlHub_Frame.label>центр управления животными (постройка)</GR_AnimalControlHub_Frame.label>
+
+
+</LanguageData>

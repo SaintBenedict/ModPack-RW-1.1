@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Abd_ThirdLung.label>легкое с нанофильтром</EVOR_Item_Abd_ThirdLung.label>
+  <EVOR_Item_Abd_ThirdLung.description>Несмотря на то, что этот протез является лишь незначительно более эффективным, чем обычное легкое, он оснащен рядом фильтров способных перерабатывать большую часть токсинов, находящихся в воздухе..</EVOR_Item_Abd_ThirdLung.description>
+
+  <EVOR_Item_Abd_SecondHeart.label>вспомогательное сердце</EVOR_Item_Abd_SecondHeart.label>
+  <EVOR_Item_Abd_SecondHeart.description>Это вспомогательное сердце увеличивает количество кислорода, поступающего через тело человека, позволяя ему выполнять работу более эффективн.</EVOR_Item_Abd_SecondHeart.description>
+
+  <EVOR_Item_Abd_Combat.label>железа боевой сыворотки</EVOR_Item_Abd_Combat.label>
+  <EVOR_Item_Abd_Combat.description>Эта железа впрыскивает в организм большое количество мощных боевых коктейлей, значительно увеличивая возможности ближнего боя.</EVOR_Item_Abd_Combat.description>
+
+  <EVOR_Item_Abd_Hormone.label>регулятор гормонов</EVOR_Item_Abd_Hormone.label>
+  <EVOR_Item_Abd_Hormone.description>Это железа регулирует настроение хозяина, делаа его менее уязвимым к нервным срывам.</EVOR_Item_Abd_Hormone.description>
+
+  <EVOR_Item_Abd_Lymph.label>лимфатический пролифератор</EVOR_Item_Abd_Lymph.label>
+  <EVOR_Item_Abd_Lymph.description>Эта железа значительно повышает возможности иммунитета хозяина, делая его организм невосприимчивыми к большинству обычных возбудителей инфекций.</EVOR_Item_Abd_Lymph.description>
+
+
+  <!-- <ThingDef ParentName="EVOR_OrgBase">
+    <defName>EVOR_Item_Abd_Cultivate</defName>
+    <label>microbiome cultivator</label>
+    <description>This gland counteracts the drain on the host's body from using too many bioweapons. It rapidly synthesizes biomatter into ammunition for the weapons.</description>
+    <recipeMaker>
+      <researchPrerequisite>EVOR_Research_Organs3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <EVOR_Resource_Protein>120</EVOR_Resource_Protein>
+      <EVOR_Resource_Mechanites>3</EVOR_Resource_Mechanites>
+    </costList>
+  </ThingDef> -->
+
+  <EVOR_Item_Abd_NoAge.label>вакуоль Ра</EVOR_Item_Abd_NoAge.label>
+  <EVOR_Item_Abd_NoAge.description>Эта железа подавляет возрастные изменения, она не излечит ничего, что уже есть.</EVOR_Item_Abd_NoAge.description>
+
+
+</LanguageData>

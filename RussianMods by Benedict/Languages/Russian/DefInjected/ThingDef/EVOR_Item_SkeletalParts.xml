@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Skin_Plating.label>многослойное кожное покрытие</EVOR_Item_Skin_Plating.label>
+  <EVOR_Item_Skin_Plating.description>Посредством встраивания хитиновых пластин в слои эпителия и связывая это все кожей с улучшенной сопротивляемостью радикально повышает устойчивость к стрелковому оружию.</EVOR_Item_Skin_Plating.description>
+
+  <EVOR_Item_Skin_Flame.label>огнеупорная кожа</EVOR_Item_Skin_Flame.label>
+  <EVOR_Item_Skin_Flame.description>Покрывая кожу железами, которые могут быстро выделять огнезащитную слизь на теле, а также рассеивать тепло, пользователь становится чрезвычайно устойчивым к теплу и открытому огню.</EVOR_Item_Skin_Flame.description>
+
+  <EVOR_Item_Skin_Insulation.label>вариативно-изолирующая кожа</EVOR_Item_Skin_Insulation.label>
+  <EVOR_Item_Skin_Insulation.description>Создавая кожу с потовыми железами большого объема и волосками, которые могут либо удерживать, либо выделять тепло, пользователю комфортно себя чувствует как на холоде так и в предельно жаркой местности.</EVOR_Item_Skin_Insulation.description>
+
+  <EVOR_Item_Ribcage.label>кальциево-укрепленная грудная клетка</EVOR_Item_Ribcage.label>
+  <EVOR_Item_Ribcage.description>Изменяя состав костей грудной клетки, заключает верхнюю часть тела в калициево-металлический каркас, уязвимые части которого укреплены аналогом органического каучука, что серьезно усиливает верхнюю часть тела.</EVOR_Item_Ribcage.description>
+
+
+</LanguageData>

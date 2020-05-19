@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FoodMealsJoy.label>веселая еда</FoodMealsJoy.label>
+  <GrainsRaw.label>сырые зёрна</GrainsRaw.label>
+  <VegetablesRaw.label>сырые овощи</VegetablesRaw.label>
+  <FruitRaw.label>сырые фрукты</FruitRaw.label>
+  <SweetsRaw.label>сырые сладости</SweetsRaw.label>
+  <FoodProcessed.label>обработанные ингредиенты</FoodProcessed.label>
+  <MeatProcessed.label>обработанное мясо</MeatProcessed.label>
+  <PlantFoodProcessed.label>обработанные растения</PlantFoodProcessed.label>
+  <GrainsProcessed.label>обработанные зёрна</GrainsProcessed.label>
+  <VegetablesProcessed.label>обработанные овощи</VegetablesProcessed.label>
+  <FruitProcessed.label>обработанные фрукты</FruitProcessed.label>
+  <SweetsProcessed.label>обработанные сладости</SweetsProcessed.label>
+  <AnimalProductProcessed.label>обработанные животные продукты</AnimalProductProcessed.label>
+
+
+</LanguageData>

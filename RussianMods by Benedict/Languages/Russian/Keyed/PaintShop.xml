@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DesignatorPaintTools>Окрашивание</DesignatorPaintTools>
+  <DesignatorPaintToolsDesc>Окрашивание зданий, одежды и местности</DesignatorPaintToolsDesc>
+  <PaintApparel>Окрашивание одежды</PaintApparel>
+  <PaintWalls>Окрашивание стен</PaintWalls>
+  <PaintBuildings>Окрашивание зданий</PaintBuildings>
+  <PaintDoors>Окрашивание дверей</PaintDoors>
+  <EraserTool>Ластик</EraserTool>
+  <EyedropperObject>Пипетка</EyedropperObject>
+  <EyedropperPixel>Пиксельная пипетка</EyedropperPixel>
+  <PaintTerrain>Окрашивание местности</PaintTerrain>
+  <EraseTerrain>Ластик для местности</EraseTerrain>
+  <PaintAll>Окрашивание</PaintAll>
+</LanguageData>

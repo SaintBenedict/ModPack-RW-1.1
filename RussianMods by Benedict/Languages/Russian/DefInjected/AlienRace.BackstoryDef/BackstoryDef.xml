@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Generic -->
+
+  <Astoriel_Crafter.title>Ремесленник</Astoriel_Crafter.title>
+  <Astoriel_Crafter.titleShort>Ремесленник</Astoriel_Crafter.titleShort>
+  <Astoriel_Crafter.baseDescription>[PAWN_nameDef] обладает врожденной способностью находить и восстанавливать технологии из различных обломков. [PAWN_pronoun] так же неплохо проявляет себя в бою.
+</Astoriel_Crafter.baseDescription>
+
+  <Astoriel_Scientist.title>Наблюдатель</Astoriel_Scientist.title>
+  <Astoriel_Scientist.titleShort>Наблюдатель</Astoriel_Scientist.titleShort>
+  <Astoriel_Scientist.baseDescription>[PAWN_nameDef] исследователь звезд. [PAWN_pronoun] знает все дорожки вокруг лаборатории.
+</Astoriel_Scientist.baseDescription>
+
+  <Astoriel_XenoZoo.title>Пастух</Astoriel_XenoZoo.title>
+  <Astoriel_XenoZoo.titleShort>Пастух</Astoriel_XenoZoo.titleShort>
+  <Astoriel_XenoZoo.baseDescription>[PAWN_nameDef] работает на ранчо и каждый день проводит с животными.
+</Astoriel_XenoZoo.baseDescription>
+
+  <Astoriel_Colinizer.title>Разведчик</Astoriel_Colinizer.title>
+  <Astoriel_Colinizer.titleShort>Разведчик</Astoriel_Colinizer.titleShort>
+  <Astoriel_Colinizer.baseDescription>[PAWN_nameDef] открывает новые земли, на которых могли бы вырасти новые поселения.
+</Astoriel_Colinizer.baseDescription>
+
+  <Astoriel_Doctor.title>Лекарь</Astoriel_Doctor.title>
+  <Astoriel_Doctor.titleShort>Лекарь</Astoriel_Doctor.titleShort>
+  <Astoriel_Doctor.baseDescription>[PAWN_nameDef] занимается лечением других.</Astoriel_Doctor.baseDescription>
+
+  <Astoriel_Soldier.title>Боец</Astoriel_Soldier.title>
+  <Astoriel_Soldier.titleShort>Боец</Astoriel_Soldier.titleShort>
+  <Astoriel_Soldier.baseDescription>[PAWN_nameDef] долгое время служит в штурмовых отрядах.
+</Astoriel_Soldier.baseDescription>
+
+  <Astoriel_Ambassador.title>Танцор</Astoriel_Ambassador.title>
+  <Astoriel_Ambassador.titleShort>Танцор</Astoriel_Ambassador.titleShort>
+  <Astoriel_Ambassador.baseDescription>[PAWN_nameDef] профессиональный танцор. [PAWN_pronoun] часто выступает в разных городах, неизменно собирая аплодисменты и деньги.
+</Astoriel_Ambassador.baseDescription>
+
+  <Astoriel_Officer.title>Золотой рыцарь</Astoriel_Officer.title>
+  <Astoriel_Officer.titleShort>Золотой рыцарь</Astoriel_Officer.titleShort>
+  <Astoriel_Officer.baseDescription>[PAWN_nameDef] отличный воин и ведет за собой рыцарей в бой.
+</Astoriel_Officer.baseDescription>
+
+  <Astoriel_Nurse.title>Алхимик</Astoriel_Nurse.title>
+  <Astoriel_Nurse.titleShort>Алхимик</Astoriel_Nurse.titleShort>
+  <Astoriel_Nurse.baseDescription>[PAWN_nameDef] долгое время занимается работой над разнообразными снадобьями и поисками философского камня.
+</Astoriel_Nurse.baseDescription>
+
+  <Astoriel_NavyCook.title>Повар</Astoriel_NavyCook.title>
+  <Astoriel_NavyCook.titleShort>Повар</Astoriel_NavyCook.titleShort>
+  <Astoriel_NavyCook.baseDescription>[PAWN_nameDef] умеет готовить множество разнообразных блюд. [PAWN_pronoun] любит работать на кухне.
+</Astoriel_NavyCook.baseDescription>
+
+  <Astoriel_Shellshocked.title>Выживший</Astoriel_Shellshocked.title>
+  <Astoriel_Shellshocked.titleShort>Выживший</Astoriel_Shellshocked.titleShort>
+  <Astoriel_Shellshocked.baseDescription>[PAWN_nameDef] служил(-а) в войсках. После атаки на вражеский лагерь, [PAWN_pronoun] остается единственным(-ой) выжившим(-ей) из всего отряда. [PAWN_pronoun] больше никогда не хочет сражаться.
+</Astoriel_Shellshocked.baseDescription>
+
+  <Astoriel_Hydro.title>Фермер</Astoriel_Hydro.title>
+  <Astoriel_Hydro.titleShort>Фермер</Astoriel_Hydro.titleShort>
+  <Astoriel_Hydro.baseDescription>[PAWN_nameDef] всю жизнь живет вдали от города и занимается уходом за растениями.</Astoriel_Hydro.baseDescription>
+
+
+  <!-- Melee -->
+
+  <Astoriel_Slasher.title>Рыцарь</Astoriel_Slasher.title>
+  <Astoriel_Slasher.titleShort>Рыцарь</Astoriel_Slasher.titleShort>
+  <Astoriel_Slasher.baseDescription>[PAWN_nameDef] хранит порядок на землях государства и умеет насаждать волю правящих железной рукой.</Astoriel_Slasher.baseDescription>
+
+  <Astoriel_GeneWarrior.title>Герой</Astoriel_GeneWarrior.title>
+  <Astoriel_GeneWarrior.titleShort>Герой</Astoriel_GeneWarrior.titleShort>
+  <Astoriel_GeneWarrior.baseDescription>[PAWN_nameDef] рожден(а) вести за собой воинов к новым победам.</Astoriel_GeneWarrior.baseDescription>
+
+
+  <!-- Childhood -->
+
+  <Astoriel_CapitalChild.title>Дипломат</Astoriel_CapitalChild.title>
+  <Astoriel_CapitalChild.titleShort>Дипломат</Astoriel_CapitalChild.titleShort>
+  <Astoriel_CapitalChild.baseDescription>[PAWN_nameDef] с детства умеет хорошо говорить и часто пользуется этим, [PAWN_pronoun] держится подальше от проблем.</Astoriel_CapitalChild.baseDescription>
+
+  <Astoriel_GeneChild.title>Искатель приключений</Astoriel_GeneChild.title>
+  <Astoriel_GeneChild.titleShort>Искатель приключений</Astoriel_GeneChild.titleShort>
+  <Astoriel_GeneChild.baseDescription>[PAWN_nameDef] с ранних лет любит бродить по разным местам и умеет находить себе разнообразные приключения.</Astoriel_GeneChild.baseDescription>
+
+  <Astoriel_SpacerChild.title>Каменщик</Astoriel_SpacerChild.title>
+  <Astoriel_SpacerChild.titleShort>Каменщик</Astoriel_SpacerChild.titleShort>
+  <Astoriel_SpacerChild.baseDescription>[PAWN_nameDef] дитя семьи каменщиков и с ранних лет работает с камнем и умеет стоить, [PAWN_pronoun] так же хорошо понимает необходимость координировать усилия на больших строительных проектах.</Astoriel_SpacerChild.baseDescription>
+
+  <Astoriel_ColonyChild.title>Беглец</Astoriel_ColonyChild.title>
+  <Astoriel_ColonyChild.titleShort>Беглец</Astoriel_ColonyChild.titleShort>
+  <Astoriel_ColonyChild.baseDescription>[PAWN_nameDef] исконный житель улиц больших городов. [PAWN_pronoun] умеет делать множество разных вещей, от плетения веревок до плетения разговоров.</Astoriel_ColonyChild.baseDescription>
+
+
+</LanguageData>

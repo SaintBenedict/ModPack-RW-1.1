@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_ElectroEggHigh.label>под кайфом от активных механитов</GR_ElectroEggHigh.label>
+  <GR_ElectroEggHigh.labelNoun>кайф от активных механитов</GR_ElectroEggHigh.labelNoun>
+
+
+  <!-- GR_ElectroEgg addiction -->
+
+  <GR_ElectroEggTolerance.label>толерантность к активным механитам</GR_ElectroEggTolerance.label>
+  <GR_ElectroEggTolerance.stages.0.label>небольшая</GR_ElectroEggTolerance.stages.0.label>
+  <GR_ElectroEggTolerance.stages.1.label>небольшая</GR_ElectroEggTolerance.stages.1.label>
+  <GR_ElectroEggTolerance.stages.2.label>средняя</GR_ElectroEggTolerance.stages.2.label>
+  <GR_ElectroEggTolerance.stages.3.label>сильная</GR_ElectroEggTolerance.stages.3.label>
+
+  <GR_ElectroEggAddiction.label>зависимость от активных механитов</GR_ElectroEggAddiction.label>
+  <GR_ElectroEggAddiction.stages.1.label>ломка</GR_ElectroEggAddiction.stages.1.label>
+
+
+</LanguageData>

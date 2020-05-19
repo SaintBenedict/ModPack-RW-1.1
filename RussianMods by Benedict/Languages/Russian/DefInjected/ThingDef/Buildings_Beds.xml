@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Bed_OperatingTable.label>операционный стол</Bed_OperatingTable.label>
+	<Bed_OperatingTable.description>Простой стол с различными хирургическими инструментами. Немного улучшает результаты лечения по сравнению с нормальными кроватями.</Bed_OperatingTable.description>
+	<Bed_OperatingTable_Blueprint.label>операционный стол (проект)</Bed_OperatingTable_Blueprint.label>
+	<Bed_OperatingTable_Blueprint_Install.label>операционный стол (проект)</Bed_OperatingTable_Blueprint_Install.label>
+	<Bed_OperatingTable_Frame.label>операционный стол (постройка)</Bed_OperatingTable_Frame.label>
+	<Bed_OperatingTable_Frame.description>Простой стол с различными хирургическими инструментами.</Bed_OperatingTable_Frame.description>
+
+	<Bed_CryptoBed.label>кровать криптосна</Bed_CryptoBed.label>
+	<Bed_CryptoBed.description>Устройство, которое использует частичный криптосон для улучшения качества лечения. Побочные эффекты криптосна сохраняются, но в меньшей степени.</Bed_CryptoBed.description>
+	<Bed_CryptoBed_Blueprint.label>кровать криптосна (проект)</Bed_CryptoBed_Blueprint.label>
+	<Bed_CryptoBed_Blueprint_Install.label>кровать криптосна (проект)</Bed_CryptoBed_Blueprint_Install.label>
+	<Bed_CryptoBed_Frame.label>кровать криптосна (постройка)</Bed_CryptoBed_Frame.label>
+	<Bed_CryptoBed_Frame.description>Устройство, которое использует частичный криптосон для улучшения качества лечения.</Bed_CryptoBed_Frame.description>
+
+	<Bed_AdvBed.label>анатомическая кровать</Bed_AdvBed.label>
+	<Bed_AdvBed.description>Высокотехнологичная кровать со встроенным генератором белого шума, которая автоматически подстраивается под форму тела спящего. Сон на такой кровати повышает настроение и концентрацию поселенцев.</Bed_AdvBed.description>
+	<Bed_AdvBed_Blueprint.label>анатомическая кровать (проект)</Bed_AdvBed_Blueprint.label>
+	<Bed_AdvBed_Blueprint_Install.label>анатомическая кровать (проект)</Bed_AdvBed_Blueprint_Install.label>
+	<Bed_AdvBed_Frame.label>анатомическая кровать (постройка)</Bed_AdvBed_Frame.label>
+	<Bed_AdvBed_Frame.description>Высокотехнологичная кровать со встроенным генератором белого шума, которая автоматически подстраивается под форму тела спящего. Сон на такой кровати повышает настроение и концентрацию поселенцев.</Bed_AdvBed_Frame.description>
+
+	<Bed_AdvDoubleBed.label>двойная анатомическая кровать</Bed_AdvDoubleBed.label>
+	<Bed_AdvDoubleBed.description>Высокотехнологичная кровать со встроенным генератором белого шума, которая автоматически подстраивается под форму тел спящих. Сон на такой кровати повышает настроение и концентрацию поселенцев.</Bed_AdvDoubleBed.description>
+	<Bed_AdvDoubleBed_Blueprint.label>двойная анатомическая кровать (проект)</Bed_AdvDoubleBed_Blueprint.label>
+	<Bed_AdvDoubleBed_Blueprint_Install.label>двойная анатомическая кровать (проект)</Bed_AdvDoubleBed_Blueprint_Install.label>
+	<Bed_AdvDoubleBed_Frame.label>двойная анатомическая кровать (постройка)</Bed_AdvDoubleBed_Frame.label>
+	<Bed_AdvDoubleBed_Frame.description>Высокотехнологичная кровать со встроенным генератором белого шума, которая автоматически подстраивается под форму тел спящих. Сон на такой кровати повышает настроение и концентрацию поселенцев.</Bed_AdvDoubleBed_Frame.description>
+
+	<Table_IlluminatedEndTable.label>прикроватный столик с подсветкой</Table_IlluminatedEndTable.label>
+	<Table_IlluminatedEndTable.description>Небольшой прикроватный столик с мягкой подсветкой. Добавляет удобства кроватям, если расположен непосредственно рядом с изголовьем. Второй столик не принесёт положительного эффекта.</Table_IlluminatedEndTable.description>
+	<Table_IlluminatedEndTable_Blueprint.label>прикроватный столик с подсветкой (проект)</Table_IlluminatedEndTable_Blueprint.label>
+	<Table_IlluminatedEndTable_Blueprint_Install.label>прикроватный столик с подсветкой (проект)</Table_IlluminatedEndTable_Blueprint_Install.label>
+	<Table_IlluminatedEndTable_Frame.label>прикроватный столик с подсветкой (постройка)</Table_IlluminatedEndTable_Frame.label>
+	<Table_IlluminatedEndTable_Frame.description>Небольшой прикроватный столик с мягкой подсветкой. Добавляет удобства кроватям, если расположен непосредственно рядом с изголовьем. Второй столик не принесёт положительного эффекта.</Table_IlluminatedEndTable_Frame.description>
+
+	<Table_IlluminatedDresser.label>комод с подсветкой</Table_IlluminatedDresser.label>
+	<Table_IlluminatedDresser.description>Удобный комод с мягкой подсветкой. Добавляет удобства кроватям, стоящим рядом. Размещение более одного комода рядом с одной кроватью не принесёт положительного эффекта.</Table_IlluminatedDresser.description>
+	<Table_IlluminatedDresser_Blueprint.label>комод с подсветкой (проект)</Table_IlluminatedDresser_Blueprint.label>
+	<Table_IlluminatedDresser_Blueprint_Install.label>комод с подсветкой (проект)</Table_IlluminatedDresser_Blueprint_Install.label>
+	<Table_IlluminatedDresser_Frame.label>комод с подсветкой (постройка)</Table_IlluminatedDresser_Frame.label>
+	<Table_IlluminatedDresser_Frame.description>Удобный комод с мягкой подсветкой. Добавляет удобства кроватям, стоящим рядом. Размещение более одного комода рядом с одной кроватью не принесёт положительного эффекта.</Table_IlluminatedDresser_Frame.description>
+
+
+</LanguageData>

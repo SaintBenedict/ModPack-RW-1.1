@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Item_Heart.label>сплетенное сердце</EVOR_Item_Heart.label>
+  <EVOR_Item_Heart.description>Переплетая мускулатуру в трех разных направлениях, а не в одном, это сердце получает не только больший контроль и объем кровотока, но и увеличивает эффективность за счет дополнительной мускулатуры.</EVOR_Item_Heart.description>
+
+  <EVOR_Item_Kidney.label>тройные почки</EVOR_Item_Kidney.label>
+  <EVOR_Item_Kidney.description>Благодаря созданию гениальной системы, в которой кровь трижды фильтруется без снижения других параметров производительности, эффективность этих почек резко возрастает.</EVOR_Item_Kidney.description>
+
+  <EVOR_Item_Lung.label>нано-альвеолы легких</EVOR_Item_Lung.label>
+  <EVOR_Item_Lung.description>Уменьшая размер альвеол до неслыханных размеров, резко увеличивается внутренняя площадь легких, позволяя перерабатывать больше газа, к сожалению также повышая всасываемость в кровь токсинов, содержащихся в воздухе.</EVOR_Item_Lung.description>
+
+  <EVOR_Item_Stomach.label>многокамерный желудок</EVOR_Item_Stomach.label>
+  <EVOR_Item_Stomach.description>Разделяя пищеварение в отдельные специализированные камеры, позволяет желудку эффективнее перерабатывать пищу и выделять из нее питательные вещества, увеличивая скорость пищеварения.</EVOR_Item_Stomach.description>
+
+  <EVOR_Item_Liver.label>четырехдольная печень</EVOR_Item_Liver.label>
+  <EVOR_Item_Liver.description>Увеличив плотность клеток печени в два раза, можно расширить печень, включив в нее вдвое больше независимо действующих долей, увеличивая ее функциональность.</EVOR_Item_Liver.description>
+
+
+</LanguageData>

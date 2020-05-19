@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Astoriel.label>асториэль</Astoriel.label>
+  <Astoriel.corePart.parts.6.customLabel>левое легкое</Astoriel.corePart.parts.6.customLabel>
+  <Astoriel.corePart.parts.7.customLabel>правое легкое</Astoriel.corePart.parts.7.customLabel>
+  <Astoriel.corePart.parts.8.customLabel>левая почка</Astoriel.corePart.parts.8.customLabel>
+  <Astoriel.corePart.parts.9.customLabel>правая почка</Astoriel.corePart.parts.9.customLabel>
+  <Astoriel.corePart.parts.11.parts.0.parts.1.customLabel>левый глаз</Astoriel.corePart.parts.11.parts.0.parts.1.customLabel>
+  <Astoriel.corePart.parts.11.parts.0.parts.2.customLabel>правый глаз</Astoriel.corePart.parts.11.parts.0.parts.2.customLabel>
+  <Astoriel.corePart.parts.11.parts.0.parts.3.customLabel>левое ухо</Astoriel.corePart.parts.11.parts.0.parts.3.customLabel>
+  <Astoriel.corePart.parts.11.parts.0.parts.4.customLabel>правое ухо</Astoriel.corePart.parts.11.parts.0.parts.4.customLabel>
+  <Astoriel.corePart.parts.12.customLabel>левое плечо</Astoriel.corePart.parts.12.customLabel>
+  <Astoriel.corePart.parts.12.parts.0.customLabel>левая ключица</Astoriel.corePart.parts.12.parts.0.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.customLabel>левая рука</Astoriel.corePart.parts.12.parts.1.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.0.customLabel>левая плечевая кость</Astoriel.corePart.parts.12.parts.1.parts.0.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.1.customLabel>левая лучевая кость</Astoriel.corePart.parts.12.parts.1.parts.1.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.customLabel>левая кисть</Astoriel.corePart.parts.12.parts.1.parts.2.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>мизинец левой руки</Astoriel.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>безымянный палец левой руки</Astoriel.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>средний палец левой руки</Astoriel.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>указательный палец левой руки</Astoriel.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <Astoriel.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>большой палец левой руки</Astoriel.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <Astoriel.corePart.parts.13.customLabel>правое плечо</Astoriel.corePart.parts.13.customLabel>
+  <Astoriel.corePart.parts.13.parts.0.customLabel>правая ключица</Astoriel.corePart.parts.13.parts.0.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.customLabel>правая рука</Astoriel.corePart.parts.13.parts.1.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.0.customLabel>правая плечевая кость</Astoriel.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.1.customLabel>правая лучевая кость</Astoriel.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.customLabel>правая кисть</Astoriel.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>мизинец правой руки</Astoriel.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>безымянный палец правой руки</Astoriel.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>средний палец правой руки</Astoriel.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>указательный палец правой руки</Astoriel.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Astoriel.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>большой палец правой руки</Astoriel.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Astoriel.corePart.parts.15.customLabel>левая нога</Astoriel.corePart.parts.15.customLabel>
+  <Astoriel.corePart.parts.15.parts.0.customLabel>левая бедренная кость</Astoriel.corePart.parts.15.parts.0.customLabel>
+  <Astoriel.corePart.parts.15.parts.1.customLabel>левая берцовая кость</Astoriel.corePart.parts.15.parts.1.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.customLabel>левая ступня</Astoriel.corePart.parts.15.parts.2.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.parts.0.customLabel>мизинец левой ноги</Astoriel.corePart.parts.15.parts.2.parts.0.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.parts.1.customLabel>безымянный палец левой ноги</Astoriel.corePart.parts.15.parts.2.parts.1.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.parts.2.customLabel>средний палец левой ноги</Astoriel.corePart.parts.15.parts.2.parts.2.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.parts.3.customLabel>указательный палец левой ноги</Astoriel.corePart.parts.15.parts.2.parts.3.customLabel>
+  <Astoriel.corePart.parts.15.parts.2.parts.4.customLabel>большой палец левой ноги</Astoriel.corePart.parts.15.parts.2.parts.4.customLabel>
+  <Astoriel.corePart.parts.16.customLabel>правая нога</Astoriel.corePart.parts.16.customLabel>
+  <Astoriel.corePart.parts.16.parts.0.customLabel>правая бедренная кость</Astoriel.corePart.parts.16.parts.0.customLabel>
+  <Astoriel.corePart.parts.16.parts.1.customLabel>правая берцовая кость</Astoriel.corePart.parts.16.parts.1.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.customLabel>правая ступня</Astoriel.corePart.parts.16.parts.2.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.parts.0.customLabel>мизинец правой ноги</Astoriel.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.parts.1.customLabel>безымянный палец правой ноги</Astoriel.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.parts.2.customLabel>средний палец правой ноги</Astoriel.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.parts.3.customLabel>указательный палец правой ноги</Astoriel.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Astoriel.corePart.parts.16.parts.2.parts.4.customLabel>большой палец правой ноги</Astoriel.corePart.parts.16.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

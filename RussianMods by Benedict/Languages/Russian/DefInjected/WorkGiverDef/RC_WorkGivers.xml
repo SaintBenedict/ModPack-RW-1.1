@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsCannery.label>консервирование пищи</DoBillsCannery.label>
+  <DoBillsCannery.verb>консервирует</DoBillsCannery.verb>
+  <DoBillsCannery.gerund>консервировать</DoBillsCannery.gerund>
+
+  <DoBillsQuernstone.label>молоть сырую еду</DoBillsQuernstone.label>
+  <DoBillsQuernstone.verb>молит</DoBillsQuernstone.verb>
+  <DoBillsQuernstone.gerund>молоть</DoBillsQuernstone.gerund>
+
+  <DoBillsCookomatic.label>готовить блюда в печи</DoBillsCookomatic.label>
+  <DoBillsCookomatic.verb>готовить</DoBillsCookomatic.verb>
+  <DoBillsCookomatic.gerund>готовить в</DoBillsCookomatic.gerund>
+
+
+</LanguageData>

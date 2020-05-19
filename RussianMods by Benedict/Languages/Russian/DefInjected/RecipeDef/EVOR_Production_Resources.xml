@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Production_Mechanites.label>сделать нано-механиты</EVOR_Production_Mechanites.label>
+  <EVOR_Production_Mechanites.description>Получить нано-механиты, перепрограммировав запчасти от механоидов.</EVOR_Production_Mechanites.description>
+  <EVOR_Production_Mechanites.jobString>Делает нано-механиты.</EVOR_Production_Mechanites.jobString>
+
+  <EVOR_Production_Protein.label>выработать протеины</EVOR_Production_Protein.label>
+  <EVOR_Production_Protein.description>Выработать протеины из мяса животных.</EVOR_Production_Protein.description>
+  <EVOR_Production_Protein.jobString>Вырабатывает протеины.</EVOR_Production_Protein.jobString>
+
+  <EVOR_Production_Protein_Humie.label>выработать протеины из мяса гуманоидов</EVOR_Production_Protein_Humie.label>
+  <EVOR_Production_Protein_Humie.description>Выработать протеины из мяса гуманоидов.</EVOR_Production_Protein_Humie.description>
+  <EVOR_Production_Protein_Humie.jobString>Вырабатывает протеины.</EVOR_Production_Protein_Humie.jobString>
+
+  <EVOR_Production_Protein_Humie_Bulk.label>выработать протеины из мяса гуманоидов (3x)</EVOR_Production_Protein_Humie_Bulk.label>
+  <EVOR_Production_Protein_Humie_Bulk.description>Выработать протеины из мяса гуманоидов.(3x)</EVOR_Production_Protein_Humie_Bulk.description>
+  <EVOR_Production_Protein_Humie_Bulk.jobString>Вырабатывает протеины.</EVOR_Production_Protein_Humie_Bulk.jobString>
+
+  <EVOR_Production_Protein_Bulk.label>выработать протеины (3x)</EVOR_Production_Protein_Bulk.label>
+  <EVOR_Production_Protein_Bulk.description>Выработать протеины из мяса животных.(3x)</EVOR_Production_Protein_Bulk.description>
+  <EVOR_Production_Protein_Bulk.jobString>Вырабатывает протеины.</EVOR_Production_Protein_Bulk.jobString>
+
+
+</LanguageData>

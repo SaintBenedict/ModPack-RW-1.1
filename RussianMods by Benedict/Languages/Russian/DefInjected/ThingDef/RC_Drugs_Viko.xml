@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Viko.label>вико</Viko.label>
+  <Viko.description>Смешанный в пасту зопе и лечебный корень, затем высушенный в порошок и спрессованный в маленькие гранулы или таблетки. Вико - это лекарство для облегчения боли, обычно встречающееся на окраине. Несмотря на то, что он умеренно вызывает привыкание, его можно безопасно использовать, если делать это тщательно. Отлично подходит для облегчения хронической боли. Часто кладут в напитки, чтобы «окрасить в фиолетовый».</Viko.description>
+  <Viko.ingestible.ingestCommandString>принять {0}</Viko.ingestible.ingestCommandString>
+  <Viko.ingestible.ingestReportString>принимает {0}.</Viko.ingestible.ingestReportString>
+
+
+</LanguageData>

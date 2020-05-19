@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Arm -->
+
+  <EVOR_Hediff_Primary_NormalArm.label>ускоренная рука</EVOR_Hediff_Primary_NormalArm.label>
+  <EVOR_Hediff_Primary_NormalArm.description>Усиленные мышцы руки, а также улучшенная нервная система позволяют хозяину этой руки быстрее справляться с любыми задачами.</EVOR_Hediff_Primary_NormalArm.description>
+  <EVOR_Hediff_Primary_NormalArm.labelNoun>ускоренная рука</EVOR_Hediff_Primary_NormalArm.labelNoun>
+
+  <EVOR_Hediff_Primary_BoneSaber.label>костяная рука-сабля</EVOR_Hediff_Primary_BoneSaber.label>
+  <EVOR_Hediff_Primary_BoneSaber.description>Выращивая костяные отростки, которые способны сохранять неестественную остроту, мы можем создать придаток, более смертоносный, чем любой меч.</EVOR_Hediff_Primary_BoneSaber.description>
+  <EVOR_Hediff_Primary_BoneSaber.labelNoun>костяная рука-сабля</EVOR_Hediff_Primary_BoneSaber.labelNoun>
+
+  <EVOR_Hediff_Primary_HighPincer.label>пневмо-клешни</EVOR_Hediff_Primary_HighPincer.label>
+  <EVOR_Hediff_Primary_HighPincer.description>Когти на этой конечности сделаны из самого жесткого хитина, а также опираются на мышцы, более крепкие, чем челюстные у большинства животных. Конечным результатом являются клещи, которые могут раздавить любой металл, чтобы добраться до того, что прячется внутри.</EVOR_Hediff_Primary_HighPincer.description>
+  <EVOR_Hediff_Primary_HighPincer.labelNoun>пневмо-клешни</EVOR_Hediff_Primary_HighPincer.labelNoun>
+
+  <EVOR_Hediff_Primary_SonicMace.label>звуковая булава</EVOR_Hediff_Primary_SonicMace.label>
+  <EVOR_Hediff_Primary_SonicMace.description>Эта конечность создана из массы укрепленной кости покрытой сложным рядом отверстий, которые служат для усиления звука. Результат: булава, которая создает большую дезориентирующую звуковую волну при ударе.</EVOR_Hediff_Primary_SonicMace.description>
+  <EVOR_Hediff_Primary_SonicMace.labelNoun>звуковая булава</EVOR_Hediff_Primary_SonicMace.labelNoun>
+
+  <EVOR_Hediff_Primary_PlatedLimb.label>бронированная рука</EVOR_Hediff_Primary_PlatedLimb.label>
+  <EVOR_Hediff_Primary_PlatedLimb.description>В обмен на уменьшение способности к манипуляции предметами добавляет прочное хитиновое покрытие конечности, что позволяет пользователю парировать иные смертельные удары голой рукой.</EVOR_Hediff_Primary_PlatedLimb.description>
+  <EVOR_Hediff_Primary_PlatedLimb.labelNoun>бронированная рука</EVOR_Hediff_Primary_PlatedLimb.labelNoun>
+
+
+  <!-- <HediffDef ParentName="AddedBodyPartBase">
+		<defName>EVOR_Hediff_Primary_ShockTentacle</defName>
+		<label>electroshock tentacle</label>
+		<labelNoun>an electroshock tentacle</labelNoun>
+		<defaultLabelColor>(.2,1,.9)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Blunt</li>
+							<li>EVOR_Cap_Shock</li>
+						</capacities>
+						<power>3.0</power>
+						<cooldownTime>3.2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<armorPenetration>1.0</armorPenetration>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>EVOR_Item_ShockTentacle</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-.05</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef> -->
+
+  <EVOR_Hediff_Primary_RendingClaw.label>раздирающие когти</EVOR_Hediff_Primary_RendingClaw.label>
+  <EVOR_Hediff_Primary_RendingClaw.description>Хоть и менее ловкая, чем ускоренная рука, эта конечность снабжена острейшими когтями, которые усиливают возможности пользователя в сражении.</EVOR_Hediff_Primary_RendingClaw.description>
+  <EVOR_Hediff_Primary_RendingClaw.labelNoun>раздирающие когти</EVOR_Hediff_Primary_RendingClaw.labelNoun>
+
+
+</LanguageData>

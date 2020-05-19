@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drug Cabinet -->
+
+  <VFE_DrugCabinet.label>химический столик</VFE_DrugCabinet.label>
+  <VFE_DrugCabinet.description>Ускоряет работу химической лаборатории и комплекса если установлен рядом или неподалёку. Одна лаборатория или комплекс может использовать не более двух хим. столиков.</VFE_DrugCabinet.description>
+  <VFE_DrugCabinet_Blueprint.label>химический столик (проект)</VFE_DrugCabinet_Blueprint.label>
+  <VFE_DrugCabinet_Blueprint_Install.label>химический столик (проект)</VFE_DrugCabinet_Blueprint_Install.label>
+  <VFE_DrugCabinet_Frame.label>химический столик (постройка)</VFE_DrugCabinet_Frame.label>
+  <VFE_DrugCabinet_Frame.description>Ускоряет работу химической лаборатории и комплекса если установлен рядом или неподалёку. Одна лаборатория или комплекс может использовать не более двух хим. столиков.</VFE_DrugCabinet_Frame.description>
+
+
+  <!-- Machining Cabinet -->
+
+  <VFE_MachiningCabinet.label>шкаф для запчастей</VFE_MachiningCabinet.label>
+  <VFE_MachiningCabinet.description>Ускоряет работу верстака если установлен рядом или неподалёку. Один верстак может использовать не более двух шкафов для запчастей.</VFE_MachiningCabinet.description>
+  <VFE_MachiningCabinet_Blueprint.label>шкаф для запчастей (проект)</VFE_MachiningCabinet_Blueprint.label>
+  <VFE_MachiningCabinet_Blueprint_Install.label>шкаф для запчастей (проект)</VFE_MachiningCabinet_Blueprint_Install.label>
+  <VFE_MachiningCabinet_Frame.label>шкаф для запчастей (постройка)</VFE_MachiningCabinet_Frame.label>
+  <VFE_MachiningCabinet_Frame.description>Ускоряет работу верстака если установлен рядом или неподалёку. Один верстак может использовать не более двух шкафов для запчастей.</VFE_MachiningCabinet_Frame.description>
+
+
+  <!-- Smithy Cabinet -->
+
+  <VFE_SmithyCabinet.label>кузнечный шкаф</VFE_SmithyCabinet.label>
+  <VFE_SmithyCabinet.description>Ускоряет работу кузни если установлен рядом или неподалёку. Одна кузня может использовать не более двух кузнечных шкафов.</VFE_SmithyCabinet.description>
+  <VFE_SmithyCabinet_Blueprint.label>кузнечный шкаф (проект)</VFE_SmithyCabinet_Blueprint.label>
+  <VFE_SmithyCabinet_Blueprint_Install.label>кузнечный шкаф (проект)</VFE_SmithyCabinet_Blueprint_Install.label>
+  <VFE_SmithyCabinet_Frame.label>кузнечный шкаф (постройка)</VFE_SmithyCabinet_Frame.label>
+  <VFE_SmithyCabinet_Frame.description>Ускоряет работу кузни если установлен рядом или неподалёку. Одна кузня может использовать не более двух кузнечных шкафов.</VFE_SmithyCabinet_Frame.description>
+
+
+  <!-- Kitchen Sink Cabinet -->
+
+  <VFE_KitchenSinkCabinet.label>кухонная мойка</VFE_KitchenSinkCabinet.label>
+  <VFE_KitchenSinkCabinet.description>Ускоряет работу плиты если установлена рядом.</VFE_KitchenSinkCabinet.description>
+  <VFE_KitchenSinkCabinet_Blueprint.label>кухонная мойка (проект)</VFE_KitchenSinkCabinet_Blueprint.label>
+  <VFE_KitchenSinkCabinet_Blueprint_Install.label>кухонная мойка (проект)</VFE_KitchenSinkCabinet_Blueprint_Install.label>
+  <VFE_KitchenSinkCabinet_Frame.label>кухонная мойка (постройка)</VFE_KitchenSinkCabinet_Frame.label>
+  <VFE_KitchenSinkCabinet_Frame.description>Ускоряет работу плиты если установлена рядом.</VFE_KitchenSinkCabinet_Frame.description>
+
+
+  <!-- Tailor Cabinet -->
+
+  <VFE_TailorCabinet.label>швейный столик</VFE_TailorCabinet.label>
+  <VFE_TailorCabinet.description>Ускоряет работу швейных столов если установлен рядом или неподалёку. Одна машинка или стол могут использовать не более двух швейных столиков.</VFE_TailorCabinet.description>
+  <VFE_TailorCabinet_Blueprint.label>швейный столик (проект)</VFE_TailorCabinet_Blueprint.label>
+  <VFE_TailorCabinet_Blueprint_Install.label>швейный столик (проект)</VFE_TailorCabinet_Blueprint_Install.label>
+  <VFE_TailorCabinet_Frame.label>швейный столик (постройка)</VFE_TailorCabinet_Frame.label>
+  <VFE_TailorCabinet_Frame.description>Ускоряет работу швейных столов если установлен рядом или неподалёку. Одна машинка или стол могут использовать не более двух швейных столиков.</VFE_TailorCabinet_Frame.description>
+
+
+  <!-- Fabrication Cabinet -->
+
+  <VFE_FabricationCabinet.label>высокоточный терминал</VFE_FabricationCabinet.label>
+  <VFE_FabricationCabinet.description>Ускоряет работу высокоточного станка если установлен рядом или неподалёку. Один станок может использовать не более двух высокоточных терминалов.</VFE_FabricationCabinet.description>
+  <VFE_FabricationCabinet_Blueprint.label>высокоточный терминал (проект)</VFE_FabricationCabinet_Blueprint.label>
+  <VFE_FabricationCabinet_Blueprint_Install.label>высокоточный терминал (проект)</VFE_FabricationCabinet_Blueprint_Install.label>
+  <VFE_FabricationCabinet_Frame.label>высокоточный терминал (постройка)</VFE_FabricationCabinet_Frame.label>
+  <VFE_FabricationCabinet_Frame.description>Ускоряет работу высокоточного станка если установлен рядом или неподалёку. Один станок может использовать не более двух высокоточных терминалов.</VFE_FabricationCabinet_Frame.description>
+
+
+</LanguageData>

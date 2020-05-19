@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Non Religions -->
+
+	<Religions_Book_Atheist.label>полемика об атеизме</Religions_Book_Atheist.label>
+	<Religions_Book_Atheist.description>Структурированный аргумент, демонстрирующий бездоказательный характер существования любой формы божества.</Religions_Book_Atheist.description>
+	<Religions_Book_Atheist.comps.2.useLabel>Использовать религиозную полемику</Religions_Book_Atheist.comps.2.useLabel>
+
+	<Religions_Book_Antitheist.label>полемика об антитезе</Religions_Book_Antitheist.label>
+	<Religions_Book_Antitheist.description>Структурированный аргумент, демонстрирующий грехи организованной религии.</Religions_Book_Antitheist.description>
+	<Religions_Book_Antitheist.comps.2.useLabel>Использовать религиозную полемику</Religions_Book_Antitheist.comps.2.useLabel>
+
+	<Religions_Book_Agnostic.label>полемика об агностицизме</Religions_Book_Agnostic.label>
+	<Religions_Book_Agnostic.description>Структурированный аргумент, демонстрирующий пользу религиозного плюрализма.</Religions_Book_Agnostic.description>
+	<Religions_Book_Agnostic.comps.2.useLabel>Использовать религиозную полемику</Religions_Book_Agnostic.comps.2.useLabel>
+
+	<!-- Earth Religions -->
+
+	<Religions_Book_Christian.label>апологетика по Христианству</Religions_Book_Christian.label>
+	<Religions_Book_Christian.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Святой Библии.</Religions_Book_Christian.description>
+	<Religions_Book_Christian.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Christian.comps.2.useLabel>
+
+	<Religions_Book_Judaism.label>апологетика по Иудаизму</Religions_Book_Judaism.label>
+	<Religions_Book_Judaism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Торы и Танаха.</Religions_Book_Judaism.description>
+	<Religions_Book_Judaism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Judaism.comps.2.useLabel>
+
+	<Religions_Book_Taoism.label>апологетика по Даосизму</Religions_Book_Taoism.label>
+	<Religions_Book_Taoism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Дао Дэ Цзин.</Religions_Book_Taoism.description>
+	<Religions_Book_Taoism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Taoism.comps.2.useLabel>
+
+	<Religions_Book_Buddhism.label>апологетика по Буддизму</Religions_Book_Buddhism.label>
+	<Religions_Book_Buddhism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Палийского канона.</Religions_Book_Buddhism.description>
+	<Religions_Book_Buddhism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Buddhism.comps.2.useLabel>
+
+	<Religions_Book_Sikhism.label>апологетика по Сикхизму</Religions_Book_Sikhism.label>
+	<Religions_Book_Sikhism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Гуру Грантх Сахиб.</Religions_Book_Sikhism.description>
+	<Religions_Book_Sikhism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Sikhism.comps.2.useLabel>
+
+	<Religions_Book_Hinduism.label>апологетика по Индуизму</Religions_Book_Hinduism.label>
+	<Religions_Book_Hinduism.description>Структурированный аргумент, демонстрирующий пользу жизни по учениям Вед и основных Упанишад.</Religions_Book_Hinduism.description>
+	<Religions_Book_Hinduism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Hinduism.comps.2.useLabel>
+
+	<Religions_Book_Jainism.label>апологетика по Джайнизму</Religions_Book_Jainism.label>
+	<Religions_Book_Jainism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению агам тиртханкары.</Religions_Book_Jainism.description>
+	<Religions_Book_Jainism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Jainism.comps.2.useLabel>
+
+	<Religions_Book_Zoroastrianism.label>апологетика по Зороастризму</Religions_Book_Zoroastrianism.label>
+	<Religions_Book_Zoroastrianism.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Авесты Ясны.</Religions_Book_Zoroastrianism.description>
+	<Religions_Book_Zoroastrianism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Zoroastrianism.comps.2.useLabel>
+
+	<Religions_Book_Islamic.label>апологетика по Исламу</Religions_Book_Islamic.label>
+	<Religions_Book_Islamic.description>Структурированный аргумент, демонстрирующий пользу жизни по учению Корана.</Religions_Book_Islamic.description>
+	<Religions_Book_Islamic.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Islamic.comps.2.useLabel>
+
+	<Religions_Book_Pagan.label>апологетика по Язычеству</Religions_Book_Pagan.label>
+	<Religions_Book_Pagan.description>Структурированный аргумент, демонстрирующий пользу от жизни духовными путями далекого прошлого.</Religions_Book_Pagan.description>
+	<Religions_Book_Pagan.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Pagan.comps.2.useLabel>
+
+	<!-- Rim World Religions -->
+
+	<Religions_Book_Mysticism.label>апологетика по Мистицизму</Religions_Book_Mysticism.label>
+	<Religions_Book_Mysticism.description>Структурированный аргумент, демонстрирующий пользу получения знаний тайного общества.</Religions_Book_Mysticism.description>
+	<Religions_Book_Mysticism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Mysticism.comps.2.useLabel>
+
+	<Religions_Book_Mother.label>апологетика по Планете Матери</Religions_Book_Mother.label>
+	<Religions_Book_Mother.description>Структурированный аргумент, демонстрирующий пользу жизни в гармонии с Планетой-матерью.</Religions_Book_Mother.description>
+	<Religions_Book_Mother.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Mother.comps.2.useLabel>
+
+	<Religions_Book_Father.label>апологетика по Отцу Небес</Religions_Book_Father.label>
+	<Religions_Book_Father.description>Структурированный аргумент, демонстрирующий пользу жизни в страхе перед мощью Небесного Отца.</Religions_Book_Father.description>
+	<Religions_Book_Father.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Father.comps.2.useLabel>
+
+	<Religions_Book_Archon.label>апологетика по Архонту</Religions_Book_Archon.label>
+	<Religions_Book_Archon.description>Структурированный аргумент, демонстрирующий преимущества объединения сил добра в борьбе со злом.</Religions_Book_Archon.description>
+	<Religions_Book_Archon.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Archon.comps.2.useLabel>
+
+	<Religions_Book_Animism.label>апологетика по Анимизму</Religions_Book_Animism.label>
+	<Religions_Book_Animism.description>Структурированный аргумент, демонстрирующий пользу от жизни, сознающей влияние духов.</Religions_Book_Animism.description>
+	<Religions_Book_Animism.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Animism.comps.2.useLabel>
+
+	<Religions_Book_Sacrifice.label>апологетика по человеческим жертвоприношениям</Religions_Book_Sacrifice.label>
+	<Religions_Book_Sacrifice.description>Структурированный аргумент, демонстрирующий выгоду жертвоприношения жизни силам тьмы.</Religions_Book_Sacrifice.description>
+	<Religions_Book_Sacrifice.comps.2.useLabel>Использовать религиозную апологетику</Religions_Book_Sacrifice.comps.2.useLabel>
+
+</LanguageData>

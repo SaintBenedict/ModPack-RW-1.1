@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <NegotiationAbility>0.35</NegotiationAbility>
+          			<TradePriceImprovement>0.20</TradePriceImprovement>
+          			<SocialImpact>0.25</SocialImpact>
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.2</TrainAnimalChance>
+					<ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<MiningSpeed>0.5</MiningSpeed>
+					<MiningYield>0.5</MiningYield> -->
+
+  <EVOR_Hediff_Brain_Hyper.label>нейронный считыватель</EVOR_Hediff_Brain_Hyper.label>
+  <EVOR_Hediff_Brain_Hyper.description>Благодаря радикальному изменению мозга, теперь можно мыслить в несколько потоков сразу, в одно и то же время сосредотачиваясь на всех задачах, так же значительно увеличивая свои способности к обучению.</EVOR_Hediff_Brain_Hyper.description>
+  <EVOR_Hediff_Brain_Hyper.labelNoun>нейронный считыватель</EVOR_Hediff_Brain_Hyper.labelNoun>
+
+  <EVOR_Hediff_Brain_Nails.label>иглы мясника</EVOR_Hediff_Brain_Nails.label>
+  <EVOR_Hediff_Brain_Nails.description>Эти несовершенные органы созданы для усиления агрессии, превращая хозяина в разрушительную силу на поле битвы. Однако &lt;color=#EB4034&gt;постоянное желание проливать кровь&lt;/color&gt; повышает вероятность пешки сойти с ума. &lt;color=#EB4034&gt;Пользуйтесь осторожно.&lt;/color&gt;</EVOR_Hediff_Brain_Nails.description>
+  <EVOR_Hediff_Brain_Nails.labelNoun>иглы мясника</EVOR_Hediff_Brain_Nails.labelNoun>
+
+
+</LanguageData>

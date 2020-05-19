@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Infections -->
+
+  <GR_ChickenRimPox.label>римпокс (сифилис)</GR_ChickenRimPox.label>
+  <GR_ChickenRimPox.stages.0.label>незначительный</GR_ChickenRimPox.stages.0.label>
+  <GR_ChickenRimPox.stages.1.label>большой</GR_ChickenRimPox.stages.1.label>
+  <GR_ChickenRimPox.stages.2.label>экстремальный</GR_ChickenRimPox.stages.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Boomalope - Bear -->
+
+  <GR_Boomabear.label>буммедведь</GR_Boomabear.label>
+  <GR_Boomabear.description>Гибрид бумалопы / медведя. Сильнее, чем обычная бумалопа и взрывается небольшим концентрированным взрывом при поражении. Очень опасно в тесных, замкнутых пространствах.\n\nПолезные способности: Единственный гибрид бумалопы, взрывающийся с бомбовым уроном вместо огненного. Опасен! Достойное производство химического топлива.</GR_Boomabear.description>
+  <GR_Boomabear.tools.1.label>голова</GR_Boomabear.tools.1.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_Boomabear_Corpse.label>Труп буммедведя</GR_Boomabear_Corpse.label>
+  <GR_Boomabear_Corpse.description>Труп буммедведя.</GR_Boomabear_Corpse.description>
+
+
+  <!-- Boomalope - Chicken -->
+
+  <GR_Boomachicken.label>бумкурица</GR_Boomachicken.label>
+  <GR_Boomachicken.description>Гибрид бумалопы / курицы. Эти существа производят два типа яиц: обычное и особое яйцо, заполненное до краев опасными химикатами. Эти аберрантные яйца обычно не вылупляются и химикаты высвобождаются, когда существо умирает. В контакте с атмосферой они взрываются через несколько секунд.\n\nПолезные способности: Взрывные яйца!! Слабое производство химического топлива.</GR_Boomachicken.description>
+  <GR_Boomachicken.tools.0.label>голова</GR_Boomachicken.tools.0.label>
+  <GR_Boomachicken.tools.1.label>укус</GR_Boomachicken.tools.1.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_Boomachicken_Corpse.label>Труп бумкурицы</GR_Boomachicken_Corpse.label>
+  <GR_Boomachicken_Corpse.description>Труп бумкурицы.</GR_Boomachicken_Corpse.description>
+
+
+  <!-- Boomalope - Muffalo -->
+
+  <GR_Boomffalo.label>бумффало</GR_Boomffalo.label>
+  <GR_Boomffalo.description>Гибрид бумалопы / муффало. Немного нестабилен для транспортировки товаров, но оно производит молоко и шерсть. С точки зрения генной инженерии, эти существа трудно стабилизировать, так как биология муффало несовместима с химическими мешками бумалопы. Для поддержания хрупкого баланса используется коктейль химических хладагентов.\n\nПолезные способности: Производит низкокачественное молоко и среднюю шерсть. Взрывается с замораживающим уроном при смерти. Производит специализированное криотопливо, которое можно использоваться для питания генератора с крио-двигателем.</GR_Boomffalo.description>
+  <GR_Boomffalo.tools.0.label>голова</GR_Boomffalo.tools.0.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_Boomffalo_Corpse.label>Труп бумффало</GR_Boomffalo_Corpse.label>
+  <GR_Boomffalo_Corpse.description>Труп бумффало.</GR_Boomffalo_Corpse.description>
+
+
+  <!-- Boomalope - Wolf -->
+
+  <GR_Boomwolf.label>бумволк</GR_Boomwolf.label>
+  <GR_Boomwolf.description>Гибрид бумалопы / волка. Быстрее обычной бумалопы и способен к очень сильным укусам.\n\nПолезные способности: Взрывается на смерть с сильной ударной силой, ошеломляя любое существо, попавшее в его радиус взрыва. Производит небольшое количество химического топлива каждый день.</GR_Boomwolf.description>
+  <GR_Boomwolf.tools.1.label>голова</GR_Boomwolf.tools.1.label>
+  <!-- Use Leather From: Boomalope -->
+  <!-- Use Meat From: Boomalope -->
+  <GR_Boomwolf_Corpse.label>Труп бумволка</GR_Boomwolf_Corpse.label>
+  <GR_Boomwolf_Corpse.description>Труп бумволка.</GR_Boomwolf_Corpse.description>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookCannedMeat.label>сделать консервированное мясо</CookCannedMeat.label>
+  <CookCannedMeat.description>Поместите мясо в стерилизованную банку, чтобы предотвратить гниение.</CookCannedMeat.description>
+  <CookCannedMeat.jobString>консервирует мясо.</CookCannedMeat.jobString>
+
+  <CookCannedMeatBulk.label>сделать много консервированного мяса</CookCannedMeatBulk.label>
+  <CookCannedMeatBulk.description>Поместите мясо в стерилизованную банку, чтобы предотвратить гниение. Сделать 10x.</CookCannedMeatBulk.description>
+  <CookCannedMeatBulk.jobString>консервирует много мяса.</CookCannedMeatBulk.jobString>
+
+  <CookCannedVegetables.label>сделать консервированные овощи</CookCannedVegetables.label>
+  <CookCannedVegetables.description>Поместите овощи в стерилизованную банку, чтобы предотвратить гниение.</CookCannedVegetables.description>
+  <CookCannedVegetables.jobString>консервирует овощи.</CookCannedVegetables.jobString>
+
+  <CookCannedVegetablesBulk.label>сделать много консервированных овощей</CookCannedVegetablesBulk.label>
+  <CookCannedVegetablesBulk.description>Поместите овощи в стерилизованную банку, чтобы предотвратить гниение. Сделать 10x.</CookCannedVegetablesBulk.description>
+  <CookCannedVegetablesBulk.jobString>консервирует много овощей.</CookCannedVegetablesBulk.jobString>
+
+  <CookCannedFruit.label>сделать консервированные фрукты</CookCannedFruit.label>
+  <CookCannedFruit.description>Поместите фрукты в стерилизованную банку, чтобы предотвратить гниение.</CookCannedFruit.description>
+  <CookCannedFruit.jobString>консервирует фрукты.</CookCannedFruit.jobString>
+
+  <CookCannedFruitBulk.label>сделать много консервированных фруктов</CookCannedFruitBulk.label>
+  <CookCannedFruitBulk.description>Поместите фрукты в стерилизованную банку, чтобы предотвратить гниение. Сделать 10x.</CookCannedFruitBulk.description>
+  <CookCannedFruitBulk.jobString>консервирует много фруктов.</CookCannedFruitBulk.jobString>
+
+
+</LanguageData>

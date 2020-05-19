@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Joy Foods -->
+
+  <MealCandy.label>конфеты</MealCandy.label>
+  <MealCandy.description>Кучка твердых и мягких конфет из подсластителей. Прожорливые обычно съедают целую горсть.</MealCandy.description>
+
+  <MealPastry.label>кондитерские изделия</MealPastry.label>
+  <MealPastry.description>Мягкая, вкусная и сладкая сладкая выпечка, которую часто предпочитают правоохранительные органы.</MealPastry.description>
+
+  <RC_MealTart.label>фруктовый пирог</RC_MealTart.label>
+  <RC_MealTart.description>Сладкое, фруктовое запеченное блюдо, приготовленное из теста и подслащенной фруктовой начинки.</RC_MealTart.description>
+
+  <MealJuice.label>фруктовый сок</MealJuice.label>
+  <MealJuice.description>Вкусный напиток, сделанный из выжимки одного или нескольких фруктов. Освежающий, хотя и не особенно сытный.</MealJuice.description>
+
+  <Coffee.label>кофе</Coffee.label>
+  <Coffee.description>Ароматный напиток из кофейных зерен, который придаст вашему утру заряд бодрости.</Coffee.description>
+  <Coffee.ingestible.ingestCommandString>выпить {0}</Coffee.ingestible.ingestCommandString>
+  <Coffee.ingestible.ingestReportString>пьёт {0}.</Coffee.ingestible.ingestReportString>
+
+  <RimCola.label>классическая Рим-Колла</RimCola.label>
+  <RimCola.description>Бутылка вкусной газированной Рим-Коллы. Напиток №1 на окраине! Ничто не сравнится с этим вкусом! Привезли к вам RimCo.!</RimCola.description>
+  <RimCola.ingestible.ingestCommandString>выпить {0}</RimCola.ingestible.ingestCommandString>
+  <RimCola.ingestible.ingestReportString>пьёт {0}.</RimCola.ingestible.ingestReportString>
+
+  <GreenTea.label>зелёный чай</GreenTea.label>
+  <GreenTea.description>Ароматный горький чай из неферментированных чайных листьев. Не особенно богат питательными веществами, но он содержит небольшое количество кофеина и расслабляет во время чаепития.</GreenTea.description>
+  <GreenTea.ingestible.ingestCommandString>выпить {0}</GreenTea.ingestible.ingestCommandString>
+  <GreenTea.ingestible.ingestReportString>пьёт {0}.</GreenTea.ingestible.ingestReportString>
+
+  <MealCrustyPeanuts.label>хрустящий арахис</MealCrustyPeanuts.label>
+  <MealCrustyPeanuts.description>Мешочек восхитительных бобов! Арахис, так любим зрителями в цирках по всему окраинному миру и за его пределами. Возьмите свежую горячую горсть Орехов Красти!</MealCrustyPeanuts.description>
+
+
+</LanguageData>

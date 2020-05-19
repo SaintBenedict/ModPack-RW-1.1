@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Aberrant Fleshbeast -->
+
+  <GR_AberrantFleshbeast.label>аберрантная плоть зверя</GR_AberrantFleshbeast.label>
+  <GR_AberrantFleshbeast.description>Что-то пошло ужасно неправильно. Это жалкое существо изо всех сил пытается дышать.</GR_AberrantFleshbeast.description>
+  <GR_AberrantFleshbeast.tools.0.label>укус</GR_AberrantFleshbeast.tools.0.label>
+  <!-- Leather Amount: 0 -->
+  <!-- Meat Amount: 0 -->
+  <GR_AberrantFleshbeast_Corpse.label>труп аберрантной плоти зверя</GR_AberrantFleshbeast_Corpse.label>
+  <GR_AberrantFleshbeast_Corpse.description>Мёртвое тело аберрантной плоти зверя.</GR_AberrantFleshbeast_Corpse.description>
+
+
+</LanguageData>

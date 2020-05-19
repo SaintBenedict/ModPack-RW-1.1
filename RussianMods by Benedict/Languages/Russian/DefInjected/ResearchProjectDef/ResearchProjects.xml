@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MF_BasicFurniture.label>базовая мебель</MF_BasicFurniture.label>
+	<MF_BasicFurniture.description>Постройте простую мебель, такую как простые кровати, базовый столы, табуреты, скамейки и многое другое.</MF_BasicFurniture.description>
+
+	<ComplexFurniture.label>сложная мебель</ComplexFurniture.label>
+	<ComplexFurniture.description>Соберите сложную мебель, такую как кровати, прикроватные столики, обеденные стулья, кресла, комоды, шкафы с инструментами, бильярдные столы, столы для покера, вентиляционные отверстия, саркофаги и многое другое.</ComplexFurniture.description>
+
+	<MF_RoyalFurniture.label>роскошная мебель</MF_RoyalFurniture.label>
+	<MF_RoyalFurniture.description>Постройте роскошную мебель, сильно ориентированную на эстетику и красоту, а не на практичность, обычно встречающуюся только в домах богатой элиты. В том числе роскошные кровати, королевские стулья, столы и кресла.</MF_RoyalFurniture.description>
+
+	<MF_ModernFurniture.label>современная мебель</MF_ModernFurniture.label>
+	<MF_ModernFurniture.description>Научитесь создавать современную мебель, которая ориентирована на практичность, а не на красоту, такую как столы для игры в рулетку, шкафы, дартс, боксерские груши и эргономичные кровати.</MF_ModernFurniture.description>
+
+	<MF_WasteDisposal.label>удаление отходов</MF_WasteDisposal.label>
+	<MF_WasteDisposal.description>Научитесь строить маленькие и большие мусорные баки, они медленно очищают область вокруг себя.</MF_WasteDisposal.description>
+
+	<TubeTelevision.label>основы электроники</TubeTelevision.label>
+	<TubeTelevision.description>Постройте основные электронные развлечения, такие как ЭЛТ телевизоры, промышленные радиоприемники, аркады и многое другое.</TubeTelevision.description>
+
+	<FlatscreenTelevision.label>сложная электроника</FlatscreenTelevision.label>
+	<FlatscreenTelevision.description>Создавайте сложные электронные развлечения, такие как плазменные телевизоры, длинноволновые радиоприемники и многое другое.</FlatscreenTelevision.description>
+
+	<SpacerFurniture.label>передовая мебель</SpacerFurniture.label>
+	<SpacerFurniture.description>Создание высокотехнологичной мебели, которую можно встретить лишь в передовых мирах-утопиях.</SpacerFurniture.description>
+
+	<SpacerElectronics.label>передовая электроника</SpacerElectronics.label>
+	<SpacerElectronics.description>Создание высокотехнологичных бытовых устройств, которые можно встретить лишь в передовых мирах-утопиях.</SpacerElectronics.description>
+
+
+</LanguageData>

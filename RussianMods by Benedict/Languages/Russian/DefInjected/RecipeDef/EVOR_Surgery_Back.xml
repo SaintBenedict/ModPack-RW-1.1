@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Surgery_Back_Wing.label>&lt;color=#00FFF7&gt;вживить перьвые крылья&lt;/color&gt;</EVOR_Surgery_Back_Wing.label>
+  <EVOR_Surgery_Back_Wing.description>Вживить перьвые крылья.</EVOR_Surgery_Back_Wing.description>
+  <EVOR_Surgery_Back_Wing.jobString>Вживляет перьвые крылья.</EVOR_Surgery_Back_Wing.jobString>
+
+  <EVOR_Surgery_Back_Hand.label>&lt;color=#00FFF7&gt;вживить щупальца&lt;/color&gt;</EVOR_Surgery_Back_Hand.label>
+  <EVOR_Surgery_Back_Hand.description>Вживить щупальца.</EVOR_Surgery_Back_Hand.description>
+  <EVOR_Surgery_Back_Hand.jobString>Вживляет щупальца.</EVOR_Surgery_Back_Hand.jobString>
+
+  <EVOR_Surgery_Back_Muscle.label>&lt;color=#00FFF7&gt;вживить дополнительную мускулатуру&lt;/color&gt;</EVOR_Surgery_Back_Muscle.label>
+  <EVOR_Surgery_Back_Muscle.description>Вживить дополнительную мускулатуру.</EVOR_Surgery_Back_Muscle.description>
+  <EVOR_Surgery_Back_Muscle.jobString>Вживляет дополнительную мускулатуру.</EVOR_Surgery_Back_Muscle.jobString>
+
+
+</LanguageData>

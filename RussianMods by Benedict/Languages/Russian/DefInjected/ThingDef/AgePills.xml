@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_AgePills.label>возрастные таблетки</GR_AgePills.label>
+  <GR_AgePills.description>Эти капсулы заполнены смесью химикатов и наномашин, способные модифицировать возраст организма, тщательно манипулируя его ДНК. Каждая принятая таблетка увеличивает возраст на 1 год. Полезно животным, для быстрого роста.\n\nПосле потребления, у животного будет сильное головокружение в течение по крайней мере дня, а дополнительные таблетки, вводимые в течение этого периода, не будут эффективными.\n\nОх, ваши колонисты также могут употреблять их...</GR_AgePills.description>
+  <GR_AgePills.ingestible.ingestCommandString>принять {0}</GR_AgePills.ingestible.ingestCommandString>
+  <GR_AgePills.ingestible.ingestReportString>принимает {0}.</GR_AgePills.ingestible.ingestReportString>
+
+
+</LanguageData>

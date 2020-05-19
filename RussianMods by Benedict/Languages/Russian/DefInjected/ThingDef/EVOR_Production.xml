@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Building_Cellbench.label>верстак для выращивания органов</EVOR_Building_Cellbench.label>
+  <EVOR_Building_Cellbench.description>Место для выращивания органов, которые гораздо более эффективны чем то, что дала нам природа.</EVOR_Building_Cellbench.description>
+
+
+  <!--<EVOR_Building_Cellbench_Blueprint.label>верстак для выращивания органов (чертеж)</EVOR_Building_Cellbench_Blueprint.label>-->
+  <!--<EVOR_Building_Cellbench_Blueprint_Install.label>верстак для выращивания органов (чертеж)</EVOR_Building_Cellbench_Blueprint_Install.label>-->
+  <!--<EVOR_Building_Cellbench_Frame.label>верстак для выращивания органов (строение)</EVOR_Building_Cellbench_Frame.label>-->
+  <!--<EVOR_Building_Cellbench_Frame.description>Место для выращивания органов, которые гораздо более эффективны чем то, что дала нам природа.</EVOR_Building_Cellbench_Frame.description>-->
+
+</LanguageData>

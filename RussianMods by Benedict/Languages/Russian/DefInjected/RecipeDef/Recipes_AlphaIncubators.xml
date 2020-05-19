@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_CreateAlphaBearIncubator.label>Инкубатор альфа медведя</GR_CreateAlphaBearIncubator.label>
+  <GR_CreateAlphaBearIncubator.description>Заполнить инкубатор альфа-генами от медведя.</GR_CreateAlphaBearIncubator.description>
+  <GR_CreateAlphaBearIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaBearIncubator.jobString>
+
+  <GR_CreateAlphaBoarIncubator.label>Инкубатор альфа кабана</GR_CreateAlphaBoarIncubator.label>
+  <GR_CreateAlphaBoarIncubator.description>Заполнить инкубатор альфа-генами от кабана.</GR_CreateAlphaBoarIncubator.description>
+  <GR_CreateAlphaBoarIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaBoarIncubator.jobString>
+
+  <GR_CreateAlphaBoomalopeIncubator.label>Инкубатор альфа бумалопы</GR_CreateAlphaBoomalopeIncubator.label>
+  <GR_CreateAlphaBoomalopeIncubator.description>Заполнить инкубатор альфа-генами от бумалопы.</GR_CreateAlphaBoomalopeIncubator.description>
+  <GR_CreateAlphaBoomalopeIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaBoomalopeIncubator.jobString>
+
+  <GR_CreateAlphaChickenIncubator.label>Инкубатор альфа курицы</GR_CreateAlphaChickenIncubator.label>
+  <GR_CreateAlphaChickenIncubator.description>Заполнить инкубатор альфа-генами от курицы.</GR_CreateAlphaChickenIncubator.description>
+  <GR_CreateAlphaChickenIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaChickenIncubator.jobString>
+
+  <GR_CreateAlphaEmuIncubator.label>Инкубатор альфа эму</GR_CreateAlphaEmuIncubator.label>
+  <GR_CreateAlphaEmuIncubator.description>Заполнить инкубатор альфа-генами от эму.</GR_CreateAlphaEmuIncubator.description>
+  <GR_CreateAlphaEmuIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaEmuIncubator.jobString>
+
+  <GR_CreateAlphaMuffaloIncubator.label>Инкубатор альфа муффало</GR_CreateAlphaMuffaloIncubator.label>
+  <GR_CreateAlphaMuffaloIncubator.description>Заполнить инкубатор альфа-генами от муффало.</GR_CreateAlphaMuffaloIncubator.description>
+  <GR_CreateAlphaMuffaloIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaMuffaloIncubator.jobString>
+
+  <GR_CreateAlphaOstrichIncubator.label>Инкубатор альфа страуса</GR_CreateAlphaOstrichIncubator.label>
+  <GR_CreateAlphaOstrichIncubator.description>Заполнить инкубатор альфа-генами от страуса.</GR_CreateAlphaOstrichIncubator.description>
+  <GR_CreateAlphaOstrichIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaOstrichIncubator.jobString>
+
+  <GR_CreateAlphaRhinoIncubator.label>Инкубатор альфа носорога</GR_CreateAlphaRhinoIncubator.label>
+  <GR_CreateAlphaRhinoIncubator.description>Заполнить инкубатор альфа-генами от носорога.</GR_CreateAlphaRhinoIncubator.description>
+  <GR_CreateAlphaRhinoIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaRhinoIncubator.jobString>
+
+  <GR_CreateAlphaWolfIncubator.label>Инкубатор альфа волка</GR_CreateAlphaWolfIncubator.label>
+  <GR_CreateAlphaWolfIncubator.description>Заполнить инкубатор альфа-генами от волка.</GR_CreateAlphaWolfIncubator.description>
+  <GR_CreateAlphaWolfIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaWolfIncubator.jobString>
+
+  <GR_CreateAlphaHareIncubator.label>Инкубатор альфа зайца</GR_CreateAlphaHareIncubator.label>
+  <GR_CreateAlphaHareIncubator.description>Заполнить инкубатор альфа-генами от зайца.</GR_CreateAlphaHareIncubator.description>
+  <GR_CreateAlphaHareIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaHareIncubator.jobString>
+
+  <GR_CreateAlphaIguanaIncubator.label>Инкубатор альфа игуаны</GR_CreateAlphaIguanaIncubator.label>
+  <GR_CreateAlphaIguanaIncubator.description>Заполнить инкубатор альфа-генами от игуаны.</GR_CreateAlphaIguanaIncubator.description>
+  <GR_CreateAlphaIguanaIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaIguanaIncubator.jobString>
+
+  <GR_CreateAlphaPigIncubator.label>Инкубатор альфа свиньи</GR_CreateAlphaPigIncubator.label>
+  <GR_CreateAlphaPigIncubator.description>Заполнить инкубатор альфа-генами от свиньи.</GR_CreateAlphaPigIncubator.description>
+  <GR_CreateAlphaPigIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaPigIncubator.jobString>
+
+  <GR_CreateAlphaRatIncubator.label>Инкубатор альфа крысы</GR_CreateAlphaRatIncubator.label>
+  <GR_CreateAlphaRatIncubator.description>Заполнить инкубатор альфа-генами от крысы.</GR_CreateAlphaRatIncubator.description>
+  <GR_CreateAlphaRatIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaRatIncubator.jobString>
+
+  <GR_CreateAlphaTortoiseIncubator.label>Инкубатор альфа черепахи</GR_CreateAlphaTortoiseIncubator.label>
+  <GR_CreateAlphaTortoiseIncubator.description>Заполнить инкубатор альфа-генами от черепахи.</GR_CreateAlphaTortoiseIncubator.description>
+  <GR_CreateAlphaTortoiseIncubator.jobString>Заполняет инкубатор.</GR_CreateAlphaTortoiseIncubator.jobString>
+
+
+</LanguageData>

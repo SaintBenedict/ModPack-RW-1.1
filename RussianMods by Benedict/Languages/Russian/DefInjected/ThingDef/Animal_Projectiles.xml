@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_Proj_ThrownSac.label>брошенный мешок</GR_Proj_ThrownSac.label>
+  <GR_PlasmaBurst.label>плазменный взрыв</GR_PlasmaBurst.label>
+  <GR_SmokeBomb.label>дымовой снаряд</GR_SmokeBomb.label>
+  <GR_IncendiaryMote.label>зажигательный болт</GR_IncendiaryMote.label>
+  <GR_SniperFlechette.label>снайперский дротик</GR_SniperFlechette.label>
+  <GR_Laser.label>лазерный луч</GR_Laser.label>
+  <GR_StunBolt.label>оглушающий болт</GR_StunBolt.label>
+  <GR_PoisonBlast.label>ядовитый взрыв</GR_PoisonBlast.label>
+  <GR_CryoBlast.label>криовзрыв</GR_CryoBlast.label>
+  <GR_Warhead.label>анти-гравитационная боеголовка</GR_Warhead.label>
+
+
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_GeneticEngineering.label>Генетическая инженерия</GR_GeneticEngineering.label>
+  <GR_GeneticEngineering.description>Изучить основы генетической инженерии. С помощью этого исследования вы можете начать экспериментировать с основными существами (уровень 1) и разводить гибридов для завоевания мира. Стол извлечения генов позволяет извлекать генетические образцы из существ и создавать пустые инкубаторы. генетическая капсула - это место где образцы объединяются в заполненных инкубаторах. Рептилии и инсектоиды это уровень 2 и нуждаются в дальнейших исследованиях. Трумбо и механоиды - это уровень 3 и нуждаются в еще более продвинутых исследованиях.</GR_GeneticEngineering.description>
+
+  <GR_InsectoidGenome.label>Геном инсектоидов</GR_InsectoidGenome.label>
+  <GR_InsectoidGenome.description>Исследовать способы извлечения генетического материала из чужеродных видов инсектоидов. Открывает эксперименты с гибридами инсектоидов (уровень 2).</GR_InsectoidGenome.description>
+
+  <GR_ReptilianGenome.label>Геном рептилий</GR_ReptilianGenome.label>
+  <GR_ReptilianGenome.description>Исследовать способы извлечения генетического материала из рептилий. Открывает эксперименты с гибридами рептилий (уровень 2).</GR_ReptilianGenome.description>
+
+  <GR_HumanoidGeneticEngineering.label>Гуманоидная генетическая инженерия</GR_HumanoidGeneticEngineering.label>
+  <GR_HumanoidGeneticEngineering.description>Позволяет извлекать геном гуманоидов, а так же смешивать ДНК человека и животных для создания имплантов животных. Также открывает эксперименты с гибридными имплантами используемыми для улучшения ваших гибридных существ с невероятно странными комбинациями.</GR_HumanoidGeneticEngineering.description>
+
+  <GR_AdvancedGeneticEngineering.label>Передовая генетическая инженерия</GR_AdvancedGeneticEngineering.label>
+  <GR_AdvancedGeneticEngineering.description>Открывает передовую генетическую капсулу, что позволяет извлекать и смешивать гены трумбо с другими существами (уровень 3).</GR_AdvancedGeneticEngineering.description>
+
+  <GR_AdvancedMechaniteBioIntegration.label>передовая биоинтеграция механитов</GR_AdvancedMechaniteBioIntegration.label>
+  <GR_AdvancedMechaniteBioIntegration.description>Позволяет извлекать активных механитов из враждебных механоидов, чтобы смешивать их с генами других существ (уровень 3).</GR_AdvancedMechaniteBioIntegration.description>
+
+  <GR_AnimalEnrichment.label>Обогащение животных</GR_AnimalEnrichment.label>
+  <GR_AnimalEnrichment.description>Изучите способы улучшения существующих животных и создания улучшенных адаптированных версий, известных как Альфы. Открывает стол извлечения альфа-сыворотки используемую у нормальных животных, а также центр обогащения животных используемый для заполнения инкубаторов этими сыворотками.</GR_AnimalEnrichment.description>
+
+  <GR_AgeDrugs.label>Возрастные наркотики</GR_AgeDrugs.label>
+  <GR_AgeDrugs.description>Изучите способы ускорения роста ваших животных. Возрастные таблетки можно скармливать животным для значительного увеличения их возраста.</GR_AgeDrugs.description>
+
+  <GR_AnimalControl.label>контроль животных</GR_AnimalControl.label>
+  <GR_AnimalControl.description>Технология контроля разума, которая позволяет вам напрямую взаимодействовать с вашими существами, открывает специальные способности активируемые игроком для каждого гибридного семейства.</GR_AnimalControl.description>
+
+
+</LanguageData>

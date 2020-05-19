@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Genetic Material -->
+
+  <GR_StabilizingGenes.label>стабилизирующие гены</GR_StabilizingGenes.label>
+  <GR_StabilizingGenes.description>Этот генетический коктейль еще не дифференцирован.</GR_StabilizingGenes.description>
+
+  <GR_StabilizingSerum.label>стабилизирующая сыворотка</GR_StabilizingSerum.label>
+  <GR_StabilizingSerum.description>Этот генетический коктейль еще не дифференцирован.</GR_StabilizingSerum.description>
+
+  <GR_RuinedGenetic.label>уничтоженный генетический материал</GR_RuinedGenetic.label>
+  <GR_RuinedGenetic.description>Этот генетический материал уничтожен. Бесполезный, хотя какой-нибудь торговец может заплатить за осколки стекла.</GR_RuinedGenetic.description>
+
+
+</LanguageData>

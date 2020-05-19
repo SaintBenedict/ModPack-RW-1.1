@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bed_StoneSlab.label>кровать плита</Bed_StoneSlab.label>
+  <Bed_StoneSlab.description>Большая плита из гладкого камня, очень неудобная и лишь немного лучше, чем спать на полу.</Bed_StoneSlab.description>
+
+  <Bed_Simple.label>простая кровать</Bed_Simple.label>
+  <Bed_Simple.description>Немного удобная сетка и подушка располагаются на прочном каркасе.</Bed_Simple.description>
+
+
+</LanguageData>

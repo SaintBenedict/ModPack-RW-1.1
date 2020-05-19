@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Hediff_Leg_Normal.label>укрепленная нога</EVOR_Hediff_Leg_Normal.label>
+  <EVOR_Hediff_Leg_Normal.description>Укрепляя мышцы и кости, мы можем создать ноги, которые позволят увеличить грузоподъемность и скорость.</EVOR_Hediff_Leg_Normal.description>
+  <EVOR_Hediff_Leg_Normal.labelNoun>укрепленная нога</EVOR_Hediff_Leg_Normal.labelNoun>
+
+  <EVOR_Hediff_Leg_Hand.label>цепкая нога</EVOR_Hediff_Leg_Hand.label>
+  <EVOR_Hediff_Leg_Hand.description>Имитируя конечности наших генетических родственников, мы можем создать универсальную часть тела, способную работать как ногой, так и рукой.</EVOR_Hediff_Leg_Hand.description>
+  <EVOR_Hediff_Leg_Hand.labelNoun>цепкая нога</EVOR_Hediff_Leg_Hand.labelNoun>
+
+  <EVOR_Hediff_Leg_Blade.label>костяная нога-лезвие</EVOR_Hediff_Leg_Blade.label>
+  <EVOR_Hediff_Leg_Blade.description>Воспроизводя костяную саблю, но прикрепляя ее к ноге, а также создавая дополнительные нервные кластеры, помогающие при ходьбе, мы можем создать ногу-лезвие, которая лишь немного уступает руке-лезвию.</EVOR_Hediff_Leg_Blade.description>
+  <EVOR_Hediff_Leg_Blade.labelNoun>костяная нога-лезвие</EVOR_Hediff_Leg_Blade.labelNoun>
+
+
+</LanguageData>

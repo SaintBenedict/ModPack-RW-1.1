@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GR_NitroMilkTrap.label>СВУ ловушка из нитро-молока</GR_NitroMilkTrap.label>
+  <GR_NitroMilkTrap.description>Ведро молока муффалопы, подсоединенное к домашней батарее и электродам. Когда срабатывает триггер, электрический ток возбуждает нестабильное молоко и устройство взрывается. Импровизированный триггер имеет случайную задержку, которая может позволить проворному врагу сбежать.</GR_NitroMilkTrap.description>
+  <GR_NitroMilkTrap_Blueprint.label>СВУ ловушка из нитро-молока (проект)</GR_NitroMilkTrap_Blueprint.label>
+  <GR_NitroMilkTrap_Frame.label>СВУ ловушка из нитро-молока (постройка)</GR_NitroMilkTrap_Frame.label>
+
+
+</LanguageData>

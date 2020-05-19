@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bear - Thrumbo -->
+
+  <GR_Thrumbear.label>трумбо-медведь</GR_Thrumbear.label>
+  <GR_Thrumbear.description>Этот гигантский зверь является результатом сращивания генов медведя в обычном трумбо. Как сильный и жизнерадостный, так легко раздражается, атака трумбо-медведя - это что-то, что ОЧЕНЬ пугает.\n\nПолезные способности: Производит высококачественную шерсть.</GR_Thrumbear.description>
+  <GR_Thrumbear.tools.0.label>рог</GR_Thrumbear.tools.0.label>
+  <GR_Thrumbear.tools.2.label>левая стопа</GR_Thrumbear.tools.2.label>
+  <GR_Thrumbear.tools.3.label>правая стопа</GR_Thrumbear.tools.3.label>
+  <GR_Thrumbear.tools.4.label>голова</GR_Thrumbear.tools.4.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumbear_Corpse.label>Труп трумбо-медведя</GR_Thrumbear_Corpse.label>
+  <GR_Thrumbear_Corpse.description>Труп трумбо-медведя.</GR_Thrumbear_Corpse.description>
+
+
+  <!-- Boomalope - Thrumbo -->
+
+  <GR_Thrumbalope.label>трумболопа</GR_Thrumbalope.label>
+  <GR_Thrumbalope.description>Трумболопа - это трумбо, который был сращен с генами бумалопы. Их огромные мешки неустойчивых химикатов взрываются с невероятной силой, что заставило колонистов прозвать их «нукалопами».\n\nПолезные способности: Огромный, опасный взрыв при смерти. Производит огромное количество химического топлива.</GR_Thrumbalope.description>
+  <GR_Thrumbalope.tools.0.label>рог</GR_Thrumbalope.tools.0.label>
+  <GR_Thrumbalope.tools.2.label>левая стопа</GR_Thrumbalope.tools.2.label>
+  <GR_Thrumbalope.tools.3.label>правая стопа</GR_Thrumbalope.tools.3.label>
+  <GR_Thrumbalope.tools.4.label>голова</GR_Thrumbalope.tools.4.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumbalope_Corpse.label>Труп трумболопы</GR_Thrumbalope_Corpse.label>
+  <GR_Thrumbalope_Corpse.description>Труп трумболопы.</GR_Thrumbalope_Corpse.description>
+
+
+  <!-- Chicken - Thrumbo -->
+
+  <GR_Thrumbochicken.label>трумбо-курица</GR_Thrumbochicken.label>
+  <GR_Thrumbochicken.description>Трумбо-курица - это трумбо, который был сращен с птичьими генами. Хотя он и не очень похож на хищника, это молниеносные хищники, которые с легкостью могут охотиться на любое другое существо. Эти животные несут огромные яйца!\n\nПолезные способности: Крупнейшие яйца среди любых животных.</GR_Thrumbochicken.description>
+  <GR_Thrumbochicken.tools.0.label>рог</GR_Thrumbochicken.tools.0.label>
+  <GR_Thrumbochicken.tools.2.label>голова</GR_Thrumbochicken.tools.2.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumbochicken_Corpse.label>Труп трумбо-курицы</GR_Thrumbochicken_Corpse.label>
+  <GR_Thrumbochicken_Corpse.description>Труп трумбо-курицы.</GR_Thrumbochicken_Corpse.description>
+
+
+  <!-- Muffalo - Thrumbo -->
+
+  <GR_Thrumffalo.label>трумффало</GR_Thrumffalo.label>
+  <GR_Thrumffalo.description>Это массивное копытное, является результатом сращивания трумбо с генами муффало. Способно переносить огромное количество материалов, на всем крае нет лучшего стайного животного.\n\nПолезные способности: Производит высококачественное молоко и шерсть.</GR_Thrumffalo.description>
+  <GR_Thrumffalo.tools.0.label>рог</GR_Thrumffalo.tools.0.label>
+  <GR_Thrumffalo.tools.2.label>левая стопа</GR_Thrumffalo.tools.2.label>
+  <GR_Thrumffalo.tools.3.label>правая стопа</GR_Thrumffalo.tools.3.label>
+  <GR_Thrumffalo.tools.4.label>голова</GR_Thrumffalo.tools.4.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumffalo_Corpse.label>Труп трумффало</GR_Thrumffalo_Corpse.label>
+  <GR_Thrumffalo_Corpse.description>Труп трумффало.</GR_Thrumffalo_Corpse.description>
+
+
+  <!-- Wolf - Thrumbo -->
+
+  <GR_Thrumwolf.label>трумволк</GR_Thrumwolf.label>
+  <GR_Thrumwolf.description>Этот колоссальный хищник является результатом сращивания трумбо с волчьими генами. Быстр и очень голоден, все время. Целые экосистемы могут быть уничтожены безумным аппетитом трумволка.\n\nПолезные способности: быстрый, атакующий хищник, который будет разрывать ваших врагов, если его правильно обучать. Однако нужно МНОГО еды.</GR_Thrumwolf.description>
+  <GR_Thrumwolf.tools.0.label>рог</GR_Thrumwolf.tools.0.label>
+  <GR_Thrumwolf.tools.2.label>левая стопа</GR_Thrumwolf.tools.2.label>
+  <GR_Thrumwolf.tools.3.label>правая стопа</GR_Thrumwolf.tools.3.label>
+  <GR_Thrumwolf.tools.4.label>голова</GR_Thrumwolf.tools.4.label>
+  <!-- Use Leather From: Thrumbo -->
+  <!-- Use Meat From: Thrumbo -->
+  <GR_Thrumwolf_Corpse.label>Труп трумволка</GR_Thrumwolf_Corpse.label>
+  <GR_Thrumwolf_Corpse.description>Труп трумволка.</GR_Thrumwolf_Corpse.description>
+
+
+</LanguageData>

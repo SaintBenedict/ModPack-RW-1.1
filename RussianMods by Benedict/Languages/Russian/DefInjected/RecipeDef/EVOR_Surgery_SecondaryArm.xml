@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Normal ARM -->
+
+  <EVOR_Surgery_Secondary_NormalArm.label>&lt;color=#00FFF7&gt;вживить ускоренную руку&lt;/color&gt;</EVOR_Surgery_Secondary_NormalArm.label>
+  <EVOR_Surgery_Secondary_NormalArm.description>Вживить ускоренную рук.</EVOR_Surgery_Secondary_NormalArm.description>
+  <EVOR_Surgery_Secondary_NormalArm.jobString>Вживляет ускоренную рук.</EVOR_Surgery_Secondary_NormalArm.jobString>
+
+
+  <!-- Saber -->
+
+  <EVOR_Surgery_Secondary_BoneSaber.label>&lt;color=#00FFF7&gt;вживить костяную руку-саблю&lt;/color&gt;</EVOR_Surgery_Secondary_BoneSaber.label>
+  <EVOR_Surgery_Secondary_BoneSaber.description>Вживить костяную руку-саблю.</EVOR_Surgery_Secondary_BoneSaber.description>
+  <EVOR_Surgery_Secondary_BoneSaber.jobString>Вживляет костяную руку-саблю.</EVOR_Surgery_Secondary_BoneSaber.jobString>
+
+  <EVOR_Surgery_Secondary_HighPincer.label>&lt;color=#00FFF7&gt;вживить пневмо-клешни&lt;/color&gt;</EVOR_Surgery_Secondary_HighPincer.label>
+  <EVOR_Surgery_Secondary_HighPincer.description>Вживить пневмо-клешни.</EVOR_Surgery_Secondary_HighPincer.description>
+  <EVOR_Surgery_Secondary_HighPincer.jobString>Вживляет пневмо-клешни.</EVOR_Surgery_Secondary_HighPincer.jobString>
+
+  <EVOR_Surgery_Secondary_SonicMace.label>&lt;color=#00FFF7&gt;вживить звуковую булаву&lt;/color&gt;</EVOR_Surgery_Secondary_SonicMace.label>
+  <EVOR_Surgery_Secondary_SonicMace.description>Вживить звуковую булаву.</EVOR_Surgery_Secondary_SonicMace.description>
+  <EVOR_Surgery_Secondary_SonicMace.jobString>Вживляет звуковую булаву.</EVOR_Surgery_Secondary_SonicMace.jobString>
+
+  <EVOR_Surgery_Secondary_PlatedLimb.label>&lt;color=#00FFF7&gt;вживить бронированную руку&lt;/color&gt;</EVOR_Surgery_Secondary_PlatedLimb.label>
+  <EVOR_Surgery_Secondary_PlatedLimb.description>Вживить бронированную руку.</EVOR_Surgery_Secondary_PlatedLimb.description>
+  <EVOR_Surgery_Secondary_PlatedLimb.jobString>Вживляет бронированную руку.</EVOR_Surgery_Secondary_PlatedLimb.jobString>
+
+
+  <!-- <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_ShockTentacle</defName>
+    <label>&lt;color=#00FFF7&gt;implant electroshock tentacle&lt;/color&gt;</label>
+    <description>Implant a electroshock tentacle.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Implanting electroshock tentacle.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_ShockTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_ShockTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_ShockTentacle</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef> -->
+
+  <EVOR_Surgery_Secondary_RendingClaw.label>&lt;color=#00FFF7&gt;вживить раздирающие когти&lt;/color&gt;</EVOR_Surgery_Secondary_RendingClaw.label>
+  <EVOR_Surgery_Secondary_RendingClaw.description>Вживить раздирающие когти.</EVOR_Surgery_Secondary_RendingClaw.description>
+  <EVOR_Surgery_Secondary_RendingClaw.jobString>Вживляет раздирающие когти.</EVOR_Surgery_Secondary_RendingClaw.jobString>
+
+
+  <!-- <RecipeDef ParentName="SurgeryFlesh">
+    <defName>EVOR_Surgery_Secondary_ShockTentacle</defName>
+    <label>&lt;color=#00FFF7&gt;iвживить electroshock tentacle&lt;/color&gt;</label>
+    <description>Вживить a electroshock tentacle.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Вживляет electroshock tentacle.</jobString>
+    <workAmount>3000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EVOR_Item_ShockTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EVOR_Item_ShockTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>LowerShoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EVOR_Hediff_Secondary_ShockTentacle</addsHediff>
+    <researchPrerequisite>EVOR_Research_Limbs3</researchPrerequisite>
+  </RecipeDef> -->
+
+</LanguageData>

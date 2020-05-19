@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Genetic Material -->
+
+  <GR_BearGenetic.label>Генетический материал медведя</GR_BearGenetic.label>
+  <GR_BearGenetic.description>Флакон с генетическим материалом, извлеченный из трупа медведя.</GR_BearGenetic.description>
+
+  <GR_ChickenGenetic.label>Генетический материал курицы</GR_ChickenGenetic.label>
+  <GR_ChickenGenetic.description>Флакон с генетическим материалом, извлеченный из трупа курицы.</GR_ChickenGenetic.description>
+
+  <GR_BoomalopeGenetic.label>Генетический материал бумалопы</GR_BoomalopeGenetic.label>
+  <GR_BoomalopeGenetic.description>Флакон с генетическим материалом, извлеченный из трупа бумалопы.</GR_BoomalopeGenetic.description>
+
+  <GR_MuffaloGenetic.label>Генетический материал муффало</GR_MuffaloGenetic.label>
+  <GR_MuffaloGenetic.description>Флакон с генетическим материалом, извлеченный из трупа муффало.</GR_MuffaloGenetic.description>
+
+  <GR_WolfGenetic.label>Генетический материал волка</GR_WolfGenetic.label>
+  <GR_WolfGenetic.description>Флакон с генетическим материалом, извлеченный из трупа волка.</GR_WolfGenetic.description>
+
+  <GR_RodentGenetic.label>Генетический материал грызуна/зайцевых</GR_RodentGenetic.label>
+  <GR_RodentGenetic.description>Флакон с генетическим материалом, извлеченный из трупа грызуна или зайцевых.</GR_RodentGenetic.description>
+
+  <GR_InsectoidGenetic.label>Генетический материал инсектоида</GR_InsectoidGenetic.label>
+  <GR_InsectoidGenetic.description>Флакон с генетическим материалом, извлеченный из трупа инсектоида.</GR_InsectoidGenetic.description>
+
+  <GR_ReptilianGenetic.label>Генетический материал рептилии</GR_ReptilianGenetic.label>
+  <GR_ReptilianGenetic.description>Флакон с генетическим материалом, извлеченный из трупа рептилии.</GR_ReptilianGenetic.description>
+
+  <GR_HumanoidGenetic.label>Генетический материал гуманоида</GR_HumanoidGenetic.label>
+  <GR_HumanoidGenetic.description>Флакон с генетическим материалом, извлеченный из трупа гуманоида.</GR_HumanoidGenetic.description>
+
+  <GR_ThrumboGenetic.label>Генетический материал трумбо</GR_ThrumboGenetic.label>
+  <GR_ThrumboGenetic.description>Флакон с генетическим материалом, извлеченный из трупа трумбо.</GR_ThrumboGenetic.description>
+
+  <GR_MechanoidGenetic.label>активные компоненты механоида</GR_MechanoidGenetic.label>
+  <GR_MechanoidGenetic.description>Флакон с активными механитами из трупов механоидов.</GR_MechanoidGenetic.description>
+
+
+  <!-- Alpha Serums -->
+
+  <GR_BearSerum.label>Сыворотка альфа-медведя</GR_BearSerum.label>
+  <GR_BearSerum.description>Флакон с альфа-генами, извлеченными из трупа медведя.</GR_BearSerum.description>
+
+  <GR_BoarSerum.label>Сыворотка альфа-кабана</GR_BoarSerum.label>
+  <GR_BoarSerum.description>Флакон с альфа-генами, извлеченными из трупа кабана.</GR_BoarSerum.description>
+
+  <GR_BoomalopeSerum.label>Сыворотка альфа-бумалопы</GR_BoomalopeSerum.label>
+  <GR_BoomalopeSerum.description>Флакон с альфа-генами, извлеченными из трупа бумалопы.</GR_BoomalopeSerum.description>
+
+  <GR_ChickenSerum.label>Сыворотка альфа-курица</GR_ChickenSerum.label>
+  <GR_ChickenSerum.description>Флакон с альфа-генами, извлеченными из трупа курицы.</GR_ChickenSerum.description>
+
+  <GR_EmuSerum.label>Сыворотка альфа-эму</GR_EmuSerum.label>
+  <GR_EmuSerum.description>Флакон с альфа-генами, извлеченными из трупа эму.</GR_EmuSerum.description>
+
+  <GR_MuffaloSerum.label>Сыворотка альфа-муффало</GR_MuffaloSerum.label>
+  <GR_MuffaloSerum.description>Флакон с альфа-генами, извлеченными из трупа муффало.</GR_MuffaloSerum.description>
+
+  <GR_OstrichSerum.label>Сыворотка альфа-страуса</GR_OstrichSerum.label>
+  <GR_OstrichSerum.description>Флакон с альфа-генами, извлеченными из трупа страуса.</GR_OstrichSerum.description>
+
+  <GR_RhinoSerum.label>Сыворотка альфа-носорога</GR_RhinoSerum.label>
+  <GR_RhinoSerum.description>Флакон с альфа-генами, извлеченными из трупа носорога.</GR_RhinoSerum.description>
+
+  <GR_WolfSerum.label>Сыворотка альфа-волка</GR_WolfSerum.label>
+  <GR_WolfSerum.description>Флакон с альфа-генами, извлеченными из трупа волка.</GR_WolfSerum.description>
+
+  <GR_HareSerum.label>Сыворотка альфа-зайца</GR_HareSerum.label>
+  <GR_HareSerum.description>Флакон с альфа-генами, извлеченными из трупа зайца.</GR_HareSerum.description>
+
+  <GR_IguanaSerum.label>Сыворотка альфа-игуаны</GR_IguanaSerum.label>
+  <GR_IguanaSerum.description>Флакон с альфа-генами, извлеченными из трупа игуаны.</GR_IguanaSerum.description>
+
+  <GR_PigSerum.label>Сыворотка альфа-свиньи</GR_PigSerum.label>
+  <GR_PigSerum.description>Флакон с альфа-генами, извлеченными из трупа свиньи.</GR_PigSerum.description>
+
+  <GR_RatSerum.label>Сыворотка альфа-крысы</GR_RatSerum.label>
+  <GR_RatSerum.description>Флакон с альфа-генами, извлеченными из трупа крысы.</GR_RatSerum.description>
+
+  <GR_TortoiseSerum.label>Сыворотка альфа-черепахи</GR_TortoiseSerum.label>
+  <GR_TortoiseSerum.description>Флакон с альфа-генами, извлеченными из трупа черепахи.</GR_TortoiseSerum.description>
+
+
+  <!-- Organic Pulp -->
+
+  <GR_OrganicPulp.label>Органическая масса</GR_OrganicPulp.label>
+  <GR_OrganicPulp.description>Эта древесная масса может использоваться в качестве органического растительного соединения для ускорения некоторых генетических процессов. Необходим для передовой генетической капсулы.</GR_OrganicPulp.description>
+
+
+  <!-- Hybrid Implants Base -->
+
+  <GR_ImplantSteelWireMesh.label>гибридный имплант стальной сетки (уровень 1)</GR_ImplantSteelWireMesh.label>
+  <GR_ImplantSteelWireMesh.description>Эта стальная ячеистая сетка выступает как стерильный каркас для роста ткани. Она используется в качестве основы для базовых гибридных имплантов, выращиваемых в чане. Для более продвинутых имплантов требуется сетка на основе пластали.</GR_ImplantSteelWireMesh.description>
+
+  <GR_ImplantPlasteelWireMesh.label>Гибридный имплант пласталевой сетки (уровень 2)</GR_ImplantPlasteelWireMesh.label>
+  <GR_ImplantPlasteelWireMesh.description>Эта пласталевая ячеистая сетка выступает как стерильный каркас для роста ткани. Она используется в качестве основы для продвинутых гибридных имплантов, выращиваемых в чане. Для элитных имплантов требуется сетка на основе урана.</GR_ImplantPlasteelWireMesh.description>
+
+  <GR_ImplantUraniumWireMesh.label>гибридный имплант урановой сетки (уровень 2)</GR_ImplantUraniumWireMesh.label>
+  <GR_ImplantUraniumWireMesh.description>Эта урановая ячеистая сетка выступает как стерильный каркас для роста ткани. Она используется в качестве основы для самых элитных гибридных имплантов.</GR_ImplantUraniumWireMesh.description>
+
+
+  <!-- Boomfuels -->
+
+  <GR_Cryofuel.label>криотопливо</GR_Cryofuel.label>
+  <GR_Cryofuel.description>Летучие, жидкие химические соединения хранятся в криогенных контейнерах. Могут использоваться для питания крио-стабилизированного генератора.</GR_Cryofuel.description>
+
+
+</LanguageData>

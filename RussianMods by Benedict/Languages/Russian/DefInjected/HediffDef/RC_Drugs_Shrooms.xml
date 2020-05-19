@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RC_ShroomsHigh.label>под кайфом от магических грибов</RC_ShroomsHigh.label>
+  <RC_ShroomsHigh.stages.0.label>небольшое грибное путешествие</RC_ShroomsHigh.stages.0.label>
+  <RC_ShroomsHigh.stages.1.label>среднее грибное путешествие</RC_ShroomsHigh.stages.1.label>
+  <RC_ShroomsHigh.stages.2.label>глубокое грибное путешествие</RC_ShroomsHigh.stages.2.label>
+
+
+  <!-- Zopioid addiction -->
+
+  <RC_ShroomsTolerance.label>толерантность к магическим грибам</RC_ShroomsTolerance.label>
+  <RC_ShroomsTolerance.stages.0.label>небольшая</RC_ShroomsTolerance.stages.0.label>
+  <RC_ShroomsTolerance.stages.1.label>небольшая</RC_ShroomsTolerance.stages.1.label>
+  <RC_ShroomsTolerance.stages.2.label>средняя</RC_ShroomsTolerance.stages.2.label>
+  <RC_ShroomsTolerance.stages.3.label>сильная</RC_ShroomsTolerance.stages.3.label>
+
+  <RC_ShroomsAddiction.label>зависимость от магических грибов</RC_ShroomsAddiction.label>
+  <RC_ShroomsAddiction.stages.1.label>ломка</RC_ShroomsAddiction.stages.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Skag.label>скаг</Skag.label>
+  <Skag.description>Очищенный и сконденсированный зопиойд, основанный на зопе. Этот материал намного более мощный и отключает любого, кто вводит его в течение нескольких часов с максимальной эйфорией. Получить передозировку им довольно просто и есть ряд побочных эффектов; однако многие из зависимых, как правило об этом не заботятся, поскольку они преследуют эту эйфорию, которую становится все труднее получить.</Skag.description>
+  <Skag.ingestible.ingestCommandString>ввести {0}</Skag.ingestible.ingestCommandString>
+  <Skag.ingestible.ingestReportString>вводит {0}.</Skag.ingestible.ingestReportString>
+
+
+</LanguageData>

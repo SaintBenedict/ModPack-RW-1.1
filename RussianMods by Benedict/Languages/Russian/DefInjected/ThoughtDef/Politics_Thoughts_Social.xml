@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<PoliticalAlly.stages.0.label>одна идеалогия</PoliticalAlly.stages.0.label>
+	<PoliticalAdjacent.stages.0.label>похожая идеалогия</PoliticalAdjacent.stages.0.label>
+	<PoliticalMisguided.stages.0.label>неправильная идеалогия</PoliticalMisguided.stages.0.label>
+	<PoliticalRivalry.stages.0.label>конкурирующая идеалогия</PoliticalRivalry.stages.0.label>
+	<PoliticalEnemy.stages.0.label>еритческая идеалогия</PoliticalEnemy.stages.0.label>
+
+</LanguageData>

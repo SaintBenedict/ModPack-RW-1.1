@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsCookStone_Campfire.label>готовит еду у каменного костра</DoBillsCookStone_Campfire.label>
+  <DoBillsCookStone_Campfire.verb>готовит</DoBillsCookStone_Campfire.verb>
+  <DoBillsCookStone_Campfire.gerund>готовит на</DoBillsCookStone_Campfire.gerund>
+
+  <DoBillsHaulStone_Campfire.label>делает на каменном костре</DoBillsHaulStone_Campfire.label>
+  <DoBillsHaulStone_Campfire.verb>работа</DoBillsHaulStone_Campfire.verb>
+  <DoBillsHaulStone_Campfire.gerund>работает на</DoBillsHaulStone_Campfire.gerund>
+
+
+</LanguageData>

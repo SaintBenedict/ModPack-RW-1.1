@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EVOR_Research_Start1.label>Экстракция сырого белка</EVOR_Research_Start1.label>
+  <EVOR_Research_Start1.description>Обладая знаниями в области биологии, мы можем извлечь белковые строительные кирпичики из уже дифференцированного вещества.</EVOR_Research_Start1.description>
+
+  <EVOR_Research_Start2.label>Нано-инженерия</EVOR_Research_Start2.label>
+  <EVOR_Research_Start2.description>Объединив наши знания в области биологии и бионики, мы можем создавать наниты, которые могут превращать сырые биологические материалы в живые клетки по нашему выбору.</EVOR_Research_Start2.description>
+
+  <EVOR_Research_Start3.label>Биомеханические ткани</EVOR_Research_Start3.label>
+  <EVOR_Research_Start3.description>Посредством селективных процессов прорастания и стимулирования стволовых клеток на нано-размерных уровнях с помощью механитов можно создавать простые биологические структуры.</EVOR_Research_Start3.description>
+
+  <EVOR_Research_Organs1.label>Выращивание базовых органов</EVOR_Research_Organs1.label>
+  <EVOR_Research_Organs1.description>Непрерывное понимание интеграции стволовых клеток и механитов позволило разработать передовые клеточные структуры, которые можно использовать для создания продвинутых внутренних органов.</EVOR_Research_Organs1.description>
+
+  <EVOR_Research_Organs2.label>Комплексное выращивание органов</EVOR_Research_Organs2.label>
+  <EVOR_Research_Organs2.description>Дальнейшие исследования в области создания органов позволят нам разработать более эффективные версии всех наших ранее существующих органов.</EVOR_Research_Organs2.description>
+
+  <EVOR_Research_Organs3.label>Продвинутое выращивание органов</EVOR_Research_Organs3.label>
+  <EVOR_Research_Organs3.description>Понимание сложных структур тела, которые откроют способность конструировать самые сложные органы и не только.</EVOR_Research_Organs3.description>
+
+  <EVOR_Research_Brain1.label>Нейронная обратная инженерия</EVOR_Research_Brain1.label>
+  <EVOR_Research_Brain1.description>Понимание работы нейронных связей поможет нам расширить биологические пределы возможностей мозга.</EVOR_Research_Brain1.description>
+
+  <EVOR_Research_Outer1.label>Эластичная тканевая основа</EVOR_Research_Outer1.label>
+  <EVOR_Research_Outer1.description>Реконструкция кожной оболочки, позволяет создавать усиленные варианты, которые лучше справляются с экстремальными воздействиями.</EVOR_Research_Outer1.description>
+
+  <EVOR_Research_Other1.label>Частичное улучшение оболочки</EVOR_Research_Other1.label>
+  <EVOR_Research_Other1.description>Опираясь на нашу способность создавать новые несущие биоформы, мы можем создавать радикально новые типы тел.</EVOR_Research_Other1.description>
+
+  <EVOR_Research_Limbs1.label>Применение биологических основ</EVOR_Research_Limbs1.label>
+  <EVOR_Research_Limbs1.description>Чтобы создать кости и мускулатуру, мы должны сначала понять, как распространять клетки и механиты в уже действующем теле.</EVOR_Research_Limbs1.description>
+
+  <EVOR_Research_Limbs2.label>Усовершенствованные конечности</EVOR_Research_Limbs2.label>
+  <EVOR_Research_Limbs2.description>Расширенное понимание работы тела, позволяет создать более эффективные варианты конечностей.</EVOR_Research_Limbs2.description>
+
+  <EVOR_Research_Limbs3.label>Структуры поддержки конечностей</EVOR_Research_Limbs3.label>
+  <EVOR_Research_Limbs3.description>Зачем ограничиваться только тем количеством конечностей, которое нам дано? Исследуя, как наши тела контролируют наши конечности, мы можем приживить больше работающих конечностей.</EVOR_Research_Limbs3.description>
+
+  <EVOR_Research_Limbs4.label>Симбиотическое био-оружие</EVOR_Research_Limbs4.label>
+  <EVOR_Research_Limbs4.description>Создавая специализированные органы, которые могут существовать в наших конечностях, мы можем создавать биологическое оружие которое является частью нашего собственного тела.</EVOR_Research_Limbs4.description>
+
+
+  <!--<EVOR_Research_Psychic1.label>Психическая синапсическая сеть</EVOR_Research_Psychic1.label>-->
+  <!--<EVOR_Research_Psychic1.description>Обладая глубокими знаниями по работе ума, мы можем влиять мысли и настроение гуманоидов.</EVOR_Research_Psychic1.description>-->
+
+</LanguageData>

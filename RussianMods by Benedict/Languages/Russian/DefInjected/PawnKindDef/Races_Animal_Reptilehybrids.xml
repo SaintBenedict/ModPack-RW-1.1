@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Reptile - Bear -->
+
+  <GR_Bearodile.label>медведедил</GR_Bearodile.label>
+  <GR_Bearodile.labelPlural>медведедилы</GR_Bearodile.labelPlural>
+
+
+  <!-- Reptile - Boomalope -->
+
+  <GR_Boomsnake.label>бумзмея</GR_Boomsnake.label>
+  <GR_Boomsnake.labelPlural>бумзмеи</GR_Boomsnake.labelPlural>
+
+
+  <!-- Reptile - Chicken -->
+
+  <GR_Chickenlizard.label>курица-ящер</GR_Chickenlizard.label>
+  <GR_Chickenlizard.labelPlural>курицы-ящеры</GR_Chickenlizard.labelPlural>
+
+
+  <!-- Reptile - Muffalo -->
+
+  <GR_Muffalokomodo.label>муффало-комодо</GR_Muffalokomodo.label>
+  <GR_Muffalokomodo.labelPlural>муффало-комодо</GR_Muffalokomodo.labelPlural>
+
+
+  <!-- Reptile - Insectoid -->
+
+  <GR_Spidersnake.label>паук-змея</GR_Spidersnake.label>
+  <GR_Spidersnake.labelPlural>пауки-змеи</GR_Spidersnake.labelPlural>
+
+
+  <!-- Reptile - Thrumbo -->
+
+  <GR_Thrumbolizard.label>трумбо-ящер</GR_Thrumbolizard.label>
+  <GR_Thrumbolizard.labelPlural>трумбо-ящеры</GR_Thrumbolizard.labelPlural>
+  <GR_Thrumbolizard.lifeStages.0.label>телёнок трумбо-ящера</GR_Thrumbolizard.lifeStages.0.label>
+  <GR_Thrumbolizard.lifeStages.0.labelPlural>телята трумбо-ящера</GR_Thrumbolizard.lifeStages.0.labelPlural>
+
+
+  <!-- Reptile - Wolf -->
+
+  <GR_Wolfsnake.label>волк-змея</GR_Wolfsnake.label>
+  <GR_Wolfsnake.labelPlural>волки-змеи</GR_Wolfsnake.labelPlural>
+  <GR_Wolfsnake.lifeStages.0.label>щенок волка-змея</GR_Wolfsnake.lifeStages.0.label>
+  <GR_Wolfsnake.lifeStages.0.labelPlural>щенки волка-змея</GR_Wolfsnake.lifeStages.0.labelPlural>
+
+
+</LanguageData>

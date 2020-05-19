@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Astoriel.label>лагерь асториэль</Astoriel.label>
+  <Astoriel.description>Лагерь Асториэль, наверно одно из самых ранних поселений на планете, всегда жили особняком.\n\nОни высокомерны и не любят общаться с другими поселениями.</Astoriel.description>
+  <Astoriel.fixedName>Асториэль</Astoriel.fixedName>
+  <Astoriel.pawnsPlural>асториэль</Astoriel.pawnsPlural>
+  <Astoriel.leaderTitle>Правитель</Astoriel.leaderTitle>
+
+
+</LanguageData>

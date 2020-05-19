@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Seat_AdvChair.label>анатомический стул</Seat_AdvChair.label>
+  <Seat_AdvChair.description>Высокотехнологичный стул, который автоматически подстраивается под силуэт тела человека, обеспечивая оптимальную поддержку спины и значительно повышая комфорт. Абсолютная роскошь.</Seat_AdvChair.description>
+  <Seat_AdvChair_Blueprint.label>анатомический стул (проект)</Seat_AdvChair_Blueprint.label>
+  <Seat_AdvChair_Blueprint_Install.label>анатомический стул (проект)</Seat_AdvChair_Blueprint_Install.label>
+  <Seat_AdvChair_Frame.label>анатомический стул (постройка)</Seat_AdvChair_Frame.label>
+  <Seat_AdvChair_Frame.description>Высокотехнологичный стул, который автоматически подстраивается под силуэт тела человека, обеспечивая оптимальную поддержку спины и значительно повышая комфорт. Абсолютная роскошь.</Seat_AdvChair_Frame.description>
+
+
+</LanguageData>

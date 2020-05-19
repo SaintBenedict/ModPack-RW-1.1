@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RecipeBase.label>сделать консервированную еду</RecipeBase.label>
+  <RecipeBase.description>Какая-то консервированная еда.</RecipeBase.description>
+  <RecipeBase.jobString>консервирует еду.</RecipeBase.jobString>
+
+  <ProcessHealroot.label>сделать лекарственные травы</ProcessHealroot.label>
+  <ProcessHealroot.description>Извлеките травяные смеси из луковиц, стеблей и корней из в пригодные для использования медикаменты.</ProcessHealroot.description>
+  <ProcessHealroot.jobString>делает лекарственные травы.</ProcessHealroot.jobString>
+
+  <ProcessHealrootBulk.label>сделать много лекарственных трав</ProcessHealrootBulk.label>
+  <ProcessHealrootBulk.description>Извлеките травяные смеси из луковиц, стеблей и корней из в пригодные для использования медикаменты. Сделать 5x!</ProcessHealrootBulk.description>
+  <ProcessHealrootBulk.jobString>делает лекарственные травы.</ProcessHealrootBulk.jobString>
+
+  <MakeCigarettes.label>сделать сигареты</MakeCigarettes.label>
+  <MakeCigarettes.description>скрутить и упаковать табачные листья в пачку сигарет. Каждая пачка содержит 20 сигарет.</MakeCigarettes.description>
+  <MakeCigarettes.jobString>делает сигареты.</MakeCigarettes.jobString>
+
+  <MakeCigars.label>сделать сигары</MakeCigars.label>
+  <MakeCigars.description>Скрутить и тщательно упаковать табачные листья в сигарный набор. Более высокого качества, чем простые сигареты. Сигары более приятная форма табака.</MakeCigars.description>
+  <MakeCigars.jobString>делает сигары.</MakeCigars.jobString>
+
+
+</LanguageData>
