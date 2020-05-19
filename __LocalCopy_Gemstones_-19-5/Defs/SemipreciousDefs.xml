@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+	<ThingDef ParentName="Z_GemBase">
+    <defName>Z_Amethyst</defName>
+    <label>amethyst</label>
+	<graphicData>
+      <color>(162, 118, 174)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(162, 118, 174)</color>
+      <statOffsets>
+        <Beauty>10</Beauty>
+      </statOffsets>
+      <statFactors>
+			<WorkToBuild>5.0</WorkToBuild>
+			<Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+	<ThingDef ParentName="Z_GemBase">
+		<defName>Z_Chalcedony</defName>
+		<label>chalcedony</label>
+		<graphicData>
+		  <color>(152, 175, 202)</color>
+		</graphicData>
+		<statBases>
+		  <MarketValue>5</MarketValue>
+		  <Mass>0.5</Mass>
+		</statBases>
+		<stuffProps>
+		  <color>(152, 175, 202)</color>
+		  <statOffsets>
+			<Beauty>10</Beauty>
+		  </statOffsets>
+		  <statFactors>
+				<WorkToBuild>5.0</WorkToBuild>
+				<Beauty>2.5</Beauty>
+		  </statFactors>
+		</stuffProps>
+	  </ThingDef>
+  
+  
+    <ThingDef ParentName="Z_GemBase">
+		<defName>Z_Citrine</defName>
+		<label>citrine</label>
+		<graphicData>
+		  <color>(231, 190, 68)</color>
+		</graphicData>
+		<statBases>
+		  <MarketValue>5</MarketValue>
+		  <Mass>0.5</Mass>
+		</statBases>
+		<stuffProps>
+		  <color>(231, 190, 68)</color>
+		  <statOffsets>
+			<Beauty>10</Beauty>
+		  </statOffsets>
+		  <statFactors>
+				<WorkToBuild>5.0</WorkToBuild>
+				<Beauty>2.5</Beauty>
+		  </statFactors>
+		</stuffProps>
+	</ThingDef>
+  
+  
+	<ThingDef ParentName="Z_GemBase">
+		<defName>Z_Garnet</defName>
+		<label>garnet</label>
+		<graphicData>
+		  <color>(56,7,28)</color>
+		</graphicData>
+		<statBases>
+		  <MarketValue>5</MarketValue>
+		  <Mass>0.5</Mass>
+		</statBases>
+		<stuffProps>
+		  <color>(56,7,28)</color>
+		  <statOffsets>
+			<Beauty>10</Beauty>
+		  </statOffsets>
+		  <statFactors>
+			<MaxHitPoints>0.5</MaxHitPoints>
+			<WorkToMake>1.4</WorkToMake>
+					<WorkToBuild>5.0</WorkToBuild>
+					<Beauty>2.5</Beauty>
+		  </statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Z_GemBase">
+		<defName>Z_Lapis</defName>
+		<label>lapis</label>
+		<graphicData>
+		  <color>(30, 45, 112)</color>
+		</graphicData>
+		<statBases>
+		  <MarketValue>5</MarketValue>
+		  <Mass>0.5</Mass>
+		</statBases>
+		<stuffProps>
+		  <color>(30, 45, 112)</color>
+		  <statOffsets>
+			<Beauty>10</Beauty>
+		  </statOffsets>
+		  <statFactors>
+				<WorkToBuild>5.0</WorkToBuild>
+				<Beauty>2.5</Beauty>
+		  </statFactors>
+		</stuffProps>
+	</ThingDef>
+  
+    <ThingDef ParentName="Z_GemBase">
+    <defName>Z_Quartz</defName>
+    <label>quartz</label>
+	<graphicData>
+      <color>(231, 212, 212)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>2</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(231, 212, 212)</color>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <statFactors>
+			<WorkToBuild>5.0</WorkToBuild>
+			<Beauty>1.35</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<ThingDef ParentName="Z_GemBase">
+    <defName>Z_Serpentine</defName>
+    <label>serpentine</label>
+	<graphicData>
+      <color>(188, 200, 121)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(188, 200, 121)</color>
+      <statOffsets>
+        <Beauty>10</Beauty>
+      </statOffsets>
+      <statFactors>
+			<WorkToBuild>5.0</WorkToBuild>
+			<Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="Z_GemBase">
+    <defName>Z_Turquoise</defName>
+    <label>turquoise</label>
+	<graphicData>
+      <color>(87, 231, 221)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>4.2</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(87, 231, 221)</color>
+      <statOffsets>
+        <Beauty>8</Beauty>
+      </statOffsets>
+      <statFactors>
+			<WorkToBuild>5.0</WorkToBuild>
+			<Beauty>2.2</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

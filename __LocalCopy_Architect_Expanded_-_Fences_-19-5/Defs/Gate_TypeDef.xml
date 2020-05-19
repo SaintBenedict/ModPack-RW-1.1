@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="GateBase" Name="WoodGate" Abstract="True">
+        <soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>1</Flammability>
+            <WorkToBuild>180</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>4</costStuffCount> 
+    </ThingDef>
+
+    <ThingDef ParentName="GateBase" Name="MetalGate" Abstract="True">
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>0.20</Flammability>
+            <WorkToBuild>195</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>4</costStuffCount> 
+        <researchPrerequisites>
+            <li>Smithing</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="GateBase" Name="StoneGate" Abstract="True">
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>0</Flammability>
+            <WorkToBuild>225</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>      
+        <repairEffect>ConstructDirt</repairEffect>
+        <costStuffCount>4</costStuffCount>
+        <researchPrerequisites>
+            <li>Stonecutting</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!--Combos-->
+    <ThingDef ParentName="GateBase" Name="WoodMetalGate" Abstract="True">
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>1</Flammability>
+            <WorkToBuild>180</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>4</costStuffCount> 
+    </ThingDef>
+
+    <ThingDef ParentName="GateBase" Name="AllMaterialFence" Abstract="True">
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>1</Flammability>
+            <WorkToBuild>180</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <costStuffCount>4</costStuffCount> 
+    </ThingDef>
+
+</Defs>

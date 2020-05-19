@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Numbers</name>
+	<author>TalliDown</author>
+	<url>https://github.com/ErwinM/kNumbers</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>Note: I updated this mod because I hate playing without this awesome mod. I am sharing it, because I imagine other people feel the same. If Mehni gets around to updating this mod, I will of course take my version down. Adds a customizable general overview tab, allowing you to see any stats on all your colonists or prisoners in a single window. Original by koisama. Updated and expanded by Mehni. Updated for game version 1.1 by TalliDown.</description>
+  <packageId>TalliDown.Numbers</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>

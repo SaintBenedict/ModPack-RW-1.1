@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+	<ThingDef ParentName="Z_PreciousGemBase">
+    <defName>Z_Diamond</defName>
+    <label>diamond</label>
+	<graphicData>
+      <color>(255, 255, 255)</color>
+      <colorTwo>(240, 250, 255)</colorTwo>
+    </graphicData>
+	<statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(255, 255, 255)</color>
+	  <commonality>0.002</commonality>
+      <statOffsets>
+        <Beauty>36</Beauty>
+      </statOffsets>
+      <statFactors>
+			<MaxHitPoints>3</MaxHitPoints>
+			<WorkToBuild>20.0</WorkToBuild>
+			<Beauty>7.5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+
+<ThingDef ParentName="Z_PreciousGemBase">
+    <defName>Z_Emerald</defName>
+    <label>emerald</label>
+	<graphicData>
+      <color>(0, 174, 127)</color>
+	  <colorTwo>(0,120,90)</colorTwo>
+    </graphicData>
+    <stuffProps>
+      <color>(0, 174, 127)</color>
+    </stuffProps>
+  </ThingDef>
+
+<ThingDef ParentName="Z_PreciousGemBase">
+    <defName>Z_Ruby</defName>
+    <label>ruby</label>
+	<graphicData>
+		<color>(224, 16, 30)</color>
+		<colorTwo>(150,3,15)</colorTwo>
+    </graphicData>
+    <stuffProps>
+      <color>(224, 16, 30)</color>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="Z_PreciousGemBase">
+    <defName>Z_Sapphire</defName>
+    <label>sapphire</label>
+	<graphicData>
+      <color>(1,58,227)</color>
+	  <colorTwo>(0,42,184)</colorTwo>
+    </graphicData>
+    <stuffProps>
+      <color>(1,58,227)</color>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

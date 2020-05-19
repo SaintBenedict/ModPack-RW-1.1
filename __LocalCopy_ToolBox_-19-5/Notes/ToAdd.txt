@@ -1,0 +1,17 @@
+[Inputs]
+[1](Enum) Passability [/]
+[1](Enum) Link [/]
+[2](Enum) Terrain Affordance
+[1](Bool) Roof [/]
+[4](bool) Covers floor 
+[3](bool) blocks light
+[3](bool) blocks wind
+
+[Design]
+>Textbox[~]
+ -Header[/]
+ -Text[/]
+ -image[/]
+ -Text<Hyperlinks>
+>Image
+ -Hyperlinks

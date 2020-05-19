@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- [CLOSEBOARD FENCE] -->
+
+  <Closeboard.label>Забор</Closeboard.label>
+
+
+  <!-- [CLOSEBOARD GATE] -->
+
+  <CloseboardGate.label>Ворота</CloseboardGate.label>
+
+
+  <!-- [SOLID FENCE] -->
+
+  <Solid.label>Заборчик</Solid.label>
+
+
+  <!-- [SQUARE GATE] -->
+
+
+
+  <!-- [PICKET FENCE] -->
+
+  <Picket.label>Декоративный забор</Picket.label>
+
+  <!-- [ROUND GATE] -->
+
+
+
+  <!-- [FARM FENCE] -->
+
+  <Farm.label>Изгородь</Farm.label>
+
+
+  <!-- [FARM GATE] -->
+
+  <FarmGate.label>Ворота изгороди</FarmGate.label>
+
+  <!-- [BAR FENCE] -->
+
+  <Bar.label>Решётка</Bar.label>
+
+
+  <!-- [BAR GATE] -->
+
+  <BarGate.label>Решетчатые ворота</BarGate.label>
+
+
+  <!-- [TALL CHAINLINK FENCE] -->
+
+  <TallChainLink.label>Сетка Рабица</TallChainLink.label>
+
+
+  <!-- [CHAINLINK GATE] -->
+
+  <ChainlinkGate.label>Сетчатые ворота</ChainlinkGate.label>
+
+
+  <!-- [BRICK FENCE] -->
+
+  <ShortBrick.label>Кирпичный забор (низ.)</ShortBrick.label>
+
+
+  <!-- [FORTIFIED BRICK FENCE] -->
+
+  <TallBrick.label>Кирпичный забор (выс.)</TallBrick.label>
+
+</LanguageData>

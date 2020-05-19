@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Gemstones</name>
+	<author>Zylle</author>	
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>zylle.Gemstones</packageId>
+	<description>
+More gemstones for more sparkly bases!
+
+Semiprecious stones: amethyst, chalcedony, citrine, garnet, lapis, quartz, serpentine, and turquoise. Stats are similar to vanilla jade. These gems can be mined, purchased, or deep drilled. 
+
+Precious stones: diamond, emerald, ruby, and sapphire. These are rare, valuable, and beautiful. Precious stones cannot be found as surface ore, but only deep drilled or traded for.
+
+Royalty compatibility provided by Shackleberry
+
+Github: https://github.com/Zylleon/Gemstones/releases/latest
+Support me: https://ko-fi.com/zylleon
+Discord: https://discord.gg/4EFv76C]Discord
+My other mods: https://steamcommunity.com/profiles/76561197998830956/myworkshopfiles/?appid=294100
+
+</description>
+</ModMetaData>
+

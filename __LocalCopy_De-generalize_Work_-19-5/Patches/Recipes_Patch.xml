@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef/recipeMaker[workSpeedStat="GeneralLaborSpeed" and (effectWorking="Smith" or effectWorking="Smelt" or effectWorking="Cook") and recipeUsers[li="TableMachining" or li="ElectricSmithy" or li="FueledSmithy"]]/workSpeedStat</xpath>
+		<value>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef/recipeMaker[workSpeedStat="GeneralLaborSpeed" and effectWorking="Tailor" and recipeUsers[li="ElectricTailoringBench" or li="HandTailoringBench"]]/workSpeedStat</xpath> <!--Tailored items at crafting spots could be a problem-->
+		<value>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[workSpeedStat="GeneralLaborSpeed" and effectWorking="Tailor"]/workSpeedStat</xpath>
+		<value>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef/recipeMaker[workSpeedStat="GeneralLaborSpeed" and effectWorking="Sculpt" and recipeUsers[li="TableSculpting"]]/workSpeedStat</xpath>
+		<value>
+			<workSpeedStat>SculptingSpeed</workSpeedStat>
+		</value>
+	</Operation>
+</Patch>

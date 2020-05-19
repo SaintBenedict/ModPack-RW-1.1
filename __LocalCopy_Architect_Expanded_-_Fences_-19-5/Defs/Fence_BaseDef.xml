@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase" Name="FenceBase" Abstract="true">
+        <designationCategory>Structure</designationCategory>
+        <thingClass>Building</thingClass>
+        <altitudeLayer>Building</altitudeLayer>
+        <rotatable>false</rotatable>
+        <holdsRoof>false</holdsRoof>
+        <blockWind>false</blockWind>
+        <coversFloor>false</coversFloor>
+        <blockLight>false</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <neverMultiSelect>true</neverMultiSelect>
+        <!--<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>-->
+        <placingDraggableDimensions>1</placingDraggableDimensions>
+        <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>        
+        <pathCost>60</pathCost>
+        <passability>Impassable</passability>  
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+                <rect>(0,0.296875,0.796875,0.503125)</rect>
+            </damageData>
+            <linkType>Basic</linkType>
+        </graphicData>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+            <isInert>true</isInert>
+            <ai_chillDestination>false</ai_chillDestination>
+        </building>
+        <damageMultipliers>
+            <li>
+                <damageDef>Bomb</damageDef>
+                <multiplier>2</multiplier>
+            </li>
+        </damageMultipliers>
+        <statBases>
+            <Beauty>0</Beauty>
+        </statBases>      
+    </ThingDef>
+</Defs>

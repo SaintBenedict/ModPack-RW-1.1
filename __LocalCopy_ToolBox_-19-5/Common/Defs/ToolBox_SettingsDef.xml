@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ToolBox.SettingsDef>
+		<defName>ToolBoxHome</defName>
+		<label>Home</label>
+		<position>0.5</position>
+		<level>Top</level>
+		<design>
+			<textBox>
+				<li>
+					<x>496</x>
+					<leftMargin>10</leftMargin>
+					<topMargin>10</topMargin>
+					<width>170</width>
+					<height>215</height>
+					<image>
+						<li>
+							<height>150</height>
+							<scale>1</scale>
+							<path>ToolboxIconWithLabel</path>
+						</li>
+					</image>
+					<label>
+						<li>
+							<x>26.2</x>
+							<y>154</y>
+							<!--<center>true</center>-->
+							<width>100</width>
+							<text><![CDATA[    <color=#FFD800>Author: Nif Version: 1.0.2.0</color>]]></text>
+						</li>
+					</label>
+				</li>
+				<li>
+					<x>496</x>
+					<y>223</y>
+					<leftMargin>10</leftMargin>
+					<topMargin>10</topMargin>
+					<width>170</width>
+					<height>130</height> <!--359 to reach bottom -->
+					<label>
+						<li>
+							<x>17</x>
+							<fontSize>Medium</fontSize>
+							<text><![CDATA[<color=#FFA3AD>Support me!</color>]]></text>
+						</li>
+						<li>
+							<x>52</x>
+							<y>63</y>
+							<text>Ko-fi.com/nifity</text>
+						</li>
+					</label>
+					<line>
+						<li>
+							<y>37</y>
+						</li>
+					</line>
+					<image>
+						<li>
+							<y>50</y>
+							<width>50</width>
+							<height>50</height>
+							<path>Kofi</path>
+						</li>
+					</image>
+				</li>
+				<li>
+					<width>488</width>
+					<height>720</height>
+					<label>
+						<li>
+							<y>30</y>
+							<text>ToolBox is an XML based framework, designed for making mod settings that allow changes to ThingDef properties. Examples: cost, hitpoints, beauty, etc. It can also be used to provide a guide or information regarding a mod. It currently has 10 property widgets that can be applied to a ThingDef, and will continue to expand in the future.</text>
+						</li>
+						<li>
+							<y>160</y>
+							<text>Mods that uses ToolBox will have default ThingDef properties and is labeled based on what is it is. However, there may be instances when a mod has relabeled the widgets. Example: Fill is labeled as Cover. There are also varying update types to a property, such as Cost requiring a game restart while Beauty updates after change. Live is colored green, purple is reload, while red is restart. </text>
+						</li>
+						<li>
+							<y>272.5</y>
+							<x>27</x>
+							<text>Properties		         Description</text>
+						</li>
+						<!--Green: #1CE733 / Purple: BA4FFE-->
+						<li>
+							<y>300</y>
+							<width>120</width>
+							<text><![CDATA[           <color=#FF4E4E>Cost</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>300</y>
+							<text>amount of resources needed to construct.</text>
+						</li>
+						<li>
+							<y>330</y>
+							<text><![CDATA[         <color=#1CE733>Beauty</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>330</y>
+							<text>rate of how enjoyable an object is to look at.</text>
+						</li>
+						<li>
+							<y>360</y>
+							<text><![CDATA[        <color=#1CE733>BaseHP</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>360</y>
+							<text>base MaxHP of an object, multiplied with the material.</text>
+						</li>
+						<li>
+							<y>390</y>
+							<text><![CDATA[            <color=#1CE733>Fill</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>390</y>
+							<text>percent of cover an object provides.</text>
+						</li>
+						<li>
+							<y>420</y>
+							<text><![CDATA[           <color=#1CE733>Path</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>420</y>
+							<text>reduction of movement to pass through an object.</text>
+						</li>
+						<li>
+							<y>450</y>
+							<text><![CDATA[     <color=#1CE733>Flammability</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>450</y>
+							<text>rate of how likely and strong an object burns.</text>
+						</li>
+						<li>
+							<y>480</y>
+							<text><![CDATA[           <color=#1CE733>Work</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>480</y>
+							<text>time it takes to build an object based on gameticks.</text>
+						</li>
+						<li>
+							<y>510</y>
+							<text><![CDATA[      <color=#1CE733>Passability</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>510</y>
+							<text>an object's state of being passable.</text>
+						</li>
+						<li>
+							<y>540</y>
+							<text><![CDATA[           <color=#BA4FFE>Roof</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>540</y>
+							<text>an object's roofing mode.</text>
+						</li>
+						<li>
+							<y>570</y>
+							<text><![CDATA[           <color=#BA4FFE>Link</color>]]></text>
+						</li>
+						<li>
+							<x>128</x>
+							<y>570</y>
+							<text>type of link an object can connect to.</text>
+						</li>
+					</label>
+					<line>
+						<li>
+							<lineType>Vertical</lineType>
+							<x>120</x>
+							<y>270</y>
+							<length>325</length>
+						</li>
+						<li>
+							<y>270</y>
+						</li>
+						<li>
+							<y>295</y>
+						</li>
+						<li>
+							<y>325</y>
+						</li>
+						<li>
+							<y>355</y>
+						</li>
+						<li>
+							<y>385</y>
+						</li>
+						<li>
+							<y>415</y>
+						</li>
+						<li>
+							<y>445</y>
+						</li>
+						<li>
+							<y>475</y>
+						</li>
+						<li>
+							<y>505</y>
+						</li>
+						<li>
+							<y>535</y>
+						</li>
+						<li>
+							<y>565</y>
+						</li>
+						<li>
+							<y>595</y>
+						</li>
+					</line>
+					<image>
+						<li>
+							<height>27</height>
+							<scale>1</scale>
+							<path>Details</path>
+						</li>
+						<li>
+							<y>130</y>
+							<height>27</height>
+							<scale>1</scale>
+							<path>Properties</path>
+						</li>
+					</image>
+				</li>
+			</textBox>
+		</design>
+	</ToolBox.SettingsDef>
+</Defs>

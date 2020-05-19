@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- ============[WOOD SECTION]============== -->
+
+  <!-- [CLOSEBOARD FENCE] -->
+
+  <Closeboard.label>cerca alta</Closeboard.label>
+  <Closeboard.description>Uma cerca alta e resistente, grande o suficiente para ser considerada uma parede.</Closeboard.description>
+  <Closeboard_Blueprint.label>cerca alta (projeto)</Closeboard_Blueprint.label>
+  <Closeboard_Frame.label>Closeboard Fence (construção)</Closeboard_Frame.label>
+  <Closeboard_Frame.description>Uma cerca alta e resistente, grande o suficiente para ser considerada uma parede.</Closeboard_Frame.description>
+
+  <!-- [CLOSEBOARD GATE] -->
+
+  <CloseboardGate.label>portão alto</CloseboardGate.label>
+  <CloseboardGate.description>Um portão alto e resistente, tão alto quanto o equivalente da cerca.</CloseboardGate.description>
+  <CloseboardGate_Blueprint.label>portão alto (projeto)</CloseboardGate_Blueprint.label>
+  <CloseboardGate_Frame.label>portão alto (construção)</CloseboardGate_Frame.label>
+  <CloseboardGate_Frame.description>Um portão alto e resistente, tão alto quanto o equivalente da cerca.</CloseboardGate_Frame.description>
+
+<!-- [FARM FENCE] -->
+
+  <Farm.label>cerca de fazenda</Farm.label>
+  <Farm.description>Uma cerca de fazenda capaz de conter até os mais sábios thrumbos.</Farm.description>
+  <Farm_Blueprint.label>cerca de fazenda (projeto)</Farm_Blueprint.label>
+  <Farm_Frame.label>cerca de fazenda (construção)</Farm_Frame.label>
+  <Farm_Frame.description>Uma cerca de fazenda capaz de conter até os mais sábios thrumbos.</Farm_Frame.description>
+
+  <!-- [FARM GATE] -->
+
+  <FarmGate.label>portão de fazenda</FarmGate.label>
+  <FarmGate.description>Um portão de fazenda capaz de conter até os mais sábios de thrumbos.</FarmGate.description>
+  <FarmGate_Blueprint.label>portão de fazenda (projeto)</FarmGate_Blueprint.label>
+  <FarmGate_Frame.label>portão de fazenda (construção)</FarmGate_Frame.label>
+  <FarmGate_Frame.description>Um portão de fazenda capaz de conter até os mais sábios de thrumbos.</FarmGate_Frame.description>>
+
+  <!-- [SOLID FENCE] -->
+
+  <Solid.label>cerca sólida</Solid.label>
+  <Solid.description>Uma cerca feita de tábuas arredondadas, alta o suficiente para manter os coelhos afastados.</Solid.description>
+  <Solid_Blueprint.label>cerca sólida (projeto)</Solid_Blueprint.label>
+  <Solid_Frame.label>cerca sólida (construção)</Solid_Frame.label>
+  <Solid_Frame.description>Uma cerca feita de tábuas arredondadas, alta o suficiente para manter os coelhos afastados.</Solid_Frame.description>
+
+  <!-- [PICKET FENCE] -->
+
+  <Picket.label>cerca de piquete</Picket.label>
+  <Picket.description>Uma cerca decorativa para mostrar seu lado mais verde da terra.</Picket.description>
+  <Picket_Blueprint.label>cerca de piquete (projeto)</Picket_Blueprint.label>
+  <Picket_Frame.label>cerca de piquete (construção)</Picket_Frame.label>
+  <Picket_Frame.description>Uma cerca decorativa para mostrar seu lado mais verde da terra.</Picket_Frame.description>
+
+  <!-- [ROUND GATE] -->
+
+  <RoundGate.label>portão arredondado</RoundGate.label>
+  <RoundGate.description>Um pequeno portão com topo arredondado.</RoundGate.description>
+  <RoundGate_Blueprint.label>portão arredondado (projeto)</RoundGate_Blueprint.label>
+  <RoundGate_Frame.label>portão arredondado (construção)</RoundGate_Frame.label>
+  <RoundGate_Frame.description>Um pequeno portão com topo arredondado.</RoundGate_Frame.description>
+
+<!-- [SQUARE GATE] -->
+
+<SquareGate.label>portão quadrado</SquareGate.label><SquareGate.description>Um pequeno portão quadrado.</SquareGate.description>
+<SquareGate_Blueprint.label>portão quadrado (projeto)</SquareGate_Blueprint.label>
+  <SquareGate_Frame.label>portão quadrado (construção)</SquareGate_Frame.label>
+  <SquareGate_Frame.description>Um pequeno portão quadrado.</SquareGate_Frame.description>
+ 
+     
+<!-- ============[METAL SECTION]============== -->
+
+ 
+ <!-- [BAR FENCE] -->
+
+  <Bar.label>cerca de barra</Bar.label>
+  <Bar.description>Uma cerca muito restritiva usada para dividir terras.</Bar.description>
+  <Bar_Blueprint.label>cerca de barra (projeto)</Bar_Blueprint.label>
+  <Bar_Frame.label>cerca de barra (construção)</Bar_Frame.label>
+  <Bar_Frame.description>Uma cerca muito restritiva usada para dividir terras.</Bar_Frame.description>
+
+  <!-- [BAR GATE] -->
+
+  <BarGate.label>portão de barra</BarGate.label>
+  <BarGate.description>Um portão muito restritivo usado para dividir terras.</BarGate.description>
+  <BarGate_Blueprint.label>portão de barra (projeto)</BarGate_Blueprint.label>
+  <BarGate_Frame.label>portão de barra (construção)</BarGate_Frame.label>
+  <BarGate_Frame.description>Um portão muito restritivo usado para dividir terras.</BarGate_Frame.description>
+
+  <!-- [TALL CHAINLINK FENCE] -->
+
+  <TallChainLink.label>cerca de arame</TallChainLink.label>
+  <TallChainLink.description>AUma cerca alta de arame que é fácil de atirar através dela.</TallChainLink.description>
+  <TallChainLink_Blueprint.label>cerca de arame (projeto)</TallChainLink_Blueprint.label>
+  <TallChainLink_Frame.label>cerca de arame (construção)</TallChainLink_Frame.label>
+  <TallChainLink_Frame.description>Uma cerca alta de arame que é fácil de atirar através dela.</TallChainLink_Frame.description>
+
+  <!-- [CHAINLINK GATE] -->
+
+  <ChainlinkGate.label>portão de arame</ChainlinkGate.label>
+  <ChainlinkGate.description>Um portão alta de arame que é fácil de atirar através dela.</ChainlinkGate.description>
+  <ChainlinkGate_Blueprint.label>portão de arame (projeto)</ChainlinkGate_Blueprint.label>
+  <ChainlinkGate_Frame.label>portão de arame (construção)</ChainlinkGate_Frame.label>
+  <ChainlinkGate_Frame.description>Um portão alta de arame que é fácil de atirar através dela.</ChainlinkGate_Frame.description>
+
+
+<!-- ============[STONE SECTION]============== -->
+
+
+  <!-- [BRICK FENCE] -->
+
+  <ShortBrick.label>cerca de tijolo (baixa)</ShortBrick.label>
+  <ShortBrick.description>Uma cerca curta e resistente que combina bem ao lado de caminhos ou cercas para canteiros de flores.</ShortBrick.description>
+  <ShortBrick_Blueprint.label>cerca de tijolo (baixa) (projeto)</ShortBrick_Blueprint.label>
+  <ShortBrick_Frame.label>Brick Fence (baixa) (construção)</ShortBrick_Frame.label>
+  <ShortBrick_Frame.description>Uma cerca curta e resistente que combina bem ao lado de caminhos ou cercas para canteiros de flores.</ShortBrick_Frame.description>
+
+  <!-- [FORTIFIED BRICK FENCE] -->
+
+  <TallBrick.label>cerca de tijolo (alta)</TallBrick.label>
+  <TallBrick.description>Uma cerca de pedra fortificada capaz de resistir a ataques.</TallBrick.description>
+  <TallBrick_Blueprint.label>cerca de tijolo (alta) (projeto)</TallBrick_Blueprint.label>
+  <TallBrick_Frame.label>cerca de tijolo (alta) (construção)</TallBrick_Frame.label>
+  <TallBrick_Frame.description>Uma cerca de pedra fortificada capaz de resistir a ataques.</TallBrick_Frame.description>
+
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<ArchitectExpandedFences.label>[AE] Cercas</ArchitectExpandedFences.label>
+
+<Closeboard.label>alta</Closeboard.label>
+						
+<Farm.label>fazenda</Farm.label>
+						
+<Solid.label>sólida</Solid.label>
+						
+<Picket.label>piquete</Picket.label>
+						
+<Bar.label>barra</Bar.label>
+						
+<TallChainLink.label>arame</TallChainLink.label>
+					
+<ShortBrick.label>tijolo (baixa)</ShortBrick.label>
+					
+<TallBrick.label>tijolo (alta)</TallBrick.label>
+
+</LanguageData>

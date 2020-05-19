@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ToolBox</name>
+	<author>Nif</author>
+	<packageId>Nif.ToolBox</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>ToolBox is an XML based framework, designed for making mod settings that allow changes to ThingDef properties. Examples: cost, hitpoints, beauty, etc. It can also be used to provide a guide or information regarding your mod. It currently has 10 property widgets that can be applied to a ThingDef, and will continue to expand in the future.</description>
+</ModMetaData>

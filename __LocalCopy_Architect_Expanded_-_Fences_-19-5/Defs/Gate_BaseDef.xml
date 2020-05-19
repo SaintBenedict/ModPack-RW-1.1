@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase" Name="GateBase" Abstract="True">
+		<designationCategory>Structure</designationCategory>
+		<thingClass>BuildLib.Building_Gate</thingClass>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<drawerType>RealtimeOnly</drawerType>
+		<useHitPoints>true</useHitPoints>
+	    <tickerType>Normal</tickerType>
+	    <blockLight>false</blockLight>
+	    <rotatable>false</rotatable>
+	    <holdsRoof>false</holdsRoof>
+		<pathCost>0</pathCost>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+	      	<damageData>
+        		<enabled>false</enabled>
+      		</damageData>
+		</graphicData>
+		<building>
+			<blueprintClass>BuildLib.Blueprint_Gate</blueprintClass>
+			<isInert>true</isInert>
+			<allowAutoroof>false</allowAutoroof>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      		<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+	      	<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+	      	<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+	      	<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		 <comps>
+	      	<li Class="CompProperties_Forbiddable"/>
+	    </comps>
+	    <placeWorkers>
+	      	<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+	    </placeWorkers>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+	<name>Leaf Like Life</name>
+	<author>Neceros</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>neceros.leaflikelife</packageId>
+	<description>Smokeleaf, but like real life. Rebalances smokeleaf so it's more immersive: slightly less addictive, and far less cancer prone.</description>
+</ModMetaData>

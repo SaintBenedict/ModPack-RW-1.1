@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<Manifest>
+    	<identifier>ToolBox</identifier>
+    	<version>1.0.0.0</version>
+	<showCrossPromotions>true</showCrossPromotions>
+</Manifest>

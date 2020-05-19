@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="FenceBase" Name="WoodFence" Abstract="True">
+        <soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>1</Flammability>
+            <WorkToBuild>135</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>3</costStuffCount> 
+    </ThingDef>
+
+    <ThingDef ParentName="FenceBase" Name="MetalFence" Abstract="True">
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>0.20</Flammability>
+            <WorkToBuild>150</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>3</costStuffCount> 
+         <researchPrerequisites>
+            <li>Smithing</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="FenceBase" Name="StoneFence" Abstract="True">
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <statBases>
+            <Flammability>0</Flammability>
+            <WorkToBuild>135</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>      
+        <repairEffect>ConstructDirt</repairEffect>
+        <costStuffCount>3</costStuffCount>
+        <researchPrerequisites>
+            <li>Stonecutting</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!--Combos-->
+    <ThingDef ParentName="FenceBase" Name="WoodMetalFence" Abstract="True">
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <graphicData>
+        	<graphicClass>Graphic_Appearances</graphicClass>
+        </graphicData>
+        <statBases>
+            <Flammability>1</Flammability>
+            <WorkToBuild>135</WorkToBuild>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>3</costStuffCount> 
+    </ThingDef>
+
+</Defs>

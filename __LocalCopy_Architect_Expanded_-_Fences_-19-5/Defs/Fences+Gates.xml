@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--
+        Note: linkFlag nums:
+        64 - used
+        128 - used
+        256 - used
+        512 - used
+        1024 - used
+        2048 - used
+        4096 - used
+        8192 - used
+        16384
+        32768
+        65536
+        /////
+        134217728‬
+        268435456‬
+        536870912‬
+        1073741824‬
+    -->
+
+	<!--============[WOOD SECTION]==============-->
+	<ThingDef ParentName="WoodMetalFence">
+        <defName>Closeboard</defName>
+        <label>Closeboard Fence</label>
+        <description>A tall sturdy fence big enough to be considered a wall.</description>
+        <pathCost>250</pathCost>
+        <blockLight>true</blockLight>
+        <costStuffCount>4</costStuffCount> 
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <statBases>
+            <MaxHitPoints>154</MaxHitPoints>
+        </statBases>
+        <fillPercent>1</fillPercent>
+        <uiIconPath>Things/Fences/Closeboard/Closeboard_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Closeboard</texPath>
+            <linkFlags>
+                <li>64</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Closeboard/Closeboard_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+    
+    <ThingDef ParentName="WoodMetalGate">
+        <defName>CloseboardGate</defName>
+        <label>Closeboard Gate</label>
+        <description>A tall sturdy gate as high as it's fence counterpart.</description>
+        <blockLight>true</blockLight>
+        <costStuffCount>5</costStuffCount>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <statBases>
+            <MaxHitPoints>154</MaxHitPoints>
+        </statBases>
+        <fillPercent>1</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Closeboard/CloseboardGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Closeboard/CloseboardGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Closeboard/CloseboardGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <!--Div-->
+
+    <ThingDef ParentName="WoodMetalFence">
+        <defName>Farm</defName>
+        <label>Farm Fence</label>
+        <description>A farm fence capable of restraining even the wisest of Thrumbos.</description>
+        <statBases>
+            <MaxHitPoints>77</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.20</fillPercent>
+        <uiIconPath>Things/Fences/Farm/Farmfence_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Farm</texPath>
+            <linkFlags>
+                <li>512</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Farm/Farmfence_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="WoodMetalGate">
+        <defName>FarmGate</defName>
+        <label>Farm Gate</label>
+        <description>A farm gate capable of restraining even the wisest of Thrumbos.</description>
+        <statBases>
+            <MaxHitPoints>77</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.20</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Farm/FarmGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Farm/FarmGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Farm/FarmGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <!--Div-->
+
+    <ThingDef ParentName="WoodFence">
+        <defName>Solid</defName>
+        <label>Solid Fence</label>
+        <description>A fence made of rounded planks, high enough to keep rabbits at bay.</description>
+        <statBases>
+            <MaxHitPoints>108</MaxHitPoints>
+            <WorkToBuild>140</WorkToBuild>
+        </statBases>
+        <fillPercent>0.45</fillPercent>
+        <uiIconPath>Things/Fences/Solid/Solidfence_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Solid/Solidfence</texPath>
+            <linkFlags>
+                <li>128</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Solid/Solidfence_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="WoodMetalFence">
+        <defName>Picket</defName>
+        <label>Picket Fence</label>
+        <description>A decorative fence to show off your greener side of land.</description>
+        <costStuffCount>2</costStuffCount> 
+        <statBases>
+            <MaxHitPoints>61</MaxHitPoints>
+            <WorkToBuild>140</WorkToBuild>
+        </statBases>
+        <fillPercent>0.25</fillPercent>
+        <uiIconPath>Things/Fences/Picket/Picketfence_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Picket</texPath>
+            <linkFlags>
+                <li>256</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Picket/Picketfence_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="AllMaterialFence">
+        <defName>RoundGate</defName>
+        <label>Round Gate</label>
+        <description>A small top-rounded gate.</description>
+        <statBases>
+            <MaxHitPoints>108</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.40</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Round/RoundGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Round/RoundGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Round/RoundGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="AllMaterialFence">
+        <defName>SquareGate</defName>
+        <label>Square Gate</label>
+        <description>A small square gate.</description>
+        <statBases>
+            <MaxHitPoints>108</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.40</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Square/SquareGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Square/SquareGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Square/SquareGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!--============[METAL SECTION]==============-->
+    <ThingDef ParentName="MetalFence">
+        <defName>Bar</defName>
+        <label>Bar Fence</label>
+        <description>A very restrictive fence used to divide lands.</description>
+        <pathCost>230</pathCost>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.20</fillPercent>
+        <uiIconPath>Things/Fences/Bar/Barfence_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Bar/Barfence</texPath>
+            <linkFlags>
+                <li>1024</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Bar/Barfence_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="MetalGate">
+        <defName>BarGate</defName>
+        <label>Bar Gate</label>
+        <description>A very restrictive gate used to divide lands.</description>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.20</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Bar/BarGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Bar/BarGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Bar/BarGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <!--Div-->
+
+    <ThingDef ParentName="MetalFence">
+        <defName>TallChainLink</defName>
+        <label>Chainlink Fence</label>
+        <description>A tall steel grated fence that is easy to shoot through.</description>
+        <pathCost>200</pathCost>
+        <statBases>
+            <MaxHitPoints>130</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.10</fillPercent>
+        <uiIconPath>Things/Fences/Chainlink/Chainlinkfence_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Chainlink/Chainlinkfence</texPath>
+            <linkFlags>
+                <li>2048</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+        	<blueprintGraphicData>
+            	<texPath>Things/Fences/Chainlink/Chainlinkfence_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="MetalGate">
+        <defName>TallChainlinkGate</defName>
+        <label>Chainlink Gate</label>
+        <description>A tall steel grated gate that is easy to shoot through.</description>
+        <statBases>
+            <MaxHitPoints>130</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.10</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Chainlink/ChainlinkGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Chainlink/ChainlinkGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Chainlink/ChainlinkGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <!--============[STONE SECTION]==============-->
+    <ThingDef ParentName="StoneFence">
+        <defName>ShortBrick</defName>
+        <label>Brick Fence (short)</label>
+        <description>A short and sturdy fence that blends nicely beside paths or fencing for flowerbeds.</description>
+        <pathCost>40</pathCost>
+        <statBases>
+            <MaxHitPoints>130</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.20</fillPercent>
+        <uiIconPath>Things/Fences/Brick/Brickfence(short)_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Brick/Brickfence(short)</texPath>
+            <linkFlags>
+                <li>4096</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Brick/Brickfence(short)_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="StoneFence">
+        <defName>TallBrick</defName>
+        <label>Brick Fence (tall)</label>
+        <description>A fortified stone fence capable of withstanding raids.</description>
+        <pathCost>265</pathCost>
+        <costStuffCount>4</costStuffCount>
+        <statBases>
+            <MaxHitPoints>154</MaxHitPoints>
+        </statBases>
+        <fillPercent>1</fillPercent>
+        <uiIconPath>Things/Fences/Brick/Brickfence(tall)_icon</uiIconPath>
+        <graphicData>
+            <texPath>Things/Fences/Brick/Brickfence(tall)</texPath>
+            <linkFlags>
+                <li>8192</li>
+            </linkFlags>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Fences/Brick/Brickfence(tall)_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="StoneGate">
+        <defName>StoneGate</defName>
+        <label>Stone Gate</label>
+        <description>A fortified stone gate capable of withstanding raids.</description>
+        <costStuffCount>5</costStuffCount>
+        <statBases>
+            <MaxHitPoints>154</MaxHitPoints>
+        </statBases>
+        <fillPercent>1</fillPercent>
+        <graphicData>
+            <texPath>Things/Gates/Stone/StoneGate</texPath>
+        </graphicData>
+        <uiIconPath>Things/Gates/Stone/StoneGate_icon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Gates/Stone/StoneGate_blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,14 @@
+[Jan 9, 2020]
+-Make the category sect. adaptive to height. It should show the scrollbar when the items go beyond the window height.
+-Find a way to add attributes to tags.
+-Look up DefOf in modding wiki
+
+[Jan 12, 2020]
+Taal just erupted but work must continue!
+-Still haven't looked up DefOf. Do it!
+-After you've looked up DefOf, work on the labelCol.
+-Using labelCol, try and work on adjustability of the drawContent.
+
+[Jan 13, 2020]
+-Work on CostCol
+-Check if the class="class" is required in the drawContent <li>. If not, check if it's possible to override the drawContent class by doing <drawContent class="class">

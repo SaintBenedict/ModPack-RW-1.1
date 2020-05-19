@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- [WOOD SECTION] -->
+
+  <Closeboard.label>Holzwandzaun</Closeboard.label>
+  <Closeboard.description>Ein Holzzaun zum Schutz des Grundstücks.</Closeboard.description>
+  <Closeboard_Blueprint.label>Holzwandzaun (Entwurf)</Closeboard_Blueprint.label>
+  <Closeboard_Frame.label>Holzwandzaun (im Bau)</Closeboard_Frame.label>
+  <Closeboard_Frame.description>Ein Holzzaun zum Schutz des Grundstücks.</Closeboard_Frame.description>
+
+  <CloseboardGate.label>Holzwandzauntür</CloseboardGate.label>
+  <CloseboardGate.description>Eine Holzzauntür zum Schutz des Grundstücks.</CloseboardGate.description>
+  <CloseboardGate_Blueprint.label>Holzwandzauntür (Entwurf)</CloseboardGate_Blueprint.label>
+  <CloseboardGate_Frame.label>Holzwandzauntür (im Bau)</CloseboardGate_Frame.label>
+  <CloseboardGate_Frame.description>Holzzauntür zum Schutz des Grundstücks.</CloseboardGate_Frame.description>
+
+
+  <!-- Div -->
+
+  <Farm.label>Farmzaun</Farm.label>
+  <Farm.description>Ein Farmzaun, der selbst den klügsten Thrumbo zurückhalten kann</Farm.description>
+  <Farm_Blueprint.label>Farmzaun (Entwurf)</Farm_Blueprint.label>
+  <Farm_Frame.label>Farmzaun (im Bau)</Farm_Frame.label>
+  <Farm_Frame.description>Ein Farmzaun, der selbst den klügsten Thrumbo zurückhalten kann.</Farm_Frame.description>
+
+  <FarmGate.label>Farmzauntür</FarmGate.label>
+  <FarmGate.description>Eine Farmzauntür, die selbst den klügsten Thrumbo zurückhalten kann.</FarmGate.description>
+  <FarmGate_Blueprint.label>Farmzauntür (Entwurf)</FarmGate_Blueprint.label>
+  <FarmGate_Frame.label>Farmzauntür (im Bau)</FarmGate_Frame.label>
+  <FarmGate_Frame.description>Eine Farmzauntür, die selbst den klügsten Thrumbo zurückhalten kann.</FarmGate_Frame.description>
+
+  <Solid.label>Solider Holzzaun</Solid.label>
+  <Solid.description>Ein solider Holzzaun zum Schutz des Grundstücks.</Solid.description>
+  <Solid_Blueprint.label>Solider Holzzaun (Entwurf)</Solid_Blueprint.label>
+  <Solid_Frame.label>Solider Holzzaun (im Bau)</Solid_Frame.label>
+  <Solid_Frame.description>Ein solider Holzzaun zum Schutz des Grundstücks.</Solid_Frame.description>
+
+  <Picket.label>Dekorativer Holzzaun</Picket.label>
+  <Picket.description>Ein dekorativer Zaun, der deine grüne Seite des Lebens zur Geltung bringt.</Picket.description>
+  <Picket_Blueprint.label>Dekorativer Holzzaun (Entwurf)</Picket_Blueprint.label>
+  <Picket_Frame.label>Dekorativer Holzzaun  (im Bau)</Picket_Frame.label>
+  <Picket_Frame.description>Ein dekorativer Zaun, der deine grüne Seite des Lebens zur Geltung bringt.</Picket_Frame.description>
+
+  <RoundGate.label>Rundes Tor</RoundGate.label>
+  <RoundGate.description>Ein kleines aber feines rundes Tor.</RoundGate.description>
+  <RoundGate_Blueprint.label>Rundes Tor (Entwurf)</RoundGate_Blueprint.label>
+  <RoundGate_Frame.label>Rundes Tor (im Bau)</RoundGate_Frame.label>
+  <RoundGate_Frame.description>Ein kleines aber feines rundes Tor.</RoundGate_Frame.description>
+
+  <SquareGate.label>Quadratisches Tor</SquareGate.label>
+  <SquareGate.description>Ein kleines aber feines quadratisches Tor.</SquareGate.description>
+  <SquareGate_Blueprint.label>Quadratisches Tor (Entwurf)</SquareGate_Blueprint.label>
+  <SquareGate_Frame.label>Quadratisches Tor (im Bau)</SquareGate_Frame.label>
+  <SquareGate_Frame.description>Ein kleines aber freines quadratisches Tor.</SquareGate_Frame.description>
+
+
+  <!-- [METAL SECTION] -->
+
+  <Bar.label>Metallstangenzaun</Bar.label>
+  <Bar.description>Ein sehr restriktiver Zaun, der verwendet wird, um Land zu teilen ... oder als Gefängnisstangen.</Bar.description>
+  <Bar_Blueprint.label>Metallstangenzaun (Entwurf)</Bar_Blueprint.label>
+  <Bar_Frame.label>Metallstangenzaun (im Bau)</Bar_Frame.label>
+  <Bar_Frame.description>Ein sehr restriktiver Zaun, der verwendet wird, um Land zu teilen ... oder als Gefängnisstangen.</Bar_Frame.description>
+
+  <BarGate.label>Metallstangenzauntür</BarGate.label>
+  <BarGate.description>Eine sehr restriktive Zauntür, die verwendet wird, um Land zu teilen ... oder als Gefängnistür.</BarGate.description>
+  <BarGate_Blueprint.label>Metallstangenzauntür (Entwurf)</BarGate_Blueprint.label>
+  <BarGate_Frame.label>Metallstangenzauntür (im Bau)</BarGate_Frame.label>
+  <BarGate_Frame.description>Eine sehr restriktive Zauntür, die verwendet wird, um Land zu teilen ... oder als Gefängnistür.</BarGate_Frame.description>
+
+
+  <!-- Div -->
+
+  <TallChainLink.label>Stahlgitterzaun</TallChainLink.label>
+  <TallChainLink.description>Ein hoher Stahlgitterzaun, durch den man leicht hindurchschießen kann</TallChainLink.description>
+  <TallChainLink_Blueprint.label>Stahlgitterzaun (Entwurf)</TallChainLink_Blueprint.label>
+  <TallChainLink_Frame.label>Stahlgitterzaun (im Bau)</TallChainLink_Frame.label>
+  <TallChainLink_Frame.description>Ein hoher Stahlgitterzaun, durch den man leicht hindurchschießen kann.</TallChainLink_Frame.description>
+
+  <TallChainlinkGate.label>Stahlgitterzauntür</TallChainlinkGate.label>
+  <TallChainlinkGate.description>Eine hohe Stahlgitterzauntür, durch die man leicht hindurchschießen kann.</TallChainlinkGate.description>
+  <TallChainlinkGate_Blueprint.label>Stahlgitterzauntür (Entwurf)</TallChainlinkGate_Blueprint.label>
+  <TallChainlinkGate_Frame.label>Stahlgitterzauntür (im Bau)</TallChainlinkGate_Frame.label>
+  <TallChainlinkGate_Frame.description>Eine hohe Stahlgitterzauntür, durch die man leicht hindurchschießen kann.</TallChainlinkGate_Frame.description>
+
+  <!-- [STONE SECTION] -->
+
+  <ShortBrick.label>Steinzaun (Tief)</ShortBrick.label>
+  <ShortBrick.description>Ein kurzer und stabiler Zaun aus Stein, der sich gut in die Landschaft einfügt.</ShortBrick.description>
+  <ShortBrick_Blueprint.label>Steinzaun (Tief) (Entwurf)</ShortBrick_Blueprint.label>
+  <ShortBrick_Frame.label>Steinzaun (Tief) (im Bau)</ShortBrick_Frame.label>
+  <ShortBrick_Frame.description>Ein kurzer und stabiler Zaun aus Stein, der sich gut in die Landschaft einfügt.</ShortBrick_Frame.description>
+
+  <TallBrick.label>Steinzaun (Hoch)</TallBrick.label>
+  <TallBrick.description>Ein befestigter Steinzaun, der Überfällen standhalten kann.</TallBrick.description>
+  <TallBrick_Blueprint.label>Steinzaun (Hoch) (Entwurf)</TallBrick_Blueprint.label>
+  <TallBrick_Frame.label>Steinzaun (Hoch) (im Bau)</TallBrick_Frame.label>
+  <TallBrick_Frame.description>Ein befestigter Steinzaun, der Überfällen standhalten kann.</TallBrick_Frame.description>
+
+  <StoneGate.label>Steintor</StoneGate.label>
+  <StoneGate.description>Ein befestigtes Steintor, das Überfällen standhalten kann.</StoneGate.description>
+  <StoneGate_Blueprint.label>Steintor (Entwurf)</StoneGate_Blueprint.label>
+  <StoneGate_Frame.label>Steintor (im Bau)</StoneGate_Frame.label>
+  <StoneGate_Frame.description>Ein befestigtes Steintor, das Überfällen standhalten kann.</StoneGate_Frame.description>
+
+
+</LanguageData>

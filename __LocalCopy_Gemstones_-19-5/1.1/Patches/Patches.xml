@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<!-- Add Jade to the new gemstone category -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Jade"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>Z_Gemstones</li>
+			</thingCategories>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+		<value>
+			<li>Z_MineableAmethyst</li>
+			<li>Z_MineableChalcedony</li>
+			<li>Z_MineableCitrine</li>
+			<li>Z_MineableGarnet</li>
+			<li>Z_MineableLapis</li>
+			<li>Z_MineableQuartz</li>
+			<li>Z_MineableSerpentine</li>
+			<li>Z_MineableTurquoise</li>
+		</value>
+	</Operation>
+
+	<!-- Royal tribute collector -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- Set favor value for jade -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Jade"]/statBases</xpath>
+					<value>
+						<RoyalFavorValue>0.005</RoyalFavorValue>
+					</value>
+				</li>
+
+				<!-- Add trade tag to jade -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Jade"]</xpath>
+					<value>
+						<tradeTags>
+							<li>Z_Gemstones_SemiPrecious</li>
+						</tradeTags>
+					</value>
+				</li>
+
+				<!-- Set favor value for diamond = 5x value of gold -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Z_Diamond"]/statBases</xpath>
+					<value>
+						<RoyalFavorValue>0.075</RoyalFavorValue>
+					</value>
+				</li>
+
+				<!-- Update trader to accept trade tag -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="Empire_Caravan_TributeCollector"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuyTradeTag">
+							<tag>Z_Gemstones_SemiPrecious</tag>
+						</li>
+						<li Class="StockGenerator_BuyTradeTag">
+							<tag>Z_Gemstones_Precious</tag>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

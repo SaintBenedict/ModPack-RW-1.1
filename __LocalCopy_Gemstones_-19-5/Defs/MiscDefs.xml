@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+	 <ThingCategoryDef>
+      <defName>Z_Gemstones</defName>
+      <label>gemstones</label>
+      <parent>ResourcesRaw</parent>
+      <iconPath>UI/Icons/Gemstones</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+	
+	
+
+</Defs>

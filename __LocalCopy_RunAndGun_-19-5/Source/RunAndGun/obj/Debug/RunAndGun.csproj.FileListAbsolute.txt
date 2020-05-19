@@ -1,0 +1,1 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RunAndGun\Source\RunAndGun\obj\Debug\RunAndGun.csprojAssemblyReference.cache
