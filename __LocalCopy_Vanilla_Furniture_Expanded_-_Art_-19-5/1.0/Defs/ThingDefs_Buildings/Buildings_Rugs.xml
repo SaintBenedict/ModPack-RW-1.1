@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedRug</defName>
+    <label>unfinished rug</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase" Name="RugBase" Abstract="True">
+    <thingClass>Building_Art</thingClass>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
+    <statBases>
+      <Flammability>1.0</Flammability>
+			<SellPriceFactor>1.10</SellPriceFactor>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Rug</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Rugs</li>
+		</researchPrerequisite>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <unfinishedThingDef>UnfinishedRug</unfinishedThingDef>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Jade</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  
+  
+  <!--================================ Rugs ======================================-->
+
+  <ThingDef ParentName="RugBase">
+    <defName>VFE_RugSmall</defName>
+    <label>small rug</label>
+    <description>A small size floor covering textile, decorated with artistic embroidery.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Art/Carpet/CarpetSmall</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <fillPercent>0.05</fillPercent>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>1</Mass>
+      <Beauty>14</Beauty>
+      <WorkToMake>14000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="RugBase">
+    <defName>VFE_RugLarge</defName>
+    <label>large rug</label>
+    <description>A large size floor covering textile, decorated with artistic embroidery.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Art/Carpet/CarpetMedium</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <fillPercent>0.05</fillPercent>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>3</Mass>
+      <Beauty>62</Beauty>
+      <WorkToMake>32000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>90</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="RugBase">
+    <defName>VFE_RugGrand</defName>
+    <label>grand rug</label>
+    <description>A huge floor covering textile that dominates a room, decorated with artistic embroidery.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Art/Carpet/CarpetLarge</texPath>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <fillPercent>0.05</fillPercent>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>120</Beauty>
+      <WorkToMake>70000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>140</costStuffCount>
+  </ThingDef>
+
+
+</Defs>

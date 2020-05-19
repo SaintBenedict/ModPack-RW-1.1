@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Plate Boots +++++ -->
+
+  <VAE_Footwear_PlateBoots.label>пластинчатые сапоги</VAE_Footwear_PlateBoots.label>
+  <VAE_Footwear_PlateBoots.description>Пара простых укрепленных металлом сапог. Из за веса замедляют пользователя.</VAE_Footwear_PlateBoots.description>
+
+
+  <!-- +++++ Marine Boots +++++ -->
+
+  <VAE_Footwear_MarineBoots.label>силовые ботинки</VAE_Footwear_MarineBoots.label>
+  <VAE_Footwear_MarineBoots.description>Ботинки космопехоты из пластали с сервомоторами помогающими быстрее передвигаться.</VAE_Footwear_MarineBoots.description>
+
+
+</LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TaleDef>
+    <defName>Tale_UsedPunchingBag</defName>
+    <label>used punching bag</label>
+    <taleClass>Tale_SinglePawnAndDef</taleClass>
+    <type>Volatile</type>
+    <defSymbol>OBJECT</defSymbol>
+    <baseInterest>0.3</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[PAWN_nameDef] taking out his anger on a [OBJECT_label]</li>
+        <li>tale_noun->[PAWN_nameDef] looking angrily at a [OBJECT_label]</li>
+        <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+        <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] punching the [OBJECT_label], [circumstance_group]</li>
+        <li>circumstance_phrase->tense with energy</li>
+        <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+        <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
+        <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
+        <li>circumstance_phrase->wrapping their hands in tape</li>
+        <li>circumstance_phrase->[angstyverb]</li>
+        <li>desc_sentence->A [Color] aurora shines in the background.</li>
+        <li>desc_sentence->In the distance, a [Community] is visible.</li>
+        <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+        <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
+        <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef>
+    <defName>Tale_UsedComputer</defName>
+    <label>used computer</label>
+    <taleClass>Tale_SinglePawnAndDef</taleClass>
+    <type>Volatile</type>
+    <defSymbol>OBJECT</defSymbol>
+    <baseInterest>0.3</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[PAWN_nameDef] focusing heavily on the [OBJECT_label] in front of them</li>
+        <li>tale_noun->[PAWN_nameDef] looking angrily at a [OBJECT_label]</li>
+        <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+        <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] typing heavily on the [OBJECT_label], [circumstance_group]</li>
+        <li>circumstance_phrase->concentrating</li>
+        <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+        <li>circumstance_phrase->leaning back in [PAWN_possessive] chair</li>
+        <li>desc_sentence->A [Color] aurora shines in the background.</li>
+        <li>desc_sentence->In the distance, a [Community] is visible.</li>
+        <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+        <li>desc_sentence->[PAWN_nameDef] focused on the screen.</li>
+        <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>

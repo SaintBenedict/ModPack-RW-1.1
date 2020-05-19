@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\bin\Release\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\bin\Release\ToggleBuildingDefOnPower.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Release\ToggleBuildingDefOnPower.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Release\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Release\ToggleBuildingDefOnPower.pdb

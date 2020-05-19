@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Nature's Pretty Sweet</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+			
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Gorilla"]/race/wildBiomes</xpath>
+				<value>
+					
+					<TKKN_RedwoodForest>0.03</TKKN_RedwoodForest>
+					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Jaguar"]/race/wildBiomes</xpath>
+				<value>					
+					
+					<TKKN_RedwoodForest>0.05</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Lemur"]/race/wildBiomes</xpath>
+				<value>	
+					<TKKN_RedwoodForest>0.01</TKKN_RedwoodForest>					
+				</value>
+			</li>	
+
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Tapir"]/race/wildBiomes</xpath>
+				<value>					
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+
+				</value>
+			</li>		
+		
+			
+			
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

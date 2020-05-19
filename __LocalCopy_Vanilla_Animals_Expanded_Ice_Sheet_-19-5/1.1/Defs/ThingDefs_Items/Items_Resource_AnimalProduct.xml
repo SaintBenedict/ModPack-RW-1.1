@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+  <!--=============================== Eggs ================================-->
+  <!--=====================================================================-->
+
+
+  <!-- Penguin -->
+  
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>AEXP_EggPenguinFertilized</defName>
+    <label>penguin egg (fert.)</label>
+    <description>A fertilized penguin egg. If all goes well, it should hatch into a baby penguin. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+      <color>(182,205,161)</color>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>19.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherPawn>AEXP_Penguin</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+	
+	
+  
+</Defs>

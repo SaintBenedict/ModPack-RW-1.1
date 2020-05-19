@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--  Light Marine Helmet  -->
+
+  <VAE_Headgear_LightMarineHelmet.label>ライトマリーンヘルメット</VAE_Headgear_LightMarineHelmet.label>
+  <VAE_Headgear_LightMarineHelmet.description>顔の下半分が露出しているにもかかわらず、着用者に高度な状況確認能力と防御を提供する、軽量のマリーン装甲ヘルメットです。\n\nこの種類のヘルメットは、主に銀河帝国の偵察隊によって使用されています。</VAE_Headgear_LightMarineHelmet.description>
+
+
+  <!--  Light Marine Armor  -->
+
+  <VAE_Apparel_LightMarineArmor.label>ライトマリーンアーマー</VAE_Apparel_LightMarineArmor.label>
+  <VAE_Apparel_LightMarineArmor.description>軽量の準パワーアーマーです。薄いプラスチール製の装甲板は、小口径の銃弾や近接攻撃を阻止するのに効果的であると同時に、着用者が素早く見つからずに移動可能になります。\n\nこの種類のパワーアーマーは、主に銀河帝国の偵察隊によって使用されています。</VAE_Apparel_LightMarineArmor.description>
+
+
+  <!--  Heavy Marine Helmet  -->
+
+  <VAE_Headgear_HeavyMarineHelmet.label>ヘビーマリーンヘルメット</VAE_Headgear_HeavyMarineHelmet.label>
+  <VAE_Headgear_HeavyMarineHelmet.description>二層式のプラスチール装甲板と、視覚用の覗き穴という弱点を取り除いたHUD付き内蔵カメラを備えた重装甲のマリーンヘルメットです。\n\nこの種類のヘルメットは、主に対メカノイド戦闘で銀河帝国の重装機動歩兵たちによって使用され、兵士を人の型をした戦車に変えます。</VAE_Headgear_HeavyMarineHelmet.description>
+
+
+  <!--  Heavy Marine Armor  -->
+
+  <VAE_Apparel_HeavyMarineArmor.label>ヘビーマリーンアーマー</VAE_Apparel_HeavyMarineArmor.label>
+  <VAE_Apparel_HeavyMarineArmor.description>重装甲のパワーアーマーです。二層式のプラスチール装甲板は、銃撃と爆発の両方に対して非常に効果的です。神経接続式動作補助システムを利用することで、人間がパワーアーマーを着た状態でも動きやすくなります。対爆風用のシールド装置が内臓されているため、着用者はロケット攻撃の直撃にも耐えることができます。\n\nこの種類のパワーアーマーは、主に対メカノイド戦闘で銀河帝国の重装機動歩兵たちによって使用され、兵士を人の型をした戦車に変えます。</VAE_Apparel_HeavyMarineArmor.description>
+
+</LanguageData>

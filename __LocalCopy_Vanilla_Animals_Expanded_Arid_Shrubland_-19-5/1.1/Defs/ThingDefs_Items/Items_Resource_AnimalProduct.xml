@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+  <!--=============================== Eggs ================================-->
+  <!--=====================================================================-->
+
+
+  <!-- Crocodile -->
+  
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>AEXP_EggCrocodileUnfertilized</defName>
+    <label>crocodile egg (unfert.)</label>
+    <description>An unfertilized crocodile egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(177,164,122)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>24.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>AEXP_EggCrocodileFertilized</defName>
+    <label>crocodile egg (fert.)</label>
+    <description>A fertilized crocodile egg. If all goes well, it should hatch into a crocodile. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(211,237,209)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>24.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+        <hatcherPawn>AEXP_Crocodile</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

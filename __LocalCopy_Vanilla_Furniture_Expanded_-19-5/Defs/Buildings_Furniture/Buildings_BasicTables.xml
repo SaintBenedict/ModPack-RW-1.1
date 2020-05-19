@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>Table_1x1c</defName>
+    <label>table (1x1)</label>
+    <graphicData>
+      <texPath>Things/Tables/Table1x1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+    </statBases>
+	<rotatable>false</rotatable>
+	<researchPrerequisites><li>MF_BasicFurniture</li></researchPrerequisites>
+    <size>(1,1)</size>
+    <costStuffCount>20</costStuffCount>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>Table_Counter</defName>
+    <label>countertop</label>
+	<description>A smooth, waist high surface for eating off of, commonly found in kitchens and bars.</description>
+    <graphicData>
+      <texPath>Things/Tables/Counter/Counter_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+	  <shaderType>CutoutComplex</shaderType>
+      <linkFlags>
+        <li>Custom6</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+	<uiIconPath>Things/Tables/Counter/Counter_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Things/Tables/Counter/Counter_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+    </statBases>
+	<placingDraggableDimensions>1</placingDraggableDimensions>
+	<rotatable>false</rotatable>
+	<researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
+    <size>(1,1)</size>
+    <costStuffCount>15</costStuffCount>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+
+</Defs>

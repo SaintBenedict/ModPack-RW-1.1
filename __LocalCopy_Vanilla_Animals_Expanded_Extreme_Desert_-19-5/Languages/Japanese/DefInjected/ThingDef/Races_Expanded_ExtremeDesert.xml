@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AEXP_Camel.label>フタコブラクダ</AEXP_Camel.label>
+  <AEXP_Camel.description>乾燥した環境に適応した大型の哺乳類。古くから、優れた断熱効果のある毛と革、栄養価のある乳が活用されてきました。駄載獣としても活用されますが、2つのこぶのせいで乗り心地は悪いです。/n/n特性上、数週間の間、水を飲まなくても生きることができます。</AEXP_Camel.description>
+  <AEXP_Camel.tools.0.label>左蹄</AEXP_Camel.tools.0.label>
+  <AEXP_Camel.tools.1.label>右蹄</AEXP_Camel.tools.1.label>
+  <AEXP_Camel.tools.3.label>頭</AEXP_Camel.tools.3.label>
+  <AEXP_Camel_Leather.label>ラクダの革</AEXP_Camel_Leather.label>
+  <AEXP_Camel_Leather.description>ラクダの革</AEXP_Camel_Leather.description>
+  <AEXP_Camel_Leather.stuffProps.stuffAdjective>ラクダの革</AEXP_Camel_Leather.stuffProps.stuffAdjective>
+  <AEXP_Camel_Meat.label>ラクダの肉</AEXP_Camel_Meat.label>
+  <AEXP_Camel_Meat.description>ラクダの肉</AEXP_Camel_Meat.description>
+  <AEXP_Camel_Corpse.label>フタコブラクダの死体</AEXP_Camel_Corpse.label>
+  <AEXP_Camel_Corpse.description>フタコブラクダの死体</AEXP_Camel_Corpse.description>
+  <AEXP_Rattlesnake.label>ガラガラヘビ</AEXP_Rattlesnake.label>
+  <AEXP_Rattlesnake.description>尻尾の先端が乳児の玩具のガラガラに似ていることから名付けられた非常に毒性の強いヘビ。尻尾から発せられる音は捕食者への威嚇として用いられ、威嚇が通用しない場合は、激痛を伴う猛毒を持つ牙で襲いかかります。</AEXP_Rattlesnake.description>
+  <AEXP_Rattlesnake.tools.0.label>毒牙</AEXP_Rattlesnake.tools.0.label>
+  <AEXP_Rattlesnake.tools.1.label>頭</AEXP_Rattlesnake.tools.1.label>
+  <AEXP_Rattlesnake_Leather.label>ガラガラヘビの革</AEXP_Rattlesnake_Leather.label>
+  <AEXP_Rattlesnake_Leather.description>ガラガラヘビの革</AEXP_Rattlesnake_Leather.description>
+  <AEXP_Rattlesnake_Leather.stuffProps.stuffAdjective>ガラガラヘビの革</AEXP_Rattlesnake_Leather.stuffProps.stuffAdjective>
+  <AEXP_Rattlesnake_Meat.label>ガラガラヘビの肉</AEXP_Rattlesnake_Meat.label>
+  <AEXP_Rattlesnake_Meat.description>ガラガラヘビの肉</AEXP_Rattlesnake_Meat.description>
+  <AEXP_Rattlesnake_Corpse.label>ガラガラヘビの死体</AEXP_Rattlesnake_Corpse.label>
+  <AEXP_Rattlesnake_Corpse.description>ガラガラヘビの死体</AEXP_Rattlesnake_Corpse.description>
+  <AEXP_Megascorpion.label>オオサソリ</AEXP_Megascorpion.label>
+  <AEXP_Megascorpion.description>遺伝子操作された巨大なサソリ。暗殺用に生み出され、野生のオオサソリを見ることは少ないです。針の先にある非常に強力な毒で、自身より大きな獲物を仕留めることができます。真社会性の動物で、単独で繁殖することができません。</AEXP_Megascorpion.description>
+  <AEXP_Megascorpion.tools.0.label>針</AEXP_Megascorpion.tools.0.label>
+  <AEXP_Megascorpion.tools.1.label>下顎</AEXP_Megascorpion.tools.1.label>
+  <AEXP_Megascorpion.tools.2.label>頭</AEXP_Megascorpion.tools.2.label>
+  <AEXP_Megascorpion_Corpse.label>オオサソリの死体</AEXP_Megascorpion_Corpse.label>
+  <AEXP_Megascorpion_Corpse.description>オオサソリの死体</AEXP_Megascorpion_Corpse.description>
+</LanguageData>

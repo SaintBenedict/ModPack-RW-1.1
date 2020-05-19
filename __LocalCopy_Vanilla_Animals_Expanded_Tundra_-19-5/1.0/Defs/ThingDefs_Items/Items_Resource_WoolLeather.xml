@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+    <!-- ======================= Musk Ox =============================== -->
+
+<ThingDef ParentName="WoolBase">
+    <defName>AEXP_MuskOxWool</defName>
+    <label>musk ox wool</label>
+    <description>The inner wool of the muskox, originally known in Inuktitut as Qiviuq. Stronger and warmer than sheep's wool, and softer than cashmere wool.</description>
+    <graphicData>
+		<color>(94,76,66)</color>
+    </graphicData>	
+	<statBases>
+		<MarketValue>7.2</MarketValue>
+		  <StuffPower_Armor_Sharp>0.96</StuffPower_Armor_Sharp>
+		  <StuffPower_Insulation_Cold>39</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+    </statBases>	
+    <stuffProps>
+		<color>(94,76,66)</color>
+	  <commonality>0.02</commonality>
+	</stuffProps>
+</ThingDef>
+
+
+
+  
+
+</Defs>

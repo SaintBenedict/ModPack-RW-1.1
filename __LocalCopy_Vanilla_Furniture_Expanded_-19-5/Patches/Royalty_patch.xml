@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== Royalty Bed ========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/RoyalTitleDef[defName = "Esquire" or defName = "Knight" or defName = "Praetor" or defName = "Baron" or defName = "Count" or defName = "Duke" or defName = "Consul" or defName = "Stellarch" or defName = "Emperor"]/bedroomRequirements/li[@Class = "RoomRequirement_ThingAnyOf"]/things</xpath>
+		<value>
+			<li>Bed_Kingsize</li>
+			<li>Bed_DoubleErgonomic</li>
+		</value>
+	</Operation>
+
+	<!-- ========== Royalty end table/dresser ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/RoyalTitleDef[defName = "Esquire" or defName = "Knight" or defName = "Praetor" or defName = "Baron" or defName = "Count" or defName = "Duke" or defName = "Consul" or defName = "Stellarch" or defName = "Emperor"]/bedroomRequirements/li[@Class = "RoomRequirement_Thing"][thingDef[text()="EndTable"]]</xpath>
+		<value>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+					<li>EndTable</li>
+					<li>Table_RoyalEndTable</li>
+				</things>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/RoyalTitleDef[defName = "Esquire" or defName = "Knight" or defName = "Praetor" or defName = "Baron" or defName = "Count" or defName = "Duke" or defName = "Consul" or defName = "Stellarch" or defName = "Emperor"]/bedroomRequirements/li[@Class = "RoomRequirement_Thing"][thingDef[text()="Dresser"]]</xpath>
+		<value>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+					<li>Dresser</li>
+					<li>Table_RoyalDresser</li>
+				</things>
+			</li>
+		</value>
+	</Operation>
+</Patch>

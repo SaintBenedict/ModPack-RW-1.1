@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla Furniture Expanded - Spacer Module</name>
+  <author>OskarPotocki, Atlas</author>
+  <supportedVersions>
+  <li>1.0</li>
+  <li>1.1</li>
+  </supportedVersions>
+  <packageId>VanillaExpanded.VFESpacer</packageId>
+  <description>
+    Vanilla Furniture Expanded - Spacer module adds several new pieces of furniture to allow players to witness better technological progress in regards to comfort and utility furniture. Repair shelves, Biolab sunlamps and reinforced walls will spice your colony up, whilst illuminated dressers and end tables as well as advanced beds will provide your pawns with highest possible comfort silver can buy.
+  </description>
+</ModMetaData>

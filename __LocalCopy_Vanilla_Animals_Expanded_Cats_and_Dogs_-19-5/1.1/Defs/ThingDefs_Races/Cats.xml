@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==========================CatAbyssinian============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatAbyssinian</defName>
+		<label>abyssinian cat</label>
+		<description>A slender, fine-boned, medium sized shrubland cat.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatAbyssinian</defName>
+		<label>abyssinian cat</label>
+		<race>AEXP_CatAbyssinian</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>abyssinian kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatAbyssinian/CatAbyssinian</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatAbyssinian/CatAbyssinian</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatAbyssinian/CatAbyssinian</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatBengal============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatBengal</defName>
+		<label>bengal cat</label>
+		<description>A domesticated hybrid of a domestic cat and tropical leopard.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatBengal</defName>
+		<label>bengal cat</label>
+		<race>AEXP_CatBengal</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>bengal kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBengal/CatBengal</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBengal/CatBengal</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBengal/CatBengal</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatBritishShorthair============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatBritishShorthair</defName>
+		<label>british shorthair cat</label>
+		<description>A pedigreed version of a regular british cat, with a distinctively chunky body, dense coat and a very broad face. While being relatively powerful-looking due to the large chest and massive paws, these cats are absolutely harmless.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatBritishShorthair</defName>
+		<label>british shorthair cat</label>
+		<race>AEXP_CatBritishShorthair</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>british shorthair kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBritishShorthair/CatBritishShorthair</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBritishShorthair/CatBritishShorthair</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatBritishShorthair/CatBritishShorthair</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatMaineCoon============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatMaineCoon</defName>
+		<label>maine coon</label>
+		<description>A largest domesticated cat, it has a distinctive physical appearance and valuable hunting skills. It's a large and sociable cat, hence it has been given a nickname "the gentle giant."</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>750</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>1.25</maxPreyBodySize>
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>1.07</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatMaineCoon</defName>
+		<label>maine coon</label>
+		<race>AEXP_CatMaineCoon</race>
+		<combatPower>55</combatPower>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>maine coon kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMaineCoon/CatMaineCoon</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMaineCoon/CatMaineCoon</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMaineCoon/CatMaineCoon</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatMunchkin============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatMunchkin</defName>
+		<label>munchkin cat</label>
+		<description>Also known as a sausage cat, this new cat breed has distinctively short legs. Sweet natured, playful and people-oriented, these cats are perfect companions for people with lazy lifestyle.</description>
+		<statBases>
+			<MoveSpeed>3.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.22</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatMunchkin</defName>
+		<label>munchkin cat</label>
+		<race>AEXP_CatMunchkin</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>munchkin kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMunchkin/CatMunchkin</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMunchkin/CatMunchkin</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatMunchkin/CatMunchkin</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================NorwegianForestCat============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatNorwegianForest</defName>
+		<label>norwegian forest cat</label>
+		<description>A cat adapted for very cold climates due to the top coat of glossy, water-shedding hair.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.355</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<useMeatFrom>Cat</useMeatFrom>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatNorwegianForest</defName>
+		<label>norwegian forest cat</label>
+		<race>AEXP_CatNorwegianForest</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>norwegian forest kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatNorwegian/CatNorwegian</texPath>
+					<drawSize>0.7</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatNorwegian/CatNorwegian</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatNorwegian/CatNorwegian</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatPersian============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatPersian</defName>
+		<label>persian cat</label>
+		<description>A long haired cat originating from desert wildcats, Persian cats are regal, intelligent and agile, which makes them excellent for hunting small rodents and birds.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatPersian</defName>
+		<label>persian cat</label>
+		<race>AEXP_CatPersian</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>persian kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatPersian/CatPersian</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatPersian/CatPersian</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatPersian/CatPersian</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatSiamese============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatSiamese</defName>
+		<label>siamese cat</label>
+		<description>A cat with distinctively triangular head, blue eyes and long and muscular body, renowned for it's social nature.</description>
+		<statBases>
+			<MoveSpeed>5.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<useMeatFrom>Cat</useMeatFrom>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatSiamese</defName>
+		<label>siamese cat</label>
+		<race>AEXP_CatSiamese</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>siamese kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSiamese/CatSiamese</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSiamese/CatSiamese</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSiamese/CatSiamese</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatSomali============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatSomali</defName>
+		<label>somali cat</label>
+		<description>A shrubland cat, sharing the same family as the Abyssinian cat. It has a bushy tail and almond shaped eyes.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<useMeatFrom>Cat</useMeatFrom>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatSomali</defName>
+		<label>somali cat</label>
+		<race>AEXP_CatSomali</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>somali kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSomali/CatSomali</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSomali/CatSomali</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSomali/CatSomali</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ==========================CatSphynx============================ -->
+
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>AEXP_CatSphynx</defName>
+		<label>sphynx cat</label>
+		<description>A cat known for it's lack of fur, developed due to selective breeding. Being warm to the touch, they lose body temperature easily which makes it seek out heat sources.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.255</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.2</wildness>
+			<petness>1</petness>
+			<trainability>None</trainability>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_CatSphynx</defName>
+		<label>sphynx cat</label>
+		<race>AEXP_CatSphynx</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>sphynx kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSphynx/CatSphynx</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSphynx/CatSphynx</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/CatSphynx/CatSphynx</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

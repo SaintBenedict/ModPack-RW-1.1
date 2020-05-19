@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VAE_LeatherTanning</defName>
+		<label>leather tanning</label>
+		<description>Learn the process of tanning to craft more thicker and durable armors.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VAE_HazardProtection</defName>
+		<label>hazard protection</label>
+		<description>Develop suits resistant to high toxicity and radiation.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VAE_MilitaryClothing</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VAE_MlitaryCamouflage</defName>
+		<label>miltary camouflage</label>
+		<description>Craft special military apparel allowing users to resemble the background environment such as foliage.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VAE_MilitaryClothing</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

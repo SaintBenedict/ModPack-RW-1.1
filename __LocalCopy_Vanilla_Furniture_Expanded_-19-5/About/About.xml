@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla Furniture Expanded</name>
+  <author>OskarPotocki, Atlas, Kikohi</author>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.0</li>
+  </supportedVersions>
+  <packageId>VanillaExpanded.VFECore</packageId>
+  <description>I have always found vanilla furniture to be lacking in depth and quantity. After researching Complex Furniture, the research tree for furniture pretty much ends, with a couple of odd technologies adding things like Vitals Monitors and Hospital Beds along the way. As part of the Vanilla Furniture Expanded mod, the team consisting of the Author of Android Tiers, Atlas, and me would like to add some sort of progression to the furniture of the rim, whilst also keeping it Vanilla friendly.
+  </description>
+</ModMetaData>

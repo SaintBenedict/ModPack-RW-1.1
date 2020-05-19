@@ -1,0 +1,8 @@
+C:\Users\AaronDB\Desktop\Mods Folder for Mod Folders\Rimworld\Github\MF-Spacer\Assemblies\MFSpacer.dll
+C:\Users\AaronDB\Desktop\Mods Folder for Mod Folders\Rimworld\Github\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.csprojAssemblyReference.cache
+C:\Users\AaronDB\Desktop\Mods Folder for Mod Folders\Rimworld\Github\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.csproj.CoreCompileInputs.cache
+C:\Users\AaronDB\Desktop\Mods Folder for Mod Folders\Rimworld\Github\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MF-Spacer\Assemblies\MFSpacer.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MF-Spacer\MFSpacer\obj\Debug\MFSpacer.dll

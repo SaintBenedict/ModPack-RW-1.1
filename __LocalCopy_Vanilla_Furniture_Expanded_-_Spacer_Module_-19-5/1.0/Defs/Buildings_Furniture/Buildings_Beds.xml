@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_AdvBed</defName>
+    <label>advanced bed</label>
+    <description>A powered high-tech bed that automatically readjusts itself to perfectly fit the contours of the sleeper, with built in white noise generation. Sleepers often report feeling refreshed and more alert the morning after.</description>
+	<thingClass>MFSpacer.Building_RefreshingBed</thingClass>
+    <graphicData>
+      <texPath>Things/Furniture/AdvancedBed/AdvancedBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>75</Mass>
+      <Beauty>8</Beauty>
+      <BedRestEffectiveness>1.25</BedRestEffectiveness>
+      <Comfort>1.1</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  		  <li>Table_Wardrobe</li>
+				  <li>Table_IlluminatedEndTable</li>
+				  <li>Table_IlluminatedDresser</li>
+        </linkableFacilities>
+      </li>
+	  <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+	<tickerType>Normal</tickerType>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+    <costList>
+	  <Uranium>5</Uranium>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>SpacerFurniture</li>
+    </researchPrerequisites>
+    <techLevel>Spacer</techLevel>
+    <uiIconScale>1</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+ 
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_AdvDoubleBed</defName>
+    <label>advanced double bed</label>
+    <description>A powered high-tech double bed that automatically readjusts itself to perfectly fit the contours of both sleepers, with built in white noise generation. Sleepers often report feeling refreshed and more alert the morning after.</description>
+	<thingClass>MFSpacer.Building_RefreshingBed</thingClass>
+    <graphicData>
+      <texPath>Things/Furniture/AdvancedBedDouble/AdvancedBedDouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>125</Mass>
+      <Beauty>12</Beauty>
+      <BedRestEffectiveness>1.3</BedRestEffectiveness>
+      <Comfort>1.15</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  		  <li>Table_Wardrobe</li>
+				  <li>Table_IlluminatedEndTable</li>
+				  <li>Table_IlluminatedDresser</li>
+        </linkableFacilities>
+      </li>
+	  <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+	<tickerType>Normal</tickerType>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+        <costStuffCount>180</costStuffCount>
+    <costList>
+	  <Uranium>10</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>SpacerFurniture</li>
+    </researchPrerequisites>
+    <techLevel>Spacer</techLevel>
+    <uiIconScale>1</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+ 
+  <ThingDef ParentName="TableBase">
+    <defName>Table_IlluminatedEndTable</defName>
+    <label>illuminated end table</label>
+    <description>A small illuminated bedside table adorned with light strips which makes nearby beds a little bit more comfortable, whilst lighting the room. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Furniture/IlluminatedEndTable/IlluminatedEndTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>SpacerFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.02</Comfort>
+		  <BedRestEffectiveness>0.02</BedRestEffectiveness>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>30</basePowerConsumption>
+			</li>
+            <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,255,255,0)</glowColor>
+			</li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+ 
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>Table_IlluminatedDresser</defName>
+    <label>illuminated dresser</label>
+    <description>An illuminated dresser, adorned with light strips. Gives a small comfort bonus to all nearby beds, whilst lighting up the room. Placing more than one dresser near the same bed has no effect.</description>
+    <graphicData>
+      <texPath>Things/Furniture/IlluminatedDresser/IlluminatedDresser</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>70</costStuffCount>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>20</Mass>
+      <WorkToBuild>6000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <designationHotKey>Misc12</designationHotKey>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>SpacerFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.02</Comfort>
+		  <BedRestEffectiveness>0.02</BedRestEffectiveness>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>30</basePowerConsumption>
+			</li>
+            <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,255,255,0)</glowColor>
+			</li>
+    </comps>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VAE_LeatherTanning.label>дубление кожи</VAE_LeatherTanning.label>
+  <VAE_LeatherTanning.description>Изучить процесс дубления кожи для создания более устойчивой к повреждению брони.</VAE_LeatherTanning.description>
+
+  <VAE_HazardProtection.label>защитная экипировка</VAE_HazardProtection.label>
+  <VAE_HazardProtection.description>Создание экипировки защищающей от опасных сред и радиации.</VAE_HazardProtection.description>
+
+  <VAE_MlitaryCamouflage.label>военный камуфляж</VAE_MlitaryCamouflage.label>
+  <VAE_MlitaryCamouflage.description>Создавайте специальную военную одежду, позволяющую пользователям более эффективно скрываться на местности.</VAE_MlitaryCamouflage.description>
+
+
+</LanguageData>

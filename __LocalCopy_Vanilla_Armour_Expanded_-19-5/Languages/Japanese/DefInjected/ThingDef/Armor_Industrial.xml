@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--  Bulletproof Vest  -->
+
+  <VAE_Apparel_BulletproofVest.label>防弾ベスト</VAE_Apparel_BulletproofVest.label>
+  <VAE_Apparel_BulletproofVest.description>胸と背中にケブラー繊維を入れたベストです。銃撃に対しては非常に効果的ですが、近接格闘武器に対しては何の防御もできません。</VAE_Apparel_BulletproofVest.description>
+
+
+  <!--  Ghillie Suit  -->
+
+  <VAE_Apparel_GhillieSuit.label>ギリースーツ</VAE_Apparel_GhillieSuit.label>
+  <VAE_Apparel_GhillieSuit.description>環境に似せて作られた迷彩服です。着用者が射撃する際に狙いを定める時間は長くなりますが命中精度が向上します。防御力はほとんどありません。</VAE_Apparel_GhillieSuit.description>
+
+
+  <!--  Advanced Vest  -->
+
+  <VAE_Apparel_AdvancedVest.label>強化防弾ベスト</VAE_Apparel_AdvancedVest.label>
+  <VAE_Apparel_AdvancedVest.description>プラスチールで補強された、複雑なデザインの軽量戦闘用ベストです。手や足は全く保護されていません。</VAE_Apparel_AdvancedVest.description>
+
+
+  <!--  HAZMAT Suit  -->
+
+  <VAE_Apparel_HAZMATSuit.label>防護服</VAE_Apparel_HAZMATSuit.label>
+  <VAE_Apparel_HAZMATSuit.description>全身を覆う防護服で、サイキックと毒物の効果から完全に身を守ります。\n\n着用者の動きや細かい指の機能を制限して、どのような種類の攻撃に対しても防御力がありません。</VAE_Apparel_HAZMATSuit.description>
+
+</LanguageData>

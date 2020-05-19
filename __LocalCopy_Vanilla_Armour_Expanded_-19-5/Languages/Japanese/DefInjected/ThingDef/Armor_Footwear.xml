@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Plate Boots -->
+
+  <VAE_Footwear_PlateBoots.label>プレートブーツ</VAE_Footwear_PlateBoots.label>
+  <VAE_Footwear_PlateBoots.description>簡単な作りの両足用のプレートブーツです。その体重により、着用者の移動速度が遅くなります。</VAE_Footwear_PlateBoots.description>
+
+
+  <!-- Marine Boots -->
+
+  <VAE_Footwear_MarineBoots.label>マリーンブーツ</VAE_Footwear_MarineBoots.label>
+  <VAE_Footwear_MarineBoots.description>積層化されたプラスチール装甲板と強化された動力モーターが内臓されたのマリンブーツです。</VAE_Footwear_MarineBoots.description>
+
+</LanguageData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>AEXP_ForeFlipper</defName>
+    <label>fore-flipper</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AEXP_HindFlippers</defName>
+    <label>hind-flippers</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+</Defs>

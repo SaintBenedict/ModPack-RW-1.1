@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- tab -->
+	<ResearchTabDef>
+		<defName>VFE_Art_Tab</defName>
+		<label>Vanilla Furniture Expanded - Art</label>
+	</ResearchTabDef>
+	<!--===== Research Projects =====-->
+	<ResearchProjectDef>
+		<defName>VFE_Res_Obelisk</defName>
+		<label>obelisks</label>
+		<description>Learn how to sculpt tall, narrow shaped obelisks to commemorate important events.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Pottery</defName>
+		<label>pottery</label>
+		<description>Learn how to create beautiful vases and other vessels from simple materials.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_WallCarvings</defName>
+		<label>carvings</label>
+		<description>Master the techniques of wall carving to create beautiful pillars and reliefs.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_ArtfulDisplay</defName>
+		<label>artful display</label>
+		<description>Create beautiful plinths to display artifacts and important colony goods.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Statues</defName>
+		<label>statues</label>
+		<description>Sculpt accurate character-shaped sculptures, inscribed with artistic illustrations.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Monuments</defName>
+		<label>monuments</label>
+		<description>Create massive monuments, centerpieces of your colony, to commemorate those who passed and give inspiration to those still struggling.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Rugs</defName>
+		<label>rugs</label>
+		<description>Learn how to create beautiful rugs to decorate your colony.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Wallpapers</defName>
+		<label>wallpapers</label>
+		<description>Construct beautiful walls covered in wallpaper of your desired colour.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VFE_Res_Holograms</defName>
+		<label>holograms</label>
+		<description>Adapt advanced display techniques to showcase three-dimensional models around your colony.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<tab>VFE_Art_Tab</tab>
+	</ResearchProjectDef>
+</Defs>

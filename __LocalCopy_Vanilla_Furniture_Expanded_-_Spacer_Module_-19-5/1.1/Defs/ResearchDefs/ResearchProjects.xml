@@ -1,0 +1,35 @@
+﻿<?Yml version="1.0" encoding="utf8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>SpacerFurniture</defName>
+		<label>spacer furniture</label>
+		<tab>OA_MoreFurniture</tab>
+		<description>Build advanced furniture usually only seen in advanced colonies and glitterworld buildings.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>MF_ModernFurniture</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewY>3</researchViewY>
+		<researchViewX>3</researchViewX>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>SpacerElectronics</defName>
+		<label>spacer electronics</label>
+		<tab>OA_MoreFurniture</tab>
+		<description>Build advanced electronics usually only seen in advanced colonies and glitterworld buildings.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>FlatscreenTelevision</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewY>4</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+
+</Defs>

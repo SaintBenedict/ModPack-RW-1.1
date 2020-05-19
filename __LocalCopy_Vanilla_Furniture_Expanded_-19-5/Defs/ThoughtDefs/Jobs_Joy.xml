@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>Play_Roulette</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayRoulette</driverClass>
+    <reportString>playing roulette.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>3</joyMaxParticipants>
+    <joySkill>Social</joySkill>
+    <joyXpPerTick>0.02</joyXpPerTick>
+    <joyKind>Social</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_Roulette</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>3</baseChance>
+	<requireChair>false</requireChair>
+    <thingDefs>
+      <li>Joy_RouletteTable</li>
+    </thingDefs>
+    <jobDef>Play_Roulette</jobDef>
+    <joyKind>Social</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+ 
+  <JobDef>
+    <defName>Play_Arcade</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayArcadeSounds</driverClass>
+    <reportString>playing arcade game.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.002</joyXpPerTick>
+    <joyKind>Gaming_Electronic</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_Arcade</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2</baseChance>
+	<desireSit>false</desireSit>
+    <thingDefs>
+      <li>Joy_Arcade</li>
+    </thingDefs>
+    <jobDef>Play_Arcade</jobDef>
+    <joyKind>Gaming_Electronic</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JobDef>
+    <defName>Play_Piano</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayPiano</driverClass>
+    <reportString>playing piano.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joySkill>Artistic</joySkill>
+    <joyXpPerTick>0.05</joyXpPerTick>
+    <joyKind>Meditative</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_Piano</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>1</baseChance>
+	<desireSit>false</desireSit>
+    <thingDefs>
+      <li>Joy_Piano</li>
+    </thingDefs>
+    <jobDef>Play_Piano</jobDef>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JobDef>
+    <defName>Play_DartsBoard</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayDarts</driverClass>
+    <reportString>playing darts.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>2</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.03</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+    <JoyGiverDef>
+    <defName>Play_DartsBoard</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>2</baseChance>
+    <thingDefs>
+      <li>Joy_DartsBoard</li>
+    </thingDefs>
+    <jobDef>Play_DartsBoard</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JobDef>
+    <defName>Play_PunchingBag</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayPunchingBag</driverClass>
+    <reportString>using punching bag.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joySkill>Melee</joySkill>
+    <joyXpPerTick>0.03</joyXpPerTick>
+    <joyKind>Meditative</joyKind>
+    <taleOnCompletion>Tale_UsedPunchingBag</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_PunchingBag</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>1</baseChance>
+	<requireChair>false</requireChair>
+    <thingDefs>
+      <li>Joy_PunchingBag</li>
+    </thingDefs>
+    <jobDef>Play_PunchingBag</jobDef>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+ 
+  <JobDef>
+    <defName>Play_ComputerIndustrial</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayComputerIndustrial</driverClass>
+    <reportString>using computer.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joySkill>Crafting</joySkill>
+    <joyXpPerTick>0.01</joyXpPerTick>
+    <joyKind>Gaming_Electronic</joyKind>
+    <taleOnCompletion>Tale_UsedComputer</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_ComputerIndustrial</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>0.5</baseChance>
+	<requireChair>true</requireChair>
+    <thingDefs>
+      <li>Joy_InudstrialComputer</li>
+    </thingDefs>
+    <jobDef>Play_ComputerIndustrial</jobDef>
+    <joyKind>Gaming_Electronic</joyKind>
+    <requiredCapacities>
+	  <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JobDef>
+    <defName>Play_ComputerModern</defName>
+    <driverClass>AOMoreFurniture.JobDriver_PlayComputerModern</driverClass>
+    <reportString>using computer.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joySkill>Crafting</joySkill>
+    <joyXpPerTick>0.03</joyXpPerTick>
+    <joyKind>Gaming_Electronic</joyKind>
+    <taleOnCompletion>Tale_UsedComputer</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JoyGiverDef>
+    <defName>Play_ComputerModern</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>0.5</baseChance>
+	<requireChair>true</requireChair>
+    <thingDefs>
+      <li>Joy_ModernComputer</li>
+    </thingDefs>
+    <jobDef>Play_ComputerModern</jobDef>
+    <joyKind>Gaming_Electronic</joyKind>
+    <requiredCapacities>
+	  <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

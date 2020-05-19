@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Light Marine Helmet +++++ -->
+
+  <VAE_Headgear_LightMarineHelmet.label>Lichte Marinehelm</VAE_Headgear_LightMarineHelmet.label>
+  <VAE_Headgear_LightMarineHelmet.description>Een lichte marinehelm die betere omgevingskennis bied en beschermt ondanks een open ondergezicht. Vaak gebruikt door Imperiale verkenners.</VAE_Headgear_LightMarineHelmet.description>
+
+
+  <!-- +++++ Light Marine Armor +++++ -->
+
+  <VAE_Apparel_LightMarineArmor.label>Licht Marinepantser</VAE_Apparel_LightMarineArmor.label>
+  <VAE_Apparel_LightMarineArmor.description>Een licht pak van semi-geautomatiseerd pantser. Dunne plastalen platen effectief voor het stoppen van lichte kalibers maar ook bewegingsvrijheid toelaten. Vaak gebruikt door Imperiale verkenners.</VAE_Apparel_LightMarineArmor.description>
+
+
+  <!-- +++++ Heavy Marine Helmet +++++ -->
+
+  <VAE_Headgear_HeavyMarineHelmet.label>Zware Marinehelm</VAE_Headgear_HeavyMarineHelmet.label>
+  <VAE_Headgear_HeavyMarineHelmet.description>Een zware marinehelm, met dubbel gelaagd plastaal en ingebouwde camera met display HUD om zwaktepunten als vizieren weg te houden. Vaak gedragen door Imperiale stormtroepen bij mechanoïdeconflicten.</VAE_Headgear_HeavyMarineHelmet.description>
+
+
+  <!-- +++++ Heavy Marine Armor +++++ -->
+
+  <VAE_Apparel_HeavyMarineArmor.label>Zwaar marinepantser</VAE_Apparel_HeavyMarineArmor.label>
+  <VAE_Apparel_HeavyMarineArmor.description>Een zwaar pak van geautomatiseerd pantser. Dubbele lagen geweven plastalen platen die zowel kogels als explosies tegenhouden. Neuro-memetische assistentie zorgt ervoor dat er nog redelijke bewegingsvrijheid is. Een ingebouwd explosieschild laat toe een directe raketontploffing te overleven waarna de schilden herladen. Vaak gedragen door Imperiale stormtroepen bij mechanoïdeconflicten.</VAE_Apparel_HeavyMarineArmor.description>
+
+
+</LanguageData>

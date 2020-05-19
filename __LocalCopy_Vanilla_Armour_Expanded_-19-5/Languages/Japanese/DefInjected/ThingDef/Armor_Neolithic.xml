@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--  Wooden Armor  -->
+
+  <VAE_Apparel_WoodenArmor.label>木の鎧</VAE_Apparel_WoodenArmor.label>
+  <VAE_Apparel_WoodenArmor.description>裏表を細い木の枝や木の板で覆ったベスト型の鎧です。小口径の銃弾や鋭い殴る系統の近接武器には効果的ですが、爆発ダメージやライフル銃の射撃にはまったく効果がありません。</VAE_Apparel_WoodenArmor.description>
+
+
+  <!--  Stone War Mask  -->
+
+  <VAE_Headgear_StoneWarMask.label>戦いの石仮面</VAE_Headgear_StoneWarMask.label>
+  <VAE_Headgear_StoneWarMask.description>芸術的価値の高い戦い用の恐ろしげな仮面です。装着者の顔を隠して自信を持たせます。石で作られているので耐久性には優れていますが、非常に重量があります。</VAE_Headgear_StoneWarMask.description>
+
+</LanguageData>

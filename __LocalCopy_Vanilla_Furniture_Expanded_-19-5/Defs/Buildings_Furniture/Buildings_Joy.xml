@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Radio_Industrial</defName>
+    <label>industrial radio</label>
+    <description>An old device from a bygone era, it is able to pick up radio waves and play them back. Even on the rimworlds, there is often an old transmitter or lone radio station broadcasting something.</description>
+    <graphicData>
+      <texPath>Things/Joy/Radio_Industrial/Radio_Industrial</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.1, 1.1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0.0, 0.0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.75,1.0,0.5)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites>
+      <li>TubeTelevision</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <fillPercent>0.2</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <rotatable>true</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <specialDisplayRadius>5</specialDisplayRadius>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Radio_Spacer</defName>
+    <label>longwave radio</label>
+    <description>A high tech radio reciever that is able to pick up very faint signals and play them back at crystal clear quality.</description>
+    <graphicData>
+      <texPath>Things/Joy/Radio_Modern/Radio_Modern</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.2, 1.2)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0.0, 0.0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.75,1.0,0.5)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <WorkToBuild>30000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>3</Beauty>
+      <Mass>12</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites>
+      <li>FlatscreenTelevision</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <fillPercent>0.2</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <rotatable>true</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <specialDisplayRadius>8</specialDisplayRadius>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Joy_Arcade</defName>
+    <label>arcade machine</label>
+    <description>A tall cabinet that holds a small cathode ray display and control panel for playing a variety of pre-installed games.</description>
+    <graphicData>
+      <texPath>Things/Joy/Arcade/Arcade</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.47)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.3</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites>
+      <li>TubeTelevision</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <joyKind>Gaming_Electronic</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>1</min>
+        <max>1</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>1</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <pathCost>10</pathCost>
+    <designationCategory>Joy</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Joy_InudstrialComputer</defName>
+    <label>old computer</label>
+    <description>A desktop computer based off an old design, very inefficient and prone to crashing. Gives a minor boost to learning after use.</description>
+    <graphicData>
+      <texPath>Things/Joy/IndustrialComputer/IndustrialComputer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.47)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>0.9</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites>
+      <li>TubeTelevision</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <joyKind>Gaming_Electronic</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>1</min>
+        <max>1</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>1</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <pathCost>10</pathCost>
+    <designationCategory>Joy</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <uiIconOffset>(0, 0.1)</uiIconOffset>
+    <uiIconScale>0.7</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Joy_ModernComputer</defName>
+    <label>modern computer</label>
+    <description>A high tech computer with utilising an LCD monitor and better performance parts that are less prone to crashing. Gives a boost to learning after use.</description>
+    <graphicData>
+      <texPath>Things/Joy/ModernComputer/ModernComputer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.47)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+      <drawSize>(3.95,3.05)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>18</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <size>(2,1)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites>
+      <li>FlatscreenTelevision</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <joyKind>Gaming_Electronic</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>1</min>
+        <max>1</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>2</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <pathCost>40</pathCost>
+    <designationCategory>Joy</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>180</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <uiIconScale>1</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>Joy_Piano</defName>
+    <label>piano</label>
+    <description>A large playable piano for practising on, quite enjoyable and it is a great way to develop artistic talent.</description>
+    <graphicData>
+      <texPath>Things/Joy/Piano/Piano</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.2,3.3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <building>
+      <joyKind>Meditative</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>1</min>
+        <max>1</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>1</watchBuildingStandRectWidth>
+    </building>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>16000</WorkToBuild>
+      <Mass>220</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>15</Beauty>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <size>(2,1)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>180</costStuffCount>
+    <costList>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <pathCost>100</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>Joy_RouletteTable</defName>
+    <label>roulette table</label>
+    <description>A soft-topped bounded table with a wheel for playing roulette, a good way to train your social skills and luck.</description>
+    <graphicData>
+      <texPath>Things/Joy/Roulette_Table/RouletteTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4.05)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <building>
+      <joyKind>Social</joyKind>
+    </building>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>180</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <JoyGainFactor>1.3</JoyGainFactor>
+    </statBases>
+    <size>(2,4)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>160</costStuffCount>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <pathCost>70</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Joy_DartsBoard</defName>
+    <label>darts board</label>
+    <description>A popular game among rimworlds involving throwing darts at a circular target, It's relaxing, and trains shooting skills at a higher rate than horseshoes or hoopstone.</description>
+    <graphicData>
+      <texPath>Things/Joy/DartBoard/DartBoard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.7,2.7)</drawSize>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <watchBuildingStandDistanceRange>
+        <min>5</min>
+        <max>5</max>
+      </watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>1</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>15</costStuffCount>
+    <pathCost>10</pathCost>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+    <uiIconScale>0.5</uiIconScale>
+    <uiIconOffset>(0, 0.1)</uiIconOffset>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Joy_PunchingBag</defName>
+    <label>punching bag</label>
+    <description>A fabric filled punching bag to let out anger on. Can be quite calming and helps to train melee ability.</description>
+    <graphicData>
+      <texPath>Things/Joy/PunchingBag/PunchingBag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.65, 0.25, 0.6)</volume>
+        <offset>(0, 0, -0.15)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.50</fillPercent>
+    <building>
+      <joyKind>Meditative</joyKind>
+    </building>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <pathCost>200</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <uiIconScale>0.65</uiIconScale>
+  </ThingDef>
+</Defs>

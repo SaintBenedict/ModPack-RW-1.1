@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--  Balaclava  -->
+
+  <VAE_Headgear_Balaclava.label>目出し帽</VAE_Headgear_Balaclava.label>
+  <VAE_Headgear_Balaclava.description>顔全体を覆うマスクです。顔を隠して表情を読みにくくします。</VAE_Headgear_Balaclava.description>
+
+
+  <!--  Night Vision goggles  -->
+
+  <VAE_Headgear_NightVisionGoggles.label>暗視ゴーグル</VAE_Headgear_NightVisionGoggles.label>
+  <VAE_Headgear_NightVisionGoggles.description>暗視装置とゴーグルのセットによって、着用者はより高い命中精度で銃を撃つことができます。</VAE_Headgear_NightVisionGoggles.description>
+
+
+  <!--  Ballistic Goggles  -->
+
+  <VAE_Headgear_BallisticGoggles.label>射撃保護ゴーグル</VAE_Headgear_BallisticGoggles.label>
+  <VAE_Headgear_BallisticGoggles.description>射撃する際に着用して、薬莢などから目を保護するために強化されたバリスティックゴーグル(射撃用の保護マスク)です。</VAE_Headgear_BallisticGoggles.description>
+
+
+  <!--  Ghillie Hood  -->
+
+  <VAE_Headgear_GhillieHood.label>ギリーフード</VAE_Headgear_GhillieHood.label>
+  <VAE_Headgear_GhillieHood.description>環境に合わせて作られた迷彩柄のフードです。着用者が射撃する際に狙いを定める時間は長くなりますが命中精度が向上します。防御力はほとんどありません。</VAE_Headgear_GhillieHood.description>
+
+
+  <!--  HAZMAT mask  -->
+
+  <VAE_Headgear_HAZMATMask.label>防護マスク</VAE_Headgear_HAZMATMask.label>
+  <VAE_Headgear_HAZMATMask.description>頭全体を覆って防護服と一緒に使用する防護マスクで、サイキックと毒物の効果から完全に身を守ります。</VAE_Headgear_HAZMATMask.description>
+
+</LanguageData>

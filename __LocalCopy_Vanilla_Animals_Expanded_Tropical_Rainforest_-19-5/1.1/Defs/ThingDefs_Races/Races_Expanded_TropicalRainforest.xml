@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Gorilla =============================== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Gorilla</defName>
+		<label>gorilla</label>
+		<description>These ground-dwelling herbivorous apes are the largest living primates, and they are the next closest living relatives to humans after the chimpanzees and bonobos. Like all the great apes, the arms of the gorilla are longer than its legs. Gorillas are usually surprisingly shy, though they may show aggression by beating their chests and charging if their social group is threatened.</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<MarketValue>550</MarketValue>
+			<ComfyTemperatureMin>-8</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10.4</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10.4</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>AEXP_GreatApe</body>
+			<herdAnimal>true</herdAnimal>
+			<petness>0.025</petness>
+			<meatLabel>primate meat</meatLabel>
+			<baseBodySize>1.9</baseBodySize>
+			<baseHungerRate>0.25</baseHungerRate>
+			<baseHealthScale>2</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Heavy</leatherDef>
+			<trainability>Advanced</trainability>
+			<wildness>0.65</wildness>
+			<nameOnTameChance>1</nameOnTameChance>
+			<nuzzleMtbHours>72</nuzzleMtbHours>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<wildBiomes>
+				<TropicalRainforest>0.6</TropicalRainforest>
+
+			</wildBiomes>
+			<gestationPeriodDays>35</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(2.5, 0.7)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>35</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>AEXP_Pawn_Gorilla_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Gorilla_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Gorilla_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Gorilla_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Gorilla</defName>
+		<label>gorilla</label>
+		<labelPlural>gorillas</labelPlural>
+		<race>AEXP_Gorilla</race>
+		<combatPower>135</combatPower>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
+		<wildGroupSize>
+			<min>4</min>
+			<max>8</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Gorilla</texPath>
+					<drawSize>1.1</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Dessicated_Gorilla</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Gorilla</texPath>
+					<drawSize>1.3</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Dessicated_Gorilla</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Gorilla</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Gorilla/Dessicated_Gorilla</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+	<!-- ======================= Jaguar =============================== -->
+
+
+	<ThingDef ParentName="BigCatThingBase">
+		<defName>AEXP_Jaguar</defName>
+		<label>jaguar</label>
+		<description>A large felid species and the only existing member of the Panthera native to the Americas in old Earth. This spotted cat closely resembles the leopard, but is usually larger and sturdier. The jaguar enjoys swimming and is largely a solitary, opportunistic, stalk-and-ambush predator at the top of the food chain.</description>
+		<statBases>
+			<ComfyTemperatureMin>-8</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+		</statBases>
+		<race>
+			<wildBiomes>
+				<TropicalRainforest>0.15</TropicalRainforest>
+			</wildBiomes>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BigCatKindBase">
+		<defName>AEXP_Jaguar</defName>
+		<label>jaguar</label>
+		<race>AEXP_Jaguar</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Jaguar</texPath>
+					<drawSize>1.05</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Dessicated_Jaguar</texPath>
+					<drawSize>1.05</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Jaguar</texPath>
+					<drawSize>1.35</drawSize>
+
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Dessicated_Jaguar</texPath>
+					<drawSize>1.35</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Jaguar</texPath>
+					<drawSize>2.12</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Jaguar/Dessicated_Jaguar</texPath>
+					<drawSize>2.12</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Lemur =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Lemur</defName>
+		<label>lemur</label>
+		<description>A small primate, lemurs are arboreal, and usually nocturnal. They have a pointed snout, large eyes, and a long tail. Although they are social creatures, they have traditionally been regarded as being less intelligent than other primates, since they don't exhibit behaviours of tool use in the wild.</description>
+		<statBases>
+			<MoveSpeed>3.5</MoveSpeed>
+			<MarketValue>150</MarketValue>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3.6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3.6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>Monkey</body>
+			<useMeatFrom>AEXP_Gorilla</useMeatFrom>
+			<petness>0.1</petness>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.25</baseBodySize>
+			<baseHungerRate>0.05</baseHungerRate>
+			<baseHealthScale>0.4</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Intermediate</trainability>
+			<wildness>0.7</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<gestationPeriodDays>16</gestationPeriodDays>
+			<lifeExpectancy>30</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>AEXP_Pawn_Lemur_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Lemur_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Lemur_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Lemur_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TropicalRainforest>1</TropicalRainforest>
+				<AridShrubland>0.2</AridShrubland>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Lemur</defName>
+		<label>lemur</label>
+		<race>AEXP_Lemur</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
+		<wildGroupSize>
+			<min>3</min>
+			<max>15</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Lemur</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Dessicated_Lemur</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Lemur</texPath>
+					<drawSize>1.15</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Dessicated_Lemur</texPath>
+					<drawSize>1.15</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Lemur</texPath>
+					<drawSize>1.25</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Lemur/Dessicated_Lemur</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Mandrill =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Mandrill</defName>
+		<label>mandrill</label>
+		<description>Mandrills are one of the largest of all monkeys. They are shy and reclusive primates that live only in rain forests. Mandrills are extremely colorful, perhaps more so than any other mammal. They are easily identifiable by the blue and red skin on their faces and their brightly hued rumps.</description>
+		<statBases>
+			<MoveSpeed>4.5</MoveSpeed>
+			<MarketValue>275</MarketValue>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>Monkey</body>
+			<useMeatFrom>AEXP_Gorilla</useMeatFrom>
+			<petness>0.025</petness>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.8</baseBodySize>
+			<baseHungerRate>0.25</baseHungerRate>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Advanced</trainability>
+			<wildness>0.8</wildness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<lifeExpectancy>30</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>AEXP_Pawn_Mandrill_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Mandrill_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Mandrill_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Mandrill_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TropicalRainforest>0.5</TropicalRainforest>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Mandrill</defName>
+		<label>mandrill</label>
+		<race>AEXP_Mandrill</race>
+		<combatPower>65</combatPower>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
+		<wildGroupSize>
+			<min>2</min>
+			<max>6</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>0.6</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>0.6</drawSize>
+				</femaleDessicatedBodyGraphicData>
+
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>1</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Mandrill</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mandrill/Dessicated_Mandrill</texPath>
+					<drawSize>1.4</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+	<!-- ======================= Tapir =============================== -->
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Tapir</defName>
+		<label>tapir</label>
+		<description>A large, herbivorous mammal, similar in shape to a pig, with a short nose trunk, tapirs inhabit jungle and forest regions.</description>
+		<statBases>
+			<MoveSpeed>3.9</MoveSpeed>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>275</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7.9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithHooves</body>
+			<baseBodySize>0.85</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+			<baseHungerRate>0.45</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<leatherDef>Leather_Pig</leatherDef>
+			<wildness>0.65</wildness>
+			<trainability>Advanced</trainability>
+			<useMeatFrom>Pig</useMeatFrom>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.7, 1)</li>
+					<li>(2.0, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>30</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+					<soundDeath>Pawn_Wildboar_Death</soundDeath>
+					<soundCall>Pawn_Wildboar_Call</soundCall>
+					<soundAngry>Pawn_Wildboar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TropicalRainforest>0.5</TropicalRainforest>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Tapir</defName>
+		<label>tapir</label>
+		<race>AEXP_Tapir</race>
+		<combatPower>65</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Tapir</texPath>
+					<drawSize>0.6</drawSize>
+					<color>(65,65,65)</color>
+
+					<shadowData>
+						<volume>(0.25, 0.25, 0.25)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Dessicated_Tapir</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Tapir</texPath>
+					<drawSize>1.25</drawSize>
+					<color>(65,65,65)</color>
+
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Dessicated_Tapir</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Tapir</texPath>
+					<drawSize>1.6</drawSize>
+					<color>(65,65,65)</color>
+
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tapir/Dessicated_Tapir</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Tiger =============================== -->
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Tiger</defName>
+		<label>tiger</label>
+		<description>The tiger is the largest species among the big cats. It is most recognisable for its dark vertical stripes on reddish-orange fur with a lighter underside. It is an apex predator, territorial and generally solitary. In the wild, tigers mostly feed on large and medium-sized mammals.</description>
+		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<MarketValue>650</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>17</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>17</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>      
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<baseHungerRate>0.3</baseHungerRate>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.80</wildness>
+			<trainability>Advanced</trainability>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<gestationPeriodDays>26</gestationPeriodDays>
+			<maxPreyBodySize>2.0</maxPreyBodySize>
+			<baseBodySize>1.8</baseBodySize>
+			<baseHealthScale>1.75</baseHealthScale>     
+			<lifeExpectancy>25</lifeExpectancy>   
+			<leatherDef>AEXP_Leather_Tiger</leatherDef>
+			<wildBiomes>
+				<TropicalRainforest>0.15</TropicalRainforest>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>AEXP_Pawn_Tiger_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Tiger_Death</soundDeath>
+					<soundAngry>AEXP_Pawn_Tiger_Angry</soundAngry>
+					<soundCall>AEXP_Pawn_Tiger_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BigCatKindBase">
+		<defName>AEXP_Tiger</defName>
+		<label>tiger</label>
+		<race>AEXP_Tiger</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Tiger</texPath>
+					<drawSize>1.3</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Dessicated_Tiger</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Tiger</texPath>
+					<drawSize>1.7</drawSize>
+
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Dessicated_Tiger</texPath>
+					<drawSize>1.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Tiger</texPath>
+					<drawSize>2.5</drawSize>
+
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Tiger/Dessicated_Tiger</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+</Defs>

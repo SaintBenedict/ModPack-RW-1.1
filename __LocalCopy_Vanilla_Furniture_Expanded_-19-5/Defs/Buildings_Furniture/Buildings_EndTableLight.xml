@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="TableBase">
+    <defName>Table_LightEndTable</defName>
+    <label>lamp end table</label>
+    <description>A small bedside table that has been adorned with a light, making nearby beds more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Bedroom/LampEndTable/EndTableLamp</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.6</uiIconScale>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>30</basePowerConsumption>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+</Defs>

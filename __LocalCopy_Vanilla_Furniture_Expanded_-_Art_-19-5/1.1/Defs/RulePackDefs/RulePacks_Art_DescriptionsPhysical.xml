@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>ArtDescription_Rug</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [rug] [depicts] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [rug] bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->On this [rug] is a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>rug->rug</li>
+        <li>rug->work</li>
+        <li>rug->piece</li>
+        <li>rug->textile</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ArtDescription_Pottery</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [pottery] [depicts] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [pottery] bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->On this [pottery] is a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>pottery->pottery</li>
+        <li>pottery->work</li>
+        <li>pottery->piece</li>
+        <li>pottery->set</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ArtDescription_Hologram</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [hologram] [depicts] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [hologram] bears a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->On this [hologram] is a [depiction] of [image]. [desc_sentence_group]</li>
+        <li>hologram->hologram</li>
+        <li>hologram->light sculpture</li>
+        <li>hologram->piece</li>
+        <li>hologram->model</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ArtDescription_Archotech</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [machine] [imprints] an image of [image]. [desc_sentence_group]</li>
+        <li>machine->machine</li>
+        <li>machine->ancient device</li>
+        <li>machine->unexplainable structure</li>
+        <li>machine->archotech sculpture</li>
+		<li>imprints->conveys</li>
+		<li>imprints->imprints</li>
+		<li>imprints->makes people think of</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

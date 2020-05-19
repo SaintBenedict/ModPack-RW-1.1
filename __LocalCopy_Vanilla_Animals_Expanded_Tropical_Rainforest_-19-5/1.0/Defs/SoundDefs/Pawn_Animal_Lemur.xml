@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+ 	<SoundDef>
+    <defName>AEXP_Pawn_Lemur_Call</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Call</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>19.19512</min>        
+          <max>19.19512</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.5</min>        
+          <max>1.75</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>50</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Lemur_Angry</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Angry</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>30</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.5</min>        
+          <max>1.75</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Lemur_Death</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Wounded</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>36.82927</min>        
+          <max>36.82927</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.8</min>        
+          <max>2</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Lemur_Wounded</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Wounded</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.7</min>        
+          <max>2</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--================================ Sculptures ======================================-->
+
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Pottery</defName>
+    <label>pottery</label>
+    <description>A small-size pieces of pottery with artisting engravings. Can be crafted on a crafting spot.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/Pottery</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <fillPercent>0.15</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>1</Mass>
+      <Beauty>20</Beauty>
+      <WorkToMake>10000</WorkToMake>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Pottery</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+	<recipeMaker>
+		<researchPrerequisite>VFE_Res_Pottery</researchPrerequisite>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_StatueSmall</defName>
+    <label>small statue</label>
+    <description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/SmallStatue</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <fillPercent>0.25</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>2</Mass>
+      <Beauty>50</Beauty>
+      <WorkToMake>18000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Statues</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>50</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Carving</defName>
+    <label>carving</label>
+    <description>A small carving sculpted from a waist-tall wall piece. Can act as cover.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/Carving</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>50</Beauty>
+      <WorkToMake>18000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_WallCarvings</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>70</costStuffCount>
+  </ThingDef>
+
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_StatueLarge</defName>
+    <label>large statue</label>
+    <description>A person-sized piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/LargeStatue</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>170</MaxHitPoints>
+      <Mass>10</Mass>
+      <Beauty>100</Beauty>
+	  <WorkToMake>30000</WorkToMake>
+	</statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Statues</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>120</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_StatueGrand</defName>
+    <label>grand statue</label>
+    <description>A huge piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/GrandStatue</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Beauty>240</Beauty>
+      <Mass>25</Mass>
+	  <WorkToMake>65000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Statues</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>220</costStuffCount>
+  </ThingDef>
+
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Monument</defName>
+    <label>monument</label>
+    <description>An impassable, massive monument with an ornate pedestal and a large art piece.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/Monument</texPath>
+      <drawSize>(3.8,3.8)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Beauty>470</Beauty>
+      <Mass>25</Mass>
+			<WorkToMake>100000</WorkToMake>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>450</costStuffCount>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Monuments</li>
+		</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Relief</defName>
+    <label>relief</label>
+    <description>An impassable, long piece of wall with an artistic relief carved into it.</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Buildings/Art/Relief/Relief</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <rotatable>true</rotatable>
+    <size>(3,1)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Beauty>170</Beauty>
+      <Mass>40</Mass>
+			<WorkToMake>80000</WorkToMake>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_WallCarvings</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>450</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Pillar</defName>
+    <label>pillar</label>
+    <description>An impassable, decorated pillar capable of supporting a roof.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/Art/Pillar/Pillar</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Beauty>20</Beauty>
+      <Mass>10</Mass>
+			<WorkToMake>30000</WorkToMake>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_WallCarvings</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>80</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Obelisk</defName>
+    <label>obelisk</label>
+    <description>A tall piece of material shaped into an obelisk with an art piece carved into the sides.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/Obelisk</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>14</Mass>
+      <Beauty>150</Beauty>
+	  <WorkToMake>40000</WorkToMake>
+	</statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<recipeMaker>
+		<researchPrerequisite>
+			<li>VFE_Res_Obelisk</li>
+		</researchPrerequisite>
+	</recipeMaker>
+    <costStuffCount>160</costStuffCount>
+  </ThingDef>
+
+  <ThingDef ParentName="SculptureBase">
+    <defName>VFE_Plinth</defName>
+    <label>plinth</label>
+    <description>A small plinth with an artistic imagery carved into the sides. Can be used for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</description>
+    <thingClass>Building_Storage</thingClass>
+	<graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Buildings/Art/Plinth/Plinth</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>50</Beauty>
+      <WorkToMake>18000</WorkToMake>
+    </statBases>
+    <size>(1,1)</size>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+	<recipeMaker>
+		<researchPrerequisite>
+		<li>VFE_Res_ArtfulDisplay</li>
+		</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+  
+  <!--========================= Walls =============================-->
+
+
+
+  <ThingDef ParentName="BuildingBase" Name="WallpaperWall">
+    <defName>VFE_Wallpaper</defName>
+    <label>wallpaper</label>
+    <description>An impassable wall with a beautiful wallpaper. Capable of holding up a roof.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Buildings/Linked/Wallpaper/Wall_Atlas_Wallpaper</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Buildings/Linked/Wallpaper/Wallpaper_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>220</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+    </statBases>
+    <costStuffCount>2</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <researchPrerequisites>
+      <li>VFE_Res_Wallpapers</li>
+    </researchPrerequisites>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+  </ThingDef>
+
+
+
+</Defs>

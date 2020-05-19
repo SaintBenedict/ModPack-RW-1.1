@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\Assemblies\AEXPAnimalBehaviours.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\1.1\Assemblies\AEXPAnimalBehaviours.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\1.1\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\1.1\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-IceSheet\1.1\Source\AEXPAnimalBehaviours\AEXPAnimalBehaviours\obj\Debug\AEXPAnimalBehaviours.dll

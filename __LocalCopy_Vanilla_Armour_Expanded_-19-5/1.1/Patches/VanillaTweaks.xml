@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Vanilla Tribal Chiefs Dresscode -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/PawnKindDef[defName = "Tribal_ChiefMelee"]/apparelRequired</xpath>
+            <value>
+                <apparelTags>
+                    <li>MedievalArmorDecent</li>
+                    <li>MedievalMilitary</li>
+                </apparelTags>
+            </value>
+    </Operation>
+
+
+</Patch>

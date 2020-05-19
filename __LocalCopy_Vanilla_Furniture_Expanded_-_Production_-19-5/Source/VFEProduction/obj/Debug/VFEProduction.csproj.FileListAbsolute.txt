@@ -1,0 +1,3 @@
+D:\Game Stuff\RimWorld\Modding\Misc\VanillaFurnitureExpanded-Production\Source\VFEProduction\obj\Debug\VFEProduction.csprojAssemblyReference.cache
+D:\Game Stuff\RimWorld\Modding\Misc\VanillaFurnitureExpanded-Production\1.1\Assemblies\VFEProduction.dll
+D:\Game Stuff\RimWorld\Modding\Misc\VanillaFurnitureExpanded-Production\Source\VFEProduction\obj\Debug\VFEProduction.dll

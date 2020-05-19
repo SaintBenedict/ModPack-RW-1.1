@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase" Name="ArchotechSculptureBase" Abstract="True">
+    <thingClass>Building_Art</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsArt</li>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+			<SellPriceFactor>1.50</SellPriceFactor>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Archotech</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  
+  
+  <!--================================ Archotech Sculpture ======================================-->
+
+  <ThingDef ParentName="ArchotechSculptureBase">
+    <defName>VFE_ArchotechSculpture</defName>
+    <label>archotech sculpture</label>
+    <description>An ancient, human-sized mysterious machine. Creates a detailed imagery in the minds of surrounding pawns. Works through walls.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/ArchotechSculpture</texPath>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+	<pathCost>8</pathCost>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <fillPercent>0.3</fillPercent>
+    <rotatable>false</rotatable>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>500</Beauty>
+      <Mass>15</Mass>
+      <WorkToBuild>20000</WorkToBuild>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <specialDisplayRadius>15</specialDisplayRadius>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+</Defs>

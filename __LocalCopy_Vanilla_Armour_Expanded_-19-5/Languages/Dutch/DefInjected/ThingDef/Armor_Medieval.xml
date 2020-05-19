@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Gambeson +++++ -->
+
+  <VAE_Apparel_Gambeson.label>Aketon</VAE_Apparel_Gambeson.label>
+  <VAE_Apparel_Gambeson.description>Een gelaagde jas die redelijke isolatie bezorgt in koude temperatuur.</VAE_Apparel_Gambeson.description>
+
+
+  <!-- +++++ Quilted Vest +++++ -->
+
+  <VAE_Apparel_QuiltedVest.label>Gewatteerde vest</VAE_Apparel_QuiltedVest.label>
+  <VAE_Apparel_QuiltedVest.description>Een gewatteerde vest voor extra bescherming onder pantser.</VAE_Apparel_QuiltedVest.description>
+
+
+  <!-- +++++ Light Plate Armor +++++ -->
+
+  <VAE_Apparel_LightPlateArmor.label>Licht pantser</VAE_Apparel_LightPlateArmor.label>
+  <VAE_Apparel_LightPlateArmor.description>Overlappende platen die de borst en schouders beschermen.</VAE_Apparel_LightPlateArmor.description>
+
+
+  <!-- +++++ Plate Shoulderpads +++++ -->
+
+  <VAE_Apparel_PlateShoulderpads.label>Lichte schouderplaten</VAE_Apparel_PlateShoulderpads.label>
+  <VAE_Apparel_PlateShoulderpads.description>Een paar lichte stalen schouderplaten.</VAE_Apparel_PlateShoulderpads.description>
+
+
+  <!-- +++++ Chestplate +++++ -->
+
+  <VAE_Apparel_Chestplate.label>Borstplaat</VAE_Apparel_Chestplate.label>
+  <VAE_Apparel_Chestplate.description>Een metalen borstplaat die de drager goede bescherming bied maar beweging limiteert.</VAE_Apparel_Chestplate.description>
+
+
+  <!-- +++++ Chainmail +++++ -->
+
+  <VAE_Apparel_Chainmail.label>maliënkolder</VAE_Apparel_Chainmail.label>
+  <VAE_Apparel_Chainmail.description>Een jas van kleine metalen ringetjes samengevoegd om een stevige jas te vormen, redelijk  zwaar maar goede bescherming.</VAE_Apparel_Chainmail.description>
+
+
+  <!-- +++++ Plate Helmet +++++ -->
+
+  <VAE_Apparel_PlateHelmet.label>bascinet</VAE_Apparel_PlateHelmet.label>
+  <VAE_Apparel_PlateHelmet.description>Een stalen helm die redelijke bescherming voorziet tegen scherpe wapens.</VAE_Apparel_PlateHelmet.description>
+
+
+</LanguageData>

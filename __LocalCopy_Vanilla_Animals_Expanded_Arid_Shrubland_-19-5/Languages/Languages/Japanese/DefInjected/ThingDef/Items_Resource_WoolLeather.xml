@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AEXP_Leather_Hippopotamus.label>カバの革</AEXP_Leather_Hippopotamus.label>
+  <AEXP_Leather_Hippopotamus.description> カバの厚い革。非常に耐久性があるだけでなく、断熱性にも優れています。</AEXP_Leather_Hippopotamus.description>
+  <AEXP_Leather_Hippopotamus.stuffProps.stuffAdjective>カバの革</AEXP_Leather_Hippopotamus.stuffProps.stuffAdjective>
+  <AEXP_Leather_Wildebeest.label>ヌーの毛皮</AEXP_Leather_Wildebeest.label>
+  <AEXP_Leather_Wildebeest.description>厚いがもろいヌーの毛皮と革。ある程度の耐久力がありますが、これで作られたアイテムはあまり長持ちしません。</AEXP_Leather_Wildebeest.description>
+  <AEXP_Leather_Wildebeest.stuffProps.stuffAdjective>ヌーの毛皮</AEXP_Leather_Wildebeest.stuffProps.stuffAdjective>
+</LanguageData>

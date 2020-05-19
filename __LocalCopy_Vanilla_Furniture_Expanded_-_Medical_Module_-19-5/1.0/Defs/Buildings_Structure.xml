@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="SterileWallBase" ParentName="BuildingBase" Abstract="True">
+    <description>An impassable wall. Capable of holding up a roof. Fitted with special cleanliness-enhancing properties to create a sterile environment.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+  <graphicData>
+    <texPath>Things/Linked/SterileWall/SterileWall_Atlas</texPath>
+	<graphicClass>Graphic_Single</graphicClass>
+	<shaderType>CutoutComplex</shaderType>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+  </graphicData>
+  <uiIconPath>Things/Linked/SterileWall/SterileWall_MenuIcon</uiIconPath>
+    <researchPrerequisites><li>SterileMaterials</li></researchPrerequisites>
+    <costList>
+      <Silver>20</Silver>
+	  <Steel>5</Steel>
+    </costList>
+    <statBases>
+      <Beauty>2</Beauty>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0.1</Flammability>
+	  <Cleanliness>0.6</Cleanliness>
+    </statBases>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+	
+	<designatorDropdown>Wall_SterileMF</designatorDropdown>
+  </ThingDef>
+  
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileRed</defName>
+    <label>red sterile wall</label>
+	<graphicData><color>(118,49,57)</color></graphicData>  
+  </ThingDef>
+  
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileGreen</defName>
+    <label>green sterile wall</label>
+    <graphicData><color>(89,105,62)</color></graphicData>
+  </ThingDef>
+ 
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileBlue</defName>
+    <label>blue sterile wall</label>
+    <graphicData><color>(24,65,121)</color></graphicData>
+  </ThingDef>
+ 
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileCream</defName>
+    <label>cream sterile wall</label>
+    <graphicData><color>(195,192,176)</color></graphicData>
+  </ThingDef>
+ 
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileDark</defName>
+    <label>dark sterile wall</label>
+    <graphicData><color>(81,81,81)</color></graphicData>
+  </ThingDef>
+ 
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileGold</defName>
+    <label>gold sterile wall</label>
+    <graphicData><color>(255,235,122)</color></graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileTeal</defName>
+    <label>teal sterile wall</label>
+    <graphicData><color>(160,178,181)</color></graphicData>
+  </ThingDef>
+ 
+  <ThingDef ParentName="SterileWallBase">
+    <defName>Wall_SterileBrown</defName>
+    <label>brown sterile wall</label>
+    <graphicData><color>(133,97,67)</color></graphicData>
+  </ThingDef>
+</Defs>

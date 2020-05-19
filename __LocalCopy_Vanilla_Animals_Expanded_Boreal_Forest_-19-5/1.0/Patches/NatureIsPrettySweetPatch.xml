@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Nature's Pretty Sweet</modName>
+				<yourMod>Vanilla Animals Expanded — Boreal Forest</yourMod>
+			</li>
+
+
+
+
+			
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Otter"]/race/wildBiomes</xpath>
+				<value>
+					<TKKN_RedwoodForest>1</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_ArcticCoyote"]/race/wildBiomes</xpath>
+				<value>					
+					<TKKN_RedwoodForest>1</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_BlackBear"]/race/wildBiomes</xpath>
+				<value>	
+					<TKKN_RedwoodForest>0.1</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.07</TKKN_Grasslands>
+										
+				</value>
+			</li>	
+
+		
+			
+		</operations>
+	</Operation>
+
+
+</Patch>
+

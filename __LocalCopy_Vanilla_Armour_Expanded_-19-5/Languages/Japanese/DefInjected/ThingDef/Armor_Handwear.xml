@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Plate Gloves -->
+
+  <VAE_Handwear_PlateGloves.label>プレートグローブ</VAE_Handwear_PlateGloves.label>
+  <VAE_Handwear_PlateGloves.description>簡単な作りの両手用の金属製手袋です。金属素材の厚みによって、着用者の一般的な作業速度が低下します。</VAE_Handwear_PlateGloves.description>
+
+
+  <!-- Marine Gloves -->
+
+  <VAE_Handwear_MarineGloves.label>マリーングローブ</VAE_Handwear_MarineGloves.label>
+  <VAE_Handwear_MarineGloves.description>握力を強化する動力補助と反動を抑える埋め込み緩衝器装備した両手用のマリーングローブです。</VAE_Handwear_MarineGloves.description>
+
+</LanguageData>

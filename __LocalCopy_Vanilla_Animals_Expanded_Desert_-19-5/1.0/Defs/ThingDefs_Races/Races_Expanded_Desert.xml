@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <!-- ======================= Hyena =============================== -->
+ <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_Hyena</defName>
+    <label>hyena</label>
+    <description>A large dog-like carnivore most often found in the shrublands and deserts. A common trope in tribal legends, the laughter produced by these animals can sow fear during the long desert nights.</description>
+    <statBases>
+      <MoveSpeed>5.0</MoveSpeed>
+      <MarketValue>185</MarketValue>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16.2</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <maxPreyBodySize>0.7</maxPreyBodySize>
+      <petness>0.14</petness>
+      <baseBodySize>0.76</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.12</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.85</wildness>
+      <nuzzleMtbHours>240</nuzzleMtbHours>
+      <manhunterOnTameFailChance>0.16</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.18</manhunterOnDamageChance>
+	  <wildBiomes>
+        <AridShrubland>0.6</AridShrubland>
+        <Desert>1</Desert>
+		<ExtremeDesert>0.4</ExtremeDesert>
+      </wildBiomes>
+      <gestationPeriodDays>26</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(2.5, 0.7)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>12</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.45</minAge>
+          <soundWounded>AEXP_Pawn_Hyena_Wounded</soundWounded>
+          <soundDeath>AEXP_Pawn_Hyena_Death</soundDeath>
+          <soundCall>AEXP_Pawn_Hyena_Call</soundCall>
+          <soundAngry>AEXP_Pawn_Hyena_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_Hyena</defName>
+    <label>hyena</label>
+    <labelPlural>hyenas</labelPlural>
+    <race>AEXP_Hyena</race>
+    <combatPower>60</combatPower>
+    <ecoSystemWeight>0.4</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>6</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>hyena cub</label>
+        <labelPlural>hyena cubs</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Hyena</texPath>
+          <drawSize>0.6</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Dessicated_Hyena</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Hyena</texPath>
+          <drawSize>1.1</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Dessicated_Hyena</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Hyena</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hyena/Dessicated_Hyena</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<!-- ======================= Desert Tortoise =============================== -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_DesertTortoise</defName>
+    <label>desert tortoise</label>
+    <description>This heavily armored desert-dwelling reptile is known for its slow moving speed and extremely hard, flat domed shell, making it tough to kill. Desert tortoises, despite their small size, are great combat animals and are relatively easy to tame.</description>
+    <statBases>
+      <MoveSpeed>1.0</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>65</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>AEXP_EggDesertTortoiseFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>3</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>TurtleLike</body>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHungerRate>0.38</baseHungerRate>
+      <baseHealthScale>0.72</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <wildness>0.80</wildness>
+      <lifeExpectancy>80</lifeExpectancy>
+	  <wildBiomes>
+        <AridShrubland>0.2</AridShrubland>
+        <Desert>1</Desert>
+		<ExtremeDesert>0.7</ExtremeDesert>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Tortoise_Wounded</soundWounded>
+          <soundDeath>Pawn_Tortoise_Death</soundDeath>
+          <soundCall>Pawn_Tortoise_Call</soundCall>
+          <soundAngry>Pawn_Tortoise_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_DesertTortoise</defName>
+    <label>desert tortoise</label>
+    <race>AEXP_DesertTortoise</race>
+    <combatPower>50</combatPower>
+    <ecoSystemWeight>0.40</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/DesertTortoise</texPath>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/Dessicated_DesertTortoise</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/DesertTortoise</texPath>
+          <drawSize>1.2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/Dessicated_DesertTortoise</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/DesertTortoise</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.45, 0.45, 0.45)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/DesertTortoise/Dessicated_DesertTortoise</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<!-- ======================= Lion =============================== -->
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_Lion</defName>
+    <label>lion</label>
+    <description>A king of the animal kingdom, a lion is a muscular, deep-chested cat with a short head and a prominent mane. Being the biggest of the cat species, lions are excellent combat animals despite their wildness.</description>
+    <statBases>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>1200</MarketValue>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <maxPreyBodySize>3.0</maxPreyBodySize>
+      <baseBodySize>1.65</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.6</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>AEXP_Leather_Lion</leatherDef>
+      <wildness>0.88</wildness>
+      <trainability>Advanced</trainability>
+      <manhunterOnTameFailChance>0.45</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+      <gestationPeriodDays>26</gestationPeriodDays>
+      <lifeExpectancy>16</lifeExpectancy>
+	  <wildBiomes>
+        <AridShrubland>0.5</AridShrubland>
+        <Desert>1</Desert>
+		<ExtremeDesert>0.9</ExtremeDesert>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>AEXP_Pawn_Lion_Wounded</soundWounded>
+          <soundDeath>AEXP_Pawn_Lion_Death</soundDeath>
+          <soundAngry>AEXP_Pawn_Lion_Angry</soundAngry>
+		  <soundCall>AEXP_Pawn_Lion_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_Lion</defName>
+    <label>lion</label>
+    <labelPlural>lions</labelPlural>
+    <race>AEXP_Lion</race>
+    <combatPower>220</combatPower>
+    <ecoSystemWeight>0.80</ecoSystemWeight>
+    <wildGroupSize>
+      <min>1</min>
+      <max>3</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+	    <label>lion cub</label>
+        <labelPlural>lion cubs</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/LionFemale</texPath>
+          <drawSize>1.2</drawSize>
+          <color>(214,184,139)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/Dessicated_Lion</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/LionMale</texPath>
+          <drawSize>1.6</drawSize>
+          <color>(185,143,96)</color>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/LionFemale</texPath>
+          <drawSize>1.5</drawSize>
+          <color>(214,184,139))</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/Dessicated_Lion</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/LionMale</texPath>
+          <drawSize>2.38</drawSize>
+          <color>(185,143,96)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/LionFemale</texPath>
+          <drawSize>2.18</drawSize>
+          <color>(214,184,139)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lion/Dessicated_Lion</texPath>
+          <drawSize>2.18</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+   
+       <!-- ======================= Gila Monster =============================== -->
+   
+   	  <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_GilaMonster</defName>
+    <label>gila monster</label>
+    <description>A large, slow moving type of lizard found mostly in the desert, known for it's highly venomous bite which inflicts a severe toxic build-up in it's prey. Outlanders to this day believe in tales which state that this lizard is a spawn from hell, and that it's foul breath is lethal.</description>
+    <statBases>
+      <MoveSpeed>2.25</MoveSpeed>
+      <MarketValue>200</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>AEXP_GilaVenomousBite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>AEXP_EggGilaMonsterFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>2</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<baseBodySize>0.50</baseBodySize>
+      <baseHealthScale>0.55</baseHealthScale>
+			<baseHungerRate>0.24</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <wildness>0.6</wildness>
+      <trainability>Simple</trainability>
+      <petness>0.05</petness>
+      <lifeExpectancy>12</lifeExpectancy>
+	  <wildBiomes>
+        <Desert>0.8</Desert>
+		<ExtremeDesert>0.6</ExtremeDesert>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.09</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.25</minAge>
+          <soundWounded>Pawn_Iguana_Wounded</soundWounded>
+          <soundDeath>Pawn_Iguana_Death</soundDeath>
+          <soundCall>Pawn_Iguana_Call</soundCall>
+          <soundAngry>Pawn_Iguana_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+<ToolCapacityDef>
+        <defName>AEXP_GilaVenomousBite</defName>
+</ToolCapacityDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_GilaMonster</defName>
+    <label>gila monster</label>
+    <race>AEXP_GilaMonster</race>
+    <combatPower>70</combatPower>
+    <ecoSystemWeight>0.40</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/Dessicated_GilaMonster</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <drawSize>1.45</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/Dessicated_GilaMonster</texPath>
+          <drawSize>1.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/GilaMonster</texPath>
+          <drawSize>1.85</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/GilaMonster/Dessicated_GilaMonster</texPath>
+          <drawSize>1.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<ManeuverDef>
+    <defName>AEXP_GilaVenomousBite</defName>
+    <requiredCapacity>AEXP_GilaVenomousBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AEXP_GilaToxicBuildUp</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+</ManeuverDef>
+  
+<DamageDef Name="Bite">
+    <defName>AEXP_GilaToxicBuildUp</defName>
+    <label>venomous bite</label>
+    <workerClass>DamageWorker_Bite</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been bitten to death.</deathMessage>
+    <hediff>Bite</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff> <!-- Malaria Plague -->
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+      </li>
+    </additionalHediffs>
+</DamageDef>
+   
+</Defs>

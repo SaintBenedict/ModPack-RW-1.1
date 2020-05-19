@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_StoneSlab</defName>
+    <label>slab bed</label>
+    <description>A large slab of smoothed stone, very uncomfortable and only marginally better than sleeping on the floor.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/BedSlab/BedSlab</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>80</Mass>
+      <BedRestEffectiveness>0.80</BedRestEffectiveness>
+      <Comfort>0.5</Comfort>
+      <ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+	  <SurgerySuccessChanceFactor>0.98</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <building>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Neolithic</techLevel>
+    <uiIconScale>0.90</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_Simple</defName>
+    <label>simple bed</label>
+    <description>A somewhat comfy net and pillow rested on a sturdy frame.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/SimpleBed/SimpleBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  		  <li>Table_Wardrobe</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>30</Mass>
+      <BedRestEffectiveness>0.970</BedRestEffectiveness>
+      <Comfort>0.7</Comfort>
+      <ImmunityGainSpeedFactor>1.03</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>0.98</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <building>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <fillPercent>0.3</fillPercent>
+    <pathCost>60</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Medieval</techLevel>
+    <researchPrerequisites>
+      <li>MF_BasicFurniture</li>
+    </researchPrerequisites>
+    <uiIconScale>0.90</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+ 
+ 
+</Defs>

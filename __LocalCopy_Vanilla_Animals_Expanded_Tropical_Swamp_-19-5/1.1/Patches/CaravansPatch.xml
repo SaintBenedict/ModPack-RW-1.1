@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+
+
+
+			<!-- Caravan animals -->
+
+			
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/allowedPackAnimals</xpath>
+				<value>
+
+					<li>AEXP_IndianElephant</li>
+				
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
+				<value>
+
+					<AEXP_IndianElephant>10</AEXP_IndianElephant>
+					
+
+				</value>
+			</li>
+			 <li Class="PatchOperationAdd"> 
+				<xpath>/Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
+				<value>
+
+					<AEXP_IndianElephant>10</AEXP_IndianElephant>
+
+				</value>
+			</li>
+
+
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>
+

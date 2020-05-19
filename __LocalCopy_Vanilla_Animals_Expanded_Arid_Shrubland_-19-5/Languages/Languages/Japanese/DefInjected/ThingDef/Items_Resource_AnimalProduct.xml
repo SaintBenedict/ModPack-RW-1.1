@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AEXP_EggCrocodileUnfertilized.label>ワニの卵（無精卵）</AEXP_EggCrocodileUnfertilized.label>
+  <AEXP_EggCrocodileUnfertilized.description>ワニの無精卵。そのままでも食べられますが、調理すればより美味しく食べられます。</AEXP_EggCrocodileUnfertilized.description>
+  <AEXP_EggCrocodileFertilized.label>ワニの卵（有精卵）</AEXP_EggCrocodileFertilized.label>
+  <AEXP_EggCrocodileFertilized.description>ワニの有精卵。何もなければワニが孵化します。そのままでも食べられますが、調理すればより美味しく食べられます。</AEXP_EggCrocodileFertilized.description>
+</LanguageData>

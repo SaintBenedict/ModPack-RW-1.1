@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Add linkables to Vanilla -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DrugLab"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+			<li>VFE_DrugCabinet</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TableMachining"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+			<li>VFE_MachiningCabinet</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FueledSmithy" or defName="ElectricSmithy"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+			<li>VFE_SmithyCabinet</li>
+        </value>
+    </Operation>
+
+    <!-- check for present comps -->
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
+                <success>Invert</success>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/comps</xpath>
+                <value>
+                    <li Class="CompProperties_AffectedByFacilities">
+                        <linkableFacilities />
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+            <li>VFE_KitchenSinkCabinet</li>
+        </value>
+    </Operation>
+
+    <!-- check for present placeworkers -->
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/placeWorkers</xpath>
+                <success>Invert</success>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]</xpath>
+                <value>
+                    <placeWorkers />
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/placeWorkers</xpath>
+        <value>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HandTailoringBench" or defName="ElectricTailoringBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+			<li>VFE_TailorCabinet</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+			<li>VFE_FabricationCabinet</li>
+        </value>
+    </Operation>
+	
+	    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableSmithyLarge</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableMachiningLarge</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsFabricationBench"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_ComponentFabricationBench</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableTailorLarge</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsProduceDrugs"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableDrugLabElectric</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsStonecut"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableStonecutterElectric</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsSmelter"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_FueledSmelter</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableStoveLarge</li>
+        </value>
+    </Operation>
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
+        <value>
+			<li>VFE_TableButcherElectric</li>
+        </value>
+    </Operation>
+
+
+</Patch>

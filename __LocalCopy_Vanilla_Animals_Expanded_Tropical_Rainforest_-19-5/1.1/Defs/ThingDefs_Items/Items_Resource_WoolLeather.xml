@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+    <!-- ======================= Tiger leather =============================== -->
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>AEXP_Leather_Tiger</defName>
+		<label>tiger leather</label>
+		<description>Tigers were often the target of poachers in old Earth due to their luxurious pelts, a fact that almost drove them to extinction. With the near lawlessness of the Rim, tiger leather is seen as another exotic commodity to trade between settlements.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AEXP_TigerLeather</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(197,154,99)</color>
+			<commonality>0.005</commonality>
+			<statFactors>
+				<MaxHitPoints>1.0</MaxHitPoints>
+				<Beauty>3.2</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+  
+
+</Defs>

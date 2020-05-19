@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VAE_LeatherTanning.label>leerlooien</VAE_LeatherTanning.label>
+  <VAE_LeatherTanning.description>Leer het maken van stevigere pantsers van leer.</VAE_LeatherTanning.description>
+
+  <VAE_HazardProtection.label>Omgevingsbeschermende kledij</VAE_HazardProtection.label>
+  <VAE_HazardProtection.description>Maak pakken bestendig tegen radiatie en gif.</VAE_HazardProtection.description>
+
+  <VAE_MlitaryCamouflage.label>miltaire camouflage</VAE_MlitaryCamouflage.label>
+  <VAE_MlitaryCamouflage.description>Maak speciale militaire kledij om in de omgeving op te gaan.</VAE_MlitaryCamouflage.description>
+
+
+</LanguageData>

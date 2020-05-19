@@ -1,0 +1,15 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\bin\Debug\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\bin\Debug\ToggleBuildingDefOnPower.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Assemblies\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Assemblies\ToggleBuildingDefOnPower.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\Source\ToggleBuildingDefOnPower\obj\Debug\ToggleBuildingDefOnPower.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\1.1\Assemblies\ToggleBuildingDefOnPower.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaFurnitureExpanded-Art\1.1\Assemblies\ToggleBuildingDefOnPower.pdb

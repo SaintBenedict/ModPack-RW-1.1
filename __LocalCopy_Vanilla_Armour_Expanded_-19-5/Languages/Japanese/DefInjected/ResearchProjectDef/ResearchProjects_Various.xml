@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VAE_LeatherTanning.label>皮をなめす</VAE_LeatherTanning.label>
+  <VAE_LeatherTanning.description>より厚く耐久性のある鎧を作るために皮をなめす方法を研究します。</VAE_LeatherTanning.description>
+
+  <VAE_HazardProtection.label>危険環境保護</VAE_HazardProtection.label>
+  <VAE_HazardProtection.description>対高毒性と対放射線に優れた衣服の研究を行います。</VAE_HazardProtection.description>
+
+  <VAE_MlitaryCamouflage.label>軍用迷彩服</VAE_MlitaryCamouflage.label>
+  <VAE_MlitaryCamouflage.description>着用者が木の葉などの風景や生態環境に似せた特殊な軍用衣服を作成できるように研究します。</VAE_MlitaryCamouflage.description>
+
+</LanguageData>

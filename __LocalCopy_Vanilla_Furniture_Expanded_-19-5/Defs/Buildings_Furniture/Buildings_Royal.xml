@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ArtableBedBase">
+    <defName>Bed_Kingsize</defName>
+    <label>royal poster bed</label>
+    <description>A bed fit for a king, flush with gold-inlaid posters and a high head rest. Extremely comfortable and beautiful, it is a true luxury. Fits two.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/KingsizeBed/KingsizeBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4.05,4.05)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  		  <li>Table_Wardrobe</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>60000</WorkToBuild>
+      <Mass>105</Mass>
+      <Beauty>95</Beauty>
+      <BedRestEffectiveness>1.1</BedRestEffectiveness>
+      <Comfort>0.95</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+        <costStuffCount>120</costStuffCount>
+    <costList>
+      <Gold>75</Gold>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.6</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Medieval</techLevel>
+    <researchPrerequisites>
+      <li>MF_RoyalFurniture</li>
+    </researchPrerequisites>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiIconScale>0.75</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="TableBase">
+    <defName>Table_RoyalEndTable</defName>
+    <label>royal end table</label>
+    <description>A small bedside table that has been adorned with luxury gold fittings, making nearby beds more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Bedroom/RoyalEndTable/RoyalEndTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>30</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Gold>30</Gold>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MF_RoyalFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.1</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+  <ThingDef ParentName="TableBase">
+    <defName>Table_RoyalDresser</defName>
+    <label>royal dresser</label>
+    <description>A luxurious dresser, adorned with solid gold and elegant in design, making nearby beds more comfortable.Placing more than one end table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Bedroom/RoyalDresser/RoyalDresser</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(2,1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>50</Beauty>
+    </statBases>
+	<size>(2,1)</size>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>70</costStuffCount>
+    <costList>
+      <Gold>50</Gold>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MF_RoyalFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.1</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+   <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>Seat_RoyalChair</defName>
+    <label>royal chair</label>
+    <description>A comfy, padded seat with a high back plate rested inside a gold frame. Can be used at tables, work stations, and elsewhere.</description>
+    <graphicData>
+      <texPath>Things/Seating/RoyalChair/RoyalChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.23, 0.26, 0.23)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>30</Beauty>
+      <Comfort>0.80</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>65</costStuffCount>
+	<costList>
+      <Gold>35</Gold>
+    </costList>
+    <pathCost>30</pathCost>
+    <fillPercent>0.35</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>MF_RoyalFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Seat_RoyalArmchair</defName>
+    <label>royal armchair</label>
+    <description>A large, soft, luxurious seat. Fitted inside a golden frame for only the wealthiest elites. Can be used at tables, work stations, and elsewhere.</description>
+    <graphicData>
+      <texPath>Things/Seating/RoyalArmchair/RoyalArmchair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.6,2.6)</drawSize>
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.3, 0.33, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.9</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>50</Beauty>
+      <Comfort>0.95</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>140</costStuffCount>
+	<costList>
+      <Gold>60</Gold>
+    </costList>
+    <pathCost>30</pathCost>
+    <fillPercent>0.40</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <researchPrerequisites>
+      <li>MF_RoyalFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+  <ThingDef Name="RoyalTableDesc" ParentName="TableGatherSpotBase" Abstract="True">
+	<description>An impressive looking table for eating off of, this one being complete with a gold outer rim and rounded ends, suited for the wealthy.</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <rect>(0.15,0.15,0.2,0.2)</rect>
+      </damageData>
+    </graphicData>
+	<researchPrerequisites><li>MF_RoyalFurniture</li></researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+  <ThingDef ParentName="RoyalTableDesc">
+    <defName>Table_Royal1x1c</defName>
+    <label>royal table (1x1)</label>
+    <graphicData>
+      <texPath>Things/Tables/RoyalTable1x1/RoyalTable1x1</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costStuffCount>25</costStuffCount>
+	<costList>
+      <Gold>10</Gold>
+    </costList>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<rotatable>false</rotatable>
+  </ThingDef>
+
+  <ThingDef ParentName="RoyalTableDesc">
+    <defName>Table_Royal2x2c</defName>
+    <label>royal table (2x2)</label>
+    <graphicData>
+      <texPath>Things/Tables/RoyalTable2x2/RoyalTable2x2</texPath>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>32</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>40</Beauty>
+    </statBases>
+    <size>(2,2)</size>
+    <costStuffCount>100</costStuffCount>
+	<costList>
+      <Gold>40</Gold>
+    </costList>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<rotatable>false</rotatable>
+  </ThingDef>
+ 
+  <ThingDef ParentName="RoyalTableDesc">
+    <defName>Table_Royal1x2c</defName>
+    <label>royal table (1x2)</label>
+    <graphicData>
+      <texPath>Things/Tables/RoyalTable1x2/RoyalTable1x2</texPath>
+      <drawSize>(3,4)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>16</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+    <costStuffCount>50</costStuffCount>
+	<costList>
+      <Gold>20</Gold>
+    </costList>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+  </ThingDef>
+ 
+  <ThingDef ParentName="RoyalTableDesc">
+    <defName>Table_Royal3x3c</defName>
+    <label>royal table (3x3)</label>
+    <graphicData>
+      <texPath>Things/Tables/RoyalTable3x3/RoyalTable3x3</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>190</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>65</Beauty>
+    </statBases>
+    <size>(3,3)</size>
+    <costStuffCount>150</costStuffCount>
+	<costList>
+      <Gold>60</Gold>
+    </costList>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<rotatable>false</rotatable>
+  </ThingDef>
+ 
+  <ThingDef ParentName="RoyalTableDesc">
+    <defName>Table_Royal2x4c</defName>
+    <label>royal table (2x4)</label>
+    <graphicData>
+      <texPath>Things/Tables/RoyalTable2x4/RoyalTable2x4</texPath>
+      <drawSize>(3.9,6)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>60</Beauty>
+    </statBases>
+    <size>(2,4)</size>
+    <costStuffCount>140</costStuffCount>
+	<costList>
+      <Gold>60</Gold>
+    </costList>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>

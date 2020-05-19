@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LampBase">
+		<defName>Light_Streetlamp</defName>
+		<label>outdoor lamp</label>
+		<description>A tall electrical lamp that lights an area, able to be placed outside without catching fire, making it ideal for road lighting and only turns on at night.</description>
+		<fillPercent>0.30</fillPercent>
+		<graphicData>
+			<texPath>Things/Other/LampOutdoor</texPath>
+			<drawSize>(2,3.5)</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<statBases>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>40</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Schedule">
+				<!-- Match plant growing times -->
+				<startTime>0.70</startTime>
+				<endTime>0.35</endTime>
+				<offMessage>Off during daylight hours</offMessage>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>20</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<designationCategory>AOMorefurniture</designationCategory>
+		<uiIconOffset>(0, 0.2)</uiIconOffset>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Misc_FileCabinet</defName>
+		<label>file cabinet</label>
+		<description>A piece of furniture used for organising documents and records in paper form. It will help you perform research taks faster.</description>
+		<graphicData>
+			<texPath>Things/Other/FilingCabinet/FilingCabinet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.8</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>1600</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<Mass>15</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.05</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				        <maxDistance>6</maxDistance>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiIconScale>0.7</uiIconScale>
+	</ThingDef>
+
+  <!-- Moved to version folder to include the new 1.1 recipes -->
+  <!-- <ThingDef ParentName="BuildingBase">
+    <defName>Stone_Campfire</defName>
+    <label>stone campfire</label>
+    <description>Cooks meals but produces less heat but more light, burns out slower than the standard campfire. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</description>    
+    <thingClass>Building_WorkTable</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Other/StoneCampfire/StoneCampfire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Other/StoneCampfire/StoneCampfire_MenuIcon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0</Flammability>
+      <WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>20</costStuffCount>
+    <selectable>true</selectable>
+    <costList>
+      <WoodLog>30</WoodLog> 
+    </costList>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>8.0</fuelConsumptionRate>
+        <fuelCapacity>30.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>15</heatPerSecond>
+        <heatPushMaxTemperature>24</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>1</fireSize>
+		<offset>(0,0,0.2)</offset>
+      </li>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>Make_Pemmican</li>
+      <li>BurnApparel</li>
+      <li>BurnDrugs</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+  </ThingDef> -->
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Shelf_1x1c</defName>
+    <label>shelf (1x1)</label>
+    <description>A small shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</description>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>Things/Other/SmallShelf/SmallShelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Shelf_WeaponRack</defName>
+    <label>weapon rack</label>
+    <description>A heavy duty rack for storing weaponry. Weapons stored in this will not deteriorate, even if outside.</description>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>Things/Other/WeaponShelf/WeaponShelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>8</Mass>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationHotKey>Misc12</designationHotKey>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+    <defName>Bin_Small</defName>
+    <label>Small bin</label>
+	<description>A small bin to help keeping the area around it somewhat clean. Slowly removes trash and filth in a 10 Cell radius.</description>
+    <graphicData>
+      <texPath>Things/Other/Bin_Small</texPath>
+	  <drawSize>(1,1)</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+	<tickerType>Normal</tickerType>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+	  <Cleanliness>2</Cleanliness>
+	  <Beauty>4</Beauty>
+    </statBases>
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>40</costStuffCount>
+	<size>(1,1)</size>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+	<researchPrerequisites><li>MF_WasteDisposal</li></researchPrerequisites>
+	<designationCategory>Misc</designationCategory>
+	<specialDisplayRadius>10</specialDisplayRadius>
+    <comps>
+	<li Class="AOMoreFurniture.CompProperties_BinClean">
+		<TimerInTicks>2000</TimerInTicks>
+		<Radius>10</Radius>
+	</li>
+    </comps>
+  </ThingDef>
+  
+	<ThingDef ParentName="FurnitureBase">
+    <defName>Bin_Large</defName>
+    <label>Large bin</label>
+	<description>A large bin to help keeping the area around it clean. Slowly removes trash and filth in a 20 Cell radius.</description>
+    <graphicData>
+      <texPath>Things/Other/BinLarge/BinLarge</texPath>
+	  <drawSize>(2.5,1.5)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+	<tickerType>Normal</tickerType>
+    <fillPercent>0.60</fillPercent>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+	  <Cleanliness>4</Cleanliness>
+	  <Beauty>0</Beauty>
+    </statBases>
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>90</costStuffCount>
+	<size>(2,1)</size>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>true</rotatable>
+	<researchPrerequisites><li>MF_WasteDisposal</li></researchPrerequisites>
+	<designationCategory>Misc</designationCategory>
+	<specialDisplayRadius>20</specialDisplayRadius>
+    <comps>
+	<li Class="AOMoreFurniture.CompProperties_BinClean">
+		<TimerInTicks>1500</TimerInTicks>
+		<Radius>20</Radius>
+	</li>
+    </comps>
+	<uiIconScale>1.2</uiIconScale>
+  </ThingDef>
+</Defs>

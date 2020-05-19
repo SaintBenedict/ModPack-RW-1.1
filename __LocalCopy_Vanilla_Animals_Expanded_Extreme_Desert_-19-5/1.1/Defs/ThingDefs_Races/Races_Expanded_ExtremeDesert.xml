@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <!-- ======================= Camel =============================== -->
+ <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_Camel</defName>
+    <label>camel</label>
+    <description>A large land mammal adapted to arid environments. Domesticated since ancient times, its wool and leather are both exceptionally good at insulating against the desert heat, and its milk is quite nourishing. It can be used as a pack animal, but two humps make it extremely uncomfortable to ride.\n\nBy storing water in its large humps and reclaiming moisture from its breath as it exhales, it can go weeks without drinking.</description>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <MarketValue>320</MarketValue>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>10</milkAmount>
+      </li>
+      <li Class="CompProperties_Shearable">
+        <woolDef>WoolCamel</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>100</woolAmount>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHump</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHealthScale>1.6</baseHealthScale>
+			<baseHungerRate>0.70</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Camel</leatherDef>
+      <wildness>0.25</wildness>
+      <trainability>Simple</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>28</gestationPeriodDays>
+      <lifeExpectancy>45</lifeExpectancy>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Dromedary_Wounded</soundWounded>
+          <soundDeath>Pawn_Dromedary_Death</soundDeath>
+          <soundCall>Pawn_Dromedary_Call</soundCall>
+          <soundAngry>Pawn_Dromedary_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase" Name="AEXP_Camel">
+    <defName>AEXP_Camel</defName>
+    <label>camel</label>
+    <labelPlural>camels</labelPlural>
+    <race>AEXP_Camel</race>
+    <combatPower>90</combatPower>
+    <ecoSystemWeight>1.0</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>3</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>camel calf</label>
+        <labelPlural>camel calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Camel</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.25, 0.25)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Dessicated_Camel</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Camel</texPath>
+          <drawSize>2.25</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Dessicated_Camel</texPath>
+          <drawSize>2.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Camel</texPath>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.5)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Camel/Dessicated_Camel</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<!-- ======================= Rattlesnake =============================== -->
+ <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_Rattlesnake</defName>
+    <label>rattlesnake</label>
+    <description>A highly venomous snake, recieving it's name from a rattle at the end of their tail. The sound generated sounds as a warning to any predators, however in case it doesn't work, rattlesnake's venom-fangs inflict extremely painful toxin.</description>
+    <statBases>
+      <MoveSpeed>3.3</MoveSpeed>
+      <MarketValue>200</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>venom-fangs</label>
+        <capacities>
+          <li>AEXP_RattleSnakeVenomousBite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>AEXP_EggRattlesnakeFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>20.0</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>2</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>Snake</body>
+      <predator>true</predator>
+      <maxPreyBodySize>0.45</maxPreyBodySize>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHungerRate>0.07</baseHungerRate>
+      <baseHealthScale>0.5</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <useMeatFrom>Cobra</useMeatFrom>
+      <wildness>0.75</wildness>
+      <petness>0.05</petness>
+      <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+	  <wildBiomes>
+        <Desert>0.4</Desert>
+		<ExtremeDesert>1</ExtremeDesert>
+      </wildBiomes>
+      <nameOnTameChance>1</nameOnTameChance>
+      <lifeExpectancy>20</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Cobra_Wounded</soundWounded>
+          <soundDeath>Pawn_Cobra_Death</soundDeath>
+          <soundCall>AEXP_Pawn_Rattlesnake_Call</soundCall>
+          <soundAngry>AEXP_Pawn_Rattlesnake_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_Rattlesnake</defName>
+    <label>rattlesnake</label>
+    <race>AEXP_Rattlesnake</race>
+    <combatPower>85</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Dessicated_Rattlesnake</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <drawSize>1.25</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Dessicated_Rattlesnake</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Rattlesnake</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rattlesnake/Dessicated_Rattlesnake</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<ToolCapacityDef>
+        <defName>AEXP_RattleSnakeVenomousBite</defName>
+</ToolCapacityDef>
+  
+<ManeuverDef>
+    <defName>AEXP_RattleSnakeVenomousBite</defName>
+    <requiredCapacity>AEXP_RattleSnakeVenomousBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AEXP_RattleSnakeToxicBuildUp</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+</ManeuverDef>
+  
+<DamageDef ParentName="Bite">
+    <defName>AEXP_RattleSnakeToxicBuildUp</defName>
+    <label>venomous bite</label>
+    <workerClass>DamageWorker_Bite</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been bitten to death.</deathMessage>
+    <hediff>Bite</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff>
+        <severityPerDamageDealt>0.003</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+      </li>
+    </additionalHediffs>
+</DamageDef>
+  
+<!-- ======================= Megascorpion =============================== -->
+  
+  <ThingDef ParentName="BaseInsect">
+    <defName>AEXP_Megascorpion</defName>
+    <label>megascorpion</label>
+    <description>A giant, genetically-engineered scorpion. Once created as a perfect assassination tool, it is not often seen returning to it's natural habitat - desert. A very potent poison in it's stinger helps it in tacking even much bigger prey. A eusocial creature, it cannot reproduce individually.</description>
+    <statBases>
+      <MoveSpeed>3.45</MoveSpeed>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>100</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>stinger</label>
+        <capacities>
+          <li>AEXP_MegascorpionVenomousBite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.4</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <wildness>0.95</wildness>
+      <lifeExpectancy>10</lifeExpectancy>
+	  <wildBiomes>
+        <Desert>0.4</Desert>
+		<ExtremeDesert>1</ExtremeDesert>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_Megascorpion</defName>
+    <label>megascorpion</label>
+    <race>AEXP_Megascorpion</race>
+    <combatPower>55</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.18</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Megascorpion</texPath>
+          <drawSize>1</drawSize>
+          <color>(114,107,84)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Dessicated_Megascorpion</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Megascorpion</texPath>
+          <drawSize>1.25</drawSize>
+          <color>(114,107,84)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Dessicated_Megascorpion</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Megascorpion</texPath>
+          <drawSize>1.5</drawSize>
+          <color>(114,107,84)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megascorpion/Dessicated_Megascorpion</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+<ToolCapacityDef>
+        <defName>AEXP_MegascorpionVenomousBite</defName>
+</ToolCapacityDef>
+  
+<ManeuverDef>
+    <defName>AEXP_MegascorpionVenomousBite</defName>
+    <requiredCapacity>AEXP_MegascorpionVenomousBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AEXP_MegascorpionToxicBuildUp</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+</ManeuverDef>
+  
+<DamageDef ParentName="Bite">
+    <defName>AEXP_MegascorpionToxicBuildUp</defName>
+    <label>venomous bite</label>
+    <workerClass>DamageWorker_Bite</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been stung to death.</deathMessage>
+    <hediff>Bite</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff>
+        <severityPerDamageDealt>0.001</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+      </li>
+    </additionalHediffs>
+</DamageDef>
+   
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>VFE_ArchotechSculptureImprint</defName>
+    <workerClass>ToggleBuildingDefOnPower.ThoughtWorker_ThoughtFromNearbyThingDef</workerClass>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <stages>
+      <li>
+        <label>imprinted with art</label>
+        <description>The archotech sculpture makes me constantly see a beautiful artwork. It makes me relaxed.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="ToggleBuildingDefOnPower.ThoughtGiverDefExtension">
+        <ThingToGiveThought>VFE_ArchotechSculpture</ThingToGiveThought>
+        <DistanceToGiveThought>15</DistanceToGiveThought>
+      </li>
+    </modExtensions>
+  </ThoughtDef>
+
+</Defs>

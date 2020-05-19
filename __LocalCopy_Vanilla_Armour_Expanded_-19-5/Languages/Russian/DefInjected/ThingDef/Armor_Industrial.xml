@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Bulletproof Vest +++++ -->
+
+  <VAE_Apparel_BulletproofVest.label>противопульный жилет</VAE_Apparel_BulletproofVest.label>
+  <VAE_Apparel_BulletproofVest.description>Жилет из кевлара. Хорошо защищает от попаданий из огнестрельного оружия и проникающих ранений, но полностью бесполезен против оружия ближнего боя.</VAE_Apparel_BulletproofVest.description>
+
+
+  <!-- +++++ Ghillie Suit +++++ -->
+
+  <VAE_Apparel_GhillieSuit.label>маскировочный костюм</VAE_Apparel_GhillieSuit.label>
+  <VAE_Apparel_GhillieSuit.description>Камуфляжный костюм помогает слиться с местностью. Дает время прицелиться при стрельбе, но совершенно не защищает.</VAE_Apparel_GhillieSuit.description>
+
+
+  <!-- +++++ Advanced Vest +++++ -->
+
+  <VAE_Apparel_AdvancedVest.label>улучшенный жилет</VAE_Apparel_AdvancedVest.label>
+  <VAE_Apparel_AdvancedVest.description>Легкий боевой жилет сложной конструкции, усиленный пласталью. Ничего не делает для защиты конечностей.</VAE_Apparel_AdvancedVest.description>
+
+
+  <!-- +++++ HAZMAT Suit +++++ -->
+
+  <VAE_Apparel_HAZMATSuit.label>костюм химзащиты</VAE_Apparel_HAZMATSuit.label>
+  <VAE_Apparel_HAZMATSuit.description>Полностью покрывающее тело непроницаемое защитное снаряжение, обеспечивающее полную защиту от психического и токсического воздействия.\n\nВ нем неудобно работать и передвигаться, а так же этот костюм не защищает от атак.</VAE_Apparel_HAZMATSuit.description>
+
+
+</LanguageData>

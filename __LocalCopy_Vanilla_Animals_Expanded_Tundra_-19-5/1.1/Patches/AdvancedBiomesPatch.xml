@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Advanced Biomes</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+
+
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AEXP_Muskox"]/race/wildBiomes</xpath>
+				<value>
+					<PoisonForest>0.01</PoisonForest>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AEXP_Moose"]/race/wildBiomes</xpath>
+				<value>
+					<PoisonForest>0.01</PoisonForest>
+
+				</value>
+			</li>
+
+
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AEXP_MegaWolverine"]/race/wildBiomes</xpath>
+				<value>
+
+					<PoisonForest>0.01</PoisonForest>
+
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AEXP_Porcupine"]/race/wildBiomes</xpath>
+				<value>
+
+					<PoisonForest>0.01</PoisonForest>
+
+
+				</value>
+			</li>
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

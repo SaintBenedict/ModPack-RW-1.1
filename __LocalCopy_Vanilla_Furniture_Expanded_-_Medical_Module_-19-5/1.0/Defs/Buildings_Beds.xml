@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_OperatingTable</defName>
+    <label>operating table</label>
+    <description>A crude table cluttered with instruments that supposedly make surgery easier, the cleanliness of the table is questionable though. Slightly improves medical outcomes over normal beds.</description>
+    <graphicData>
+      <texPath>Things/Beds/OperatingTable/OperatingTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <BedRestEffectiveness>0.6</BedRestEffectiveness>
+      <Comfort>0.60</Comfort>
+      <ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>1.05</SurgerySuccessChanceFactor>
+	  <Cleanliness>-20</Cleanliness>
+	  <Beauty>-10</Beauty>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>VitalsMonitor</li>
+		  <li>Facility_VitalsCentre</li>
+		  <li>Facility_IVDrip</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+	  <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>5</bed_healPerDay>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <techLevel>Industrial</techLevel>
+    <uiIconScale>0.90</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>Bed_CryptoBed</defName>
+    <label>cryptosleep suspender</label>
+    <description>A medical that uses partial cryptosleep to slow down the degredation of wounds and help the body heal, although with the same side effects of cryptosleep, albeit at a lesser severity.</description>
+	<thingClass>AOMoreMedical.Building_CryptoBed</thingClass>
+    <graphicData>
+      <texPath>Things/Beds/CryptosleepSuspender/CryptosleepSuspender</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>0.90</Comfort>
+      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.15</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>1.1</SurgerySuccessChanceFactor>
+	  <Beauty>5</Beauty>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>VitalsMonitor</li>
+		  <li>Facility_VitalsCentre</li>
+		  <li>Facility_IVDrip</li>
+        </linkableFacilities>
+      </li>
+	  <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+	<tickerType>Normal</tickerType>
+    <size>(1,2)</size>
+    <costList>
+	  <Steel>80</Steel>
+	  <Uranium>2</Uranium>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>30</bed_healPerDay>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <researchPrerequisites>
+      <li>Cryptosleep</li>
+    </researchPrerequisites>
+    <techLevel>Spacer</techLevel>
+    <uiIconScale>1</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>

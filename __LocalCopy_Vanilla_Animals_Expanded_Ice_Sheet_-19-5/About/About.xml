@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Animals Expanded — Ice Sheet</name>
+	<author>Oskar Potocki, Sarg Bjornson</author>
+	<supportedVersions><li>1.0</li><li>1.1</li></supportedVersions>
+	<packageId>VanillaExpanded.VAEIS</packageId>
+	<description>What this mod series was certainly lacking is some Ice Sheet animals. Adding them was quite difficult as the biome itself hardly supports any plant life - and whilst I can feel free to add animals, they need to be able to sustain themselves. Additionally, I needed to make sure that the Sea Ice biome gets enough treatment to be unique, whilst still being extremely difficult to play in. With this mod you are able to fend off the flocks of penguins and hunt walruses for their precious tusks! Not only that, as penguins will periodically dig for fish, so if you’re particularly unlucky, you can scavenge their leftovers!
+
+Vanilla Animals Expanded is a modular mod. It means it will come out in several modules allowing people to subscribe to only the animals they want in the game. This part is the Ice Sheet biome expansion. It adds 3 new animals that will spawn in the Ice Sheet, but some of them also spawn in other biomes. They have vanilla artwork, sounds and balancing.
+</description>
+</ModMetaData>

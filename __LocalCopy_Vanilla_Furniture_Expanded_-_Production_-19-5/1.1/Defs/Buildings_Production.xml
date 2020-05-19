@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Component Fabrication Bench -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VFE_ComponentFabricationBench</defName>
+    <label>assembly bench</label>
+    <description>A workbench equipped with advanced tools to produce components.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Workbenches/ComponentFabricationBench</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(3.5,1.5)</drawSize>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <WorkToBuild>2500</WorkToBuild>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <size>(3,1)</size>
+    <costList>
+        <Steel>100</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+        <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+        <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+                <li>ToolCabinet</li>
+            </linkableFacilities>
+        </li>
+        <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>250</basePowerConsumption>
+            <shortCircuitInRain>true</shortCircuitInRain>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <recipes>
+        <li>Make_ComponentIndustrial</li>
+        <li>Make_ComponentSpacer</li>
+    </recipes>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <inspectorTabs>
+        <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <designationHotKey>Misc12</designationHotKey>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+        <li>Fabrication</li>
+    </researchPrerequisites>
+    <modExtensions>
+        <li Class="VFEProduction.ThingDefExtension">
+            <inheritRecipesFrom>
+                <li>FabricationBench</li>
+            </inheritRecipesFrom>
+            <allowedProductFilter>
+                <categories>
+                    <li>Manufactured</li>
+                </categories>
+            </allowedProductFilter>
+            <!-- <disallowedProductFilter></disallowedProductFilter>
+            <allowedRecipes></allowedRecipes>
+            <disallowedRecipes></disallowedRecipes> -->
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Electric Butcher  -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VFE_TableButcherElectric</defName>
+    <label>electric butcher</label>
+    <description>A motorized table with a rotating saw blade for butchering dead creatures quicker into precise slices of raw meat. Consumes a lot of power.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Workbenches/TableButcherElectric</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(3.5,1.5)</drawSize>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>60</costStuffCount>
+    <costList>
+        <Steel>20</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+        <li>Metallic</li>
+        <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+        <WorkToBuild>3000</WorkToBuild>
+        <MaxHitPoints>180</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <Cleanliness>-15</Cleanliness>
+        <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+        <li>ButcherCorpseFlesh</li>
+        <li>Make_Kibble</li>
+    </recipes>
+    <inspectorTabs>
+        <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+        <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>350</basePowerConsumption>
+            <shortCircuitInRain>true</shortCircuitInRain>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+            <li>ToolCabinet</li>
+            </linkableFacilities>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationHotKey>Misc3</designationHotKey>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+        <li>Electricity</li>
+    </researchPrerequisites>
+    <modExtensions>
+        <li Class="VFEProduction.ThingDefExtension">
+            <inheritRecipesFrom>
+                <li>TableButcher</li>
+            </inheritRecipesFrom>
+            <!-- <allowedProductFilter></allowedProductFilter>
+            <disallowedProductFilter></disallowedProductFilter>
+            <allowedRecipes></allowedRecipes>
+            <disallowedRecipes></disallowedRecipes> -->
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Electric Drug Lab  -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VFE_TableDrugLabElectric</defName>
+    <label>electric drug lab</label>
+    <description>An advanced work bench equipped with containers, heaters, and measurement devices for producing various drugs with more efficiency. Consumes a lot of power.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Workbenches/TableDrugLabElectric</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(3.5,1.5)</drawSize>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+        <Steel>120</Steel>
+        <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+        <li>Metallic</li>
+        <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+        <WorkToBuild>4000</WorkToBuild>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <inspectorTabs>
+        <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+        <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>400</basePowerConsumption>
+            <shortCircuitInRain>true</shortCircuitInRain>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+                <li>ToolCabinet</li>
+                <li>VFE_DrugCabinet</li>
+            </linkableFacilities>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+        <li>Electricity</li>
+        <li>DrugProduction</li>
+    </researchPrerequisites>
+    <modExtensions>
+        <li Class="VFEProduction.ThingDefExtension">
+            <inheritRecipesFrom>
+                <li>DrugLab</li>
+            </inheritRecipesFrom>
+            <!-- <allowedProductFilter></allowedProductFilter>
+            <disallowedProductFilter></disallowedProductFilter>
+            <allowedRecipes></allowedRecipes>
+            <disallowedRecipes></disallowedRecipes> -->
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Fueled Smelter -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VFE_FueledSmelter</defName>
+    <label>fueled smelter</label>
+    <description>A wood-fueled station for smelting. Extracts usable metal from slag chunks and other mixed metal items.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Workbenches/FueledSmelter</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3.5,1.5)</drawSize>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+        <Steel>170</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+        <WorkToBuild>2500</WorkToBuild>
+        <MaxHitPoints>180</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+        <li>ExtractMetalFromSlag</li>
+        <li>SmeltWeapon</li>
+        <li>DestroyWeapon</li>
+    </recipes>
+    <inspectorTabs>
+        <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+        <li Class="CompProperties_Refuelable">
+            <fuelConsumptionRate>160.0</fuelConsumptionRate>
+            <fuelCapacity>50.0</fuelCapacity>
+            <fuelFilter>
+            <thingDefs>
+                <li>WoodLog</li>
+            </thingDefs>
+            </fuelFilter>
+            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        </li>
+        <li Class="CompProperties_HeatPusher">
+            <compClass>CompHeatPusherPowered</compClass>
+            <heatPerSecond>9</heatPerSecond>
+        </li>
+    </comps>
+    <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites>
+        <li>Smithing</li>
+    </researchPrerequisites>
+    <modExtensions>
+        <li Class="VFEProduction.ThingDefExtension">
+            <inheritRecipesFrom>
+                <li>ElectricSmelter</li>
+            </inheritRecipesFrom>
+            <!-- <allowedProductFilter></allowedProductFilter>
+            <disallowedProductFilter></disallowedProductFilter>
+            <allowedRecipes></allowedRecipes>
+            <disallowedRecipes></disallowedRecipes> -->
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Electric Stone Cutter -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VFE_TableStonecutterElectric</defName>
+    <label>electric stonecutter's table</label>
+    <description>An advanced work table with electrical saws and holders for cutting stone chunks into usable blocks in shorter duration of time on an assembly line. Consumes a lot of power.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Workbenches/TableStonecutterElectric</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(3.5,1.5)</drawSize>
+        <shadowData>
+            <volume>(2.85, 0.3, 0.62)</volume>
+            <offset>(0, 0, 0.20)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <costStuffCount>150</costStuffCount>
+    <costList>
+        <Steel>60</Steel>
+        <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+        <li>Metallic</li>
+        <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+        <WorkToBuild>4500</WorkToBuild>
+        <MaxHitPoints>180</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <Cleanliness>-5</Cleanliness>
+        <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <inspectorTabs>
+        <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+        <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>250</basePowerConsumption>
+            <shortCircuitInRain>true</shortCircuitInRain>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+            <li>ToolCabinet</li>
+            </linkableFacilities>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationHotKey>Misc9</designationHotKey>
+    <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+        <li>Stonecutting</li>
+        <li>Electricity</li>
+    </researchPrerequisites>
+    <modExtensions>
+        <li Class="VFEProduction.ThingDefExtension">
+            <inheritRecipesFrom>
+                <li>TableStonecutter</li>
+            </inheritRecipesFrom>
+            <!-- <allowedProductFilter></allowedProductFilter>
+            <disallowedProductFilter></disallowedProductFilter>
+            <allowedRecipes></allowedRecipes>
+            <disallowedRecipes></disallowedRecipes> -->
+        </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

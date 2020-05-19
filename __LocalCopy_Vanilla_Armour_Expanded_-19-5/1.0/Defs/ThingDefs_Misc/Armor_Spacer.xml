@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- ##### Spacer ##### -->
+    <!-- +++++ Light Marine Helmet +++++ -->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>VAE_Headgear_LightMarineHelmet</defName>
+		<label>light marine helmet</label>
+		<description>A light marine armor helmet, providing wearer with advanced situational awareness and protection despite having an exposed lower half of the face.\n\nArmor like this is often used by imperial scouting parties.</description>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<graphicData>
+			<texPath>Things/Headgear/LightMarineHelmet/LightMarineHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>17000</WorkToMake>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.74</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/LightMarineHelmet/LightMarineHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- Vanilla Marine Helmet -->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+    <!-- +++++ Light Marine Armor +++++ -->
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>VAE_Apparel_LightMarineArmor</defName>
+		<label>light marine armor</label>
+		<description>A suit of light semi-powered armor. Thin plasteel plates are effective at stopping small calibre gunshots and melee attacks whilst also permitting the user to move quickly and undetected.\n\nArmor like this is often used by imperial scouting parties.</description>
+		<graphicData>
+			<texPath>Things/Apparel/LightMarineArmor/LightMarineArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>70</Plasteel>
+			<Uranium>20</Uranium>
+		</costList>
+		<statBases>
+			<MaxHitPoints>340</MaxHitPoints>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>7.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.34</ArmorRating_Heat>
+			<Insulation_Cold>26</Insulation_Cold>
+			<Insulation_Heat>16</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/LightMarineArmor/LightMarineArmor</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- Vanilla Power Armor -->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+    <!-- +++++ Heavy Marine Helmet +++++ -->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>VAE_Headgear_HeavyMarineHelmet</defName>
+		<label>heavy marine helmet</label>
+		<description>A heavy marine armor helmet, with double-layered plasteel plating and a built-in camera with a display HUD to get rid of the weakpoints like visors.\n\nArmor like this is often used by imperial heavy stormtroopers during mechanoid conflicts, as it transforms a soldier into a humanoid tank.</description>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.25</generateCommonality>
+		<graphicData>
+			<texPath>Things/Headgear/HeavyMarineHelmet/HeavyMarineHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<drawSize>1.20</drawSize>
+		</graphicData>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Mass>3.6</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.56</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.1</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/HeavyMarineHelmet/HeavyMarineHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- Vanilla Marine Helmet -->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+    <!-- +++++ Heavy Marine Armor +++++ -->
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>VAE_Apparel_HeavyMarineArmor</defName>
+		<label>heavy marine armor</label>
+		<description>A suit of heavy powered armor. Double layers of plasteel-weave plates are incredibly effective at both projectiles and explosions. Neuro-memetic assistors allow a human to wear the armor and still move easily. A built in blast shield allows wearer to survive a direct rocket hit, upon which the shields require time to recharge.\n\nArmor like this is often used by imperial heavy stormtroopers during mechanoid conflicts, as it transforms a soldier into a humanoid tank.</description>
+		<thingClass>D9ASB.RangedShieldBelt</thingClass>
+		<graphicData>
+			<texPath>Things/Apparel/HeavyMarineArmor/HeavyMarineArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.20</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		<costList>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<Uranium>40</Uranium>
+		</costList>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MaxHitPoints>340</MaxHitPoints>
+			<WorkToMake>75000</WorkToMake>
+			<Mass>25</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.34</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>46</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+			<EnergyShieldRechargeRate>0.02</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/HeavyMarineArmor/HeavyMarineArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+		</apparel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- Vanilla Power Armor -->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

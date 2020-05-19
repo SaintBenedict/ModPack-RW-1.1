@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>AirConditioningUnit</defName>
+    <label>air conditioning unit</label>
+    <description>An air-cooling machine that fits into a wall. Exhaust cool air without forcing warm air onto another room. Can be used to cool down rooms during summer, or to create a walk-in freezer.</description>
+    <thingClass>AOMoreFurniture.Building_ACUnit</thingClass>
+    <graphicData>
+      <texPath>Things/Misc/ACUnit/AC</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2, 1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <statBases>
+      <WorkToBuild>1600</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <costList>
+      <Steel>180</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>AOMoreFurniture.PlaceWorker_ACUnit</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+      <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>220</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_TempControl">
+        <energyPerSecond>-21</energyPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <designationHotKey>Misc5</designationHotKey>
+    <researchPrerequisites>
+      <li>AirConditioning</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <size>(2,1)</size>
+  </ThingDef>
+
+</Defs>

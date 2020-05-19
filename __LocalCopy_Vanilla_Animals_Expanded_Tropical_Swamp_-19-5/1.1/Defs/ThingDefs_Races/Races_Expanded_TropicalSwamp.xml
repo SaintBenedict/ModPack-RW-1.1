@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- ======================= Alligator =============================== -->
+
+  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <defName>AEXP_Alligator</defName>
+    <label>alligator</label>
+    <description>The alligator is a large reptile that inhabits freshwater wetlands. They are apex predators and consume fish, amphibians, reptiles, birds, and mammals.  Like other crocodilians, healthy alligators may continue to grow throughout their lives.</description>
+    <statBases>
+      <MoveSpeed>2.5</MoveSpeed>
+      <MarketValue>750</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>AEXP_EggAlligatorFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+       	<eggCountRange>1</eggCountRange>
+
+      </li>
+    </comps>
+    <race>
+      <body>AEXP_LargeLizardlike</body>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <maxPreyBodySize>2.0</maxPreyBodySize>
+      <baseBodySize>1.85</baseBodySize>
+      <baseHealthScale>1.85</baseHealthScale>
+      <baseHungerRate>0.28</baseHungerRate>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <wildness>0.85</wildness>
+      <trainability>Simple</trainability>
+      <lifeExpectancy>80</lifeExpectancy>
+      <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+      <wildBiomes>
+        <TropicalSwamp>0.3</TropicalSwamp> 
+		<TemperateSwamp>0.07</TemperateSwamp>
+		<TropicalRainforest>0.07</TropicalRainforest>
+      </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3</minAge>
+        
+          <soundCall>AEXP_Pawn_Alligator_Call</soundCall>
+          <soundAngry>AEXP_Pawn_Alligator_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+    
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_Alligator</defName>
+    <label>alligator</label>
+    <race>AEXP_Alligator</race>
+    <combatPower>200</combatPower>
+    <ecoSystemWeight>0.80</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+
+	<!-- ======================= Anaconda =============================== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Anaconda</defName>
+		<label>anaconda</label>
+		<description>The anaconda is the heaviest and one of the longest known snake species, reaching lengths of 5 meters. They are a primarily nocturnal species that tends to spend most of its life in or around water.</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<MarketValue>775</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>AEXP_EggAnacondaFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>20</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<cooldownTime>2.5</cooldownTime>
+				<power>20</power>
+				<capacities><li>Bite</li></capacities>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>45</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>Snake</body>
+			<baseBodySize>3.0</baseBodySize>
+			<baseHealthScale>2</baseHealthScale>
+			<baseHungerRate>0.25</baseHungerRate>
+			<predator>true</predator>
+			<maxPreyBodySize>4</maxPreyBodySize>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<wildness>0.75</wildness>
+			<trainability>Simple</trainability>
+			<useMeatFrom>Cobra</useMeatFrom>
+			<gestationPeriodDays>30</gestationPeriodDays>
+			<lifeExpectancy>10</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>AEXP_Pawn_Anaconda_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Anaconda_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Anaconda_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Anaconda_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TropicalSwamp>0.07</TropicalSwamp> 
+				<TropicalRainforest>0.03</TropicalRainforest>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Anaconda</defName>
+		<label>anaconda</label>
+		<race>AEXP_Anaconda</race>
+		<combatPower>225</combatPower>
+		<ecoSystemWeight>1.0</ecoSystemWeight>
+		
+		<lifeStages>
+			<li>
+				
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Anaconda</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.25, 0.25)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Dessicated_Anaconda</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Anaconda</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Anaconda</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.42, 0.42, 0.42)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Dessicated_Anaconda</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Dessicated_Anaconda</texPath>
+					<drawSize>2.75</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Anaconda</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.42, 0.42, 0.42)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Anaconda</texPath>
+					<drawSize>2.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.35)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Dessicated_Anaconda</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Anaconda/Dessicated_Anaconda</texPath>
+					<drawSize>2.8</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+		<!-- ======================= Indian Elephant =============================== -->
+
+	 <ThingDef ParentName="AnimalThingBase">
+    <defName>AEXP_IndianElephant</defName>
+    <label>indiant elephant</label>
+    <description>The Indian elephant is one of the largest unmodified land animals. In general, Indian elephants are smaller, have smaller ears, but relatively broader skulls and larger trunks than African elephants, and have the highest body point on the head.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MarketValue>600</MarketValue>
+      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+    <tools>
+      <li>
+        <label>left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14.9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+	<wildBiomes>
+				<TropicalSwamp>0.5</TropicalSwamp> 
+				<TropicalRainforest>0.4</TropicalRainforest>
+				<TemperateSwamp>0.1</TemperateSwamp>
+	</wildBiomes>
+      <herdAnimal>true</herdAnimal>
+      <body>QuadrupedAnimalWithHoovesTusksAndTrunk</body>
+      <baseHungerRate>2.0</baseHungerRate>
+      <baseBodySize>3.3</baseBodySize>
+      <baseHealthScale>3.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Elephant</leatherDef>
+      <gestationPeriodDays>48</gestationPeriodDays>
+      <wildness>0.75</wildness>
+      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <trainability>Advanced</trainability>
+      <lifeExpectancy>48</lifeExpectancy>
+      <packAnimal>true</packAnimal>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.8</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.0</minAge>
+          <soundWounded>Pawn_Elephant_Injured</soundWounded>
+          <soundDeath>Pawn_Elephant_Dead</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AEXP_IndianElephant</defName>
+    <label>indian elephant</label>
+    <race>AEXP_IndianElephant</race>
+    <combatPower>235</combatPower>
+    <ecoSystemWeight>2.0</ecoSystemWeight>
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>indian elephant calf</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/IndianElephant</texPath>
+          <color>(130,126,119)</color>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/Dessicated_IndianElephant</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/IndianElephant</texPath>
+          <color>(130,126,119)</color>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/Dessicated_IndianElephant</texPath>
+          <drawSize>2.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/IndianElephant</texPath>
+          <color>(130,126,119)</color>
+          <drawSize>3.2</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/IndianElephant/Dessicated_IndianElephant</texPath>
+          <drawSize>3.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+
+
+</Defs>

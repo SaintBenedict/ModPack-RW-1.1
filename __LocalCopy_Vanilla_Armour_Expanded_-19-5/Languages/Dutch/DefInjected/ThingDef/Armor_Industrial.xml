@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Bulletproof Vest +++++ -->
+
+  <VAE_Apparel_BulletproofVest.label>Kogelvrije vest</VAE_Apparel_BulletproofVest.label>
+  <VAE_Apparel_BulletproofVest.description>Een kevlar-vest op de borst en rug. Goed tegen kogels maar helpt weinig bij handwapens.</VAE_Apparel_BulletproofVest.description>
+
+
+  <!-- +++++ Ghillie Suit +++++ -->
+
+  <VAE_Apparel_GhillieSuit.label>Ghilliepak</VAE_Apparel_GhillieSuit.label>
+  <VAE_Apparel_GhillieSuit.description>Een camouflagekledijstuk om in de omgeving op te gaan. Geeft betere accuraatheid maar bied geen bescherming.</VAE_Apparel_GhillieSuit.description>
+
+
+  <!-- +++++ Advanced Vest +++++ -->
+
+  <VAE_Apparel_AdvancedVest.label>geavanceerde vest</VAE_Apparel_AdvancedVest.label>
+  <VAE_Apparel_AdvancedVest.description>Een lichte vest met complex ontwerp, versterkt met plastalen platen. Bied geen bescherming aan de ledematen.</VAE_Apparel_AdvancedVest.description>
+
+
+  <!-- +++++ HAZMAT Suit +++++ -->
+
+  <VAE_Apparel_HAZMATSuit.label>HAZMAT-pak</VAE_Apparel_HAZMATSuit.label>
+  <VAE_Apparel_HAZMATSuit.description>Een beschermend pak over het hele lichaam tegen gif, radiatie en psychische aanvallen. Beperkt beweging en manipulatie van objecten. Bied ook geen bescherming tegen aanvallen.</VAE_Apparel_HAZMATSuit.description>
+
+
+</LanguageData>

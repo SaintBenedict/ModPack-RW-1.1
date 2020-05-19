@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	 <!-- Anaconda -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AEXP_Anaconda"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
+	
+
+
+</Patch>

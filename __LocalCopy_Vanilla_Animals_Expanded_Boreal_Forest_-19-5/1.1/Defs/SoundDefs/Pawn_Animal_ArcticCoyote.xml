@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <SoundDef>
+    <defName>AEXP_Pawn_ArcticCoyote_Angry</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>2</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Angry</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>25</min>
+          <max>25</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_ArcticCoyote_Wounded</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Wounded</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>17</min>
+          <max>17</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+ 
+  
+    <SoundDef>
+    <defName>AEXP_Pawn_ArcticCoyote_Call</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Call</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>30</min>
+          <max>30</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.85</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

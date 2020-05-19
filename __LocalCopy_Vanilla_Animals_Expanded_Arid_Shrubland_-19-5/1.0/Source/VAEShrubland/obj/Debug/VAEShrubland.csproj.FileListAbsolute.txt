@@ -1,0 +1,4 @@
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\1.0\Assemblies\VAEShrubland.dll
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.dll

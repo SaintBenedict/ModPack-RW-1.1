@@ -1,0 +1,14 @@
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\VFEF.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\VFEF.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\UnityEngine.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\obj\Debug\VFEF.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\obj\Debug\VFEF.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\obj\Debug\VFEF.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\obj\Debug\VFEF.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\VanillaFarmingExpanded\Source\VFEF\obj\Debug\VFEF.pdb

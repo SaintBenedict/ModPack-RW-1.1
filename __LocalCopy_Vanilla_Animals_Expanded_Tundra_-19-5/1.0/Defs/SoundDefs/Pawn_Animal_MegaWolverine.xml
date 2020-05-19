@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+ <SoundDef>
+    <defName>AEXP_Pawn_MegaWolverine_Call</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Call</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>26</min>        
+          <max>26</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>50</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_MegaWolverine_Angry</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Angry</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>26.82927</min>        
+          <max>26.82927</max>
+        </volumeRange>      
+        <pitchRange>
+           <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>AEXP_Pawn_MegaWolverine_Death</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Wounded</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>      
+        <pitchRange>
+           <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+   <SoundDef>
+    <defName>AEXP_Pawn_MegaWolverine_Wounded</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Alphabeaver/Alphabeaver_Wounded</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>15</min>        
+          <max>15</max>
+        </volumeRange>      
+        <pitchRange>
+           <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

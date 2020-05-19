@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Plate Gloves +++++ -->
+
+  <VAE_Handwear_PlateGloves.label>пластинчатые перчатки</VAE_Handwear_PlateGloves.label>
+  <VAE_Handwear_PlateGloves.description>Пара простых укрепленных металлом перчаток. Из-за толщины материала они снижают общую скорость работы пользователя.</VAE_Handwear_PlateGloves.description>
+
+
+  <!-- +++++ Marine Gloves +++++ -->
+
+  <VAE_Handwear_MarineGloves.label>силовые перчатки</VAE_Handwear_MarineGloves.label>
+  <VAE_Handwear_MarineGloves.description>Пара боевых перчаток с улучшенной поддержкой сцепления и набором встроенных стабилизаторов отдачи.</VAE_Handwear_MarineGloves.description>
+
+
+</LanguageData>

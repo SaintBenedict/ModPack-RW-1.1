@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AEXP_RattleSnakeToxicBuildUp.label>有毒性咬傷</AEXP_RattleSnakeToxicBuildUp.label>
+  <AEXP_RattleSnakeToxicBuildUp.deathMessage>{0} は噛まれて死にました。</AEXP_RattleSnakeToxicBuildUp.deathMessage>
+  <AEXP_MegascorpionToxicBuildUp.label>有毒性咬傷</AEXP_MegascorpionToxicBuildUp.label>
+  <AEXP_MegascorpionToxicBuildUp.deathMessage>{0} は刺されて死にました。</AEXP_MegascorpionToxicBuildUp.deathMessage>
+</LanguageData>

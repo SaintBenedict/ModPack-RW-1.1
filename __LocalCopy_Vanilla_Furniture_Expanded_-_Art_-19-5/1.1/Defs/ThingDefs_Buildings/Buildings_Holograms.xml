@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedHologram</defName>
+    <label>unfinished hologram</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase" Name="HologramBase" Abstract="True">
+    <thingClass>Building_AdvancedArt</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <useHitPoints>true</useHitPoints>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsArt</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+			<SellPriceFactor>1.30</SellPriceFactor>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Hologram</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <recipeMaker>
+	    <researchPrerequisite>
+			<li>VFE_Res_Holograms</li>
+		</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <unfinishedThingDef>UnfinishedHologram</unfinishedThingDef>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Jade</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+      <skillRequirements>
+        <Intellectual>9</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  
+  
+  <!--================================ Holograms ======================================-->
+
+  <ThingDef ParentName="HologramBase">
+    <defName>VFE_HologramOn</defName>
+    <label>hologram</label>
+    <description>A human-sized light projecting device, depicting an artwork made using several programming languages. Needs to be plugged in to display the artwork.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/Hologram</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<pathCost>8</pathCost>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <fillPercent>0.3</fillPercent>
+    <rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(70,140,225,0)</glowColor>
+      </li>
+      <li Class="CompProperties_PoweredStatChange">
+        <stat>Beauty</stat>
+        <On>1</On>
+        <Off>0</Off>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>5</Mass>
+      <Beauty>200</Beauty>
+      <WorkToMake>24000</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>20</Steel>
+	  <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+  </ThingDef>
+
+</Defs>

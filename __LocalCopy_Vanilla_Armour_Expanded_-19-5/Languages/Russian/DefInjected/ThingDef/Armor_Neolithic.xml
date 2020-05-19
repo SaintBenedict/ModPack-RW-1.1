@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Wooden Armor +++++ -->
+
+  <VAE_Apparel_WoodenArmor.label>деревянная броня</VAE_Apparel_WoodenArmor.label>
+  <VAE_Apparel_WoodenArmor.description>Жилет с деревянными бляшками, обеспечивающими защиту спереди и сзади. Весьма эффективен против выстрелов слабого оружия и острого оружия ближнего боя, но совершенно бесполезен против ударов и выстрелов из винтовки.</VAE_Apparel_WoodenArmor.description>
+
+
+  <!-- +++++ Stone War Mask +++++ -->
+
+  <VAE_Headgear_StoneWarMask.label>каменная маска войны</VAE_Headgear_StoneWarMask.label>
+  <VAE_Headgear_StoneWarMask.description>Художественно сделанная ужасающая военная маска. Скрывает лицо владельца и делает его более уверенным в себе. Сделанная из камня, она очень прочна, но и невероятно тяжелая.</VAE_Headgear_StoneWarMask.description>
+
+
+</LanguageData>

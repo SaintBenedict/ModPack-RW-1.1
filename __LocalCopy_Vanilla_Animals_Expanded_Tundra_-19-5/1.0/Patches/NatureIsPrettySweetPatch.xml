@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Nature's Pretty Sweet</modName>
+				<yourMod>Vanilla Animals Expanded — Tundra</yourMod>
+			</li>
+
+
+
+
+			
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Muskox"]/race/wildBiomes</xpath>
+				<value>
+					<TKKN_RedwoodForest>0.15</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Moose"]/race/wildBiomes</xpath>
+				<value>					
+					<TKKN_RedwoodForest>0.1</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_MegaWolverine"]/race/wildBiomes</xpath>
+				<value>	
+					<TKKN_RedwoodForest>0.03</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.03</TKKN_Grasslands>
+										
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Porcupine"]/race/wildBiomes</xpath>
+				<value>	
+					<TKKN_RedwoodForest>0.2</TKKN_RedwoodForest>
+					<TKKN_Grasslands>0.2</TKKN_Grasslands>
+										
+				</value>
+			</li>	
+
+		
+			
+		</operations>
+	</Operation>
+
+
+</Patch>
+

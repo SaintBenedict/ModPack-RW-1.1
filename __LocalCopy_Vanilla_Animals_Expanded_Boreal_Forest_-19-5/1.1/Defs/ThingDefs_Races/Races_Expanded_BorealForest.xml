@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Otter =============================== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Otter</defName>
+		<label>otter</label>
+		<description>Long, slim, semi-aquatic mammal dieting mostly on fish and small plants. They are extremaly good swimmers and can hold breath under water for a prolonged amount of time.</description>
+		<statBases>
+			<MoveSpeed>3.9</MoveSpeed>
+			<MarketValue>170</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8.4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8.4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>0.4</maxPreyBodySize>
+			<baseBodySize>0.50</baseBodySize>
+			<baseHungerRate>0.23</baseHungerRate>
+			<baseHealthScale>0.7</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.65</wildness>
+			<petness>0.2</petness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<gestationPeriodDays>20</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.5, 1)</li>
+					<li>(2, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<wildBiomes>
+				<BorealForest>1</BorealForest>
+				<Tundra>0.4</Tundra>
+				<ColdBog>0.2</ColdBog>
+				<IceSheet>0.1</IceSheet>
+			</wildBiomes>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Otter</defName>
+		<label>otter</label>
+		<race>AEXP_Otter</race>
+		<combatPower>45</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<wildGroupSize>
+			<min>1</min>
+			<max>2</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
+					<drawSize>1.25</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.35, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.08)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Arctic Coyote =============================== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_ArcticCoyote</defName>
+		<label>arctic coyote</label>
+		<description>A small canine native to tundra and boreal forests. It's capable of hunting much bigger prey, and is often found in packs, similar to a wolf.</description>
+		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+			<MarketValue>150</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7.7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7.7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14.2</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.9</maxPreyBodySize>
+			<petness>0.1</petness>
+			<baseBodySize>0.76</baseBodySize>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseHealthScale>1.05</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<leatherDef>Leather_Wolf</leatherDef>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<wildness>0.85</wildness>
+			<nuzzleMtbHours>240</nuzzleMtbHours>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<wildBiomes>
+				<BorealForest>1</BorealForest>
+				<Tundra>0.4</Tundra>
+				<ColdBog>0.2</ColdBog>
+				<IceSheet>0.1</IceSheet>
+			</wildBiomes>
+			<gestationPeriodDays>26</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(2.5, 0.7)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>AEXP_Pawn_ArcticCoyote_Wounded</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>AEXP_Pawn_ArcticCoyote_Call</soundCall>
+					<soundAngry>AEXP_Pawn_ArcticCoyote_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_ArcticCoyote</defName>
+		<label>arctic coyote</label>
+		<labelPlural>arctic coyotes</labelPlural>
+		<race>AEXP_ArcticCoyote</race>
+		<combatPower>55</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>arctic coyote puppy</label>
+				<labelPlural>arctic coyote puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/ArcticCoyote</texPath>
+					<drawSize>0.8</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/Dessicated_ArcticCoyote</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/ArcticCoyote</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/Dessicated_ArcticCoyote</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/ArcticCoyote</texPath>
+					<drawSize>1.85</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/ArcticCoyote/Dessicated_ArcticCoyote</texPath>
+					<drawSize>1.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Black Bear =============================== -->
+
+	<ThingDef ParentName="BaseBear">
+		<defName>AEXP_BlackBear</defName>
+		<label>black bear</label>
+		<description>A medium sized omnivorous mammal adapted for cold climates. Bears' thick blubber and fur keeps them warm in winter.\n\nWhile their usual diet consists of fish, berries, honey, and scavenged meat, the black bear is capable of using its massive strength and deadly claws to kill live prey. They are startlingly quick for such lumbering creatures.</description>
+		<statBases>
+			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
+		</statBases>
+		<race>
+			<wildness>0.75</wildness>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+			<baseBodySize>1.9</baseBodySize>
+			<wildBiomes>
+				<BorealForest>0.1</BorealForest>
+				<Tundra>0.07</Tundra>
+				<ColdBog>0.07</ColdBog>
+				<IceSheet>0.07</IceSheet>
+			</wildBiomes>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BearBase">
+		<defName>AEXP_BlackBear</defName>
+		<label>black bear</label>
+		<race>AEXP_BlackBear</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+					<drawSize>1.3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/Dessicated_BlackBear</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/Dessicated_BlackBear</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/BlackBear</texPath>
+					<drawSize>2.4</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/BlackBear/Dessicated_BlackBear</texPath>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

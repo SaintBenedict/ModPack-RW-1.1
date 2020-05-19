@@ -1,0 +1,9 @@
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\1.0\Assemblies\VAEShrubland.dll
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\VanillaAnimalsExpanded-AridShrubland\Source\VAEShrubland\obj\Debug\VAEShrubland.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-AridShrubland\1.1\Source\VAEShrubland\obj\Debug\VAEShrubland.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-AridShrubland\1.1\Source\VAEShrubland\obj\Debug\VAEShrubland.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-AridShrubland\1.1\Source\VAEShrubland\obj\Debug\VAEShrubland.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-AridShrubland\1.1\Assemblies\VAEShrubland.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded-AridShrubland\1.1\Source\VAEShrubland\obj\Debug\VAEShrubland.csproj.CopyComplete

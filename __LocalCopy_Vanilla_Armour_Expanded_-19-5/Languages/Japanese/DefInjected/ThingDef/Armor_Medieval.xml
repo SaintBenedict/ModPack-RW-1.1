@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--  Gambeson  -->
+
+  <VAE_Apparel_Gambeson.label>ギャンベゾン</VAE_Apparel_Gambeson.label>
+  <VAE_Apparel_Gambeson.description>防寒性にすぐれた中綿製パッドが入った防寒ジャケットです。鎧の下などに着込みます。</VAE_Apparel_Gambeson.description>
+
+
+  <!--  Quilted Vest  -->
+
+  <VAE_Apparel_QuiltedVest.label>キルティングベスト</VAE_Apparel_QuiltedVest.label>
+  <VAE_Apparel_QuiltedVest.description>鎧の下などに羽織るキルト製のベスト型防具です。</VAE_Apparel_QuiltedVest.description>
+
+
+  <!--  Light Plate Armor  -->
+
+  <VAE_Apparel_LightPlateArmor.label>ライトプレートアーマー</VAE_Apparel_LightPlateArmor.label>
+  <VAE_Apparel_LightPlateArmor.description>全身では無く胸と肩を金属板で集中的に保護する形で作られた軽装な板金鎧(プレートアーマー)です。</VAE_Apparel_LightPlateArmor.description>
+
+
+  <!--  Plate Shoulderpads  -->
+
+  <VAE_Apparel_PlateShoulderpads.label>プレートショルダーパッド</VAE_Apparel_PlateShoulderpads.label>
+  <VAE_Apparel_PlateShoulderpads.description>シンプルな金属板で覆われた肩パッドです。</VAE_Apparel_PlateShoulderpads.description>
+
+
+  <!--  Chestplate  -->
+
+  <VAE_Apparel_Chestplate.label>チェストプレート</VAE_Apparel_Chestplate.label>
+  <VAE_Apparel_Chestplate.description>金属製の胸当てで、ほとんどのダメージから身を守れますが、動きはかなり制限されます。</VAE_Apparel_Chestplate.description>
+
+
+  <!--  Chainmail  -->
+
+  <VAE_Apparel_Chainmail.label>チェーンメイルアーマー</VAE_Apparel_Chainmail.label>
+  <VAE_Apparel_Chainmail.description>小さな金属製の輪っかをつなぎ合わせて網目状にして布製の詰め物の上に被せる鎧です。\n\nこの鎧はかなり重量があるので、装着者は足が遅くなります。</VAE_Apparel_Chainmail.description>
+
+
+  <!--  Plate Helmet  -->
+
+  <VAE_Apparel_PlateHelmet.label>プレートヘルム</VAE_Apparel_PlateHelmet.label>
+  <VAE_Apparel_PlateHelmet.description>鋭利な武器による攻撃に対してそこそこの防御力を与えてくれる板金で覆われたヘルメットです。</VAE_Apparel_PlateHelmet.description>
+
+</LanguageData>

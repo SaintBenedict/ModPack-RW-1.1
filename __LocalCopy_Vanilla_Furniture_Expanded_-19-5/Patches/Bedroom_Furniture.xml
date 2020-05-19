@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Bed" or defName = "DoubleBed" or defName = "HospitalBed" or defName = "RoyalBed"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>Table_RoyalDresser</li>
+			<li>Table_RoyalEndTable</li>
+			<li>Table_Wardrobe</li>
+			<li>Table_LightEndTable</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "SimpleResearchBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+							<li>Misc_FileCabinet</li>
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+				<li>Misc_FileCabinet</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>Misc_FileCabinet</li>
+		</value>
+	</Operation>
+</Patch>

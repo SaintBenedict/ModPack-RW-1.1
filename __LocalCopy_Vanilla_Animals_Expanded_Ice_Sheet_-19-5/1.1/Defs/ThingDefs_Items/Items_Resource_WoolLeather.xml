@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<!-- ======================= Pinnipeds =============================== -->
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>AEXP_Leather_Pinniped</defName>
+		<label>pinniped leather</label>
+		<description>Tanned and dried leather from a Pinniped. It is of average strength but insulates well against heat.</description>
+		<graphicData>
+			<color>(112,82,65)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.50</MarketValue>
+			<StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+		</statBases>
+		<stuffProps>
+			<color>(112,82,65)</color>
+			<commonality>0.01</commonality>
+			<statFactors>
+				<Beauty>1.7</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
+</Defs>

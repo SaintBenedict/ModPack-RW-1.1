@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Wooden Armor +++++ -->
+
+  <VAE_Apparel_WoodenArmor.label>Houten pantser</VAE_Apparel_WoodenArmor.label>
+  <VAE_Apparel_WoodenArmor.description>Een vest met houten balken en planken die je voorkant en achterkant beschermen. Handig tegen lichte kogelkalibers en scherpe wapens maar nutteloos tegen botte wapens en zware kalibers.</VAE_Apparel_WoodenArmor.description>
+
+
+  <!-- +++++ Stone War Mask +++++ -->
+
+  <VAE_Headgear_StoneWarMask.label>Stenen oorlogsmasker</VAE_Headgear_StoneWarMask.label>
+  <VAE_Headgear_StoneWarMask.description>Een angstaanjagend masker. Verbergt het gezicht en maakt de drager zelfzekerder. Zeer sterk, maar ook heel zwaar.</VAE_Headgear_StoneWarMask.description>
+
+
+</LanguageData>

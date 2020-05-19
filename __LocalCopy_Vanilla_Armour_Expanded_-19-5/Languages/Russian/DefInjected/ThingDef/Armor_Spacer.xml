@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Light Marine Helmet +++++ -->
+
+  <VAE_Headgear_LightMarineHelmet.label>легкий космопехотный шлем</VAE_Headgear_LightMarineHelmet.label>
+  <VAE_Headgear_LightMarineHelmet.description>Легкий бронированный шлем, обеспечивающий обладателя передовой ситуационной осведомленностью и защитой, несмотря на открытую нижнюю половину лица.\n\nТакая броня применяется имперскими полевыми разведчиками.</VAE_Headgear_LightMarineHelmet.description>
+
+
+  <!-- +++++ Light Marine Armor +++++ -->
+
+  <VAE_Apparel_LightMarineArmor.label>легкая космопехотная броня</VAE_Apparel_LightMarineArmor.label>
+  <VAE_Apparel_LightMarineArmor.description>Костюм легкой силовой брони. Тонкие пластины из пластали эффективны для защиты от выстрелов малого калибра и хорошо защищают в ближнем бою, а также позволяют пользователю быстро и незаметно двигаться.\n\nТакая броня применяется имперскими полевыми разведчиками.</VAE_Apparel_LightMarineArmor.description>
+
+
+  <!-- +++++ Heavy Marine Helmet +++++ -->
+
+  <VAE_Headgear_HeavyMarineHelmet.label>тяжелый штурмовой шлем</VAE_Headgear_HeavyMarineHelmet.label>
+  <VAE_Headgear_HeavyMarineHelmet.description>Тяжелый бронированный шлем, дизайн полностью исключает наличие таких слабых частей как визоры, заменяя их внешними камерами полного погружения.\n\nТакая броня применяется имперскими штурмовиками в войне с механоидами, превращая солдата в ходячий танк.</VAE_Headgear_HeavyMarineHelmet.description>
+
+
+  <!-- +++++ Heavy Marine Armor +++++ -->
+
+  <VAE_Apparel_HeavyMarineArmor.label>тяжелый штурмовой костюм</VAE_Apparel_HeavyMarineArmor.label>
+  <VAE_Apparel_HeavyMarineArmor.description>Тяжелая силовая броня. Удвоенная защита из пласталевого волокна хорошо отражает атаки и защищает от взрывов. Нейрометические помощники позволяют человеку носить доспехи и при этом легко двигаться. Встроенный взрывозащитный модуль позволяет владельцу пережить прямое попадание ракеты, при котором щитам требуется время для перезарядки.\n\nТакая броня применяется имперскими штурмовиками в войне с механоидами, превращая солдата в ходячий танк.</VAE_Apparel_HeavyMarineArmor.description>
+
+
+</LanguageData>

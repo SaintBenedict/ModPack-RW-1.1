@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Balaclava +++++ -->
+
+  <VAE_Headgear_Balaclava.label>balaclava</VAE_Headgear_Balaclava.label>
+  <VAE_Headgear_Balaclava.description>Een gezichtsbedekkend masker die je gezichtsuitdrukking verbergt en je moeilijk leesbaar maakt.</VAE_Headgear_Balaclava.description>
+
+
+  <!-- +++++ Night Vision goggles +++++ -->
+
+  <VAE_Headgear_NightVisionGoggles.label>nachtkijkers</VAE_Headgear_NightVisionGoggles.label>
+  <VAE_Headgear_NightVisionGoggles.description>Een nachtkijker die toelaat om met hogere precisie te schieten.</VAE_Headgear_NightVisionGoggles.description>
+
+
+  <!-- +++++ Ballistic Goggles +++++ -->
+
+  <VAE_Headgear_BallisticGoggles.label>ballistische bril</VAE_Headgear_BallisticGoggles.label>
+  <VAE_Headgear_BallisticGoggles.description>Verstevigde bril die een kogel kan tegenhouden.</VAE_Headgear_BallisticGoggles.description>
+
+
+  <!-- +++++ Ghillie Hood +++++ -->
+
+  <VAE_Headgear_GhillieHood.label>ghilliekap</VAE_Headgear_GhillieHood.label>
+  <VAE_Headgear_GhillieHood.description>Een camouflagekap die je in de omgeving doet opgaan.</VAE_Headgear_GhillieHood.description>
+
+
+  <!-- +++++ HAZMAT mask +++++ -->
+
+  <VAE_Headgear_HAZMATMask.label>HAZMAT-masker</VAE_Headgear_HAZMATMask.label>
+  <VAE_Headgear_HAZMATMask.description>Een masker over het hele hoofd, die samen met het HAZMAT-pak volledige bescherming bied tegen gif en psychische effecten.</VAE_Headgear_HAZMATMask.description>
+
+
+</LanguageData>

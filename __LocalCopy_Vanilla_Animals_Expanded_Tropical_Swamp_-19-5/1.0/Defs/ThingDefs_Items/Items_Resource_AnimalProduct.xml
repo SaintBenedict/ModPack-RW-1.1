@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+  <!--=============================== Eggs ================================-->
+  <!--=====================================================================-->
+
+
+  <!-- Anaconda -->
+  
+  <ThingDef ParentName="EggFertBase">
+    <defName>AEXP_EggAnacondaFertilized</defName>
+    <label>anaconda egg (fert.)</label>
+    <description>A fertilized anaconda egg. If all goes well, it should hatch into an anaconda. It can be eaten raw, but it's much better cooked.</description>
+   <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>125.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>30</hatcherDaystoHatch>
+        <hatcherPawn>AEXP_Anaconda</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <!-- Alligator -->
+  
+    <ThingDef ParentName="EggFertBase">
+    <defName>AEXP_EggAlligatorFertilized</defName>
+    <label>alligator egg (fert.)</label>
+    <description>A fertilized alligator egg. If all goes well, it should hatch into an alligator. It can be eaten raw, but it's much better cooked.</description>
+   <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <drawSize>1</drawSize>
+          <color>(235,235,235)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>23.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>AEXP_Alligator</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

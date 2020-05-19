@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+ 	  <SoundDef>
+    <defName>AEXP_Pawn_Mandrill_Call</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Monkey/Monkey_Call</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>16</min>        
+          <max>16</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>50</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Mandrill_Angry</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Monkey/Monkey_Angry</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Mandrill_Death</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Monkey/Monkey_Pain</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>   
+		<pitchRange>
+          <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>   		
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AEXP_Pawn_Mandrill_Wounded</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pawn/Animal/Monkey/Monkey_Pain</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>31</min>        
+          <max>31</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.4</min>        
+          <max>0.6</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

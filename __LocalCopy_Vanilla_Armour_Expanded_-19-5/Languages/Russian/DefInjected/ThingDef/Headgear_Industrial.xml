@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++ Balaclava +++++ -->
+
+  <VAE_Headgear_Balaclava.label>балаклава</VAE_Headgear_Balaclava.label>
+  <VAE_Headgear_Balaclava.description>Текстильная маска на голову, скрывает лицо и не позволяет читать мимику.</VAE_Headgear_Balaclava.description>
+
+
+  <!-- +++++ Night Vision goggles +++++ -->
+
+  <VAE_Headgear_NightVisionGoggles.label>ноктовизор</VAE_Headgear_NightVisionGoggles.label>
+  <VAE_Headgear_NightVisionGoggles.description>Специальное устройство для ночного видения, позволяет точнее стрелять.</VAE_Headgear_NightVisionGoggles.description>
+
+
+  <!-- +++++ Ballistic Goggles +++++ -->
+
+  <VAE_Headgear_BallisticGoggles.label>баллистические очки</VAE_Headgear_BallisticGoggles.label>
+  <VAE_Headgear_BallisticGoggles.description>Пара усиленных защитных очков, способных возможно остановить даже пулю.</VAE_Headgear_BallisticGoggles.description>
+
+
+  <!-- +++++ Ghillie Hood +++++ -->
+
+  <VAE_Headgear_GhillieHood.label>маскировочный костюм </VAE_Headgear_GhillieHood.label>
+  <VAE_Headgear_GhillieHood.description>Костюм скрывающий силуэт, закамуфлированный под окружающую среду. Дает пользователю больше времени для точного прицеливания, но мало защищает.</VAE_Headgear_GhillieHood.description>
+
+
+  <!-- +++++ HAZMAT mask +++++ -->
+
+  <VAE_Headgear_HAZMATMask.label>химзащитная маска</VAE_Headgear_HAZMATMask.label>
+  <VAE_Headgear_HAZMATMask.description>противогаз с головным шлемом, наряду с костюмом химзащиты обеспечивает полную защиту от токсических и психических опасностей.</VAE_Headgear_HAZMATMask.description>
+
+
+</LanguageData>

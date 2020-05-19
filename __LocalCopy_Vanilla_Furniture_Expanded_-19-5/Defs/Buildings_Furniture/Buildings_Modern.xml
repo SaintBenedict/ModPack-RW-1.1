@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ArtableBedBase">
+    <defName>Bed_Ergonomic</defName>
+    <label>ergonomic bed</label>
+    <description>An ergonomically designed bed to help support the spine, distribute body weight and overall enchance sleep quality.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/ErgonomicBed/SpacerBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  		  <li>Table_Wardrobe</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>75</Mass>
+      <Beauty>2</Beauty>
+      <BedRestEffectiveness>1.15</BedRestEffectiveness>
+      <Comfort>1</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+        <costStuffCount>60</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Spacer</techLevel>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <uiIconScale>0.90</uiIconScale>
+	
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="ArtableBedBase">
+    <defName>Bed_DoubleErgonomic</defName>
+    <label>ergonomic double bed</label>
+    <description>An ergonomically designed double-wide bed to help support the spine, distribute body weight and overall enchance sleep quality. Fits two.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/DoubleErgonomicBed/SpacerDoubleBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.05,2.05)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+		  <li>Table_RoyalDresser</li>
+		  <li>Table_RoyalEndTable</li>
+		  <li>Table_Wardrobe</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>30000</WorkToBuild>
+      <Mass>95</Mass>
+      <Beauty>4</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>1.05</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+        <costStuffCount>110</costStuffCount>
+    <costList>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <techLevel>Spacer</techLevel>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiIconScale>0.90</uiIconScale>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+ 
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>Table_Wardrobe</defName>
+    <label>wardrobe</label>
+    <description>A tall wardrobe for storing clothing and other items. Gives a small sleep effectiveness bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect.</description>
+    <graphicData>
+      <texPath>Things/Bedroom/Wardrobe/Wardrobe</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.02)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+	<uiIconPath>Things/Bedroom/Wardrobe/Wardrobe_MenuIcon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>25</Mass>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <BedRestEffectiveness>0.05</BedRestEffectiveness>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+    </comps>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Seat_ModernChair</defName>
+    <label>ergonomic chair</label>
+    <description>A flexible ergonomic chair designed to fit the curves of the human body, improving comfort.</description>
+    <graphicData>
+      <texPath>Things/Seating/OfficeChair/OfficeChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+      <shadowData>
+        <volume>(0.3, 0.33, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <Comfort>1</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+	<costList>
+      <Plasteel>40</Plasteel>
+    </costList>
+    <pathCost>30</pathCost>
+    <fillPercent>0.40</fillPercent>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <researchPrerequisites>
+      <li>MF_ModernFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>AOMorefurniture</designationCategory>
+  </ThingDef>
+  
+	<ThingDef ParentName="LampBase">
+		<defName>Light_ModernLamp</defName>
+		<label>modern lamp</label>
+		<description>A power saving lamp that more effectively converts electricity to light, useful for lighting rooms. Will short circuit in rain.</description>
+		<fillPercent>0.20</fillPercent>
+		<graphicData>
+			<texPath>Things/Other/ModernLamp</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<size>(1,1)</size>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>10</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>16</glowRadius>
+				<glowColor>(255,255,255,0)</glowColor>
+			</li>
+		</comps>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>3</Mass>
+		</statBases>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>MF_ModernFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<designationCategory>AOMorefurniture</designationCategory>
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Module to Vanilla Apparel Expanded -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Apparel Expanded</li>
+	</mods>
+	<nomatch Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Nomatch Create Research -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+					<ResearchProjectDef>
+						<defName>VAE_MilitaryClothing</defName>
+						<label>Military Clothing</label>
+						<description>Craft bulletproof and weatherproof outfits to protect your soldiers.</description>
+						<baseCost>1000</baseCost>
+						<techLevel>Industrial</techLevel>
+						<prerequisites>
+							<li>VAE_LeatherTanning</li>
+						</prerequisites>
+						<researchViewX>2</researchViewX>
+						<researchViewY>4.5</researchViewY>
+					</ResearchProjectDef>
+				</value>
+			</li>
+		</operations>
+	</nomatch>
+  </Operation>
+
+
+</Patch>

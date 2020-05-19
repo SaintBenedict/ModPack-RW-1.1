@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealBase">
+    <defName>VFE_CookBulkSimple</defName>
+    <label>cook 3 simple meals</label>
+    <description>Cook three straightforward meals from one ingredient.</description>
+    <jobString>Cooking 3 simple meals.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.5</count>
+      </li>
+    </ingredients>
+		<products>
+			<MealSimple>3</MealSimple>
+		</products>
+    <workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+		<defName>VFE_CookBulkFine</defName>
+		<label>cook 3 fine meals</label>
+		<description>Cook three somewhat complex meals from a combination of meat and plant ingredients.</description>
+		<jobString>Cooking 3 fine meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.75</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.75</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealFine>3</MealFine>
+    </products>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>VFE_CookBulkLavish</defName>
+		<label>cook 3 lavish meals</label>
+		<description>Cook three very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+		<jobString>Cooking 3 lavish meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>1.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>1.5</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealLavish>3</MealLavish>
+    </products>
+		<skillRequirements>
+			<Cooking>9</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>VFE_CookBulkSurvival</defName>
+    <label>cook 3 packaged survival meals</label>
+    <description>Prepare three packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking 3 survival meals.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.90</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.90</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPack>3</MealSurvivalPack>
+    </products>
+    <skillRequirements>
+			<Cooking>9</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

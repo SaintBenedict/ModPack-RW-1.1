@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <!-- Mod Support for Dubs Bad Hygiene -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Dubs Bad Hygiene</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Class -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]</xpath>
+				<value>
+					<thingClass>DubsBadHygiene.Building_basin</thingClass>
+				</value>
+			</li>
+			<!-- Research -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]/researchPrerequisites</xpath>
+				<value>
+					<li>Plumbing</li>
+				</value>
+			</li>
+			<!-- Pipes and Blockage -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]/comps</xpath>
+				<value>
+					<li Class="DubsBadHygiene.CompProperties_Pipe">
+						<mode>Sewage</mode>
+					</li>
+				</value>
+			</li>
+			<!-- Pipes and Blockage -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]/comps</xpath>
+				<value>
+					<li Class="DubsBadHygiene.CompProperties_Blockage"/>
+				</value>
+			</li>
+			<!-- Water System Placeworkers -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]/placeWorkers</xpath>
+				<value>
+					<!-- <li>DubsBadHygiene.PlaceWorker_WaterGrid</li> -->
+					<li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+				</value>
+			</li>
+			<!-- Interaction -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]</xpath>
+				<value>
+					<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VFE_KitchenSinkCabinet"]</xpath>
+				<value>
+					<hasInteractionCell>true</hasInteractionCell>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EffecterDef>
+    <defName>Joy_HoldChips</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_HoldingChips</moteDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+        <soundDef>PokerChips</soundDef>
+        <intermittentSoundInterval><min>650</min><max>1500</max></intermittentSoundInterval>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Joy_PlayPiano</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+        <soundDef>Piano_SFX</soundDef>
+        <intermittentSoundInterval><min>300</min><max>500</max></intermittentSoundInterval>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+        <scale>
+          <min>0.5</min>
+          <max>0.7</max>
+        </scale>
+        <chancePerTick>0.005</chancePerTick>
+        <positionRadius>0.55</positionRadius>
+        <moteDef>Mote_MusicalNoteA</moteDef>
+        <speed>
+          <min>0.07</min>
+          <max>0.1</max>
+        </speed>
+        <angle>
+          <min>0</min>
+          <max>0</max>
+        </angle>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

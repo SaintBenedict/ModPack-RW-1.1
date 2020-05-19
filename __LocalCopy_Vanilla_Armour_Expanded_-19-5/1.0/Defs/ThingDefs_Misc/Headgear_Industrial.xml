@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- ##### Industrial ##### -->
+    <!-- +++++ Balaclava +++++ -->
+    <ThingDef ParentName="HatMakeableBase">
+		<defName>VAE_Headgear_Balaclava</defName>
+		<label>balaclava</label>
+		<description>A full face textile mask. Hides the mimic and makes hard to read.</description>
+		<graphicData>
+			<texPath>Things/Headgear/Balaclava/Balaclava</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.01</generateCommonality>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2200</WorkToMake>
+			<Mass>0.35</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/Balaclava/Balaclava</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>VAE_MilitaryClothing</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- +++++ Night Vision goggles +++++ -->
+    <ThingDef ParentName="HatMakeableBase">
+		<defName>VAE_Headgear_NightVisionGoggles</defName>
+		<label>night vision goggles</label>
+		<description>A set of night vision goggles allowing the wearer to fire weapons with higher precision.</description>
+		<graphicData>
+			<texPath>Things/Headgear/NightVisionGoggles/NightVisionGoggles</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.03</generateCommonality>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.5</Mass>
+			<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+ 			<Insulation_Heat>0</Insulation_Heat>
+            <EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/NightVisionGoggles/NightVisionGoggles</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitary</li>
+				<li>IndustrialAdvanced</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+    </ThingDef>
+
+    <!-- +++++ Ballistic Goggles +++++ -->
+    <ThingDef ParentName="HatMakeableBase">
+		<defName>VAE_Headgear_BallisticGoggles</defName>
+		<label>ballistic goggles</label>
+		<description>A pair of reinforced goggles capable of stopping a bullet.</description>
+		<graphicData>
+			<texPath>Things/Headgear/BallisticGoggles/BallisticGoggles</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.05</generateCommonality>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>6500</WorkToMake>
+			<Mass>0.2</Mass>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.56</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.84</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+ 			<Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>0.6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.10</AimingDelayFactor>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/BallisticGoggles/BallisticGoggles</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitary</li>
+				<li>IndustrialAdvanced</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+    </ThingDef>
+
+    <!-- +++++ Ghillie Hood +++++ -->
+    <ThingDef ParentName="HatMakeableBase">
+		<defName>VAE_Headgear_GhillieHood</defName>
+		<label>ghillie hood</label>
+		<description>A camouflage hood designed to resemble the environment. Gives user more time to aim precisely, but provides little to no defence.</description>
+		<graphicData>
+			<texPath>Things/Headgear/GhillieHood/GhillieHood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		<costList>
+			<Cloth>35</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>1.1</Mass>
+			<ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+ 			<Insulation_Heat>0</Insulation_Heat>
+            <EquipDelay>0.6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<HuntingStealth>0.20</HuntingStealth>
+			<AimingDelayFactor>0.02</AimingDelayFactor>
+			<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/GhillieHood/GhillieHood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitary</li>
+				<li>IndustrialAdvanced</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>VAE_MlitaryCamouflage</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+    </ThingDef>
+
+    <!-- +++++ HAZMAT mask +++++ -->
+    <ThingDef ParentName="HatMakeableBase">
+		<defName>VAE_Headgear_HAZMATMask</defName>
+		<label>HAZMAT mask</label>
+		<description>A full head gas mask, which alongside the HAZMAT suit provides a full protection from toxic and psychic effects.</description>
+		<graphicData>
+			<texPath>Things/Headgear/HAZMATMask/HAZMATMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.1</generateCommonality>
+		<costStuffCount>35</costStuffCount>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1.4</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>-0.25</PsychicSensitivity>
+			<ToxicSensitivity>-0.25</ToxicSensitivity>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Headgear/HAZMATMask/HAZMATMask</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>VAE_HazardProtection</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+</Defs>

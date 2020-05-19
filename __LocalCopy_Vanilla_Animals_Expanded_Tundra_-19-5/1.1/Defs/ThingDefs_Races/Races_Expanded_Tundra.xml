@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Muskox =============================== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Muskox</defName>
+		<label>musk ox</label>
+		<description>Musk oxen are massive buffalo-like mammals that roam the tundra areas in search for roots, mosses and lichens to sustain them. Being related to muffalos, musk oxen can be used as pack animals. They are noted for their thick coat and for the strong odor emitted during the seasonal rut by males, from which their name derives.</description>
+		<statBases>
+			<MoveSpeed>4.0</MoveSpeed>
+			<MarketValue>285</MarketValue>
+			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>12</milkAmount>
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>AEXP_MuskOxWool</woolDef>
+				<shearIntervalDays>25</shearIntervalDays>
+				<woolAmount>80</woolAmount>
+			</li>
+		</comps>
+		<race>
+			<herdAnimal>true</herdAnimal>
+			<body>QuadrupedAnimalWithHooves</body>
+			<baseBodySize>2.3</baseBodySize>
+			<baseHealthScale>1.95</baseHealthScale>
+			<baseHungerRate>0.65</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Heavy</leatherDef>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<wildness>0.7</wildness>
+			<trainability>Simple</trainability>
+			<packAnimal>true</packAnimal>
+			<lifeExpectancy>18</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<BorealForest>0.3</BorealForest> 
+				<Tundra>1.5</Tundra>
+				<ColdBog>0.07</ColdBog>
+				<IceSheet>0.02</IceSheet>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Muskox</defName>
+		<label>musk ox</label>
+		<labelPlural>musk oxen</labelPlural>
+		<race>AEXP_Muskox</race>
+		<combatPower>100</combatPower>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<wildGroupSize>
+			<min>4</min>
+			<max>6</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>musk ox calf</label>
+				<labelPlural>musk oxen calves</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Muskox</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Dessicated_Muskox</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Muskox</texPath>
+					<drawSize>2.25</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Dessicated_Muskox</texPath>
+					<drawSize>2.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Muskox</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muskox/Dessicated_Muskox</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Moose =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Moose</defName>
+		<label>moose</label>
+		<description>The largest and heaviest member of the deer family, well-adapted to life in cold climates. Can easily be identified due to the size of the antlers and long, thin legs. Cannot carry packs, but domesticated moose can be milked. Unlike most other deer species, moose do not form herds and are solitary animals. Although generally slow-moving and sedentary, moose can become aggressive and move quickly if angered or startled.</description>
+		<statBases>
+			<MoveSpeed>5</MoveSpeed>
+			<MarketValue>450</MarketValue>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>12</milkAmount>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>AEXP_AntleredQuadruped</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.1</baseBodySize>
+			<baseHungerRate>0.85</baseHungerRate>
+			<baseHealthScale>1.9</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<wildness>0.75</wildness>
+			<trainability>Simple</trainability>
+			<gestationPeriodDays>25</gestationPeriodDays>
+			<lifeExpectancy>25</lifeExpectancy>
+			<wildBiomes>
+				<BorealForest>0.4</BorealForest>
+				<Tundra>1</Tundra>
+				<ColdBog>0.2</ColdBog>
+				<IceSheet>0.1</IceSheet>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.6</minAge>
+					<soundWounded>Pawn_Elk_Wounded</soundWounded>
+					<soundDeath>Pawn_Elk_Death</soundDeath>
+					<soundCall>Pawn_Elk_Call</soundCall>
+					<soundAngry>Pawn_Elk_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+			<li>AnimalFarm</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Moose</defName>
+		<label>moose</label>
+		<labelPlural>moose</labelPlural>
+		<race>AEXP_Moose</race>
+		<combatPower>110</combatPower>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+				<label>moose calf</label>
+				<labelPlural>moose calves</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/Dessicated_MooseFemale</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/MooseMale</texPath>
+					<drawSize>2.30</drawSize>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+					<drawSize>2.20</drawSize>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/Dessicated_MooseMale</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/Dessicated_MooseFemale</texPath>
+					<drawSize>2.2</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/MooseMale</texPath>
+					<drawSize>3.1</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/MooseFemale</texPath>
+					<drawSize>2.95</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.5)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/Dessicated_MooseMale</texPath>
+					<drawSize>3.1</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Moose/Dessicated_MooseFemale</texPath>
+					<drawSize>2.95</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Megawolverine =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_MegaWolverine</defName>
+		<label>megawolverine</label>
+		<description>A giant, genetically-engineered predator with massive paws to rip apart prey. Thick fur allows it to survive the coldest of climates, whilst it strength allows it to hunt even the largest of mammals for food.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<MarketValue>850</MarketValue>
+			<ComfyTemperatureMin>-85</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<baseHungerRate>2.0</baseHungerRate>
+			<baseBodySize>3.8</baseBodySize>
+			<baseHealthScale>3.6</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<predator>true</predator>
+			<leatherDef>Leather_Heavy</leatherDef>
+			<gestationPeriodDays>55</gestationPeriodDays>
+			<wildness>0.97</wildness>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<lifeExpectancy>20</lifeExpectancy>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<wildBiomes>
+				<BorealForest>0.1</BorealForest>
+				<Tundra>0.3</Tundra>
+				<ColdBog>0.05</ColdBog>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>1.0</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>3.0</minAge>
+					<soundWounded>AEXP_Pawn_MegaWolverine_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_MegaWolverine_Death</soundDeath>
+					<soundCall>AEXP_Pawn_MegaWolverine_Call</soundCall>
+					<soundAngry>AEXP_Pawn_MegaWolverine_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_MegaWolverine</defName>
+		<label>megawolverine</label>
+		<race>AEXP_MegaWolverine</race>
+		<combatPower>380</combatPower>
+		<ecoSystemWeight>3.0</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/MegaWolverine</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/Dessicated_MegaWolverine</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/MegaWolverine</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/Dessicated_MegaWolverine</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/MegaWolverine</texPath>
+					<drawSize>3.8</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/MegaWolverine/Dessicated_MegaWolverine</texPath>
+					<drawSize>3.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Porcupine =============================== -->
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Porcupine</defName>
+		<label>porcupine</label>
+		<description>A large rodent with a coat of sharp quills that protect it against predators.</description>
+		<statBases>
+			<MoveSpeed>3.8</MoveSpeed>
+			<MarketValue>120</MarketValue>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPaws</body>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<baseBodySize>0.25</baseBodySize>
+			<baseHealthScale>0.4</baseHealthScale>
+			<baseHungerRate>0.25</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Simple</trainability>
+			<wildness>0.7</wildness>
+			<mateMtbHours>8</mateMtbHours>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1)</li>
+					<li>(2.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<wildBiomes>
+				<BorealForest>0.2</BorealForest>
+				<Tundra>0.6</Tundra>
+				<ColdBog>0.1</ColdBog>
+			</wildBiomes>
+			<lifeExpectancy>25</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Porcupine</defName>
+		<label>porcupine</label>
+		<race>AEXP_Porcupine</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+					<drawSize>1.1</drawSize>					
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+
+					<drawSize>1.3</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+
+					<drawSize>1.6</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

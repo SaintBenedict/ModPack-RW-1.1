@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Bed_Kingsize"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+				<li>Table_IlluminatedEndTable</li>
+				<li>Table_IlluminatedDresser</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Bed_Ergonomic"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+				<li>Table_IlluminatedEndTable</li>
+				<li>Table_IlluminatedDresser</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Bed_DoubleErgonomic"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+				<li>Table_IlluminatedEndTable</li>
+				<li>Table_IlluminatedDresser</li>
+		</value>
+	</Operation>
+</Patch>

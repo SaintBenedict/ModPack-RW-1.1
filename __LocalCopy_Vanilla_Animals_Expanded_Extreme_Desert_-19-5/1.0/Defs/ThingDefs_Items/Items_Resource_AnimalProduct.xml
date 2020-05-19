@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+  <!--=============================== Eggs ================================-->
+  <!--=====================================================================-->
+
+
+  <!-- Rattlesnake -->
+  
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>AEXP_EggRattlesnakeUnfertilized</defName>
+    <label>rattlesnake egg (unfert.)</label>
+    <description>An unfertilized rattlesnake egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(155,121,112)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>28.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>AEXP_EggRattlesnakeFertilized</defName>
+    <label>rattlesnake egg (fert.)</label>
+    <description>A fertilized rattlesnake egg. If all goes well, it should hatch into a rattlesnake. It can be eaten raw, but it's much better cooked.</description>
+   <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+        <hatcherPawn>AEXP_Rattlesnake</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
