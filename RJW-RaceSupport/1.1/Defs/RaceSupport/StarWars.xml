@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- [JDS] Star Wars The Separatist Droid Army. 1923206575. https://steamcommunity.com/sharedfiles/filedetails/?id=1923206575 -->
+	<rjw.RaceGroupDef>
+		
+		<defName>StarWars_CIS_Droids</defName>
+		
+		<raceNames>
+			<li>Battle_Droid</li>
+			<li>B-1_Droid_Specialist</li>
+			<li>B-1_Commander_Droid</li>
+			<li>Super_Battle_Droid</li>
+			<li>Droidekas</li>
+			<li>BX_Droid_Commando</li>
+			<li>IG-100_Magnaguard</li>
+			<li>T-Series_Tactical_Droid</li>
+			<li>Super_Tactical_Droid</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HydraulicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			<li>0.15</li>
+		</chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- [O21] Outer Rim - Mon Cala. 1927829813. https://steamcommunity.com/sharedfiles/filedetails/?id=1927829813 -->
+	<rjw.RaceGroupDef>
+		
+		<defName>StarWars_MonCala</defName>
+		
+		<raceNames>
+			<li>Alien_Quarren</li>
+			<li>Alien_MonCalamari</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>MarinePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- ??? -->
+	<rjw.RaceGroupDef>
+
+		<defName>FSW_Wookie</defName>
+		
+		<raceNames>
+			<li>StarWarsRaces_Wookie</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BearPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		
+		<defName>FSW_Ewok</defName>
+		
+		<raceNames>
+			<li>StarWarsRaces_Ewok</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>RacoonPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		
+		<defName>FSW_Rodian</defName>
+		
+		<raceNames>
+			<li>StarWarsRaces_Rodian</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HemiPenisPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scale</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

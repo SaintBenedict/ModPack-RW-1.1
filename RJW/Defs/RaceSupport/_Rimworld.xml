@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		<defName>Human_Group</defName>
+		<raceNames>
+			<!--Humanlikes are mostly hardcoded, keep this for testing stuff-->
+			<!--<li>Human</li>-->
+		</raceNames>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<!--no parts/lack of interest in studying their anatomy-->
+		<defName>unfiltered_Group</defName>
+		<raceNames>
+			<!--<li>Monkey</li>-->
+			<!--<li>Tortoise</li>-->
+			<!--<li>Rhinoceros</li>-->
+			<!--<li>Elephant</li>-->
+			<!--<li>Megasloth</li>-->
+			<!--<li>Chicken</li>-->
+			<!--<li>Cow</li>-->
+			<!--<li>Cassowary</li>-->
+			<!--<li>Emu</li>-->
+			<!--<li>Ostrich</li>-->
+			<!--<li>Turkey</li>-->
+			<!--<li>Bear_Grizzly</li>-->
+			<!--<li>Bear_Polar</li>-->
+			<!--<li>Muffalo</li>-->
+			<!--<li>Ibex</li>-->
+		</raceNames>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Mechanoid_Group</defName>
+		<raceNames>
+			<!-- Races_Mechanoid -->
+			<li>Mech_Centipede</li>
+			<li>Mech_Lancer</li>
+			<li>Mech_Scyther</li>
+			<li>Mech_Pikeman</li>
+		</raceNames>
+
+		<tags>
+			<li>Robot</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Insect_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Insect -->
+			<li>Megascarab</li>
+			<li>Spelopede</li>
+			<li>Megaspider</li>
+		</raceNames>
+
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		<maleGenitals>
+			<li>OvipositorM</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Chitin</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Canine_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_WildCanines -->
+			<li>Warg</li>
+			<li>Wolf_Timber</li>
+			<li>Wolf_Arctic</li>
+			<li>Fox_Fennec</li>
+			<li>Fox_Red</li>
+			<li>Fox_Arctic</li>
+			<!-- Races_Animal_Pet -->
+			<li>YorkshireTerrier</li>
+			<li>Husky</li>
+			<li>LabradorRetriever</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>DogVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Feline_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Pet -->
+			<li>Cat</li>
+			<!-- Races_Animal_BigCats -->
+			<li>Cougar</li>
+			<li>Panther</li>
+			<li>Lynx</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>CatVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>CatPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Equine_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Arid -->
+			<li>Gazelle</li>
+			<!-- Races_Animal_Temperate -->
+			<li>Elk</li>
+			<li>Caribou</li>
+			<!-- Races_Animal_Farm -->
+			<li>Horse</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>HorseVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>HorsePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Dragon_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Giant -->
+			<li>Thrumbo</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>DragonVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>DragonPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Rodent_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Rodentlike -->
+			<li>Squirrel</li>
+			<li>Alphabeaver</li>
+			<li>Capybara</li>
+			<li>Chinchilla</li>
+			<li>Boomrat</li>
+			<li>Rat</li>
+			<li>Hare</li>
+			<li>Snowhare</li>
+			<li>Raccoon</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>RodentVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>RodentPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Needle_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Tropical -->
+			<li>Boomalope</li>
+			<!-- Races_Animal_Arid -->
+			<li>Dromedary</li>
+			<!-- Races_Animal_Temperate -->
+			<li>WildBoar</li>
+			<!-- Races_Animal_Farm -->
+			<li>Pig</li>
+			<li>Alpaca</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>NarrowVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>NeedlePenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>Hemi_Group</defName>
+		<raceNames>
+			<!-- Races_Animal_Tropical -->
+			<li>Cobra</li>
+			<!-- Races_Animal_Arid -->
+			<li>Iguana</li>
+		</raceNames>
+
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>HemiPenis</li>
+		</maleGenitals>
+
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+
+		<tags>
+			<li>Scales</li>
+		</tags>
+	</rjw.RaceGroupDef>
+</Defs>

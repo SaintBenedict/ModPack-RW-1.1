@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<DesignatorComfortPrisoner.label>заключенный-блядь</DesignatorComfortPrisoner.label>
+	<DesignatorComfortPrisoner.description>Обозначить заключенного как средство для сексуального удовлетворения всех желающих.</DesignatorComfortPrisoner.description>
+
+	<rjw_vatgrown_sex_slave.label>Вырощенный(ая) секс рабыня</rjw_vatgrown_sex_slave.label>
+	<rjw_vatgrown_sex_slave.description>NAME сделан скорее секс-машиной, чем человеком. На протяжении своего взросления на фабрике, HIS обучался(лась) социальным и сексуальным навыкам для того чтобы удовлетворять различные сексуальные приказы.</rjw_vatgrown_sex_slave.description>
+
+	<rjw_feisty.label>Озлобленый нимфоман</rjw_feisty.label>
+	<rjw_feisty.description>
+		NAME прибывает в колонию как завоеватель, исследуя недавно присоединенную территорию. Вы пытаетесь сосредоточиться на своей работе, но HE не позволит вам.
+		«Я слышал, что ты сказал обо мне!» HE обвиняет. Вы ничего не сказали об этом. HECAP это знает.
+		"Хочешь сразиться?" HE бросает вызов. Вы уже знаете, что это означает: несколько минут игровой борьбы, а затем вы берете ЕГО, или, если вы колеблетесь, он берет вас. \n \n
+		Хотя c NAME может быть трудно ужиться, вы поняли, насколько он практичней, чем другие.
+		Вы объясняете HE: «Вот это, должно быть там» или «Эти люди пытаются убить нас, поэтому давай сначала убьем их». HECAP слушает и делает то, что нужно.
+	</rjw_feisty.description>
+
+	<rjw_curious.label>Любопытный нимфоман</rjw_curious.label>
+	<rjw_curious.description>
+		Поднимите защитную пластину и поместите привод в паз C. Выровняйте стержень вверх. Нет, этого не достаточно, все должно быть идельно. Теперь поместите чип JC-444 на место. \n
+		Припаяйте оранжевый провод к выводу № 16 и полосатый провод к выводу №5. \n
+		Внезапно, появляетя HE. Вы не удивлены, увидев NAME, вы просто не слышали как HE подкрался(лась). К этому ты уже привык. \n
+		Вы продолжаете делать свою работу в тишине, когда HE нависает над вами, HIS большие глаза фиксируются на быстрых, ритмичных, расчетливых движениях ваших рук.
+	</rjw_curious.description>
+
+	<rjw_tender.label>Нежный нимфоман</rjw_tender.label>
+	<rjw_tender.description>У NAME очаровательные глаза, его голос мягкий и сладкий. Благодаря своей предыдущей работе медсестры, HE очень хорош в ухаживании за людьми.</rjw_tender.description>
+
+	<rjw_chatty.label>Нимфоман болтушка</rjw_chatty.label>
+	<rjw_chatty.description>Не существует более болтливых людей, чем NAME. HECAP имеет гибкий язык, острый ум и горячие губы.</rjw_chatty.description>
+
+	<rjw_broken.label>Сломаный нимфоман</rjw_broken.label>
+	<rjw_broken.description>
+		Возможно, NAME перенес некоторые ужасные вещи, он выглядит довольно истощенным, и никто не хочет разговаривать с HIM. \n
+		HECAP немного живляется, глядя на некоторые вещи, похожие на стержни.
+	</rjw_broken.description>
+
+	<rjw_vatgrown_sex_slave.stringA>Секс Рабыня</rjw_vatgrown_sex_slave.stringA>
+	<rjw_feisty.stringA>Нимфоман</rjw_feisty.stringA>
+	<rjw_curious.stringA>Нимфоман</rjw_curious.stringA>
+	<rjw_tender.stringA>Нимфоман</rjw_tender.stringA>
+	<rjw_chatty.stringA>Нимфоман</rjw_chatty.stringA>
+	<rjw_broken.stringA>Нимфоман</rjw_broken.stringA>
+</LanguageData>

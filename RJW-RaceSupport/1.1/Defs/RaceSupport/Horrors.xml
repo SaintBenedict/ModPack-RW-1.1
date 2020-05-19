@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Horrors (Continued). 2036315072 . https://steamcommunity.com/sharedfiles/filedetails/?id=2036315072 -->
+	<!-- These don't have genders -->
+	<rjw.RaceGroupDef>
+		<defName>Horrors_Animal_BaseHorror</defName>
+		
+		<raceNames>
+			<li>Visceral</li>
+			<li>Prowler</li>
+			<li>Harvester</li>
+			<li>BroodLord</li>
+			<li>Terrorworm</li>
+			<li>Bulwark</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>OvipositorM</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Chitin</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+		</rjw.RaceGroupDef>
+		
+	<!-- those little dudes seems to be infested humanlikes, i don't think they should have a ovipositor because they aren't really a horror. -->
+	<rjw.RaceGroupDef>
+		<defName>Horrors_Humanlike_InfectedBase</defName>
+		
+		<raceNames>
+		</raceNames>
+		
+		<pawnKindNames>
+		<li>HorrorsInfestedHuman</li>
+		<li>HorrorsOverlord</li>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		</rjw.RaceGroupDef>
+		
+</Defs>

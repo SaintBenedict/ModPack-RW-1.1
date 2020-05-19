@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin.label>쿠린</Kurin.label>
+  <Kurin.description>쿠린, 세 갈래 꼬리 여우</Kurin.description>
+  <Kurin.tools.0.label>왼쪽 주먹</Kurin.tools.0.label>
+  <Kurin.tools.1.label>오른쪽 주먹</Kurin.tools.1.label>
+  <Kurin.tools.2.label>이빨</Kurin.tools.2.label>
+  <Kurin.tools.3.label>머리</Kurin.tools.3.label>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>RJW-RaceSupport</identifier>
+	<version>7.3.0</version>
+	<dependencies>
+		<li>RimJobWorld</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadAfter>
+		<li>RimJobWorld</li>
+	</loadAfter>
+	<suggests>
+	</suggests>
+	<manifestUri>https://gitgud.io/Abraxas/rjw-race-support/-/raw/master/About/Manifest.xml</manifestUri>
+	<downloadUri></downloadUri>
+</Manifest>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 속옷 -->
+
+  <DRNTF_Underwear.label>Бельё Курин</DRNTF_Underwear.label>
+  <DRNTF_Underwear.description>Это простое нижнее белье. Оно позволяет сохранять гигиену и обладает согревающим эффектом.</DRNTF_Underwear.description>
+
+
+  <!-- 티셔츠 -->
+
+  <DRNTF_Tshirt.label>Футболка Курин</DRNTF_Tshirt.label>
+  <DRNTF_Tshirt.description>Это удлинённая летняя футболка.</DRNTF_Tshirt.description>
+
+
+  <!-- 셔츠 -->
+
+  <DRNTF_Shirt.label>Рубашка Курин</DRNTF_Shirt.label>
+  <DRNTF_Shirt.description>Слегка большеватая рубашка с воротником на пуговицах.</DRNTF_Shirt.description>
+
+
+  <!-- 오프숄더 A -->
+
+  <DRNTF_OffShoulderA.label>Курин off shoulder A</DRNTF_OffShoulderA.label>
+  <DRNTF_OffShoulderA.description>Симпатичный, обрезанный по плечам трикотаж. Версия "А" не имеет чулков.</DRNTF_OffShoulderA.description>
+
+
+  <!-- 오프숄더 B -->
+
+  <DRNTF_OffShoulderB.label>Курин off shoulder B</DRNTF_OffShoulderB.label>
+  <DRNTF_OffShoulderB.description>Симпатичный, обрезанный по плечам трикотаж. Носить чулки - дополнительное тепло.</DRNTF_OffShoulderB.description>
+
+
+  <!-- 후드 -->
+
+  <DRNTF_Hoodie.label>Толстовка Курин</DRNTF_Hoodie.label>
+  <DRNTF_Hoodie.description>Это простая в ношении толстовка с капюшоном.\n\nУ куринов модно носить к ней чулки.</DRNTF_Hoodie.description>
+
+
+  <!-- 드레스 -->
+
+  <DRNTF_Dress.label>Платье Курин</DRNTF_Dress.label>
+  <DRNTF_Dress.description>Это очаровательное короткое платье.</DRNTF_Dress.description>
+
+
+  <!-- 점프수트 -->
+
+  <DRNTF_Jumpsuit.label>Комбинезон Курин</DRNTF_Jumpsuit.label>
+  <DRNTF_Jumpsuit.description>Это униформа инженера. Комбинезон хорошо подходит для работы, потому что сделан из материалов, которые слабо подвержены физическим повреждениям, пламени или загрязниям нефтяными продуктами, а также имеет карманы для хранения различных инструментов и деталей.</DRNTF_Jumpsuit.description>
+
+
+  <!-- 가디건 -->
+
+  <DRNTF_Cardigan.label>Кардиган Курин</DRNTF_Cardigan.label>
+  <DRNTF_Cardigan.description>Это пушистый и теплый жилет.</DRNTF_Cardigan.description>
+
+
+  <!-- 바람막이 -->
+
+  <DRNTF_Duster.label>Плащ-пыльник Курин</DRNTF_Duster.label>
+  <DRNTF_Duster.description>Это плащ, который может блокировать значительное количество тепла, а от холода защищает хуже.</DRNTF_Duster.description>
+
+
+  <!-- 패딩 -->
+
+  <DRNTF_Parka.label>Парка Курин</DRNTF_Parka.label>
+  <DRNTF_Parka.description>Это длинная теплая куртка. Парка предназначена для защиты от экстремального холода, но защиты от тепла не даёт совсем.</DRNTF_Parka.description>
+
+
+  <!-- 목도리 -->
+
+  <DRNTF_Scarf.label>Шарф Курин</DRNTF_Scarf.label>
+  <DRNTF_Scarf.description>Это шафрик, который даже выглядит тёплым.</DRNTF_Scarf.description>
+
+
+  <!-- 여름모자 -->
+
+  <DRNTF_SummerHat.label>Летняя шляпа Курин</DRNTF_SummerHat.label>
+  <DRNTF_SummerHat.description>Это большая шляпа, которая эффективно предотвращает попадание солнечных лучей на голову колонисту.</DRNTF_SummerHat.description>
+
+
+  <!-- 털모자 -->
+
+  <DRNTF_BeanieHat.label>Вязанная шапка Курин</DRNTF_BeanieHat.label>
+  <DRNTF_BeanieHat.description>Теплая и удобная шапка на зиму.</DRNTF_BeanieHat.description>
+
+
+  <!-- 안경 -->
+
+  <DRNTF_Glasses.label>Очки Курин</DRNTF_Glasses.label>
+  <DRNTF_Glasses.description>Это простые очки с широкой оправой.\n\n(По факту бесполезный аксессуар, но я не проверял на колонистах с ухудшенным зрением).</DRNTF_Glasses.description>
+
+
+  <!-- 한복 A -->
+
+  <DRNTF_GentleDress.label>Курин Ханбок А</DRNTF_GentleDress.label>
+  <DRNTF_GentleDress.description>Уникальная традиционная юбка. Выглядит впечатляюще.</DRNTF_GentleDress.description>
+
+
+  <!-- 한복 B -->
+
+  <DRNTF_StylishDress.label>Курин Ханбок Б</DRNTF_StylishDress.label>
+  <DRNTF_StylishDress.description>Уникальная традиционная юбка. Выглядит впечатляюще.</DRNTF_StylishDress.description>
+
+
+  <!-- 한복외투 -->
+
+  <DRNTF_MildCoat.label>Мягкое пальто Курин</DRNTF_MildCoat.label>
+  <DRNTF_MildCoat.description>Уютное, красивое пальто. Защищает и от тепла, и от холода.</DRNTF_MildCoat.description>
+
+
+  <!-- 전투모 A -->
+
+  <DRNTF_MilitaryHelmetA.label>Военный шлем Курин ☆</DRNTF_MilitaryHelmetA.label>
+  <DRNTF_MilitaryHelmetA.description>Боевой шлем, армированный пласталью. Члены военных отрядов куринов носят их.</DRNTF_MilitaryHelmetA.description>
+
+
+  <!-- 전투모 B -->
+
+  <DRNTF_MilitaryHelmetB.label>Военный шлем Курин ★</DRNTF_MilitaryHelmetB.label>
+  <DRNTF_MilitaryHelmetB.description>Боевой шлем, армированный пласталью. Члены военных отрядов куринов носят их.\n\n(Закрашенная звёздочка означает наличие декоративных очков на шлеме)</DRNTF_MilitaryHelmetB.description>
+
+
+  <!-- 전투복 -->
+
+  <DRNTF_MilitaryUniform.label>Военная униформа Курин</DRNTF_MilitaryUniform.label>
+  <DRNTF_MilitaryUniform.description>Это цельная военная униформа куринов, оснащенная пласталиевым пуленепробиваемым жилетом, и никак не сковывающая движение.</DRNTF_MilitaryUniform.description>
+
+
+</LanguageData>

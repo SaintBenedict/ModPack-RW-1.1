@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>ThatsMyFetish</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>Thats my fetish</label>
+				<description>I just had sex that satisfied one of my quirks.</description>
+				<baseMoodEffect>+8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

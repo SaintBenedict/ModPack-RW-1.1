@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- THese are all the same, the flavor text is different -->
+
+  <hediff_male2trap.label>男性转人妖</hediff_male2trap.label>
+  <hediff_male2trap.stages.0.label>无意识</hediff_male2trap.stages.0.label>
+  <hediff_male2trap.stages.1.label>接受</hediff_male2trap.stages.1.label>
+  <hediff_male2trap.stages.2.label>伤心</hediff_male2trap.stages.2.label>
+  <hediff_male2trap.stages.3.label>生气</hediff_male2trap.stages.3.label>
+  <hediff_male2trap.stages.4.label>拒绝</hediff_male2trap.stages.4.label>
+
+  <hediff_male2female.label>男性转女性</hediff_male2female.label>
+  <hediff_male2female.stages.0.label>无意识</hediff_male2female.stages.0.label>
+  <hediff_male2female.stages.1.label>接受</hediff_male2female.stages.1.label>
+  <hediff_male2female.stages.2.label>伤心</hediff_male2female.stages.2.label>
+  <hediff_male2female.stages.3.label>生气</hediff_male2female.stages.3.label>
+  <hediff_male2female.stages.4.label>拒绝</hediff_male2female.stages.4.label>
+
+  <hediff_male2futa.label>男性转扶她</hediff_male2futa.label>
+  <hediff_male2futa.stages.0.label>无意识</hediff_male2futa.stages.0.label>
+  <hediff_male2futa.stages.1.label>接受</hediff_male2futa.stages.1.label>
+  <hediff_male2futa.stages.2.label>伤心</hediff_male2futa.stages.2.label>
+  <hediff_male2futa.stages.3.label>生气</hediff_male2futa.stages.3.label>
+  <hediff_male2futa.stages.4.label>拒绝</hediff_male2futa.stages.4.label>
+
+  <hediff_female2trap.label>女性转人妖</hediff_female2trap.label>
+  <hediff_female2trap.stages.0.label>无意识</hediff_female2trap.stages.0.label>
+  <hediff_female2trap.stages.1.label>接受</hediff_female2trap.stages.1.label>
+  <hediff_female2trap.stages.2.label>伤心</hediff_female2trap.stages.2.label>
+  <hediff_female2trap.stages.3.label>生气</hediff_female2trap.stages.3.label>
+  <hediff_female2trap.stages.4.label>拒绝</hediff_female2trap.stages.4.label>
+
+  <hediff_female2male.label>女性转男性</hediff_female2male.label>
+  <hediff_female2male.stages.0.label>无意识</hediff_female2male.stages.0.label>
+  <hediff_female2male.stages.1.label>接受</hediff_female2male.stages.1.label>
+  <hediff_female2male.stages.2.label>伤心</hediff_female2male.stages.2.label>
+  <hediff_female2male.stages.3.label>生气</hediff_female2male.stages.3.label>
+  <hediff_female2male.stages.4.label>拒绝</hediff_female2male.stages.4.label>
+
+  <hediff_female2futa.label>女性转扶她</hediff_female2futa.label>
+  <hediff_female2futa.stages.0.label>无意识</hediff_female2futa.stages.0.label>
+  <hediff_female2futa.stages.1.label>接受</hediff_female2futa.stages.1.label>
+  <hediff_female2futa.stages.2.label>伤心</hediff_female2futa.stages.2.label>
+  <hediff_female2futa.stages.3.label>生气</hediff_female2futa.stages.3.label>
+  <hediff_female2futa.stages.4.label>拒绝</hediff_female2futa.stages.4.label>
+
+  <hediff_futa2trap.label>扶她转人妖</hediff_futa2trap.label>
+  <hediff_futa2trap.stages.0.label>无意识</hediff_futa2trap.stages.0.label>
+  <hediff_futa2trap.stages.1.label>接受</hediff_futa2trap.stages.1.label>
+  <hediff_futa2trap.stages.2.label>伤心</hediff_futa2trap.stages.2.label>
+  <hediff_futa2trap.stages.3.label>生气</hediff_futa2trap.stages.3.label>
+  <hediff_futa2trap.stages.4.label>拒绝</hediff_futa2trap.stages.4.label>
+
+  <hediff_futa2male.label>扶她转男性</hediff_futa2male.label>
+  <hediff_futa2male.stages.0.label>无意识</hediff_futa2male.stages.0.label>
+  <hediff_futa2male.stages.1.label>接受</hediff_futa2male.stages.1.label>
+  <hediff_futa2male.stages.2.label>伤心</hediff_futa2male.stages.2.label>
+  <hediff_futa2male.stages.3.label>生气</hediff_futa2male.stages.3.label>
+  <hediff_futa2male.stages.4.label>拒绝</hediff_futa2male.stages.4.label>
+
+  <hediff_futa2female.label>扶她转女性</hediff_futa2female.label>
+  <hediff_futa2female.stages.0.label>无意识</hediff_futa2female.stages.0.label>
+  <hediff_futa2female.stages.1.label>接受</hediff_futa2female.stages.1.label>
+  <hediff_futa2female.stages.2.label>伤心</hediff_futa2female.stages.2.label>
+  <hediff_futa2female.stages.3.label>生气</hediff_futa2female.stages.3.label>
+  <hediff_futa2female.stages.4.label>拒绝</hediff_futa2female.stages.4.label>
+
+  <hediff_trap2futa.label>人妖转扶她</hediff_trap2futa.label>
+  <hediff_trap2futa.stages.0.label>无意识</hediff_trap2futa.stages.0.label>
+  <hediff_trap2futa.stages.1.label>接受</hediff_trap2futa.stages.1.label>
+  <hediff_trap2futa.stages.2.label>伤心</hediff_trap2futa.stages.2.label>
+  <hediff_trap2futa.stages.3.label>生气</hediff_trap2futa.stages.3.label>
+  <hediff_trap2futa.stages.4.label>拒绝</hediff_trap2futa.stages.4.label>
+
+  <hediff_trap2male.label>人妖转男性</hediff_trap2male.label>
+  <hediff_trap2male.stages.0.label>无意识</hediff_trap2male.stages.0.label>
+  <hediff_trap2male.stages.1.label>接受</hediff_trap2male.stages.1.label>
+  <hediff_trap2male.stages.2.label>伤心</hediff_trap2male.stages.2.label>
+  <hediff_trap2male.stages.3.label>生气</hediff_trap2male.stages.3.label>
+  <hediff_trap2male.stages.4.label>拒绝</hediff_trap2male.stages.4.label>
+
+  <hediff_trap2female.label>人妖转女性</hediff_trap2female.label>
+  <hediff_trap2female.stages.0.label>无意识</hediff_trap2female.stages.0.label>
+  <hediff_trap2female.stages.1.label>接受</hediff_trap2female.stages.1.label>
+  <hediff_trap2female.stages.2.label>伤心</hediff_trap2female.stages.2.label>
+  <hediff_trap2female.stages.3.label>生气</hediff_trap2female.stages.3.label>
+  <hediff_trap2female.stages.4.label>拒绝</hediff_trap2female.stages.4.label>
+
+
+  <!-- hidden hediffs to track original sex -->
+
+  <hediff_was_boy.label>曾经是男孩</hediff_was_boy.label>
+  <hediff_was_girl.label>曾经是女孩</hediff_was_girl.label>
+
+
+  <!-- whatever this may mean: -->
+
+  <hediff_was_futa.label>曾经是扶她</hediff_was_futa.label>
+  <hediff_was_trap.label>曾经是人妖</hediff_was_trap.label>
+
+
+</LanguageData>

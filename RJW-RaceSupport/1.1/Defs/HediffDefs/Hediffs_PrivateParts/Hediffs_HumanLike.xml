@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Elf Like -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>ElfPenis</defName>
+		<label>elf penis</label>
+		<labelNoun>an elf's penis</labelNoun>
+		<description>It's length is impressive but it's girth is greatly lacking.</description>
+		<descriptionHyperlinks><ThingDef>ElfPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>ElfVagina</defName>
+		<label>elf vagina</label>
+		<labelNoun>an elf's vagina</labelNoun>
+		<description>Doesn't look very impressive but the way it pulls you in and tightens is other worldly.</description>
+		<descriptionHyperlinks><ThingDef>ElfVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>ElfAnus</defName>
+		<label>elf anus</label>
+		<labelNoun>an elf's anus</labelNoun>
+		<description>Not much to say it is just a Tight hole that refuses to let you out without a fight.</description>
+		<descriptionHyperlinks><ThingDef>ElfAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElfAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- Orc Like-->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>OrcPenis</defName>
+		<label>orc penis</label>
+		<labelNoun>an orc's penis</labelNoun>
+		<description>It's large, It's filthy, and sane women fear it.</description>
+		<descriptionHyperlinks><ThingDef>OrcPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>OrcVagina</defName>
+		<label>orc vagina</label>
+		<labelNoun>an orc's vagina</labelNoun>
+		<description>You can SEE the stench.</description>
+		<descriptionHyperlinks><ThingDef>OrcVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>OrcBreasts</defName>
+		<label>orc breasts</label>
+		<labelNoun>a pair of orc breasts</labelNoun>
+		<description>They sag greatly.</description>
+		<descriptionHyperlinks><ThingDef>OrcBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>OrcAnus</defName>
+		<label>orc anus</label>
+		<labelNoun>an orc's anus</labelNoun>
+		<description>Is that a shit stain ?</description>
+		<descriptionHyperlinks><ThingDef>OrcAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OrcAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>GhoulPenis</defName>
+		<label>irradiated penis</label>
+		<labelNoun>an irradiated penis</labelNoun>
+		<description>A ghoul's penis. Slightly burns whatever it enters.</description>
+		<descriptionHyperlinks><ThingDef>GhoulPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>GhoulVagina</defName>
+		<label>irradiated vagina</label>
+		<labelNoun>an irradiated vagina</labelNoun>
+		<description>A ghoul's vagina. Slightly burns whatever enters.</description>
+		<descriptionHyperlinks><ThingDef>GhoulVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>GhoulBreasts</defName>
+		<label>irradiated breasts</label>
+		<labelNoun>a pair of irradiated breasts</labelNoun>
+		<description>Ghoul breasts. Abnormally warm to the touch.</description>
+		<descriptionHyperlinks><ThingDef>GhoulBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>GhoulAnus</defName>
+		<label>irradiated anus</label>
+		<labelNoun>an irradiated anus</labelNoun>
+		<description>A ghoul's anus. Slightly burns whatever enters.</description>
+		<descriptionHyperlinks><ThingDef>GhoulAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GhoulAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast_Big_Races">
+		<defName>BigRaceBreats</defName>
+		<label>breastss</label>
+		<labelNoun>a pair of breasts</labelNoun>
+		<description>just a normal pair of breasts found on larger Humanoids.</description>
+		<descriptionHyperlinks><ThingDef>GhoulBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BigRaceBreats</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+</Defs>

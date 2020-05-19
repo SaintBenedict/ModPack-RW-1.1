@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<SettingsMMCategory>Монитор памяти</SettingsMMCategory>
+	<SettingsMMBarLabel>Показать процент использования памяти</SettingsMMBarLabel>
+	<SettingsMMBarTip>Вкладка RuntimeGC будет заполнена полосой, указывающей, сколько процентов памяти занято, аналогично вкладке Исследования. Вы также можете указать интервал, который хотите отслеживать.
+
+* Примечание: показанное здесь использование памяти - это рабочий набор виртуальной машины .NET RimWorld, который в настоящее время используется программными кодами. Платформа Unity и ресурсы для массовых игр используют неуправляемую память вне виртуальной машины .NET, поэтому они здесь не учитываются (но занимают стабильную часть памяти). Обе части вносят вклад в общее использование памяти, показанное в файле taskmgr.exe.This memory usage also helps to indicate overall game performance and monitor possible dead loops or memory leaks. </SettingsMMBarTip>
+	<SettingsMMTipLabel>Добавить использование памяти во всплывающую подсказку</SettingsMMTipLabel>
+	<SettingsMMTipTip>Использование памяти будет добавлено во всплывающую подсказку, наведите курсор мыши для проверки.
+
+* Примечание: показанное здесь использование памяти - это рабочий набор виртуальной машины .NET RimWorld, который в настоящее время используется программными кодами. Платформа Unity и ресурсы для массовых игр используют неуправляемую память вне виртуальной машины .NET, поэтому они здесь не учитываются (но занимают стабильную часть памяти). Обе части вносят вклад в общее использование памяти, показанное в файле taskmgr.exe.This memory usage also helps to indicate overall game performance and monitor possible dead loops or memory leaks. </SettingsMMTipTip>
+	<SettingsMMRangeLabel>Интервал мониторинга (Mb)</SettingsMMRangeLabel>
+	<SettingsMMRangeTip>Этот параметр влияет только на процентную строку, заполняющую вкладку RuntimeGC.</SettingsMMRangeTip>
+
+	<SettingsMMIntervalLabel>Частота обновления (интервал)</SettingsMMIntervalLabel>
+	<SettingsMMIntervalTip>Как часто следует обновлять монитор памяти.
+Частота обновления (интервал) основана на тиках пользовательского интерфейса, а фактический промежуток времени между обновлениями может варьироваться в зависимости от производительности вашего процессора.
+
+* Примечание: слишком частые обновления занимают много памяти.</SettingsMMIntervalTip>
+	<SettingsDevOnScreenMemoryUsageLabel>Dev: Восстановить? «RuntimeGC» данными об использовании памяти</SettingsDevOnScreenMemoryUsageLabel>
+
+	<SettingsAutoCleanupCategory>Автоочистка</SettingsAutoCleanupCategory>
+	<SettingsACModMetaDataLabel>Очистить ненужную информацию о моде</SettingsACModMetaDataLabel>
+	<SettingsACModMetaDataTip>Во время запуска удалите информацию о моде, которая используется только при нажатии кнопки «Моды».
+Если вы нажали эту кнопку после запуска, вы все равно можете выполнить эту очистку, нажав клавишу «Восстановить память» на вкладке RuntimeGC.
+
+Файлы мода не затрагиваются.</SettingsACModMetaDataTip>
+	<SettingsACLanguageDataLabel>Очистить неиспользованные переводы</SettingsACLanguageDataLabel>
+	<SettingsACLanguageDataTip>Во время запуска удалите данные перевода, которые не являются ни английским, ни вашим текущим языком, например. удалить корейский, тайский, ... если вы используете русский или все другие языковые переводы, если вы используете английский.
+
+Файлы перевода не затрагиваются.
+* Примечание: если вы хотите переключить свой язык, вы должны отключить этот пункт, перезапустить, а затем изменить языковые настройки, иначе RimWorld не сможет найти данные. Рекомендуется, чтобы все переводчики отключали этот пункт, если необходимо частое переключение языков. </SettingsACLanguageDataTip>
+	<SettingsACDefPackageLabel>Очистить кэшированный DefPackage</SettingsACDefPackageLabel>
+	<SettingsACDefPackageTip>Во время запуска удалите загрузочный кеш DefPackage для каждого мода.
+** Примечание. Если вы используете моды, которые могут настраивать ограничения стека или вводить общие материалы, рекомендуется отключить этот элемент в случае, если моды пытаются получить доступ к этим данным и вызвать ошибки (даже если это поведение не рекомендуется). **
+
+Файлы мода не затрагиваются.</SettingsACDefPackageTip>
+
+	<SettingsMuteCategory>Отключить / заменить функциональность</SettingsMuteCategory>
+	<SettingsMuteGCLabel>Заменить / улучшить ванильный GC</SettingsMuteGCLabel>
+	<SettingsMuteGCTip>** Рекомендуется включить **
+Замените очиститель vanilla GC на RuntimeGC, чтобы избежать периодических задержек (4 раза в день в игре) и возможных сбоев при сохранении.
+Вам не нужно включать мод MuteGC, который является автономной версией этого предмета.</SettingsMuteGCTip>
+	<SettingsMuteBLLabel>Заткнуть боевые журналы</SettingsMuteBLLabel>
+	<SettingsMuteBLTip>* Не рекомендуется, если вы не слишком отчаянно пытаетесь вернуть свою игру к жизни *
+Полностью отключите боевые журналы, чтобы такие журналы не создавались, не сохранялись и не загружались.
+Вам не нужно включать мод MuteCL, который является автономной версией этого предмета.</SettingsMuteBLTip>
+
+	<SettingsGeneralCategory>общие настройки</SettingsGeneralCategory>
+	<SettingsArchiveGCLabel>Архив результатов очистки мировых пешек</SettingsArchiveGCLabel>
+	<SettingsArchiveGCTip>Сохраните результат каждой успешной очистки WorldPawn в вашем сохранении. Вы можете проверить это через Историю - вкладка Сообщения.
+* Примечание. Эта вкладка «Сообщение» имеет ограничение в 200 записей и доступна для уведомлений и писем в игре. Старые записи будут удалены, если превышен лимит.</SettingsArchiveGCTip>
+	<SettingsArchiveGeneralLabel>Архивировать все уведомления RuntimeGC</SettingsArchiveGeneralLabel>
+	<SettingsArchiveGeneralTip>*Не рекомендуется*
+Сохраните все уведомления из мода RuntimeGC в свое сохранение. Это может вывести многие журналы сообщений из игры из пула архивов.</SettingsArchiveGeneralTip>
+
+	<SettingsReset>Восстановление значений по умолчанию</SettingsReset>
+
+	<UITicks>{0} UI ticks</UITicks>
+
+	<DlgTitleRestart>Требуется перезагрузка</DlgTitleRestart>
+	<DlgTextRestartNotice>Изменение этого параметра будет подтверждено только после перезапуска игры.
+RimWorld перезапустится после выхода из страницы настроек мода.</DlgTextRestartNotice>
+	<DlgTextRestartRequest>Один или несколько параметров RuntimeGC были изменены, и RimWorld необходимо перезапустить, чтобы применить их.
+
+Перезапустить RimWorld сейчас?</DlgTextRestartRequest>
+	<UndoChange>Отменить изменение</UndoChange>
+</LanguageData>

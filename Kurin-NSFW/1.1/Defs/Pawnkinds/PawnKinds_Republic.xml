@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==============================================NPC기본==============================================-->
+  <PawnKindDef Name="Kurin_RepublicBase" Abstract="True">
+    <race>Kurin_Race</race>
+    <defaultFactionType>Kurin_Faction</defaultFactionType>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+    <invNutrition>3</invNutrition> <!--
+    <apparelRequired>
+      <li>Kurin_Apparel_Underwear</li>
+    </apparelRequired> -->
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+  </PawnKindDef>
+<!--==============================================NPC세부==============================================-->
+<!--시민-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Citizen</defName>
+    <label>kurin citizen</label>
+    <combatPower>20</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--자경단-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Vigilante</defName>
+    <label>kurin vigilante</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>500</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--상인-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Trader</defName>
+    <label>kurin trader</label>
+    <combatPower>25</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+	<trader>true</trader>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Trader</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>Kurin_Trader</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>500</min>
+            <max>600</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--엘리트-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Elite</defName>
+    <label>kurin elite</label>
+    <combatPower>35</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+	<factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>Kurin_Elite</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>300</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--군인(분대원)-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Soldier</defName>
+    <label>kurin army soldier</label>
+    <combatPower>100</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Military</li>
+    </apparelTags> <!--
+	<apparelRequired>
+      <li>Kurin_OnSkin_Military_Uniform</li>
+    </apparelRequired> -->
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Army</li>
+      <li>Kurin_Soldier</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--군인(분대장)-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_EliteSoldier</defName>
+    <label>kurin army sergeant</label>
+    <combatPower>120</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Military</li>
+    </apparelTags> <!--
+	<apparelRequired>
+      <li>Kurin_Onskin_Military_Uniform</li>
+    </apparelRequired> -->
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Army</li>
+      <li>Kurin_EliteSoldier</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+<!--군인(저격수)-->
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Sniper</defName>
+    <label>kurin army sniper</label>
+    <combatPower>140</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Military</li>
+    </apparelTags> <!--
+	<apparelRequired>
+      <li>Kurin_Onskin_Military_Uniform</li>
+    </apparelRequired> -->
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Kurin_Sniper_Rifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Army</li>
+      <li>Kurin_Sniper</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Kurin_RepublicBase">
+    <defName>Kurin_Nymph</defName>
+    <label>kurin nymph</label>
+    <combatPower>10</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Nymph</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+        <li>
+            <categories>
+                <li>Kurin_Nymph</li>
+            </categories>
+        </li>
+    </backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>300</min>
+            <max>600</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+</Defs>

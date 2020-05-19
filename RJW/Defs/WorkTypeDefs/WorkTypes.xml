@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkTypeDef>
+		<defName>RJW_Sex</defName>
+		<labelShort>Sex</labelShort>
+		<gerundLabel>satisfy sex needs</gerundLabel>
+		<description>Satisfy sex needs</description>
+		<verb>Have sex</verb>
+		<naturalPriority>1150</naturalPriority>
+		<alwaysStartActive>true</alwaysStartActive>
+		<visible>true</visible>
+		<workTags>
+		</workTags>
+	</WorkTypeDef>
+</Defs>

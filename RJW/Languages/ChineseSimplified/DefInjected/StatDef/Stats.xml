@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SexAbility.label>性能力</SexAbility.label>
+  <SexAbility.description>衡量小人是否擅长性行为。</SexAbility.description>
+
+  <Vulnerability.label>脆弱性</Vulnerability.label>
+  <Vulnerability.description>衡量小人有多容易被强奸</Vulnerability.description>
+
+  <SexFrequency.label>性欲</SexFrequency.label>
+  <SexFrequency.description>衡量小人有多积极。</SexFrequency.description>
+
+
+</LanguageData>

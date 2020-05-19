@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+	<defName>Kurin_Scenario</defName>
+	<label>Kurin, a new beginning</label>
+	<description> Kurin is a race born from the genetic engineering of a thriving world. Originally a race designed for human improvement, researchers and racial liberation groups, who were reluctant to these anti-human experiments, hacked mecanoids, destroyed facilities, and transported Kurins into distant planets.\n\n
+ On the new planet, the Kurins have been able to thrive for hundreds of years under the protection of artificial intelligence and mechanoids, and then interact with other human forces and become recognized as new forces. However, when the Kurin earned a lot of money by using high-quality goods made with their unique crafting capabilities for trade, human forces envied it and tried to take it through the war. Kurin, who had never fought and was afraid of war, decided to take refuge with the planet Volpecurre, where they lived in their own race.\n\n
+ The Kurin, who mobilized all the capital of the forces to immigration ships, began to be attacked by pirates who had been instigated by human forces, and continued to make interstellar movement beyond the capacity of immigrant ships to ward off chasing pirates. We could not endure the move and were wrecked and crashed into the perimeter.\n\n
+ On a crashing planet, they begin to raise their forces without losing hope. Their purpose is to repair the shipwrecked immigrant ship on a spaceship and head to Volpecure with the races.\n\n
+But rumors that they had crashed into the perimeter fell into the pirates' ears, and soon they would invade again. The Kurins are scattered all over the planet to minimize damage, deciding to pursue later. Three Kurins set out to avoid the pirates and later establish a base for the races.</description>
+	<scenario>
+		<summary>Pioneers depart with the hope of racial reconstruction.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>Kurin_Player</factionDef>
+		</playerFaction>
+		<parts>
+		
+			<!-- Config pages -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>4</pawnCount>
+				<pawnChoiceCount>8</pawnChoiceCount>
+			</li>
+
+			<!-- Player starting stuff spawn method-->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+				<visible>false</visible>
+			</li>
+			
+			<!-- Player starting things -->
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>300</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>40</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>25</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Steel</thingDef>
+				<count>800</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WoodLog</thingDef>
+				<count>600</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Assault_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Sniper_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Overhead_Goggles</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Middle_Body_Armor</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<count>1</count>
+				<animalKind>Fox_Red</animalKind>
+				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+			</li>
+
+			<!-- Game start dialog -->
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>"Okay, I've put everything down here. Good luck."</text>
+				<textKey>GameStartDialog</textKey>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+
+		</parts>
+	</scenario>
+</ScenarioDef>
+</Defs>

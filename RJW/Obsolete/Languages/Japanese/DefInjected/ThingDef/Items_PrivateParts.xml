@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Natural Penises -->
+
+  <Penis.label>ペニス</Penis.label>
+  <Penis.description>A severed penis. It's average size, and that's fine. Nothing wrong with that at all. Really, it's OK. There's no shame in being average. It's just... you know... just average.</Penis.description>
+
+  <Micropenis.label>極小ペニス</Micropenis.label>
+  <Micropenis.description>
+      A severed pinky.
+
+      Uh, no wait...
+    </Micropenis.description>
+
+  <SmallPenis.label>小さなペニス</SmallPenis.label>
+  <SmallPenis.description>A severed penis. It's rather small, so I hope you've got a great severed personality.</SmallPenis.description>
+
+  <BigPenis.label>大きなペニス</BigPenis.label>
+  <BigPenis.description>A large severed penis.</BigPenis.description>
+
+  <HugePenis.label>巨大なペニス</HugePenis.label>
+  <HugePenis.description>A huge severed penis.</HugePenis.description>
+
+  <HorsePenis.label>馬のペニス</HorsePenis.label>
+  <HorsePenis.description>A severed horse penis from a centaur. Huge for a human.</HorsePenis.description>
+
+  <CatPenis.label>猫のペニス</CatPenis.label>
+  <CatPenis.description>A severed catgirl penis. Long, thin and barbed.</CatPenis.description>
+
+  <DogPenis.label>犬のペニス</DogPenis.label>
+  <DogPenis.description>A severed dog penis. Thick and knotted.</DogPenis.description>
+
+  <DragonPenis.label>龍のペニス</DragonPenis.label>
+  <DragonPenis.description>A severed dragon penis. Thick and HARD.</DragonPenis.description>
+
+  <!-- Natural Vaginas -->
+
+  <Vagina.label>膣</Vagina.label>
+  <Vagina.description>A severed vagina, whatever that means.</Vagina.description>
+
+  <TightVagina.label>狭い膣</TightVagina.label>
+  <TightVagina.description>A severed tight vagina, whatever that means.</TightVagina.description>
+
+  <LooseVagina.label>緩い膣</LooseVagina.label>
+  <LooseVagina.description>A severed loose vagina, whatever that means.</LooseVagina.description>
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>胸</Breasts.label>
+  <Breasts.description>A pair of severed breasts.</Breasts.description>
+
+  <SmallBreasts.label>貧乳</SmallBreasts.label>
+  <SmallBreasts.description>A pair of severed small breasts.</SmallBreasts.description>
+
+  <LargeBreasts.label>巨乳</LargeBreasts.label>
+  <LargeBreasts.description>A pair of severed large breasts.</LargeBreasts.description>
+
+  <HugeBreasts.label>爆乳</HugeBreasts.label>
+  <HugeBreasts.description>A pair of severed huge breasts.</HugeBreasts.description>
+
+  <!-- Natural Anuses -->
+
+  <Anus.label>肛門</Anus.label>
+  <Anus.description>A severed anus... yeah I don't know what that is either.</Anus.description>
+
+  <TightAnus.label>狭い肛門</TightAnus.label>
+  <TightAnus.description>A severed tight anus... yeah I don't know what that is either.</TightAnus.description>
+
+  <LooseAnus.label>緩い肛門</LooseAnus.label>
+  <LooseAnus.description>Hey, look a donut.  Just kidding, it's an anus.</LooseAnus.description>
+
+  <!-- Simple prosthetic penises -->
+
+  <PegDick.label>人工ペニス</PegDick.label>
+  <PegDick.description>A wooden dildo designed to replace a missing penis. Be careful of splinters.</PegDick.description>
+
+  <!-- Simple prosthetic vaginas -->
+
+  <HydraulicVagina.label>人工膣</HydraulicVagina.label>
+  <HydraulicVagina.description>A low-tech prosthetic vagina. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicVagina.description>
+
+  <!-- Simple prosthetic breasts -->
+
+  <HydraulicBreasts.label>義胸</HydraulicBreasts.label>
+  <HydraulicBreasts.description>Low-tech prosthetic breasts.  Conical metal with increased pumping action, spray your friends.</HydraulicBreasts.description>
+
+  <!-- Simple prosthetic anuses -->
+
+  <HydraulicAnus.label>人工肛門</HydraulicAnus.label>
+  <HydraulicAnus.description>A low-tech prosthetic anus. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicAnus.description>
+
+  <!-- Bionic penises -->
+
+  <BionicPenis.label>ハイテク人工ペニス</BionicPenis.label>
+  <BionicPenis.description>
+      A high-tech prosthetic penis. Features include:
+      - ABSOLUTELY MASSIVE, this prosthetic is larger than any known natural penis, and is in fact the largest penile prosthetic permissible under federal law.
+      - Over 50 different vibration modes, including 10 of the most stimulating waveforms known to science
+      - State-of-the-art neural interface activates neural pathways you didn't even know you had to make you feel things you never even imagined
+    </BionicPenis.description>
+
+  <!-- Bionic vaginas -->
+
+  <BionicVagina.label>ハイテク人工膣</BionicVagina.label>
+  <BionicVagina.description>A high-tech prosthetic vagina. Features include:
+    - Interior lined with 150 million micro-g-spots
+    - Resizes to fit any penis
+    - Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)
+    - SenseID technology identifies the man you're fucking, automatically adds him on Facebook, and contacts his mother introducing you as his new girlfriend.</BionicVagina.description>
+
+  <!-- Bionic breasts -->
+
+  <BionicBreasts.label>ハイテク義胸</BionicBreasts.label>
+  <BionicBreasts.description>
+      High-tech prosthetic breasts. Features include:
+      - Resizes to any desired size
+    </BionicBreasts.description>
+
+  <!-- Bionic anuses -->
+
+  <BionicAnus.label>ハイテク人工肛門</BionicAnus.label>
+  <BionicAnus.description>
+      A high-tech prosthetic anus. Features include:
+      - Resizes to fit any penis
+      - Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)
+    </BionicAnus.description>
+</LanguageData>

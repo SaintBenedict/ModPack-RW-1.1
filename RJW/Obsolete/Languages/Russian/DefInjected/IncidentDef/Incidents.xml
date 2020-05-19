@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<TestInc.label>МЕМЫ</TestInc.label>
+	<TestInc.letterText>МЕМЫ ПРОИЗОШЛИ</TestInc.letterText>
+	<TestInc.letterLabel>МЕМЫ ПРОИЗОШЛИ</TestInc.letterLabel>
+
+	<!-- I dont think this is needed anymore -->
+
+	<SexualizeThePawns.label>Оценивает существ.</SexualizeThePawns.label>
+	<NymphJoins.label>Нимфоман присоеденился.</NymphJoins.label>
+</LanguageData>

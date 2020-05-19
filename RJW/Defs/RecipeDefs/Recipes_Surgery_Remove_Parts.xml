@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Remove privates -->
+	<RecipeDef ParentName="SexReassignmentP">
+		<defName>RemoveGenitals</defName>
+		<label>remove genitals</label>
+		<description>Removes sex organs.</description>
+		<workerClass>rjw.Recipe_RemoveGenitals</workerClass>
+		<jobString>Removing genitals.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<!--
+	<RecipeDef ParentName="SexReassignmentP">
+		<defName>RemovePenis</defName>
+		<label>remove genitals</label>
+		<description>Removes penis.</description>
+		<workerClass>rjw.Recipe_RemovePenis</workerClass>
+		<jobString>Removing penis.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SexReassignmentV">
+		<defName>RemoveVagina</defName>
+		<label>remove vagina</label>
+		<description>Removes vagina.</description>
+		<workerClass>rjw.Recipe_RemoveVagina</workerClass>
+		<jobString>Removing vagina.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	-->
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>RemoveBreasts</defName>
+		<label>remove breasts</label>
+		<description>Removes breasts.</description>
+		<workerClass>rjw.Recipe_RemoveBreasts</workerClass>
+		<jobString>Removing breasts.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>RemoveAnus</defName>
+		<label>remove anus</label>
+		<description>Removes anus.</description>
+		<workerClass>rjw.Recipe_RemoveAnus</workerClass>
+		<jobString>Removing anus.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+</Defs>

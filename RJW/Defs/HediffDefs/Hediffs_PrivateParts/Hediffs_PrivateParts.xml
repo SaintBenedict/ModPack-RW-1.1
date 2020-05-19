@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<rjw.HediffDef_PartBase Name="RJW_PrivatePartBase" Abstract="True">
+		<!-- <everVisible>true</everVisible> -->
+		<FluidType></FluidType><!-- string, make into something else, someday, maybe-->
+		<isBad>false</isBad>
+		<comps>
+			<li Class="rjw.CompProperties_HediffBodyPart" />
+		</comps>
+		<priceImpact>false</priceImpact>
+	</rjw.HediffDef_PartBase>
+	
+		<!-- natural parts (purist love) -->
+		<rjw.HediffDef_PartBase ParentName="RJW_PrivatePartBase" Name="NaturalPrivatePartBase" Abstract="True">
+			<hediffClass>rjw.Hediff_PartBaseNatural</hediffClass>
+			<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
+			<addedPartProps>
+				<solid>false</solid>
+				<partEfficiency>1.0</partEfficiency>
+			</addedPartProps>
+		</rjw.HediffDef_PartBase>
+		
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase" Name="NaturalPrivatePartPenis" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Genitals</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Micro</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Small</label>
+						<minSeverity>0.05</minSeverity>
+					</li>
+					<li>
+						<label>Average</label>
+						<minSeverity>0.25</minSeverity>
+					</li>
+					<li>
+						<label>Large</label>
+						<minSeverity>0.70</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.03</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Huge</label>
+						<minSeverity>0.90</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.06</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Towering</label>
+						<minSeverity>1.01</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.5</offset>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase" Name="NaturalPrivatePartVagina" Abstract="True">
+				<FluidType>Cum</FluidType>
+				<DefaultBodyPart>Genitals</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Micro</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Tight</label>
+						<minSeverity>0.05</minSeverity>
+					</li>
+					<li>
+						<label>Average</label>
+						<minSeverity>0.25</minSeverity>
+					</li>
+					<li>
+						<label>Loose</label>
+						<minSeverity>0.70</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.01</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Gaping</label>
+						<minSeverity>0.90</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.02</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Gigantic</label>
+						<minSeverity>1.01</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.10</offset>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+			</rjw.HediffDef_PartBase>
+			
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase" Name="NaturalPrivatePartAnus" Abstract="True">
+				<FluidType></FluidType>
+				<DefaultBodyPart>Anus</DefaultBodyPart>
+				<stages>
+					<li>
+						<label>Micro</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Tight</label>
+						<minSeverity>0.05</minSeverity>
+					</li>
+					<li>
+						<label>Average</label>
+						<minSeverity>0.25</minSeverity>
+					</li>
+					<li>
+						<label>Loose</label>
+						<minSeverity>0.70</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.01</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Gaping</label>
+						<minSeverity>0.90</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.02</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Gigantic</label>
+						<minSeverity>1.01</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.10</offset>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+			</rjw.HediffDef_PartBase>
+			
+			<!--TODO: replace with cups or not-->
+			<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase" Name="NaturalPrivatePartBreast" Abstract="True">
+				<FluidType>Milk</FluidType>
+				<DefaultBodyPart>Chest</DefaultBodyPart>
+				<stages>
+					<li>			<!-- Male breast stage-->
+						<label>Flat</label>
+						<minSeverity>0.01</minSeverity>
+					</li>
+					<li>
+						<label>Small</label>
+						<minSeverity>0.05</minSeverity>
+					</li>
+					<li>
+						<label>Average</label>
+						<minSeverity>0.25</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.025</offset>
+							</li>
+							<li>
+								<capacity>Manipulation</capacity>
+								<offset>-0.025</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Large</label>
+						<minSeverity>0.70</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.05</offset>
+							</li>
+							<li>
+								<capacity>Manipulation</capacity>
+								<offset>-0.05</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Huge</label>
+						<minSeverity>0.90</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.1</offset>
+							</li>
+							<li>
+								<capacity>Manipulation</capacity>
+								<offset>-0.1</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Massive</label>
+						<minSeverity>1.01</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.4</offset>
+							</li>
+								<li>
+								<capacity>Manipulation</capacity>
+								<offset>-0.4</offset>
+							</li>
+						</capMods>
+					</li>
+					<li>
+						<label>Back-breaking</label>
+						<minSeverity>1.5</minSeverity>
+						<capMods>
+							<li>
+								<capacity>Moving</capacity>
+								<offset>-0.8</offset>
+							</li>
+								<li>
+								<capacity>Manipulation</capacity>
+								<offset>-0.8</offset>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+			</rjw.HediffDef_PartBase>
+
+	
+	<!-- artifical parts (transhumanist love) -->
+	<rjw.HediffDef_PartBase ParentName="RJW_PrivatePartBase" Name="ArtificialPrivatePartBase" Abstract="True">
+		<hediffClass>rjw.Hediff_PartBaseArtifical</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+	</rjw.HediffDef_PartBase>
+	
+		<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartBase" Name="ArtificialPrivatePartLotech" Abstract="True">
+			<addedPartProps>
+				<betterThanNatural>false</betterThanNatural>
+			</addedPartProps>
+		</rjw.HediffDef_PartBase>
+		
+		<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartBase" Name="ArtificialPrivatePartHitech" Abstract="True">
+			<addedPartProps>
+				<betterThanNatural>true</betterThanNatural>
+			</addedPartProps>
+			<priceImpact>true</priceImpact>
+		</rjw.HediffDef_PartBase>
+
+
+	<!-- Placeholder hediffs for unsupported pawns? -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>GenericPenis</defName>
+		<label>generic penis</label>
+		<labelNoun>a penis</labelNoun>
+		<description>A penis. Generic placeholder part for unsuported race.</description>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>GenericVagina</defName>
+		<label>generic vagina</label>
+		<labelNoun>a vagina</labelNoun>
+		<description>A vagina. Generic placeholder part for unsuported race.</description>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>GenericAnus</defName>
+		<label>generic anus</label>
+		<labelNoun>an anus</labelNoun>
+		<description>An anus. Generic placeholder part for unsuported race.</description>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>GenericBreasts</defName>
+		<label>generic breasts</label>
+		<labelNoun>breasts</labelNoun>
+		<description>A pair of breasts. Generic placeholder part for unsuported race.</description>
+	</rjw.HediffDef_PartBase>
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>SlimeGlob</defName>
+		<thingClass>ThingWithComps</thingClass>
+		<label>slime glob</label>
+		<description>An oozy slime glob. Useless for humans.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/slime</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>0</DeteriorationRate>
+			<MarketValue>1</MarketValue>
+			<Mass>4.0</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.0</generateCommonality>
+	</ThingDef>
+</Defs>

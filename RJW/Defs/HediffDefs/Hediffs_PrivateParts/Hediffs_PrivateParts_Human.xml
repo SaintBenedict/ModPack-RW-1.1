@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Regular privates -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>Penis</defName>
+		<label>penis</label>
+		<labelNoun>a penis</labelNoun>
+		<description>A penis.</description>
+		<descriptionHyperlinks><ThingDef>Penis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>Penis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>Vagina</defName>
+		<label>vagina</label>
+		<labelNoun>a vagina</labelNoun>
+		<description>A vagina.</description>
+		<descriptionHyperlinks><ThingDef>Vagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>Vagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<!-- Natural anuses -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>Anus</defName>
+		<label>anus</label>
+		<labelNoun>an anus</labelNoun>
+		<description>A anus.</description>
+		<descriptionHyperlinks><ThingDef>Anus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>Anus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<!-- Natural Breasts -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>Breasts</defName>
+		<label>breasts</label>
+		<labelNoun>a pair of breasts</labelNoun>
+		<description>A pair of breasts.</description>
+		<descriptionHyperlinks><ThingDef>Breasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>Breasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<!-- Natural Breasts or rather lack of -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBase">
+		<defName>FeaturelessChest</defName>
+		<label>featureless chest</label>
+		<labelNoun>a featureless chest</labelNoun>
+		<description>a flat chest without any nipples where there should be.</description>
+		<descriptionHyperlinks><ThingDef>FeaturelessChest</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FeaturelessChest</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

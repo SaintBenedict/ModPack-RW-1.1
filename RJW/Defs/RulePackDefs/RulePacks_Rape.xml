@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was anally raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>AnalDomRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced into anal sex.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>VaginalRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was vaginally raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>VaginalDomRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] forced [INITIATOR_possessive]self on [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FellatioRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forcibly fellated by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>OtherRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was raped.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedRimmingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to lick [INITIATOR_nameDef]'s anus.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedCunnilingusRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to lick [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedFellatioRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to fellate [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedBreastjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to give a breastjob to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>HandjobRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] pinned [RECIPIENT_nameDef] down and forcefully jacked [RECIPIENT_objective] off.</li>
+				<li>sent-> [INITIATOR_nameDef] humiliated [RECIPIENT_nameDef] by forcibly jerking [RECIPIENT_objective] off.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FootjobRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] gave a forced footjob to [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>MaleRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] forced [RECIPIENT_nameDef] to cum.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedHandjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to give a handjob to [INITIATOR_nameDef].</li>
+				<li>sent-> [RECIPIENT_nameDef] was forced to jerk off [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedFootjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to give a footjob to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>DoubleRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was double-penetrated and raped vaginally and anally.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<!--I know that some of those are rather weird and unlikely to happen, but need to have text for them just in case.-->
+	<RulePackDef>
+		<defName>FingeringRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] forcibly fingered [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedFingeringRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to finger [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ScissoringRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] forcibly scissored with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ForcedScissoringRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was forced to scissor with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FistingRapeRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] forcibly fisted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+    <RulePackDef>
+		<defName>ForcedSixtynineRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] coerced [RECIPIENT_nameDef] into 69ing with [INITIATOR_objective].</li>
+				<li>sent-> [INITIATOR_nameDef] forced [RECIPIENT_nameDef] to 69 with [INITIATOR_objective].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>MechImplantingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] implanted something inside [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

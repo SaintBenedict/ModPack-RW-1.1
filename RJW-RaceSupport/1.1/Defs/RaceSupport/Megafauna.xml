@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<rjw.RaceGroupDef>
+		<defName>MegaPrimates</defName>
+		
+		<raceNames>
+			<li>Dinopithecus</li>
+			<li>Gigantopithecus</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>MonkeyPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>MegaEntelodonts</defName>
+		
+		<raceNames>
+			<li>Daeodon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>PigPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>	
+
+	<rjw.RaceGroupDef>
+		<defName>MegaMustelids_and_Marsupials</defName>
+		
+		<raceNames>
+			<li>Diprotodon</li>
+			<li>Enhydriodon</li>
+			<li>Procoptodon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>RaccoonPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaCrocodilians</defName>
+		
+		<raceNames>
+			<li>Quinkana</li>
+			<li>Purussaurus</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>CrocodilianPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scale</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>Feliformes</defName>
+		
+		<raceNames>
+			<li>Dinocrocuta</li>
+			<li>Smilodon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CatVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>CatPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>		
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaArthropods</defName>
+		
+		<raceNames>
+			<li>Arthropleura</li>
+			<li>Meganeura</li>
+			<li>Pulmonoscorpius</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>OvipositorM</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Chitin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+		
+	</rjw.RaceGroupDef>		
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaBears</defName>
+		
+		<raceNames>
+			<li>ShortfacedBear</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BearPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>		
+
+	<rjw.RaceGroupDef>
+		<defName>MegaSquamates</defName>
+		
+		<raceNames>
+			<li>Gigantophis</li>
+			<li>Megalania</li>
+			<li>Titanoboa</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HemiPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scales</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>	
+
+	<rjw.RaceGroupDef>
+		<defName>MegaPerissodactyls</defName>
+		
+		<raceNames>
+			<li>Chalicotherium</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>UdderBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HorsePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaMarines</defName>
+		
+		<raceNames>
+			<li>Gomphotaria</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>MarinePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaTurtles</defName>
+		
+		<raceNames>
+			<li>Megalochelys</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>TurtlePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scales</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>MegaElephants_and_Rhinos</defName>
+		
+		<raceNames>
+			<li>Deinotherium</li>
+			<li>Elasmotherium</li>
+			<li>Paraceratherium</li>
+			<li>Platybelodon</li>
+			<li>Uintatherium</li>
+			<li>WoollyMammoth</li>
+			<li>Zygolophodon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>ElephantPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>MegaArtiodactyls</defName>
+		
+		<raceNames>
+			<li>Andrewsarchus</li>
+			<li>Aurochs</li>
+			<li>Macrauchenia</li>
+			<li>Megaloceros</li>
+			<li>Sivatherium</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>UdderBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BovinePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaAvians</defName>
+		
+		<raceNames>
+			<li>Dinornis</li>
+			<li>Palaeeudyptes</li>
+			<li>Titanis</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>CloacalPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Feathers</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+	
+	<rjw.RaceGroupDef>
+		<defName>MegaRodents</defName>
+		
+		<raceNames>
+			<li>Castoroides</li>
+			<li>Josephoartigasia</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>GenericAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>GenericBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>GenericVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>RodentPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+</Defs>

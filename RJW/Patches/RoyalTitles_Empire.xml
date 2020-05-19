@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RoyalTitleDef[5]</xpath>
+			</li>
+	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[5]/bedroomRequirements[1]/li[3]/things</xpath>
+				 <value>
+					<li>RJW_DoubleBed</li>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[6]/bedroomRequirements[1]/li[4]/things</xpath>
+				 <value>
+					<li>RJW_DoubleBed</li>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[7]/bedroomRequirements[1]/li[4]/things</xpath>
+				<value>
+					<li>RJW_DoubleBed</li>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[8]/bedroomRequirements[1]/li[4]/things</xpath>
+				 <value>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[9]/bedroomRequirements[1]/li[4]/things</xpath>
+				 <value>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RoyalTitleDef[10]/bedroomRequirements[1]/li[4]/things</xpath>
+				<value>
+					<li>RJW_RoyalBed</li>
+				</value>
+			</li> 
+		</operations>
+	</Operation>
+</Patch>

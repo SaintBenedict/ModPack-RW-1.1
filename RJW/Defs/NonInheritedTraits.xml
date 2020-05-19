@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.StringListDef>
+		<defName>NonInheritedTraits</defName>
+		<!--This list holds defNames of traits that should not be passed from parents to children-->
+		<!--Actually, it contains most traits I've seen around, but those that should be inherited are commented out--> 
+		<!--If you wish to add other traits, find their<defName> in xml files inside "Defs" folder of the mod that adds them-->
+		<strings>
+			<!--Rimworld of Magic-->
+			<!--<li>Gifted</li>-->
+			<!--<li>PhysicalProdigy</li>-->
+			<!--<li>Gladiator</li>-->
+			<!--<li>InnerFire</li>-->
+			<!--<li>HeartOfFrost</li>-->
+			<!--<li>StormBorn</li>-->
+			<!--<li>Arcanist</li>-->
+			<!--<li>Druid</li>-->
+			<!--<li>Paladin</li>-->
+			<!--<li>Summoner</li>-->
+			<!--<li>TM_Sniper</li>-->
+			<!--<li>Bladedancer</li>-->
+			<!--<li>Necromancer</li>-->
+			<!--<li>Undead</li>-->
+			 
+			<!--Star Wars-->
+			<!--<li>PJ_ForceSensitive</li>-->
+			<!--<li>PJ_JediTrait</li>-->
+			<!--<li>PJ_SithTrait</li>-->
+			<!--<li>PJ_GrayTrait</li>-->
+			 
+			<!--Combat Extended?-->
+			<li>Bravery</li>
+			 
+			<!--Rimworld of apes-->
+			<!--<li>Orangutan</li>-->
+			 
+			<!--Humanoid alien races-->
+			<li>Xenophobia</li>
+			 
+			<!--Cthulhu-->
+			<li>Cults_OathtakerHastur</li>
+			<li>Cults_OathtakerHastur2</li>
+			 
+			<!--MoreRobots-->
+			<!--<li>AIRobot_BaseTrait</li>-->
+			 
+			<!--Core-->
+			<!--<li>SpeedOffset</li>-->
+			<!--<li>DrugDesire</li>-->
+			<li>NaturalMood</li>
+			<!--<li>Nerves</li>-->
+			<!--<li>Neurotic</li>-->
+			<li>Industriousness</li>
+			<!--<li>PsychicSensitivity</li>-->
+			<li>ShootingAccuracy</li>
+			<!--<li>Beauty</li>-->
+			<li>Nudist</li>
+			<li>Bloodlust</li>
+			<li>Kind</li>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+			<li>Abrasive</li>
+			<!--<li>TooSmart</li>-->
+			<!--<li>Brawler</li>-->
+			<li>Masochist</li>
+			<li>BodyPurist</li>
+			<li>Transhumanist</li>
+			<li>GreenThumb</li>
+			<li>NightOwl</li>
+			<li>Greedy</li>
+			<li>Jealous</li>
+			<li>Ascetic</li>
+			<!--<li>Gay</li>--><!--CnP does this too!-->
+			<li>DislikesMen</li>
+			<li>DislikesWomen</li>
+			<li>AnnoyingVoice</li>
+			<li>CreepyBreathing</li>
+			<li>Pyromaniac</li>
+			<!--<li>Wimp</li>-->
+			<!--<li>Nimble</li>-->
+			<!--<li>FastLearner</li>-->
+			<!--<li>SuperImmune</li>-->
+
+			<!--RJW-->
+			<li>Nymphomaniac</li>
+			<li>Rapist</li>
+			<li>Necrophiliac</li>
+			<li>Zoophile</li>
+
+			<!--Romance diversified-->
+			<li>Straight</li>
+			<li>Bisexual</li>
+			<li>Asexual</li>
+			<li>Faithful</li>
+			<li>Philanderer</li>
+			<li>Polyamorous</li>
+			
+			<!--Psychology-->
+			<li>Prude</li>
+			<!--<li>Insomniac</li>-->
+			<li>BleedingHeart</li>
+			<li>Gourmet</li>
+			<li>Lecher</li>
+			<li>Codependent</li>
+			<li>Outdoorsy</li>
+			<li>Pluviophile</li>
+			<!--<li>Photosensitive</li>-->
+			<li>Socialite</li>
+			<li>Desensitized</li>
+			<!--<li>HeavySleeper</li>-->
+			<!--<li>Unstable</li>-->
+			<li>Polygamous</li>
+			<li>OpenMinded</li>
+			<li>Chatty</li>
+			<li>Sedentary</li>
+			
+			<!--Consolidated Traits-->
+			<li>RCT_Aesthete</li>
+			<li>RCT_AnimalLover</li>
+			<li>RCT_AnimalHater</li>
+			<li>RCT_Builder</li>
+			<li>RCT_Butcher</li>
+			<li>RCT_Claustrophobic</li>
+			<!--<li>RCT_ColdLover</li>-->
+			<!--<li>RCT_DeepSleeper</li>-->
+			<!--<li>RCT_Dunce</li>-->
+			<li>RCT_Gourmet</li>
+			<!--<li>RCT_HeatLover</li>-->
+			<!--<li>RCT_Aptitude</li>-->
+			<!--<li>RCT_PainThreshold</li>-->
+			<li>RCT_Inventor</li>
+			<!--<li>RCT_Eyesight</li>-->
+			<li>RCT_NeatFreak</li>
+			<li>RCT_EatingSpeed</li>
+			<li>RCT_Nyctophobe</li>
+			<li>RCT_Perfectionist</li>
+			<li>RCT_Medic</li>
+			<li>RCT_Rockhound</li>
+			<!--<li>RCT_Savant</li>-->
+			<li>RCT_Trader</li>
+			<li>RCT_ShootingAccuracy</li>
+			<li>RCT_Diplomat</li>
+			<li>RCT_BrownThumb</li>
+			<li>RCT_GreenThumb</li>
+
+			<!--[SYR] Individuality-->
+			<li>SYR_GreenThumb</li>
+			<li>SYR_Digger</li>
+			<li>SYR_Chef</li>
+			<li>SYR_Tinkerer</li>
+			<li>SYR_Scientist</li> <!-- should maybe be inheritable? -->
+			<li>SYR_Architect</li>
+			<!--<li>SYR_Peculiar</li>-->
+			<!--<li>SYR_GoodFortune</li>-->
+			<li>SYR_Haggler</li>
+			<!--<li>SYR_AnimalAffinity</li>-->
+			<li>SYR_MedicalTraining</li>
+			<!--<li>SYR_Hotblooded</li>-->
+
+			<!--Westerado-->
+			<li>Frontiersman_Westerado</li>
+			<!--<li>DeadEyeTraits_Westerado</li>-->
+			<!--<li>DollarTrilogyTraits_Westerado</li>-->
+	  </strings>
+	</rjw.StringListDef>
+</Defs>
+	<!--Now should we do that filtering I wonder. 
+	After all, even many behavioral quirks are to certain extent determined by internal makeup of organism.
+	Which in turn is determined by genes. And they are also determined by communication with parents, which we do not simulate 
+	but could make up for that by copying traits.-->
+

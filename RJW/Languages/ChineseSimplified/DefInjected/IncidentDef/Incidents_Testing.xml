@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TestInc.label>测试</TestInc.label>
+  <TestInc.letterText>Something Happened</TestInc.letterText>
+  <TestInc.letterLabel>Something Happened</TestInc.letterLabel>
+
+  <TestInc2.label>测试2</TestInc2.label>
+  <TestInc2.letterText>Something Happened2</TestInc2.letterText>
+  <TestInc2.letterLabel>Something Happened2</TestInc2.letterLabel>
+
+
+</LanguageData>

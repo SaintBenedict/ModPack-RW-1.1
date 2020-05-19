@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<IncidentDef ParentName="DiseaseIncident">
+		<defName>Disease_Boobitis</defName>
+		<label>boobitis mechanites</label>
+		<diseaseIncident>Boobitis</diseaseIncident>
+		<diseasePartsToAffect>
+			<li>Chest</li>
+		</diseasePartsToAffect>
+		<letterLabel>Disease (boobitis mechanites)</letterLabel>
+	</IncidentDef>
+</Defs>

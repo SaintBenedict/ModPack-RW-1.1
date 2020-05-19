@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalBreeding</defName>
+		<label>anal breeding</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Mounted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was anally mounted by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalBreeding</defName>
+		<label>vaginal breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Mounted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was mounted by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>OralBreeding</defName>
+		<label>oral breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Licked [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was licked by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>ForcedFellatioBreeding</defName>
+		<label>oral breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Face fucked [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was face fucked.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<!-- This can only happen if the player disables the other types, which makes things go weird... -->
+	<InteractionDef>
+		<defName>ForcedOralBreeding</defName>
+		<label>oral breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Forced oral sex from [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was forced into giving oral.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<!-- Another rare one, but needed to get the icons working right. -->
+	<InteractionDef>
+		<defName>FingeringBreeding</defName>
+		<label>fingering</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Fingered [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+        <li>r_logentry->Was fingered by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>RequestBreeding</defName>
+		<label>request breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->[RECIPIENT_nameDef] presented to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Presented to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>RequestAnalBreeding</defName>
+		<label>request breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding_Animal_off</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->[RECIPIENT_nameDef] presented to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Presented to [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+</Defs>

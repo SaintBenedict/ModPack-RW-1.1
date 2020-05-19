@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Orc -->
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiOrcPenis</defName>
+		<label>add orc penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OrcPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OrcPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OrcPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiOrcVagina</defName>
+		<label>add orc vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OrcVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OrcVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OrcVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiBreast">
+		<defName>AddMultiOrcBreasts</defName>
+		<label>add orc breasts</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OrcBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OrcBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OrcBreasts</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiOrcAnus</defName>
+		<label>add anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OrcAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OrcAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OrcAnus</addsHediff>
+	</RecipeDef>
+	
+	<!-- Elf -->
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiElfPenis</defName>
+		<label>add elf penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElfPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ElfPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiElfVagina</defName>
+		<label>add elf vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElfVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ElfVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiElfAnus</defName>
+		<label>add elf anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElfAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ElfAnus</addsHediff>
+	</RecipeDef>
+	
+	<!-- Dino -->
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiDinoPenis</defName>
+		<label>add dino penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DinoPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DinoPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DinoPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiDinoeVagina</defName>
+		<label>add dino vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DinoVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DinoVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DinoVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiDinoAnus</defName>
+		<label>add dino anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DinoAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DinoAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DinoAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiMonkeyPenis</defName>
+		<label>add monkey penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MonkeyPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MonkeyPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>MonkeyPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiPigPenis</defName>
+		<label>add pig penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PigPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PigPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>PigPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiBearPenis</defName>
+		<label>add bear penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BearPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BearPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BearPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiTurtlePenis</defName>
+		<label>add turtle penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TurtlePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TurtlePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiElephantPenis</defName>
+		<label>add elephant penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElephantPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ElephantPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiBovinePenis</defName>
+		<label>add elf penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BovinePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BovinePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiTentaclePenis</defName>
+		<label>add tentacles</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TentaclePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TentaclePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TentaclePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiNecroPenis</defName>
+		<label>add decayed penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NecroPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NecroPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>NecroPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiNecroVagina</defName>
+		<label>add decayed vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NecroVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NecroVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>NecroVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiNecroAnus</defName>
+		<label>add decayed anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NecroAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NecroAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>NecroAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiVinePenis</defName>
+		<label>add vines</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VinePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>VinePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>VinePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiMarinePenis</defName>
+		<label>add acquatic penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MarinePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MarinePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>MarinePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiDemonTentaclesF</defName>
+		<label>add demonic tentacles</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DemonTentaclesF</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DemonTentaclesF</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DemonTentaclesF</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiCactoidPenis</defName>
+		<label>add cactoid penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CactoidPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CactoidPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CactoidPenis</addsHediff>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiCactoidVagina</defName>
+		<label>add cactoid vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CactoidVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CactoidVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CactoidVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiCactoidAnus</defName>
+		<label>add cactoid anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CactoidAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CactoidAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CactoidAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiGolemPenis</defName>
+		<label>add rock penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GolemPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GolemPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GolemPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiGhoulPenis</defName>
+		<label>add irradiated penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GhoulPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GhoulPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GhoulPenis</addsHediff>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiGhoulVagina</defName>
+		<label>add irradiated vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GhoulVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GhoulVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GhoulVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiGhoulAnus</defName>
+		<label>add irradiated anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GhoulAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GhoulAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GhoulAnus</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiTreePenis</defName>
+		<label>add bark penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TreePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TreePenis</addsHediff>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiTreeVagina</defName>
+		<label>add bark vagina</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreeVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TreeVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TreeVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiTreeAnus</defName>
+		<label>add bark anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreeAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TreeAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TreeAnus</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiBreast">
+		<defName>AddMultiBigRaceBreats</defName>
+		<label>add breasts</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BigRaceBreats</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BigRaceBreats</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BigRaceBreats</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiHorseAnus</defName>
+		<label>add equine anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HorseAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HorseAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HorseAnus</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiCatAnus</defName>
+		<label>add feline anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CatAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CatAnus</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiDogAnus</defName>
+		<label>add canine anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DogAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DogAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DogAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiAnus">
+		<defName>AddMultiDragonAnus</defName>
+		<label>add dragon anus</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DragonAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DragonAnus</addsHediff>
+	</RecipeDef>
+	
+	<!-- Flower -->
+	<RecipeDef ParentName="MultiPenis">
+		<defName>AddMultiAntherPenis</defName>
+		<label>add anther</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AntherPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AntherPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>AntherPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MultiVagina">
+		<defName>AddMultiPistolVagina</defName>
+		<label>add pistol</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PistolVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PistolVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>PistolVagina</addsHediff>
+	</RecipeDef>
+</Defs>

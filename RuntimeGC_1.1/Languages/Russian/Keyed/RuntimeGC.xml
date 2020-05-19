@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<RuntimeGCTitle>RuntimeGC In-Game Cleaner</RuntimeGCTitle>
+	<RuntimeGCVer>For {0}</RuntimeGCVer>
+	
+	<MainTabWindowDescription>Эта вкладка содержит множество полезных функций.
+Очистить, повысить производительность или даже исправить свою игру вы можете здесь.</MainTabWindowDescription>
+	
+	<BtnTextGCWP>Очистка: Мировые Пешки</BtnTextGCWP>
+	<BtnTextGCV>CleanUp (только отладка)</BtnTextGCV>
+	<BtnTextFix>Первая помощь..</BtnTextFix>
+	<BtnTextAddOn>Больше уборки ..</BtnTextAddOn>
+	<BtnTextQB>Быстрая панель</BtnTextQB>
+	<BtnTextSysGC>Вернуть память</BtnTextSysGC>
+	
+	<DlgTextGC>Живые пешки: {0} -> {1}
+Мертвые пешки:  {2} -> {3}
+
+Пешки удалены： {4}</DlgTextGC>
+	<DlgTextGCAdvice1>Все ненужные Мировые Пешки удалены.
+Таким образом, вам не нужно нажимать эту кнопку снова (в течение достаточно длительного времени!).</DlgTextGCAdvice1>
+	<DlgTextGCAdvice2>Есть еще {0} Мировая Пешка, которую нужно удалить.
+Поэтому настоятельно рекомендуется снова нажать эту кнопку (для полной очистки).</DlgTextGCAdvice2>
+	<DlgTextGCV>RuntimeGC: проверьте подробный вывод в журнале отладки</DlgTextGCV>
+	
+	<MMTip>
+Использование виртуальной машины .NET: {0: F2} Мб
+Unme Farmework и массовые игровые активы не учитываются.</MMTip>
+	<DlgArchiveTitle>RuntimeGC World Pawn Очистка журнала</DlgArchiveTitle>
+	
+	<MsgModMetaDataCleaned>{0} ModMetaData удален и {1} очищен.</MsgModMetaDataCleaned>
+	<MsgLanguageDataCleaned>{0} удалены неиспользуемые языки и убраны {1} инъекции перевода.</MsgLanguageDataCleaned>
+	<MsgDefPackageCleaned>{0} DefPackages удален.</MsgDefPackageCleaned>
+</LanguageData>

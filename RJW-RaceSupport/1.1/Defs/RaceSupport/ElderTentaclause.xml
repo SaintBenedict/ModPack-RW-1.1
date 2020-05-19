@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Call of Cthulhu - Elder Things. 882126182 -->
+	<!-- I have no clue if it was race name or something else that did it but hey atleast they work now -->
+	<!-- Known issue, they get no parts if the pawn exists before map is loaded since genderless as futa doesn't take effct until then -->
+	<rjw.RaceGroupDef>
+		<defName>Alien_ElderThing_TentaLord</defName>
+		
+		<raceNames>
+			<li>Alien_ElderThing_Race_Standard</li>
+		</raceNames>
+		
+		<pawnKindNames>
+			<li>Alien_ElderThing_Race_Standard</li>
+			<li>ElderThing_KindBaseInit</li>
+			<li>ElderThing_KindBase</li>
+			<li>ElderThing_Colonist</li>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DemonTentaclePenis</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>DemonTentaclePenis</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DemonTentaclePenis</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts></maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DemonTentaclePenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Demon</li>
+			<li>Plant</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

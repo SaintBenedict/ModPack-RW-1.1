@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>CleanSelf</defName>
+		<label>clean self</label>
+		<giverClass>rjw.WorkGiver_CleanSelf</giverClass>
+		<workType>Cleaning</workType>
+		<verb>clean self</verb>
+		<gerund>cleaning self</gerund>
+		<scanCells>false</scanCells>
+		<priorityInType>11</priorityInType><!-- slightly higher than normal cleaning (relatively unimportant)-->
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

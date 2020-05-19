@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_FakeTail</defName>
+	<label>fake kurin tail</label>
+	<labelNoun>a fake kurin tail</labelNoun>
+	<description>this is a fake kurin tail</description>
+	<spawnThingOnRemoved>Kurin_FakeTail</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>0.80</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_BionicTail</defName>
+	<label>bionic kurin tail</label>
+	<labelNoun>a bionic kurin tail</labelNoun>
+	<description>this is a bionic kurin tail</description>
+	<spawnThingOnRemoved>Kurin_BionicTail</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_BionicEar</defName>
+	<label>bionic kurin ear</label>
+	<labelNoun>a bionic kurin ear</labelNoun>
+	<description>this is a bionic kurin ear</description>
+	<spawnThingOnRemoved>Kurin_BionicEar</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1.25</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+</Defs>

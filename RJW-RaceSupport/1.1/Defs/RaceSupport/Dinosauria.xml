@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Dinosauria. 1136958577. https://steamcommunity.com/sharedfiles/filedetails/?id=1136958577 -->
+	
+	<!-- Scale Group -->
+	<rjw.RaceGroupDef>
+		<defName>Dinosauria_Scaly_Group</defName>
+		
+		<raceNames>
+			<li>TyrannosaurusRex</li>
+			<li>Carnotaurus</li>
+			<li>Allosaurus</li>
+			<li>Spinosaurus</li>
+			<li>Baryonyx</li>
+			<li>Ankylosaurus</li>
+			<li>Minmi</li>
+			<li>Brachiosaurus</li>
+			<li>Brontosaurus</li>
+			<li>Diplodocus</li>
+			<li>Magyarosaurus</li>
+			<li>Utahraptor</li>
+			<li>Dilophosaurus</li>
+			<li>Compsognathus</li>
+			<li>Iguanodon</li>
+			<li>Parasaur</li>
+			<li>Corythosaurus</li>
+			<li>Pachycephalosaurus</li>
+			<li>Stygimoloch</li>
+			<li>Dryosaurus</li>
+			<li>Stegosaurus</li>
+			<li>Triceratops</li>
+			<li>Protoceratops</li>
+			<li>Quetzalcoatlus</li>
+			<li>Pteranodon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DinoAnus</li>
+		</anuses>
+		
+		<chanceanuses>
+		</chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DinoVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DinoPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scales</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+	<!-- Feather Group -->
+	<rjw.RaceGroupDef>
+		<defName>Dinosauria_Feathery_Group</defName>
+		
+		<raceNames>
+			<li>Yutyrannus</li>
+			<li>Dakotaraptor</li>
+			<li>Velociraptor</li>
+			<li>Gallimimus</li>
+			<li>Gigantoraptor</li>
+			<li>Deinocheirus</li>
+			<li>Therizinosaurus</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DinoAnus</li>
+		</anuses>
+		
+		<chanceanuses>
+		</chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DinoVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts></maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DinoPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Feathers</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+</Defs>

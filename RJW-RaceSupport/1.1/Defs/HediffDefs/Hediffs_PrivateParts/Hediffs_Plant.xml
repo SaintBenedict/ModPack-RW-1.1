@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>VinePenis</defName>
+		<label>vines</label>
+		<labelNoun>A mass of vines</labelNoun>
+		<description>Genetically altered vines capable of reproduction.</description>
+		<descriptionHyperlinks><ThingDef>VinePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>VinePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>CactoidPenis</defName>
+		<label>cactoid penis</label>
+		<labelNoun>a cactoid penis</labelNoun>
+		<description>A rough plant based dick with thorns along the shaft.</description>
+		<descriptionHyperlinks><ThingDef>CactoidPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CactoidPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>CactoidVagina</defName>
+		<label>cactoid vagina</label>
+		<labelNoun>a cactoid vagina</labelNoun>
+		<description>A cactoid vagina with thorns lining the inner walls. The thorns grip male genitals until adequately lubed with semen.</description>
+		<descriptionHyperlinks><ThingDef>CactoidVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CactoidVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>CactoidBreasts</defName>
+		<label>cactoid breasts</label>
+		<labelNoun>a pair of cactoid breasts</labelNoun>
+		<description>Cactoid breasts, extremely firm.</description>
+		<descriptionHyperlinks><ThingDef>CactoidBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CactoidBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>CactoidAnus</defName>
+		<label>cactoid anus</label>
+		<labelNoun>a cactoid anus</labelNoun>
+		<description>A cactoid anus, free of thorns.</description>
+		<descriptionHyperlinks><ThingDef>CactoidAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CactoidAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>TreePenis</defName>
+		<label>bark penis</label>
+		<labelNoun>a wooden penis</labelNoun>
+		<description>A natural wooden penis.</description>
+		<descriptionHyperlinks><ThingDef>TreePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TreePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>TreeVagina</defName>
+		<label>bark vagina</label>
+		<labelNoun>a wooden vagina</labelNoun>
+		<description>A natural wooden vagina.</description>
+		<descriptionHyperlinks><ThingDef>TreeVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TreeVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>TreeBreasts</defName>
+		<label>bark breasts</label>
+		<labelNoun>a pair of wooden breasts</labelNoun>
+		<description>Natural wooden breasts.</description>
+		<descriptionHyperlinks><ThingDef>TreeBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TreeBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>TreeAnus</defName>
+		<label>bark anus</label>
+		<labelNoun>a wooden anus</labelNoun>
+		<description>A natural wooden anus.</description>
+		<descriptionHyperlinks><ThingDef>TreeAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TreeAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>AntherPenis</defName>
+		<label>anther</label>
+		<labelNoun>a flower's anther</labelNoun>
+		<description>A natural anther.</description>
+		<descriptionHyperlinks><ThingDef>AntherPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AntherPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>PistolVagina</defName>
+		<label>pistol</label>
+		<labelNoun>a flower's female organ</labelNoun>
+		<description>A natural pistol.</description>
+		<descriptionHyperlinks><ThingDef>PistolVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>PistolVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

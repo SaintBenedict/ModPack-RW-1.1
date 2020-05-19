@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Demon privates -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>DemonTentaclePenis</defName>
+		<label>demon tentacles</label>
+		<labelNoun>demon tentacles</labelNoun>
+		<description>Tentacles capable of reaching corners of the body you never thought possible.</description>
+		<descriptionHyperlinks><ThingDef>DemonTentaclePenis</ThingDef></descriptionHyperlinks>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>DemonPenis</defName>
+		<label>demon penis</label>
+		<labelNoun>a demon penis</labelNoun>
+		<description>A large, daunting mass that can cause its lovers to succumb to debauchery.</description>
+		<descriptionHyperlinks><ThingDef>DemonPenis</ThingDef></descriptionHyperlinks>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>DemonVagina</defName>
+		<label>demon vagina</label>
+		<labelNoun>a demon vagina</labelNoun>
+		<description>A tight vagina that can send its lovers to heaven.</description>
+		<descriptionHyperlinks><ThingDef>DemonVagina</ThingDef></descriptionHyperlinks>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>DemonAnus</defName>
+		<label>demon anus</label>
+		<labelNoun>a demon anus</labelNoun>
+		<description>A demon anus.</description>
+		<descriptionHyperlinks><ThingDef>DemonAnus</ThingDef></descriptionHyperlinks>
+	</rjw.HediffDef_PartBase>
+</Defs>

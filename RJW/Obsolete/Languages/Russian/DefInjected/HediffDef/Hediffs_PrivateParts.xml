@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Dummy hediff: Triggers creation of real privates for newly created pawns -->
+
+	<DummyPrivates.label>dummy privates</DummyPrivates.label>
+
+	<!-- Regular privates -->
+
+	<Penis.label>пенис</Penis.label>
+
+	<!-- Additional dick sizes -->
+
+	<Micropenis.label>микропенис</Micropenis.label>
+	<SmallPenis.label>маленький пенис</SmallPenis.label>
+	<BigPenis.label>большой пенис</BigPenis.label>
+	<HugePenis.label>огромный пенис</HugePenis.label>
+	<HorsePenis.label>Конский пенис</HorsePenis.label>
+	<CatPenis.label>Кошачий пенис</CatPenis.label>
+	<DogPenis.label>Собачий пенис</DogPenis.label>
+	<DragonPenis.label>Драконий пенис</DragonPenis.label>
+	<Vagina.label>вагина</Vagina.label>
+	<TightVagina.label>узкая вагина</TightVagina.label>
+	<LooseVagina.label>просторная вагина</LooseVagina.label>
+
+	<!-- Natural Breasts -->
+
+	<Breasts.label>грудь</Breasts.label>
+	<SmallBreasts.label>маленькая грудь</SmallBreasts.label>
+	<LargeBreasts.label>большая грудь</LargeBreasts.label>
+	<HugeBreasts.label>дойки</HugeBreasts.label>
+
+	<!-- Natural anuses -->
+
+	<Anus.label>анус</Anus.label>
+	<TightAnus.label>узкий анус</TightAnus.label>
+	<LooseAnus.label>просторный анус</LooseAnus.label>
+
+	<!-- Simple prosthetic privates -->
+
+	<PegDick.label>деревянный дилдо</PegDick.label>
+	<HydraulicVagina.label>гидравлическая вагина</HydraulicVagina.label>
+	<HydraulicBreasts.label>гидравлическая грудь</HydraulicBreasts.label>
+	<HydraulicAnus.label>гидравлический анус</HydraulicAnus.label>
+
+	<!-- Bionic privates -->
+
+	<BionicPenis.label>бионический пенис</BionicPenis.label>
+	<BionicVagina.label>бионическая вагина</BionicVagina.label>
+	<BionicBreasts.label>бионическая грудь</BionicBreasts.label>
+	<BionicAnus.label>бионический анус</BionicAnus.label>
+</LanguageData>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>WG_Masturbate_Quick</defName>
+		<label>Fap</label>
+		<giverClass>rjw.WorkGiver_Masturbate_Quick</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>fap</verb>
+		<gerund>faping</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_Masturbate_Bed</defName>
+		<label>Fap in bed</label>
+		<giverClass>rjw.WorkGiver_Masturbate_Bed</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>fap at</verb>
+		<gerund>faping at</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>WG_Masturbate_Chair</defName>
+		<label>Fap on chair</label>
+		<giverClass>rjw.WorkGiver_Masturbate_Chair</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>fap at</verb>
+		<gerund>faping at</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

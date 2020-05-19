@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Alien_Arthropods. not yet released  -->
+	<!-- not yet released  -->
+	<rjw.RaceGroupDef>
+		<defName>Alien_ArthropodsGroup</defName>
+
+		<raceNames>
+			<li>ArthropodSpider</li>
+			<li>ArthropodBumblebee</li>
+			<li>ArthropodCockroach</li>
+		</raceNames>
+
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>		
+
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Chitin</li>
+		</tags>
+		
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+</Defs>

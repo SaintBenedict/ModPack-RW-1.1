@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Aphrodisiac.label>壮阳药</Aphrodisiac.label>
+  <Aphrodisiac.description>从性欲蘑菇提取的药品</Aphrodisiac.description>
+  <Aphrodisiac.ingestible.ingestCommandString>服用{0}</Aphrodisiac.ingestible.ingestCommandString>
+  <Aphrodisiac.ingestible.ingestReportString>正在服用{0}.</Aphrodisiac.ingestible.ingestReportString>
+
+
+</LanguageData>

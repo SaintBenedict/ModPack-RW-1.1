@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 고아 -->
+
+  <DRNTF_BackstoryChild_01.title>Сирота Курин</DRNTF_BackstoryChild_01.title>
+  <DRNTF_BackstoryChild_01.titleShort>Сирота</DRNTF_BackstoryChild_01.titleShort>
+  <DRNTF_BackstoryChild_01.baseDescription>Родители [PAWN_nameDef] были убиты людьми еще в [PAWN_possessive] детстве. Из-за этого посттравматическго стрессового расстройства [PAWN_pronoun] в течение многих лет приходил(а) в себя благодаря психиатрическому лечению, но кошмары всё еще тревожат [PAWN_nameDef].</DRNTF_BackstoryChild_01.baseDescription>
+
+
+  <!-- 어린 시녀 -->
+
+  <DRNTF_BackstoryChild_02.title>Юная горничная Курин</DRNTF_BackstoryChild_02.title>
+  <DRNTF_BackstoryChild_02.titleShort>Юная горничная</DRNTF_BackstoryChild_02.titleShort>
+  <DRNTF_BackstoryChild_02.baseDescription>Родители [PAWN_nameDef] потеряли все свое состояние и получили много долгов. Тогда [PAWN_nameDef] взял(ла) на себя обязанности по дому в семейном особняке.</DRNTF_BackstoryChild_02.baseDescription>
+
+
+  <!-- 여우무리 일원 -->
+
+  <DRNTF_BackstoryChild_03.title>Опекун Курин</DRNTF_BackstoryChild_03.title>
+  <DRNTF_BackstoryChild_03.titleShort>Опекун</DRNTF_BackstoryChild_03.titleShort>
+  <DRNTF_BackstoryChild_03.baseDescription>История лисички Yeou Jagyungdan была самой популярной телевизионной анимацией для молодых куринов. Это вдохновило [PAWN_nameDef] стать опекуном в местной деревне.</DRNTF_BackstoryChild_03.baseDescription>
+
+
+  <!-- 따돌려진 아이 -->
+
+  <DRNTF_BackstoryChild_04.title>Брошенный ребёнок Курин</DRNTF_BackstoryChild_04.title>
+  <DRNTF_BackstoryChild_04.titleShort>Брошенный ребёнок</DRNTF_BackstoryChild_04.titleShort>
+  <DRNTF_BackstoryChild_04.baseDescription>[PAWN_nameDef] был(а) ребенком с необычными голубыми глазами. В "Курин-Сайде" это считалось зловещим, и поэтому [PAWN_nameDef] вырос(а) как одинокий ребенок, которого избегали все, от детей до взрослых.</DRNTF_BackstoryChild_04.baseDescription>
+
+
+  <!-- 비행청소년 -->
+
+  <DRNTF_BackstoryChild_05.title>Буйный юный Курин</DRNTF_BackstoryChild_05.title>
+  <DRNTF_BackstoryChild_05.titleShort>Хулиган</DRNTF_BackstoryChild_05.titleShort>
+  <DRNTF_BackstoryChild_05.baseDescription>[PAWN_nameDef] был(а) проклятьем для некоторых детей и большой головной болью для учителей. Некоторыми из [PAWN_possessive] наиболее распространенных злых поступков было неостановимое желание намусорить, нежелание слушаться учителей и выкидывание чужой обуви из входной двери. Все были в ужасе.</DRNTF_BackstoryChild_05.baseDescription>
+
+
+  <!-- 빈민가 고아 -->
+
+  <DRNTF_BackstoryChild_06.title>Сирота из трущоб Курин</DRNTF_BackstoryChild_06.title>
+  <DRNTF_BackstoryChild_06.titleShort>Сирота из трущоб</DRNTF_BackstoryChild_06.titleShort>
+  <DRNTF_BackstoryChild_06.baseDescription>[PAWN_nameDef] провёл(вела) детство в мусорных баках и ел(а) хлеб с плесенью. Существовали учереждения для помощи детям-сиротам, но они находились в трущобах без особой поддержки из-за того, что Республика Курин тратила все силы на производство космического флота для иммиграции.</DRNTF_BackstoryChild_06.baseDescription>
+
+
+  <!-- 공잡이 -->
+
+  <DRNTF_BackstoryChild_07.title>Кетчер Курин</DRNTF_BackstoryChild_07.title>
+  <DRNTF_BackstoryChild_07.titleShort>Кетчер</DRNTF_BackstoryChild_07.titleShort>
+  <DRNTF_BackstoryChild_07.baseDescription>Этому курину очень понравились игры в бейсбол. [PAWN_nameDef] был(а) фанатом, преследующим свою любимую команду в спортивной лиге Республики. После каждой игры [PAWN_possessive] снимали на камеру, и постепенно [PAWN_pronoun] становился(лась) талисманом клуба.</DRNTF_BackstoryChild_07.baseDescription>
+
+
+  <!-- 동물원 아르바이터 -->
+
+  <DRNTF_BackstoryChild_08.title>Работник зоопарка Курин</DRNTF_BackstoryChild_08.title>
+  <DRNTF_BackstoryChild_08.titleShort>Работник Зоопарка</DRNTF_BackstoryChild_08.titleShort>
+  <DRNTF_BackstoryChild_08.baseDescription>[PAWN_nameDef] был(а) старшим из учеников в семье. Будучи маленьким курином, [PAWN_pronoun] устроился(лась) на работу в неполный рабочий день в зоопарке из-за тяжелого финансового состояния семьи, вызванного многочисленными сестрами [PAWN_nameDef]. [PAWN_pronoun] ухаживал(а) за относительно легкими травоядными, и стремился(лась) учиться.</DRNTF_BackstoryChild_08.baseDescription>
+
+
+  <!-- 게으른 아이 -->
+
+  <DRNTF_BackstoryChild_09.title>Ленивый ребенок Курин</DRNTF_BackstoryChild_09.title>
+  <DRNTF_BackstoryChild_09.titleShort>Ленивый ребёнок</DRNTF_BackstoryChild_09.titleShort>
+  <DRNTF_BackstoryChild_09.baseDescription>[PAWN_nameDef] был(а) трудным и ленивым ребёнком, часто не мылся(лась) и не убирался(лась) в свой комнате, но ел(а) всё, что принесут. [PAWN_possessive] родителям было тяжело.</DRNTF_BackstoryChild_09.baseDescription>
+
+
+  <!-- 평범한 아이 -->
+
+  <DRNTF_BackstoryChild_10.title>Обычный ребёнок Курин</DRNTF_BackstoryChild_10.title>
+  <DRNTF_BackstoryChild_10.titleShort>Обычный ребёнок</DRNTF_BackstoryChild_10.titleShort>
+  <DRNTF_BackstoryChild_10.baseDescription>[PAWN_nameDef] родился(лась) в обычной семье среднего класса, [PAWN_pronoun] рос(ла) с теплой любовью родителей. Как и другим детям, [PAWN_possessive] нравилось веселиться и есть сладкое миндальное печенье. Это был добрый ребёнок, который думал о других куринах.</DRNTF_BackstoryChild_10.baseDescription>
+
+
+  <!-- 프로게이머 -->
+
+  <DRNTF_BackstoryChild_11.title>Профессиональный геймер Курин</DRNTF_BackstoryChild_11.title>
+  <DRNTF_BackstoryChild_11.titleShort>Профессиональный геймер</DRNTF_BackstoryChild_11.titleShort>
+  <DRNTF_BackstoryChild_11.baseDescription>[PAWN_nameDef] был(а) Pro геймером, [PAWN_pronoun] выходил(а) на различные конкурсы и мажоры, и побеждал(а), но когда отключался интернет, [PAWN_pronoun] становился(лась) ленивой, депрессивной лисой, которая не хотела ничего делать.</DRNTF_BackstoryChild_11.baseDescription>
+
+
+  <!-- 시골 아이 -->
+
+  <DRNTF_BackstoryChild_12.title>Сельский ребёнок Курин</DRNTF_BackstoryChild_12.title>
+  <DRNTF_BackstoryChild_12.titleShort>Сельский ребёнок</DRNTF_BackstoryChild_12.titleShort>
+  <DRNTF_BackstoryChild_12.baseDescription>[PAWN_nameDef] собирал(а) грибы в горах, гонял(а) кошек по полям, скалолазал(а) по камням в долинах, ловил(а) омаров и рыб, жарил(а) их, и в целом провел(а) детство на природе. [PAWN_possessive] кожа была пропитана солнцем, и [PAWN_pronoun] рос(ла) здоровым ребёнком.</DRNTF_BackstoryChild_12.baseDescription>
+
+
+  <!-- 도시꼬마 -->
+
+  <DRNTF_BackstoryChild_13.title>Городской ребёнок Курин</DRNTF_BackstoryChild_13.title>
+  <DRNTF_BackstoryChild_13.titleShort>Городской ребёнок</DRNTF_BackstoryChild_13.titleShort>
+  <DRNTF_BackstoryChild_13.baseDescription>[PAWN_nameDef] вырос(ла) в городе с отличной инфраструктурой, просторными парками и лесами. [PAWN_possessive] дом был расположен в оживленном городе Курин, и ребёнок мог наслаждаться хобби, культурной жизнью, VR-играми и многим другим. Тем не менее, любимое занятие [PAWN_nameDef] - это путешествовать с семьей.</DRNTF_BackstoryChild_13.baseDescription>
+
+
+  <!-- 어린 만화가 -->
+
+  <DRNTF_BackstoryChild_14.title>Юный художник Курин</DRNTF_BackstoryChild_14.title>
+  <DRNTF_BackstoryChild_14.titleShort>Юный художник</DRNTF_BackstoryChild_14.titleShort>
+  <DRNTF_BackstoryChild_14.baseDescription>[PAWN_nameDef] любил(а) рисовать, и у [PAWN_possessive] был талант к изобразительному искусству.</DRNTF_BackstoryChild_14.baseDescription>
+
+
+  <!-- 한꼬리 증후군 -->
+
+  <DRNTF_BackstoryChild_15.title>Однохвостый курин</DRNTF_BackstoryChild_15.title>
+  <DRNTF_BackstoryChild_15.titleShort>Однохвостый курин</DRNTF_BackstoryChild_15.titleShort>
+  <DRNTF_BackstoryChild_15.baseDescription>В отличие от других, [PAWN_nameDef] родился(лась) с одним хвостом. Не было никаких препятствий, чтобы спокойно существовать без двух остальных хвостов, но рост такого ребёнка почему-то замедлился. Казалось, что [PAWN_pronoun] намного моложе, чем остальные сверстники. В детстве [PAWN_nameDef] много дразнили, но [PAWN_pronoun] приобрел(а) большую популярность благодаря симпатичной внешности.</DRNTF_BackstoryChild_15.baseDescription>
+
+
+  <!-- 겁많은 아이 -->
+
+  <DRNTF_BackstoryChild_16.title>Пугливый ребёнок Курин</DRNTF_BackstoryChild_16.title>
+  <DRNTF_BackstoryChild_16.titleShort>Пугливый ребёнок</DRNTF_BackstoryChild_16.titleShort>
+  <DRNTF_BackstoryChild_16.baseDescription>[PAWN_nameDef] был(а) очень пугливым ребенком. [PAWN_nameDef] казалось, что везде было полно страшных вещей. Ночные тени, шорохи, которые звучат, когда укладываешься спать. Больше всего [PAWN_pronoun] ненавидел(а) пауков и убегал(а), когда видел(а) их.</DRNTF_BackstoryChild_16.baseDescription>
+
+
+  <!-- 다정한 아이 -->
+
+  <DRNTF_BackstoryChild_17.title>Ласковый ребёнок Курин</DRNTF_BackstoryChild_17.title>
+  <DRNTF_BackstoryChild_17.titleShort>Ласковый ребёнок</DRNTF_BackstoryChild_17.titleShort>
+  <DRNTF_BackstoryChild_17.baseDescription>[PAWN_nameDef] был(а) любящим ребенком. [PAWN_pronoun] всегда слушал(а) рассказы своих друзей и помогал(а) тем, кому было тяжело.</DRNTF_BackstoryChild_17.baseDescription>
+
+
+  <!-- 가난한 아이 -->
+
+  <DRNTF_BackstoryChild_18.title>Бедный ребёнок Курин</DRNTF_BackstoryChild_18.title>
+  <DRNTF_BackstoryChild_18.titleShort>Бедный ребёнок</DRNTF_BackstoryChild_18.titleShort>
+  <DRNTF_BackstoryChild_18.baseDescription>[PAWN_nameDef] имел(а) нищую жизнь в детстве. Родители возвращались поздно ночью со своей второй работы. [PAWN_nameDef] жил(а) практически в одиночестве и психологически вырос(ла) немного раньше других. [PAWN_possessive] надежда на будущее - это работа, которая приносит много денег, и [PAWN_pronoun] желает много работать, чтобы осуществить свою мечту.</DRNTF_BackstoryChild_18.baseDescription>
+
+
+  <!-- 찻집 아이 -->
+
+  <DRNTF_BackstoryChild_19.title>Ребёнок из чайной Курин</DRNTF_BackstoryChild_19.title>
+  <DRNTF_BackstoryChild_19.titleShort>Ребёнок из чайной</DRNTF_BackstoryChild_19.titleShort>
+  <DRNTF_BackstoryChild_19.baseDescription>[PAWN_nameDef] помогал(а) своим родителям в чайной после возвращения из школы в детстве. [PAWN_pronoun] Получал(а) заказы от гостей и помогал(а) убирать. Постоянные гости давали карманные деньги, на которые [PAWN_nameDef] иногда покупал(а) мороженное.</DRNTF_BackstoryChild_19.baseDescription>
+
+
+  <!-- 두부집 딸 -->
+
+  <DRNTF_BackstoryChild_20.title>Ребёнок из лавки Тофу Курин</DRNTF_BackstoryChild_20.title>
+  <DRNTF_BackstoryChild_20.titleShort>Ребёнок из лавки Тофу</DRNTF_BackstoryChild_20.titleShort>
+  <DRNTF_BackstoryChild_20.baseDescription>Семья [PAWN_nameDef] традиционно работала над тем, чтобы сделать тофу уже более ста лет. [PAWN_pronoun] вырос(ла), изучая наставления своей матери, что тофу, который любят люди, следует делать с сердцем Yubudo - любимого фаворита куринов. То есть, с душой.</DRNTF_BackstoryChild_20.baseDescription>
+
+
+  <!-- 유흥가 심부름꾼 -->
+
+  <DRNTF_BackstoryChild_21.title>Ночной работяга Курин</DRNTF_BackstoryChild_21.title>
+  <DRNTF_BackstoryChild_21.titleShort>Ночной работяга</DRNTF_BackstoryChild_21.titleShort>
+  <DRNTF_BackstoryChild_21.baseDescription>В Республике Курин незаконно, когда работают маленькие дети, тем более ночью. Но [PAWN_nameDef] был(а) в состоянии получить высокий доход и много жизненных уроков, раздавая приглашения-листовки в клубы ночной жизни взрослых куринов и поручениях в магазине.</DRNTF_BackstoryChild_21.baseDescription>
+
+
+  <!-- 어린 공예가 -->
+
+  <DRNTF_BackstoryChild_22.title>Юный ремесленник Курин</DRNTF_BackstoryChild_22.title>
+  <DRNTF_BackstoryChild_22.titleShort>Юный ремесленник</DRNTF_BackstoryChild_22.titleShort>
+  <DRNTF_BackstoryChild_22.baseDescription>[PAWN_nameDef] обладал(а) лучшей ловкостью, чем сверстники. [PAWN_pronoun] любил(а) делать милые поделки и дарить их друзьям.</DRNTF_BackstoryChild_22.baseDescription>
+
+
+  <!-- 어린 원예가 -->
+
+  <DRNTF_BackstoryChild_23.title>Юный садовод Курин</DRNTF_BackstoryChild_23.title>
+  <DRNTF_BackstoryChild_23.titleShort>Юный садовод</DRNTF_BackstoryChild_23.titleShort>
+  <DRNTF_BackstoryChild_23.baseDescription>[PAWN_nameDef] большую часть своего свободного времени проводил(а), сажая и ухаживая за клумбами и играя в соседнем ботаническом саду.</DRNTF_BackstoryChild_23.baseDescription>
+
+
+  <!-- 어린 요리사 -->
+
+  <DRNTF_BackstoryChild_24.title>Юный шеф-повар Курин</DRNTF_BackstoryChild_24.title>
+  <DRNTF_BackstoryChild_24.titleShort>Юный шеф-повар</DRNTF_BackstoryChild_24.titleShort>
+  <DRNTF_BackstoryChild_24.baseDescription>[PAWN_nameDef] наслаждался(лась) выпечкой хлеба и печенья, а также изготовлением и украшением тортов. [PAWN_pronoun] постепенно развивал(а) свой талант, переходя от простых блюд к более сложным.</DRNTF_BackstoryChild_24.baseDescription>
+
+
+  <!-- 동물 애호가 -->
+
+  <DRNTF_BackstoryChild_25.title>Любитель животных Курин</DRNTF_BackstoryChild_25.title>
+  <DRNTF_BackstoryChild_25.titleShort>Любитель животных</DRNTF_BackstoryChild_25.titleShort>
+  <DRNTF_BackstoryChild_25.baseDescription>[PAWN_nameDef] еще с детства очень понравились животные. [PAWN_pronoun] хотел(а) заботиться о питомцах, но у [PAWN_nameDef] не было домашних животных. "Такого количества домашних животных". И поэтому [PAWN_pronoun] часто ходил(а) в зоопарк.</DRNTF_BackstoryChild_25.baseDescription>
+
+
+  <!-- 똑똑한 학생 -->
+
+  <DRNTF_BackstoryChild_26.title>Умник Курин</DRNTF_BackstoryChild_26.title>
+  <DRNTF_BackstoryChild_26.titleShort>Умник</DRNTF_BackstoryChild_26.titleShort>
+  <DRNTF_BackstoryChild_26.baseDescription>Результаты тестов [PAWN_nameDef] всегда были на самом верху, и [PAWN_pronoun] имел(а) хорошие отношения с другими учениками. Но [PAWN_nameDef] так долго и часто сидел(а) за столом, что [PAWN_possessive] тело стало слабым и хрупким. Со временем стало обыденностью тихо сидеть в углу, когда приходило время заниматься физкультурой.\n\nпф, лол, так это же я</DRNTF_BackstoryChild_26.baseDescription>
+
+
+  <!-- 다재다능한 아이 -->
+
+  <DRNTF_BackstoryChild_27.title>Развитый ребёнок Курин</DRNTF_BackstoryChild_27.title>
+  <DRNTF_BackstoryChild_27.titleShort>Развитый ребёнок</DRNTF_BackstoryChild_27.titleShort>
+  <DRNTF_BackstoryChild_27.baseDescription>[PAWN_nameDef] хотел(а) и учиться, и готовить, и заниматься ремеслом, и физическими упражненими, однако... [PAWN_nameDef] так и не решил(а), чем же стоит заниматься в первую очередь. [PAWN_pronoun] слонялся(лась) туда-сюда в поисках себя. Для [PAWN_nameDef] сложно сосредоточиться на одной области деятельности.</DRNTF_BackstoryChild_27.baseDescription>
+
+
+  <!-- 책벌레 -->
+
+  <DRNTF_BackstoryChild_28.title>Книжный червь Курин</DRNTF_BackstoryChild_28.title>
+  <DRNTF_BackstoryChild_28.titleShort>Книжный червь</DRNTF_BackstoryChild_28.titleShort>
+  <DRNTF_BackstoryChild_28.baseDescription>[PAWN_nameDef] любил(а) читать книги в своей комнате с включенными лампами для чтения. [PAWN_pronoun] часто проводил(а) свой день за чтением старых книг в старой библиотеке.</DRNTF_BackstoryChild_28.baseDescription>
+
+
+  <!-- 최초의 쿠린 -->
+
+  <DRNTF_BackstoryChild_29.title>Один из первых Курин</DRNTF_BackstoryChild_29.title>
+  <DRNTF_BackstoryChild_29.titleShort>Один из первых Курин</DRNTF_BackstoryChild_29.titleShort>
+  <DRNTF_BackstoryChild_29.baseDescription>[PAWN_nameDef] - это один из самых первых созданных куринов. [PAWN_pronoun] спал(а) в течение сотен лет, не будучи в состоянии проснуться из-за недостатка в системах криптосна [PAWN_possessive] капсулы, когда курины впервые прибыли на свою новую планету после изгнания. Только недавно курины завершили систему криптосна так, чтобы [PAWN_nameDef] смог наконец проснуться.</DRNTF_BackstoryChild_29.baseDescription>
+
+  <!-- 유학생 -->
+
+  <DRNTF_BackstoryChild_30.title>Иностранный студент Курин</DRNTF_BackstoryChild_30.title>
+  <DRNTF_BackstoryChild_30.titleShort>Иностранный студент</DRNTF_BackstoryChild_30.titleShort>
+  <DRNTF_BackstoryChild_30.baseDescription>[PAWN_nameDef] был(а) вдали от своих родителей и сородичей, так как [PAWN_pronoun] был(а) ребенком, который должен был изучать расу людей. К счастью для [PAWN_nameDef] в школе, в которой [PAWN_pronoun] учился(лась), были хорошие дети и учителя, и, к счастью, [PAWN_nameDef] вырос(ла) в весёлого и душевного курина, ничем не уступая в этом своим сородичам.</DRNTF_BackstoryChild_30.baseDescription>
+
+
+  <!-- 어린 음악가 -->
+
+  <DRNTF_BackstoryChild_31.title>Юный певец Курин</DRNTF_BackstoryChild_31.title>
+  <DRNTF_BackstoryChild_31.titleShort>Юный певец</DRNTF_BackstoryChild_31.titleShort>
+  <DRNTF_BackstoryChild_31.baseDescription>[PAWN_nameDef] был(а) юным курином, который действительно любил музыку и пел с друзьями. Они писали песни и свою собственную музыку, и часто получали хороший отклик от других куринов.</DRNTF_BackstoryChild_31.baseDescription>
+
+
+  <!-- 아역 배우 -->
+
+  <DRNTF_BackstoryChild_32.title>Юный актёр Курин</DRNTF_BackstoryChild_32.title>
+  <DRNTF_BackstoryChild_32.titleShort>Юный актёр</DRNTF_BackstoryChild_32.titleShort>
+  <DRNTF_BackstoryChild_32.baseDescription>Несмотря на свой юный возраст, [PAWN_nameDef] славился(лась) выдающимся исполнением и богатым эмоциональным выражением. [PAWN_pronoun] хотел(ла) появиться в детстве актером во многих фильмах и драмах.</DRNTF_BackstoryChild_32.baseDescription>
+
+
+  <!-- 활발한 학생 -->
+
+  <DRNTF_BackstoryChild_33.title>Активный студент Курин</DRNTF_BackstoryChild_33.title>
+  <DRNTF_BackstoryChild_33.titleShort>Активный студент</DRNTF_BackstoryChild_33.titleShort>
+  <DRNTF_BackstoryChild_33.baseDescription>[PAWN_nameDef] в школе всегда был(а) популярен(рна) у друзей из-за хорошей общительности, симпатичной внешности и яркой и веселой личности. [PAWN_pronoun] стал(а) достаточной знаменитостью, чтобы появляться в телевизионных передачах, но больше не мог(ла) играть с друзьями или жить свободно, как раньше, и стал(а) одинокой. Вскоре после этого [PAWN_pronoun] решил(а) досрочно уйти на пенсию и вернуться к нормальной жизни.</DRNTF_BackstoryChild_33.baseDescription>
+
+
+  <!-- 격투기 수련생 -->
+
+  <DRNTF_BackstoryChild_34.title>Стажер боевых искусств Курин</DRNTF_BackstoryChild_34.title>
+  <DRNTF_BackstoryChild_34.titleShort>Стажер</DRNTF_BackstoryChild_34.titleShort>
+  <DRNTF_BackstoryChild_34.baseDescription>[PAWN_nameDef] был(а) так часто болен(льна), что [PAWN_pronoun] был(а) намного слабее, чем сверстники. [PAWN_nameDef] начал(а) тренироваться с различными упражнениями и боевыми приемами, чтобы превозмочь этот недуг. Проделав тяжелую работу над собой, [PAWN_nameDef] набрался(лась) достаточно силы, чтобы даже выиграть региональный конкурс боевых искусств.</DRNTF_BackstoryChild_34.baseDescription>
+
+
+  <!-- 스카우트단 -->
+
+  <DRNTF_BackstoryChild_35.title>Юный скаут Курин</DRNTF_BackstoryChild_35.title>
+  <DRNTF_BackstoryChild_35.titleShort>Юный скаут</DRNTF_BackstoryChild_35.titleShort>
+  <DRNTF_BackstoryChild_35.baseDescription>Родители [PAWN_nameDef], несмотря на их обездоленное состояние, купили [PAWN_nameDef] униформу для того, чтобы [PAWN_pronoun] наконец смогл(а) присоединиться к местной скаутской группе и смогл(а) провести много счастливых деней, изучая различные навыки, такие как кемпинг, выращивание растений и выживание в дикой природе.</DRNTF_BackstoryChild_35.baseDescription>
+
+
+  <!-- 체육부원 -->
+
+  <DRNTF_BackstoryChild_36.title>Юный спортсмен Курин</DRNTF_BackstoryChild_36.title>
+  <DRNTF_BackstoryChild_36.titleShort>Юный спортсмен</DRNTF_BackstoryChild_36.titleShort>
+  <DRNTF_BackstoryChild_36.baseDescription>[PAWN_nameDef] в отличие от большинства куринов, любил(а) спорт и часто ходил(а) в школьный спортзал, чтобы делать различные упражнения. Но, к сожалению, [PAWN_pronoun] оценки пострадали от этого.</DRNTF_BackstoryChild_36.baseDescription>
+
+
+  <!-- 신문기자 -->
+
+  <DRNTF_BackstoryAdult_01.title>Репортер газеты Курин</DRNTF_BackstoryAdult_01.title>
+  <DRNTF_BackstoryAdult_01.titleShort>Репортер</DRNTF_BackstoryAdult_01.titleShort>
+  <DRNTF_BackstoryAdult_01.baseDescription>[PAWN_nameDef] написал(а) много статей в одной из многих планетарных газет, которые рассказывают куринам о текущих делах, культуре и дипломатии в Республике.</DRNTF_BackstoryAdult_01.baseDescription>
+
+
+  <!-- 고용된 메이드 -->
+
+  <DRNTF_BackstoryAdult_02.title>Горничная Курин</DRNTF_BackstoryAdult_02.title>
+  <DRNTF_BackstoryAdult_02.titleShort>Горничная</DRNTF_BackstoryAdult_02.titleShort>
+  <DRNTF_BackstoryAdult_02.baseDescription>[PAWN_nameDef] была горничной, которую нанял жилец одного особняка. [PAWN_pronoun] занималась работой по дому, уборкой и приготовленим пищи. [PAWN_pronoun] также служила камергером для покупки необходимых вещей для особняка и управления книгами, и хозяин очень сильно доверял [PAWN_nameDef].</DRNTF_BackstoryAdult_02.baseDescription>
+
+
+  <!-- 레스토랑 종업원 -->
+
+  <DRNTF_BackstoryAdult_03.title>Официант Курин</DRNTF_BackstoryAdult_03.title>
+  <DRNTF_BackstoryAdult_03.titleShort>Официант</DRNTF_BackstoryAdult_03.titleShort>
+  <DRNTF_BackstoryAdult_03.baseDescription>[PAWN_nameDef] был(а) официантом в ресторане, но также научился(лась) многим трюкам благодаря блестящим навыкам шеф-повара и навыкам обращения с ножом</DRNTF_BackstoryAdult_03.baseDescription>
+
+
+  <!-- 사냥감 -->
+
+  <DRNTF_BackstoryAdult_04.title>Жертва Курин</DRNTF_BackstoryAdult_04.title>
+  <DRNTF_BackstoryAdult_04.titleShort>Жертва</DRNTF_BackstoryAdult_04.titleShort>
+  <DRNTF_BackstoryAdult_04.baseDescription>Охота на обычных лисиц была экстравагантным видом спорта человеческих аристократов, которые давно исчезли, но вернулись в моду с новыми объектами насилия. [PAWN_nameDef] был(а) в роли жертвы и носил(а) костюм с шерстью, пытаясь убежать от охотников. Используемый выстрел "охотников" был дробью соли, но даже так, у [PAWN_nameDef] часто были синяки по всему телу.\n\n(я сам ничего не понял, но вроде бы речь про то, что куринов воровали, наряжали в упоротые костюмы с шерстью (типо симуляция животного-лиса) и забавлялись с ними на своих участках с огнестрелом, заряжая соль, чтобы не убить ¯\_(ツ)_/¯)</DRNTF_BackstoryAdult_04.baseDescription>
+
+
+  <!-- 테러리스트 -->
+
+  <DRNTF_BackstoryAdult_05.title>Террорист Курин</DRNTF_BackstoryAdult_05.title>
+  <DRNTF_BackstoryAdult_05.titleShort>Террорист</DRNTF_BackstoryAdult_05.titleShort>
+  <DRNTF_BackstoryAdult_05.baseDescription>[PAWN_nameDef] был(а) известен(тна) как террорист, но на самом деле [PAWN_nameDef] был(а) героем для куринов, который убил офицера во время диктатуры, который убивал куринов ради спорта.</DRNTF_BackstoryAdult_05.baseDescription>
+
+
+  <!-- 관경병 생존자 -->
+
+  <DRNTF_BackstoryAdult_06.title>Выживший в инциденте бешенства Курин</DRNTF_BackstoryAdult_06.title>
+  <DRNTF_BackstoryAdult_06.titleShort>Выживший</DRNTF_BackstoryAdult_06.titleShort>
+  <DRNTF_BackstoryAdult_06.baseDescription>[PAWN_nameDef] был(а) пойман(а) в ловушку в городе, где генетически модифицированный вирус бешенства заразил многих куринов, заставляя их нападать и заражать друг друга. [PAWN_nameDef] несколько дней прятался(лась) в магазине, услышав крики, когда курины начали атаковать друг друга на улицах, прежде чем [PAWN_pronoun] был(а) спасен(а).</DRNTF_BackstoryAdult_06.baseDescription>
+
+
+  <!-- 마사지샵 점원 -->
+
+  <DRNTF_BackstoryAdult_07.title>Секретарь салона Курин</DRNTF_BackstoryAdult_07.title>
+  <DRNTF_BackstoryAdult_07.titleShort>Секретарь салона</DRNTF_BackstoryAdult_07.titleShort>
+  <DRNTF_BackstoryAdult_07.baseDescription>[PAWN_nameDef] работал(а) в массажном салоне в центре города. Когда приходил уставший курин, они (салон) обычно применяли специи и масло, и снимали усталость при массаже. Но также существовала комната для тех, кто хочет чего-то чуточку больше ( ͡° ͜ʖ ͡°) .</DRNTF_BackstoryAdult_07.baseDescription>
+
+
+  <!-- 자연의 여우 -->
+
+  <DRNTF_BackstoryAdult_08.title>Натуральная лисица Курин</DRNTF_BackstoryAdult_08.title>
+  <DRNTF_BackstoryAdult_08.titleShort>Натуральная лисица</DRNTF_BackstoryAdult_08.titleShort>
+  <DRNTF_BackstoryAdult_08.baseDescription>[PAWN_nameDef] - это курин, который ушел в горы, потому что не хотел жить унылой городской жизнью. [PAWN_pronoun] построил(а) старомодный дом и жил(а) на едине с землей и водой на руках.</DRNTF_BackstoryAdult_08.baseDescription>
+
+
+  <!-- 시민 -->
+
+  <DRNTF_BackstoryAdult_09.title>Горожанин Курин</DRNTF_BackstoryAdult_09.title>
+  <DRNTF_BackstoryAdult_09.titleShort>Горожанин</DRNTF_BackstoryAdult_09.titleShort>
+  <DRNTF_BackstoryAdult_09.baseDescription>[PAWN_nameDef] - это обычный гражданин Республики Курин. Горожане, которые много работают каждый день и делают различные вещи, являются основой общества куринов. Они столкнутся с любыми трудностями и невзгодами с гордостью и крепкой идентичностью куринов.</DRNTF_BackstoryAdult_09.baseDescription>
+
+
+  <!-- 은행 접수원 -->
+
+  <DRNTF_BackstoryAdult_10.title>Секретарь банка Курин</DRNTF_BackstoryAdult_10.title>
+  <DRNTF_BackstoryAdult_10.titleShort>Секретарь банка</DRNTF_BackstoryAdult_10.titleShort>
+  <DRNTF_BackstoryAdult_10.baseDescription>[PAWN_nameDef] был(а) приятным курином, который работал в банке. [PAWN_pronoun] заботился(лась) о различных депозитах куринов, а также предоставлял(а) им финансовые советы.</DRNTF_BackstoryAdult_10.baseDescription>
+
+
+  <!-- 포도밭의 파수꾼 -->
+
+  <DRNTF_BackstoryAdult_11.title>Смотритель за виноградниками Курин</DRNTF_BackstoryAdult_11.title>
+  <DRNTF_BackstoryAdult_11.titleShort>Смотритель</DRNTF_BackstoryAdult_11.titleShort>
+  <DRNTF_BackstoryAdult_11.baseDescription>[PAWN_nameDef] был(а) сторожем, который носил соломенную шляпу, и сидя в деревянной хижине, охранял местные виноградники. Милые детишки-курины часто приходили, чтобы "позаимствовать" и съесть виноград.</DRNTF_BackstoryAdult_11.baseDescription>
+
+
+  <!-- 경비행기 파일럿 -->
+
+  <DRNTF_BackstoryAdult_12.title>Гражданский пилот Курин</DRNTF_BackstoryAdult_12.title>
+  <DRNTF_BackstoryAdult_12.titleShort>Гражданский пилот</DRNTF_BackstoryAdult_12.titleShort>
+  <DRNTF_BackstoryAdult_12.baseDescription>[PAWN_nameDef] был(а) пилотом маленького гражданского самолета. Один раз [PAWN_pronoun] попал(а) в беду за контрабанду людей через государственную границу.</DRNTF_BackstoryAdult_12.baseDescription>
+
+
+  <!-- 경찰 -->
+
+  <DRNTF_BackstoryAdult_13.title>Полицейский офицер Курин</DRNTF_BackstoryAdult_13.title>
+  <DRNTF_BackstoryAdult_13.titleShort>Полицейский</DRNTF_BackstoryAdult_13.titleShort>
+  <DRNTF_BackstoryAdult_13.baseDescription>[PAWN_nameDef] был(а) превосходным офицером полиции, который был лучшим в своем роде. Тем не менее, должность полицейского не соответствует [PAWN_possessive] личности, и [PAWN_nameDef] подвергался(лась) лёгким насмешкам.</DRNTF_BackstoryAdult_13.baseDescription>
+
+
+  <!-- 붉은여우 병기창 계원 -->
+
+  <DRNTF_BackstoryAdult_14.title>Главный офис-менеджер Курин</DRNTF_BackstoryAdult_14.title>
+  <DRNTF_BackstoryAdult_14.titleShort>Начальник</DRNTF_BackstoryAdult_14.titleShort>
+  <DRNTF_BackstoryAdult_14.baseDescription>Когда [PAWN_nameDef] отвечал(а) за учет различных видов оружия, производимого местной компанией, хотя [PAWN_pronoun] сам(а) не знал(а), как делается это оружие.</DRNTF_BackstoryAdult_14.baseDescription>
+
+
+  <!-- 선교사 -->
+
+  <DRNTF_BackstoryAdult_15.title>Курин-миссионер</DRNTF_BackstoryAdult_15.title>
+  <DRNTF_BackstoryAdult_15.titleShort>Миссионер</DRNTF_BackstoryAdult_15.titleShort>
+  <DRNTF_BackstoryAdult_15.baseDescription>[PAWN_nameDef] жил(а) в служении религиозным убеждениям и был(а) посвящен(а) помощи бедным куринам. [PAWN_pronoun] часто организовывает мероприятия для сбора пожертвований.</DRNTF_BackstoryAdult_15.baseDescription>
+
+
+  <!-- 무역회사 사원 -->
+
+  <DRNTF_BackstoryAdult_16.title>Сотрудник торговой компании Курин</DRNTF_BackstoryAdult_16.title>
+  <DRNTF_BackstoryAdult_16.titleShort>Экспортёр товаров</DRNTF_BackstoryAdult_16.titleShort>
+  <DRNTF_BackstoryAdult_16.baseDescription>[PAWN_nameDef] был(а) сотрудником торговой компании, которая экспортировала различные продукты куринов в другие страны. [PAWN_pronoun] был(а) известен(стна) как медленно-двигающийся, но профессиональный лавочник в других странах.</DRNTF_BackstoryAdult_16.baseDescription>
+
+
+  <!-- 활주로 신호수 -->
+
+  <DRNTF_BackstoryAdult_17.title>Регулировщик в аэропорту</DRNTF_BackstoryAdult_17.title>
+  <DRNTF_BackstoryAdult_17.titleShort>Регулировщик в аэропорту</DRNTF_BackstoryAdult_17.titleShort>
+  <DRNTF_BackstoryAdult_17.baseDescription>[PAWN_nameDef] - это курин, который давал парковочные сигналы и сигналы движения пилотам самолётов в аэропорту. Наушники [PAWN_nameDef] часто отваливались из-за вибраций, а еще [PAWN_nameDef] приходилось связывать свои хвосты из-за сильного нисходящего потока от самолетов, чтобы они не травмировались друг о друга.</DRNTF_BackstoryAdult_17.baseDescription>
+
+
+  <!-- 캐러밴 무역상 -->
+
+  <DRNTF_BackstoryAdult_18.title>Торговец каравана Курин</DRNTF_BackstoryAdult_18.title>
+  <DRNTF_BackstoryAdult_18.titleShort>Торговец</DRNTF_BackstoryAdult_18.titleShort>
+  <DRNTF_BackstoryAdult_18.baseDescription>[PAWN_nameDef] первоначально был(а) обычным продавцом, но стал(а) торговцем каравана из-за обвала рынка. Обычно, [PAWN_pronoun] посещает только одно и то же поселение куринов, но иногда посещает и другие населенные пункты, чтобы купить и продать необходимые предметы.</DRNTF_BackstoryAdult_18.baseDescription>
+
+
+  <!-- 편의점 아르바이터 -->
+
+  <DRNTF_BackstoryAdult_19.title>Продавец в универмаге Курин</DRNTF_BackstoryAdult_19.title>
+  <DRNTF_BackstoryAdult_19.titleShort>Агроном</DRNTF_BackstoryAdult_19.titleShort>
+  <DRNTF_BackstoryAdult_19.baseDescription>[PAWN_nameDef] - это курин, который работал неполный рабочий день в универмаге в жилом районе. [PAWN_pronoun] будет учиться каждую ночь, чтобы осуществить свою мечту стать архитектором.</DRNTF_BackstoryAdult_19.baseDescription>
+
+
+  <!-- 관광지 호객꾼 -->
+
+  <DRNTF_BackstoryAdult_20.title>Туристический курортный работник Курин</DRNTF_BackstoryAdult_20.title>
+  <DRNTF_BackstoryAdult_20.titleShort>Курортный работник</DRNTF_BackstoryAdult_20.titleShort>
+  <DRNTF_BackstoryAdult_20.baseDescription>[PAWN_nameDef] предоставлял(а) туристические услуги куринам и людям, пришедшим на пляжный курорт, и доход был довольно хорошим в курортный сезон.</DRNTF_BackstoryAdult_20.baseDescription>
+
+
+  <!-- 전통시장 점주 -->
+
+  <DRNTF_BackstoryAdult_21.title>Владелец лавки Курин</DRNTF_BackstoryAdult_21.title>
+  <DRNTF_BackstoryAdult_21.titleShort>Владелец лавки</DRNTF_BackstoryAdult_21.titleShort>
+  <DRNTF_BackstoryAdult_21.baseDescription>[PAWN_nameDef] продает еду по доступным ценам, прям как на старых рынках куринов. Молодое поколение предпочитает более большие магазины и универмаги, но магазинчик [PAWN_nameDef] всё также, как и раньше, посещают покупатели. </DRNTF_BackstoryAdult_21.baseDescription>
+
+
+  <!-- 전직 쉐프 -->
+
+  <DRNTF_BackstoryAdult_22.title>Бывший шеф-повар Курин</DRNTF_BackstoryAdult_22.title>
+  <DRNTF_BackstoryAdult_22.titleShort>Шеф-повар</DRNTF_BackstoryAdult_22.titleShort>
+  <DRNTF_BackstoryAdult_22.baseDescription>[PAWN_nameDef] был(а) известным шеф-поваром отеля в человеческом мире. Однако после получения жалоб от клиентов, которые говорили, что в еде отеля есть волосы, [PAWN_pronoun] был(а) уволен(а). Вернувшись в Республику Курин, [PAWN_pronoun] устроился(лась) на работу в небольшой скромный ресторан.</DRNTF_BackstoryAdult_22.baseDescription>
+
+
+  <!-- 동물 사육사 -->
+
+  <DRNTF_BackstoryAdult_23.title>Работник зоопарка Курин</DRNTF_BackstoryAdult_23.title>
+  <DRNTF_BackstoryAdult_23.titleShort>Работник Зоопарка</DRNTF_BackstoryAdult_23.titleShort>
+  <DRNTF_BackstoryAdult_23.baseDescription>[PAWN_nameDef] работал(а) в местном зоопарке. В основном [PAWN_pronoun] ухаживал(а) за молодыми животными и обучаюл(а) их к выступлению на сцене. [PAWN_nameDef] также выступал(а) в качестве гида для посетителей и всегда был(а) на виду.</DRNTF_BackstoryAdult_23.baseDescription>
+
+
+  <!-- 수경재배 농부 -->
+
+  <DRNTF_BackstoryAdult_24.title>Гидропонный фермер Курин</DRNTF_BackstoryAdult_24.title>
+  <DRNTF_BackstoryAdult_24.titleShort>Фермер</DRNTF_BackstoryAdult_24.titleShort>
+  <DRNTF_BackstoryAdult_24.baseDescription>[PAWN_nameDef] выращивал(а) различные культуры в гидропонном культивировании в полностью стерилизованных фермах и камерах для выращивания мяса за пределами города, а также изучал(а) новые виды семян.</DRNTF_BackstoryAdult_24.baseDescription>
+
+
+  <!-- 도예가 -->
+
+  <DRNTF_BackstoryAdult_25.title>3D-Гончар Курин</DRNTF_BackstoryAdult_25.title>
+  <DRNTF_BackstoryAdult_25.titleShort>3D-Гончар</DRNTF_BackstoryAdult_25.titleShort>
+  <DRNTF_BackstoryAdult_25.baseDescription>[PAWN_nameDef] был(а) одним из немногих гончаров в Республике Курин. Используя технологию 3D-печати, [PAWN_pronoun] создавал(а) произведения, которые преследовали красоту и экзотичность, а не практичность, и [PAWN_possessive] работы продавались по довольно высокой цене.</DRNTF_BackstoryAdult_25.baseDescription>
+
+
+  <!-- 모자제작자 -->
+
+  <DRNTF_BackstoryAdult_26.title>Производитель шляп Курин</DRNTF_BackstoryAdult_26.title>
+  <DRNTF_BackstoryAdult_26.titleShort>Швея</DRNTF_BackstoryAdult_26.titleShort>
+  <DRNTF_BackstoryAdult_26.baseDescription>[PAWN_nameDef] делал(а) различные шелковые шапки и пляпы. Шляпы, сделанные традиционно, в последнее время стали очень популярными среди куринов</DRNTF_BackstoryAdult_26.baseDescription>
+
+
+  <!-- 시계장인 -->
+
+  <DRNTF_BackstoryAdult_27.title>Часовщик Курин</DRNTF_BackstoryAdult_27.title>
+  <DRNTF_BackstoryAdult_27.titleShort>Часовщик</DRNTF_BackstoryAdult_27.titleShort>
+  <DRNTF_BackstoryAdult_27.baseDescription>[PAWN_nameDef] научился(лась) делать часы. Они были высокого качества и стали очень популярны у богатых куриннов за их утончённый и притягательный внешний вид.</DRNTF_BackstoryAdult_27.baseDescription>
+
+
+  <!-- 생선요리 쉐프 -->
+
+  <DRNTF_BackstoryAdult_28.title>Рыбный Шеф-повар Курин</DRNTF_BackstoryAdult_28.title>
+  <DRNTF_BackstoryAdult_28.titleShort>Шеф-повар</DRNTF_BackstoryAdult_28.titleShort>
+  <DRNTF_BackstoryAdult_28.baseDescription>Приготовленные [PAWN_nameDef] рыбные блюда были популярны, и сами люди приходили издалека, пока граница не была закрыта для них.</DRNTF_BackstoryAdult_28.baseDescription>
+
+
+  <!-- 의상 디자이너 -->
+
+  <DRNTF_BackstoryAdult_29.title>Дизайнер костюмов Курин</DRNTF_BackstoryAdult_29.title>
+  <DRNTF_BackstoryAdult_29.titleShort>Дизайнер костюмов</DRNTF_BackstoryAdult_29.titleShort>
+  <DRNTF_BackstoryAdult_29.baseDescription>[PAWN_nameDef] окончил(а) школу и через некоторое время стал(а) дизайнером костюмов. [PAWN_pronoun] хотел(а) делать красивую, изысканную одежду, и поэтому [PAWN_pronoun] начал(а) работать учеником в частной студии, но мечтал(а) делать одежду в своей собственной студии.</DRNTF_BackstoryAdult_29.baseDescription>
+
+
+  <!-- 재단사 -->
+
+  <DRNTF_BackstoryAdult_30.title>Портной Курин</DRNTF_BackstoryAdult_30.title>
+  <DRNTF_BackstoryAdult_30.titleShort>Портной</DRNTF_BackstoryAdult_30.titleShort>
+  <DRNTF_BackstoryAdult_30.baseDescription>Самый старый город Республики Курин имеет множество старых и маленьких магазинов. [PAWN_nameDef] работал(а) портным в одном из них и изготовлял(а) одежду на заказ, а также делал(а) ремонт одежды.</DRNTF_BackstoryAdult_30.baseDescription>
+
+
+  <!-- 생산라인 작업자 -->
+
+  <DRNTF_BackstoryAdult_31.title>Работяга на производственной линии Курин</DRNTF_BackstoryAdult_31.title>
+  <DRNTF_BackstoryAdult_31.titleShort>Работяга с завода</DRNTF_BackstoryAdult_31.titleShort>
+  <DRNTF_BackstoryAdult_31.baseDescription>На производственной линии постоянно работающего завода [PAWN_nameDef] собирал(а) электронные детали на частой основе, а также отбирал(а) дефектные изделия.</DRNTF_BackstoryAdult_31.baseDescription>
+
+
+  <!-- 벌목공 -->
+
+  <DRNTF_BackstoryAdult_32.title>Лесоруб Курин</DRNTF_BackstoryAdult_32.title>
+  <DRNTF_BackstoryAdult_32.titleShort>Лесоруб</DRNTF_BackstoryAdult_32.titleShort>
+  <DRNTF_BackstoryAdult_32.baseDescription>[PAWN_nameDef] работал(а) на производстве добычи древесины из еще невыросших лесов.</DRNTF_BackstoryAdult_32.baseDescription>
+
+
+  <!-- 가난한 로봇 연구자 -->
+
+  <DRNTF_BackstoryAdult_33.title>Бедный исследователь роботов Курин</DRNTF_BackstoryAdult_33.title>
+  <DRNTF_BackstoryAdult_33.titleShort>Исследователь роботов</DRNTF_BackstoryAdult_33.titleShort>
+  <DRNTF_BackstoryAdult_33.baseDescription>[PAWN_nameDef] работал(а) над несколькими типами механоидов. [PAWN_pronoun] обнаружил(а) некоторые дефекты в своих роботах и изо всех сил пытался(лась) их устранить, но большого успеха в этом не было достигнуто. Государственное финансирование из-за кризиса миграции было прекращено, и [PAWN_nameDef] жил(а) в бедности.</DRNTF_BackstoryAdult_33.baseDescription>
+
+
+  <!-- 우주비행사 -->
+
+  <DRNTF_BackstoryAdult_34.title>Астронавт Курин</DRNTF_BackstoryAdult_34.title>
+  <DRNTF_BackstoryAdult_34.titleShort>Астронавт</DRNTF_BackstoryAdult_34.titleShort>
+  <DRNTF_BackstoryAdult_34.baseDescription>[PAWN_nameDef] имеет за плечами несколько космических полетов, и уже выполнил(а) целую миссию на другой планете в локальной звездной системе.</DRNTF_BackstoryAdult_34.baseDescription>
+
+
+  <!-- 정비창 보조공 -->
+
+  <DRNTF_BackstoryAdult_35.title>Помощник Курин</DRNTF_BackstoryAdult_35.title>
+  <DRNTF_BackstoryAdult_35.titleShort>Помощник</DRNTF_BackstoryAdult_35.titleShort>
+  <DRNTF_BackstoryAdult_35.baseDescription>[PAWN_nameDef] устроился(лась) на работу механиком в частную авиакомпанию, [PAWN_pronoun] работал(а) ассистентом, выполняя разные мелкие поручения.</DRNTF_BackstoryAdult_35.baseDescription>
+
+
+  <!-- 전기공 -->
+
+  <DRNTF_BackstoryAdult_36.title>Электрик Курин</DRNTF_BackstoryAdult_36.title>
+  <DRNTF_BackstoryAdult_36.titleShort>Электрик</DRNTF_BackstoryAdult_36.titleShort>
+  <DRNTF_BackstoryAdult_36.baseDescription>[PAWN_nameDef] приходилось взбираться на высокие башни ЛЭП, чтобы заменять электрические провода, детали и проверять целостность конструкций. [PAWN_possessive] три хвоста помогали [PAWN_nameDef] эффективно сбалансировать свой центр тяжести, а [PAWN_possessive] быстрая работа и ловкость курина помогла [PAWN_nameDef] получать стабильный доход.</DRNTF_BackstoryAdult_36.baseDescription>
+
+
+  <!-- 배관공 -->
+
+  <DRNTF_BackstoryAdult_37.title>Водопроводчик Курин</DRNTF_BackstoryAdult_37.title>
+  <DRNTF_BackstoryAdult_37.titleShort>Водопроводчик</DRNTF_BackstoryAdult_37.titleShort>
+  <DRNTF_BackstoryAdult_37.baseDescription>[PAWN_nameDef] работал(а) с трубопроводом в домах, теплицах и садах куринов, и имел(а) стабильный доход во все времена года.</DRNTF_BackstoryAdult_37.baseDescription>
+
+
+  <!-- 은여우 중공업 기술자 -->
+
+  <DRNTF_BackstoryAdult_38.title>Инженер Heavy Industries Курин</DRNTF_BackstoryAdult_38.title>
+  <DRNTF_BackstoryAdult_38.titleShort>Инженер Heavy Industries</DRNTF_BackstoryAdult_38.titleShort>
+  <DRNTF_BackstoryAdult_38.baseDescription>[PAWN_nameDef] был(а) инженером на крупнейшем судостроительном предприятии в Республике Курин, которое также производит различные круизные лайнеры, контейнеровозы, эсминцы и авианосцы. Heavy Industries была гигантской компанией, поставляющей более 80% кораблей всей Республике.</DRNTF_BackstoryAdult_38.baseDescription>
+
+
+  <!-- 레스토랑 웨이터 -->
+
+  <DRNTF_BackstoryAdult_39.title>Официант из ресторана Курин</DRNTF_BackstoryAdult_39.title>
+  <DRNTF_BackstoryAdult_39.titleShort>Официант</DRNTF_BackstoryAdult_39.titleShort>
+  <DRNTF_BackstoryAdult_39.baseDescription>[PAWN_nameDef] работал(а) в элитном ресторане, принимал(а) заказы и доставлял(а) блюда к столам. Однако, на самом деле [PAWN_nameDef] хотел(а) работать на кухне, но мог(ла) готовить только дома.</DRNTF_BackstoryAdult_39.baseDescription>
+
+
+  <!-- 간호사 -->
+
+  <DRNTF_BackstoryAdult_40.title>Медсестра Курин</DRNTF_BackstoryAdult_40.title>
+  <DRNTF_BackstoryAdult_40.titleShort>Медсестра</DRNTF_BackstoryAdult_40.titleShort>
+  <DRNTF_BackstoryAdult_40.baseDescription>[PAWN_nameDef] досконально обученная медсестра-ветеран. [PAWN_pronoun] работала в отделении неотложной помощи с тяжело раненным куринами.</DRNTF_BackstoryAdult_40.baseDescription>
+
+
+  <!-- 천문학자 -->
+
+  <DRNTF_BackstoryAdult_41.title>Астроном Курин</DRNTF_BackstoryAdult_41.title>
+  <DRNTF_BackstoryAdult_41.titleShort>Астроном</DRNTF_BackstoryAdult_41.titleShort>
+  <DRNTF_BackstoryAdult_41.baseDescription>[PAWN_nameDef] анализировал(а) данные, отправленные зондом дальнего космоса, чтобы создать трехмерную космическую карту и рассчитать межзвездную траекторию полета для зондирования. Эта беззаботная лабораторная жизнь сделала [PAWN_nameDef] слабее любого другого курина. </DRNTF_BackstoryAdult_41.baseDescription>
+
+
+  <!-- 생명공학자 -->
+
+  <DRNTF_BackstoryAdult_42.title>Биотехнолог Курин</DRNTF_BackstoryAdult_42.title>
+  <DRNTF_BackstoryAdult_42.titleShort>Биотехнолог</DRNTF_BackstoryAdult_42.titleShort>
+  <DRNTF_BackstoryAdult_42.baseDescription>[PAWN_nameDef] был(а) биотехнологом, который изучал генную инженерию. [PAWN_pronoun] изучал(а) гены расы Курин, чтобы найти новые способы лечения старых болезней. </DRNTF_BackstoryAdult_42.baseDescription>
+
+
+  <!-- 인공지능 공학자 -->
+
+  <DRNTF_BackstoryAdult_43.title>Инженер по искусственному интеллекту Курин</DRNTF_BackstoryAdult_43.title>
+  <DRNTF_BackstoryAdult_43.titleShort>Инженер по искусственному интеллекту</DRNTF_BackstoryAdult_43.titleShort>
+  <DRNTF_BackstoryAdult_43.baseDescription>[PAWN_nameDef] был(а) хорошо осведомлен(а) об опасности механоидов, и пытался(лась) разработать новых роботов-гуманоидов с искусственным интеллектом... С разочаровывающими повторными неудачами.</DRNTF_BackstoryAdult_43.baseDescription>
+
+
+  <!-- 지질학자 -->
+
+  <DRNTF_BackstoryAdult_44.title>Геолог Курин</DRNTF_BackstoryAdult_44.title>
+  <DRNTF_BackstoryAdult_44.titleShort>Геолог</DRNTF_BackstoryAdult_44.titleShort>
+  <DRNTF_BackstoryAdult_44.baseDescription>[PAWN_nameDef] был(а) геологом, который изучал огромные разломы, вулканы и почву в зарубежных странах. [PAWN_pronoun] бурил(а) землю, нюхал(а) её, нюхал(а) на полу и в воздухе и посвятил(а) себя геологическим исследованиям.</DRNTF_BackstoryAdult_44.baseDescription>
+
+
+  <!-- 고등학교 교사 -->
+
+  <DRNTF_BackstoryAdult_45.title>Учитель старшей школы Курин</DRNTF_BackstoryAdult_45.title>
+  <DRNTF_BackstoryAdult_45.titleShort>Учитель</DRNTF_BackstoryAdult_45.titleShort>
+  <DRNTF_BackstoryAdult_45.baseDescription>[PAWN_nameDef] был(а) учителем, который преподавал алгебру и геометрию в старшей школе.</DRNTF_BackstoryAdult_45.baseDescription>
+
+
+  <!-- 외과 의사 -->
+
+  <DRNTF_BackstoryAdult_46.title>Врач-хирург Курин</DRNTF_BackstoryAdult_46.title>
+  <DRNTF_BackstoryAdult_46.titleShort>Хирург</DRNTF_BackstoryAdult_46.titleShort>
+  <DRNTF_BackstoryAdult_46.baseDescription>[PAWN_nameDef] был(а) хирургом, работающим в больнице общего профиля. В городе, расположенном недалеко от границы, было немного пациентов, но ситуация изменилась, когда на куринов начали нападать люди.</DRNTF_BackstoryAdult_46.baseDescription>
+
+
+  <!-- 의료보건부 공무원 -->
+
+  <DRNTF_BackstoryAdult_47.title>Сотрудник Министерства здравоохранения и социального обеспечения Курин</DRNTF_BackstoryAdult_47.title>
+  <DRNTF_BackstoryAdult_47.titleShort>Чиновник</DRNTF_BackstoryAdult_47.titleShort>
+  <DRNTF_BackstoryAdult_47.baseDescription>[PAWN_nameDef] был(а) государственным служащим медицинского и санитарного управления Республики Курин.</DRNTF_BackstoryAdult_47.baseDescription>
+
+
+  <!-- 아이돌 -->
+
+  <DRNTF_BackstoryAdult_48.title>Идол Курин</DRNTF_BackstoryAdult_48.title>
+  <DRNTF_BackstoryAdult_48.titleShort>Идол</DRNTF_BackstoryAdult_48.titleShort>
+  <DRNTF_BackstoryAdult_48.baseDescription>[PAWN_nameDef] был(а) зарождающимся курин-идолом. С отличными танцевальными навыками, выдающимися навыками пения и красивой внешностью.</DRNTF_BackstoryAdult_48.baseDescription>
+
+
+  <!-- 떠오르는 가수 -->
+
+  <DRNTF_BackstoryAdult_49.title>Певец Курин</DRNTF_BackstoryAdult_49.title>
+  <DRNTF_BackstoryAdult_49.titleShort>Певец</DRNTF_BackstoryAdult_49.titleShort>
+  <DRNTF_BackstoryAdult_49.baseDescription>[PAWN_nameDef] был(а) признанным певцом, который выпустил несколько альбомов как автор песен. [PAWN_possessive] приглашали выступать в различных спектаклях и, иногда, [PAWN_nameDef] появлялся(лась) в телевизионных передачах.</DRNTF_BackstoryAdult_49.baseDescription>
+
+
+  <!-- 드라마 배우 -->
+
+  <DRNTF_BackstoryAdult_50.title>Актёр Курин</DRNTF_BackstoryAdult_50.title>
+  <DRNTF_BackstoryAdult_50.titleShort>Актёр-сейю</DRNTF_BackstoryAdult_50.titleShort>
+  <DRNTF_BackstoryAdult_50.baseDescription>[PAWN_nameDef] появлялся(лась) во многих фильмах и играх со своим гибким голосом и реалистическими актерскими способностями. [PAWN_pronoun] сыграл(а) много ролей и имел(а) большой опыт.</DRNTF_BackstoryAdult_50.baseDescription>
+
+
+  <!-- 가극단 단원 -->
+
+  <DRNTF_BackstoryAdult_51.title>Театральный актёр Курин</DRNTF_BackstoryAdult_51.title>
+  <DRNTF_BackstoryAdult_51.titleShort>Театральный актёр</DRNTF_BackstoryAdult_51.titleShort>
+  <DRNTF_BackstoryAdult_51.baseDescription>[PAWN_nameDef] был(а) членом театра, который ставил традиционные пьесы и песни в костюмах, украшенных различными пёстрыми цветами.</DRNTF_BackstoryAdult_51.baseDescription>
+
+
+  <!-- 소총수 -->
+
+  <DRNTF_BackstoryAdult_52.title>Солдат армии Курин</DRNTF_BackstoryAdult_52.title>
+  <DRNTF_BackstoryAdult_52.titleShort>Солдат</DRNTF_BackstoryAdult_52.titleShort>
+  <DRNTF_BackstoryAdult_52.baseDescription>[PAWN_nameDef] был(а) обычным военнослужащим армии Республики Курин.</DRNTF_BackstoryAdult_52.baseDescription>
+
+
+  <!-- 지정사수 -->
+
+  <DRNTF_BackstoryAdult_53.title>Снайпер армии Курин</DRNTF_BackstoryAdult_53.title>
+  <DRNTF_BackstoryAdult_53.titleShort>Снайпер</DRNTF_BackstoryAdult_53.titleShort>
+  <DRNTF_BackstoryAdult_53.baseDescription>[PAWN_nameDef] был(а) снайпером армии Республики Курин. У [PAWN_nameDef] отличное зрение и навыки стрельбы, поэтому [PAWN_pronoun] может деактивировать цель быстрее и точнее, чем кто-либо другой, используя дальнобойное оружие.</DRNTF_BackstoryAdult_53.baseDescription>
+
+
+  <!-- 레인저 -->
+
+  <DRNTF_BackstoryAdult_54.title>Лесник Курин</DRNTF_BackstoryAdult_54.title>
+  <DRNTF_BackstoryAdult_54.titleShort>Лесник</DRNTF_BackstoryAdult_54.titleShort>
+  <DRNTF_BackstoryAdult_54.baseDescription>[PAWN_nameDef] отвечал(а) за защиту северных заснеженных лесов и гор. [PAWN_pronoun] был(а) следопытом, который заведует лесом, улавливая запахи леса и звуки животных.</DRNTF_BackstoryAdult_54.baseDescription>
+
+
+  <!-- 정찰병 -->
+
+  <DRNTF_BackstoryAdult_55.title>Разведчик Курин</DRNTF_BackstoryAdult_55.title>
+  <DRNTF_BackstoryAdult_55.titleShort>Разведчик</DRNTF_BackstoryAdult_55.titleShort>
+  <DRNTF_BackstoryAdult_55.baseDescription>После проникновения в заданный периметр, этот курин должен был выполнять разведовательные и диверсионные задачи. [PAWN_nameDef] был(а) обучен(а) тайно и быстро разведывать позиции врага, и [PAWN_pronoun] был(а) в состоянии точно и быстро выяснять местоположение, оборудование и собирать другую информацию различных других задач.</DRNTF_BackstoryAdult_55.baseDescription>
+
+
+  <!-- 의무관 -->
+
+  <!--[Duplicated] <DRNTF_BackstoryAdult_56.title>Военный медик Курин</DRNTF_BackstoryAdult_56.title>-->
+  <!--[Duplicated] <DRNTF_BackstoryAdult_56.titleShort>Военный медик</DRNTF_BackstoryAdult_56.titleShort>-->
+  <!--[Duplicated] <DRNTF_BackstoryAdult_56.baseDescription>[PAWN_nameDef] стал(а) медицинским офицером, чтобы помогать раненым солдатам на поле боя. Хотя [PAWN_pronoun] понял(а), что иногда прийдётся убивать врагов, чтобы спасти своих союзников.</DRNTF_BackstoryAdult_56.baseDescription>-->
+
+
+  <!-- 분대장 -->
+
+  <DRNTF_BackstoryAdult_57.title>Командир отряда Курин</DRNTF_BackstoryAdult_57.title>
+  <DRNTF_BackstoryAdult_57.titleShort>Командир отряда</DRNTF_BackstoryAdult_57.titleShort>
+  <DRNTF_BackstoryAdult_57.baseDescription>[PAWN_nameDef] - опытный солдат офицерского состава, чьи природные способности к лидерству привели к тому, что [PAWN_pronoun] стал(а) командиром отделения.</DRNTF_BackstoryAdult_57.baseDescription>
+
+
+  <!-- 붉은여우 -->
+
+  <DRNTF_BackstoryAdult_58.title>Красная Фурия Курин</DRNTF_BackstoryAdult_58.title>
+  <DRNTF_BackstoryAdult_58.titleShort>Красная Фурия</DRNTF_BackstoryAdult_58.titleShort>
+  <DRNTF_BackstoryAdult_58.baseDescription>[PAWN_nameDef] тренировался(лась) в боевых искусствах и стрельбе упорнее, чем кто-либо другой, когда увидел(а) беспощадное насилие в конфликте с людьми, который начался после ухода Республики. [PAWN_nameDef] участвовал(а) в многочисленных битвах, убивая сотни людей с помощью умений меткой стрельбы и жестокой казни холодным оружием, [PAWN_possessive] товарищи называли [PAWN_nameDef] "Красной Фурией".</DRNTF_BackstoryAdult_58.baseDescription>
+
+
+  <!-- 여우장교 -->
+
+  <DRNTF_BackstoryAdult_59.title>Офицер армии Курин</DRNTF_BackstoryAdult_59.title>
+  <DRNTF_BackstoryAdult_59.titleShort>Офицер</DRNTF_BackstoryAdult_59.titleShort>
+  <DRNTF_BackstoryAdult_59.baseDescription>[PAWN_nameDef] - это один из офицеров молодой армии Республики Курин. Большая часть работы была утомительной офисной волокитой, но у [PAWN_nameDef] было достаточно времени, чтобы читать различные книги и проводить тренировку по стрельбе в виртуальной реальности.</DRNTF_BackstoryAdult_59.baseDescription>
+
+
+  <!-- 강하폭격기 파일럿 -->
+
+  <DRNTF_BackstoryAdult_56.title>Пилот бомбардировщика Курин</DRNTF_BackstoryAdult_56.title>
+  <DRNTF_BackstoryAdult_56.titleShort>Пилот бомбардировщика</DRNTF_BackstoryAdult_56.titleShort>
+  <DRNTF_BackstoryAdult_56.baseDescription>[PAWN_nameDef] был(а) гражданским пилотом, который был мобилизован в войне против людей. [PAWN_pronoun] сбрасывал(а) тонны зажигательных и осколочных бомб на головы и технику людей. [PAWN_nameDef] любил(а) запах напалма по утру. А ведь когда-нибудь эта война закончится...</DRNTF_BackstoryAdult_56.baseDescription>
+
+
+</LanguageData>

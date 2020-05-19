@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Insect privates -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>OvipositorF</defName>
+		<label>ovipositor (Female)</label>
+		<labelNoun>an ovipositor</labelNoun>
+		<description>An ovipositor. Lays eggs inside host.</description>
+		<descriptionHyperlinks><ThingDef>OvipositorF</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+		<produceEggs>true</produceEggs>
+		<!-- time to produce new egg -->
+		<minEggTick>12000</minEggTick>
+		<maxEggTick>60000</maxEggTick>
+		<FluidType>InsectJelly</FluidType>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>OvipositorM</defName>
+		<label>ovipositor (Male)</label>
+		<labelNoun>an ovipositor</labelNoun>
+		<description>An ovipositor. Fertilizes eggs inside host.</description>
+		<descriptionHyperlinks><ThingDef>OvipositorM</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorM</spawnThingOnRemoved>
+		<FluidType>InsectJelly</FluidType>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>InsectAnus</defName>
+		<label>insect anus</label>
+		<labelNoun>an insect anus</labelNoun>
+		<description>An insect anus.</description>
+		<descriptionHyperlinks><ThingDef>InsectAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>InsectAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

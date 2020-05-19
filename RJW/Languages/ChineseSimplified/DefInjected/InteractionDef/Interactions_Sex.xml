@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnalSex.label>肛交</AnalSex.label>
+  <AnalSex.logRulesInitiator.rulesStrings.0>r_logentry->与 [RECIPIENT_nameDef] 发生了肛交。</AnalSex.logRulesInitiator.rulesStrings.0>
+  <AnalSex.logRulesRecipient.rulesStrings.0>r_logentry->与 [INITIATOR_nameDef] 发生了肛交。</AnalSex.logRulesRecipient.rulesStrings.0>
+
+  <VaginalSex.label>阴道插入</VaginalSex.label>
+  <VaginalSex.logRulesInitiator.rulesStrings.0>r_logentry->与 [RECIPIENT_nameDef] 发生了性行为。</VaginalSex.logRulesInitiator.rulesStrings.0>
+  <VaginalSex.logRulesRecipient.rulesStrings.0>r_logentry->与 [INITIATOR_nameDef] 发生了性行为。</VaginalSex.logRulesRecipient.rulesStrings.0>
+
+  <DoublePenetration.label>双头龙</DoublePenetration.label>
+  <DoublePenetration.logRulesInitiator.rulesStrings.0>r_logentry->和 [RECIPIENT_nameDef] 玩双头龙。</DoublePenetration.logRulesInitiator.rulesStrings.0>
+  <DoublePenetration.logRulesRecipient.rulesStrings.0>r_logentry->玩了双头龙。</DoublePenetration.logRulesRecipient.rulesStrings.0>
+
+  <Breastjob.label>乳交</Breastjob.label>
+  <Breastjob.logRulesInitiator.rulesStrings.0>r_logentry->为 [RECIPIENT_nameDef] 提供了乳交。</Breastjob.logRulesInitiator.rulesStrings.0>
+  <Breastjob.logRulesRecipient.rulesStrings.0>r_logentry->享受了乳交。</Breastjob.logRulesRecipient.rulesStrings.0>
+
+  <Handjob.label>手淫</Handjob.label>
+  <Handjob.logRulesInitiator.rulesStrings.0>r_logentry->提供了手淫。</Handjob.logRulesInitiator.rulesStrings.0>
+  <Handjob.logRulesRecipient.rulesStrings.0>r_logentry->享受了手淫。</Handjob.logRulesRecipient.rulesStrings.0>
+
+  <Footjob.label>足交</Footjob.label>
+  <Footjob.logRulesInitiator.rulesStrings.0>r_logentry->提供了足交。</Footjob.logRulesInitiator.rulesStrings.0>
+  <Footjob.logRulesRecipient.rulesStrings.0>r_logentry->享受了足交。</Footjob.logRulesRecipient.rulesStrings.0>
+
+  <Beakjob.label>口交</Beakjob.label>
+  <Beakjob.logRulesInitiator.rulesStrings.0>r_logentry->提供了口交。</Beakjob.logRulesInitiator.rulesStrings.0>
+  <Beakjob.logRulesRecipient.rulesStrings.0>r_logentry->享受了口交。</Beakjob.logRulesRecipient.rulesStrings.0>
+
+  <Fingering.label>揉搓小穴</Fingering.label>
+  <Fingering.logRulesInitiator.rulesStrings.0>r_logentry->揉搓了 [RECIPIENT_nameDef] 的小穴</Fingering.logRulesInitiator.rulesStrings.0>
+  <Fingering.logRulesRecipient.rulesStrings.0>r_logentry->被揉了小穴。</Fingering.logRulesRecipient.rulesStrings.0>
+
+  <Scissoring.label>剪刀式</Scissoring.label>
+  <Scissoring.logRulesInitiator.rulesStrings.0>r_logentry->和 [RECIPIENT_nameDef] 剪刀式。</Scissoring.logRulesInitiator.rulesStrings.0>
+  <Scissoring.logRulesRecipient.rulesStrings.0>r_logentry->和 [INITIATOR_nameDef] 剪刀式。</Scissoring.logRulesRecipient.rulesStrings.0>
+
+  <MutualMasturbation.label>互撸</MutualMasturbation.label>
+  <MutualMasturbation.logRulesInitiator.rulesStrings.0>r_logentry->互撸了。</MutualMasturbation.logRulesInitiator.rulesStrings.0>
+  <MutualMasturbation.logRulesRecipient.rulesStrings.0>r_logentry->互撸了。</MutualMasturbation.logRulesRecipient.rulesStrings.0>
+
+  <Fisting.label>拳交</Fisting.label>
+  <Fisting.logRulesInitiator.rulesStrings.0>r_logentry->拳交了 [RECIPIENT_nameDef] 。</Fisting.logRulesInitiator.rulesStrings.0>
+  <Fisting.logRulesRecipient.rulesStrings.0>r_logentry->被拳交。</Fisting.logRulesRecipient.rulesStrings.0>
+
+  <Sixtynine.label>69式</Sixtynine.label>
+  <Sixtynine.logRulesInitiator.rulesStrings.0>r_logentry->69和 [RECIPIENT_nameDef].</Sixtynine.logRulesInitiator.rulesStrings.0>
+  <Sixtynine.logRulesRecipient.rulesStrings.0>r_logentry->69和 [INITIATOR_nameDef].</Sixtynine.logRulesRecipient.rulesStrings.0>
+
+
+  <!-- Experimenting with sex dialogue. This was easiest to add, but the same method could be used to add pillow talk, etc. -->
+
+  <AnimalSexChat.label>动物聊天</AnimalSexChat.label>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.0>r_logentry(p=20)->[INITIATOR_nameDef] [zooact] [RECIPIENT_nameDef].</AnimalSexChat.logRulesInitiator.rulesStrings.0>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]在[RECIPIENT_nameDef]旁边坐下，主动提起有关[TalkTopicSex]的[INITIATOR_objective]。</AnimalSexChat.logRulesInitiator.rulesStrings.1>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]在[RECIPIENT_nameDef]旁边坐下，说着 [INITIATOR_objective]关于[TalkTopicAny]的事。</AnimalSexChat.logRulesInitiator.rulesStrings.2>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]接近[RECIPIENT_nameDef]，悄悄说[INITIATOR_objective]关于[TalkTopicSex]的事。</AnimalSexChat.logRulesInitiator.rulesStrings.3>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameDef]接近[RECIPIENT_nameDef]，悄悄说[INITIATOR_objective]关于[TalkTopicAny]的事。</AnimalSexChat.logRulesInitiator.rulesStrings.4>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.5>r_logentry(p=2)->[INITIATOR_nameDef]靠近[RECIPIENT_nameDef]当聊起[INITIATOR_objective]有关[TalkTopicSex]。</AnimalSexChat.logRulesInitiator.rulesStrings.5>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameDef]靠近[RECIPIENT_nameDef]当聊起[INITIATOR_objective]有关[TalkTopicAny]。</AnimalSexChat.logRulesInitiator.rulesStrings.6>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameDef]想让[RECIPIENT_nameDef]坐下。</AnimalSexChat.logRulesInitiator.rulesStrings.7>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameDef]试图保持[RECIPIENT_nameDef]不动。</AnimalSexChat.logRulesInitiator.rulesStrings.8>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameDef]以支配地位拍打[RECIPIENT_nameDef]。</AnimalSexChat.logRulesInitiator.rulesStrings.9>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameDef]轻轻抚摸[RECIPIENT_nameDef]的生殖器。</AnimalSexChat.logRulesInitiator.rulesStrings.10>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameDef]抓住了[RECIPIENT_nameDef]的弱♂点，要求ta服从</AnimalSexChat.logRulesInitiator.rulesStrings.11>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.12>zooact->要求服从，对着</AnimalSexChat.logRulesInitiator.rulesStrings.12>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.13>zooact->发出了轻轻的哼声，朝着</AnimalSexChat.logRulesInitiator.rulesStrings.13>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.14>zooact->主动慢下来，友善的对着</AnimalSexChat.logRulesInitiator.rulesStrings.14>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.15>zooact->发出了嘘声，对</AnimalSexChat.logRulesInitiator.rulesStrings.15>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.16>zooact->发出了轻快的响声，对着</AnimalSexChat.logRulesInitiator.rulesStrings.16>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.17>zooact->轻轻打手势，接近</AnimalSexChat.logRulesInitiator.rulesStrings.17>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.18>zooact->缓慢接近</AnimalSexChat.logRulesInitiator.rulesStrings.18>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.19>zooact->轻轻打手势</AnimalSexChat.logRulesInitiator.rulesStrings.19>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.20>zooact->轻轻爱抚</AnimalSexChat.logRulesInitiator.rulesStrings.20>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.21>zooact->使劲爱抚</AnimalSexChat.logRulesInitiator.rulesStrings.21>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.22>zooact->鼓励了</AnimalSexChat.logRulesInitiator.rulesStrings.22>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.23>zooact->配种了，和</AnimalSexChat.logRulesInitiator.rulesStrings.23>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.24>zooact->低下身子靠近</AnimalSexChat.logRulesInitiator.rulesStrings.24>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.25>zooact->一点也不害怕或愤怒，对于</AnimalSexChat.logRulesInitiator.rulesStrings.25>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.26>zooact->坚定又温柔地</AnimalSexChat.logRulesInitiator.rulesStrings.26>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.27>zooact->表现出放松的样子，对着</AnimalSexChat.logRulesInitiator.rulesStrings.27>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.28>zooact->露出 [INITIATOR_possessive] 生殖器，对着</AnimalSexChat.logRulesInitiator.rulesStrings.28>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.29>zooact->掏出 [INITIATOR_possessive] 生殖器，对着</AnimalSexChat.logRulesInitiator.rulesStrings.29>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.30>zooact->窃窃私语着 [TalkTopicAny] ，对</AnimalSexChat.logRulesInitiator.rulesStrings.30>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.31>zooact->悄悄说着 [TalkTopicSex] ，对</AnimalSexChat.logRulesInitiator.rulesStrings.31>
+
+
+</LanguageData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "AssaultColony"]/thinkNode/subNodes/li[@Class="JobGiver_AIFightEnemies"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "AssaultColony"]/thinkNode/subNodes/li[@Class="JobGiver_AITrashColonyClose"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy">
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "Sapper"]/thinkNode/subNodes/li[@Class="JobGiver_AIFightEnemies"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "Defend"]/thinkNode/subNodes/li[@Class="ThinkNode_ForbidOutsideFlagRadius"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "DefendBase"]/thinkNode/subNodes/li[@Class="JobGiver_AIDefendPoint"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "HuntEnemiesIndividual"]/thinkNode/subNodes/li[@Class="JobGiver_AIFightEnemies"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "DefendAndExpandHive"]/thinkNode/subNodes/li[@Class="ThinkNode_Tagger"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "DefendHiveAggressively"]/thinkNode/subNodes/li[@Class="JobGiver_HiveDefense"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot[@Class="ThinkNode_Tagger"]/subNodes/li[stateClass="MentalState_Manhunter"]/subNodes/li[@Class="ThinkNode_Priority"]/subNodes/li[@Class="JobGiver_Manhunter"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<!--<Operation Class="PatchOperationInsert">
+		<xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot[@Class="ThinkNode_Tagger"]/subNodes/li[state="ManhunterPermanent"]/subNodes/li[@Class="ThinkNode_Priority"]/subNodes/li[@Class="JobGiver_Manhunter"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>-->
+
+	<!--<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "Sapper"]/thinkNode/subNodes/li[Class="JobGiver_AITrashColonyClose"]</xpath>
+		<value>
+			<li Class=" rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "TakeWoundedGuest"]/thinkNode/subNodes/li[0]</xpath>
+		<value>
+			<li Class=" rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "Kidnap"]/thinkNode/subNodes/li[0]</xpath>
+		<value>
+			<li Class=" rjw.JobGiver_RapeEnemy" />
+		</value>
+	</Operation>-->
+</Patch>

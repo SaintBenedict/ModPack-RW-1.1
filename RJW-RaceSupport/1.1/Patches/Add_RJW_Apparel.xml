@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<!-- -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace/alienRace/raceRestriction/whiteApparelList</xpath>
+		<value>
+			<li>RJW_BreedersCharm</li>
+			<li>AnalPlugSmall</li>
+			<li>AnalPlugAverage</li>
+			<li>AnalPlugLarge</li>
+			<li>AnalPlugExpandable</li>
+		</value>
+		<success>Always</success>
+	</Operation>
+	
+	<!-- -->
+	
+	<!--//////////
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>RJW_BreedersCharm</li>
+		</value>
+		<success>Normal</success>
+	</Operation>
+	
+	-->
+	
+	
+	
+
+</Patch>

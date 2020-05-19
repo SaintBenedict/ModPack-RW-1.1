@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<MsgTextAGR>RuntimeGC: Регенерированные AvoidGrids для всех карт.</MsgTextAGR>
+	<MsgTextFFR>RuntimeGC: Отношения Фракций исправлены.</MsgTextFFR>
+	<MsgTextFFL>RuntimeGC: {0} лидер (ы) регенерируется (исправлено).</MsgTextFFL>
+	
+	<MsgTextAFT>RuntimeGC: {0} лишние члены в семействах животных удалены.</MsgTextAFT>
+	<MsgTextRFH>RuntimeGC: {0}кв грязи удалены из домашней зоны.</MsgTextRFH>
+	<MsgTextRFM>RuntimeGC: {0}кв грязь убрали с карты.</MsgTextRFM>
+	<MsgTextRFW>RuntimeGC: {0}кв грязь убрана со всех карт.</MsgTextRFW>
+	<MsgTextRSH>RuntimeGC: Снег убран в домашней зоне.</MsgTextRSH>
+	<MsgTextRSM>RuntimeGC: Снег убран на карте.</MsgTextRSM>
+	<MsgTextRSW>RuntimeGC: Снег убран во всех картах.</MsgTextRSW>
+	<MsgTextRCM>RuntimeGC: {0} трупы удалены с текущей карты.</MsgTextRCM>
+	<MsgTextRBL>RuntimeGC: {0} Записи в BattleLog удалены.</MsgTextRBL>
+	<MsgTextRAM>RuntimeGC: {0} Архивные сообщения удалены.</MsgTextRAM>
+	
+	<MsgTextSysGC>System.GC : Память очищена!</MsgTextSysGC>
+</LanguageData>

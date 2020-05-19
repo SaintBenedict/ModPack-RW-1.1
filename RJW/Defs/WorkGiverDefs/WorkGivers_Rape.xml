@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>WG_Rape</defName>
+		<label>Rape</label>
+		<giverClass>rjw.WorkGiver_Rape</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>rape</verb>
+		<gerund>raping</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_RapeEnemy</defName>
+		<label>Rape enemy</label>
+		<giverClass>rjw.WorkGiver_RapeEnemy</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>rape enemy</verb>
+		<gerund>raping enemy</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_RapeCP</defName>
+		<label>Use comfort pawn</label>
+		<giverClass>rjw.WorkGiver_RapeCP</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>use CP</verb>
+		<gerund>using CP</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_ViolateCorpse</defName>
+		<label>Violate corpse</label>
+		<giverClass>rjw.WorkGiver_ViolateCorpse</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>violate corpse</verb>
+		<gerund>violating corpse</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

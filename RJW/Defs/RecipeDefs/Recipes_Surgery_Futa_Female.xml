@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Futa creation-->
+	<!--For females-->
+	<RecipeDef Abstract="True" Name="FutaMakingF" ParentName="SexReassignmentP">
+		<description>Adds a penis to a female, making them a hermaphrodite.</description>
+		<workerClass>rjw.Recipe_MakeFutaF</workerClass>
+		<workAmount>1800</workAmount>
+		<skillRequirements>
+			<Medicine>11</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<!--natural penises-->
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>AddPenis</defName>
+		<label>add penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Penis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Penis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Penis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addHorsePenis</defName>
+		<label>add equine penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HorsePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HorsePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HorsePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addCatPenis</defName>
+		<label>add feline penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CatPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CatPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addDogPenis</defName>
+		<label>add canine penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DogPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DogPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DogPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addDragonPenis</defName>
+		<label>add dragon penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DragonPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DragonPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addOvipositorM</defName>
+		<label>add ovipositor</label>
+		<jobString>adding Ovipositor.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OvipositorM</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OvipositorM</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OvipositorM</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addRaccoonPenis</defName>
+		<label>add procyonine penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RaccoonPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>RaccoonPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>RaccoonPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addHemiPenis</defName>
+		<label>add hemipenis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemiPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HemiPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HemiPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addCrocodilianPenis</defName>
+		<label>add crocodilian penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrocodilianPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CrocodilianPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CrocodilianPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>AddNeedlePenis</defName>
+		<label>add needle penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NeedlePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NeedlePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>NeedlePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>AddCloacalPenis</defName>
+		<label>add cloacal penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CloacalPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CloacalPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CloacalPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>AddRodentPenis</defName>
+		<label>add rodent penis</label>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RodentPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>RodentPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>RodentPenis</addsHediff>
+	</RecipeDef>
+
+	<!--hydraulic penis-->
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addHydraulicPenis</defName>
+		<label>add hydraulic penis</label>
+		<jobString>Attaching hydraulic penis.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HydraulicPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HydraulicPenis</addsHediff>
+	</RecipeDef>
+
+	<!--bionic penis-->
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addBionicPenis</defName>
+		<label>add bionic penis</label>
+		<jobString>Attaching bionic penis.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicPenis</addsHediff>
+	</RecipeDef>
+
+	<!-- Archotech -->
+	<RecipeDef ParentName="FutaMakingF">
+		<defName>addArchotechPenis</defName>
+		<label>add archotech penis</label>
+		<jobString>Attaching archotech penis.</jobString>
+		<workAmount>900</workAmount>
+		<skillRequirements>
+			<!-- Much lower than other types. Core Archotech is Medine 3, these basically attach themselves. -->
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArchotechPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArchotechPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ArchotechPenis</addsHediff>
+	</RecipeDef>
+</Defs>

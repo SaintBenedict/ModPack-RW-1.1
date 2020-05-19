@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+
+	<!-- -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg_Demonic">
+		<defName>Cults_Byakhee_Eggs</defName>
+		<label>spider girl Egg</label>
+		<selffertilized>true</selffertilized>
+		<parentDefs>
+			<li>Cults_Byakhee</li>
+		</parentDefs>
+	</rjw.HediffDef_InsectEgg>
+	
+	<!-- -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg_HumanLike">
+		<defName>RJW_Insect_JorouGumo_Egg</defName>
+		<eggsize>2</eggsize>
+		<selffertilized>true</selffertilized>
+		<parentDefs>
+			<li>Yokai_JorouGumo</li>
+		</parentDefs>
+	</rjw.HediffDef_InsectEgg>
+
+</Defs>

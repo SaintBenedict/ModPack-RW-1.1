@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>ScaleBreasts</defName>
+		<label>scaly breasts</label>
+		<labelNoun>a pair of scaly breasts</labelNoun>
+		<description>Scaly breasts.</description>
+		<descriptionHyperlinks><ThingDef>ScaleBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ScaleBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>DragonAnus</defName>
+		<label>dragon anus</label>
+		<labelNoun>a dragon's anus</labelNoun>
+		<description>A dragon anus.</description>
+		<descriptionHyperlinks><ThingDef>DragonAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DragonAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>GolemPenis</defName>
+		<label>rock penis</label>
+		<labelNoun>a rock penis</labelNoun>
+		<description>Rough and jagged.</description>
+		<descriptionHyperlinks><ThingDef>GolemPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GolemPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>TentaclePenis</defName>
+		<label>tentacles</label>
+		<labelNoun>Reproductive tentacles</labelNoun>
+		<description>Alien tentacles, capable of both restraining and pleasuring.</description>
+		<descriptionHyperlinks><ThingDef>TentaclePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TentaclePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>DemonTentaclesF</defName>
+		<label>demon tentacles (eggs)</label>
+		<labelNoun>demon tentacles</labelNoun>
+		<description>Demon tentacles. Long and flexible, looking to deposit eggs.</description>
+		<descriptionHyperlinks><ThingDef>DemonTentaclesF</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DemonTentaclesF</spawnThingOnRemoved>
+		<produceEggs>true</produceEggs>
+		<!-- time to produce new egg -->
+		<minEggTick>12000</minEggTick>
+		<maxEggTick>60000</maxEggTick>
+		<FluidType>GR_EldritchInsectJelly</FluidType>
+	</rjw.HediffDef_PartBase>
+	
+</Defs>

@@ -1,0 +1,94 @@
+CORE:
+
+fix naked pawn drawing when job driver is interrupted for any reason and pawn doesnt get redressed/changes back to dressed art
+split processsex(again) in 2 functions:
+1st - at beginning of jobgiver to determine sex type
+2nd - after sex, determine outcome
+
+change whore beds to normal furniture?
+
+add/change passive whoring colonist search(like cp) -> colonist know who is whore, and try to use them? may get refused by whore?
+add nymph lord ai, so nymphs can behave as visitors
+add sex addiction to demonic parts?
+add cuminflation system and dripping cum
+add insects dragging pawns to hives
+gene inheritance for insect ovis
+
+add succubus/(incubus?) (rimworld of magic):
+-drains other pawn needs(food, sleep?) and refills own(cant eat normal food?
+-replenish mana through sex?
+-give huge op mood boost(bliss) to victims(1 day?), and then dubuff?
+-succubi never reach ahegao satisfaction, thus always can have more?
+
+workgivers(aka manual control):
+-workgiver for sex with humpshrooms, increasing their growth by 1 day, causing addiction, temp? humpshroom-penis futa?
+-workgiver(auto, cleaning) to collect cum
+
+add recipe to make food from cum?
+add female cum?
+
+add some sort of right clicking sub menu:
+-change parts stats(w/o operation): tentacles, slime, bionic parts
+-make sex type selectable
+-designate breeding pair(through relations?)
+
+rework genital system, so it only have vag,penis,breast,anus (with comp?) storing name, severity(size?) of part
+probably also rework surgeries to support those
+add variable parts growth (until teen? adult?), degradation/stretching
+rework sex satisfaction system(based on parts size/difference? traits/quirks etc)
+
+integrate milkable colonists with sizes support and operations? to change milk type(w gitterworld med?)
+
+BDSM:
+-make ropes and other generic gear, that is "locked" but not with hololock unique keys - normal keys made of steel, etc
+-piercing?
+-blindfolds?
+-vibrators?
+
+Multiplayer:
+-figure out predictable seeds instead of syncmethod's
+
+maybe:
+add support for other pregnancy mods
+more sex related incidents?
+backstoies: cowgirl, etc
+
+never?
+-make interactive COC like sex/stories
+RatherNot (Code)
+We need Pawn Sexualization Request: like Pawn Generation Request, but for generating RJW things
+Current approach missing any kind of flexibility
+In can be useful for race support to: instead placing checks direcly in generator you can place limitations on generator in request
+
+
+older stuff
+TO DO:
+Add new body part groups for the bondage gear (specifically a genitals group for the CB and a jaw or mouth group for the gag, the mouth group that's already in the game won't work I'm pretty sure)
+Once that (^^^) is done make it so that the groups are automatically blocked by the gear, like a more robust version of the blocks_genitals flag
+Add more thoughts after sex about e.g. partner's dick size and sex skill
+Look into how beds are reserved during fappin and especially nymph join-in-bed. I think right now the bed just isn't reserved.
+Nymph visitors
+  - Don't join, just stay on the map a while to fuck your colonists, eat your food, and do your drugs
+  - Should be able to deconstruct walls or mine through mountains to get at drugs, just to troll players
+Add chance for sex/fap with a peg dick to produce splinters
+
+TO DO EVENTUALLY (AKA NEVER):
+Improve detection of genital harvest vs amputation
+  - (Maybe) Make it so that downgrading a pawn is considered harvesting
+
+OTHER RANDOM/HALF-BAKED IDEAS:
+Add some random dialogues for rapes, lovins, etc. 
+Strap prisoners to their beds
+Sex addiction
+  - Reduces satisfaction from sex
+  - Should only affect nymphomaniacs?
+
+
+Traits?:
+Low Self Esteem (just another pessimist trait)
+
+Dom/Sub
+
+Mindbroken (raped so much that they are at a permanent max happiness, but are worth nothing more than just hauling and cleaning)
+ 
+Branded, this pawn is branded a cow/animal fucker/prostitute/rapist, whatever his/her extra curricular is comes with a negative opinions so they are pretty much never liked?

@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Assemblies\Kurin.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Assemblies\Kurin.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Source\Kurin\obj\Debug\Kurin.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Source\Kurin\obj\Debug\Kurin.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Source\Kurin\obj\Debug\Kurin.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Kurin-master\1.1\Source\Kurin\obj\Debug\Kurin.pdb

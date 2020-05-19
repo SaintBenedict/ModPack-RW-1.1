@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- ThingDef base from core -->
+	<ThingDef ParentName="BodyPartBase" Name="rjw_BodyPartBase" Abstract="True">
+		<comps>
+			<li Class="rjw.CompProperties_ThingBodyPart" />
+		</comps>
+	</ThingDef>
+
+	<!-- natural -->
+	<ThingDef ParentName="rjw_BodyPartBase" Name="rjw_BodyPartNaturalBase" Abstract="True">
+		<thingCategories>
+			<li>BodyPartsNatural</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>4.0</DeteriorationRate>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>1.0</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+		<ThingDef ParentName="rjw_BodyPartNaturalBase" Name="rjw_BodyPartNaturalBaseGenMale" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/genital_male</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartNaturalBase" Name="rjw_BodyPartNaturalBaseGenFemale" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/genital_female</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartNaturalBase" Name="rjw_BodyPartNaturalBaseAnus" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/anus</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartNaturalBase" Name="rjw_BodyPartNaturalBaseBreast" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/breast</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+
+	<!-- implants/prostetics -->
+	<ThingDef ParentName="rjw_BodyPartBase" Name="rjw_BodyPartArtificialBase" Abstract="True">
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+	
+		<ThingDef ParentName="rjw_BodyPartArtificialBase" Name="rjw_BodyPartArtificialBaseGenMale" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/genital_male_artificial</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartArtificialBase" Name="rjw_BodyPartArtificialBaseGenFemale" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/genital_female_artificial</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartArtificialBase" Name="rjw_BodyPartArtificialBaseAnus" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/anus_artificial</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+		
+		<ThingDef ParentName="rjw_BodyPartArtificialBase" Name="rjw_BodyPartArtificialBaseBreast" Abstract="True">
+			<graphicData>
+				<texPath>Things/Item/Parts/breast_artificial</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</ThingDef>
+</Defs>

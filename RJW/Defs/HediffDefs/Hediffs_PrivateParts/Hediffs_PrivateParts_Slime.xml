@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Slime privates -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>SlimeTentacles</defName>
+		<label>slime tentacles</label>
+		<labelNoun>slime tentacles</labelNoun>
+		<description>Slick, translucent tentacles that can conform into any shape desired.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>SlimeVagina</defName>
+		<label>slime vagina</label>
+		<labelNoun>slime vagina</labelNoun>
+		<description>A slick, translucent vagina that can grow or shrink to accomodate any penis.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>SlimeAnus</defName>
+		<label>slime anus</label>
+		<labelNoun>a slime anus</labelNoun>
+		<description>A slick, translucent anus that can tighten and conform to fit anything.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>SlimeBreasts</defName>
+		<label>slime breasts</label>
+		<labelNoun>a pair of slime breasts</labelNoun>
+		<description>A pair of slick, translucent breasts that can grow or shrink to any desired size.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+</Defs>

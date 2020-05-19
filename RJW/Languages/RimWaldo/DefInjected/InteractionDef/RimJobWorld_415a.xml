@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AnalBreeding.label>항문 교미</AnalBreeding.label>
+  <AnalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]의 항문이 꿰뚫림.</AnalBreeding.logRulesInitiator.rulesStrings.0>
+  <AnalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->가 [INITIATOR_nameDef]에게 항문을 꿰뚫림.</AnalBreeding.logRulesRecipient.rulesStrings.0>
+  <VaginalBreeding.label>삽입 교미</VaginalBreeding.label>
+  <VaginalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]의 보지가 꿰뚫림.</VaginalBreeding.logRulesInitiator.rulesStrings.0>
+  <VaginalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->가 [INITIATOR_nameDef]에게 보지를 꿰뚫림.</VaginalBreeding.logRulesRecipient.rulesStrings.0>
+  <OralBreeding.label>구강 교미</OralBreeding.label>
+  <OralBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]가 핥아짐.</OralBreeding.logRulesInitiator.rulesStrings.0>
+  <OralBreeding.logRulesRecipient.rulesStrings.0>r_logentry->가 [INITIATOR_nameDef]에게 핥아짐.</OralBreeding.logRulesRecipient.rulesStrings.0>
+  <ForcedFellatioBreeding.label>구강 교미</ForcedFellatioBreeding.label>
+  <ForcedFellatioBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]의 입에 자지가 삽입됨.</ForcedFellatioBreeding.logRulesInitiator.rulesStrings.0>
+  <ForcedFellatioBreeding.logRulesRecipient.rulesStrings.0>r_logentry->가 입으로 자지를 삼킴.</ForcedFellatioBreeding.logRulesRecipient.rulesStrings.0>
+  <ForcedOralBreeding.label>강제 구강 교미</ForcedOralBreeding.label>
+  <ForcedOralBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]의 입에 자지가 강제로 삽입됨.</ForcedOralBreeding.logRulesInitiator.rulesStrings.0>
+  <ForcedOralBreeding.logRulesRecipient.rulesStrings.0>r_logentry->의 입에 자지를 강제로 삽입당함.</ForcedOralBreeding.logRulesRecipient.rulesStrings.0>
+  <FingeringBreeding.label>손가락 애무</FingeringBreeding.label>
+  <FingeringBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]에게 손가락이 집어넣어짐.</FingeringBreeding.logRulesInitiator.rulesStrings.0>
+  <FingeringBreeding.logRulesRecipient.rulesStrings.0>r_logentry->는 [INITIATOR_nameDef]의 손가락을 받아들임.</FingeringBreeding.logRulesRecipient.rulesStrings.0>
+  <RequestBreeding.label>교미 요구</RequestBreeding.label>
+  <RequestBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]는 [INITIATOR_nameDef]에게 섹스를 요구함.</RequestBreeding.logRulesInitiator.rulesStrings.0>
+  <RequestBreeding.logRulesRecipient.rulesStrings.0>r_logentry->는 [INITIATOR_nameDef]에게 섹스를 요구받음.</RequestBreeding.logRulesRecipient.rulesStrings.0>
+  <RequestAnalBreeding.label>항문 교미 요구</RequestAnalBreeding.label>
+  <RequestAnalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]는 [INITIATOR_nameDef]에게 항문 섹스를 요구함.</RequestAnalBreeding.logRulesInitiator.rulesStrings.0>
+  <RequestAnalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->는 [INITIATOR_nameDef]에게 항문 섹스를 요구받음.</RequestAnalBreeding.logRulesRecipient.rulesStrings.0>
+  <Rimming.label>리밍</Rimming.label>
+  <Rimming.logRulesInitiator.rulesStrings.0>r_logentry->입과 혀로 [RECIPIENT_nameDef]의 항문을 핥음.</Rimming.logRulesInitiator.rulesStrings.0>
+  <Rimming.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 농밀한 리밍에 몸을 맡김.</Rimming.logRulesRecipient.rulesStrings.0>
+  <Cunnilingus.label>커닐링구스</Cunnilingus.label>
+  <Cunnilingus.logRulesInitiator.rulesStrings.0>r_logentry->입과 혀로 [RECIPIENT_nameDef]의 보지를 애무함.</Cunnilingus.logRulesInitiator.rulesStrings.0>
+  <Cunnilingus.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 농밀한 커닐링구스에 몸을 맡김.</Cunnilingus.logRulesRecipient.rulesStrings.0>
+  <Fellatio.label>펠라치오</Fellatio.label>
+  <Fellatio.logRulesInitiator.rulesStrings.0>r_logentry->입과 혀로 [RECIPIENT_nameDef]의 자지를 핥음.</Fellatio.logRulesInitiator.rulesStrings.0>
+  <Fellatio.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 농밀한 펠라치오에 몸을 맡김.</Fellatio.logRulesRecipient.rulesStrings.0>
+  <AnalRape.label>항문 강간</AnalRape.label>
+  <AnalRape.logRulesInitiator.rulesStrings.0>r_logentry->강압적으로 [RECIPIENT_nameDef]의 항문에 자지를 밀어넣음.</AnalRape.logRulesInitiator.rulesStrings.0>
+  <AnalRape.logRulesRecipient.rulesStrings.0>r_logentry->굴욕적으로 [INITIATOR_nameDef]에게 항문을 능욕당함.</AnalRape.logRulesRecipient.rulesStrings.0>
+  <VaginalRape.label>삽입 강간</VaginalRape.label>
+  <VaginalRape.logRulesInitiator.rulesStrings.0>r_logentry->강압적으로 [RECIPIENT_nameDef]의 보지에 자지를 밀어넣음.</VaginalRape.logRulesInitiator.rulesStrings.0>
+  <VaginalRape.logRulesRecipient.rulesStrings.0>r_logentry->굴욕적으로 [INITIATOR_nameDef]에게 보지를 능욕당함.</VaginalRape.logRulesRecipient.rulesStrings.0>
+  <HandjobRape.label>강제 핸드잡</HandjobRape.label>
+  <HandjobRape.logRulesInitiator.rulesStrings.0>r_logentry->강압적으로 [RECIPIENT_nameDef]의 자지를 손가락으로 능욕함.</HandjobRape.logRulesInitiator.rulesStrings.0>
+  <HandjobRape.logRulesRecipient.rulesStrings.0>r_logentry->굴욕적으로 [INITIATOR_nameDef]에게 자지를 능욕당함.</HandjobRape.logRulesRecipient.rulesStrings.0>
+  <FingeringRape.label>강제 핑거링</FingeringRape.label>
+  <FingeringRape.logRulesInitiator.rulesStrings.0>r_logentry->강압적으로 [RECIPIENT_nameDef]의 보지를 손가락으로 능욕함.</FingeringRape.logRulesInitiator.rulesStrings.0>
+  <FingeringRape.logRulesRecipient.rulesStrings.0>r_logentry->굴욕적으로 [INITIATOR_nameDef]에게 보지를 능욕당함.</FingeringRape.logRulesRecipient.rulesStrings.0>
+  <ViolateCorpse.label>시체 능욕</ViolateCorpse.label>
+  <ViolateCorpse.logRulesInitiator.rulesStrings.0>r_logentry->식어버린 [RECIPIENT_nameDef]의 몸을 마음껏 능욕함.</ViolateCorpse.logRulesInitiator.rulesStrings.0>
+  <ViolateCorpse.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]에 의해 시체조차 능욕당함.</ViolateCorpse.logRulesRecipient.rulesStrings.0>
+  <MechImplant.label>메카노이드 칩 이식</MechImplant.label>
+  <MechImplant.logRulesInitiator.rulesStrings.0>r_logentry->기계적으로 [RECIPIENT_nameDef]의 몸을 능욕함.</MechImplant.logRulesInitiator.rulesStrings.0>
+  <MechImplant.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]에 의해 기계적으로 능욕당함.</MechImplant.logRulesRecipient.rulesStrings.0>
+  <OtherRape.label>강간</OtherRape.label>
+  <OtherRape.logRulesInitiator.rulesStrings.0>r_logentry->강압적으로 [RECIPIENT_nameDef]의 전신을 능욕함.</OtherRape.logRulesInitiator.rulesStrings.0>
+  <OtherRape.logRulesRecipient.rulesStrings.0>r_logentry->굴욕적으로 [INITIATOR_nameDef]에게 능욕당함.</OtherRape.logRulesRecipient.rulesStrings.0>
+  <AnalSex.label>항문 성교</AnalSex.label>
+  <AnalSex.logRulesInitiator.rulesStrings.0>r_logentry->자지를 [RECIPIENT_nameDef]의 항문에 밀어넣음.</AnalSex.logRulesInitiator.rulesStrings.0>
+  <AnalSex.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 격렬한 허리놀림에 몸을 맡김.</AnalSex.logRulesRecipient.rulesStrings.0>
+  <VaginalSex.label>삽입 성교</VaginalSex.label>
+  <VaginalSex.logRulesInitiator.rulesStrings.0>r_logentry->자지를 [RECIPIENT_nameDef]의 보지에 밀어넣음.</VaginalSex.logRulesInitiator.rulesStrings.0>
+  <VaginalSex.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 격렬한 허리놀림에 몸을 맡김.</VaginalSex.logRulesRecipient.rulesStrings.0>
+  <DoublePenetration.label>동시 삽입</DoublePenetration.label>
+  <DoublePenetration.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]의 보지와 항문을 동시에 애무함.</DoublePenetration.logRulesInitiator.rulesStrings.0>
+  <DoublePenetration.logRulesRecipient.rulesStrings.0>r_logentry->보지와 항문에서 같이 느껴지는 쾌감에 몸을 맡김.</DoublePenetration.logRulesRecipient.rulesStrings.0>
+  <Breastjob.label>파이즈리</Breastjob.label>
+  <Breastjob.logRulesInitiator.rulesStrings.0>r_logentry->양 가슴 사이에 [RECIPIENT_nameDef]의 자지를 끼워넣고 비벼줌.</Breastjob.logRulesInitiator.rulesStrings.0>
+  <Breastjob.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 부드러운 품에 몸을 맡김.</Breastjob.logRulesRecipient.rulesStrings.0>
+  <Handjob.label>핸드잡</Handjob.label>
+  <Handjob.logRulesInitiator.rulesStrings.0>r_logentry->손으로 [RECIPIENT_nameDef]의 자지를 애무함.</Handjob.logRulesInitiator.rulesStrings.0>
+  <Handjob.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 우악스런 손놀림에 몸을 맡김.</Handjob.logRulesRecipient.rulesStrings.0>
+  <Footjob.label>풋잡</Footjob.label>
+  <Footjob.logRulesInitiator.rulesStrings.0>r_logentry->발로 [RECIPIENT_nameDef]의 성감대를 애무함.</Footjob.logRulesInitiator.rulesStrings.0>
+  <Footjob.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 서툰 발놀림에 몸을 맡김.</Footjob.logRulesRecipient.rulesStrings.0>
+  <Beakjob.label>펠라치오</Beakjob.label>
+  <Beakjob.logRulesInitiator.rulesStrings.0>r_logentry->부리로 [RECIPIENT_nameDef]의 자지를 애무함.</Beakjob.logRulesInitiator.rulesStrings.0>
+  <Beakjob.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 농밀한 애무에 몸을 맡김.</Beakjob.logRulesRecipient.rulesStrings.0>
+  <Fingering.label>핑거링</Fingering.label>
+  <Fingering.logRulesInitiator.rulesStrings.0>r_logentry->손가락으로 [RECIPIENT_nameDef]의 성감대를 애무함.</Fingering.logRulesInitiator.rulesStrings.0>
+  <Fingering.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]의 섬세한 손놀림에 몸을 맡김.</Fingering.logRulesRecipient.rulesStrings.0>
+  <Scissoring.label>가위치기</Scissoring.label>
+  <Scissoring.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]와 보지를 서로 맞대고 격렬히 비빔.</Scissoring.logRulesInitiator.rulesStrings.0>
+  <Scissoring.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]와 보지를 서로 맞대고 격렬히 비빔.</Scissoring.logRulesRecipient.rulesStrings.0>
+  <MutualMasturbation.label>상호 자위</MutualMasturbation.label>
+  <MutualMasturbation.logRulesInitiator.rulesStrings.0>r_logentry->손으로 [RECIPIENT_nameDef]의 자지를 애무하면서 같은 방으로 애무받음.</MutualMasturbation.logRulesInitiator.rulesStrings.0>
+  <MutualMasturbation.logRulesRecipient.rulesStrings.0>r_logentry->손으로 [RECIPIENT_nameDef]의 자지를 애무하면서 같은 방법으로 애무받음.</MutualMasturbation.logRulesRecipient.rulesStrings.0>
+  <Fisting.label>피스팅</Fisting.label>
+  <Fisting.logRulesInitiator.rulesStrings.0>r_logentry->주먹을 [RECIPIENT_nameDef]의 항문에 천천히 박아넣음.</Fisting.logRulesInitiator.rulesStrings.0>
+  <Fisting.logRulesRecipient.rulesStrings.0>r_logentry->아랫배 깊숙히 박힌 [INITIATOR_nameDef]의 우악스런 손놀림에 몸을 맡김.</Fisting.logRulesRecipient.rulesStrings.0>
+  <Sixtynine.label>69</Sixtynine.label>
+  <Sixtynine.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]와 69 자세를 유지하며 상대의 성감대를 애무함.</Sixtynine.logRulesInitiator.rulesStrings.0>
+  <Sixtynine.logRulesRecipient.rulesStrings.0>r_logentry->[INITIATOR_nameDef]와 69 자세를 유지하며 상대의 성감대를 애무함.</Sixtynine.logRulesRecipient.rulesStrings.0>
+  <AnimalSexChat.label>동물과 대화</AnimalSexChat.label>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.0>r_logentry(p=20)->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]에게 [zooact].</AnimalSexChat.logRulesInitiator.rulesStrings.0>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]의 곁에 앉아 [TalkTopicSex]에 대하여 이야기 함.</AnimalSexChat.logRulesInitiator.rulesStrings.1>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]의 곁에 앉아 [TalkTopicAny]에 대하여 이야기 함.</AnimalSexChat.logRulesInitiator.rulesStrings.2>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]에게 접근해 [TalkTopicSex]에 관해 속삭이듯 이야기를 건넴.</AnimalSexChat.logRulesInitiator.rulesStrings.3>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]에게 접근해 [TalkTopicAny]에 관해 속삭이듯 이야기를 건넴.</AnimalSexChat.logRulesInitiator.rulesStrings.4>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.5>r_logentry(p=2)->[INITIATOR_nameDef](은)는 다가오는 [RECIPIENT_nameDef]에게 조심스럽게 접근하여 [TalkTopicSex]에 관하여 이야기를 건넴.</AnimalSexChat.logRulesInitiator.rulesStrings.5>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameDef]는 다가오는 [RECIPIENT_nameDef]에게 조심스럽게 접근하여 [TalkTopicAny]에 관하여 이야기를 건넴.</AnimalSexChat.logRulesInitiator.rulesStrings.6>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]을 오랫동안 앉혀 놓음.</AnimalSexChat.logRulesInitiator.rulesStrings.7>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]을 오랫동안 안아줌.</AnimalSexChat.logRulesInitiator.rulesStrings.8>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]에게 우월한 태도를 보이며 찰싹 때림.</AnimalSexChat.logRulesInitiator.rulesStrings.9>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]의 성기를 부드럽게 어루만짐.</AnimalSexChat.logRulesInitiator.rulesStrings.10>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameDef]는 [RECIPIENT_nameDef]의 연약한 신체 부위를 붙잡으며, 지시에 잘 따르도록 강요함.</AnimalSexChat.logRulesInitiator.rulesStrings.11>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.12>zooact->지시에 잘 따르도록 강요함.</AnimalSexChat.logRulesInitiator.rulesStrings.12>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.13>zooact->편안한 목소리로 이야기함.</AnimalSexChat.logRulesInitiator.rulesStrings.13>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.14>zooact->상냥하게 굴도록 유도함.</AnimalSexChat.logRulesInitiator.rulesStrings.14>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.15>zooact->경고음을 내며 쫒아냄.</AnimalSexChat.logRulesInitiator.rulesStrings.15>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.16>zooact->행복한 듯 흥얼거림.</AnimalSexChat.logRulesInitiator.rulesStrings.16>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.17>zooact->부드러운 몸짓으로 다가감.</AnimalSexChat.logRulesInitiator.rulesStrings.17>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.18>zooact->천천히 다가감.</AnimalSexChat.logRulesInitiator.rulesStrings.18>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.19>zooact->손을 뻗어서 다정하게 어루만짐.</AnimalSexChat.logRulesInitiator.rulesStrings.19>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.20>zooact->조심스레 애정을 표현함.</AnimalSexChat.logRulesInitiator.rulesStrings.20>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.21>zooact->힘차게 손짓함.</AnimalSexChat.logRulesInitiator.rulesStrings.21>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.22>zooact->기운을 얻고 마음을 가라앉힘.</AnimalSexChat.logRulesInitiator.rulesStrings.22>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.23>zooact->호흡을 맞춰봄.</AnimalSexChat.logRulesInitiator.rulesStrings.23>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.24>zooact->자세를 낮춰서 다가감.</AnimalSexChat.logRulesInitiator.rulesStrings.24>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.25>zooact->마음을 다스리는 모습을 보여줌.</AnimalSexChat.logRulesInitiator.rulesStrings.25>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.26>zooact->손을 뻗어 단호하면서도 부드럽게 만짐.</AnimalSexChat.logRulesInitiator.rulesStrings.26>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.27>zooact->느긋한 모습을 보임.</AnimalSexChat.logRulesInitiator.rulesStrings.27>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.28>zooact->자신의 성기를 보여줌.</AnimalSexChat.logRulesInitiator.rulesStrings.28>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.29>zooact->자신의 성기를 구경시켜줌.</AnimalSexChat.logRulesInitiator.rulesStrings.29>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.30>zooact->[TalkTopicAny]에 대한 이야기를 속삭임.</AnimalSexChat.logRulesInitiator.rulesStrings.30>
+  <AnimalSexChat.logRulesInitiator.rulesStrings.31>zooact->[TalkTopicSex]에 대한 이야기를 속삭임.</AnimalSexChat.logRulesInitiator.rulesStrings.31>
+
+</LanguageData>

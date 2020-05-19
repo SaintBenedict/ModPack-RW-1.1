@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Pawns with ovi's plant egg.-->
+	<!--60,000 ticks is one in-game day regardless of game speed-->
+	<!--bornTick(for pre defined eggs)=450,000*adult basesize*(1+1/3)-->
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg" Abstract="True">
+		<defName>RJW_InsectEgg</defName>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<eggsize>1</eggsize>							<!--eggsize 1 = 100%, 0 - can hold unlimited eggs, up to 100 eggs per sex-->
+		<abortTick>60000</abortTick>					<!--abortTick = time to fertilize egg-->
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<!--false below: only same kinddef as implanter can fertilize-->
+		<fertilize_animal>false</fertilize_animal>		<!--any animal with ovi can fertilize, switch egg outcome to fertilizer kinddef-->
+		<fertilize_anyone>true</fertilize_anyone>		<!--anyone with ovi can fertilize, switch egg outcome to fertilizer kinddef-->
+		<selffertilized>false</selffertilized>			<!--egg will be implanted fertilized-->
+	</rjw.HediffDef_InsectEgg>
+	
+	<!--Placeholder egg/unsupported races-->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_UnknownEgg</defName>
+		<label>Egg</label>
+		<parentDef>Unknown</parentDef>
+		<bornTick>180001</bornTick>		<!--filled by script-->
+		<abortTick>60001</abortTick>	<!--filled by script-->
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.02</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.02</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.05</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.20</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.30</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.40</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.50</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.50</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.75</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-1.0</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+
+	<!-- remove below and remove egg recipes? -->
+	<!-- Vanilla -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegascarabEgg</defName>
+		<label>Megascarab Egg</label>
+		<parentDef>Megascarab</parentDef>
+		<bornTick>120000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.024</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_SpelopedeEgg</defName>
+		<label>Spelopede Egg</label>
+		<parentDef>Spelopede</parentDef>
+		<bornTick>480000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.096</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegaspiderEgg</defName>
+		<label>Megaspider Egg</label>
+		<parentDef>Megaspider</parentDef>
+		<bornTick>720000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.144</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<!-- Docile Hive -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegascarabDocileEgg</defName>
+		<label>Docile Megascarab Egg</label>
+		<parentDef>MegascarabDocile</parentDef>
+		<bornTick>120000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.024</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_SpelopedeDocileEgg</defName>
+		<label>Docile Spelopede Egg</label>
+		<parentDef>SpelopedeDocile</parentDef>
+		<bornTick>480000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.096</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegaspiderDocileEgg</defName>
+		<label>Docile Megaspider Egg</label>
+		<parentDef>MegaspiderDocile</parentDef>
+		<bornTick>720000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.144</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<!-- Rim of Madness - Arachnophobia -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_ROMA_SpiderEgg</defName>
+		<label>Spider Egg</label>
+		<parentDef>ROMA_SpiderRace</parentDef>
+		<bornTick>180000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.036</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_ROMA_GiantSpiderEgg</defName>
+		<label>Giant Spider Egg</label>
+		<parentDef>ROMA_SpiderRaceGiant</parentDef>
+		<bornTick>1260000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.252</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_ROMA_GiantQueenSpiderEgg</defName>
+		<label>Giant Spider Queen Egg</label>
+		<parentDef>ROMA_SpiderRaceGiantQueen</parentDef>
+		<bornTick>1860000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.372</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BarbslingerEgg</defName>
+		<label>Barbslinger Egg</label>
+		<parentDef>AA_Barbslinger</parentDef>
+		<bornTick>1500000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.3</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BedBugEgg</defName>
+		<label>Bedbug Egg</label>
+		<parentDef>AA_BedBug</parentDef>
+		<bornTick>300000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.06</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BlackScarabEgg</defName>
+		<label>Black scarab Egg</label>
+		<parentDef>AA_BlackScarab</parentDef>
+		<bornTick>180000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.036</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BlackSpelopedeEgg</defName>
+		<label>Black spelopede Egg</label>
+		<parentDef>AA_BlackSpelopede</parentDef>
+		<bornTick>600000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.12</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BlackSpiderEgg</defName>
+		<label>Blackspider Egg</label>
+		<parentDef>AA_BlackSpider</parentDef>
+		<bornTick>900000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.18</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BlizzariskEgg</defName>
+		<label>Blizzarisk Egg</label>
+		<parentDef>AA_Blizzarisk</parentDef>
+		<bornTick>1200000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.24</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BlizzariskClutchMotherEgg</defName>
+		<label>Blizzarisk clutch mother Egg</label>
+		<parentDef>AA_BlizzariskClutchMother</parentDef>
+		<bornTick>1800000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.36</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BumbledroneEgg</defName>
+		<label>Bumbledrone Egg</label>
+		<parentDef>AA_Bumbledrone</parentDef>
+		<bornTick>480000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.096</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_BumbledroneQueenEgg</defName>
+		<label>Bumbledrone queen Egg</label>
+		<parentDef>AA_BumbledroneQueen</parentDef>
+		<bornTick>600000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.12</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_DunealiskEgg</defName>
+		<label>Dunealisk Egg</label>
+		<parentDef>AA_Dunealisk</parentDef>
+		<bornTick>1200000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.24</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_DunealiskClutchMotherEgg</defName>
+		<label>Dunealisk clutch mother Egg</label>
+		<parentDef>AA_DunealiskClutchMother</parentDef>
+		<bornTick>1800000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.36</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_FeraliskEgg</defName>
+		<label>Feralisk Egg</label>
+		<parentDef>AA_Feralisk</parentDef>
+		<bornTick>600000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.12</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_FeraliskClutchMotherEgg</defName>
+		<label>Feralisk clutch mother Egg</label>
+		<parentDef>AA_FeraliskClutchMother</parentDef>
+		<bornTick>1800000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.36</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_FrostmiteEgg</defName>
+		<label>Frostmite Egg</label>
+		<parentDef>AA_Frostmite</parentDef>
+		<bornTick>300000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.06</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_MammothWormEgg</defName>
+		<label>Mammoth worm Egg</label>
+		<parentDef>AA_MammothWorm</parentDef>
+		<bornTick>1800000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.36</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_MegaLouseEgg</defName>
+		<label>Megalouse Egg</label>
+		<parentDef>AA_MegaLouse</parentDef>
+		<bornTick>300000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.06</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_AA_ThermadonEgg</defName>
+		<label>Thermadon Egg</label>
+		<parentDef>AA_Thermadon</parentDef>
+		<bornTick>900000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.18</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+
+	<!--Ni'Hal-->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_NiHalEgg</defName>
+		<label>Ni'Hal Egg</label>
+		<parentDef>Alien_NiHal</parentDef>
+		<bornTick>480000</bornTick>
+		<stages>
+			<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.096</offset>
+				</li>
+			</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<!--Used for JobDriver_RapeEnemyByMech. Mechs implant things when success rape.-->
+	<rjw.HediffDef_MechImplants Name="RJW_ImplantMech" Abstract="True">
+		<hediffClass>rjw.Hediff_MechImplants</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<parentDefs>
+			<li>Mech_Lancer</li>
+			<li>Mech_Scyther</li>
+			<li>Mech_Centipede</li>
+		</parentDefs>
+		<tendable>false</tendable>
+	</rjw.HediffDef_MechImplants>
+
+	<rjw.HediffDef_MechImplants ParentName="RJW_ImplantMech">
+		<hediffClass>rjw.Hediff_MicroComputer</hediffClass>
+		<defName>RJW_MicroComputer</defName>
+		<tendable>false</tendable>
+		<isBad>true</isBad>
+		<label>MicroComputer</label>
+		<minEventInterval>30000</minEventInterval>
+		<maxEventInterval>90000</maxEventInterval>
+		<randomHediffDefs>
+			<li>RJW_Orgasm</li>
+			<li>TransportCums</li>
+			<li>TransportEggs</li>
+		</randomHediffDefs>
+	</rjw.HediffDef_MechImplants>
+	
+	<rjw.HediffDef_EnemyImplants>
+		<defName>Parasite</defName>
+		<hediffClass>rjw.Hediff_Parasite</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>true</isBad>
+		<label>pregnant</label>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>{0} Parasited</discoverLetterLabel>
+				<discoverLetterText>{0} is parasited!</discoverLetterText>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>early-stage-hidden</label>
+				<becomeVisible>false</becomeVisible>
+				<vomitMtbDays>2.5</vomitMtbDays>
+			</li>
+			<li>
+				<label>middle-stage</label>
+				<minSeverity>0.333</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>late-stage</label>
+				<minSeverity>0.666</minSeverity>
+				<vomitMtbDays>2</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_EnemyImplants>
+</Defs>

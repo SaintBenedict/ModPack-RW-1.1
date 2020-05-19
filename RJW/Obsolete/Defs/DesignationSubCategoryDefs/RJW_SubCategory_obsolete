@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Whore_Beds</defName>
+		<label>whore beds</label>
+		<description>Beds for whores.</description>
+		<defNames>
+			<li>WhoreSleepingSpot</li>
+			<li>BedWhore</li>
+			<li>DoubleBedWhore</li>
+			<li>RoyalBedWhore</li>
+		</defNames>
+		<designationCategory>Furniture</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+</Defs>

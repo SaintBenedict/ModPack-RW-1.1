@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ResearchProjectDef>
+		<defName>Whore_Sleeping_Spot</defName>
+		<label>Old Profession</label>
+		<description>The beginning of the world oldest profession.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>XxX</tab>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Bed_Whore</defName>
+		<label>Bed Whore</label>
+		<description>By making the bed more comfortable the whore can spend more time on their back or knees if thats your fancy.</description>
+		<baseCost>700</baseCost>
+		<tab>XxX</tab>
+		<techLevel>Medieval</techLevel>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>Whore_Sleeping_Spot</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Double_Bed_Whore</defName>
+		<label>Double Whore Bed</label>
+		<description>Further increasing the size of the bed allows for threesome? foursome?Hell lets get the whole colony for a orgy.</description>
+		<baseCost>900</baseCost>
+		<tab>XxX</tab>
+		<prerequisites>
+			<li>Bed_Whore</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Royal_Bed_Whore</defName>
+		<label>Royal Whore Bed</label>
+		<description>The highest comfort only for the highest costly Whore.</description>
+		<baseCost>2000</baseCost>
+		<tab>XxX</tab>
+		<prerequisites>
+			<li>Double_Bed_Whore</li>
+		</prerequisites>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+</Defs>

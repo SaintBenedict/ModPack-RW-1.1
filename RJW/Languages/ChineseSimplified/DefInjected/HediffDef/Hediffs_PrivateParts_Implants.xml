@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Simple prosthetic privates -->
+
+  <PegDick.label>铆钉阴茎</PegDick.label>
+  <HydraulicPenis.label>液压阴茎</HydraulicPenis.label>
+  <HydraulicVagina.label>液压阴道</HydraulicVagina.label>
+  <HydraulicBreasts.label>液压乳房</HydraulicBreasts.label>
+  <HydraulicAnus.label>液压肛门</HydraulicAnus.label>
+
+
+  <!-- Bionic privates -->
+
+  <BionicPenis.label>仿生阴茎</BionicPenis.label>
+  <BionicVagina.label>仿生阴道</BionicVagina.label>
+  <BionicBreasts.label>仿生乳房</BionicBreasts.label>
+  <BionicAnus.label>仿生肛门</BionicAnus.label>
+
+
+  <!-- Archotech -->
+
+  <ArchotechPenis.label>远古科技阴茎</ArchotechPenis.label>
+  <ArchotechVagina.label>远古科技阴道</ArchotechVagina.label>
+  <ArchotechAnus.label>远古科技肛门</ArchotechAnus.label>
+  <ArchotechBreasts.label>远古科技乳房</ArchotechBreasts.label>
+
+
+</LanguageData>

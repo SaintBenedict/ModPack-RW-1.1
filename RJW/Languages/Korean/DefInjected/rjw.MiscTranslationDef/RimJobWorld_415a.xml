@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <rjw_vatgrown_sex_slave.label>준비된 성노리개</rjw_vatgrown_sex_slave.label>
+  <rjw_vatgrown_sex_slave.description>[PAWN_nameDef]는 인간이기 이전에 성욕 해소를 위한 도구로써 태어났습니다. 인간공장에서 성장하는 동안, [PAWN_pronoun]는 이상성욕을 가진 사람들의 다양한 요구조건들을 충족하기 위한 수많은 기술들을 배웠습니다.</rjw_vatgrown_sex_slave.description>
+  <rjw_feisty.label>전투적인 색정광</rjw_feisty.label>
+  <rjw_feisty.description>[PAWN_nameDef]는 마치 정복자라도 된 것처럼 정착지 주변을 어슬렁거립니다. 당신은 일에 집중하려고 노력하지만 [PAWN_pronoun]는 당신을 조용히 내버려두지 않습니다.\n\n"네가 내 험담을 했다고 들었는데!" [PAWN_pronoun]가 시비를 겁니다. 하지만 [PAWN_objective] 주장과 관련된 이야기는 말하지 않았고 상대도 그 사실을 잘 알고 있습니다. "싸우자는 거냐 ?" [PAWN_pronoun]는 또다시 도전합니다. 당신은 이미 [PAWN_pronoun]가 무엇을 원하는지 알고 있습니다. 싸움이 시작되고 몇 분쯤 지나면 어느새 [PAWN_objective] 몸을 거칠게 다루고 있거나,  거칠게 다뤄졌을겁니다.\n\n[PAWN_nameDef]의 성격이 특이해서 [PAWN_pronoun]가 정착지에서 다른 사람들과 함께 잘 지내기 어려울 것 같아 보였지만 다른 사람들과 차별된의 장점이 무엇인지 알게되었습니다.\n\n"이 쓰레기는 저쪽에 가져다 둬."  "우릴 죽이려는 놈들이야. 당신도 같이 우리를 도와줘야 해." [PAWN_objective]는 의외로 당신이 시킨 일들을 잘 해냅니다.</rjw_feisty.description>
+  <rjw_curious.label>공돌이 색정광</rjw_curious.label>
+  <rjw_curious.description>"덮개를 뒤에다 고정하고 C슬롯에 액추에이터를 설치해. 지지대에 바짝 붙여서. 아니, 그렇게 하면 안되고, 완벽하게 해야 돼. 이제 JC-444칩을 똑소리 나게 꺼내고."\n\n"황색선을 16번 핀에, 그리고 줄무늬선을 5번 핀에 접합해."\n\n갑자기, [PAWN_pronoun]가 끼어듭니다. 단순히 [PAWN_objective]가 오는 소리를 못 들었을 뿐 [PAWN_nameDef]가 갑자기 나타난 것엔 전혀 놀라지 않았습니다. 이제는 익숙해진 일입니다.\n\n[PAWN_pronoun]가 주변을 맴돌고 있는 동안 말없이 조용히 작업을 계속합니다. [PAWN_nameDef]는 빠르고, 절도있고, 신중하게 작업중인 손동작을 세세히 관찰하고 있습니다.</rjw_curious.description>
+  <rjw_tender.label>헌신적인 색정광</rjw_tender.label>
+  <rjw_tender.description>[PAWN_nameDef]는 매력적인 눈망울을 가졌고, [PAWN_possessive]의 목소리는 부드럽고 달콤합니다.[PAWN_possessive]는 예전에 간호를 해본 경험이 있으며, 때문에 [PAWN_pronoun]는 능숙하게 사람들을 돌봐줍니다.\n\n종종 구석에 숨은 채, [PAWN_pronoun]는 흘러내리는 눈물을 조용히 훔칩니다. 이해할 수 없는 행동이었지만 곧바로 원인이 밝혀집니다. 조금 거리가 있는 곳에서 도축되는 돼지의 비명 소리가 들려온 것이었습니다.</rjw_tender.description>
+  <rjw_chatty.label>수다스러운 색정광</rjw_chatty.label>
+  <rjw_chatty.description>누구도 [PAWN_nameDef]만큼 수다스러울 수는 없을 겁니다. [PAWN_pronoun]는 유연한 혀놀림과, 날카로운 생각과, 뜨거운 입술을 가졌습니다.</rjw_chatty.description>
+  <rjw_broken.label>망가진 색정광</rjw_broken.label>
+  <rjw_broken.description>[PAWN_nameDef]는 아마도 끔찍한 일을 겪었던 것으로 보입니다. [PAWN_pronoun]는 무기력하며, 누구하고도 대화하려 하지 않습니다. \n\n\n[PAWN_pronoun]가 활발하게 대화하는 상대는 오직 바닥에 떨어진 막대기같은 것들 뿐입니다..</rjw_broken.description>
+
+</LanguageData>

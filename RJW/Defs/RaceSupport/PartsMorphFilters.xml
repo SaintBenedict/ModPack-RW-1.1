@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.StringListDef>
+		<defName>SlimeMorphFilters</defName>
+		<!--This list holds defNames of rjw sexparts slime can morph to-->
+		<strings>
+			<li>Remove</li>
+			<li>Penis</li>
+			<li>Vagina</li>
+			<li>Breasts</li>
+			<li>UdderBreasts</li>
+			<li>Anus</li>
+			<li>SlimeBreasts</li>
+			<li>SlimeTentacles</li>
+			<li>SlimeVagina</li>
+			<li>SlimeAnus</li>
+			<li>CatPenis</li>
+			<li>CatVagina</li>
+			<li>DogPenis</li>
+			<li>DogVagina</li>
+			<li>HorsePenis</li>
+			<li>HorseVagina</li>
+			<li>DragonPenis</li>
+			<li>DragonVagina</li>
+			<li>RaccoonPenis</li>
+			<li>HemiPenis</li>
+			<li>CrocodilianPenis</li>
+		</strings>
+	</rjw.StringListDef>
+	
+	<rjw.StringListDef>
+		<defName>DemonMorphFilters</defName>
+		<!--This list holds defNames of rjw sexparts demon can morph to-->
+		<strings>
+			<li>Remove</li>
+			<li>Penis</li>
+			<li>Vagina</li>
+			<li>Breasts</li>
+			<li>UdderBreasts</li>
+			<li>Anus</li>
+			<li>DemonTentaclePenis</li>
+			<li>DemonPenis</li>
+			<li>DemonVagina</li>
+			<li>DemonAnus</li>
+			<li>CatPenis</li>
+			<li>CatVagina</li>
+			<li>DogPenis</li>
+			<li>DogVagina</li>
+			<li>HorsePenis</li>
+			<li>HorseVagina</li>
+			<li>DragonPenis</li>
+			<li>DragonVagina</li>
+			<li>RaccoonPenis</li>
+			<li>HemiPenis</li>
+			<li>CrocodilianPenis</li>
+		</strings>
+	</rjw.StringListDef>
+</Defs>

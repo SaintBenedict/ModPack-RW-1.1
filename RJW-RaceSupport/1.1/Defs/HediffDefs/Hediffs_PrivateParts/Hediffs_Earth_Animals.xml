@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>MonkeyPenis</defName>
+		<label>monkey penis</label>
+		<labelNoun>A monkey's penis</labelNoun>
+		<description>For monkeying around.</description>
+		<descriptionHyperlinks><ThingDef>MonkeyPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MonkeyPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>PigPenis</defName>
+		<label>corkscrew penis</label>
+		<labelNoun>A pig's penis</labelNoun>
+		<description>A corkscrew shaped penis.</description>
+		<descriptionHyperlinks><ThingDef>PigPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>PigPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>BearPenis</defName>
+		<label>bear penis</label>
+		<labelNoun>A bears's penis</labelNoun>
+		<description>Supported by a penis bone.</description>
+		<descriptionHyperlinks><ThingDef>BearPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BearPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>TurtlePenis</defName>
+		<label>turtle penis</label>
+		<labelNoun>A turtle's penis</labelNoun>
+		<description>A flared penis that is huge in size relative to the turtle.</description>
+		<descriptionHyperlinks><ThingDef>TurtlePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TurtlePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>ElephantPenis</defName>
+		<label>elephant penis</label>
+		<labelNoun>An elephant's penis</labelNoun>
+		<description>Massive elephant penis.</description>
+		<descriptionHyperlinks><ThingDef>ElephantPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ElephantPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>BovinePenis</defName>
+		<label>bovine penis</label>
+		<labelNoun>A bovine's penis</labelNoun>
+		<description>Bovine penis, lengthy but not girthy.</description>
+		<descriptionHyperlinks><ThingDef>BovinePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BovinePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>MarinePenis</defName>
+		<label>marine penis</label>
+		<labelNoun>A marine mammal penis</labelNoun>
+		<description>Long and girthy.</description>
+		<descriptionHyperlinks><ThingDef>MarinePenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MarinePenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<!--Critter Like-->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>HorseAnus</defName>
+		<label>equine anus</label>
+		<labelNoun>an equine's anus</labelNoun>
+		<description>An equine anus. An anus with a cute doughnut shape.</description>
+		<descriptionHyperlinks><ThingDef>HorseAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>HorseAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>CatAnus</defName>
+		<label>feline anus</label>
+		<labelNoun>a feline's anus</labelNoun>
+		<description>A feline anus.</description>
+		<descriptionHyperlinks><ThingDef>CatAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CatAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>DogAnus</defName>
+		<label>canine anus</label>
+		<labelNoun>a canine's anus</labelNoun>
+		<description>A canine anus.</description>
+		<descriptionHyperlinks><ThingDef>DogAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DogAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+</Defs>

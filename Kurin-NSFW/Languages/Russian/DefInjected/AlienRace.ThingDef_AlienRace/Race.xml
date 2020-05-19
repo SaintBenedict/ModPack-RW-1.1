@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_Race.label>Курин</DRNTF_Race.label>
+  <DRNTF_Race.description>Курин - это человек с геном лисы, созданный давным-давно генетическим экспериментом в мире-утопии. Они известны тем, что хорошо готовят, а также общительны, миролюбивы и милы.</DRNTF_Race.description>
+  <DRNTF_Race.tools.0.label>левый кулак</DRNTF_Race.tools.0.label>
+  <DRNTF_Race.tools.1.label>правый кулак</DRNTF_Race.tools.1.label>
+  <DRNTF_Race.tools.2.label>зубы</DRNTF_Race.tools.2.label>
+  <DRNTF_Race.tools.3.label>голова</DRNTF_Race.tools.3.label>
+
+
+</LanguageData>

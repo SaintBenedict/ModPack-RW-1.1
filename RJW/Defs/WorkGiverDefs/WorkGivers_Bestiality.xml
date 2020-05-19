@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>WG_BestialityFM</defName>
+		<label>Mate animal</label>
+		<giverClass>rjw.WorkGiver_BestialityForMale</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>mate with</verb>
+		<gerund>mating</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_BestialityFF</defName>
+		<label>Mate animal</label>
+		<giverClass>rjw.WorkGiver_BestialityForFemale</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>be mated by</verb>
+		<gerund>mating with</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

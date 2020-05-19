@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ImprovedSleepingSpot.label>基本的垫子</ImprovedSleepingSpot.label>
+  <ImprovedSleepingSpot.description>简单的木头垫子，不舒服但可以很快建好</ImprovedSleepingSpot.description>
+  <ImprovedSleepingSpot_Blueprint.label>基本的垫子(蓝图)</ImprovedSleepingSpot_Blueprint.label>
+  <ImprovedSleepingSpot_Blueprint_Install.label>基本的垫子(蓝图)</ImprovedSleepingSpot_Blueprint_Install.label>
+  <ImprovedSleepingSpot_Frame.label>基本的垫子(建设中)</ImprovedSleepingSpot_Frame.label>
+  <ImprovedSleepingSpot_Frame.description>简单的木头垫子，不舒服但可以很快建好</ImprovedSleepingSpot_Frame.description>
+
+  <RJW_Bed.label>高级床</RJW_Bed.label>
+  <RJW_Bed.description>舒服的床垫适合休息。</RJW_Bed.description>
+  <RJW_Bed_Blueprint.label>高级床(蓝图)</RJW_Bed_Blueprint.label>
+  <RJW_Bed_Blueprint_Install.label>高级床(蓝图)</RJW_Bed_Blueprint_Install.label>
+  <RJW_Bed_Frame.label>高级床(建设中)</RJW_Bed_Frame.label>
+  <RJW_Bed_Frame.description>舒服的床垫适合休息。</RJW_Bed_Frame.description>
+
+  <RJW_DoubleBed.label>高级双人床</RJW_DoubleBed.label>
+  <RJW_DoubleBed.description>一张舒适的两人宽床，可用于援交。</RJW_DoubleBed.description>
+  <RJW_DoubleBed_Blueprint.label>高级双人床(蓝图)</RJW_DoubleBed_Blueprint.label>
+  <RJW_DoubleBed_Blueprint_Install.label>高级双人床(蓝图)</RJW_DoubleBed_Blueprint_Install.label>
+  <RJW_DoubleBed_Frame.label>高级双人床(建设中)</RJW_DoubleBed_Frame.label>
+  <RJW_DoubleBed_Frame.description>一张舒适的两人宽床，可用于援交。</RJW_DoubleBed_Frame.description>
+
+  <RJW_RoyalBed.label>豪华双人床</RJW_RoyalBed.label>
+  <RJW_RoyalBed.description>这款典雅的镶金双人床，在高级会所中使用。舒适而美丽。</RJW_RoyalBed.description>
+  <RJW_RoyalBed_Blueprint.label>豪华双人床(蓝图)</RJW_RoyalBed_Blueprint.label>
+  <RJW_RoyalBed_Blueprint_Install.label>豪华双人床(蓝图)</RJW_RoyalBed_Blueprint_Install.label>
+  <RJW_RoyalBed_Frame.label>豪华双人床(建设中)</RJW_RoyalBed_Frame.label>
+  <RJW_RoyalBed_Frame.description>这款典雅的镶金双人床，在高级会所中使用。舒适而美丽。</RJW_RoyalBed_Frame.description>
+
+
+</LanguageData>

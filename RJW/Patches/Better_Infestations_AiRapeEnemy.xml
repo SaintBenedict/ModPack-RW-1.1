@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Better Infestations-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/DutyDef[defName="BI_DefendAndExpandHive"]</xpath>
+			</li>
+	
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/DutyDef[defName="BI_DefendAndExpandHive"]/thinkNode/subNodes/li[@Class="ThinkNode_ChancePerHour_Constant"]</xpath>
+				<value>
+					<li Class="rjw.JobGiver_RapeEnemy" />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

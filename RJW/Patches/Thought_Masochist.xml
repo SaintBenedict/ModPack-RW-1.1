@@ -1,0 +1,13 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="HarmedMe"]/nullifyingTraits</xpath>
+				<value>
+					<li>Masochist</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,10 @@
+<Patch>
+		
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>Kurin_Electric_Tailoring_Bench</li>
+		</value>
+	</Operation>
+	
+</Patch>

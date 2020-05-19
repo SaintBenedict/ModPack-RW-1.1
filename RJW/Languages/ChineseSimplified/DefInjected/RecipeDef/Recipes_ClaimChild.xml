@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- From core -->
+
+  <claimChild.label>领养孩子</claimChild.label>
+  <claimChild.description>让孩子加入殖民地。</claimChild.description>
+  <claimChild.jobString>同意。</claimChild.jobString>
+
+
+</LanguageData>

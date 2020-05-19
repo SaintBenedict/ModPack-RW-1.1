@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<RecipeDef>
+		<defName>DeterminePregnancy</defName>
+		<label>check pregnancy</label>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>10</workSkillLearnFactor>
+		<description>Determines if a colonist is pregnant or not and if there any abnormalities with pregnancy.</description>
+		<workerClass>rjw.Recipe_DeterminePregnancy</workerClass>
+		<jobString>Check pregnancy.</jobString>
+		<workAmount>800</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<anesthetize>false</anesthetize>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+</Defs>

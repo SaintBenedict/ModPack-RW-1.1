@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Assault_Rifle.label>쿠린 돌격 소총</Kurin_Gun_Assault_Rifle.label>
+  <Kurin_Gun_Assault_Rifle.description>쿠린들의 제식 소총입니다.</Kurin_Gun_Assault_Rifle.description>
+  <Kurin_Gun_Assault_Rifle.tools.0.label>개머리판</Kurin_Gun_Assault_Rifle.tools.0.label>
+  <Kurin_Gun_Assault_Rifle.tools.1.label>총열</Kurin_Gun_Assault_Rifle.tools.1.label>
+
+  <Kurin_Gun_Sniper_Rifle.label>쿠린 저격 소총</Kurin_Gun_Sniper_Rifle.label>
+  <Kurin_Gun_Sniper_Rifle.description>쿠린들의 제식 소총을 저격용으로 개량하였습니다.</Kurin_Gun_Sniper_Rifle.description>
+  <Kurin_Gun_Sniper_Rifle.tools.0.label>개머리판</Kurin_Gun_Sniper_Rifle.tools.0.label>
+  <Kurin_Gun_Sniper_Rifle.tools.1.label>총열</Kurin_Gun_Sniper_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Tactical_Rifle.label>쿠린제 탄환</Kurin_Bullet_Tactical_Rifle.label>
+
+
+</LanguageData>

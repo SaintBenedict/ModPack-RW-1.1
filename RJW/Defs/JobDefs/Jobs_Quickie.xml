@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>Quickie</defName>
+		<driverClass>rjw.JobDriver_SexQuick</driverClass>
+		<reportString>doing quickie with someone.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>GettingQuickie</defName>
+		<driverClass>rjw.JobDriver_SexBaseRecieverQuickie</driverClass>
+		<reportString>lovin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

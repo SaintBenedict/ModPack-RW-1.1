@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPaws"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPaws"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPaws"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPawsAndTail"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPawsAndTail"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithPawsAndTail"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHooves"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHooves"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHooves"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHump"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHump"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHump"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndTusks"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndTusks"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndTusks"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesTusksAndTrunk"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesTusksAndTrunk"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesTusksAndTrunk"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHorn"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHorn"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithHoovesAndHorn"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithClawsTailAndJowl"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithClawsTailAndJowl"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "QuadrupedAnimalWithClawsTailAndJowl"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "TurtleLike"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "TurtleLike"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "TurtleLike"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Monkey"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Monkey"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Monkey"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+</Patch>

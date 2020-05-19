@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Demon privates parts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>DemonTentaclePenis</defName>
+		<label>demon tentacles</label>
+		<description>A demon tentacle. Long and flexible, constantly leaking demonic fluids. Useless for humans.</description>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>DemonPenis</defName>
+		<label>demon penis</label>
+		<description>A demon penis. It's average humanlike size, constantly leaking demonic fluids. Useless for humans.</description>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>DemonVagina</defName>
+		<label>demon vagina</label>
+		<description>A demon vagina, full of small tentacles, constantly leaking demonic fluids. Useless for humans.</description>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>DemonAnus</defName>
+		<label>demon anus</label>
+		<description>A demon anus... full of tentacles. Useless for humans.</description>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

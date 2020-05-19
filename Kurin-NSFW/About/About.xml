@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Kurin HAR Edition</name>
+	<author>MaroonToon</author>
+	<packageId>MaroonToon.Kurin.HAR.NSFW</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Dalrae.GaramAdvancedApparel</packageId>
+			<displayName>Garam Advanced Apparel</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2013223606</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Race Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Alias.DegeneralizeWork</packageId>
+			<displayName>De-generalize Work</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2011655761</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Dalrae.GaramAdvancedApparel</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Alias.DegeneralizeWork</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>Dalrae.GaramRaceAddon</li>
+	</incompatibleWith>
+	<description>========== Info ==========
+	kurin for Humanoid alien races
+	lewd foxes for lewd gamers
+	This is the NSFW version ;)
+	</description>
+</ModMetaData>

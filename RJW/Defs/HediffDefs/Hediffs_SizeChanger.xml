@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef Name="rjw_parts_size_changer_base" Abstract="True">
+		<hediffClass>rjw.Hediff_PartsSizeChangerCE</hediffClass>
+		<defaultLabelColor>(1, 0.41, 0.71)</defaultLabelColor>
+		<description>Change part size to:</description>
+	</HediffDef>
+
+	<!-- For use in PC -->
+	<!-- (broken) -->
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size0</defName>
+		<label>RJW part size set(PC)(broken):</label>
+		<hediffClass>rjw.Hediff_PartsSizeChangerPC</hediffClass>
+		<initialSeverity>0.01</initialSeverity>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<label>Micro/Flat</label>
+				<minSeverity>0.01</minSeverity>
+			</li>
+			<li>
+				<label>Small/Thight</label>
+				<minSeverity>0.05</minSeverity>
+			</li>
+			<li>
+				<label>Average</label>
+				<minSeverity>0.25</minSeverity>
+			</li>
+			<li>
+				<label>Large/Loose</label>
+				<minSeverity>0.70</minSeverity>
+			</li>
+			<li>
+				<label>Huge/Gaping</label>
+				<minSeverity>0.90</minSeverity>
+			</li>
+			<li>
+				<label>Oversized</label>
+				<minSeverity>1.01</minSeverity>
+			</li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_GetsPermanent">
+			<permanentLabel>RJW part size set</permanentLabel>
+		  </li>
+		</comps>
+	</HediffDef>
+	
+	<!-- For use in CE -->
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size1</defName>
+		<label>RJW part size set(CE): Micro/Flat</label>
+		<initialSeverity>0.01</initialSeverity>
+	</HediffDef>
+
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size2</defName>
+		<label>RJW part size set(CE): Small/Thight</label>
+		<initialSeverity>0.05</initialSeverity>
+	</HediffDef>
+
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size3</defName>
+		<label>RJW part size set(CE): Average</label>
+		<initialSeverity>0.25</initialSeverity>
+	</HediffDef>
+
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size4</defName>
+		<label>RJW part size set(CE): Large/Loose</label>
+		<initialSeverity>0.70</initialSeverity>
+	</HediffDef>
+
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size5</defName>
+		<label>RJW part size set(CE): Huge/Gaping</label>
+		<initialSeverity>0.90</initialSeverity>
+	</HediffDef>
+	
+	<HediffDef ParentName="rjw_parts_size_changer_base">
+		<defName>size6</defName>
+		<label>RJW part size set(CE): Oversized</label>
+		<initialSeverity>1.01</initialSeverity>
+	</HediffDef>
+</Defs>

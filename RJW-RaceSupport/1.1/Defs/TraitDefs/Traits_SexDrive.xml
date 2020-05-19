@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<TraitDef>
+		<defName>insatiablesexdrive</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.01</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually insatiable</label>
+				<description>No matter how often {PAWN_nameDef} has sex, {PAWN_pronoun} is never satisfied. {PAWN_possessive}'s lust knows no bounds.</description>
+				<statOffsets>
+					<Vulnerability>0.5</Vulnerability>
+					<SexFrequency>8</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+		<li>heatedsexdrive</li>
+		<li>botheredsexdrive</li>
+		<li>collectedsexdrive</li>
+		<li>cooledsexdrive</li>
+		<li>inhibitedsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+	<TraitDef>
+		<defName>heatedsexdrive</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.02</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually heated</label>
+				<description>{PAWN_nameDef}'s sex drive is much more stimulated than others. {PAWN_pronoun} wants sex much more often.</description>
+				<statOffsets>
+					<Vulnerability>0.3</Vulnerability>
+					<SexFrequency>4</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>insatiablesexdrive</li>
+			<li>botheredsexdrive</li>
+			<li>collectedsexdrive</li>
+			<li>cooledsexdrive</li>
+			<li>inhibitedsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>botheredsexdrive</defName>
+		<commonality>0.2</commonality>
+		<commonalityFemale>0.03</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually bothered</label>
+				<description>{PAWN_nameDef}'s sex drive is a little more stimulated than others. {PAWN_pronoun} wants sex more often.</description>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+					<SexFrequency>2</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>insatiablesexdrive</li>
+			<li>heatedsexdrive</li>
+			<li>collectedsexdrive</li>
+			<li>cooledsexdrive</li>
+			<li>inhibitedsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>collectedsexdrive</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.02</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually collected</label>
+				<description>{PAWN_nameDef}'s sex drive is a little less stimulated than others. {PAWN_pronoun} wants sex less often.</description>
+				<statOffsets>
+					<Vulnerability>-0.1</Vulnerability>
+					<SexFrequency>-0.2</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>insatiablesexdrive</li>
+			<li>heatedsexdrive</li>
+			<li>botheredsexdrive</li>
+			<li>cooledsexdrive</li>
+			<li>inhibitedsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>cooledsexdrive</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.01</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually cooled</label>
+				<description>{PAWN_nameDef}'s sex drive is much less stimulated than others. {PAWN_pronoun} wants sex much less often.</description>
+				<statOffsets>
+					<Vulnerability>-0.3</Vulnerability>
+					<SexFrequency>-0.4</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>insatiablesexdrive</li>
+			<li>heatedsexdrive</li>
+			<li>botheredsexdrive</li>
+			<li>collectedsexdrive</li>
+			<li>inhibitedsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>inhibitedsexdrive</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.01</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>sexually inhibited</label>
+				<description>{PAWN_nameDef} sees {PAWN_possessive} body as a temple, {PAWN_pronoun} is able to hold off {PAWN_possessive} need for sex.</description>
+				<statOffsets>
+					<Vulnerability>-0.5</Vulnerability>
+					<SexFrequency>-0.8</SexFrequency>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>insatiablesexdrive</li>
+			<li>heatedsexdrive</li>
+			<li>botheredsexdrive</li>
+			<li>collectedsexdrive</li>
+			<li>cooledsexdrive</li>
+		</conflictingTraits>
+	</TraitDef>
+		
+</Defs>

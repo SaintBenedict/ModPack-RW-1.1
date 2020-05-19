@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Consumable item -->
+
+  <HumpShroomEffect.label>药物性欲亢进</HumpShroomEffect.label>
+
+
+  <!-- Ambrosia addiction -->
+
+  <HumpShroomTolerance.label>性欲蘑菇耐受</HumpShroomTolerance.label>
+  <HumpShroomTolerance.stages.0.label>微弱</HumpShroomTolerance.stages.0.label>
+  <HumpShroomTolerance.stages.1.label>轻度</HumpShroomTolerance.stages.1.label>
+  <HumpShroomTolerance.stages.2.label>中度</HumpShroomTolerance.stages.2.label>
+  <HumpShroomTolerance.stages.3.label>重度</HumpShroomTolerance.stages.3.label>
+
+  <HumpShroomAddiction.label>性欲蘑菇成瘾</HumpShroomAddiction.label>
+  <HumpShroomAddiction.stages.1.label>戒断</HumpShroomAddiction.stages.1.label>
+
+
+</LanguageData>

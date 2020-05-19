@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- natural阴道es -->
+
+  <AddMultiVagina.label>添加平均尺寸阴道</AddMultiVagina.label>
+  <AddMultiVagina.description>添加额外的阴道。</AddMultiVagina.description>
+  <AddMultiVagina.jobString>正在添加阴道。</AddMultiVagina.jobString>
+
+  <AddMultiMicroVagina.label>添加微小的阴道</AddMultiMicroVagina.label>
+  <AddMultiMicroVagina.description>添加额外的阴道。</AddMultiMicroVagina.description>
+  <AddMultiMicroVagina.jobString>正在添加阴道。</AddMultiMicroVagina.jobString>
+
+  <AddMultiTightVagina.label>添加紧的阴道</AddMultiTightVagina.label>
+  <AddMultiTightVagina.description>添加额外的阴道。</AddMultiTightVagina.description>
+  <AddMultiTightVagina.jobString>正在添加阴道。</AddMultiTightVagina.jobString>
+
+  <AddMultiLooseVagina.label>添加松的阴道</AddMultiLooseVagina.label>
+  <AddMultiLooseVagina.description>添加额外的阴道。</AddMultiLooseVagina.description>
+  <AddMultiLooseVagina.jobString>正在添加阴道。</AddMultiLooseVagina.jobString>
+
+  <AddMultiGapingVagina.label>添加有空隙的阴道</AddMultiGapingVagina.label>
+  <AddMultiGapingVagina.description>添加额外的阴道。</AddMultiGapingVagina.description>
+  <AddMultiGapingVagina.jobString>正在添加阴道。</AddMultiGapingVagina.jobString>
+
+  <AddMultiHorseVagina.label>添加马阴道</AddMultiHorseVagina.label>
+  <AddMultiHorseVagina.description>添加额外的阴道。</AddMultiHorseVagina.description>
+  <AddMultiHorseVagina.jobString>正在添加阴道。</AddMultiHorseVagina.jobString>
+
+  <AddMultiCatVagina.label>添加猫阴道</AddMultiCatVagina.label>
+  <AddMultiCatVagina.description>添加额外的阴道。</AddMultiCatVagina.description>
+  <AddMultiCatVagina.jobString>正在添加阴道。</AddMultiCatVagina.jobString>
+
+  <AddMultiDogVagina.label>添加狗阴道</AddMultiDogVagina.label>
+  <AddMultiDogVagina.description>添加额外的阴道。</AddMultiDogVagina.description>
+  <AddMultiDogVagina.jobString>正在添加阴道。</AddMultiDogVagina.jobString>
+
+  <AddMultiDragonVagina.label>添加龙阴道</AddMultiDragonVagina.label>
+  <AddMultiDragonVagina.description>添加额外的阴道。</AddMultiDragonVagina.description>
+  <AddMultiDragonVagina.jobString>正在添加阴道。</AddMultiDragonVagina.jobString>
+
+
+  <!-- natural阴茎es -->
+
+  <AddMultiPenis.label>添加12CM阴茎</AddMultiPenis.label>
+  <AddMultiPenis.description>添加额外的阴茎。</AddMultiPenis.description>
+  <AddMultiPenis.jobString>正在添加阴茎。</AddMultiPenis.jobString>
+
+  <AddMultiMicropenis.label>添加4CM阴茎</AddMultiMicropenis.label>
+  <AddMultiMicropenis.description>添加额外的阴茎。</AddMultiMicropenis.description>
+  <AddMultiMicropenis.jobString>正在添加阴茎。</AddMultiMicropenis.jobString>
+
+  <AddMultiSmallPenis.label>添加8CM阴茎</AddMultiSmallPenis.label>
+  <AddMultiSmallPenis.description>添加额外的阴茎。</AddMultiSmallPenis.description>
+  <AddMultiSmallPenis.jobString>正在添加阴茎。</AddMultiSmallPenis.jobString>
+
+  <AddMultiBigPenis.label>添加16CM阴茎</AddMultiBigPenis.label>
+  <AddMultiBigPenis.description>添加额外的阴茎。</AddMultiBigPenis.description>
+  <AddMultiBigPenis.jobString>正在添加阴茎。</AddMultiBigPenis.jobString>
+
+  <AddMultiHugePenis.label>添加20CM阴茎</AddMultiHugePenis.label>
+  <AddMultiHugePenis.description>添加额外的阴茎。</AddMultiHugePenis.description>
+  <AddMultiHugePenis.jobString>正在添加阴茎。</AddMultiHugePenis.jobString>
+
+  <AddMultiHorsePenis.label>添加马阴茎</AddMultiHorsePenis.label>
+  <AddMultiHorsePenis.description>添加额外的阴茎。</AddMultiHorsePenis.description>
+  <AddMultiHorsePenis.jobString>正在添加阴茎。</AddMultiHorsePenis.jobString>
+
+  <AddMultiCatPenis.label>添加猫阴茎</AddMultiCatPenis.label>
+  <AddMultiCatPenis.description>添加额外的阴茎。</AddMultiCatPenis.description>
+  <AddMultiCatPenis.jobString>正在添加阴茎。</AddMultiCatPenis.jobString>
+
+  <AddMultiDogPenis.label>添加狗阴茎</AddMultiDogPenis.label>
+  <AddMultiDogPenis.description>添加额外的阴茎。</AddMultiDogPenis.description>
+  <AddMultiDogPenis.jobString>正在添加阴茎。</AddMultiDogPenis.jobString>
+
+  <AddMultiDragonPenis.label>添加龙阴茎</AddMultiDragonPenis.label>
+  <AddMultiDragonPenis.description>添加额外的阴茎。</AddMultiDragonPenis.description>
+  <AddMultiDragonPenis.jobString>正在添加阴茎。</AddMultiDragonPenis.jobString>
+
+  <AddMultiRaccoonPenis.label>添加啮齿动物阴茎</AddMultiRaccoonPenis.label>
+  <AddMultiRaccoonPenis.description>添加额外的阴茎。</AddMultiRaccoonPenis.description>
+  <AddMultiRaccoonPenis.jobString>正在添加阴茎。</AddMultiRaccoonPenis.jobString>
+
+  <AddMultiHemipenis.label>添加球状带钩阴茎</AddMultiHemipenis.label>
+  <AddMultiHemipenis.description>添加额外的阴茎。</AddMultiHemipenis.description>
+  <AddMultiHemipenis.jobString>正在添加阴茎。</AddMultiHemipenis.jobString>
+
+  <AddMultiCrocodilianPenis.label>添加鳄鱼阴茎</AddMultiCrocodilianPenis.label>
+  <AddMultiCrocodilianPenis.description>添加额外的阴茎。</AddMultiCrocodilianPenis.description>
+  <AddMultiCrocodilianPenis.jobString>正在添加阴茎。</AddMultiCrocodilianPenis.jobString>
+
+
+  <!--乳房 -->
+
+  <AddMultiFlatBreasts.label>添加A罩杯</AddMultiFlatBreasts.label>
+  <AddMultiFlatBreasts.description>添加额外的 breast row。</AddMultiFlatBreasts.description>
+  <AddMultiFlatBreasts.jobString>正在添加乳房。</AddMultiFlatBreasts.jobString>
+
+  <AddMultiSmallBreasts.label>添加B罩杯</AddMultiSmallBreasts.label>
+  <AddMultiSmallBreasts.description>添加额外的 breast row。</AddMultiSmallBreasts.description>
+  <AddMultiSmallBreasts.jobString>正在添加乳房。</AddMultiSmallBreasts.jobString>
+
+  <AddMultiBreasts.label>添加C罩杯</AddMultiBreasts.label>
+  <AddMultiBreasts.description>添加额外的 breast row。</AddMultiBreasts.description>
+  <AddMultiBreasts.jobString>正在添加乳房。</AddMultiBreasts.jobString>
+
+  <AddMultiLargeBreasts.label>添加D罩杯</AddMultiLargeBreasts.label>
+  <AddMultiLargeBreasts.description>添加额外的 breast row。</AddMultiLargeBreasts.description>
+  <AddMultiLargeBreasts.jobString>正在添加乳房。</AddMultiLargeBreasts.jobString>
+
+  <AddMultiHugeBreasts.label>添加E罩杯</AddMultiHugeBreasts.label>
+  <AddMultiHugeBreasts.description>添加额外的 breast row。</AddMultiHugeBreasts.description>
+  <AddMultiHugeBreasts.jobString>正在添加乳房。</AddMultiHugeBreasts.jobString>
+
+  <AddMultiAnus.label>添加平均尺寸肛门</AddMultiAnus.label>
+  <AddMultiAnus.description>添加额外的肛门。</AddMultiAnus.description>
+  <AddMultiAnus.jobString>正在添加肛门。</AddMultiAnus.jobString>
+
+  <AddMultiMicroAnus.label>添加微小的肛门</AddMultiMicroAnus.label>
+  <AddMultiMicroAnus.description>添加额外的肛门。</AddMultiMicroAnus.description>
+  <AddMultiMicroAnus.jobString>正在添加肛门。</AddMultiMicroAnus.jobString>
+
+  <AddMultiTightAnus.label>添加紧的肛门</AddMultiTightAnus.label>
+  <AddMultiTightAnus.description>添加额外的肛门。</AddMultiTightAnus.description>
+  <AddMultiTightAnus.jobString>正在添加肛门。</AddMultiTightAnus.jobString>
+
+  <AddMultiLooseAnus.label>添加松的肛门</AddMultiLooseAnus.label>
+  <AddMultiLooseAnus.description>添加额外的肛门。</AddMultiLooseAnus.description>
+  <AddMultiLooseAnus.jobString>正在添加肛门。</AddMultiLooseAnus.jobString>
+
+  <AddMultiGapingAnus.label>添加有空隙的肛门</AddMultiGapingAnus.label>
+  <AddMultiGapingAnus.description>添加额外的肛门。</AddMultiGapingAnus.description>
+  <AddMultiGapingAnus.jobString>正在添加肛门。</AddMultiGapingAnus.jobString>
+
+
+</LanguageData>

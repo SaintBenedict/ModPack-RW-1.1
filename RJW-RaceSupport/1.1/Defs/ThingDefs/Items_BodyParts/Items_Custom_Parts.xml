@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Dino -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DinoPenis</defName>
+		<label>dinosaur penis</label>
+		<description>A dinosaur penis. Disturbingly large and long reptillian penis</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DinoVagina</defName>
+		<label>dinosaur vagina</label>
+		<description>A severed dinosaur vagina. Part ovipositor, part vagaina - cause dinos are too tall and can't sit or lay down. Or at least some of them can't</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DinoAnus</defName>
+		<label>dinosaur anus</label>
+		<description>A dino's ass nothing more.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!-- Orc -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OrcPenis</defName>
+		<label>orc penis</label>
+		<description>A severed orc penis. Looks like a hybrid of a human penis and a horse's penis</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OrcVagina</defName>
+		<label>orc vagina</label>
+		<description>A severed orc vagina.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OrcBreasts</defName> 
+		<label>orc breasts</label>
+		<description>A severed pair of orc breasts. Large and tough.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OrcAnus</defName>
+		<label>Orc anus</label>
+		<description>An Orc's ??? anus.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!-- Elf -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>ElfPenis</defName>
+		<label>elf penis</label>
+		<description>A severed elf penis. Glows slightly</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>ElfVagina</defName>
+		<label>elf vagina</label>
+		<description>A severed elf vagina. Glows slightly</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>ElfAnus</defName>
+		<label>elf anus</label>
+		<description>An Elf's tight and stretchy anus.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>NecroPenis</defName>
+		<label>decayed penis</label>
+		<description>A rotting penis. Still works though.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>NecroVagina</defName>
+		<label>decayed vagina</label>
+		<description>A rotting vagina. Enter if you dare.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+		
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>NecroAnus</defName>
+		<label>decayed anus</label>
+		<description>A rotting anus. Don't taste this one.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>NecroBreasts</defName> 
+		<label>decayed breasts</label>
+		<description>A rotting pair of breasts. Don't squeeze too hard.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>MonkeyPenis</defName>
+		<label>monkey penis</label>
+		<description>A severed monkey penis. A thin dick</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>PigPenis</defName>
+		<label>corkscrew penis</label>
+		<description>A severed pig's penis. Shaped like a corkscrew</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>BearPenis</defName>
+		<label>bear penis</label>
+		<description>A severed bear penis. Has a penis bone</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TurtlePenis</defName>
+		<label>turtle penis</label>
+		<description>A severed turtle penis. Has a flared head and is huge relative to the turtle</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>ElephantPenis</defName>
+		<label>elephant penis</label>
+		<description>A severed elephant penis. A huge penis belonging to an elephant</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.70</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>BovinePenis</defName>
+		<label>bovine penis</label>
+		<description>A severed bovine penis. Lenghty but not girthy</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>MarinePenis</defName>
+		<label>an aquatic penis</label>
+		<description>Long and girthy, but smells a little fishy.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CactoidPenis</defName>
+		<label>a cactoid penis</label>
+		<description>A rough plant based dick with thorns along the shaft. Ouch!</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CactoidVagina</defName>
+		<label>cactoid vagina</label>
+		<description>A cactoid vagina with thorns lining the inner walls. The thorns grip male genitals until adequately lubed with semen.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+		
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CactoidAnus</defName>
+		<label>cactoid anus</label>
+		<description>A cactoid anus, free of thorns.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CactoidBreasts</defName> 
+		<label>cactoid breasts</label>
+		<description>Cactoid breasts. Extremely firm.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TreePenis</defName>
+		<label>a bark penis</label>
+		<description>A natural wooden penis. The tip is leafy</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TreeVagina</defName>
+		<label>a bark vagina</label>
+		<description>A natural wooden vagina. Leaves coat the interior for pleasure.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+		
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TreeAnus</defName>
+		<label>a bark anus</label>
+		<description>A natural wooden anus. The interior is coated with bark.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TreeBreasts</defName> 
+		<label>bark breasts</label>
+		<description>Natural wooden breasts. Somehow they can still bounce.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>GolemPenis</defName>
+		<label>a golem penis</label>
+		<description>Rough, jagged, and always rock hard.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.99</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>GhoulPenis</defName>
+		<label>an irradiated penis</label>
+		<description>A ghoul's penis. Slightly burns whatever it enters.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>GhoulVagina</defName>
+		<label>an irradiated vagina</label>
+		<description>A ghoul's vagina. Slightly burns whatever enters.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+		
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>GhoulAnus</defName>
+		<label>an irradiated anus</label>
+		<description>A ghoul's anus. Slightly burns whatever enters.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>GhoulBreasts</defName> 
+		<label>irradiated breasts</label>
+		<description>Ghoul breasts. Abnormally warm to the touch.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>ScaleBreasts</defName> 
+		<label>scaly breasts</label>
+		<description>Scaly breasts. Where are the nipples?</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TentaclePenis</defName>
+		<label>tentacles</label>
+		<description>Alien tentacles, capable of both restraining and pleasuring. Where have I seen this before?</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>0.90</Mass>
+		</statBases>
+	</ThingDef>	
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>VinePenis</defName>
+		<label>vines</label>
+		<description>Genetically altered vines capable of reproduction. You'll never look at your crops the same again.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>0.30</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DemonTentaclesF</defName>
+		<label>demon tentacles</label>
+		<description>Demonic tentacles that produce eggs</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>700</MarketValue>
+			<Mass>0.60</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>BigRaceBreats</defName>
+		<label>a pair of breasts found on larger HumanLikes</label>
+		<description>Demonic tentacles that produce eggs</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>700</MarketValue>
+			<Mass>0.60</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>HorseAnus</defName>
+		<label>equine anus</label>
+		<description>An equine's ass nothing more.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CatAnus</defName>
+		<label>feline anus</label>
+		<description>A cat's ass nothing more.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DogAnus</defName>
+		<label>canine anus</label>
+		<description>A dog's ass nothing more.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DragonAnus</defName>
+		<label>dragon anus</label>
+		<description>A dragon's ass nothing more.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!--Flower -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>AntherPenis</defName>
+		<label>anther</label>
+		<description>a plant's anther</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_male</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>PistolVagina</defName>
+		<label>pistol</label>
+		<description>a plant's pistol</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/genital_female</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

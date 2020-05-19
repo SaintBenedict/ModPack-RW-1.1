@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ResearchTabDef>
+	<defName>Kurin_ResearchTab</defName>
+	<label>Kurin</label>
+</ResearchTabDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT1</defName>
+	<label>Kurin simple clothing</label>
+	<description>Researching how to produce simple clothing.</description>
+	<baseCost>400</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>ComplexClothing</li>
+		<li>Electricity</li>
+	</prerequisites>
+	<researchViewX>0</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT2</defName>
+	<label>Kurin plain clothing</label>
+	<description>Researching how to produce plain clothes.</description>
+	<baseCost>800</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT1</li>
+	</prerequisites>
+	<researchViewX>1</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT3</defName>
+	<label>Kurin fine clothing</label>
+	<description>Researching how to produce fine clothes.</description>
+	<baseCost>1200</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT2</li>
+	</prerequisites>
+	<researchViewX>2</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+</Defs>

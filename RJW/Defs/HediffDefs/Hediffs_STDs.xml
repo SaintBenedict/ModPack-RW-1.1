@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef Name="STDBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.010</initialSeverity>
+	</HediffDef>
+
+	<HediffDef Abstract="True" ParentName="STDBase" Name="HIVBase">
+		<hediffClass>HediffWithComps</hediffClass>
+		<tendable>true</tendable>
+		<stages>
+			<li>
+				<minSeverity>0.000</minSeverity>
+				<label>detectable</label>
+			</li>
+			<li>
+				<minSeverity>0.100</minSeverity>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.200</minSeverity>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.300</minSeverity>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.400</minSeverity>
+				<label>moderate</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.500</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.600</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.40</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.700</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.50</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.800</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.70</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.900</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.95</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="HIVBase">
+		<defName>AcuteHIV</defName>
+		<label>HIV - Acute</label>
+		<description>An immunodeficiency virus that spreads through sexual contact.</description>
+		<makesSickThought>true</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>false</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<!-- Daily -->
+				<severityPerDayTended>-0.022</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.060</immunityPerDayNotSick>
+				<immunityPerDaySick>0.280</immunityPerDaySick>
+				<severityPerDayNotImmune>0.130</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.600</severityPerDayImmune>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="HIVBase">
+		<defName>ChronicHIV</defName>
+		<label>HIV - Chronic</label>
+		<description>An immunodeficiency virus that spreads through sexual contact.</description>
+		<makesSickThought>false</makesSickThought>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1.000</maxSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>false</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>240</baseTendDurationHours>
+				<!-- Every 10 days -->
+				<severityPerDayTended>-0.0013</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.0048</severityPerDayNotImmune>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="STDBase">
+		<defName>Herpes</defName>
+		<label>Herpes</label>
+		<description>Genital sores that spread through sexual contact.</description>
+		<makesSickThought>false</makesSickThought>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>0.650</maxSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>false</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>240</baseTendDurationHours>
+				<!-- Every 10 days -->
+				<severityPerDayTended>-0.050</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.035</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.000</minSeverity>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.250</minSeverity>
+				<label>moderate</label>
+				<painOffset>0.10</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.500</minSeverity>
+				<label>major</label>
+				<painOffset>0.15</painOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="STDBase">
+		<defName>Warts</defName>
+		<label>Warts</label>
+		<description>Genital warts that spread through sexual contact.</description>
+		<makesSickThought>false</makesSickThought>
+		<minSeverity>0.000</minSeverity>
+		<maxSeverity>0.650</maxSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>false</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<!-- Everyday -->
+				<severityPerDayTended>-0.138</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.090</immunityPerDayNotSick>
+				<immunityPerDaySick>0.165</immunityPerDaySick>
+				<severityPerDayNotImmune>0.225</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.400</severityPerDayImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.000</minSeverity>
+				<label>minor</label>
+			</li>
+			<li>
+				<minSeverity>0.400</minSeverity>
+				<label>major</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="STDBase">
+		<defName>Syphilis</defName>
+		<description>A bacterial infection that spreads through sexual contact.</description>
+		<label>Syphilis</label>
+		<makesSickThought>true</makesSickThought>
+		<initialSeverity>0.200</initialSeverity>
+		<minSeverity>0.000</minSeverity>
+		<lethalSeverity>1.000</lethalSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>false</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>36</baseTendDurationHours>
+				<!-- 2 times every 3 days -->
+				<severityPerDayTended>-0.160</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.045</immunityPerDayNotSick>
+				<immunityPerDaySick>0.060</immunityPerDaySick>
+				<severityPerDayNotImmune>0.080</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.240</severityPerDayImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.000</minSeverity>
+				<label>minor</label>
+			</li>
+			<li>
+				<minSeverity>0.360</minSeverity>
+				<label>moderate</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.600</minSeverity>
+				<label>major</label>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.840</minSeverity>
+				<label>extreme</label>
+				<painOffset>0.15</painOffset>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.888</minSeverity>
+				<label>extreme</label>
+				<painOffset>0.18</painOffset>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.50</setMax>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.936</minSeverity>
+				<label>extreme</label>
+				<painOffset>0.22</painOffset>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.10</setMax>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.40</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="MechanitesBase">
+		<defName>Boobitis</defName>
+		<label>boobitis</label>
+		<description>Boobitis is a highly contagious mechanite plague that causes permanent breast growth if left untreated. It was initialy created as a harmless glittertech "party drug" but has since mutated and spread to virtually every human colony.</description>
+		<makesSickThought>false</makesSickThought>
+		<stages>
+			<li>
+				<painOffset>0.1</painOffset>
+				<label>subtle swelling</label>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>noticable swelling</label>
+				<painOffset>0.2</painOffset>
+				<statOffsets>
+					<SexAbility>0.2</SexAbility>
+					<Vulnerability>0.3</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<label>spectacular swelling</label>
+				<painOffset>0.3</painOffset>
+				<statOffsets>
+					<SexAbility>0.3</SexAbility>
+					<Vulnerability>0.5</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

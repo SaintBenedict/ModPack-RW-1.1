@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Dragonia -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.0]Lost Forest</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>GenderBalancer</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<success>Normal</success>
+				<operations>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="LF_Dragonia"]/race/hasGenders</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="LF_Dragonia"]/comps</xpath>
+						<value>
+							<li Class="GenderBalancer.GenderBalanceSettings">
+								<maleGenderWeight>0</maleGenderWeight>
+								<femaleGenderWeight>1</femaleGenderWeight>
+								<noGenderWeight>0</noGenderWeight>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+	
+	
+	<!-- Servant -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.0]Lost Forest</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>GenderBalancer</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<success>Normal</success>
+				<operations>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="LF_PetiteServantDragon"]/race/hasGenders</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="LF_PetiteServantDragon"]/comps</xpath>
+						<value>
+							<li Class="GenderBalancer.GenderBalanceSettings">
+								<maleGenderWeight>1</maleGenderWeight>
+								<femaleGenderWeight>1</femaleGenderWeight>
+								<noGenderWeight>0</noGenderWeight>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+</Patch>

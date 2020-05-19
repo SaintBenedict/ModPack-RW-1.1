@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>WG_HaveSex</defName>
+		<label>Have sex</label>
+		<giverClass>rjw.WorkGiver_Sex</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>have sex with</verb>
+		<gerund>having sex</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

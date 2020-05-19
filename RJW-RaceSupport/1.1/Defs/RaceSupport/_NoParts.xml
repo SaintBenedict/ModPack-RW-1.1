@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		
+		<defName>Should_Not_Have</defName>
+		
+		<raceNames>
+			<li>SPBoats_Caravel</li><!-- Boats -->
+			<li>SPBoats_FishingBoat</li>
+			<li>SPBoats_Galleon</li>
+			<li>SPBoats_PaddleSteamer</li>
+			<li>SPBoats_RowBoat</li>
+		</raceNames>
+		
+		<anuses></anuses>
+		<femaleBreasts></femaleBreasts>
+		<femaleGenitals></femaleGenitals>
+		<maleBreasts></maleBreasts>
+		<maleGenitals></maleGenitals>
+		<tags></tags>
+	</rjw.RaceGroupDef>
+</Defs>

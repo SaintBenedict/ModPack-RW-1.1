@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Regular privates -->
+
+  <Penis.label>12CM的阴茎</Penis.label>
+
+
+  <!-- Additional dick sizes -->
+
+  <MicroPenis.label>4CM的阴茎</MicroPenis.label>
+  <SmallPenis.label>8CM的阴茎</SmallPenis.label>
+  <BigPenis.label>16CM的阴茎</BigPenis.label>
+  <HugePenis.label>20CM的阴茎</HugePenis.label>
+  <Vagina.label>平均尺寸阴道</Vagina.label>
+  <MicroVagina.label>微小阴道</MicroVagina.label>
+  <TightVagina.label>紧的阴道</TightVagina.label>
+  <LooseVagina.label>松的阴道</LooseVagina.label>
+  <GapingVagina.label>有间隙的阴道</GapingVagina.label>
+
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>C罩杯</Breasts.label>
+  <FlatBreasts.label>A罩杯</FlatBreasts.label>
+  <SmallBreasts.label>B罩杯</SmallBreasts.label>
+  <LargeBreasts.label>D罩杯</LargeBreasts.label>
+  <HugeBreasts.label>E罩杯</HugeBreasts.label>
+
+
+  <!-- Natural anuses -->
+
+  <Anus.label>平均尺寸肛门</Anus.label>
+  <MicroAnus.label>微小肛门</MicroAnus.label>
+  <TightAnus.label>紧的肛门</TightAnus.label>
+  <LooseAnus.label>松的肛门</LooseAnus.label>
+  <GapingAnus.label>有间隙的肛门</GapingAnus.label>
+  <FeaturelessChest.label>平平无奇的胸部</FeaturelessChest.label>
+
+
+</LanguageData>

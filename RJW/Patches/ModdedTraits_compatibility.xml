@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName="Prude"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Nymphomaniac"]/conflictingTraits</xpath>
+				<value>
+					<li>Prude</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Prude"]/conflictingTraits</xpath>
+				<value>
+					<li>Nymphomaniac</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Prude"]/degreeDatas/li</xpath>
+				<value>
+					<statOffsets>
+						<SexFrequency>-0.3</SexFrequency>
+					</statOffsets>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName="Faithful"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Nymphomaniac"]/conflictingTraits</xpath>
+				<value>
+					<li>Faithful</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Faithful"]/conflictingTraits</xpath>
+				<value>
+					<li>Nymphomaniac</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Nimble"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Nimble"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<SexAbility>0.2</SexAbility>
+					<Vulnerability>-0.1</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Nimble"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<SexAbility>0.2</SexAbility>
+				<Vulnerability>-0.1</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Bloodlust"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Bloodlust"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<Vulnerability>-0.1</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Bloodlust"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<Vulnerability>-0.1</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+
+	<!-- Brawler does not need vulnerability patching: they already get hefty bonus from melee-->
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Tough"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Tough"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<Vulnerability>-0.4</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Tough"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<Vulnerability>-0.4</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+
+	<!-- Lower vulnerability because TooSmart pwans are better prepared and/or likely to outwit the potential rapist-->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="TooSmart"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="TooSmart"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<Vulnerability>-0.3</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="TooSmart"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<Vulnerability>-0.3</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Wimp"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Wimp"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Wimp"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<Vulnerability>0.2</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Masochist"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Masochist"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<Vulnerability>0.3</Vulnerability>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Masochist"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<Vulnerability>0.3</Vulnerability>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="Ascetic"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Ascetic"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<SexFrequency>-0.3</SexFrequency>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Ascetic"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<SexFrequency>-0.3</SexFrequency>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TraitDef[defName="BodyPurist"]/degreeDatas/li/statOffsets</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="BodyPurist"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<SexFrequency>-0.1</SexFrequency>
+				</statOffsets>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="BodyPurist"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<SexFrequency>-0.1</SexFrequency>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName="Asexual"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Necrophiliac"]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Nymphomaniac"]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Rapist"]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Zoophile"]/conflictingTraits</xpath>
+				<value>
+					<li>Asexual</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName="Asexual"]/conflictingTraits</xpath>
+				<value>
+					<li>Necrophiliac</li>
+					<li>Nymphomaniac</li>
+					<li>Rapist</li>
+					<li>Zoophile</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalSex</defName>
+		<label>anal sex</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Had anal sex with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Had anal sex with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalSex</defName>
+		<label>vaginal sex</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>DoublePenetration</defName>
+		<label>double-penetration</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Double-penetrated [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was double-penetrated.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Breastjob</defName>
+		<label>breastjob</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Gave a breastjob to [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Received a breastjob.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Handjob</defName>
+		<label>handjob</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Gave a Handjob.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Received a Handjob.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Footjob</defName>
+		<label>footjob</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Gave a footjob.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Received a footjob.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+		<InteractionDef>
+		<defName>Beakjob</defName>
+		<label>beakjob</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Gave a beakjob.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Received a beakjob.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>Fingering</defName>
+		<label>fingering</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Fingered [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was fingered.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>Scissoring</defName>
+		<label>scissoring</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Scissored with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Scissored with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>MutualMasturbation</defName>
+		<label>mutual masturbation</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Engaged in mutual masturbation.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Engaged in mutual masturbation.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>Fisting</defName>
+		<label>fisting</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Fisted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was fisted.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>Sixtynine</defName>
+		<label>69ing</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->69'd with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->69'd with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<!-- Experimenting with sex dialogue. This was easiest to add, but the same method could be used to add pillow talk, etc.-->
+	<InteractionDef>
+		<defName>AnimalSexChat</defName>
+		<label>animal chat</label>
+		<symbol>Things/Mote/SpeechSymbols/AnimalChat</symbol>
+		<initiatorXpGainSkill>Animals</initiatorXpGainSkill>
+		<initiatorXpGainAmount>40</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry(p=20)->[INITIATOR_nameDef] [zooact] [RECIPIENT_nameDef].</li>
+				<li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicSex].</li>
+				<li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
+				<li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicSex].</li>
+				<li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
+				<li>r_logentry(p=2)->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicSex].</li>
+				<li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
+				<li>r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>
+				<li>r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>
+				<li>r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>
+				<li>r_logentry->[INITIATOR_nameDef] gently stroked [RECIPIENT_nameDef]'s genitals.</li>
+				<li>r_logentry->[INITIATOR_nameDef] grasped a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>
+
+				<li>zooact->demanded obedience from</li>
+				<li>zooact->made calming noises towards</li>
+				<li>zooact->offered slow, friendly gestures to</li>
+				<li>zooact->made shushing noises at</li>
+				<li>zooact->made happy clicking noises at</li>
+				<li>zooact->gestured gently and approached</li>
+				<li>zooact->slowly approached</li>
+				<li>zooact->gently touched</li>
+				<li>zooact->gently caressed</li>
+				<li>zooact->firmly stroked</li>
+				<li>zooact->calmed and encouraged</li>
+				<li>zooact->matched breathing with</li>
+				<li>zooact->took a low stance while approaching</li>
+				<li>zooact->showed no fear or anger to</li>
+				<li>zooact->firmly yet softly touched</li>
+				<li>zooact->showed a relaxed attitude towards</li>
+				<li>zooact->showed [INITIATOR_possessive] genitals to</li>
+				<li>zooact->presented [INITIATOR_possessive] genitals to</li>
+				<li>zooact->whispered a story about [TalkTopicAny] to</li>
+				<li>zooact->whispered a story about [TalkTopicSex] to</li>
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+</Defs>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThinkTreeDef>
+		<defName>AnimalSexualEmergencyTree</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>14</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalCanBreed">
+							<subNodes>
+								<li Class="rjw.ThinkNode_ChancePerHour_Breed">
+									<subNodes>
+										<li Class="rjw.JobGiver_Breed" />
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+						<li Class="rjw.ThinkNode_ConditionalCanRapeCP">
+							<subNodes>
+								<li Class="rjw.ThinkNode_ChancePerHour_RapeCP">
+									<subNodes>
+										<li Class="rjw.JobGiver_ComfortPrisonerRape" />
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+						<!-- Try to mate -->
+						<li Class="rjw.ThinkNode_ConditionalMate">
+							<subNodes>
+								<li Class="ThinkNode_ChancePerHour_Mate">
+									<subNodes>
+										<li Class="ThinkNode_Tagger">
+											<tagToGive>SatisfyingNeeds</tagToGive>
+											<subNodes>
+												<li Class="JobGiver_Mate" />
+											</subNodes>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

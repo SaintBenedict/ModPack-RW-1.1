@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Underwear_White.label>쿠린 흰 속옷</Kurin_Underwear_White.label>
+  <Kurin_Underwear_White.description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</Kurin_Underwear_White.description>
+
+  <Kurin_Underwear_Black.label>쿠린 검은 속옷</Kurin_Underwear_Black.label>
+  <Kurin_Underwear_Black.description>섹시한 검정색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</Kurin_Underwear_Black.description>
+
+  <Kurin_Underwear_Red.label>쿠린 붉은 속옷</Kurin_Underwear_Red.label>
+  <Kurin_Underwear_Red.description>정열적인 붉은색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</Kurin_Underwear_Red.description>
+
+  <Kurin_Underwear_Striped.label>쿠린 줄무늬 속옷</Kurin_Underwear_Striped.label>
+  <Kurin_Underwear_Striped.description>독특한 줄무늬 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</Kurin_Underwear_Striped.description>
+
+  <Kurin_Underwear_Slim.label>쿠린 얇은 속옷</Kurin_Underwear_Slim.label>
+  <Kurin_Underwear_Slim.description>아주 얇은 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</Kurin_Underwear_Slim.description>
+
+
+</LanguageData>

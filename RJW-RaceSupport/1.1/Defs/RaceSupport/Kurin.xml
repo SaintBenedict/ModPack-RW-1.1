@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Kurin, The Three Tailed Fox. 1662412040 -->
+	<!-- Awoo -->
+	<rjw.RaceGroupDef>
+		<defName>Kurin_Three_Tailed_Fox</defName>
+		
+		<raceNames>
+			<li>DRNTF_Race</li>
+			<li>Kurin_Race</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Petite_FoxGirls_Anus</li>
+		</anuses>
+		
+		<!--<chanceanuses></chanceanuses>-->
+
+		<femaleBreasts>
+			<li>Petite_FoxGirls_Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Petite_FoxGirls_Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+		
+	<!-- Kurin, The Three Tailed Fox. 2017497260. https://steamcommunity.com/sharedfiles/filedetails/?id=2017497260 -->
+	<!-- Awoo Stops -->
+	<rjw.RaceGroupDef>
+		<defName>Kurin_Three_Tailed_Fox_Addon</defName>
+		
+		<raceNames>
+			<li>Kurin</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Petite_FoxGirls_Anus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Petite_FoxGirls_Breasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<!--<li>DogPenis</li>-->
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			<!--<li>0.05</li>-->
+		</chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+</Defs>

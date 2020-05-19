@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--  -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Down For Me</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/HediffDef[defName = "aRandomKiwi_DFM_WTBD"]/stages/li[1]/capMods/li[1]</xpath>
+					<value>
+						<li>
+							<capacity>Moving</capacity>
+							<setMax>0.0</setMax>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName = "aRandomKiwi_DFM_WTBD"]/stages/li[1]</xpath>
+					<value>
+						<statOffsets>
+							<Vulnerability>5.00</Vulnerability>
+						</statOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

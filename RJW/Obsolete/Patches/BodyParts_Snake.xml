@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Snake"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Snake"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Snake"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<ForceOffArmbinder.label>принудительно снять наручники</ForceOffArmbinder.label>
+	<ForceOffArmbinder.description>Принудительно снимает наручники без ключа, нанося значительный ущерб пользователю.</ForceOffArmbinder.description>
+	<ForceOffArmbinder.jobString>Принудительно снимает наручники.</ForceOffArmbinder.jobString>
+
+	<ForceOffGag.label>принудительно снять кляп</ForceOffGag.label>
+	<ForceOffGag.description>Принудительно снимает кляп без ключа, нанося значительный ущерб пользователю.</ForceOffGag.description>
+	<ForceOffGag.jobString>Принудительно снимает кляп.</ForceOffGag.jobString>
+
+	<ForceOffChastityBelt.label>принудительно снять пояс верности</ForceOffChastityBelt.label>
+	<ForceOffChastityBelt.description>Принудительно снимает пояс верности без ключа, нанося значительный ущерб пользователю.</ForceOffChastityBelt.description>
+	<ForceOffChastityBelt.jobString>Принудительно снимает пояс верности.</ForceOffChastityBelt.jobString>
+</LanguageData>

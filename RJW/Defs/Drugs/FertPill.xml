@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--As usual stolen from CnP-->
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>RJW_FertPill</defName>
+		<label>Hyperfertility pills</label>
+		<description>Enhances fertility for 48 hours. Also works as a mild aphrodisiac.</description>
+		<graphicData>
+			<texPath>Things/Item/FertPill</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>120</WorkToMake>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RJW_FertPill</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Sex</need>
+					<offset>-0.25</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>DrugProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+			<HumpShroom>1</HumpShroom>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+			<addictiveness>0</addictiveness>
+			<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>RJW_FertPill</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>fertpill</label>
+		<description>Enhanced fertility. A mild aphrodisiac.</description>
+		<defaultLabelColor>(0.75, 0.75, 1.0)</defaultLabelColor>
+		<isBad>false</isBad>
+		<comps>
+			<!-- Disappears after 2 days time -->
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>120000</min>
+					<max>120000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Hyperfertility</label>
+				<capMods>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<offset>4</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

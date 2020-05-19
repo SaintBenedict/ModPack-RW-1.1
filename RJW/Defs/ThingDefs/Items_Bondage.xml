@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef>
+		<defName>Hololock</defName>
+		<label>Hololock</label>
+		<description>A high-tech locking mechanism. Features include:
+- Extremely hardy, plasteel-reinforced build
+- Key and lock paired using a cryptographic UID holographically embedded in a jade substrate, ensuring counterfeit keys are impossible to produce
+- Self-destruct failsafe triggers when the lock is tampered with, ensuring that the protected item is destroyed rather than captured by the enemy
+
+Originally designed for military use, the hololock has since become popular in the BDSM community, where it is customary to engrave a key and lock pair with matching names so they are easier to identify.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>400</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<pathCost>2</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/hololock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>Holokey</defName>
+		<label>Holokey</label>
+		<description>A high-tech key. Releases the lock on an item with a matching cryptographic stamp.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>10</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_HoloCryptoStamped" />
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompStampedApparelKey</compClass>
+				<useJob>UnlockBondageGear</useJob>
+				<useLabel>Unlock apparel</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompUnlockBondageGear</compClass>
+			</li>
+		</comps>
+		<pathCost>1</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/holokey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	<!--
+	<ThingDef>
+		<defName>Simplelock</defName>
+		<label>Simple lock</label>
+		<description>A low-tech locking mechanism.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>400</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<pathCost>2</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/hololock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>Simplekey</defName>
+		<label>Simple key</label>
+		<description>A low-tech key. Releases matching lock.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>1</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_CryptoStamped" />
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompStampedApparelKey</compClass>
+				<useJob>UnlockBondageGear</useJob>
+				<useLabel>Unlock apparel</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompUnlockBondageGear</compClass>
+			</li>
+		</comps>
+		<pathCost>1</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/holokey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>Genericlockpick</defName>
+		<label>Lock pick</label>
+		<description>A lock pick. Picks locks.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>50</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_CryptoStamped" />
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompStampedApparelKey</compClass>
+				<useJob>UnlockBondageGear</useJob>
+				<useLabel>Unlock apparel</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompUnlockBondageGear</compClass>
+			</li>
+		</comps>
+		<pathCost>1</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/holokey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	-->
+	
+	<!-- -->
+
+	<rjw.bondage_gear_def Name="BondageGearBase" Abstract="True">
+		<thingClass>rjw.bondage_gear</thingClass>
+		<category>Item</category>
+		<generateCommonality>0.0</generateCommonality>
+		<thingCategories>
+			<li>Bondage</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeNeverStack>true</tradeNeverStack>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_HoloCryptoStamped" />
+			<!--<li Class="rjw.CompProperties_CryptoStamped" />-->
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompBondageGear</compClass>
+				<useJob>GiveBondageGear</useJob>
+				<useLabel>Equip</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompGetBondageGear</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<pathCost>10</pathCost>
+	</rjw.bondage_gear_def>
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>Armbinder</defName>
+		<label>armbinder</label>
+		<description>Armbinder prevents any pawn it's attached to from using their arms.</description>
+		<thingClass>rjw.armbinder</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/Armbinder/armbinder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>550</MarketValue>
+			<Mass>4</Mass>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<Insulation_Cold>-4</Insulation_Cold>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Arms</li>
+				<li>LeftHand</li>
+				<li>RightHand</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/Armbinder/Armbinder</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>Armbinder</equipped_hediff>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<blocks_hands>true</blocks_hands>
+		<HediffTargetBodyPartDefs>
+			<li>Arm</li>
+		</HediffTargetBodyPartDefs>
+		<BoundBodyPartGroupDefs>
+			<li>LeftHand</li>
+			<li>RightHand</li>
+		</BoundBodyPartGroupDefs>
+	</rjw.bondage_gear_def>
+
+	<!--
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>Yoke</defName>
+		<label>yoke</label>
+		<description>A high-tech yoke. It prevents any pawn it's attached to from using their arms.</description>
+		<thingClass>rjw.yoke</thingClass>
+		<graphicData>
+			<texPath>Things\Pawn\Humanlike\Apparel\Bondage\Armbinder\armbinder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>850</MarketValue>
+			<Mass>4</Mass>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<Insulation_Cold>-4</Insulation_Cold>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Arms</li>
+				<li>LeftHand</li>
+				<li>RightHand</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things\Pawn\Humanlike\Apparel\Bondage\Armbinder\</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>Yoke</equipped_hediff>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+	</rjw.bondage_gear_def>
+	 -->
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>BallGag</defName>
+		<label>ball gag</label>
+		<description>Ball gag prevents talking.</description>
+		<thingClass>rjw.bondage_gear</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/GagBall/gag_ball</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>450</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<!-- <li>Mouth</li> Causes bugs with ApparelUtility.HasPartsToWear -->
+			</bodyPartGroups>
+			<!--  <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/GagBall/Gag_Ball</wornGraphicPath> -->
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>ClosedGag</equipped_hediff>
+		<gives_gagged_moodlet>true</gives_gagged_moodlet>
+		<blocks_oral>true</blocks_oral>
+		<HediffTargetBodyPartDefs>
+			<li>Jaw</li>
+			<li>AnimalJaw</li>
+			<li>Beak</li>
+			<li>InsectMouth</li>
+			<li>SnakeMouth</li>
+		</HediffTargetBodyPartDefs>
+		<BoundBodyPartGroupDefs>
+			<li>HeadAttackTool</li>
+			<li>Teeth</li>
+			<li>Beak</li>
+			<li>Mouth</li>
+		</BoundBodyPartGroupDefs>
+	</rjw.bondage_gear_def>
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>RingGag</defName>
+		<label>ring gag</label>
+		<description>Ring gag prevents talking, allows oral interaction.</description>
+		<thingClass>rjw.bondage_gear</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/GagRing/gag_ring</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>550</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<!-- <li>Mouth</li> Causes bugs with ApparelUtility.HasPartsToWear -->
+			</bodyPartGroups>
+			<!--  <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/GagRing/Gag_Ring</wornGraphicPath> -->
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>OpenGag</equipped_hediff>
+		<gives_gagged_moodlet>true</gives_gagged_moodlet>
+		<HediffTargetBodyPartDefs>
+			<li>Jaw</li>
+			<li>AnimalJaw</li>
+			<li>Beak</li>
+			<li>InsectMouth</li>
+			<li>SnakeMouth</li>
+		</HediffTargetBodyPartDefs>
+		<BoundBodyPartGroupDefs>
+			<li>HeadAttackTool</li>
+			<li>Teeth</li>
+			<li>Beak</li>
+			<li>Mouth</li>
+		</BoundBodyPartGroupDefs>
+	</rjw.bondage_gear_def>
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>ChastityBelt</defName>
+		<label>chastity belt</label>
+		<description>Chastity belt prevents sex and masturbation.</description>
+		<thingClass>rjw.bondage_gear</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/chastity_belt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>550</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<apparel>
+			<!-- Use the legs group so it doesn't conflict with shirts -->
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/Chastity_Belt</wornGraphicPath>
+			<!-- Use the shell layer so it doesn't conflict with pants -->
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<blocks_penis>true</blocks_penis>
+		<blocks_vagina>true</blocks_vagina>
+		<blocks_anus>true</blocks_anus>
+		<equipped_hediff>ChastityBelt</equipped_hediff>
+		<HediffTargetBodyPartDefs>
+			<li>Genitals</li>
+			<li>Anus</li>
+		</HediffTargetBodyPartDefs>
+	</rjw.bondage_gear_def>
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>ChastityBeltO</defName>
+		<label>chastity belt(Open)</label>
+		<description>Chastity belt allows anal sex.</description>
+		<thingClass>rjw.bondage_gear</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/chastity_belt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>550</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/Chastity_Belt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<blocks_penis>true</blocks_penis>
+		<blocks_vagina>true</blocks_vagina>
+		<equipped_hediff>ChastityBelt</equipped_hediff>
+		<HediffTargetBodyPartDefs>
+			<li>Genitals</li>
+			<li>Anus</li>
+		</HediffTargetBodyPartDefs>
+	</rjw.bondage_gear_def>
+	
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>ChastityCage</defName>
+		<label>chastity Cage</label>
+		<description>Chastity cage for males, prevents erection.</description>
+		<thingClass>rjw.bondage_gear</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/chastity_belt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>100</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/ChastityBelt/Chastity_Belt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<blocks_penis>true</blocks_penis>
+		<equipped_hediff>ChastityCage</equipped_hediff>
+		<HediffTargetBodyPartDefs>
+			<li>Genitals</li>
+		</HediffTargetBodyPartDefs>
+	</rjw.bondage_gear_def>
+
+	<rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>PrisonerChains</defName>
+		<label>chains</label>
+		<description>Chains with cuffs. Useful for restricting someone's movement and manipulation freedom. Prevents* hand-to-hand fighting attempts.
+*gag is advised for complete neutralization</description>
+		<thingClass>rjw.restraints</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/PrisonerChains/PrisonerChains</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>300</MarketValue>
+			<Mass>4</Mass>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<Insulation_Cold>-4</Insulation_Cold>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Arms</li>
+				<li>LeftHand</li>
+				<li>RightHand</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Bondage/PrisonerChains/PrisonerChains</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>Chains</equipped_hediff>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<HediffTargetBodyPartDefs>
+			<li>Arm</li>
+			<li>Leg</li>
+		</HediffTargetBodyPartDefs>
+		<BoundBodyPartGroupDefs>
+			<li>Arms</li>
+			<li>LeftHand</li>
+			<li>RightHand</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</BoundBodyPartGroupDefs>
+	</rjw.bondage_gear_def>
+</Defs>

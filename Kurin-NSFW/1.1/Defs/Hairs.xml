@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+	<HairDef>
+		<defName>DRNTF_Hair_01</defName>
+		<label>Kurin_Hair_01</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/1/DRNTF_Hair_01</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_02</defName>
+		<label>Kurin_Hair_02</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/2/DRNTF_Hair_02</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_03</defName>
+		<label>Kurin_Hair_03</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/3/DRNTF_Hair_03</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_04</defName>
+		<label>Kurin_Hair_04</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/4/DRNTF_Hair_04</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_05</defName>
+		<label>Kurin_Hair_05</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/5/DRNTF_Hair_05</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_06</defName>
+		<label>Kurin_Hair_06</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/6/DRNTF_Hair_06</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_07</defName>
+		<label>Kurin_Hair_07</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/7/DRNTF_Hair_07</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_08</defName>
+		<label>Kurin_Hair_08</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/8/DRNTF_Hair_08</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DRNTF_Hair_09</defName>
+		<label>Kurin_Hair_09</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/9/DRNTF_Hair_09</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DRNTF_Hair_10</defName>
+		<label>Kurin_Hair_10</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/10/DRNTF_Hair_10</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_11</defName>
+		<label>Kurin_Hair_11</label>
+		<hairGender>Female</hairGender>
+		<texPath>Kurin/Hairs/11/DRNTF_Hair_11</texPath>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+</Defs>

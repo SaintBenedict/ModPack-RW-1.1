@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Pawns with ovi's plant egg.-->
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg_HumanLike" Abstract="True">
+		<defName>RJW_HumanLikeEgg</defName>
+		<label>Egg</label>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<description>Parasitic egg(s) that enter the host's body and feeds off their nutrients until ready to hatch. 
+Just be glad they don't hatch by bursting out of your chest.</description>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<eggsize>1</eggsize>							<!--eggsize 1 = 100%, 0 - can hold unlimited eggs, up to 100 eggs per sex-->
+		<selffertilized>true</selffertilized>			<!--egg will be implanted fertilized-->
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.02</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.05</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.20</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.30</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.50</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg_Demonic" Abstract="True">
+		<defName>RJW_HumanLikeEgg</defName>
+		<label>Egg</label>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<description>Parasitic egg(s) that enter the host's body and feeds off their nutrients until ready to hatch. 
+These ones feel very light.</description>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<eggsize>0</eggsize>							<!--eggsize 1 = 100%, 0 - can hold unlimited eggs, up to 100 eggs per sex-->
+		<selffertilized>false</selffertilized>			<!--egg will be implanted fertilized-->
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg_Demonic_Fert" Abstract="True">
+		<defName>RJW_HumanLikeEgg</defName>
+		<label>Egg</label>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<description>Parasitic egg(s) that enter the host's body and feeds off their nutrients until ready to hatch. 
+These ones feel very light.</description>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<eggsize>0</eggsize>							<!--eggsize 1 = 100%, 0 - can hold unlimited eggs, up to 100 eggs per sex-->
+		<selffertilized>false</selffertilized>			<!--egg will be implanted fertilized-->
+		<stages>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_InsectEgg>
+	
+</Defs>

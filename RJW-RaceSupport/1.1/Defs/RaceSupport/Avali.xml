@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Avali Continued. 1732147907. https://steamcommunity.com/sharedfiles/filedetails/?id=1732147907 -->
+	<!-- Avali. 1314474881. https://steamcommunity.com/sharedfiles/filedetails/?id=1314474881 -->
+	<!-- Avali Race Mod - 1.6.0. 1034393407. https://steamcommunity.com/sharedfiles/filedetails/?id=1034393407 -->
+	<rjw.RaceGroupDef>
+		<defName>Avali_Raptor_People</defName>
+		
+		<raceNames>
+			<li>Avali</li>
+			<li>Alien_Avali</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DinoAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DinoVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DinoPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Feathers</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Drones -->
+	<rjw.RaceGroupDef>
+		
+		<defName>Avali_Drone</defName>
+		
+
+		<raceNames>
+			<li>AvaliGuardDrone</li>
+		</raceNames>
+		
+
+		<pawnKindNames>
+		</pawnKindNames>
+		
+
+		<anuses></anuses>
+		
+		<chanceanuses></chanceanuses>
+
+
+		<femaleBreasts></femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals></femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+
+		<maleBreasts></maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals></maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>false</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

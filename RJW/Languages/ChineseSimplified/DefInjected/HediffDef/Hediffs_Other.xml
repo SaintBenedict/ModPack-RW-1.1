@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Severity will be set to equal (1.0 - blood_filtration) in xxx.update_std_effects -->
+
+  <Immunodeficiency.label>免疫缺陷</Immunodeficiency.label>
+  <Immunodeficiency.stages.0.label>轻度</Immunodeficiency.stages.0.label>
+  <Immunodeficiency.stages.1.label>中度</Immunodeficiency.stages.1.label>
+  <Immunodeficiency.stages.2.label>重度</Immunodeficiency.stages.2.label>
+
+  <VirusPerma.label>病毒损伤</VirusPerma.label>
+  <VirusPerma.injuryProps.destroyedLabel>因疾病损失</VirusPerma.injuryProps.destroyedLabel>
+  <VirusPerma.injuryProps.destroyedOutLabel>因疾病损失</VirusPerma.injuryProps.destroyedOutLabel>
+
+  <PegArm.label>铆钉手臂</PegArm.label>
+  <PegArm.labelNoun>一个铆钉手臂</PegArm.labelNoun>
+
+
+</LanguageData>

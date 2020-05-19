@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Mod Name</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "race_Def"]/alienRace/generalSettings/maleGenderProbability</xpath>
+			<value>
+				<maleGenderProbability>0.5</maleGenderProbability>
+			</value>
+		</match>
+	</Operation>
+	-->
+</Patch>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Nephila -->
+	<rjw.RaceGroupDef>
+		<defName>Nephila_Group</defName>
+		<raceNames>
+			<li>Nephila</li>
+			<li>NephilaHandmaiden</li>
+			<li>NephilaMatron</li>
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<hasSingleGender>true</hasSingleGender>
+
+		<femaleBreasts>
+			<li>NephilaBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleGenitals>
+			<li>1.0</li>
+		</chancefemaleGenitals>
+
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>SlimeTentacles</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			<li>1.0</li>
+		</chancemaleGenitals>		
+		
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>
+	
+	<!-- GrandMatron -->
+	<rjw.RaceGroupDef>
+		<defName>NephilaGrandMatron_Group</defName>
+		<raceNames>
+			<li>NephilaGrandMatron</li>
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<hasSingleGender>true</hasSingleGender>
+
+		<femaleBreasts>
+			<li>NephilaBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleGenitals>
+			<li>1.0</li>
+		</chancefemaleGenitals>
+
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>SlimeTentacles</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			<li>1.0</li>
+		</chancemaleGenitals>		
+		
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>	
+
+	<!-- QueensGuard -->
+	<rjw.RaceGroupDef>
+		<defName>NephilaGuardian_Group</defName>
+		<raceNames>
+			<li>NephilaQueensGuard</li>		
+		</raceNames>
+
+		<hasFertility>false</hasFertility>
+
+		<chancefemaleGenitals>
+			<li>1.0</li>
+		</chancefemaleGenitals>
+
+		<femaleBreasts>
+			<li>NephilaSlimeBreasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+		</femaleGenitals>
+		
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>
+</Defs>

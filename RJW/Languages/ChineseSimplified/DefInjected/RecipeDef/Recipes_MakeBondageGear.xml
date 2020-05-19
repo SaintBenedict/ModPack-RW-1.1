@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeHololock.label>制作全息锁</MakeHololock.label>
+  <MakeHololock.description>制作全息锁</MakeHololock.description>
+  <MakeHololock.jobString>正在制作全息锁</MakeHololock.jobString>
+
+  <MakeArmbinder.label>制作手臂绑带</MakeArmbinder.label>
+  <MakeArmbinder.description>制作手臂绑带</MakeArmbinder.description>
+  <MakeArmbinder.jobString>正在制作手臂绑带</MakeArmbinder.jobString>
+
+  <MakeBallGag.label>制作口球</MakeBallGag.label>
+  <MakeBallGag.description>制作口球，让人无法说话。</MakeBallGag.description>
+  <MakeBallGag.jobString>正在制作口球中</MakeBallGag.jobString>
+
+  <MakeRingGag.label>制作环状口球</MakeRingGag.label>
+  <MakeRingGag.description>制作环状口球</MakeRingGag.description>
+  <MakeRingGag.jobString>正在制作环状口球</MakeRingGag.jobString>
+
+  <MakeChastityBelt.label>制作贞操带</MakeChastityBelt.label>
+  <MakeChastityBelt.description>制作贞操带</MakeChastityBelt.description>
+  <MakeChastityBelt.jobString>正在制作贞操带</MakeChastityBelt.jobString>
+
+  <MakeChastityBeltO.label>制作半贞操带</MakeChastityBeltO.label>
+  <MakeChastityBeltO.description>前面不行但是后面可以。</MakeChastityBeltO.description>
+  <MakeChastityBeltO.jobString>正在制作半贞操带</MakeChastityBeltO.jobString>
+
+  <MakeChastityCage.label>制作贞操笼</MakeChastityCage.label>
+  <MakeChastityCage.description>制作贞操笼</MakeChastityCage.description>
+  <MakeChastityCage.jobString>正在制作贞操笼</MakeChastityCage.jobString>
+
+  <MakePrisonerChains.label>制作锁链</MakePrisonerChains.label>
+  <MakePrisonerChains.description>制作锁链</MakePrisonerChains.description>
+  <MakePrisonerChains.jobString>正在制作锁链</MakePrisonerChains.jobString>
+
+
+</LanguageData>

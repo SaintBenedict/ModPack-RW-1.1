@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Orc -->
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>OrcVagina</defName>
+		<label>add orc vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OrcVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>OrcVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>OrcVagina</addsHediff>
+	</RecipeDef>
+	
+	<!-- Elf -->
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>ElfVagina</defName>
+		<label>add elf vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElfVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ElfVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ElfVagina</addsHediff>
+	</RecipeDef>
+	
+	<!-- Dino -->
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>DinoVagina</defName>
+		<label>add dino vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DinoVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DinoVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DinoVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>NecroVagina</defName>
+		<label>add decayed vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NecroVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NecroVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>NecroVagina</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>CactoidVagina</defName>
+		<label>add cactoid vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CactoidVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CactoidVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CactoidVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>GhoulVagina</defName>
+		<label>add irradiated vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GhoulVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GhoulVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GhoulVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>TreeVagina</defName>
+		<label>add bark vagina</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreeVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TreeVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TreeVagina</addsHediff>
+	</RecipeDef>
+	
+	<!-- Flower -->
+	<RecipeDef ParentName="FutaMakingM">
+		<defName>PistolVagina</defName>
+		<label>add pistol</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PistolVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PistolVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>PistolVagina</addsHediff>
+	</RecipeDef>
+
+</Defs>

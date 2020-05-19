@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ItchyCrotch.stages.0.label>阴部瘙痒</ItchyCrotch.stages.0.label>
+  <ItchyCrotch.stages.0.description>应该没人看到...我挠一下。</ItchyCrotch.stages.0.description>
+  <ItchyCrotch.stages.1.label>阴部瘙痒且灼热</ItchyCrotch.stages.1.label>
+  <ItchyCrotch.stages.1.description>怎么越闹越痒...</ItchyCrotch.stages.1.description>
+
+  <SyphiliticThoughts.stages.0.label>梅毒痴呆</SyphiliticThoughts.stages.0.label>
+  <SyphiliticThoughts.stages.0.description>每个人都如此愚蠢，一切都那么烦人。我什么都想不清楚。</SyphiliticThoughts.stages.0.description>
+  <SyphiliticThoughts.stages.1.label>重度梅毒痴呆</SyphiliticThoughts.stages.1.label>
+  <SyphiliticThoughts.stages.1.description>额...我是谁？我从哪来？我要做什么？什么几把玩意？</SyphiliticThoughts.stages.1.description>
+
+  <WastingAway.stages.0.label>尖锐湿疣扩散</WastingAway.stages.0.label>
+  <WastingAway.stages.0.description>我越来越虚弱了，已经时日无多。</WastingAway.stages.0.description>
+
+  <SawDiseasedPrivates1.stages.0.label>看到了{0}'裆部的菜花。</SawDiseasedPrivates1.stages.0.label>
+  <SawDiseasedPrivates2.stages.0.label>看到了{0}'让人作呕的菜花。</SawDiseasedPrivates2.stages.0.label>
+  <SawDiseasedPrivates3.stages.0.label>因{0}'的菜花感到恶心。</SawDiseasedPrivates3.stages.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_ApparelT1.label>Простая одежда Курин</DRNTF_ApparelT1.label>
+  <DRNTF_ApparelT1.description>Изучение производтва простой одежды куринов.\n\nИсследование технологии открывает: нижнее белье, футболка, рубашка, шарф</DRNTF_ApparelT1.description>
+
+  <DRNTF_ApparelT2.label>Обычная одежда Курин</DRNTF_ApparelT2.label>
+  <DRNTF_ApparelT2.description>Изучение производтва обычной одежды куринов.\n\nИсследование технологии открывает: off shoulder A/B, толстовка, жилет, летняя шляпа, вязанная шапка</DRNTF_ApparelT2.description>
+
+  <DRNTF_ApparelT3.label>Изысканная одежда Курин</DRNTF_ApparelT3.label>
+  <DRNTF_ApparelT3.description>Изучение производтва изысканной одежды куринов.\n\nИсследование технологии открывает: платье, комбинезон, плащ-пыльник, парка, очки, Ханбок А/Б</DRNTF_ApparelT3.description>
+
+  <DRNTF_ApparelT4.label>Военная одежда Курин</DRNTF_ApparelT4.label>
+  <DRNTF_ApparelT4.description>Изучение производтва военной одежды куринов.\n\nИсследование технологии открывает: военный шлем ☆/★, военная униформа</DRNTF_ApparelT4.description>
+
+
+</LanguageData>

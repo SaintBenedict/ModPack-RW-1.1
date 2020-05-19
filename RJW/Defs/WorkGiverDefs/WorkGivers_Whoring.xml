@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--
+	<WorkGiverDef>
+		<defName>WG_Solicit</defName>
+		<label>Solicit</label>
+		<giverClass>rjw.WorkGiver_Solicit</giverClass>
+		<workType>RJW_Sex</workType>
+		<verb>soliciting</verb>
+		<gerund>providing services</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>false</scanCells>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Talking</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+-->
+</Defs>

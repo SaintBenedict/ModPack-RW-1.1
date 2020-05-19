@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>TalkTopicsSex</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>TalkTopicAny->[TalkTopicSex]</li>
+
+        <li>TalkTopicSex(p=0.8)->[talktopicsexfile]</li>          
+
+        <li>TalkTopicHeavy(p=0.08)->the link between [talktopicsexfile] and [talktopicsexfile]</li>
+        <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicsexfile] and [talktopicsexfile]</li>
+        <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicsexfile] and [talktopicsexfile]</li>
+        <li>TalkTopicHeavy(p=0.16)->the link between [talktopicheavyfile] and [talktopicsexfile]</li>
+        <li>TalkTopicHeavy(p=0.16)->the connection between [talktopicheavyfile] and [talktopicsexfile]</li>
+        <li>TalkTopicHeavy(p=0.16)->the relationship between [talktopicheavyfile] and [talktopicsexfile]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>talktopicsexfile->Words/Nouns/TalkTopics_Sexual</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>

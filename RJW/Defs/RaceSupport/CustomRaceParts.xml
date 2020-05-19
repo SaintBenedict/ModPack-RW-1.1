@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Some sample race parts. -->
+<Defs>
+	<rjw.RacePartDef>
+		<defName>RJW_CowBreasts</defName>
+		<!-- Just a string, so it is safe to reference defs in other mods as long as you never load the race's mod without the hediff's mod. -->
+		<hediffName>UdderBreasts</hediffName>
+		<!-- Override fluid type. Defaults to chosen hediff's fluid type. -->
+		<fluidType>Milk</fluidType>
+		<!-- Override fluid modifier. Defaults to chosen hediff's fluid modifier. -->
+		<fluidModifier>2.0</fluidModifier>
+		<!-- Override severity (effective size). Defaults to chosen hediff's random size logic. Actual size will be scaled by pawn size. -->
+		<severityCurve>
+			<points>
+				<!-- 0.0 to 1.0 is "normal human" range. Of course they can go bigger than that. -->
+				<li>(0.2, 0.5)</li>
+				<li>(0.9, 1.0)</li>
+				<li>(1.0, 1.1)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+
+	<rjw.RacePartDef>
+		<defName>RJW_SmallHoneyBreasts</defName>
+		<hediffName>Breasts</hediffName>
+		<fluidType>Honey</fluidType>
+		<severityCurve>
+			<points>
+				<li>(0.1, 0.1)</li>
+				<li>(0.6, 0.3)</li>
+				<li>(1.0, 0.5)</li>
+			</points>
+		</severityCurve>
+	</rjw.RacePartDef>
+</Defs>

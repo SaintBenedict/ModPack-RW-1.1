@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<IncidentDef>
+		<defName>NymphJoins</defName>
+		<label>nymph joins</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphJoins</workerClass>
+		<baseChance>0.67</baseChance>
+		<minRefireDays>6</minRefireDays>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>NymphVisitor</defName>
+		<label>nymph visitor</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphVisitor</workerClass>
+		<baseChance>0.67</baseChance>
+		<minRefireDays>6</minRefireDays>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>NymphVisitorGroupEasy</defName>
+		<label>nymph raid(easy)</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphVisitorGroupEasy</workerClass>
+		<category>ThreatBig</category>
+		<baseChance>0.1</baseChance>
+		<minRefireDays>6</minRefireDays>
+		<pointsScaleable>false</pointsScaleable>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>NymphVisitorGroupHard</defName>
+		<label>nymph raid(hard)</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphVisitorGroupHard</workerClass>
+		<category>ThreatBig</category>
+		<baseChance>0.01</baseChance>
+		<minRefireDays>6</minRefireDays>
+		<pointsScaleable>false</pointsScaleable>
+	</IncidentDef>
+</Defs>

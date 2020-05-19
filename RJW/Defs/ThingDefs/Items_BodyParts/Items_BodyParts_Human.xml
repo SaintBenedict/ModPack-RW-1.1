@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Natural Penises -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>Penis</defName>
+		<label>penis</label>
+		<description>A penis.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Vaginas -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>Vagina</defName>
+		<label>vagina</label>
+		<description>A vagina.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Breasts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>Breasts</defName>
+		<label>breasts</label>
+		<description>A pair of breasts.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average C-cup boobs weight -->
+			<Mass>0.69</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Anuses -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>Anus</defName>
+		<label>anus</label>
+		<description>A anus.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>FeaturelessChest</defName>
+		<label>featureless chest</label>
+		<description>Smooth, featureless chest. Primarily found on non-mammalian creatures.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.14</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

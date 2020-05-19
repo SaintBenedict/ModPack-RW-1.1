@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
+	
+	<!-- Dragon's Descent. 2026992161. https://steamcommunity.com/sharedfiles/filedetails/?id=2026992161 -->
+	<rjw.RaceGroupDef>
+		<defName>Dragons_Descent_Group</defName>
+		
+		<raceNames>
+			<li>Black_Dragon</li>
+			<li>Blue_Dragon</li>
+			<li>Green_Dragon</li>
+			<li>Purple_Dragon</li>
+			<li>Red_Dragon</li>		
+			<li>White_Dragon</li>
+			<li>Yellow_Dragon</li>
+			<li>Gold_Dragon</li>
+			<li>Royal_Dragon</li>
+			<li>Silver_Dragon</li>
+			<li>Jade_Dragon</li>
+			<li>True_Dragon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>DragonAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DragonVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DragonPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Scale</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+		
+	</rjw.RaceGroupDef>
+			
+</Defs>

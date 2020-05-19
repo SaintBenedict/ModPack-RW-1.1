@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added by Hoge. -->
+
+  <FortunateGaveVirginity.stages.0.label>献出初夜</FortunateGaveVirginity.stages.0.label>
+  <FortunateGaveVirginity.stages.0.description>我是个处女。</FortunateGaveVirginity.stages.0.description>
+
+  <UnfortunateLostVirginity.stages.0.label>破瓜</UnfortunateLostVirginity.stages.0.label>
+  <UnfortunateLostVirginity.stages.0.description>我被破处了，再也回不去了。</UnfortunateLostVirginity.stages.0.description>
+
+  <TookVirginity.stages.0.label>开苞</TookVirginity.stages.0.label>
+  <TookVirginity.stages.0.description>我把别人开苞了。</TookVirginity.stages.0.description>
+
+
+</LanguageData>

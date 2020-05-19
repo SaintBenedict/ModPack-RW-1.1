@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- dress -->
+
+  <DR_BasicWear.label>기본 의상</DR_BasicWear.label>
+  <DR_BasicWear.description>드라고니안들이 입고 다니는 의상입니다. 아직까지도 야생에서 어떻게 저런 의류를 만들어 입고 다니는 지 밝혀지지 않았습니다.</DR_BasicWear.description>
+
+  <DR_BasicDress.label>기본 드레스</DR_BasicDress.label>
+  <DR_BasicDress.description>리본으로 장식된 의상입니다. 아직까지도 야생에서 어떻게 저런 의류를 만들어 입고 다니는 지 밝혀지지 않았습니다.</DR_BasicDress.description>
+
+  <DR_BigSizeWear.label>빅사이즈 옷</DR_BigSizeWear.label>
+  <DR_BigSizeWear.description>큰 치수의 의상입니다. 흘러내리는 옷은 다리 가랑이도 가리기 어렵습니다.</DR_BigSizeWear.description>
+
+  <DR_GreekDress.label>DR 드레스 A</DR_GreekDress.label>
+  <DR_GreekDress.description>끈으로 묶은 의상입니다.</DR_GreekDress.description>
+
+  <DR_GreekHanZo.label>DR 드레스 B</DR_GreekHanZo.label>
+  <DR_GreekHanZo.description>한쪽만 걸친 의상입니다.</DR_GreekHanZo.description>
+
+  <DR_GreekPriest.label>DR 드레스 C</DR_GreekPriest.label>
+  <DR_GreekPriest.description>긴 천으로 묶은 의상입니다.</DR_GreekPriest.description>
+
+  <DR_GreekSexyDress.label>DR 드레스 D</DR_GreekSexyDress.label>
+  <DR_GreekSexyDress.description>두갈래의 천으로 묶은 의상입니다.</DR_GreekSexyDress.description>
+
+  <DR_GreekString.label>DR 드레스 E</DR_GreekString.label>
+  <DR_GreekString.description>끈으로 묶은 의상입니다.</DR_GreekString.description>
+
+  <DR_FrontoffDress.label>앞트임 드레스</DR_FrontoffDress.label>
+  <DR_FrontoffDress.description>가슴과 몸통을 시원하게 드러내는 의상입니다.</DR_FrontoffDress.description>
+
+  <DR_JapaneseDress.label>DR 드레스 F</DR_JapaneseDress.label>
+  <DR_JapaneseDress.description>전신을 감싼 의상입니다.</DR_JapaneseDress.description>
+
+
+  <!-- 19/02/07 -->
+
+  <DR_Onepiece.label>DR 드레스 G</DR_Onepiece.label>
+  <DR_Onepiece.description>옆트임이 있는 원피스입니다.</DR_Onepiece.description>
+
+
+  <!-- Hat -->
+
+  <DR_Hat.label>꽃 장식</DR_Hat.label>
+  <DR_Hat.description>머리에 꽂을 수 있는 꽃 장식입니다.</DR_Hat.description>
+
+  <DR_JapanHairAcc.label>악세사리</DR_JapanHairAcc.label>
+  <DR_JapanHairAcc.description>머리에 꽂을 수 잇는 장식입니다.</DR_JapanHairAcc.description>
+
+
+  <!-- 19/02/07 -->
+
+  <DR_Necklace.label>목걸이</DR_Necklace.label>
+  <DR_Necklace.description>방울이 달린 목걸이 입니다.</DR_Necklace.description>
+
+  <DR_BellNecklace.label>목걸이 (방울)</DR_BellNecklace.label>
+  <DR_BellNecklace.description>방울이 달린 목걸이 입니다.</DR_BellNecklace.description>
+
+  <DR_SunHat.label>넓은챙 모자</DR_SunHat.label>
+  <DR_SunHat.description>태양을 가려줄 챙이 넓은 모자입니다.</DR_SunHat.description>
+
+
+  <!-- 의상 -->
+  <!-- 추가 -->
+  <!-- 모자 -->
+
+</LanguageData>

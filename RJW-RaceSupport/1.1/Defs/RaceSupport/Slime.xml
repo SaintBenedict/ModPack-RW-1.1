@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Slime race for rjw -->
+	<rjw.RaceGroupDef>
+		<defName>Lewd_Slime_Girls</defName>
+		<raceNames>
+			<li>Slime</li>
+		</raceNames>
+
+		<hasFertility>true</hasFertility>
+
+		<hasSingleGender>true</hasSingleGender>
+
+		<femaleBreasts>
+			<li>NephilaBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+		</femaleGenitals>
+
+		<maleGenitals>
+			<li>SlimeTentacles</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>		
+		
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		
+		<tags>
+			<li>Slime</li>
+		</tags>
+		
+	</rjw.RaceGroupDef>
+	
+
+</Defs>

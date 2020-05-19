@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Natural Penises -->
+
+	<Penis.label>пенис</Penis.label>
+	<Penis.description>
+	Обычный отрезанный пенис. Это средний размер. Все в порядке, ничего плохого в этом нет. Действительно, нет никакого стыда в том чтобы  быть средним. Это просто ... вы понимаете ... просто среднее.</Penis.description>
+
+	<Micropenis.label>микропенис</Micropenis.label>
+	<Micropenis.description>
+		Отрезанный мизинец.
+		Ах, нет подождите...
+	</Micropenis.description>
+
+	<SmallPenis.label>маленький пенис</SmallPenis.label>
+	<SmallPenis.description>
+	Отрезанный пенис.Он маленький, так что я надеюсь ты интересная разносторонняя личность.
+	A severed penis. It's rather small, so I hope you've got a great severed personality.</SmallPenis.description>
+
+	<BigPenis.label>большой пенис</BigPenis.label>
+	<BigPenis.description>Большой отрезанный пенис.</BigPenis.description>
+
+	<HugePenis.label>огромный пенис</HugePenis.label>
+	<HugePenis.description>Большой отрезанный пенис.</HugePenis.description>
+
+	<HorsePenis.label>конский член</HorsePenis.label>
+	<HorsePenis.description>Отрезанный член кентавра. Великоват для человека.</HorsePenis.description>
+
+	<CatPenis.label>кошачий член</CatPenis.label>
+	<CatPenis.description>Отрезанный член кошкодевочки. Длинный, тонкий и колючий.</CatPenis.description>
+
+	<DogPenis.label>собачий член</DogPenis.label>
+	<DogPenis.description>Отрезанный собачий член. Толстый .</DogPenis.description>
+
+	<DragonPenis.label>драконий член</DragonPenis.label>
+	<DragonPenis.description>Отрезанный драконий член. Твердый, большой и толстый.</DragonPenis.description>
+
+	<!-- Natural Vaginas -->
+
+	<Vagina.label>вагина</Vagina.label>
+	<Vagina.description>Вырезанная вагина, что бы это не значило.</Vagina.description>
+
+	<TightVagina.label>узкая вагина</TightVagina.label>
+	<TightVagina.description>Вырезнная узкая вагина, что бы это не значило.</TightVagina.description>
+
+	<LooseVagina.label>просторная вагина</LooseVagina.label>
+	<LooseVagina.description>Вырезанная просторная вагина, что бы это не значило.</LooseVagina.description>
+
+	<!-- Natural Breasts -->
+
+	<Breasts.label>грудь</Breasts.label>
+	<Breasts.description>Пара отрезанных сисек.</Breasts.description>
+
+	<SmallBreasts.label>маленькая грудь</SmallBreasts.label>
+	<SmallBreasts.description>Пара отрезанных маленьких сисек. Маленькие не значит плохие.</SmallBreasts.description>
+
+	<LargeBreasts.label>большая грудь</LargeBreasts.label>
+	<LargeBreasts.description>Пара отрезанных больших сисек.</LargeBreasts.description>
+
+	<HugeBreasts.label>огромная грудь</HugeBreasts.label>
+	<HugeBreasts.description>Пара отрезанных огромных сисек.</HugeBreasts.description>
+
+	<!-- Natural Anuses -->
+
+	<Anus.label>анус</Anus.label>
+	<Anus.description>Вырезанный анус... да я не знаю, что это значит.</Anus.description>
+
+	<TightAnus.label>узкий анус</TightAnus.label>
+	<TightAnus.description>Вырезанный узкий анус... да я не знаю, что это значит.</TightAnus.description>
+
+	<LooseAnus.label>широкий анус</LooseAnus.label>
+	<LooseAnus.description>Эй смотрите, пончик. Просто шучу, это анус.</LooseAnus.description>
+
+	<!-- Simple prosthetic penises -->
+
+	<PegDick.label>член-колышек</PegDick.label>
+	<PegDick.description>Деревянный дилдо спроэктированный заменить потерянный пенис. !ОСТОРОЖНО ЗАНОЗЫ!</PegDick.description>
+
+	<!-- Simple prosthetic vaginas -->
+
+	<HydraulicVagina.label>гидравлическая вагина</HydraulicVagina.label>
+	<HydraulicVagina.description>Низкотехнологичное протезное влагалище. Ее холодные металлические захваты неудобны, но имеют большую мощность всасывания.</HydraulicVagina.description>
+
+	<!-- Simple prosthetic breasts -->
+
+	<HydraulicBreasts.label>гидравлическая грудь</HydraulicBreasts.label>
+	<HydraulicBreasts.description>Низкотехнологичные протезные груди. Конический металл с повышенным насосным действием, распылите на друзей.</HydraulicBreasts.description>
+
+	<!-- Simple prosthetic anuses -->
+
+	<HydraulicAnus.label>гидравлический анус</HydraulicAnus.label>
+	<HydraulicAnus.description>Низкотехнологичный протезный анус. Его холодные металлические захваты неудобны, но имеют большую мощность всасывания.</HydraulicAnus.description>
+
+	<!-- Bionic penises -->
+
+	<BionicPenis.label>бионический пенис</BionicPenis.label>
+	<BionicPenis.description>
+		Высокотехнологичный протезный пенис. Особенности включают:
+		- НЕВЕРОЯТНО ОГРОМНЫЙ, этот протез больше, чем любой известный натуральный пенис, и является самым большим протезом полового члена, допустимым в соответствии с федеральным законом.
+		- Более 50 различных режимов вибрации, включая 10 сильнейших стимулирующих сигналов, известных науке
+		- Современный нейронный интерфейс активирует нейронные окончания, о которых вы даже не догадывались, что вы даже не представляли себе, что вы можете это чувствовать.
+	</BionicPenis.description>
+
+	<!-- Bionic vaginas -->
+
+	<BionicVagina.label>бионическая вагина</BionicVagina.label>
+	<BionicVagina.description>
+		Высокотехнологичное протезное влагалище. Особенности включают:
+		- Внутренняя сторона, облицованная 150 миллионами микро-точками G
+		- Изменяет размер чтобы подойти любому пенису
+		- Автоматическая смазка с борофритным псевдофлюидом, гладкая, но не вязкая (включает в себя легкую вязкость в случае, если вы ею покрыты)
+		- Технология SenseID идентифицирует человека, которого вы трахаете, автоматически добавляет его на Facebook и связывается с его матерью, представляя вас его новой девушкой)
+	</BionicVagina.description>
+
+	<!-- Bionic breasts -->
+
+	<BionicBreasts.label>бионическая грудь</BionicBreasts.label>
+	<BionicBreasts.description>
+		Высокотехнологичные протезные груди. Особенности включают:
+		- Изменяет размер до любого желаемого.
+	</BionicBreasts.description>
+
+	<!-- Bionic anuses -->
+
+	<BionicAnus.label>бионический анус</BionicAnus.label>
+	<BionicAnus.description>
+		Высокотехнологичный протезный анус. Особенности включают:
+		- Изменяет размер чтобы подойти любому пенису
+		- Автоматическая смазка с борофритным псевдофлюидом, гладкая, но не вязкая (включает в себя легкую вязкость в случае, если вы ею покрыты)
+	</BionicAnus.description>
+</LanguageData>

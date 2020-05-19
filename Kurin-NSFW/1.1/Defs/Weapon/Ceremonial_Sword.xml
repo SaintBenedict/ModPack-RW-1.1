@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>Kurin_MeleeWeapon_Ceremonial_Sword</defName>
+	<label>kurin ceremonial sword</label>
+	<description>쿠린들의 예식용 검입니다. 전투용으로 설계된 검은 아니지만 적을 반으로 갈라버리는 데에는 지장이 없습니다.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Ceremonial_Sword/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <uiIconScale>1.0</uiIconScale>
+	<techLevel>Industrial</techLevel>
+	<weaponTags>
+		<li>Kurin_Ceremonial_Sword</li>
+	</weaponTags>
+	<costStuffCount>125</costStuffCount>
+	<statBases>
+		<WorkToMake>24000</WorkToMake>
+		<Mass>4</Mass>
+	</statBases>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<tools>
+		<li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>40</power>
+			<cooldownTime>4.0</cooldownTime>
+		</li>
+	</tools>
+	<recipeMaker>
+		<researchPrerequisite>LongBlades</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+</ThingDef>
+
+</Defs>

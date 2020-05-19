@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>Condom</defName>
+		<label>Condom</label>
+		<description>Prevents a single case of pregnancy. Hint: Auto used from pawn inventory or stack next to whore bed when whoring.</description>
+		<graphicData>
+			<texPath>Things/Item/Condom</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>1</MarketValue>
+			<Mass>0.01</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>UsedCondom</defName>
+		<label>Used Condom</label>
+		<description>A condom filled with sperm. MMMM So good and tasty!</description>
+		<graphicData>
+			<texPath>Things/Item/UsedCondom</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<Beauty>-10</Beauty>
+			<MarketValue>1</MarketValue>
+			<Mass>0.05</Mass>
+      		<Nutrition>0.05</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, AnimalProduct</foodType>
+			<preferability>DesperateOnlyForHumanlikes</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+		</ingestible>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+	
+	<RecipeDef>
+		<defName>MakeCondom</defName>
+		<label>make condom x10</label>
+		<description>Craft 10 condoms.</description>
+		<jobString>Making condoms.</jobString>
+		<workAmount>80</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Condom>10</Condom>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<ThoughtDef>
+		<defName>SexWithCondom</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1</durationDays>
+		<stackLimit>100</stackLimit>
+		<stages>
+			<li>
+				<label>Had to wear condom</label>
+				<description>Had to wear condom</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

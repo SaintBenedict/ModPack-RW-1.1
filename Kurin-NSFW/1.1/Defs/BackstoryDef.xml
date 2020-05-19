@@ -1,0 +1,2722 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==========유년기==========-->
+<AlienRace.BackstoryDef Name="Kurin_BaseBackstory" Abstract="True">
+	<disallowedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>-1</degree>
+			<chance>100</chance>
+		</li>
+		<li>
+			<defName>Beauty</defName>
+			<degree>-2</degree>
+			<chance>100</chance>
+		</li>
+	</disallowedTraits>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Female</bodyTypeMale>
+</AlienRace.BackstoryDef>
+<!--고아-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_01</defName>
+	<title>Kurin Orphan</title>
+	<titleShort>Orphan</titleShort>
+	<baseDescription>[PAWN_nameDef]'s parents were killed by humans when [PAWN_pronoun] was young. [PAWN_pronoun] got PTSD after that, and has gone through psychiatric treatment for many years. [PAWN_pronoun] is mostly fine nowadays, but sometimes [PAWN_pronoun] suffers from nightmares about that day.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--어린 시녀-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_02</defName>
+	<title>Kurin Young Maid</title>
+	<titleShort>Maid</titleShort>
+	<baseDescription>[PAWN_nameDef]'s parents lost their entire wealth in an unfortunate accident and got a lot of debt. But fortunately, one noble took pity on them and hired [PAWN_nameDef] as a housemaid. In the noble's mansion, [PAWN_pronoun] mostly did household chore and sometimes took care of the noble's daughter, and eventually became friends with her. </baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Social</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Cooking</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--여우무리 일원-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_03</defName>
+	<title>Kurin Vigilante</title>
+	<titleShort>Vigilante</titleShort>
+	<baseDescription>The Vigilante Fox Squad was one of the most popular TV animations among young Kurins. [PAWN_nameDef] gathered some friends and created their own vigilante squad. They patrolled fields and alleys, considered themselves as peacekeeping guardians of the local city. But since public security was good enough around there, there was not much to do.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--따돌려진 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_04</defName>
+	<title>Kurin Bullied Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] was a rare blue-eyed child. Since it was a ominous sign among Kurin culture, [PAWN_pronoun] grew up as a lonely child, shunned by everyone from children to adults.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Social</defName>
+		<amount>-6</amount>
+		</li>
+		<li>
+		<defName>Medicine</defName>
+		<amount>6</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>6</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--비행청소년-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_05</defName>
+	<title>Kurin Trouble Maker</title>
+	<titleShort>Trouble Maker</titleShort>
+	<baseDescription>[PAWN_nameDef] was envied by some children but also an absolute headache for teachers. Everyone was terrified because of [PAWN_nameDef]'s villainy, including skipping cleaning duty, not listening to teachers or not dust off shoes in the entrance.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Shooting</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--빈민가 고아-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_06</defName>
+	<title>Kurin Slum Orphan</title>
+	<titleShort>Orphan</titleShort>
+	<baseDescription>[PAWN_nameDef] spent childhood wandering through the trash, eating moldy bread. There was a facility to help orphans, but after the Republic of Kurin devoted all its resource into the building of migration ships, [PAWN_pronoun] did not receive proper welfare benefits and lived in a cardboard box house built in an alley.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Medicine</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Cooking</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Construction</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Plants</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--공잡이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_07</defName>
+	<title>Kurin Ball Catcher</title>
+	<titleShort>Ball Catcher</titleShort>
+	<baseDescription>[PAWN_nameDef] really loved baseball, so [PAWN_pronoun] went into human nations and watched every baseball game [PAWN_pronoun] could afford. As [PAWN_pronoun] watched every game, she frequently got caught on the camera, and was eventually picked up by the team and became a ball catcher.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Shooting</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--동물원 아르바이터-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_08</defName>
+	<title>Kurin Zoo Part-timer</title>
+	<titleShort>Zoo Part-timer</titleShort>
+	<baseDescription>[PAWN_nameDef] grew up in a poor family because [PAWN_pronoun] had many siblings. So [PAWN_pronoun] became a self-supporting student, working at the zoo as a part-time job to pay for their tuition fee. [PAWN_pronoun] mostly took care of herbivores, which was relatively easy to handle. And [PAWN_pronoun] didn't neglect studying either.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Animals</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>4</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--게으른 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_09</defName>
+	<title>Kurin Lazy child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] got really tired of everything, so [PAWN_pronoun] just sat in a room, played games every day and night. [PAWN_pronoun] didn't care about friends either. As [PAWN_pronoun] didn't wash often, the room smelled bad too. [PAWN_nameDef]'s parents were very worried about their child.</baseDescription>
+	<slot>Childhood</slot>
+	<forcedTraits>
+		<li>
+			<defName>Industriousness</defName>
+			<degree>-1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--평범한 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_10</defName>
+	<title>Kurin Ordinary Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>Born in an average middle class family, [PAWN_nameDef] grew up fine, warmly loved by their parents. Like other children, [PAWN_pronoun] enjoyed having fun and eating sweet macaroons. Their grades were neither really good or bad, but [PAWN_pronoun] was a generous child who really took care of their friends.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Cooking</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--프로게이머-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_11</defName>
+	<title>Kurin Professional Gamer</title>
+	<titleShort>Professional Gamer</titleShort>
+	<baseDescription>[PAWN_nameDef]'s game skills were unmatched by anyone. [PAWN_pronoun] could adapt to any game very quickly. [PAWN_pronoun] always kept top ten ranking, and [PAWN_pronoun] even won the championship in several competitions. But whenever internet connection went bad, [PAWN_pronoun] became really sad and refuses to do anything.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Shooting</defName>
+		<amount>6</amount>
+		</li>
+		<li>
+		<defName>Cooking</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Construction</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Plants</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Mining</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--시골 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_12</defName>
+	<title>Kurin Country Kid</title>
+	<titleShort>Country Kid</titleShort>
+	<baseDescription>[PAWN_nameDef] spent childhood with nature, picking mushrooms from the mountains, chased cats in the fields, or fishing at the river. Sometimes [PAWN_pronoun] got little sunburns, but she grew healthy regardless.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Animals</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Construction</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Plants</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Mining</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>-4</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--도시꼬마-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_13</defName>
+	<title>Kurin City Kid</title>
+	<titleShort>City Kid</titleShort>
+	<baseDescription>[PAWN_nameDef] grew up in downtown of the Kurin metropolis, with plenty of things to do, such as hobby, entertainment, VR games and so on. But most of all, [PAWN_nameDef]'s favorite thing to do was traveling with her family.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Medicine</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Plants</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Mining</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Artistic</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef> 
+<!--어린 만화가-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_14</defName>
+	<title>Kurin Young Cartoonist</title>
+	<titleShort>Cartoonist</titleShort>
+	<baseDescription>[PAWN_nameDef] loved drawing and had talent. When [PAWN_pronoun] started drawing, [PAWN_pronoun] concentrated so much that [PAWN_pronoun] couldn't notice others at all. Even during their study, she was often scolded by her teacher, but her passion couldn't be stopped.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Artistic</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>-2</amount>
+		</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--한꼬리 증후군-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_15</defName>
+	<title>Kurin Single-tail syndrome</title>
+	<titleShort>Single-tail</titleShort>
+	<baseDescription>[PAWN_nameDef] was born with one tail unlike others. Life was not impaired at all, but slow growth made [PAWN_nameDef] look younger than her peers. When she was young, she was teased a lot, but as she grew older, she became more popular with cute looks than other Kurins.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Social</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+		</li>
+	</forcedTraits>	
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--겁많은 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_16</defName>
+	<title>Kurin Timid Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] was a very scared child. Everywhere was full of scary things. The shadows of the night, the small sounds that you hear when you sleep. [PAWN_pronoun] often got surprised by honks. The one she hated most was the bugs, she is frightened and fleeing as long as they came out. [PAWN_pronoun] didn't even think about fighting back.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+		<defName>Plants</defName>
+		<amount>-2</amount>
+		</li>
+		<li>
+		<defName>Crafting</defName>
+		<amount>4</amount>
+		</li>
+		<li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+		</li>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--다정한 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_17</defName>
+	<title>Kurin Affectionate Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] is a friendly child. [PAWN_pronoun] had always listened to their friends and sincerely comforted their friends who had bad days. [PAWN_pronoun] was a good child who made her friends day brighter.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Kind</defName>
+			<degree>0</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--가난한 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_18</defName>
+	<title>Kurin Poor Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] had a poor childhood. Both parents returned home late at night, and [PAWN_pronoun] grew up a little earlier than others as [PAWN_pronoun] left was alone in the daytime. [PAWN_pronoun]'s dream was to make a lot of money and studied hard to make her dreams come true.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--찻집 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_19</defName>
+	<title>Kurin Cafe Child</title>
+	<titleShort>Child</titleShort>
+	<baseDescription>[PAWN_nameDef] helped her parents cafe after school. [PAWN_pronoun] took orders and did cleaning. Some regular customers often gave some tips. With that, [PAWN_pronoun] bought ice cream or saved money.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--두부집 딸-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_20</defName>
+	<title>Kurin Tofu House Daughter</title>
+	<titleShort>Tofu House Daughter</titleShort>
+	<baseDescription>The family of [PAWN_nameDef] has continued to make tofu in the traditional way and has a well-established store for over 100 years. [PAWN_pronoun] grew up learning their mother's teaching that one should make their tofu with all their heart, regardless of Human's favorite, tofu or Kurin's favorite, fried tofu.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--유흥가 심부름꾼-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_21</defName>
+	<title>Kurin Red-light District Runner</title>
+	<titleShort>Runner</titleShort>
+	<baseDescription>It is illegal in the Republic of Kurin to hire young children to work in red-light districts. However, [PAWN_nameDef] touted other Kurins in the red-light districts or running errands at convenience stores, and gained a lot of money as a child. Since [PAWN_pronoun] was a clever, cunning child, she was able to easily avoid crackdowns.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--어린 공예가-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_22</defName>
+	<title>Kurin Young Crafter</title>
+	<titleShort>Crafter</titleShort>
+	<baseDescription>[PAWN_nameDef] had better dexterity than others. [PAWN_pronoun] loved to make cute handicrafts and share them with friends, and it was always popular among friends.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--어린 원예가-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_23</defName>
+	<title>Kurin Young Gardener</title>
+	<titleShort>Gardener</titleShort>
+	<baseDescription>[PAWN_nameDef] loved everything about plants. Whenever [PAWN_pronoun] had spare time, [PAWN_pronoun] went to the farm and looked after crops, or [PAWN_pronoun] went to the nearest botanical garden.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Animals</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>2</amount>
+	</li>
+		
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--어린 요리사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_24</defName>
+	<title>Kurin Young Chef</title>
+	<titleShort>Chef</titleShort>
+	<baseDescription>[PAWN_nameDef] had fun baking bread and cookies or decorating cakes. [PAWN_pronoun] always got praised in cooking class, and soon after [PAWN_pronoun] discovered a talent in other dishes. From simple meal to lavish cuisine, [PAWN_pronoun] could make all sorts of dishes.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Cooking</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--동물 애호가-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_25</defName>
+	<title>Kurin Animal Lover</title>
+	<titleShort>Animal Lover</titleShort>
+	<baseDescription>[PAWN_nameDef] really loved animals. [PAWN_pronoun] would like to raise as many as animals [PAWN_pronoun] can, but due to realistic problems, [PAWN_pronoun] had no choice but to raise a robot pet. However, [PAWN_pronoun] liked the warmth of real living animals than robots, and often went to the zoo.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Animals</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--똑똑한 학생-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_26</defName>
+	<title>Kurin Smart Student</title>
+	<titleShort>Student</titleShort>
+	<baseDescription>[PAWN_nameDef]'s grades were better than other students. Exam scores have always been high, and relationships with other friends have been good. However, [PAWN_nameDef]'s body became weak as [PAWN_pronoun] spent a long time sitting at their desk, and it became common for them to sit quietly in the corner in PE classes.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--다재다능한 아이-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_27</defName>
+	<title>Kurin Versatile Child</title>
+	<titleShort>Child</titleShort>
+<baseDescription>[PAWN_nameDef] was talented in various fields such as studying, cooking, crating, and sports, but it rather made [PAWN_pronoun] difficult to focus on one field. [PAWN_pronoun] wandered for a while to find her career.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+		<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+		<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+		<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+		<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+		<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--책벌레-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_28</defName>
+	<title>Kurin Bookworm</title>
+	<titleShort>Bookworm</titleShort>
+	<baseDescription>The small sound of turning the page, smell of old paper... [PAWN_nameDef] loved reading books with their reading lights on and their room was full of books. [PAWN_nameDef] often spent all day reading books in an old library.</baseDescription>	
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-4</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--최초의 쿠린-->
+<AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_29</defName>
+	<title>First Kurin</title>
+	<titleShort>First Kurin</titleShort>
+	<baseDescription>[PAWN_nameDef] is one of the first Kurin pioneers. When their ship made it onto the new planet, [PAWN_pronoun] was unable to wake up for hundreds of years due to a fault in the cryptosleep casket. Only recently did Kurin mastered the cryptosleep technology and [PAWN_pronoun] finally woke up.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>3</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>3</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef> 
+<!--유학생-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_30</defName>
+	<title>Kurin Foreign Student</title>
+	<titleShort>Foreign Student</titleShort>
+	<baseDescription>[PAWN_nameDef] was a foreign student in the human nations, who had been away from parents since [PAWN_pronoun] was a child. Fortunately, the school [PAWN_pronoun] attended was a place with good children and teachers, and [PAWN_pronoun] was able to grow up as an outgoing, warm-hearted fox.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>3</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>3</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--어린 음악가-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_31</defName>
+	<title>Kurin Young Musician</title>
+	<titleShort>Musician</titleShort>
+	<baseDescription>[PAWN_nameDef] was a young fox who loved music and loved to sing with friends. [PAWN_pronoun] became more and more entertained by music as [PAWN_pronoun] composed own songs and music, and even got good responses from others. But their parents were not particularly happy about that.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--아역 배우-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_32</defName>
+	<title>Kurin Child Actor</title>
+	<titleShort>Actor</titleShort>
+	<baseDescription>[PAWN_nameDef] was renowned for excellent acting skills and rich emotional expression despite a young age. [PAWN_pronoun] wanted to appear in many movies and dramas, and [PAWN_pronoun] was able to learn various skills while acting in various genres.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--활발한 학생-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_33</defName>
+	<title>Kurin Outgoing Student</title>
+	<titleShort>Student</titleShort>
+	<baseDescription>[PAWN_nameDef] has always been popular among friends for cute looks and bright, cheerful personality. Later on, [PAWN_pronoun] became a celebrity, but since [PAWN_pronoun] couldn't play or live freely with friends as before, [PAWN_pronoun] felt lonely after all. Not long after, [PAWN_pronoun] decided to retire and return to normal life.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--격투기 수련생-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_34</defName>
+	<title>Kurin Martial Art Trainee</title>
+	<titleShort>Trainee</titleShort>
+	<baseDescription>[PAWN_nameDef] was a wimp, weaker than peers. [PAWN_pronoun] began to practice several sports and martial arts to overcome this. [PAWN_pronoun] worked hard and has become strong enough to win regional competitions.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--스카우트단-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_35</defName>
+	<title>Kurin Scout</title>
+	<titleShort>Scout</titleShort>
+	<baseDescription>The young [PAWN_nameDef] had a great yearning for the children's scouts. [PAWN_nameDef]'s parents bought uniforms for their child despite their poverty, and [PAWN_pronoun] was able to join the Scouts and spent happy days learning various skills such as camping, botany and survival.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--체육부원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryChild_36</defName>
+	<title>Kurin Athlete</title>
+	<titleShort>Athlete</titleShort>
+	<baseDescription>Unlike most Kurins, [PAWN_nameDef] loved to move, and joined the school's athletic club to do various sports. PE class was a solo stage of [PAWN_nameDef], and [PAWN_pronoun] was considerate enough to help the ones who were bullied. But unfortunately, [PAWN_nameDef]'s grade was not really good.</baseDescription>
+	<slot>Childhood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>-4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--==========성년기==========-->
+<!--신문기자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_01</defName>
+	<title>Kurin Journalist</title>
+	<titleShort>Journalist</titleShort>
+	<baseDescription>[PAWN_nameDef] is a journalist who writes an article in a newspaper. [PAWN_pronoun] covered recent state of the nation, culture, and diplomacy. Surprisingly, the proportion of politics is not that big. Because everyone believes Republic of Kurin is fair, upright nation.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--고용된 메이드-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_02</defName>
+	<title>Kurin Hired Maid</title>
+	<titleShort>Maid</titleShort>
+	<baseDescription>[PAWN_nameDef] is a maid hired in a mansion of a noble. [PAWN_pronoun] did cleaning and prepared meals as a housekeeper, but also worked as a butler from purchase goods for maintaining the mansion to managing the account. [PAWN_pronoun] gained master's trust along the way.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--레스토랑 종업원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_03</defName>
+	<title>Kurin Restaurant Waiter</title>
+	<titleShort>Waiter</titleShort>
+	<baseDescription>[PAWN_nameDef] works at the restaurant, taking orders from customers, serving food, and organizing tables. Although the hair often came out of the food, many guests liked [PAWN_nameDef] and [PAWN_pronoun] even learned the chef's brilliant cooking skills and knives.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--사냥감-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_04</defName>
+	<title>Kurin Prey</title>
+	<titleShort>Prey</titleShort>
+	<baseDescription>Fox hunting is a luxury sport of human nobles that have been around for a long time. Although banned for cruelty, it has been gaining popularity again since the emergence of Kurin. As a prey, [PAWN_nameDef] wore a fur suit and ran away from the hunters. The bullet was a relatively fragile salt bullet, but [PAWN_pronoun] had bruise all over the body.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Tough</defName>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--테러리스트-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_05</defName>
+	<title>Kurin Terrorist</title>
+	<titleShort>Terrorist</titleShort>
+	<baseDescription>[PAWN_nameDef] is well-known terrorist among international society. But in reality, [PAWN_pronoun] was a hero who assassinated an officer in a dictatorship who killed Kurins for fun. Nobody knew this and [PAWN_pronoun] always had to run away, but [PAWN_pronoun] thinks [PAWN_pronoun] did the right thing.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>-4</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--관경병 생존자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_06</defName>
+	<title>Kurin Rabies Survivor</title>
+	<titleShort>Survivor</titleShort>
+	<baseDescription>In a pandemonium city where rabies-infected Kurins gone insane and bite each other, [PAWN_nameDef] managed to hide in a convenience store. [PAWN_pronoun] could hear horrible screams and sound of the Kurins biting each other from the outside all day long. After few days, [PAWN_pronoun] was eventually rescued, but the horrifying memories remained.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-4</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--마사지샵 점원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_07</defName>
+	<title>Kurin Massager</title>
+	<titleShort>Massager</titleShort>
+	<baseDescription>[PAWN_nameDef] works at a massage shop located in red-light district. [PAWN_pronoun] usual job is to give customers a massage with spices and oil to relieve fatigue, but there is also a special service available for those who want something more. [PAWN_pronoun] touched a lot of other Kurin's body, and the tips were very helpful to livelihood.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--자연의 여우-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_08</defName>
+	<title>Kurin Natural Fox</title>
+	<titleShort>Natural Fox</titleShort>
+	<baseDescription>[PAWN_nameDef] got tired city life, so [PAWN_pronoun] went into the mountains. [PAWN_pronoun] built an old-fashioned house that barely had water and electricity, handling farming and chores by oneself. [PAWN_pronoun] always had dirt and water in hands. </baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-4</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--시민-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_09</defName>
+	<title>Kurin Citizen</title>
+	<titleShort>Citizen</titleShort>
+	<baseDescription>[PAWN_nameDef] is an ordinary citizen. Citizens who work hard every day doing their own work are the very foundation and basis of the Kurin's society. They will overcome any difficulty under the identity of Kurin.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>	
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>	
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>	
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--은행 접수원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_10</defName>
+	<title>Kurin Bank Receptionist</title>
+	<titleShort>Receptionist</titleShort>
+	<baseDescription>[PAWN_nameDef] is a smart fox who worked in a bank, who is in charge of various tasks. From taking care of the other Kurin's deposits to consult on loans. [PAWN_pronoun] loved the job and had a satisfying work life thanks to good colleagues.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--포도밭의 파수꾼-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_11</defName>
+	<title>Kurin Vineyard Lookout</title>
+	<titleShort>Lookout</titleShort>
+	<baseDescription>[PAWN_nameDef] is a lookout, wearing a straw hat and sitting on a wooden hut to protect the vineyard. When cute little young Kurins came to stole the grapes they looked after, they shouted out firecely to kick them out. When the grapes weren't ripe enough, they used to laugh as they watched the little ones crying in sourness.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--경비행기 파일럿-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_12</defName>
+	<title>Kurin Pilot</title>
+	<titleShort>Pilot</titleShort>
+	<baseDescription>[PAWN_nameDef] is a pilot who's able to fly a light aircraft. [PAWN_pronoun] got in trouble when [PAWN_pronoun] helped the blue hedgehog who stole seven jewels and cross the border, so [PAWN_pronoun] doesn't do that kind of work anymore.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--경찰-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_13</defName>
+	<title>Kurin Police</title>
+	<titleShort>Police</titleShort>
+	<baseDescription>[PAWN_nameDef] is an excellent police officer who graduated from the police school with the highest grades. [PAWN_nameDef]'s personality was not really suitable for the police, but after so much effort, [PAWN_pronoun] achieved one's dream, and shook off other's sarcasm.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--붉은여우 병기창 계원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_14</defName>
+	<title>Kurin Armory Clerk</title>
+	<titleShort>Clerk</titleShort>
+<baseDescription>[PAWN_nameDef] is a Redfox Armory's clerk, who's in charge of warehouse documents. But [PAWN_pronoun] is not really familiar of actual gunsmithing since all [PAWN_pronoun] did was paperworks.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>1</amount>
+	</li>
+		<li>
+	<defName>Intellectual</defName>
+	<amount>3</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Industriousness</defName>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--선교사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_15</defName>
+	<title>Kurin Missionary</title>
+	<titleShort>Missionary</titleShort>
+	<baseDescription>[PAWN_nameDef] followed religious beliefs and lived life for helping poor Kurins. [PAWN_nameDef]'s life was mostly in poverty, but the heart was wealthier than anyone else.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>-4</amount>
+	</li>
+		<li>
+	<defName>Melee</defName>
+	<amount>-4</amount>
+	</li>
+		<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+		<li>
+	<defName>Medicine</defName>
+	<amount>4</amount>
+	</li>
+		<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+		<li>
+	<defName>Plants</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Kind</defName>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--무역회사 사원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_16</defName>
+	<title>Kurin Trade Salesperson</title>
+	<titleShort>Salesperson</titleShort>
+	<baseDescription>[PAWN_nameDef] is a salesperson of a trading company that sells various Kurin products to other nations. Kurin is known as a affable, but crafty trader among other nations, and [PAWN_pronoun] is just like that. But recently, relations with other countries have got worsened and sales have been difficult.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>8</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--활주로 신호수-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_17</defName>
+	<title>Kurin Groundcrew</title>
+	<titleShort>Groundcrew</titleShort>
+	<baseDescription>[PAWN_nameDef] is a groundcrew of Kurin airport who's in charge of sending signal to aircrafts with light sticks. Few layers of earplugs were not enough to protect [PAWN_nameDef]'s sensitive ears against loud engine noise. But eventually, [PAWN_pronoun] got used to it. [PAWN_pronoun] even managed to tie up the tails, as tails were fluttered all over the place thanks to the fierce wind.</baseDescription>
+	<slot>Adulthood</slot>
+	<forcedTraits>
+		<li>
+			<defName>Nerves</defName>
+			<degree>2</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--캐러밴 무역상-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_18</defName>
+	<title>Kurin Caravan Trader</title>
+	<titleShort>Trader</titleShort>
+	<baseDescription>[PAWN_nameDef] was originally an ordinary door-to-door salesman, but now [PAWN_pronoun] is stuck on the Rimworld and is now leading the caravan, doing business between different settlements. Usually they only visit fellow Kurin settlements, but often they visit other faction settlements to trade goods they need.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--편의점 아르바이터-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_19</defName>
+	<title>Kurin Part-timer</title>
+	<titleShort>Part-timer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Kurin who works part-time at a convenience store in a boring residential area. Since there are not many customers at night, [PAWN_pronoun] study whenever [PAWN_pronoun] have time.  But [PAWN_pronoun] does not neglect the work. [PAWN_pronoun] dream of becoming costruction engineer one day, and preparing for that day-by-day.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--관광지 호객꾼-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_20</defName>
+	<title>Kurin Tout</title>
+	<titleShort>Tout</titleShort>
+	<baseDescription>[PAWN_nameDef] touted to Kurins and humans who came to the beach. The game [PAWN_pronoun] prepared was something like throwing a ball to hit the dolls or popping balloons with darts, but sometimes [PAWN_pronoun] selled cheap souvenirs with ridiculous prices. During the holiday season, [PAWN_pronoun] gained quite a lot of income.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--전통시장 점주-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_21</defName>
+	<title>Kurin Marketplace Cook</title>
+	<titleShort>Cook</titleShort>
+	<baseDescription>[PAWN_nameDef] sold food at cheap price in the old Kurin marketplace. Fried tofu, various snacks, and even meals. Nowadays, Kurins usually go to big department stores, but thanks to [PAWN_nameDef]'s cooking skills, [PAWN_pronoun] got some reputation among customers.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--전직 쉐프-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_22</defName>
+	<title>Kurin Former Chef</title>
+	<titleShort>Chef</titleShort>
+	<baseDescription>[PAWN_nameDef] was a chef working in a luxury hotel of a human nation. However, [PAWN_pronoun] was fired after receiving frequent complaints from customers that hair comes from the food of a luxury hotel. [PAWN_pronoun] returned to the Republic of Kurin afterwards, and worked at a small restaurant. Although [PAWN_pronoun] got paid less, but at least [PAWN_pronoun] doesn't have to worry about complaints.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>6</amount>
+	</li>
+
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--동물 사육사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_23</defName>
+	<title>Kurin Animal Handler</title>
+	<titleShort>Handler</titleShort>
+<baseDescription>[PAWN_nameDef] is a popular handler of the zoo. [PAWN_pronoun] mainly care for young animal and trained them for stage performances. Sometimes [PAWN_pronoun] became guide for visitors, and [PAWN_pronoun] was always popular.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>	
+	<li>
+	<defName>Animals</defName>
+	<amount>6</amount>
+	</li>	
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--수경재배 농부-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_24</defName>
+	<title>Kurin Hydroponics Farmer</title>
+	<titleShort>Farmer</titleShort>
+	<baseDescription>[PAWN_nameDef] worked in a hydroponic farm located at outskirt of the city. [PAWN_pronoun] grew various crops in a perfectly sterilized environment and researched new seeds. Sometimes [PAWN_pronoun] also cook with own crops as a pastime.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+		<li>
+	<defName>Social</defName>
+	<amount>-2</amount>
+	</li>
+		<li>
+	<defName>Animals</defName>
+	<amount>-2</amount>
+	</li>
+		<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+		<li>
+	<defName>Plants</defName>
+	<amount>6</amount>
+	</li>
+		<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--도예가-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_25</defName>
+	<title>Kurin Potter</title>
+	<titleShort>Potter</titleShort>
+<baseDescription>[PAWN_nameDef] was one of the few potters left in the Kurin Republic due to the development of 3D printing technology. [PAWN_pronoun] created works that pursue beauty and value rather than practicality, and they were sold as a masterpiece items with high prices.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>	
+	<li>
+	<defName>Artistic</defName>
+	<amount>2</amount>
+	</li>	
+	<li>
+	<defName>Crafting</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--모자제작자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_26</defName>
+	<title>Kurin Hatmaker</title>
+	<titleShort>Hatmaker</titleShort>
+<baseDescription>[PAWN_nameDef] tailors various hats made with silk. [PAWN_pronoun] went to a distant human country to learn how to tailor hats with traditional method, and the hats [PAWN_pronoun] tailored have become very popular among Kurins. But [PAWN_pronoun] gained painful chronic illness due to mercury poisoning, which was one of the ingredient of the silk, and now lives with anxiety and hand tremor.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-6</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Wimp</defName>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--시계장인-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_27</defName>
+	<title>Kurin Watchmaker</title>
+	<titleShort>Watchmaker</titleShort>
+	<baseDescription>[PAWN_nameDef] spent whole life learning how to make clock in a human nation. [PAWN_pronoun] gained great popularity among wealthy Kurins since [PAWN_pronoun] carved each piece of watch with delicate handwork and made artistic masterpiece.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Crafting</defName>
+	<amount>8</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--생선요리 쉐프-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_28</defName>
+	<title>Kurin Fish Chef</title>
+	<titleShort>Chef</titleShort>
+	<baseDescription>[PAWN_nameDef] knows how to make delicate cuisine with fish very well. [PAWN_pronoun] could trim fish neatly with a sharp knife, mix with various sweet and sour sauces, and cook in a oven or frying pan. The cuisine of [PAWN_nameDef] was so popular that even humans would come from a far, but after the humans closed the border, only the Kurins could eat it.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--의상 디자이너-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_29</defName>
+	<title>Kurin Dress Designer</title>
+	<titleShort>Designer</titleShort>
+	<baseDescription>[PAWN_nameDef] just got a job as a dress designer after graduated from school. [PAWN_pronoun] dreams of making a variety of pretty dresses, but still lacks skills. [PAWN_pronoun] is currently an intern in a studio, but [PAWN_pronoun] dreams of creating own studio and making dresses under own name.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Artistic</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>3</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--재단사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_30</defName>
+	<title>Kurin Tailor</title>
+	<titleShort>Tailor</titleShort>
+	<baseDescription>The capital, the oldest city of Kurin, has several alleys filled with old, small shops. [PAWN_nameDef] had a small tailor's. Not only did [PAWN_pronoun] sell fabric and clothes, [PAWN_pronoun] also repaired them with sewing machines and made simple clothes or decorations.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Trader</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--생산라인 작업자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_31</defName>
+	<title>Kurin Factory Worker</title>
+	<titleShort>Worker</titleShort>
+	<baseDescription>[PAWN_nameDef] was busy assembling electronic parts and picking out defects in the production line of a factory. The income was not that good, but [PAWN_pronoun] worked hard, dreaming of a better life.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--벌목공-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_32</defName>
+	<title>Kurin Lumberjack</title>
+	<titleShort>Lumberjack</titleShort>
+	<baseDescription>[PAWN_nameDef] worked as a lumberjack in a dense forest. The work was dangerous, and [PAWN_pronoun] hated physical labor like any other Kurin, but [PAWN_pronoun] thought it was not bad to working with other cool Kurins.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--가난한 로봇 연구자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_33</defName>
+	<title>Kurin Poor Roboticist</title>
+	<titleShort>Roboticist</titleShort>
+	<baseDescription>[PAWN_nameDef] study various mechanoids. [PAWN_pronoun] discovered a few defects while researching discarded mechanoids and put a lot of efforts to resolve them, but there was not much of success. Afterwards, the Republic's funding were about to be cut off, and [PAWN_pronoun] was struggling with a needy life in a small housing.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--우주비행사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_34</defName>
+	<title>Kurin Astronaut</title>
+	<titleShort>Astronaut</titleShort>
+	<baseDescription>[PAWN_nameDef] is an experienced astronaut, and [PAWN_pronoun] visited all planets in the system. There are no missions to outer space execept sending unmmaned probes, but if someone were going to the outer space by a manned spacecraft, he would be the first.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--정비창 보조공-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_35</defName>
+	<title>Kurin Mechanic Assistant</title>
+	<titleShort>Mechanic</titleShort>
+	<baseDescription>[PAWN_nameDef] came to a human nation to gain experience. [PAWN_pronoun] got a job as a mechanic for a civilian airline, but as [PAWN_pronoun] lacked experience and skill, [PAWN_pronoun] worked as an assistant doing only trivial things. [PAWN_pronoun] didn't talked a lot, so [PAWN_pronoun] worked as hard [PAWN_pronoun] he could.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>-4</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--전기공-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_36</defName>
+	<title>Kurin Electrician</title>
+	<titleShort>Electrician</titleShort>
+	<baseDescription>[PAWN_nameDef] could climb high transmission tower and replaced electric wires and parts. [PAWN_pronoun] was able to keep balance with three tails, so [PAWN_pronoun] didn't need safety gears. As [PAWN_pronoun] could work really quickly with good dexterity, the income was pretty good. [PAWN_pronoun] dreamed of living happily with lover by finding a good home in the suburbs.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Construction</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--배관공-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_37</defName>
+	<title>Kurin Plumber</title>
+	<titleShort>Plumber</titleShort>
+	<baseDescription>[PAWN_nameDef] used to connect pipes and assemble air ducts at the construction site, but was recently fired because of recent economic crisis. [PAWN_pronoun] and collegues have heard that the situation of the Republic is not good, but they do not know the details because they lacked common sense.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Construction</defName>
+	<amount>6</amount>
+	</li><li>
+	<defName>Crafting</defName>
+	<amount>4</amount>
+	</li><li>
+	<defName>Intellectual</defName>
+	<amount>-2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--은여우 중공업 기술자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_38</defName>
+	<title>Kurin Heavy Industry Technician</title>
+	<titleShort>Technician</titleShort>
+	<baseDescription>Silverfox Heavy Industries is a major company that supplies more than 80% of the planet's total vessels, and [PAWN_nameDef] is a technician working in the Republic's largest shipyard that produces a variety of vessels including cruise ships, container ships, warships and aircraft carriers. [PAWN_pronoun] had busy days with daily paperwork and process management.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Construction</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--레스토랑 웨이터-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_39</defName>
+	<title>Kurin Restaurant Waiter</title>
+	<titleShort>Waiter</titleShort>
+	<baseDescription>[PAWN_nameDef] worked as a waiter in a luxury restaurant. [PAWN_pronoun] took orders or took hats and coats from customers and put them on hangers. But [PAWN_pronoun] actually wanted to work in a kitchen because [PAWN_pronoun] had knowledge for cooking a little bit.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--간호사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_40</defName>
+	<title>Kurin Nurse</title>
+	<titleShort>Nurse</titleShort>
+	<baseDescription>[PAWN_nameDef] is a veteran nurse. Even after a seriously wounded Kurin was brought to the emergency room, [PAWN_pronoun] did not panic and carefully begun hemostasis and first aid.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--천문학자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_41</defName>
+	<title>Kurin Astronomer</title>
+	<titleShort>Astronomer</titleShort>
+	<baseDescription>[PAWN_nameDef] analyzed the data sent by the deep space probe to create a detailed space map and calculated the interplanetary flight path of the probe. The calm life of lab made [PAWN_nameDef] weaker than others.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>8</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--생명공학자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_42</defName>
+	<title>Kurin Bioengineer</title>
+	<titleShort>Bioengineer</titleShort>
+	<baseDescription>[PAWN_nameDef] was a bioengineer studying genetic engineering. [PAWN_pronoun] researched the genes of Kurin and found new treatments for diseases. While studying genes, [PAWN_pronoun] discovered that Kurin had a chromosome structure that could not occur without artificial gene manipulation, but [PAWN_pronoun] decided to kept it as secret.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Animals</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--인공지능 공학자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_43</defName>
+	<title>Kurin AI Engineer</title>
+	<titleShort>AI Engineer</titleShort>
+	<baseDescription>[PAWN_nameDef] knew the dangers of mechanoids and tried to develop new artificial intelligence humanoid robots. The failure continued, but [PAWN_pronoun] sat down and continued to study, remembering those who died because of the mechanoids.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>8</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--지질학자-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_44</defName>
+	<title>Kurin Geologist</title>
+	<titleShort>Geologist</titleShort>
+	<baseDescription>[PAWN_nameDef] is a geologist who surveys huge faults, volcanoes and lands. [PAWN_pronoun] dig the ground with a drill or pickaxe, or sometimes sniff around, for research purpose.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--고등학교 교사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_45</defName>
+	<title>Kurin Highschool Teacher</title>
+	<titleShort>Teacher</titleShort>
+	<baseDescription>[PAWN_nameDef] was a high school math teacher and a mentor. [PAWN_pronoun] had a busy life leading many Kurin students until they get graduated.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>3</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>3</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>3</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>3</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--외과 의사-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_46</defName>
+	<title>Kurin Surgeon</title>
+	<titleShort>Surgeon</titleShort>
+	<baseDescription>[PAWN_nameDef] is a surgeon working at a general hospital in a local city. There were not many patients to care for, but recently harassment by humans have been increased, so [PAWN_pronoun] became busy.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>8</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--의료보건부 공무원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_47</defName>
+	<title>Kurin Public Healthcare Doctor</title>
+	<titleShort>Doctor</titleShort>
+	<baseDescription>[PAWN_nameDef] is a public healthcare doctor of the Kurin Medical and Health Department. [PAWN_pronoun] could have become a normal doctor with private hospital, but [PAWN_pronoun] wanted to improve the healthcare of Kurins, so [PAWN_pronoun] gave up and chose to become a public healthcare doctor.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--아이돌-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_48</defName>
+	<title>Kurin Pop Idol</title>
+	<titleShort>Pop Idol</titleShort>
+	<baseDescription>[PAWN_nameDef] was a rising Kurin pop idol. The popularity of [PAWN_pronoun] with great dancing skills, outstanding singing skills and beautiful appearance has increased day by day and [PAWN_pronoun] appeared on many TV shows.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>8</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Construction</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Mining</defName>
+	<amount>-2</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--떠오르는 가수-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_49</defName>
+	<title>Kurin Rising Singer</title>
+	<titleShort>Singer</titleShort>
+	<baseDescription>[PAWN_nameDef] was a well-known singer-songwriter, and released several albums already. [PAWN_pronoun] has been invited to several stages and occasionally appeared on TV shows.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--드라마 배우-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_50</defName>
+	<title>Kurin Drama Actor</title>
+	<titleShort>Actor</titleShort>
+	<baseDescription>[PAWN_nameDef] is an experienced actor, and have played numerous roles, regardless of the main characters or extras. [PAWN_pronoun] was able to appear in several films and plays, with a flexible voice and realistic acting skills.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Cooking</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Artistic</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>1</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--가극단 단원-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_51</defName>
+	<title>Kurin Opera Actor</title>
+	<titleShort>Actor</titleShort>
+	<baseDescription>[PAWN_nameDef] is a member of a opera troupe who sings beautiful songs and plays in decorated beautiful costumes. The troupe was not that famous, but [PAWN_pronoun] loved this local city filled with forests, fields, sounds of nature and most importantly, friendly Kurins.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Artistic</defName>
+	<amount>8</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Beauty</defName>
+			<degree>1</degree>
+
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Citizen</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--소총수-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_52</defName>
+	<title>Kurin Enlisted</title>
+	<titleShort>Enlisted</titleShort>
+	<baseDescription>[PAWN_nameDef] is a enlisted fox, which are very backbone of the Republic of Kurin Army. All of them are volunteered personnel. If they need more troops, they hire mercenaries. The strong economic power of the Republic made this possible.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>1</amount>
+	</li>
+	
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--지정사수-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_53</defName>
+	<title>Kurin Marksman</title>
+	<titleShort>Marksman</titleShort>
+	<baseDescription>Most Kurins can shoot precisely thanks to their good eyes and dexterous hands, but [PAWN_nameDef] have exceptional shooting skills among them. So if [PAWN_pronoun] wield a sniper rifle, [PAWN_pronoun] could quickly take down the enemy.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>8</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>ShootingAccuracy</defName>
+			<degree>1</degree>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--레인저-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_54</defName>
+	<title>Kurin Ranger</title>
+	<titleShort>Ranger</titleShort>
+	<baseDescription>[PAWN_nameDef] was a ranger in charge of protecting the snow-capped forests and mountains in the north. [PAWN_pronoun] managed the forest with sensitive nose and ears, smelling the scent of forest, and hearing the sound of wildlife. In the event of forest fire, [PAWN_pronoun] went out to put out fire and rescued the stranded.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Animals</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<workDisables>
+		<li>Social</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+		<li>Kurin_EliteSoldier</li>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--정찰병-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_55</defName>
+	<title>Kurin Spy</title>
+	<titleShort>Spy</titleShort>
+	<baseDescription>After Kurins crashlanded on a rimworld, they felt the need for spying other factions. [PAWN_nameDef] received military training to scout enemies quickly and covertly, and [PAWN_pronoun] was able to figure out other faction's outposts, trends, and so on.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Plants</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--의무관-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_56</defName>
+	<title>Kurin Medic</title>
+	<titleShort>Medic</titleShort>
+	<baseDescription>[PAWN_nameDef] became a medic to save dying fellow soldiers in battlefield. [PAWN_pronoun] honed medical skills to save comrades, but [PAWN_pronoun] soon realised that sometimes [PAWN_pronoun] have to kill enemies to save them.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>6</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--분대장-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_57</defName>
+	<title>Kurin Sergeant</title>
+	<titleShort>Sergeant</titleShort>
+	<baseDescription>[PAWN_nameDef] is a fox with leadership. When Kurins crashlanded on rimworld, [PAWN_pronoun] volunteered for a guard duty with a rifle in hand. After the Kurin faction have been stabilized, [PAWN_pronoun] applied to the Sergeant, as [PAWN_pronoun] had pretty good experience back in the Republic Army.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--붉은여우-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_58</defName>
+	<title>Kurin Redfox</title>
+	<titleShort>Redfox</titleShort>
+	<baseDescription>Shortly before migration of the Republic, the conflict with humans intensified, and [PAWN_nameDef] proved that [PAWN_pronoun] had trained combat skills harder than anyone else on the battlefield. [PAWN_pronoun] participated in numerous battles, killing countless humans with precise shooting skills and quick judgment, and comrades called [PAWN_nameDef] a Redfox.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>10</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>8</amount>
+	</li>
+	<li>
+	<defName>Medicine</defName>
+	<amount>4</amount>
+	</li>
+	</skillGains>
+	<workDisables>
+		<li>Social</li>
+		<li>Animals</li>
+		<li>Artistic</li>
+	</workDisables>
+	<spawnCategories>
+		<li>Kurin_EliteSoldier</li>
+		<li>Kurin_Sniper</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--여우장교-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_59</defName>
+	<title>Kurin Officer</title>
+	<titleShort>Officer</titleShort>
+	<baseDescription>[PAWN_nameDef] is one of the few officer from the glitterworld military. Most of the work was a boring paperwork, but with a lot of spare time, [PAWN_pronoun] was able to read a lot of books and practice VR shooting. Above all, thanks to serving as a adjutant under a well known commander called 'Coyote', [PAWN_pronoun] heard numerous tales from the battles.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Social</defName>
+	<amount>6</amount>
+	</li>
+	<li>
+	<defName>Intellectual</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Elite</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+<!--강하폭격기 파일럿-->
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_60</defName>
+	<title>Kurin Bomber Pilot</title>
+	<titleShort>Pilot</titleShort>
+	<baseDescription>[PAWN_nameDef] was a Kurin soldier, participated conflict between humans. [PAWN_pronoun] used dive bombing technique to precisely bomb fortresses or warships, and destroyed countless targets. [PAWN_nameDef] was a Kurin, but [PAWN_pronoun] was not interested in the Kurin race, and tried to be loyal to the military.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>4</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>2</amount>
+	</li>
+	<li>
+	<defName>Crafting</defName>
+	<amount>2</amount>
+	</li>
+	</skillGains>
+	<spawnCategories>
+		<li>Kurin_Soldier</li>
+		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_61</defName>
+	<title>Kurin Warmonger</title>
+	<titleShort>Warmonger</titleShort>
+	<baseDescription>[PAWN_nameDef] quickly proved themselves to be ruthless in combat and won many victories</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>13</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>12</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Bloodlust</defName>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Warmonger</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_62</defName>
+	<title>Kurin Nymph</title>
+	<titleShort>Nymph</titleShort>
+	<baseDescription>[PAWN_nameDef] is obsessed with sex and uses their appeal to their advantage.</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Social</defName>
+	<amount>8</amount>
+	</li>
+	</skillGains>
+	<workDisables>
+		<li>Violent</li>
+	</workDisables>
+	    <bioAgeRange>
+        <min>18</min>
+        <max>25</max>
+    </bioAgeRange>
+	<forcedTraits>
+		<li>
+			<defName>Nymphomaniac</defName>
+			<chance>100</chance>
+		</li>
+		<li>
+			<defName>Beauty</defName>
+			<degree>2</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Nymph</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+</Defs>

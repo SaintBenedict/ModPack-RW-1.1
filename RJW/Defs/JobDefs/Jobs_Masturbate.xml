@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>Masturbate_Bed</defName>
+		<driverClass>rjw.JobDriver_Masturbate_Bed</driverClass>
+		<reportString>masturbatin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>Masturbate_Quick</defName>
+		<driverClass>rjw.JobDriver_Masturbate_Quick</driverClass>
+		<reportString>masturbatin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

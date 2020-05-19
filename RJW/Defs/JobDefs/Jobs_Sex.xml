@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>JoinInBed</defName>
+		<driverClass>rjw.JobDriver_JoinInBed</driverClass>
+		<reportString>joining someone in bed.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>GettinLoved</defName>
+		<driverClass>rjw.JobDriver_SexBaseRecieverLoved</driverClass>
+		<reportString>lovin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>GettinLicked</defName>
+		<driverClass>rjw.JobDriver_SexBaseRecieverLoved</driverClass>
+		<reportString>gettin' licked.</reportString>
+		<checkOverrideOnDamage>Never</checkOverrideOnDamage>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>GettinSucked</defName>
+		<driverClass>rjw.JobDriver_SexBaseRecieverLoved</driverClass>
+		<reportString>gettin' sucked.</reportString>
+		<checkOverrideOnDamage>Never</checkOverrideOnDamage>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

@@ -1,0 +1,22 @@
+<Patch>
+	<!--
+	Nymph: everyone should fuck me!!!
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="CheatedOnMe"]/nullifyingTraits</xpath>
+				<value>
+					<li>Nymphomaniac</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName="CheatedOnMeMood"]/nullifyingTraits</xpath>
+				<value>
+					<li>Necrophiliac</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	-->
+</Patch>

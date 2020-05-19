@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<!-- Kurin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin HAR Edition</li>
+		</mods>
+		<success>Always</success>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/description</xpath>
+			<value>
+				<description>Do not send out fox, take fox.</description>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

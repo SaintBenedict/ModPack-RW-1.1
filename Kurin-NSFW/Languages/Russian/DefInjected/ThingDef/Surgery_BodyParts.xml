@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_FakeTail.label>Фальшивый хвост Курин</DRNTF_FakeTail.label>
+  <DRNTF_FakeTail.description>Простой фальшивый хвост. Имеет непривлекательный внешний вид, и на ощупь не очень.</DRNTF_FakeTail.description>
+
+  <DRNTF_BionicEar.label>Бионическое ухо Курин</DRNTF_BionicEar.label>
+  <DRNTF_BionicEar.description>Это продвинутое искусственное ухо курина, которое неотлечимо от настоящего и еще более деликатно распознаёт звуковые волны. Этот протез превосходит обычное ухо курина почти по всем характеристикам.</DRNTF_BionicEar.description>
+
+  <DRNTF_BionicTail.label>Бионический хвост Курин</DRNTF_BionicTail.label>
+  <DRNTF_BionicTail.description>Это продвинутый искусственный хвост курина, который неотлечим от настоящего и может послужить более дорогой и красивой заменой фальшивого хвоста. Этот протез превосходит обычный хвост курина почти по всем характеристикам.</DRNTF_BionicTail.description>
+
+
+</LanguageData>

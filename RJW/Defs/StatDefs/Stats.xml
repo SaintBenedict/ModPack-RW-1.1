@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<StatDef>
+		<defName>SexAbility</defName>
+		<label>sex ability</label>
+		<description>Measures whether or not a pawn is capable of sex, and how good they are at it</description>
+		<category>PawnSocial</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<minValue>0.0</minValue>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.5</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>1.0</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+		<parts>
+			<li Class="StatPart_Food">
+				<factorUrgentlyHungry>0.9</factorUrgentlyHungry>
+				<factorStarving>0.8</factorStarving>
+			</li>
+			<li Class="StatPart_Rest">
+				<factorTired>0.9</factorTired>
+				<factorVeryTired>0.7</factorVeryTired>
+				<factorExhausted>0.5</factorExhausted>
+			</li>
+		</parts>
+	</StatDef>
+
+	<StatDef>
+		<defName>Vulnerability</defName>
+		<label>vulnerability</label>
+		<description>Measures how likely a pawn is to be taken advantage of sexually</description>
+		<category>PawnSocial</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<minValue>0.0</minValue>
+		<maxValue>3.0</maxValue>
+		<noSkillFactor>0.9</noSkillFactor>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<neverDisabled>true</neverDisabled>
+		<skillNeedFactors>
+			<li Class="rjw_CORE_EXPOSED.SkillNeed_BaseBonus">
+				<skill>Melee</skill>
+				<baseValue>1.00</baseValue>
+				<bonusPerLevel>-0.035</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Sight</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.2</weight>
+				<max>1.5</max>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.2</weight>
+				<max>2</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.75</weight>
+				<max>4</max>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.4</weight>
+				<max>3</max>
+			</li>
+		</capacityFactors>
+		<parts>
+			<li Class="StatPart_Food">
+				<factorUrgentlyHungry>1.1</factorUrgentlyHungry>
+				<factorStarving>1.4</factorStarving>
+			</li>
+			<li Class="StatPart_Rest">
+				<factorTired>1.1</factorTired>
+				<factorVeryTired>1.4</factorVeryTired>
+				<factorExhausted>1.8</factorExhausted>
+			</li>
+			<li Class="StatPart_Resting">
+				<factor>1.2</factor>
+			</li>
+		</parts>
+	</StatDef>
+
+	<StatDef>
+		<defName>SexFrequency</defName>
+		<label>sex drive</label>
+		<description>Measures how sexually active the pawn is.</description>
+		<category>PawnSocial</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<minValue>0.0</minValue>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<showOnMechanoids>false</showOnMechanoids>
+		<capacityFactors>
+			<li>
+				<capacity>Moving</capacity>
+				<weight>0.5</weight>
+				<max>1.0</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.3</weight>
+				<max>1.0</max>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<weight>0.2</weight>
+				<max>2.0</max>
+			</li>
+			<li>
+				<capacity>Metabolism</capacity>
+				<weight>0.1</weight>
+				<max>1.5</max>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.1</weight>
+				<max>1.0</max>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1.0</weight>
+				<max>1.0</max>
+			</li>
+			<li>
+				<capacity>RJW_Fertility</capacity>
+				<weight>0.4</weight>
+				<max>1.5</max>
+			</li>
+		</capacityFactors>
+		<parts>
+			<li Class="StatPart_Food">
+				<factorUrgentlyHungry>0.8</factorUrgentlyHungry>
+				<factorStarving>0.6</factorStarving>
+			</li>
+			<li Class="StatPart_Rest">
+				<factorTired>0.9</factorTired>
+				<factorVeryTired>0.8</factorVeryTired>
+				<factorExhausted>0.7</factorExhausted>
+			</li>
+			<li Class="StatPart_Resting">
+				<factor>0.8</factor>
+			</li>
+		</parts>
+	</StatDef>
+</Defs>

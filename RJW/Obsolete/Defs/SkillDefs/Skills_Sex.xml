@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<SkillDef>
+		<defName>Sexskill1</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill2</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill3</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill4</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill5</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill6</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+
+	<SkillDef>
+		<defName>Sexskill7</defName>
+		<description>Does stuff</description>
+		<skillLabel>sex</skillLabel>
+		<pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+	</SkillDef>
+</Defs>

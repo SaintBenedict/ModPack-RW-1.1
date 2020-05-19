@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Eldar -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[O21] Rimhammer 40K</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Eldar"]/race/lifeExpectancy</xpath>
+		<value>
+			<lifeExpectancy>8000</lifeExpectancy>
+		</value>
+		</match>
+	</Operation>
+	
+	<!-- Astoriel -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Astoriel</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/race/lifeExpectancy</xpath>
+		<value>
+			<lifeExpectancy>10000</lifeExpectancy>
+		</value>
+		</match>
+	</Operation>
+	
+	<!-- Drow -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>The Drow Race</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]/race/lifeExpectancy</xpath>
+		<value>
+			<lifeExpectancy>15000</lifeExpectancy>
+		</value>
+		</match>
+	</Operation>
+</Patch>

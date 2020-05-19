@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--As usual stolen from CnP-->
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>RJW_Contraceptive</defName>
+		<label>Contraception pills</label>
+		<description>Deliver severe hit to fertility for one quadrum.</description>
+		<graphicData>
+			<texPath>Things/Item/Contraceptive</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>120</WorkToMake>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RJW_Contraceptive</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>DrugProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+			<addictiveness>0</addictiveness>
+			<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>RJW_Contraceptive</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>contraceptive</label>
+		<description>Contraception pills deliver severe hit to fertility for one quadrum.</description>
+		<defaultLabelColor>(0.75, 0.75, 1.0)</defaultLabelColor>
+		<isBad>false</isBad>
+		<comps>
+			<!-- Disappears after a season's time -->
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>900000</min>
+					<max>900000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Contracepted</label>
+				<capMods>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

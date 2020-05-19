@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_ApparelBase" ParentName="ApparelBase" Abstract="True">
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>Cutout</shaderType>
+	</graphicData>
+	<tradeability>Sellable</tradeability>
+	<techLevel>Industrial</techLevel>
+	<statBases>
+		<Flammability>0.4</Flammability>
+		<DeteriorationRate>1</DeteriorationRate>
+		<Beauty>1</Beauty>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+			<li>Kurin_Electric_Tailoring_Bench</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Root</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Gold</li>
+				<li>Silver</li>
+				<li>Plasteel</li>
+				<li>Jade</li>
+				<li>Uranium</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+	</recipeMaker>
+</ThingDef>
+
+<ThingDef Name="Kurin_ApparelBaseNinja" ParentName="ApparelBase" Abstract="True">
+	<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>Cutout</shaderType>
+	</graphicData>
+	<tradeability>Sellable</tradeability>
+	<techLevel>Industrial</techLevel>
+	<statBases>
+		<Flammability>0.4</Flammability>
+		<DeteriorationRate>1</DeteriorationRate>
+		<Beauty>1</Beauty>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Root</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Gold</li>
+				<li>Silver</li>
+				<li>Plasteel</li>
+				<li>Jade</li>
+				<li>Uranium</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+	</recipeMaker>
+</ThingDef>
+
+</Defs>

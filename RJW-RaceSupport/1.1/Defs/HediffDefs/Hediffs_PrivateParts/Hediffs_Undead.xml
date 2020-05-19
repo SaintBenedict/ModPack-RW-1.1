@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<!-- Ghost -->
+	<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartHitech">
+		<defName>GhostPenis</defName>
+		<label>immaterial Penis</label>
+		<description>It lacks a constant form.</description>
+		<FluidType>Ecto</FluidType>
+		<DefaultBodyPart>Genitals</DefaultBodyPart>
+		<stages>
+			<li>
+				<label>immaterial</label>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<offset>-0.95</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ImmunityGainSpeed>0.95</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.95</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartHitech">
+		<defName>GhostVagina</defName>
+		<label>immaterial vagina</label>
+		<description>I can't see it.</description>
+		<FluidType>Ecto</FluidType>
+		<DefaultBodyPart>Genitals</DefaultBodyPart>
+		<stages>
+			<li>
+				<label>immaterial</label>
+				<minSeverity>0.01</minSeverity>
+				<capMods>
+					<li>
+						<capacity>RJW_Fertility</capacity>
+						<offset>-0.75</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ImmunityGainSpeed>0.95</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.95</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartHitech">
+		<defName>GhostBreasts</defName>
+		<label>immaterial breasts</label>
+		<description>It lacks a constant form.</description>
+		<FluidType>Ecto</FluidType>
+		<DefaultBodyPart>Chest</DefaultBodyPart>
+		<stages>
+			<li>
+				<label>immaterial</label>
+				<minSeverity>0.01</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.95</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.95</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="ArtificialPrivatePartHitech">
+		<defName>GhostAnus</defName>
+		<label>immaterial anus</label>
+		<description>I can't see it.</description>
+		<FluidType>Ecto</FluidType>
+		<DefaultBodyPart>Anus</DefaultBodyPart>
+		<stages>
+			<li>
+				<label>immaterial</label>
+				<minSeverity>0.01</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.95</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.95</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</rjw.HediffDef_PartBase>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- Necro -->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>NecroPenis</defName>
+		<label>decayed penis</label>
+		<labelNoun>A decayed penis</labelNoun>
+		<description>A foul-smelling, disgustingly rotting penis.</description>
+		<descriptionHyperlinks><ThingDef>NecroPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>NecroPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>NecroVagina</defName>
+		<label>decayed vagina</label>
+		<labelNoun>A decayed vagina</labelNoun>
+		<description>A foul-smelling, disgustingly rotting vagina.</description>
+		<descriptionHyperlinks><ThingDef>NecroVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>NecroVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>NecroAnus</defName>
+		<label>decayed anus</label>
+		<labelNoun>A decayed anus</labelNoun>
+		<description>A foul-smelling, disgustingly rotting anus.</description>
+		<descriptionHyperlinks><ThingDef>NecroAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>NecroAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreast">
+		<defName>NecroBreasts</defName>
+		<label>decayed breasts</label>
+		<labelNoun>A pair of decayed breasts</labelNoun>
+		<description>A foul-smelling, disgustingly rotting pair of breasts.</description>
+		<descriptionHyperlinks><ThingDef>NecroBreasts</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>NecroBreasts</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+</Defs>

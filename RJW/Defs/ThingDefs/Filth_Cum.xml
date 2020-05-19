@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="BaseFilth">
+		<defName>FilthCum</defName>
+		<label>cum</label>
+		<statBases>
+			<!-- vomit is -40 / -15, cum shouldn't be that bad -->
+			<Beauty>-30</Beauty>
+			<Cleanliness>-12</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(180, 180, 180, 100)</color>
+		</graphicData>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<!-- animal filth and such is 35, so this is still relatively high -->
+			<cleaningWorkToReduceThickness>40</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+		</filth>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+		<defName>FilthGirlCum</defName>
+		<label>cum</label>
+		<statBases>
+			<!-- vomit is -40 / -15, cum shouldn't be that bad -->
+			<Beauty>-30</Beauty>
+			<Cleanliness>-12</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(180, 180, 180, 100)</color>
+		</graphicData>
+		<filth>
+			<rainWashes>true</rainWashes>
+			<!-- animal filth and such is 35, so this is still relatively high -->
+			<cleaningWorkToReduceThickness>40</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+		</filth>
+	</ThingDef>
+</Defs>

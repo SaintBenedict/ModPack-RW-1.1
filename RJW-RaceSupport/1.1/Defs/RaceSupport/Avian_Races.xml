@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Avian Races. 1514158118. https://steamcommunity.com/sharedfiles/filedetails/?id=1514158118 -->
+	<!-- Avian Races only One Faction. 1582200954. https://steamcommunity.com/sharedfiles/filedetails/?id=1582200954 -->
+	<rjw.RaceGroupDef>
+
+		<defName>Alien_Race_Bird_People</defName>
+
+		<raceNames>
+			<li>Alien_Cassowary</li>
+			<li>Alien_Chicken</li>
+			<li>Alien_Dodo</li>
+			<li>Alien_Owl</li>
+			<li>Alien_Parrot</li>
+			<li>Alien_Penguin</li>
+			<li>Alien_Vulture</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>CloacalPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Feathers</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

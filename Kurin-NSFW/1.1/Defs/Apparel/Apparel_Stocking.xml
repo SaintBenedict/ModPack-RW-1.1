@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_StockingBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.1</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Kurin_Stocking</li>
+		</layers>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Stocking</li>
+			<li>Kurin_Nymph</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Stocking</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_White</defName>
+	<label>kurin white stockings</label>
+	<description>귀여운 흰색 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/White_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings</defName>
+	<label>kurin stockings</label>
+	<description>귀여운 흰색 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/White_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_Brown</defName>
+	<label>kurin brown stockings</label>
+	<description>섹시한 갈색 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/Brown_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/Brown_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_Striped</defName>
+	<label>kurin striped stockings</label>
+	<description>독특한 줄무늬 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_Garterbelt</defName>
+	<label>kurin garterbelt stockings</label>
+	<description>요염한 가터벨트 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/Garterbelt_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/Garterbelt_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings_Pantyhose</defName>
+	<label>kurin pantyhose</label>
+	<description>요염한 팬티스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/Pantyhose/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/Pantyhose/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Stocking/Pantyhose/Texture</li>
+				<li>Kurin/Apparel/Stocking/Pantyhose/No_Crotch/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

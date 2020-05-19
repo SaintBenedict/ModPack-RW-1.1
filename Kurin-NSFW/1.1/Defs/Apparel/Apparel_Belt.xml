@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_BeltBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>0.2</Mass>
+		<EquipDelay>1.0</EquipDelay>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Belt</li>
+		</layers>
+		<defaultOutfitTags>
+			<li>Worker</li>
+			<li>Soldier</li>
+		</defaultOutfitTags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Belt</li>
+	</thingCategories>
+</ThingDef>
+
+<!--================================================== Tear 1 ==================================================-->
+
+<ThingDef Name="Kurin_BeltBaseTear1" ParentName="Kurin_BeltBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Trader</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_BeltBaseTear1">
+	<defName>Kurin_Belt_Scarf</defName>
+	<label>kurin scarf</label>
+	<description>푹신한 목도리입니다. 간단하지만 효과적으로 체온을 보호 할 수 있습니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Belt/Scarf/Texture</texPath>
+	</graphicData>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Belt/Scarf/Texture</wornGraphicPath>
+	</apparel>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<!--================================================== Tear 2 ==================================================-->
+
+<!--================================================== Tear 3 ==================================================-->
+
+</Defs>

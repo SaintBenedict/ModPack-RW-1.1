@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Kenshi Skeleton Race. 1841876651. https://steamcommunity.com/sharedfiles/filedetails/?id=1841876651 -->
+	<rjw.RaceGroupDef>
+
+		<defName>Kenshi_Skeleton</defName>
+		
+		<raceNames>
+			<li>Kenshi_Skeleton</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>HydraulicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>True</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!--Kenshi Hiver Race. 1840737944. https://steamcommunity.com/sharedfiles/filedetails/?id=1840737944 -->
+	<rjw.RaceGroupDef>
+		
+		<defName>Kenshi_Hiver_Race</defName>
+		
+		<raceNames>
+			<li>Kenshi_Hiver_Soldier</li>
+			<li>Kenshi_Hiver_Worker</li>
+			<li>Kenshi_Hiver_Prince</li>
+			<li>Kenshi_Fogman_Soldier</li>
+			<li>Kenshi_Fogman_Worker</li>
+			<li>Kenshi_Fogman_Prince</li>
+			<li>Kenshi_Hiver_Soldier_Southern</li>
+			<li>Kenshi_Hiver_Worker_Southern</li>
+			<li>Kenshi_Hiver_Prince_Southern</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>InsectAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>OvipositorM</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Chitin</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>true</oviPregnancy>
+		<ImplantEggs>true</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

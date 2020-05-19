@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--Dino Like-->
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartPenis">
+		<defName>DinoPenis</defName>
+		<label>dinosaur penis</label>
+		<labelNoun>a dinosaur's penis</labelNoun>
+		<description>A Penis Sourced from a Dinosor.</description>
+		<descriptionHyperlinks><ThingDef>DinoPenis</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DinoPenis</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartVagina">
+		<defName>DinoVagina</defName>
+		<label>dinosaur vagina</label>
+		<labelNoun>a dinosaur's vagina</labelNoun>
+		<description>A Vagina Sourced from a Dinosor.</description>
+		<descriptionHyperlinks><ThingDef>DinoVagina</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DinoVagina</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+	
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartAnus">
+		<defName>DinoAnus</defName>
+		<label>dinosaur anus</label>
+		<labelNoun>a dinosaur's anus</labelNoun>
+		<description>An Anus Sourced from a Dinosor.</description>
+		<descriptionHyperlinks><ThingDef>DinoAnus</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DinoAnus</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+</Defs>

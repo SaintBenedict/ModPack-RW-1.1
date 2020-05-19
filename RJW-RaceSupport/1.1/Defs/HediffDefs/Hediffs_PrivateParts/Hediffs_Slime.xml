@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreastSingle">
+		<defName>NephilaBreasts</defName>
+		<label>stupidly enormous slime breasts</label>
+		<labelNoun>a pair of stupidly enormous slime breasts</labelNoun>
+		<description>They are dripping all over the floor and walls.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>
+
+	<rjw.HediffDef_PartBase ParentName="NaturalPrivatePartBreastSingle">
+		<defName>NephilaSlimeBreasts</defName>
+		<label>rows of leaking slime tits</label>
+		<labelNoun>rows of slime breasts</labelNoun>
+		<description>Hide your children, they are not ready for this.</description>
+		<descriptionHyperlinks><ThingDef>SlimeGlob</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</rjw.HediffDef_PartBase>	
+</Defs>

@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Callistans(1.0). 1545178908. https://steamcommunity.com/sharedfiles/filedetails/?id=1545178908 -->
+	<rjw.RaceGroupDef>
+
+		<defName>Callistans_Evolved_Wolf_People</defName>
+		
+		<raceNames>
+			<li>Alien_Callistan</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>HydraulicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>ArchotechAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>ArchotechBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>DogVagina</li>
+			<li>HydraulicVagina</li>
+			<li>HydraulicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>ArchotechVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>ArchotechBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Callistan Robotics. 1661171313. https://steamcommunity.com/sharedfiles/filedetails/?id=1661171313 -->
+	
+	<!-- Droids -->
+	<rjw.RaceGroupDef>
+
+		<defName>Callistans_Pleasure_Bots</defName>
+		
+		<raceNames>
+			<li>DomestiBot</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>BionicAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>BionicBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>BionicVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>BionicBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BionicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Male Droids Sexable -->
+	<rjw.RaceGroupDef>
+
+		<defName>Callistans_Pleasure_Bots_Male</defName>
+		
+		<raceNames>
+			<li>MaleEscortBot</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>BionicAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts></femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals></femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>BionicBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BionicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			
+		</chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- -->
+	<rjw.RaceGroupDef>
+
+		<defName>Callistans_Pleasure_Bots_Female</defName>
+		
+		<raceNames>
+			<li>FemaleEscortBot</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>BionicAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>BionicBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>BionicVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>BionicBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>BionicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals>
+			<li>0.20</li>
+		</chancemaleGenitals>
+		
+		<tags>
+			<li>Fur</li>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

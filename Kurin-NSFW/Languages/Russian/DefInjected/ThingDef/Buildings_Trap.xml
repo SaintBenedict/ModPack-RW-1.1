@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_NooseTrap.label>Ловушка с лассо</DRNTF_NooseTrap.label>
+  <DRNTF_NooseTrap.description>Это специальная петлевая ловушка куринов, которую можно быстро изготовить из меньшего количества материала, чем обычный капкан. Когда ловушка активируется, лассо связывает противника. Но это не работает для слишком больших врагов или механоидов.</DRNTF_NooseTrap.description>
+  <DRNTF_NooseTrap_Blueprint.label>Ловушка с лассо (blueprint)</DRNTF_NooseTrap_Blueprint.label>
+  <DRNTF_NooseTrap_Blueprint_Install.label>Ловушка с лассо (blueprint)</DRNTF_NooseTrap_Blueprint_Install.label>
+  <DRNTF_NooseTrap_Frame.label>Ловушка с лассо (building)</DRNTF_NooseTrap_Frame.label>
+  <DRNTF_NooseTrap_Frame.description>Это специальная петлевая ловушка куринов, которую можно быстро изготовить из меньшего количества материала, чем обычный капкан. Когда ловушка активируется, лассо связывает противника. Но это не работает для слишком больших врагов или механоидов.</DRNTF_NooseTrap_Frame.description>
+
+
+</LanguageData>

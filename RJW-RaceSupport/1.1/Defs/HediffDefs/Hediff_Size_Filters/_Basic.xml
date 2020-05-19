@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- For Equal chance for all part sizes-->
+	<rjw.RacePartDef>
+		<defName>DinoPenis</defName>
+		<hediffName>DinoPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>DinoVagina</defName>
+		<hediffName>DinoVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>DinoAnus</defName>
+		<hediffName>DinoAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>ElfPenis</defName>
+		<hediffName>ElfPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>ElfVagina</defName>
+		<hediffName>ElfVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>ElfAnus</defName>
+		<hediffName>ElfAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>OrcPenis</defName>
+		<hediffName>OrcPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>OrcVagina</defName>
+		<hediffName>OrcVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>OrcBreasts</defName>
+		<hediffName>OrcBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>OrcAnus</defName>
+		<hediffName>OrcAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>GhoulPenis</defName>
+		<hediffName>GhoulPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhoulVagina</defName>
+		<hediffName>GhoulVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhoulBreasts</defName>
+		<hediffName>GhoulBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhoulAnus</defName>
+		<hediffName>GhoulAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>ScaleBreasts</defName>
+		<hediffName>ScaleBreasts</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>GolemPenis</defName>
+		<hediffName>GolemPenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>TentaclePenis</defName>
+		<hediffName>TentaclePenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>DemonTentaclesF</defName>
+		<hediffName>DemonTentaclesF</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>MonkeyPenis</defName>
+		<hediffName>MonkeyPenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>PigPenis</defName>
+		<hediffName>PigPenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>BearPenis</defName>
+		<hediffName>BearPenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>TurtlePenis</defName>
+		<hediffName>TurtlePenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>ElephantPenis</defName>
+		<hediffName>ElephantPenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>BovinePenis</defName>
+		<hediffName>BovinePenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>MarinePenis</defName>
+		<hediffName>MarinePenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>VinePenis</defName>
+		<hediffName>VinePenis</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>CactoidPenis</defName>
+		<hediffName>CactoidPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>CactoidVagina</defName>
+		<hediffName>CactoidVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>CactoidBreasts</defName>
+		<hediffName>CactoidBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>CactoidAnus</defName>
+		<hediffName>CactoidAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>TreePenis</defName>
+		<hediffName>TreePenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>TreeVagina</defName>
+		<hediffName>TreeVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>TreeBreasts</defName>
+		<hediffName>TreeBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>TreeAnus</defName>
+		<hediffName>TreeAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>NephilaBreasts</defName>
+		<hediffName>NephilaBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>NephilaSlimeBreasts</defName>
+		<hediffName>NephilaSlimeBreasts</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>GhostPenis</defName>
+		<hediffName>GhostPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhostVagina</defName>
+		<hediffName>GhostVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhostBreasts</defName>
+		<hediffName>GhostBreasts</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>GhostAnus</defName>
+		<hediffName>GhostAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>NecroPenis</defName>
+		<hediffName>NecroPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>NecroVagina</defName>
+		<hediffName>NecroVagina</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>NecroAnus</defName>
+		<hediffName>NecroAnus</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>NecroBreasts</defName>
+		<hediffName>NecroBreasts</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>BigRaceBreats</defName>
+		<hediffName>BigRaceBreats</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>AntherPenis</defName>
+		<hediffName>AntherPenis</hediffName>
+	</rjw.RacePartDef>
+	<rjw.RacePartDef>
+		<defName>PistolVagina</defName>
+		<hediffName>PistolVagina</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>DragonAnus</defName>
+		<hediffName>DragonAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>HorseAnus</defName>
+		<hediffName>HorseAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>CatAnus</defName>
+		<hediffName>CatAnus</hediffName>
+	</rjw.RacePartDef>
+	
+	<rjw.RacePartDef>
+		<defName>DogAnus</defName>
+		<hediffName>DogAnus</hediffName>
+	</rjw.RacePartDef>
+</Defs>

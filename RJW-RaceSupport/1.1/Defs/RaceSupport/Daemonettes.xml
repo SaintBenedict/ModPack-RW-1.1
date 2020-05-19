@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Warhammer: Daemonettes. 1659631711 -->
+	<rjw.RaceGroupDef>
+		<!-- The name of this RaceGroupDef. 1659631711-->
+		<defName>slaaneshi_Group</defName>
+		
+		<!-- Just a list of strings, should not fail based on mods installed. -->
+		<!-- These races are supposed to be mutants usually of the sexual nature because Kinky Chaos god. -->
+		<raceNames>
+			<li>Alien_Slaaneshi</li>
+			<li>Alien_SlaaPrince</li>
+			<li>Alien_Daemonette</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+			<li>DemonAnus</li>
+			<li>SlimeAnus</li>
+			<li>OrcAnus</li>
+			<li>ElfAnus</li>
+			<li>DinoAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+			<li>UdderBreasts</li>
+			<li>SlimeBreasts</li>
+			<li>OrcBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>CatVagina</li>
+			<li>DogVagina</li>
+			<li>HorseVagina</li>
+			<li>DragonVagina</li>
+			<li>DemonVagina</li>
+			<li>SlimeVagina</li>
+			<li>DinoVagina</li>
+			<li>ElfVagina</li>
+			<li>OrcVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+			<li>UdderBreasts</li>
+			<li>SlimeBreasts</li>
+			<li>OrcBreasts</li>
+			<li>DinoAnus</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+			<li>CatPenis</li>
+			<li>DogPenis</li>
+			<li>HorsePenis</li>
+			<li>DragonPenis</li>
+			<li>RaccoonPenis</li>
+			<li>HemiPenis</li>
+			<li>CrocodilianPenis</li>
+			<li>DemonTentaclePenis</li>
+			<li>DemonPenis</li>
+			<li>SlimeTentacles</li>
+			<li>OrcPenis</li>
+			<li>ElfPenis</li>
+			<li>DinoPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Demon</li>
+		</tags>
+
+		<hasSingleGender>true</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Animals. -->
+	<rjw.RaceGroupDef>
+		<!-- The name of this RaceGroupDef.-->
+		<defName>Sleneshi_Animals</defName>
+		
+		<raceNames>
+			<li>Fiend</li>
+			<li>Steed</li>
+			<li>SteedCovBase</li>
+			<li>FiendCovBase</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+			<li>DemonAnus</li>
+			<li>SlimeAnus</li>
+			<li>OrcAnus</li>
+			<li>ElfAnus</li>
+			<li>DinoAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+			<li>UdderBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>CatVagina</li>
+			<li>DogVagina</li>
+			<li>HorseVagina</li>
+			<li>DragonVagina</li>
+			<li>DemonVagina</li>
+			<li>SlimeVagina</li>
+			<li>DinoVagina</li>
+			<li>ElfVagina</li>
+			<li>OrcVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>UdderBreasts</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+			<li>CatPenis</li>
+			<li>DogPenis</li>
+			<li>HorsePenis</li>
+			<li>DragonPenis</li>
+			<li>RaccoonPenis</li>
+			<li>HemiPenis</li>
+			<li>CrocodilianPenis</li>
+			<li>DemonTentaclePenis</li>
+			<li>DemonPenis</li>
+			<li>SlimeTentacles</li>
+			<li>OrcPenis</li>
+			<li>ElfPenis</li>
+			<li>DinoPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Demon</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

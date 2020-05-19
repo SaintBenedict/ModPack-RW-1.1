@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Counts masturbation -->
+	<RecordDef>
+		<defName>CountOfFappin</defName>
+		<label>masturbating done</label>
+		<description>The number of times I masturbated.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<!--Counts all sex excluding masturbation-->
+	<RecordDef>
+		<defName>CountOfSex</defName>
+		<label>total sex had</label>
+		<description>The number of times I had sex.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<!--Counts all sex + rapes-->
+	<RecordDef>
+		<defName>CountOfSexWithHumanlikes</defName>
+		<label>sex with humanlikes</label>
+		<description>The number of times I had sex with humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithAnimals</defName>
+		<label>sex with animals</label>
+		<description>The number of times I had sex with animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithInsects</defName>
+		<label>sex with insects</label>
+		<description>The number of times I had sex with insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithOthers</defName>
+		<label>sex with other</label>
+		<description>The number of times I had sex with weird stuff.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<!--Counts rapes -->
+	<RecordDef>
+		<defName>CountOfRapedHumanlikes</defName>
+		<label>raped humanlikes</label>
+		<description>The number of times I raped humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedAnimals</defName>
+		<label>raped animals</label>
+		<description>The number of times I raped animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedInsects</defName>
+		<label>raped insects</label>
+		<description>The number of times I raped insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedOthers</defName>
+		<label>raped other</label>
+		<description>The number of times I raped weird stuff.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithCorpse</defName>
+		<label>raped corpses</label>
+		<description>The number of times I raped corpses.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByHumanlikes</defName>
+		<label>raped by humanlikes</label>
+		<description>The number of times I was raped by humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByAnimals</defName>
+		<label>raped by animals</label>
+		<description>The number of times I was raped by animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByInsects</defName>
+		<label>raped by insects</label>
+		<description>The number of times I was raped by insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByOthers</defName>
+		<label>raped by other</label>
+		<description>The number of times I was raped by weird stuff.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>GetRapedAsComfortPrisoner</defName>
+		<label>raped as a comfort</label>
+		<description>The number of times I was used to comfort someone.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<!--Counts whoring stuff -->
+	<RecordDef>
+		<defName>CountOfWhore</defName>
+		<label>times whored</label>
+		<description>The number of times I whored myself.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>EarnedMoneyByWhore</defName>
+		<label>silvers earned as a whore</label>
+		<description>The amount of silvers I have earned as a whore.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<!--Counts birthing -->
+	<RecordDef>
+		<defName>CountOfBirthHuman</defName>
+			<label>birthed humanlikes</label>
+			<description>How many humanlikes I have birthed.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBirthAnimal</defName>
+		<label>birthed animals</label>
+		<description>How many animals I have birthed.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBirthEgg</defName>
+		<label>birthed eggs</label>
+		<description>How many eggs I have birthed.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfCondomsUsed</defName>
+		<label>condoms used</label>
+		<description>The number of condoms I've used.</description>
+		<type>Int</type>
+	</RecordDef>
+</Defs>

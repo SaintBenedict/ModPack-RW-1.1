@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hololock.label>全息锁</Hololock.label>
+  <Hololock.description>- 极坚硬的，钢筋加固的。
+- 使用加密 UID 密钥和锁，确保无法生成伪造密钥。
+- 自毁故障安全在锁被篡改时触发，确保受保护项被销毁，而不是被破译。
+
+全息锁最初专为军事用途而设计，此后在 BDSM 社区中流行起来，习惯性地将钥匙和锁对刻成匹配的名称，以便更容易识别。</Hololock.description>
+
+  <Holokey.label>全息钥匙</Holokey.label>
+  <Holokey.description>全息钥匙，用于解锁全息锁。</Holokey.description>
+  <Holokey.comps.2.useLabel>解锁</Holokey.comps.2.useLabel>
+
+
+</LanguageData>

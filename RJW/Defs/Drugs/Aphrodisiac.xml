@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Aphrodisiac</defName>
+		<label>Aphrodisiac drug</label>
+		<description>A smokable drug made from humpshroom.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/Penoxycyline</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>450</WorkToMake>
+			<MarketValue>50</MarketValue>
+			<Mass>0.05</Mass>
+			<DeteriorationRate>6</DeteriorationRate>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+			<foodType>Plant, Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.80</joy>
+			<baseIngestTicks>720</baseIngestTicks>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Smoke</ingestSound>
+			<ingestEffect>Smoke_Joint</ingestEffect>
+			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.27,0,0.08)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(0.45,0,0.08)</offset>
+				</east>
+				<south>
+					<offset>(0.27,0,0.08)</offset>
+				</south>
+				<west>
+					<offset>(-0.50,0,0.08)</offset>
+					<flip>true</flip>
+				</west>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Smoke {0}</ingestCommandString>
+			<ingestReportString>Smoking {0}.</ingestReportString>
+			<ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HumpShroomEffect</hediffDef>
+					<severity>0.6</severity>
+					<toleranceChemical>HumpShroom</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HumpShroomTolerance</hediffDef>
+					<severity>0.042</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Sex</need>
+					<offset>-0.5</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+		</recipeMaker>
+		<costList>
+			<HumpShroom>4</HumpShroom>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>HumpShroom</chemical>
+				<addictiveness>0.030</addictiveness>
+				<minToleranceToAddict>0.15</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+				<needLevelOffset>1</needLevelOffset>
+				<listOrder>30</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

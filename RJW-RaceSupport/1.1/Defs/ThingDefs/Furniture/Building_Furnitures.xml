@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TableGatherSpotBase">
+		<defName>Good_Table</defName>
+		<label>table 3x2</label>
+		<graphicData>
+			<texPath>Things/Furniture/Table/Table3x2/Table</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>3</Beauty>
+		</statBases>
+		<size>(3,2)</size>		
+		<costStuffCount>80</costStuffCount>
+		<rotatable>true</rotatable>
+	</ThingDef>
+
+</Defs>

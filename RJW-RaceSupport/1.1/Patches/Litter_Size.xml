@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- Only one child 
+
+			<value>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</value>
+	-->
+	
+	<!-- Kurin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin, The Three Tailed Fox</li>
+		</mods>
+		<success>Always</success>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "DRNTF_Race"]/race/litterSizeCurve/points</xpath>
+			<value>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, .40)</li>
+					<li>(2, .30)</li>
+					<li>(3, .20)</li>
+					<li>(4, .10)</li>
+					<li>(5, 0)</li>
+				</points>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin, The Three Tailed Fox</li>
+		</mods>
+		<success>Normal</success>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/Garam_RaceAddon.RaceAddonThingDef[defName = "Kurin"]/race/litterSizeCurve/points</xpath>
+			<value>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, .40)</li>
+					<li>(2, .30)</li>
+					<li>(3, .20)</li>
+					<li>(4, .10)</li>
+					<li>(5, 0)</li>
+				</points>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- RatKin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>NewRatkinPlus</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/race/litterSizeCurve/points</xpath>
+			<value>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, .20)</li>
+					<li>(2, .40)</li>
+					<li>(3, .25)</li>
+					<li>(4, .15)</li>
+					<li>(5, 0)</li>
+				</points>
+			</value>
+		</match>
+	</Operation>
+</Patch>

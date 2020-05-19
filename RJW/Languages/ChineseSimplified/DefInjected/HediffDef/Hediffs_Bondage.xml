@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Armbinder.label>手臂绷带</Armbinder.label>
+  <ChastityBelt.label>贞操带</ChastityBelt.label>
+  <ChastityCage.label>贞操笼</ChastityCage.label>
+  <Chains.label>链子</Chains.label>
+  <Yoke.label>枷锁</Yoke.label>
+  <BoundHands.label>缚手</BoundHands.label>
+  <BoundLegs.label>缚腿</BoundLegs.label>
+  <ClosedGag.label>关上的口球</ClosedGag.label>
+  <OpenGag.label>打开的口球</OpenGag.label>
+  <RJW_Restraints.label>拘束具</RJW_Restraints.label>
+
+
+  <!-- insect restraints -->
+
+  <RJW_Cocoon.label>茧</RJW_Cocoon.label>
+
+
+</LanguageData>

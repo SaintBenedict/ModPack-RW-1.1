@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GrowFlatBreasts.label>移植A罩杯</GrowFlatBreasts.label>
+  <GrowFlatBreasts.description>对于未发育的乳腺使用大量的促生长药水搭配祖传徒手丰胸按摩。</GrowFlatBreasts.description>
+  <GrowFlatBreasts.jobString>正在移植A罩杯。</GrowFlatBreasts.jobString>
+
+  <GrowSmallBreasts.label>移植B罩杯</GrowSmallBreasts.label>
+  <GrowSmallBreasts.description>扩大A罩杯通过大量的促生长药水搭配祖传徒手丰胸按摩。</GrowSmallBreasts.description>
+  <GrowSmallBreasts.jobString>正在移植B罩杯。</GrowSmallBreasts.jobString>
+
+  <GrowAverageBreasts.label>移植C罩杯</GrowAverageBreasts.label>
+  <GrowAverageBreasts.description>使B罩杯轻微挫伤，随后乳房组织膨胀，并应用大剂量的生长药水。</GrowAverageBreasts.description>
+  <GrowAverageBreasts.jobString>正在移植C罩杯。</GrowAverageBreasts.jobString>
+
+  <GrowLargeBreasts.label>移植D罩杯</GrowLargeBreasts.label>
+  <GrowLargeBreasts.description>填充C罩杯，通过挫伤乳房组织从中采集的生长激素，然后注射回去。</GrowLargeBreasts.description>
+  <GrowLargeBreasts.jobString>正在移植D罩杯。</GrowLargeBreasts.jobString>
+
+  <GrowHugeBreasts.label>移植E罩杯</GrowHugeBreasts.label>
+  <GrowHugeBreasts.description>扩大D罩杯，依托的是闪耀医学不断合成的促乳房生长药物。</GrowHugeBreasts.description>
+  <GrowHugeBreasts.jobString>正在移植E罩杯。</GrowHugeBreasts.jobString>
+
+  <ShrinkBreastsSurgery.label>缩小胸部尺寸</ShrinkBreastsSurgery.label>
+  <ShrinkBreastsSurgery.description>做缩胸手术</ShrinkBreastsSurgery.description>
+  <ShrinkBreastsSurgery.jobString>正在缩小胸部。</ShrinkBreastsSurgery.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Animals -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+		<value>
+			<li>DeterminePregnancy</li>
+			<li>RJW_AbortionHuman</li>
+			<li>RJW_AbortionBeast</li>
+			<li>RJW_AbortionMech</li>
+			<li>RJW_HackMech</li>
+			<li>RJW_RemoveRestraints</li>
+			<li>RJW_RemoveCocoon</li>
+		</value>
+	</Operation>
+</Patch>

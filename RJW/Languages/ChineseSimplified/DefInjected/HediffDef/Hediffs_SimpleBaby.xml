@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RJW_BabyState.label>小盆友正在成长</RJW_BabyState.label>
+  <RJW_BabyState.stages.0.label>婴儿</RJW_BabyState.stages.0.label>
+  <RJW_BabyState.stages.1.label>幼童</RJW_BabyState.stages.1.label>
+  <RJW_BabyState.stages.2.label>儿童</RJW_BabyState.stages.2.label>
+
+
+  <!-- This only exists separately from BabyState to get around a bug making children drop their weapons on savegame load. -->
+
+  <RJW_NoManipulationFlag.label>无工作能力的幼童</RJW_NoManipulationFlag.label>
+
+
+</LanguageData>

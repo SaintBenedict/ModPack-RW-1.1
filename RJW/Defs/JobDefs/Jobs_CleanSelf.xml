@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>CleanSelf</defName>
+		<driverClass>rjw.JobDriver_CleanSelf</driverClass>
+		<reportString>cleaning self</reportString>
+		<casualInterruptible>true</casualInterruptible>
+	</JobDef>
+</Defs>

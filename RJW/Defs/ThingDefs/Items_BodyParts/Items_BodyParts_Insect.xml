@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Insect privates parts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>OvipositorM</defName>
+		<label>ovipositor (Male)</label>
+		<description>Ovipositor used to fertilize eggs.</description>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>OvipositorF</defName>
+		<label>ovipositor (Female)</label>
+		<description>Ovipositor used to lay eggs.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>2.00</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>InsectAnus</defName>
+		<label>insect anus</label>
+		<description>Insect anus.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

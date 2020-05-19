@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_MiddleBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>4.0</Mass>
+		<EquipDelay>4.0</EquipDelay>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Middle</li>
+		</layers>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_OnSkin</li>
+	</thingCategories>
+</ThingDef>
+
+<!--================================================== Tear 2 ==================================================-->
+
+<ThingDef Name="Kurin_MiddleBaseTear2" ParentName="Kurin_MiddleBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_MiddleT2</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_MiddleBaseTear2">
+	<defName>Kurin_Middle_Body_Armor</defName>
+	<label>kurin body armor</label>
+	<description>경량 방탄복입니다. 언제 어디서나 무리 없이 착용할 수 있지만 방어력은 조금 부족합니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Middle/Body_Armor/Texture</texPath>
+	</graphicData>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+    <costList>
+      <Cloth>25</Cloth>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<apparel>
+		<tags>
+		 <li>Kurin_Grunt</li>
+		</tags>
+		<wornGraphicPath>Kurin/Apparel/Middle/Body_Armor/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+	<statBases>
+		<MaxHitPoints>250</MaxHitPoints>
+		<WorkToMake>12000</WorkToMake>
+		<StuffEffectMultiplierArmor>1.0</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+</ThingDef>
+
+</Defs>

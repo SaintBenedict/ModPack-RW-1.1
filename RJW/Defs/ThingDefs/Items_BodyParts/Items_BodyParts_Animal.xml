@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>HorsePenis</defName>
+		<label>equine penis</label>
+		<description>A equine penis. Huge for a human.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>HorseVagina</defName>
+		<label>equine vagina</label>
+		<description>A equine vagina. Gaping vagina just begs Studs to plow it.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>CatPenis</defName>
+		<label>feline penis</label>
+		<description>A feline penis. Long, thin and barbed.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>CatVagina</defName>
+		<label>feline vagina</label>
+		<description>A feline vagina. Long and thin vagina with clittoris inside, perfect for barbed feline cocks.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>DogPenis</defName>
+		<label>canine penis</label>
+		<description>A canine penis. Thick and knotted.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>DogVagina</defName>
+		<label>canine vagina</label>
+		<description>A canine vagina. Has enough strength to keep cock inside for 20 minutes.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>DragonPenis</defName>
+		<label>dragon penis</label>
+		<description>A dragon penis. Thick and HARD.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>DragonVagina</defName>
+		<label>dragon vagina</label>
+		<description>A dragon vagina. It's gaping, probably good for laying eggs.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>RaccoonPenis</defName>
+		<label>procyonine penis</label>
+		<description>A procyonine penis. Impressive length, but very thin and inflexible.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>HemiPenis</defName>
+		<label>hemipenis</label>
+		<description>A reptilian hemipenis. Two knobbly shafts with flexible barbs.</description>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>CrocodilianPenis</defName>
+		<label>crocodilian penis</label>
+		<description>A crocodilian penis. Very rigid and has a thick bulbous base, but otherwise similar to a humanoid penis.</description>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Mass>0.20</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>NarrowVagina</defName>
+		<label>narrow vagina</label>
+		<description>A narrow vagina. A deep, but particularly thin vagina.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>NeedlePenis</defName>
+		<label>needle-like penis</label>
+		<description>A needle-like penis. A rather long, but exceptionally thin penis.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>RodentVagina</defName>
+		<label>rodent vagina</label>
+		<description>A rodent vagina. A vagina barely even large enough to fit a human finger.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>RodentPenis</defName>
+		<label>rodent penis</label>
+		<description>A rodent penis. A truly tiny penis, built for the bare minimum of function.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>CloacalPenis</defName>
+		<label>cloacal penis</label>
+		<description>A cloacal penis. A male sex organ tucked away inside a slit.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>CloacalVagina</defName>
+		<label>cloacal vagina</label>
+		<description>A cloacal vagina. A female, egg-laying sex organ.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>UdderBreasts</defName>
+		<label>udder</label>
+		<description>Large udder, possibly from muffalo or some similar animal. May be attached to humanoids for literal cowgirl look.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.48</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>CloacalAnus</defName>
+		<label>cloacal anus</label>
+		<description>A cloacal anus. An anus hidden within a common port for the reproductive organs, known as a cloaca.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

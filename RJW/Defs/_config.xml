@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.config>
+		<defName>the_one</defName>
+		<bondage_gear_enabled>true</bondage_gear_enabled>
+		<max_nymph_fraction>0.99</max_nymph_fraction>
+		<!-- STD stuff -->
+		<nymph_spawn_with_std_mul>3.0</nymph_spawn_with_std_mul>
+		<!-- Logs the process of handing out STDs after sex for debug purposes (or for anyone who's curious) -->
+		<std_show_roll_to_catch>false</std_show_roll_to_catch>
+		<!-- STD infections must be at least this severe to spread between pawns -->
+		<std_min_severity_to_pitch>0.21</std_min_severity_to_pitch>
+		<!-- "Clean" rooms (cleanliness stat >= 0) have their stat multiplied by this amount -->
+		<std_env_pitch_cleanliness_exaggeration>2.0</std_env_pitch_cleanliness_exaggeration>
+		<!-- "Dirty" rooms (cleanliness stat< 0) have their stat multiplied by this amount -->
+		<std_env_pitch_dirtiness_exaggeration>0.5</std_env_pitch_dirtiness_exaggeration>
+		<!-- Cleanliness stat for sex outside of a room -->
+		<std_outdoor_cleanliness>-1.0</std_outdoor_cleanliness>
+		<opp_inf_initial_immunity>0.55</opp_inf_initial_immunity>
+		<!-- Cooldown for animal breeding, CP.-->
+		<comfort_prisoner_rape_mtbh_mul>4.0</comfort_prisoner_rape_mtbh_mul>
+		
+		<!-- Rape beating -->
+		<minor_pain_threshold>0.3</minor_pain_threshold>
+		<significant_pain_threshold>0.6</significant_pain_threshold>
+		<extreme_pain_threshold>0.9</extreme_pain_threshold>
+		<base_chance_to_hit_prisoner>0.50</base_chance_to_hit_prisoner>
+		<min_ticks_between_hits>500</min_ticks_between_hits>
+		<max_ticks_between_hits>700</max_ticks_between_hits>
+	</rjw.config>
+</Defs>

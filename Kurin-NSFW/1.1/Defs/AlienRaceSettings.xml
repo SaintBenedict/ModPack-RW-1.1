@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.RaceSettings>
+<defName>Kurin_RaceSettings</defName>
+<pawnKindSettings>
+	<alienslavekinds>
+		<li>
+			<kindDefs>
+				<li>Kurin_Colonist</li>
+			</kindDefs>
+			<chance>0.0</chance>
+		</li>
+	</alienslavekinds>
+	
+	<alienrefugeekinds>
+		<li>
+			<kindDefs>
+				<li>Kurin_Colonist</li>
+			</kindDefs>
+			<chance>0.0</chance>
+		</li>
+	</alienrefugeekinds>
+			
+    <startingColonists>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>Kurin_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>Kurin_PlayerFaction</li> 
+            </factionDefs>
+        </li>
+    </startingColonists>
+			
+    <alienwandererkinds>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>Kurin_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>Kurin_PlayerFaction</li> 
+            </factionDefs>
+        </li>
+    </alienwandererkinds>			
+</pawnKindSettings>
+</AlienRace.RaceSettings>
+</Defs>

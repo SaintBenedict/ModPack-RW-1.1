@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_ShellBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>1.0</Mass>
+		<EquipDelay>3.0</EquipDelay>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Shell</li>
+		</layers>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Shell</li>
+	</thingCategories>
+</ThingDef>
+
+<!--================================================== Tear 1 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear1" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Shell_Cardigan</defName>
+	<label>kurin cardigan</label>
+	<description>푹신푹신하고 따듯한 카디건입니다. 옷이 늘어나지 않게 조심하세요!</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Cardigan/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Cardigan/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Shell_Duster</defName>
+	<label>kurin duster</label>
+	<description>상당한 더위와 어느정도의 추위를 막아 줄 수 있는 세련된 외투입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Duster/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Duster/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Shell_Winter_Padding</defName>
+	<label>kurin winter padding</label>
+	<description>두꺼운 겨울 패딩입니다. 추위를 잘 타는 쿠린들에게는 겨울 필수품입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Winter_Padding/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Winter_Padding/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<!--================================================== Tear 2 ==================================================-->
+
+<!--================================================== Tear 3 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear3" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT3</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Trader</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellBaseTear3">
+	<defName>Kurin_OnSkin_Traditional_Coat</defName>
+	<label>kurin tranditionnal coat</label>
+	<description>단조로운 남색 코트 위에 흰색 무늬가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</wornGraphicPath>
+		<tags>
+			<!--Royal-->
+          <li>Psychic</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>100</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>250</MaxHitPoints>
+		<WorkToMake>12000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

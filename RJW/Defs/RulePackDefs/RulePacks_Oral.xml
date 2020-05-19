@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>RimmingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] rimmed [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>CunnilingusRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] went down on [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FellatioRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] sucked off [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+    <!-- For the avian races... -->
+    <RulePackDef>
+		<defName>beakjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] fellated [RECIPIENT_nameDef] with [INITIATOR_possessive] beak.</li>
+			</rulesStrings>
+		</rulePack>
+    </RulePackDef>
+
+	<RulePackDef>
+		<defName>SixtynineRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] 69'd with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

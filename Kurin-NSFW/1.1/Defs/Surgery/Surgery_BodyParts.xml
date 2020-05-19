@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BodyPartProstheticBase">
+	<defName>Kurin_FakeTail</defName>
+	<label>fake kurin tail</label>
+	<description>간단한 가짜 꼬리입니다. 자세히 보면 뭔가 어색합니다.</description>
+	<techLevel>Industrial</techLevel>
+	<costList>
+		<Steel>25</Steel>
+		<Cloth>50</Cloth>
+	</costList>
+	<statBases>
+		<WorkToMake>13000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicEar</defName>
+	<label>bionic kurin ear</label>
+	<description>진짜 쿠린의 귀하고 구별할 수 없을 만큼 정교한 인공 귀입니다.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>10</Plasteel>
+		<Cloth>25</Cloth>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicTail</defName>
+	<label>bionic kurin tail</label>
+	<description>진짜 쿠린의 꼬리하고 구별할 수 없을 만큼 정교한 인공 꼬리입니다.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>25</Plasteel>
+		<Cloth>50</Cloth>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+</Defs>

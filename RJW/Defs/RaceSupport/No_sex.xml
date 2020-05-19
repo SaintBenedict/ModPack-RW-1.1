@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		<defName>NoSex_Group</defName>
+		<!-- I don't think searching by pawnKind is a good idea, but for now keeping behavior exactly the same. -->
+		<!-- The droids only have one pawnKind per race so its not that important for them. -->
+		<!-- TM_Undead is not a race, so you can't find it through race, but then its not the only way to get undead either. -->
+		<!-- TM_UndeadAnimalHD is a hediff not a pawnKind so not sure how that could ever work. -->
+		<pawnKindNames>
+			<li>ChjDroidColonist</li>
+			<li>ChjBattleDroidColonist</li>
+			<li>TM_Undead</li>
+			<li>TM_UndeadHD</li><!--hediff-->
+			<li>TM_UndeadAnimalHD</li><!--hediff-->
+		</pawnKindNames>
+		
+		<hasSexNeed>false</hasSexNeed>
+		<hasFertility>false</hasFertility>
+		<hasPregnancy>false</hasPregnancy>
+	</rjw.RaceGroupDef>
+</Defs>

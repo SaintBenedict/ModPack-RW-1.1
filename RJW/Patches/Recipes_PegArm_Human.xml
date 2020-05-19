@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Add peg arms -->
+	<!-- Races_Humanlike -->
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Human"]/recipes</xpath>
+		<value>
+			<li>InstallPegArm</li>
+		</value>
+	</Operation>
+	-->
+</Patch>

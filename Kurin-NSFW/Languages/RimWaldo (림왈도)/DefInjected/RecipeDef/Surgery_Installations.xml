@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_InstallFakeTail.label>쿠린 가짜 꼬리 장착</Kurin_InstallFakeTail.label>
+  <Kurin_InstallFakeTail.description>쿠린 가짜 꼬리 장착합니다.</Kurin_InstallFakeTail.description>
+  <Kurin_InstallFakeTail.jobString>쿠린 가짜 꼬리 장착 중.</Kurin_InstallFakeTail.jobString>
+
+  <Kurin_InstallBionicEar.label>쿠린 생체공학 귀 장착</Kurin_InstallBionicEar.label>
+  <Kurin_InstallBionicEar.description>쿠린 생체공학 귀를 장착합니다.</Kurin_InstallBionicEar.description>
+  <Kurin_InstallBionicEar.jobString>쿠린 생체공학 귀 장착 중.</Kurin_InstallBionicEar.jobString>
+
+  <Kurin_InstallBionicTail.label>쿠린 생체공학 꼬리 장착</Kurin_InstallBionicTail.label>
+  <Kurin_InstallBionicTail.description>쿠린 생체공학 꼬리를 장착합니다.</Kurin_InstallBionicTail.description>
+  <Kurin_InstallBionicTail.jobString>쿠린 생체공학 꼬리 장착 중.</Kurin_InstallBionicTail.jobString>
+
+
+</LanguageData>

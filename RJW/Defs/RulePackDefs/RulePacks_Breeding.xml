@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalBreedingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was anally mounted by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>VaginalBreedingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was vaginally bred by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

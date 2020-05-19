@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef ParentName="RJW_CustomRaceBase">
+		<defName>Slime_Group</defName>
+		<raceNames>
+			<!--<li>Human</li>-->
+		</raceNames>
+
+		<anuses>
+			<li>SlimeAnus</li>
+		</anuses>
+		<femaleBreasts>
+			<li>SlimeBreasts</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>SlimeVagina</li>
+		</femaleGenitals>
+		
+		<maleBreasts>
+			<li>SlimeBreasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>SlimeTentacles</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Slime</li>
+		</tags>
+	</rjw.RaceGroupDef>
+</Defs>

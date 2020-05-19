@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <rjw.MiscTranslationDef>
+		<defName>DesignatorComfortPrisoner</defName>
+		<targetClass>rjw.Designator_ComfortPrisoner</targetClass>
+		<label>comfort prisoner</label>
+		<description>Designate the prisoner as a tool to satisfy everyone's sexual need.</description>
+	</rjw.MiscTranslationDef> -->
+
+  <rjw_vatgrown_sex_slave.label>肉便器级别的性奴</rjw_vatgrown_sex_slave.label>
+  <rjw_vatgrown_sex_slave.description>[PAWN_nameDef] 完全是个肉便器，而不是个人类。[PAWN_possessive] 在工厂中长大，[PAWN_pronoun] 被教了很多社交技巧和性技巧，为了满足各种性需求</rjw_vatgrown_sex_slave.description>
+
+  <rjw_feisty.label>充满战斗力的性奴</rjw_feisty.label>
+  <rjw_feisty.description>[PAWN_nameDef] 在殖民地到处走，就像一个征服者看自己刚拿下的陆地一样. 你想专注于工作? [PAWN_pronoun] 肯定不会让你做到的.\n
+"我听到你怎么说我得了!" [PAWN_pronoun] 骂到. 你根本没说过任何关于 [PAWN_objective] 的事. [PAWN_pronoun] 是知道的. "想打架吗?" [PAWN_pronoun] 挑战你. 你已经知道 [PAWN_pronoun] 想干什么了: 几分钟的摔角，然后你干翻 [PAWN_objective], 或者, 假如你慢了, [PAWN_pronoun] 干翻你.\n
+虽然很难和 [PAWN_nameDef] 处理好关系，你最终却更欣赏 [PAWN_pronoun] 比别人更直白的真性情.\n
+你对 [PAWN_objective] 解释到, "看到这里的这些东西了吗? 他们要摆到那边去" and "这些人想杀咱们，所以我们先杀他吧." [PAWN_pronoun] 会聆听, 并且做好该做的事.</rjw_feisty.description>
+
+  <rjw_curious.label>好奇的性奴</rjw_curious.label>
+  <rjw_curious.description>把遮挡板拿回去然后把执行器放到 C 号槽位. 把棒子连起来. 不行, 这样不够. 必须要完美. 现在把 JC-444 芯片放进去.\n
+把黄色线焊到针口 #16 然后把有条纹的那条线焊到针口 #5.\n
+突然, [PAWN_pronoun] 出现了. 对于看到 [PAWN_nameDef], 你一点也不感到惊讶, 你只是没听到 [PAWN_objective] 靠近. 现在你已经习惯他了.\n
+你继续在安静中工作，与此同时 [PAWN_pronoun] 就站在你隔壁, 她的大眼睛固定在了你手的频繁、有节奏感、有意义的摆动上.</rjw_curious.description>
+
+  <rjw_tender.label>温柔的性奴</rjw_tender.label>
+  <rjw_tender.description>[PAWN_nameDef] 有一双充满诱惑力的眼睛, 而且 [PAWN_possessive] 声音软糯又甜蜜. 因为 [PAWN_possessive] 上一个护士职业, [PAWN_pronoun] 可以把人照顾的非常好.\n
+[PAWN_pronoun] 蹲在角落, 手放在 [PAWN_possessive] 耳朵上, 眼泪在 [PAWN_possessive] 眼睛里打转. 你一开始没懂, 然后你听到了: 在远处的猪被屠宰发出的尖叫声.</rjw_tender.description>
+
+  <rjw_chatty.label>话唠的性奴</rjw_chatty.label>
+  <rjw_chatty.description>没有人可以比 [PAWN_nameDef] 还要话多. [PAWN_pronoun] 有一条非常灵活的舌头, 一个锐利的思维, 和非常好看的嘴唇.</rjw_chatty.description>
+
+  <rjw_broken.label>心碎的性奴</rjw_broken.label>
+  <rjw_broken.description>或许 [PAWN_nameDef] 遭受过某些苦难的事情, [PAWN_pronoun] 看起来十分瘦弱, 而且没人想和 [PAWN_objective] 说话.\n
+[PAWN_pronoun] 只会在盯着某些跟棒子一样的物体的时候才会活跃一点.</rjw_broken.description>
+
+
+</LanguageData>

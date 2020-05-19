@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RecipeDef ParentName="SurgeryFlesh">
+	<defName>Kurin_InstallFakeTail</defName>
+	<label>install fake kurin tail</label>
+	<description>Install a fake kurin tail.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing fake kurin tail.</jobString>
+	<workAmount>2000</workAmount>
+	<skillRequirements>
+		<Medicine>5</Medicine>
+	</skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Kurin_FakeTail</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Kurin_FakeTail</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Kurin_Tail</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>Kurin_FakeTail</addsHediff>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryFlesh">
+	<defName>Kurin_InstallBionicEar</defName>
+	<label>install bionic kurin ear</label>
+	<description>Install a bionic kurin ear.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing bionic kurin ear.</jobString>
+	<workAmount>2000</workAmount>
+	<skillRequirements>
+		<Medicine>5</Medicine>
+	</skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Kurin_BionicEar</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Kurin_BionicEar</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Kurin_Ear</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>Kurin_BionicEar</addsHediff>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryFlesh">
+	<defName>Kurin_InstallBionicTail</defName>
+	<label>install bionic kurin tail</label>
+	<description>Install a bionic kurin tail.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing bionic kurin tail.</jobString>
+	<workAmount>2000</workAmount>
+	<skillRequirements>
+		<Medicine>5</Medicine>
+	</skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Kurin_BionicTail</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Kurin_BionicTail</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Kurin_Tail</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>Kurin_BionicTail</addsHediff>
+</RecipeDef>
+</Defs>

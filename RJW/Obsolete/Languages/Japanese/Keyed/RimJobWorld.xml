@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Settings-->
+  <NymphsJoin>ニンフの参加</NymphsJoin>
+  <NymphsJoin_desc>ニンフをコロニーに参加させますか？</NymphsJoin_desc>
+  <STD_FromFloors>床からの性病</STD_FromFloors>
+  <STD_FromFloors_desc>有効にすると、性病持ちとのセックス以外に、環境からも性病が発症します。</STD_FromFloors_desc>
+  <PrisonersBeating>捕虜暴行</PrisonersBeating>
+  <PrisonersBeating_desc>Will comfort prisoners get beaten in the acts?</PrisonersBeating_desc>
+  <OffspringLookLikeTheirMother>子供の母親似具合</OffspringLookLikeTheirMother>
+  <OffspringLookLikeTheirMother_desc>生まれてくる子供がどのくらいの確率で母親に似るか。</OffspringLookLikeTheirMother_desc>
+  <OffspringIsHuman>Offspring look human</OffspringIsHuman>
+  <OffspringIsHuman_desc>Percent chance the offspring will be human</OffspringIsHuman_desc>
+  <PregnantCoeffecientForHuman>Pregnant coeffecient for human</PregnantCoeffecientForHuman>
+  <PregnantCoeffecientForHuman_desc>Percent multiplier applied to women's pregnant chance</PregnantCoeffecientForHuman_desc>
+  <PregnantCoeffecientForAnimals>Pregnant coeffecient for animals</PregnantCoeffecientForAnimals>
+  <PregnantCoeffecientForAnimals_desc>Percent multiplier applied to female animals' pregnant chance</PregnantCoeffecientForAnimals_desc>
+  <UseParentMethod>Use parent method</UseParentMethod>
+  <UseParentMethod_desc>Use either the parent weighting or the species weighting when creating offspring</UseParentMethod_desc>
+  <SexFreeForAllAge>自由にセックスを行うようになる年齢</SexFreeForAllAge>
+  <SexFreeForAllAge_desc>Pawns younger than the free-for-all age will only have sex with others within 2 biological years of their own age</SexFreeForAllAge_desc>
+  <SexMinimumAge>セックスを行う最低年齢</SexMinimumAge>
+  <SexMinimumAge_desc>Pawns must be this old to have sex at all (should be lower or equal to free-for-all age)</SexMinimumAge_desc>
+
+  <!-- Bed -->
+  <ForWhoreUse>売春に使う</ForWhoreUse>
+  <WhoreBedFormat>whore {0}</WhoreBedFormat>
+  <CommandBedSetAsWhoreLabel>売春に使う</CommandBedSetAsWhoreLabel>
+  <CommandBedSetAsWhoreDesc>このベッドを売春に使いますか</CommandBedSetAsWhoreDesc>
+
+  <!-- std.cs -->
+  <RJW_Opportunistic_Infection_Message>{0} has developed an infection due to the weakened immune system.</RJW_Opportunistic_Infection_Message>
+  <RJW_Poisoned_by_Rimming_Message>{0} has gotten food poisoning by rimming {1}</RJW_Poisoned_by_Rimming_Message>
+  <RJW_Syphilis_Damage_Message>{0} has suffered permanent damage to {1} {2} due to an advanced {3} infection.</RJW_Syphilis_Damage_Message>
+</LanguageData>

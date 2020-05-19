@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Simple prosthetic penises -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenMale">
+		<defName>PegDick</defName>
+		<label>peg dick</label>
+		<description>A wooden dildo designed to replace a missing penis. Be careful of splinters.</description>
+		<thingCategories>
+			<li>BodyPartsSimple</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenMale">
+		<defName>HydraulicPenis</defName>
+		<label>hydraulic penis</label>
+		<description>A prosthetic penis. Cold metal phallus. Has built in fluid delivery system.</description>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic vaginas -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenFemale">
+		<defName>HydraulicVagina</defName>
+		<label>hydraulic vagina</label>
+		<description>A prosthetic vagina. Its cold metal grip is uncomfortable but it has great suction power.</description>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic breasts -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseBreast">
+		<defName>HydraulicBreasts</defName>
+		<label>hydraulic breasts</label>
+		<description>Prosthetic breasts. Conical metal.</description>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>3.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic anuses -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseAnus">
+		<defName>HydraulicAnus</defName>
+		<label>hydraulic anus</label>
+		<description>A prosthetic anus. Its cold metal grip is uncomfortable but it has great suction power.</description>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic penises -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenMale">
+		<defName>BionicPenis</defName>
+		<label>bionic penis</label>
+		<description>A high-tech prosthetic penis. Features include:
+- Adjustable size allows you to fit in any vagina.
+- Over 50 different vibration modes, including 10 of the most stimulating waveforms known to science
+- State-of-the-art neural interface activates neural pathways you didn't even know you had to make you feel things you never even imagined.</description>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>900</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic vaginas -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenFemale">
+		<defName>BionicVagina</defName>
+		<label>bionic vagina</label>
+		<description>A high-tech prosthetic vagina. Features include:
+- Interior lined with 150 million micro-g-spots
+- Resizes to fit any penis
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</description>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic breasts -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseBreast">
+		<defName>BionicBreasts</defName>
+		<label>bionic breasts</label>
+		<description>High-tech prosthetic breasts. Features include:
+- Resizes to any desired size</description>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic anuses -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseAnus">
+		<defName>BionicAnus</defName>
+		<label>bionic anus</label>
+		<description>A high-tech prosthetic anus. Features include:
+- Resizes to any desired size
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</description>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Archotech -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenMale">
+		<defName>ArchotechPenis</defName>
+		<label>archotech penis</label>
+		<description>An artificial penis build by an archotech. It's stimulating capabilities are unmatched in every kind of sexual situation. Not only is it able to change color, texture, length and shape to provide the perfect stimulation for every kind of orifice, it's also stronger than plasteel and self-repairing. It attaches seamlessly to the body and directly connects to the nervous system to greatly enhance the owner's stamina and virility to keep the pleasure going for as long as possible. AI-controlled vibrations combined with custom pheromones make sure to make every sex-act into an unforgettable experience. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>BodyPartsArchotech</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Archotech vaginas -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseGenFemale">
+		<defName>ArchotechVagina</defName>
+		<label>archotech vagina</label>
+		<description>An artificial vagina build by an archotech. It looks exactly like its fleshy original, but its properties make it the perfect replacement for its weaker, organic counterpart. Advanced lubrication, flexibility in addition to its self-repairing mechanisms enables it to endure any type of inserted object with ease and allows any kind of offspring to pass through without complications. It seamlessly attaches to the hosting body and maintains immunity of most known STDs. Exceptional sensitivity, warmth regulation as well as pheromones will satisfy any kind of partner. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>BodyPartsArchotech</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Archotech breasts -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseBreast">
+		<defName>ArchotechBreasts</defName>
+		<label>archotech breasts</label>
+		<description>A pair of artificial breasts build by an archotech. They can change shape into any desired appearance, at any time and wont interfere in the wearers activities. Their surface is smoother than any natural skin, while beeing harder to damage than plasteel and beeing able to heal themselves. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>BodyPartsArchotech</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<MarketValue>2800</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Archotech anus -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBaseAnus">
+		<defName>ArchotechAnus</defName>
+		<label>archotech anus</label>
+		<description>An artificial anus build by an archotech. It's indistinguishable from a normal anus. Unmatched strength and self-repairing properties make it almost impossible to destroy. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>BodyPartsArchotech</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+	
+</Defs>

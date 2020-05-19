@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnTableDef>
+		<defName>Brothel</defName>
+		<workerClass>rjw.MainTab.PawnTable_Whores</workerClass>
+		<columns>
+			<li>Label</li>
+			<li>IsWhore</li>
+			<li>IsPrisoner</li>
+			<li>Mood</li>
+			<li>GapTiny</li>
+			<li>CountOfWhore</li>
+			<li>EarnedMoneyByWhore</li>
+			<li>AverageMoneyByWhore</li>
+			<li>WhoreExperience</li>
+			<li>GapTiny</li>
+			<li>PriceRangeOfWhore</li>
+			<li>RoomAdjustmentOfWhore</li>
+			<li>RemainingSpace</li>
+		</columns>
+	</PawnTableDef>
+
+</Defs>

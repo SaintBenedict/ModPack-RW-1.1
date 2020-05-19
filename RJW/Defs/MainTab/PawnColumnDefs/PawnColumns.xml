@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<PawnColumnDef>
+		<defName>IsWhore</defName>
+		<headerTip>pawn is a whore</headerTip>
+		<headerIcon>UI/Tab/Service_off</headerIcon>
+		<workerClass>rjw.MainTab.PawnColumnWorker_IsWhore</workerClass>
+		<sortable>true</sortable>
+		<width>80</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>IsPrisoner</defName>
+		<headerTip>pawn is prisoner or slave</headerTip>
+		<headerIcon>UI/Tab/ComfortPrisoner_off</headerIcon>
+		<workerClass>rjw.MainTab.PawnColumnWorker_IsPrisoner</workerClass>
+		<sortable>true</sortable>
+		<width>80</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>WhoreExperience</defName>
+		<headerTip>whoring experience</headerTip>
+		<label>Experience</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_WhoreExperience</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>RoomAdjustmentOfWhore</defName>
+		<headerTip>whoring room impressiveness -> price modifier</headerTip>
+		<label>Room</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_RoomAdjustmentOfWhore</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>PriceRangeOfWhore</defName>
+		<headerTip>price range for whore</headerTip>
+		<label>Price</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_PriceRangeOfWhore</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>EarnedMoneyByWhore</defName>
+		<headerTip>money earned(total)</headerTip>
+		<label>Earned</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_EarnedMoneyByWhore</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>CountOfWhore</defName>
+		<headerTip>clients served</headerTip>
+		<label>Clients</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_CountOfWhore</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>AverageMoneyByWhore</defName>
+		<headerTip>money earned(average)</headerTip>
+		<label>Average</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_AverageMoneyByWhore</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+	<PawnColumnDef>
+		<defName>Mood</defName>
+		<headerTip>mood of pawn</headerTip>
+		<label>Mood</label>
+		<workerClass>rjw.MainTab.PawnColumnWorker_Mood</workerClass>
+		<sortable>true</sortable>
+		<width>100</width>
+	</PawnColumnDef>
+</Defs>

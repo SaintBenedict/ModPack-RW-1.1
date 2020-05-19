@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SexAbility.label>生殖能力</SexAbility.label>
+  <SexAbility.description>生殖能力があるか、またどれほどの品質かを表しています</SexAbility.description>
+
+  <Vulnerability.label>vulnerability</Vulnerability.label>
+  <Vulnerability.description>Measures how likely a pawn is to be taken advantage of sexually</Vulnerability.description>
+</LanguageData>

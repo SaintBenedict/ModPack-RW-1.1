@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--sterilization-->
+	<!--hideBodyPartNames>true</hideBodyPartNames-->
+	<!--targetsBodyPart>true</targetsBodyPart-->
+
+	<RecipeDef ParentName="SexReassignmentP">
+		<defName>Sterilization</defName>
+		<label>sterilize</label>
+		<description>Prevents reproduction without removing genitals.</description>
+		<jobString>sterilizing.</jobString>
+		<workAmount>1000</workAmount>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<addsHediff>Sterilized</addsHediff>
+		<workerClass>rjw.Recipe_InstallImplantToExistParts</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<!-- IUD Sergery -->
+
+	<RecipeDef ParentName="SexReassignmentV">
+		<defName>RJW_InstallIUD</defName>
+		<label>install IUD</label>
+		<description>Prevents reproduction temporarily. Recoverable anytime.</description>
+		<jobString>installing IUD.</jobString>
+		<workAmount>300</workAmount>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<addsHediff>RJW_IUD</addsHediff>
+		<workerClass>rjw.Recipe_InstallIUD</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SexReassignmentV">
+		<defName>RJW_RemovelIUD</defName>
+		<label>remove IUD</label>
+		<description>Prevents reproduction temporarily. Recoverable anytime.</description>
+		<jobString>removing IUD.</jobString>
+		<workAmount>300</workAmount>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<removesHediff>RJW_IUD</removesHediff>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="RJW_SurgeryFlesh">
+		<defName>InstallPegArm</defName>
+		<label>install peg arm</label>
+		<description>Install a peg arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing peg arm.</jobString>
+		<workAmount>1300</workAmount>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			  </li>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>WoodLog</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PegArm</addsHediff>
+	</RecipeDef>
+</Defs>

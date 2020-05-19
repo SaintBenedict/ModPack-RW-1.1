@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MakePegDick.label>выстругать деревянный член</MakePegDick.label>
+	<MakePegDick.description>Выстругать дилдо из куска дерева.</MakePegDick.description>
+	<MakePegDick.jobString>Выстругивает деревянный член.</MakePegDick.jobString>
+
+	<MakeBionicPenis.label>сделать бионический пенис</MakeBionicPenis.label>
+	<MakeBionicPenis.description>Сделать бионический пенис из гиперткани, пластали, и копмонентов.</MakeBionicPenis.description>
+	<MakeBionicPenis.jobString>Делает бионический пенис. </MakeBionicPenis.jobString>
+
+	<!--[Duplicated] <MakeHydraulicVagina.label>craft hydraulic vagina</MakeHydraulicVagina.label>-->
+	<!--[Duplicated] <MakeHydraulicVagina.description>Crafts a hydraulic vagina from steel and components.</MakeHydraulicVagina.description>-->
+	<!--[Duplicated] <MakeHydraulicVagina.jobString>Crafting hydraulic vagina.</MakeHydraulicVagina.jobString>-->
+
+	<!--[Duplicated] <MakeBionicVagina.label>craft bionic vagina</MakeBionicVagina.label>-->
+	<!--[Duplicated] <MakeBionicVagina.description>Crafts a bionic vagina from hyperweave, plasteel, and components.</MakeBionicVagina.description>-->
+	<!--[Duplicated] <MakeBionicVagina.jobString>Crafting bionic vagina.</MakeBionicVagina.jobString>-->
+
+	<MakeHydraulicVagina.label>собрать гидравлическую вагину</MakeHydraulicVagina.label>
+	<MakeHydraulicVagina.description>Собрать гидравлическую вагину из стали и компонентов. </MakeHydraulicVagina.description>
+	<MakeHydraulicVagina.jobString>Собирает гидравлическую вагину.</MakeHydraulicVagina.jobString>
+
+	<MakeBionicVagina.label>сделать бионическую вагину</MakeBionicVagina.label>
+	<MakeBionicVagina.description>Сделать бионическую вагину из гиперткани, пластали, и компонентов.</MakeBionicVagina.description>
+	<MakeBionicVagina.jobString>Делает бионическую вагину.</MakeBionicVagina.jobString>
+
+	<MakeHydraulicBreasts.label>собрать гидравлическую грудь</MakeHydraulicBreasts.label>
+	<MakeHydraulicBreasts.description>Собрать гидравлическую грудь из стали и компонентов.</MakeHydraulicBreasts.description>
+	<MakeHydraulicBreasts.jobString>Собирает гидравлическую грудь.</MakeHydraulicBreasts.jobString>
+
+	<MakeBionicBreasts.label>сделать бионическую грудь</MakeBionicBreasts.label>
+	<MakeBionicBreasts.description>Сделать бионическую грудь из гиперткани, пластали и компонентов.</MakeBionicBreasts.description>
+	<MakeBionicBreasts.jobString>Делает бионическую грудь.</MakeBionicBreasts.jobString>
+
+	<MakeHydraulicAnus.label>собрать гидравлический анус</MakeHydraulicAnus.label>
+	<MakeHydraulicAnus.description>Собрать гидравлический анус из стали о компонентов.</MakeHydraulicAnus.description>
+	<MakeHydraulicAnus.jobString>Собирает гидравлический анус.</MakeHydraulicAnus.jobString>
+
+	<MakeBionicAnus.label>Сделать бионический анус</MakeBionicAnus.label>
+	<MakeBionicAnus.description>Сделать бионический анус из гиперткани, компонентов и пластали.</MakeBionicAnus.description>
+	<MakeBionicAnus.jobString>Делает бионический анус.</MakeBionicAnus.jobString>
+</LanguageData>

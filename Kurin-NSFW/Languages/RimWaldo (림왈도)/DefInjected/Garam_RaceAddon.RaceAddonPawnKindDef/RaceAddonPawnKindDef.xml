@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 플레이어펙션 -->
+
+  <Kurin_Colonist.label>쿠린 정착민</Kurin_Colonist.label>
+
+
+  <!-- 시민 -->
+
+  <Kurin_Citizen.label>쿠린 시민</Kurin_Citizen.label>
+
+
+  <!-- 자경단 -->
+
+  <Kurin_Vigilante.label>쿠린 자경단</Kurin_Vigilante.label>
+
+
+  <!-- 상인 -->
+
+  <Kurin_Trader.label>쿠린 상인</Kurin_Trader.label>
+
+
+  <!-- 엘리트 -->
+
+  <Kurin_Elite.label>쿠린 엘리트</Kurin_Elite.label>
+
+
+  <!-- 군인(분대원) -->
+
+  <Kurin_Soldier.label>쿠린 분대원</Kurin_Soldier.label>
+
+
+  <!-- 군인(분대장) -->
+
+  <Kurin_EliteSoldier.label>쿠린 분대장</Kurin_EliteSoldier.label>
+
+
+  <!-- 군인(저격수) -->
+
+  <Kurin_Sniper.label>쿠린 저격수</Kurin_Sniper.label>
+
+
+</LanguageData>

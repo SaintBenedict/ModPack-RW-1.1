@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Concepts taught through the learning readout, when opportunities arise -->
+
+  <WhoreBeds.label>売春用ベッド</WhoreBeds.label>
+  <WhoreBeds.helpText>売春婦がこのベッドで活動します。\n\n売春婦用のベッドを作ることができます。</WhoreBeds.helpText>
+</LanguageData>

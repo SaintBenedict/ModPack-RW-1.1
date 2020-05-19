@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Removes CnP contraceptive because rjw has its own which works for both mods--> 
+	<!--Fucking Tynan. Not removing anything, because the game will error about empty xml in CnP then-->
+	<!--Instead we'll delete RJW_contraceptive and insert the effect into CnP hediff-->
+	<!--Fuck it. I'm out-->
+	<!--<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Contraceptive"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+			<xpath>Defs/HediffDef[defName="Contraceptive"]</xpath>
+			<value>
+				<stages>
+					<li>
+						<label>Contracepted</label>
+						<capMods>
+							<li>
+								<capacity>RJW_Fertility</capacity>
+								<setMax>0.1</setMax>
+							</li>
+						</capMods>
+					</li>
+				</stages>
+			</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="RJW_Contraceptive"]</xpath>
+			</li>
+		</operations>
+	</Operation>-->
+</Patch>

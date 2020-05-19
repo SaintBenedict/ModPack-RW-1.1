@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>Rimming</defName>
+		<label>rimming</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Rimmed [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was rimmed.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Cunnilingus</defName>
+		<label>cunnilingus</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings> <!-- these are only the first part the log, need to keep it short.-->
+				<li>r_logentry->Gave cunnilingus.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Received cunnilingus.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Fellatio</defName>
+		<label>Fellatio</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Fellated [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was fellated.</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+</Defs>

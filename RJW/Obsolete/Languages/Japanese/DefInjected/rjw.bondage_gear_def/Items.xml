@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Armbinder.label>アームバインダー</Armbinder.label>
+  <Armbinder.description>着用することで腕を使用不能にする</Armbinder.description>
+  <Armbinder.comps.2.useLabel>装備</Armbinder.comps.2.useLabel>
+
+  <Gag.label>猿轡</Gag.label>
+  <Gag.description>着用することで話せなくなる</Gag.description>
+  <Gag.comps.2.useLabel>装備</Gag.comps.2.useLabel>
+
+  <ChastityBelt.label>貞操帯</ChastityBelt.label>
+  <ChastityBelt.description>着用することで性行為やオナニーを行えなくする</ChastityBelt.description>
+  <ChastityBelt.comps.2.useLabel>装備</ChastityBelt.comps.2.useLabel>
+</LanguageData>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef Name="BondageBase" Abstract="True">
+		<hediffClass>Hediff</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<tendable>false</tendable>
+		<scenarioCanAdd>false</scenarioCanAdd>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>Armbinder</defName>
+		<label>armbinder</label>
+		<labelNoun>an armbinder</labelNoun>
+		<description>An armbinder. A restraint device that binds the arms behind the body.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>ChastityBelt</defName>
+		<label>chastity belt</label>
+		<labelNoun>a chastity belt</labelNoun>
+		<description>A chastity belt. Restricts access to the vagina and anus from its lover, and its wearer.</description>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>ChastityCage</defName>
+		<label>chastity cage</label>
+		<labelNoun>a chastity cage</labelNoun>
+		<description>A chastity cage. Restricts access to the penis from its lover, and its wearer.</description>
+	</HediffDef>
+
+	<HediffDef ParentName="BondageBase">
+		<defName>Chains</defName>
+		<label>chains</label>
+		<labelNoun>chains</labelNoun>
+		<description>A series of chains that restrict its wearer.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.35</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.35</setMax>
+					</li>
+				 </capMods>
+			</li>
+		</stages>	
+	</HediffDef>
+
+	<HediffDef ParentName="BondageBase">
+		<defName>Yoke</defName>
+		<label>yoke</label>
+		<labelNoun>a yoke</labelNoun>
+		<description>Keeps the arms and head of the wearer locked relative to their body in a raised-arm position.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BondageBase">
+		<defName>BoundHands</defName>
+		<label>bound hands</label>
+		<labelNoun>bound hands</labelNoun>
+		<description>Bound hands.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>BoundLegs</defName>
+		<label>bound legs</label>
+		<labelNoun>bound legs</labelNoun>
+		<description>Bound legs.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>ClosedGag</defName>
+		<label>closed gag</label>
+		<labelNoun>a closed gag</labelNoun>
+		<description>A closed gag that prevents its wearer from speaking.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<setMax>0.00</setMax>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>OpenGag</defName>
+		<label>open gag</label>
+		<labelNoun>an open gag</labelNoun>
+		<description>An open gag that only allows its wearer to mutter incomprehensibly.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<setMax>0.00</setMax>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="BondageBase">
+		<defName>RJW_Restraints</defName>
+		<label>Restraints</label>
+		<labelNoun>restraints</labelNoun>
+		<description>A set of restraints.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<!-- insect restraints -->
+	<HediffDef ParentName="BondageBase">
+		<defName>RJW_Cocoon</defName>
+		<hediffClass>rjw.Cocoon</hediffClass>
+		<label>Cocoon</label>
+		<labelNoun>A cocoon</labelNoun>
+		<description>A cocoon that tends to its host until ready to procreate.</description>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

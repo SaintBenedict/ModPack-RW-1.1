@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 플레이어펙션 -->
+
+  <DRNTF_Colonist.label>курин-колонист</DRNTF_Colonist.label>
+  <DRNTF_Colonist.labelPlural>курин-колонисты</DRNTF_Colonist.labelPlural>
+  <DRNTF_Colonist.labelMale>мужчина, курин-колонист</DRNTF_Colonist.labelMale>
+  <DRNTF_Colonist.labelMalePlural>male kurin colonists</DRNTF_Colonist.labelMalePlural>
+  <DRNTF_Colonist.labelFemale>женщина, курин-колонист</DRNTF_Colonist.labelFemale>
+  <DRNTF_Colonist.labelFemalePlural>female kurin colonists</DRNTF_Colonist.labelFemalePlural>
+
+
+  <!-- 시민 -->
+
+  <DRNTF_Citizen.label>курин-горожанин</DRNTF_Citizen.label>
+  <DRNTF_Citizen.labelPlural>горожане курин</DRNTF_Citizen.labelPlural>
+  <DRNTF_Citizen.labelMale>мужчина, курин-горожанин</DRNTF_Citizen.labelMale>
+  <DRNTF_Citizen.labelMalePlural>male kurin citizens</DRNTF_Citizen.labelMalePlural>
+  <DRNTF_Citizen.labelFemale>женщина, курин-горожанин</DRNTF_Citizen.labelFemale>
+  <DRNTF_Citizen.labelFemalePlural>female kurin citizens</DRNTF_Citizen.labelFemalePlural>
+
+
+  <!-- 자경단 -->
+
+  <DRNTF_Vigilante.label>курин-поселенец</DRNTF_Vigilante.label>
+  <DRNTF_Vigilante.labelPlural>курин-поселенцы</DRNTF_Vigilante.labelPlural>
+  <DRNTF_Vigilante.labelMale>мужчина, курин-поселенец</DRNTF_Vigilante.labelMale>
+  <DRNTF_Vigilante.labelMalePlural>male kurin vigilantes</DRNTF_Vigilante.labelMalePlural>
+  <DRNTF_Vigilante.labelFemale>женщина, курин-поселенка</DRNTF_Vigilante.labelFemale>
+  <DRNTF_Vigilante.labelFemalePlural>female kurin vigilantes</DRNTF_Vigilante.labelFemalePlural>
+
+
+  <!-- 상인 -->
+
+  <DRNTF_Trader.label>курин-торговец</DRNTF_Trader.label>
+  <DRNTF_Trader.labelPlural>курин-торговцы</DRNTF_Trader.labelPlural>
+  <DRNTF_Trader.labelMale>мужчина, курин-торговец</DRNTF_Trader.labelMale>
+  <DRNTF_Trader.labelMalePlural>male kurin traders</DRNTF_Trader.labelMalePlural>
+  <DRNTF_Trader.labelFemale>женщина, курин-торговец</DRNTF_Trader.labelFemale>
+  <DRNTF_Trader.labelFemalePlural>female kurin traders</DRNTF_Trader.labelFemalePlural>
+
+
+  <!-- 엘리트-->
+
+  <DRNTF_Elite.label>элитный курин</DRNTF_Elite.label>
+  <DRNTF_Elite.labelPlural>элитные курины</DRNTF_Elite.labelPlural>
+  <DRNTF_Elite.labelMale>мужчина, курин-элита</DRNTF_Elite.labelMale>
+  <DRNTF_Elite.labelMalePlural>male kurin elites</DRNTF_Elite.labelMalePlural>
+  <DRNTF_Elite.labelFemale>женщина, курин-элита</DRNTF_Elite.labelFemale>
+  <DRNTF_Elite.labelFemalePlural>female kurin elites</DRNTF_Elite.labelFemalePlural>
+
+
+  <!-- 군인(분대원) -->
+
+  <DRNTF_Soldier.label>солдат армии Курин</DRNTF_Soldier.label>
+  <DRNTF_Soldier.labelPlural>солдаты армии Курин</DRNTF_Soldier.labelPlural>
+  <DRNTF_Soldier.labelMale>мужчина, солдат армии Курин</DRNTF_Soldier.labelMale>
+  <DRNTF_Soldier.labelMalePlural>male kurin army soldiers</DRNTF_Soldier.labelMalePlural>
+  <DRNTF_Soldier.labelFemale>женщина, солдат армии Курин</DRNTF_Soldier.labelFemale>
+  <DRNTF_Soldier.labelFemalePlural>female kurin army soldiers</DRNTF_Soldier.labelFemalePlural>
+
+
+  <!-- 군인(분대장) -->
+
+  <DRNTF_EliteSoldier.label>офицер армии Курин</DRNTF_EliteSoldier.label>
+  <DRNTF_EliteSoldier.labelPlural>офицеры армии Курин</DRNTF_EliteSoldier.labelPlural>
+  <DRNTF_EliteSoldier.labelMale>мужчина, офицер армии Курин</DRNTF_EliteSoldier.labelMale>
+  <DRNTF_EliteSoldier.labelMalePlural>male kurin army sergeants</DRNTF_EliteSoldier.labelMalePlural>
+  <DRNTF_EliteSoldier.labelFemale>женщина, солдат армии Курин</DRNTF_EliteSoldier.labelFemale>
+  <DRNTF_EliteSoldier.labelFemalePlural>female kurin army sergeants</DRNTF_EliteSoldier.labelFemalePlural>
+
+
+  <!-- 군인(저격수) -->
+
+  <DRNTF_Sniper.label>снайпер армии Курин</DRNTF_Sniper.label>
+  <DRNTF_Sniper.labelPlural>снайперы армии Курин</DRNTF_Sniper.labelPlural>
+  <DRNTF_Sniper.labelMale>мужчина, снайпер армии Курин</DRNTF_Sniper.labelMale>
+  <DRNTF_Sniper.labelMalePlural>male kurin army snipers</DRNTF_Sniper.labelMalePlural>
+  <DRNTF_Sniper.labelFemale>женщина, снайпер армии Курин</DRNTF_Sniper.labelFemale>
+  <DRNTF_Sniper.labelFemalePlural>female kurin army snipers</DRNTF_Sniper.labelFemalePlural>
+
+
+</LanguageData>

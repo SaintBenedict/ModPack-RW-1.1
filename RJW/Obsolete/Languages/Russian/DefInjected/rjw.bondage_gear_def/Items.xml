@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Armbinder.label>наручники</Armbinder.label>
+	<Armbinder.description>Высокотехнологичные наручники. Они не позволяют использовать руки, тому кто их носит.
+</Armbinder.description>
+	<Armbinder.comps.2.useLabel>Надеть</Armbinder.comps.2.useLabel>
+
+	<Gag.label>кляп</Gag.label>
+	<Gag.description>Высокотехнологичный кляп. Не позволяет говорить, тому кто его носит.</Gag.description>
+	<Gag.comps.2.useLabel>Надеть</Gag.comps.2.useLabel>
+
+	<ChastityBelt.label>пояс верности</ChastityBelt.label>
+	<ChastityBelt.description>Высокотехнологичный пояс верности. Не дает заниматься сексом и мастурбировать.</ChastityBelt.description>
+	<ChastityBelt.comps.2.useLabel>Надеть</ChastityBelt.comps.2.useLabel>
+</LanguageData>

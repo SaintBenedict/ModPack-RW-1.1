@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<MainButtonDef>
+		<defName>Brothel</defName>
+		<label>Brothel</label>
+		<description>List whores in the area.</description>
+		<tabWindowClass>rjw.MainTab.MainTabWindow_Brothel</tabWindowClass>
+		<order>53</order>
+		<minimized>True</minimized>
+		<iconPath>UI/Commands/Service_off</iconPath>
+	</MainButtonDef>
+</Defs>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_OverheadBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>0.2</Mass>
+		<EquipDelay>1.0</EquipDelay>
+	</statBases>
+	<apparel>	
+		<layers>
+			<li>Overhead</li>
+		</layers>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Overhead</li>
+	</thingCategories>
+</ThingDef>
+
+<!--================================================== Tear 1 ==================================================-->
+
+<ThingDef Name="Kurin_OverheadBaseTear1" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear1">
+	<defName>Kurin_Overhead_Winter_Hat</defName>
+	<label>kurin winter hat</label>
+	<description>간단한 겨울모자입니다. 추위에 약한 쿠린들도 겨울을 편하게 보내게 해줍니다.</description>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Winter_Hat/Texture</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Winter_Hat/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear1">
+	<defName>Kurin_Overhead_Summer_Hat</defName>
+	<label>kurin summer hat</label>
+	<description>간단한 여름모자입니다. 아주 더운 여름날이라도 이 모자와 함께라면 버틸 수 있습니다.</description>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Summer_Hat/Texture</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Summer_Hat/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+	</comps>
+</ThingDef>
+
+<!--================================================== Tear 2 ==================================================-->
+
+<ThingDef Name="Kurin_OverheadBaseTear2" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear2">
+	<defName>Kurin_Overhead_Casual_Hair_Pin</defName>
+	<label>kurin casual hair pin</label>
+	<description>캐주얼한 느낌의 머리핀입니다. 단순히 착용만 해도 활기가 생기는 거 같습니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Casual_Hair_Pin/Texture</texPath>
+	</graphicData>
+	<costList>
+		<Cloth>25</Cloth>
+	</costList>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>125</MaxHitPoints>
+		<WorkToMake>3000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Casual_Hair_Pin/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+	</equippedStatOffsets>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBase">
+	<defName>Kurin_Overhead_Goggles</defName>
+	<label>kurin goggles</label>
+	<description>전투용 고글입니다. 최소한의 방어력을 제공해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Goggles/Texture</texPath>
+	</graphicData>
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+	</recipeMaker>
+    <costList>
+      <Cloth>25</Cloth>
+	  <Steel>25</Steel>
+    </costList>
+	<statBases>
+		<MaxHitPoints>250</MaxHitPoints>
+		<WorkToMake>6000</WorkToMake>
+		<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.10</ArmorRating_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+	</equippedStatOffsets>
+	<apparel>
+		<tags>
+		 <li>Kurin_Grunt</li>
+ 		<li>RoyalCombatGear</li>
+		</tags>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+			<li>Eyes</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Goggles/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!--================================================== Tear 3 ==================================================-->
+
+<ThingDef Name="Kurin_OverheadBaseTear3" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT3</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_OverheadT3</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear3">
+	<defName>Kurin_Overhead_Gothic_Hair_Pin</defName>
+	<label>kurin gothic hair pin</label>
+	<description>고딕 양식의 머리핀입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Gothic_Hair_Pin/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>4000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Gothic_Hair_Pin/Texture</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<FoodPoisonChance>-0.2</FoodPoisonChance>
+	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear3">
+	<defName>Kurin_Overhead_Bikini_Armor_Headgear</defName>
+	<label>kurin bikini armor headgear</label>
+	<description>비키니 아머용 머리 방어구입니다. 보기보다 매우 튼튼합니다.</description>
+	<apparel>
+	<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</wornGraphicPath>
+      <tags>
+		<li>Kurin_Melee</li>
+ 		<li>RoyalCombatGear</li>
+      </tags>
+	</apparel>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>25</Plasteel>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>16000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		<Insulation_Cold>10</Insulation_Cold>
+		<Insulation_Heat>5</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MeleeHitChance>1.0</MeleeHitChance>
+		<MeleeDodgeChance>2.0</MeleeDodgeChance>
+		<MoveSpeed>0.1</MoveSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear3">
+	<defName>Kurin_Overhead_Military_Helmet</defName>
+	<label>kurin Military Helmet</label>
+	<description>플라스틸 방탄판이 장착된 전투용 방탄모입니다. 머리를 향해 날라오는 총알을 막을 수 있는 최후의 수단입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>25</Plasteel>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>16000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.20</ArmorRating_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<AimingDelayFactor>-0.1</AimingDelayFactor>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Military</li>
+ 			 <li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</li>
+				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture1</li>
+			</randomTextureWhenWorn>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear3">
+	<defName>Kurin_Overhead_Traditional_Hair_Pin</defName>
+	<label>kurin traditional hair pin</label>
+	<description>귀여운 꽃 모양의 머리핀입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Traditional_Hair_Pin/Texture</texPath>
+	</graphicData>
+	  <costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>4000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<TradePriceImprovement>0.5</TradePriceImprovement>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Traditional_Hair_Pin/Texture</wornGraphicPath>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<tags>
+			<li>Kurin_Trader</li>
+			<li>Royal</li>
+			<li>RoyalTier2</li>
+		</tags>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear3">
+	<defName>Kurin_Overhead_Cute_Hair_Pin</defName>
+	<label>kurin cute hair pin</label>
+	<description>귀여운 여우 모양의 머리핀입니다.</description>
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+	<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+	<wornGraphicPath>Kurin/Apparel/Overhead/Cute_Hair_Pin/Texture</wornGraphicPath>
+	</apparel>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Cute_Hair_Pin/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>4000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

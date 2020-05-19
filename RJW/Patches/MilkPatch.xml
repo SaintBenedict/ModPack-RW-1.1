@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName="Human"]/comps</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Human"]</xpath>
+				<value>
+					<comps />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/comps</xpath>
+		<value>
+			<li Class="rjw.CompProperties_MilkableHuman">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>8</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>		   
+			</li>
+		</value>				
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>		
+			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace/comps</xpath>
+			</li>							 
+			<li Class="PatchOperationAdd">							 
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[
+						 defName="Alien_Callistan" or
+						 defName="Alien_Astoriel" or
+						 defName="Fantasy_Goblin" or
+						 defName="LotRE_ElfStandardRace" or
+						 defName="LotRH_HobbitStandardRace" or
+						 defName="Alien_Orassan" or
+						 defName="RGK_Race_Ratty" or 
+						 defName="Alien_Twilek" or 
+						 defName="Alien_Zabrak" or 
+						 defName="Avali" or 
+						 defName="Alien_Argonian" or
+						 defName="Alien_Asari_Base" or
+						 defName="Alien_Eldar" or
+						 defName="Alien_Kroot" or
+						 defName="Alien_Ork" or
+						 defName="Alien_Tau" or
+						 defName="Alien_Vespid" or
+						 defName="Alien_Terran" or
+						 defName="Alien_Sororitas" or
+						 defName="Alien_Salamander" or
+						 defName="Alien_Astartes" or
+						 defName="Alien_Guevesa" or
+						 defName="Alien_Krieg" or
+						 defName="Alien_Valhallan" or
+						 defName="Alien_Ferrex" or
+						 defName="Alien_Xenn" or
+						 defName="Alien_Leeani" or
+						 defName="Alien_Fennex" or
+						 defName="Alien_Frijjid"]/comps</xpath>
+				<value>
+					<li Class="rjw.CompProperties_MilkableHuman">
+						<milkDef>Milk</milkDef>
+						<milkIntervalDays>3</milkIntervalDays>
+						<milkAmount>12</milkAmount>
+						<milkFemaleOnly>false</milkFemaleOnly>		  							   
+					</li>
+				</value>
+			</li> 								
+		</operations>							
+	</Operation>	
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>		
+			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Naga"]/comps</xpath>
+			</li>		 						
+			<li Class="PatchOperationAdd">							 
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Naga"]/comps</xpath>
+				<value>
+					<li Class="rjw.CompProperties_MilkableHuman">
+						<milkDef>EggChickenUnfertilized</milkDef>
+						<milkIntervalDays>3</milkIntervalDays>
+						<milkAmount>6</milkAmount>
+						<milkFemaleOnly>true</milkFemaleOnly>		  							   
+					</li>
+				</value>
+			</li> 
+		</operations>							
+	</Operation>				
+-->
+</Patch>

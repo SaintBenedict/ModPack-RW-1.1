@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Natural Penises -->
+
+  <Penis.label>12CM阴茎</Penis.label>
+  <Penis.description>被切断的阴茎. 还不错，没啥毛病，但...也就是平均吧。</Penis.description>
+
+  <MicroPenis.label>4CM阴茎</MicroPenis.label>
+  <MicroPenis.description>被切断的小鸡鸡。</MicroPenis.description>
+
+  <SmallPenis.label>8CM阴茎</SmallPenis.label>
+  <SmallPenis.description>A被切断的阴茎，但有点小。我希望你找到更好的被切断的鸡鸡。</SmallPenis.description>
+
+  <BigPenis.label>16CM阴茎</BigPenis.label>
+  <BigPenis.description>一个大的被切断的阴茎.</BigPenis.description>
+
+  <HugePenis.label>20CM阴茎</HugePenis.label>
+  <HugePenis.description>一个巨大的被切断的阴茎.</HugePenis.description>
+
+
+  <!-- Natural Vaginas -->
+
+  <Vagina.label>平均阴道</Vagina.label>
+  <Vagina.description>被切断的阴道. Average size.</Vagina.description>
+
+  <MicroVagina.label>微型阴道</MicroVagina.label>
+  <MicroVagina.description>被切断的微型阴道，太小了，放不下东西。</MicroVagina.description>
+
+  <TightVagina.label>紧的阴道</TightVagina.label>
+  <TightVagina.description>被切断的紧的阴道。对大部分阴茎有点紧.</TightVagina.description>
+
+  <LooseVagina.label>松的阴道</LooseVagina.label>
+  <LooseVagina.description>被切断的松的阴道。大部分阴茎都能滑进去。</LooseVagina.description>
+
+  <GapingVagina.label>有间隙的阴道</GapingVagina.label>
+  <GapingVagina.description>被切断的有空隙的阴道。里面可以塞得下一瓶可乐。</GapingVagina.description>
+
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>C罩杯乳房</Breasts.label>
+  <Breasts.description>一对被切断的 C-cup 乳房。</Breasts.description>
+
+  <FlatBreasts.label>A罩杯乳房</FlatBreasts.label>
+  <FlatBreasts.description>一对被切断的 A-cup 乳房。</FlatBreasts.description>
+
+  <SmallBreasts.label>B罩杯乳房</SmallBreasts.label>
+  <SmallBreasts.description>一对被切断的 B-cup 乳房。</SmallBreasts.description>
+
+  <LargeBreasts.label>D罩杯乳房</LargeBreasts.label>
+  <LargeBreasts.description>一对被切断的 D-cup 乳房。</LargeBreasts.description>
+
+  <HugeBreasts.label>E罩杯乳房</HugeBreasts.label>
+  <HugeBreasts.description>一对被切断的 E-cup 乳房。</HugeBreasts.description>
+
+
+  <!-- Natural Anuses -->
+
+  <Anus.label>平均尺寸的肛门</Anus.label>
+  <Anus.description>被切断的肛门。</Anus.description>
+
+  <MicroAnus.label>微型肛门</MicroAnus.label>
+  <MicroAnus.description>被切断的微型肛门，差点拉不出便便。</MicroAnus.description>
+
+  <TightAnus.label>紧的肛门</TightAnus.label>
+  <TightAnus.description>被切断的紧的肛门.</TightAnus.description>
+
+  <LooseAnus.label>松的肛门</LooseAnus.label>
+  <LooseAnus.description>嗨，这有个甜甜圈，其实是肛门。</LooseAnus.description>
+
+  <GapingAnus.label>有间隙的肛门</GapingAnus.label>
+  <GapingAnus.description>当你凝视深渊时，深渊也在凝视你。</GapingAnus.description>
+
+  <FeaturelessChest.label>平平无奇的胸部</FeaturelessChest.label>
+  <FeaturelessChest.description>光滑，无功能的胸部。主要存在于非哺乳动物身上。</FeaturelessChest.description>
+
+
+</LanguageData>

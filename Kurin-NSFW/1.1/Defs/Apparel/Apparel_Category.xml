@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel</defName>
+		<label>kurin apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Belt</defName>
+		<label>kurin belt apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Underwear</defName>
+		<label>kurin underwear apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Stocking</defName>
+		<label>kurin stocking apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_OnSkin</defName>
+		<label>kurin onskin apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Middle</defName>
+		<label>kurin middle apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Shell</defName>
+		<label>kurin shell apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kurin_Apparel_Overhead</defName>
+		<label>kurin overhead apparel</label>
+		<parent>Kurin_Apparel</parent>
+	</ThingCategoryDef>
+</Defs>

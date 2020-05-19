@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--==============================================플레이어펙션==============================================-->
+<Defs>
+  <PawnKindDef>
+    <race>Kurin_Race</race>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defName>Kurin_Colonist</defName>
+    <label>kurin colonist</label>
+    <defaultFactionType>Kurin_Player</defaultFactionType>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>Kurin_Colonist</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>400</min>
+      <max>600</max>
+    </apparelMoney> <!--
+    <apparelRequired>
+      <li>Kurin_Underwear</li>
+    </apparelRequired> -->
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

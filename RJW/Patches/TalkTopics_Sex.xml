@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RulePackDef[defName = "GlobalUtility"]/include</xpath>
+    <value>
+      <li>TalkTopicsSex</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/InteractionDef[defName = "DeepTalk"]/logRulesInitiator/rulesStrings</xpath>
+    <value>
+      <li>subject(p=0.24)->[TalkTopicSex]</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/InteractionDef[defName = "Chitchat"]/logRulesInitiator/rulesStrings</xpath>
+    <value>
+      <li>r_logentry(p=0.12)->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicSex].</li>
+      <li>r_logentry(p=0.12)->[INITIATOR_nameDef] [talkedabout] [TalkTopicSex] with [RECIPIENT_nameDef].</li>
+      <li>r_logentry(p=0.24)->[INITIATOR_nameDef] [commentedabout] [TalkTopicSex] to [RECIPIENT_nameDef].</li>
+    </value>
+  </Operation>
+</Patch>

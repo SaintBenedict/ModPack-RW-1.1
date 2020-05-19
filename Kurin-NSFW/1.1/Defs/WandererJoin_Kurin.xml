@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <IncidentDef>
+    <defName>WandererJoin_Kurin</defName>
+    <label>wanderer kurin join</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>Wanderer kurin joins: {PAWN_nameDef}</letterLabel>
+    <letterText>A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony waving three beautiful tails..\n\n If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}.</letterText>
+    <baseChance>0.7</baseChance>
+    <pawnKind>Kurin_Colonist</pawnKind>
+    <populationEffect>IncreaseEasy</populationEffect>
+  </IncidentDef>
+  
+  </Defs>

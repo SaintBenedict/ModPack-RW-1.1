@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalRape</defName>
+		<label>anal rape</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Raped [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalRape</defName>
+		<label>vaginal rape</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Raped [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>HandjobRape</defName>
+		<label>forced handjob</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Forcibly jerked off [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was jerked off by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>FingeringRape</defName>
+		<label>forced fingering</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Forcibly fingered [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was finger-raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>ViolateCorpse</defName>
+		<label>necrophilia</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Violated [RECIPIENT_nameDef]'s corpse.</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was violated by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>MechImplant</defName>
+		<label>mechanoid implanting</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<!--<recipientThought>StoleSomeLovin</recipientThought>-->
+		<!--<initiatorXpGainSkill>Melee</initiatorXpGainSkill>-->
+		<!--<initiatorXpGainAmount>30</initiatorXpGainAmount>-->
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Assaulted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was assaulted by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+	<InteractionDef>
+		<defName>OtherRape</defName>
+		<label>rape</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Icons/noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Raped [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was raped by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+</Defs>

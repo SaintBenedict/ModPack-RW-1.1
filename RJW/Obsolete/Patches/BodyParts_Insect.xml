@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "BeetleLikeWithClaw"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.01</coverage>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "BeetleLike"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.01</coverage>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+</Patch>

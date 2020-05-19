@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RecipeDef Abstract="True" Name="GrowBreastsSurgery" ParentName="BreastSurgery">
+		<workerClass>rjw.Recipe_GrowBreasts</workerClass>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<hideBodyPartNames>false</hideBodyPartNames>
+		<anesthetize>false</anesthetize>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GrowBreastsSurgery">
+		<defName>GrowFlatBreasts</defName>
+		<label>grow flat breasts</label>
+		<description>Cause undeveloped breasts to bud using a huge amount of healroot salve paired with a thorough massage.</description>
+		<jobString>Growing flat breasts.</jobString>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GrowBreastsSurgery">
+		<defName>GrowSmallBreasts</defName>
+		<label>grow small breasts</label>
+		<description>Adds volume to flat breasts through the liberal use healroot salve paired with a vigorous massage.</description>
+		<jobString>Growing small breasts.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GrowBreastsSurgery">
+		<defName>GrowAverageBreasts</defName>
+		<label>grow average breasts</label>
+		<description>Cause small breasts to swell by lightly bruising the breast tissue then applying a large dose of healroot salve.</description>
+		<jobString>Growing average breasts.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>false</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GrowBreastsSurgery">
+		<defName>GrowLargeBreasts</defName>
+		<label>grow large breasts</label>
+		<description>Fill out average breasts by bruising the breast tissue then injecting growth hormones harvested from medical kits.</description>
+		<jobString>Growing large breasts.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>false</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="GrowBreastsSurgery">
+		<defName>GrowHugeBreasts</defName>
+		<label>grow huge breasts</label>
+		<description>Expand already large breasts by continuously bruising the breast tissue as it is being healed by glitterworld medicine.</description>
+		<jobString>Growing huge breasts.</jobString>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<hideBodyPartNames>false</hideBodyPartNames>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineUltratech</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>ShrinkBreastsSurgery</defName>
+		<workerClass>rjw.Recipe_ShrinkBreasts</workerClass>
+		<label>reduce breast size</label>
+		<description>Reduce the size of natural breasts through surgery.</description>
+		<jobString>Reducing breasts.</jobString>
+		<workAmount>2000</workAmount>
+		<anesthetize>true</anesthetize>
+		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+		<hideBodyPartNames>false</hideBodyPartNames>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+</Defs>

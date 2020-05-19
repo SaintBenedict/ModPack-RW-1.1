@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Surigum</defName>
+	<label>kurin surigum</label>
+	<graphicData>
+		<texPath>Kurin/Weapon/Surigum_Bullet/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<damageDef>Cut</damageDef>
+		<damageAmountBase>10</damageAmountBase>
+		<stoppingPower>0.8</stoppingPower>
+		<speed>48</speed>
+	</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Surigum</defName>
+	<label>kurin surigum</label>
+	<description>단도 형태의 수리검입니다. 제한적이지만 원거리 공격도 가능합니다.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Surigum/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<uiIconScale>1.0</uiIconScale>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+	<statBases>
+		<WorkToMake>8000</WorkToMake>
+		<Mass>0.4</Mass>
+		<AccuracyTouch>0.7</AccuracyTouch>
+		<AccuracyShort>0.6</AccuracyShort>
+		<AccuracyMedium>0.4</AccuracyMedium>
+		<AccuracyLong>0.2</AccuracyLong>
+		<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>Kurin_Surigum</li>
+	</weaponTags>
+	<costList>
+		<Steel>50</Steel>
+	</costList>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Surigum</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>20.0</range>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>blade</label>
+			<capacities>
+				<li>Stab</li>
+				<li>Cut</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>1.0</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+</Defs>

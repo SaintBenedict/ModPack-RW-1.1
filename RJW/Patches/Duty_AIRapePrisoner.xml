@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Rape prisoners in NonPlayerHome-->
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/DutyDef[defName = "DefendBase"]/thinkNode/subNodes/li[@Class="ThinkNode_ForbidOutsideFlagRadius"]/subNodes/li[@Class="ThinkNode_Subtree"]</xpath>
+		<value>
+			<li Class="rjw.JobGiver_AIRapePrisoner" />
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Human Parts -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+				<groups>
+					<li>Torso</li>
+				</groups>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.0</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+				<groups>
+					<li>Torso</li>
+				</groups>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName = "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+				<groups>
+					<li>Torso</li>
+				</groups>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Animal Parts -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName != "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Genitals</def>
+				<coverage>0.02</coverage>
+				<height>Bottom</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName != "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Chest</def>
+				<coverage>0.02</coverage>
+				<height>Top</height>
+				<depth>Outside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/BodyDef[defName != "Human"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>Anus</def>
+				<coverage>0.01</coverage>
+				<height>Bottom</height>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Generate a HediffGiver for the dummy hediff, then inject it into the OrganicStandard HediffGiverSet;this replace the inject_sexualizer() in First.cs -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/HediffGiverSetDef[defName = "OrganicStandard"]/hediffGivers</xpath>
+		<value>
+			<li Class="HediffGiver_Birthday">
+				<hediff>DummyPrivates</hediff>
+				<partsToAffect>
+					<li>Genitals</li>
+				</partsToAffect>
+				<canAffectAnyLivePart>false</canAffectAnyLivePart>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0.00, 1.00)</li>
+						<!-- Every birthday will give the pawns a DummyPrivates hediff used to check their privates and generate stds to their health if they are human. The DummyPrivates won't result in sexualization if the pawns have already been sexualized once.
+						<li>(0.05, 1.00)</li>
+						<li>(0.06, 0.00)</li>
+						<li>(1.00, 0.00)</li>-->
+					</points>
+				</ageFractionChanceCurve>
+				<averageSeverityPerDayBeforeGeneration>0.00</averageSeverityPerDayBeforeGeneration>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- This adds HediffGiverSets to modded pawns so that they would spawn with privates, if their BodyDefs have been patched successfully, without reloading the save-->
+	<!-- Note:It's essential that you load the mod you want to patch before RJW.-->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[thingClass = "AIPawn.AIPawn"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[thingClass = "AIPawn.AIPawn"]/race</xpath>
+				<value>
+					<hediffGiverSets>
+						<li>DummyPrivatesForModdedPawnsOnBirthday</li>
+					</hediffGiverSets>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

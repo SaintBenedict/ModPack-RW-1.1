@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_UnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<defName>Kurin_Apparel_Underwear</defName>
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.1</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Kurin_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kurin_Underwear</li>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Nymph</li>
+			<li>Kurin_Grunt</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Underwear</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_White</defName>
+	<label>kurin white underwear</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/White_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear</defName>
+	<label>kurin underwear</label>
+	<description>Plain underwear that matches the color of the material used</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/White_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/White_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/White_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Prude</defName>
+	<label>kurin prude underwear</label>
+	<description>Ugly underwear that some kurin would just rather not wear at all</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Prude_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Prude_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture1</li>
+				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture2</li>
+			</randomTextureWhenWorn>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Black</defName>
+	<label>kurin black underwear</label>
+	<description>섹시한 검정색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/Black_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/Black_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/Black_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Red</defName>
+	<label>kurin red underwear</label>
+	<description>정열적인 붉은색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</texPath>
+	</graphicData>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/Red_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/Red_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/Red_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped</defName>
+	<label>kurin striped underwear</label>
+	<description>독특한 줄무늬 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/Striped_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/Striped_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/Striped_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Slim</defName>
+	<label>kurin slim underwear</label>
+	<description>아주 얇은 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Underwear/Slim_Underwear/Texture</li>
+				<li>Kurin/Apparel/Underwear/Slim_Underwear/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/Underwear/Slim_Underwear/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_Body.label>Курин</DRNTF_Body.label>
+  <DRNTF_Body.corePart.parts.4.customLabel>Хвост</DRNTF_Body.corePart.parts.4.customLabel>
+  <DRNTF_Body.corePart.parts.7.customLabel>Левое лёгкое</DRNTF_Body.corePart.parts.7.customLabel>
+  <DRNTF_Body.corePart.parts.8.customLabel>Правое лёгкое</DRNTF_Body.corePart.parts.8.customLabel>
+  <DRNTF_Body.corePart.parts.9.customLabel>Левая почка</DRNTF_Body.corePart.parts.9.customLabel>
+  <DRNTF_Body.corePart.parts.10.customLabel>Правая почка</DRNTF_Body.corePart.parts.10.customLabel>
+  <DRNTF_Body.corePart.parts.12.parts.0.parts.1.customLabel>Левый глаз</DRNTF_Body.corePart.parts.12.parts.0.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.12.parts.0.parts.2.customLabel>Правый глаз</DRNTF_Body.corePart.parts.12.parts.0.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.12.parts.0.parts.3.customLabel>Левое ухо</DRNTF_Body.corePart.parts.12.parts.0.parts.3.customLabel>
+  <DRNTF_Body.corePart.parts.12.parts.0.parts.4.customLabel>Правое ухо</DRNTF_Body.corePart.parts.12.parts.0.parts.4.customLabel>
+  <DRNTF_Body.corePart.parts.13.customLabel>Левое плечо</DRNTF_Body.corePart.parts.13.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.0.customLabel>Левая ключица</DRNTF_Body.corePart.parts.13.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.customLabel>Левая рука</DRNTF_Body.corePart.parts.13.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.0.customLabel>Левая плечевая кость</DRNTF_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.1.customLabel>Левая лучевая кость</DRNTF_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.customLabel>Левая кисть</DRNTF_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>Мизинец левой руки</DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>Безымянный палец левой руки</DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>Средний палец левой руки</DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>Указательный палец левой руки</DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>Большой палец левой руки</DRNTF_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <DRNTF_Body.corePart.parts.14.customLabel>Правое плечо</DRNTF_Body.corePart.parts.14.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.0.customLabel>Правая ключица</DRNTF_Body.corePart.parts.14.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.customLabel>Правая рука</DRNTF_Body.corePart.parts.14.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.0.customLabel>Правая плечевая кость</DRNTF_Body.corePart.parts.14.parts.1.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.1.customLabel>Правая лучевая кость</DRNTF_Body.corePart.parts.14.parts.1.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.customLabel>Правая кисть</DRNTF_Body.corePart.parts.14.parts.1.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>Мизинец правой руки</DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>Безымянный палец правой руки</DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>Средний палец правой руки</DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>Указательный палец правой руки</DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>Большой палец правой руки</DRNTF_Body.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <DRNTF_Body.corePart.parts.16.customLabel>Левая нога</DRNTF_Body.corePart.parts.16.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.0.customLabel>Левое бедро</DRNTF_Body.corePart.parts.16.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.1.customLabel>Левая голень</DRNTF_Body.corePart.parts.16.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.customLabel>Левая стопа</DRNTF_Body.corePart.parts.16.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.parts.0.customLabel>Мизинец левой ноги</DRNTF_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.parts.1.customLabel>Безымянный палец левой ноги</DRNTF_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.parts.2.customLabel>Средний палец левой ноги</DRNTF_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.parts.3.customLabel>Указательный палец левой ноги</DRNTF_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <DRNTF_Body.corePart.parts.16.parts.2.parts.4.customLabel>Большой палец левой ноги</DRNTF_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+  <DRNTF_Body.corePart.parts.17.customLabel>Правая нога</DRNTF_Body.corePart.parts.17.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.0.customLabel>Правое бедро</DRNTF_Body.corePart.parts.17.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.1.customLabel>Правая голень</DRNTF_Body.corePart.parts.17.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.customLabel>Правая стопа</DRNTF_Body.corePart.parts.17.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.parts.0.customLabel>Мизинец правой ноги</DRNTF_Body.corePart.parts.17.parts.2.parts.0.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.parts.1.customLabel>Безымянный палец правой ноги</DRNTF_Body.corePart.parts.17.parts.2.parts.1.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.parts.2.customLabel>Средний палец правой ноги</DRNTF_Body.corePart.parts.17.parts.2.parts.2.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.parts.3.customLabel>Указательный палец правой ноги</DRNTF_Body.corePart.parts.17.parts.2.parts.3.customLabel>
+  <DRNTF_Body.corePart.parts.17.parts.2.parts.4.customLabel>Большой палец правой ноги</DRNTF_Body.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

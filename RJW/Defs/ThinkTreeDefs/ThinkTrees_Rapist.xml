@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- If they're frustrated, rapists will find someone to rape -->
+	<ThinkTreeDef>
+		<defName>RapistSexualEmergencyTree</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>12</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalRapist">
+							<subNodes>
+								<li Class="rjw.ThinkNode_ConditionalFrustrated">
+									<subNodes>
+										<li Class="rjw.JobGiver_RandomRape" />
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

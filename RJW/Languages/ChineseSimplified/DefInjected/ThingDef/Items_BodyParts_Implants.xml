@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Simple prosthetic阴茎es -->
+
+  <PegDick.label>铆钉阴茎</PegDick.label>
+  <PegDick.description>A wooden dildo designed to replace a missing阴茎. Be careful of splinters.</PegDick.description>
+
+  <HydraulicPenis.label>液压阴茎</HydraulicPenis.label>
+  <HydraulicPenis.description>A prosthetic阴茎. Cold metal phallus. Has built in fluid delivery system.</HydraulicPenis.description>
+
+
+  <!-- Simple prosthetic阴道s -->
+
+  <HydraulicVagina.label>液压阴道</HydraulicVagina.label>
+  <HydraulicVagina.description>A prosthetic阴道. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicVagina.description>
+
+
+  <!-- Simple prosthetic乳房 -->
+
+  <HydraulicBreasts.label>液压乳房</HydraulicBreasts.label>
+  <HydraulicBreasts.description>Prosthetic 乳房。 Conical metal with increased pumping action, spray your friends.</HydraulicBreasts.description>
+
+
+  <!-- Simple prosthetic肛门es -->
+
+  <HydraulicAnus.label>液压肛门</HydraulicAnus.label>
+  <HydraulicAnus.description>A prosthetic肛门. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicAnus.description>
+
+
+  <!-- Bionic阴茎es -->
+
+  <BionicPenis.label>仿生阴茎</BionicPenis.label>
+  <BionicPenis.description>A high-tech prosthetic阴茎. Features include:
+- Adjustable size allows you to fit in any阴道.
+- Over 50 different vibration modes, including 10 of the most stimulating waveforms known to science
+- State-of-the-art neural interface activates neural pathways you didn't even know you had to make you feel things you never even imagined.</BionicPenis.description>
+
+
+  <!-- Bionic阴道s -->
+
+  <BionicVagina.label>仿生阴道</BionicVagina.label>
+  <BionicVagina.description>A high-tech prosthetic阴道. Features include:
+- Interior lined with 150 million micro-g-spots
+- Resizes to fit any阴茎
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</BionicVagina.description>
+
+
+  <!-- Bionic乳房 -->
+
+  <BionicBreasts.label>仿生乳房</BionicBreasts.label>
+  <BionicBreasts.description>High-tech prosthetic 乳房。 Features include:
+- Resizes to any desired size</BionicBreasts.description>
+
+
+  <!-- Bionic肛门es -->
+
+  <BionicAnus.label>仿生肛门</BionicAnus.label>
+  <BionicAnus.description>A high-tech prosthetic肛门. Features include:
+- Resizes to any desired size
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</BionicAnus.description>
+
+
+  <!-- Archotech -->
+
+  <ArchotechPenis.label>远古科技阴茎</ArchotechPenis.label>
+  <ArchotechPenis.description>An artificial阴茎 build by an 远古科技. It's stimulating capabilities are unmatched in every kind of sexual situation. Not only is it able to change color, texture, length and shape to provide the perfect stimulation for every kind of orifice, it's also stronger than plasteel and self-repairing. It attaches seamlessly to the body and directly connects to the nervous system to greatly enhance the owner's stamina and virility to keep the pleasure going for as long as possible. AI-controlled vibrations combined with custom pheromones make sure to make every sex-act into an unforgettable experience. Its internal workings are a mystery to all human minds.</ArchotechPenis.description>
+
+
+  <!-- Archotech阴道s -->
+
+  <ArchotechVagina.label>远古科技阴道</ArchotechVagina.label>
+  <ArchotechVagina.description>An artificial阴道 build by an 远古科技. It looks exactly like its fleshy original, but its properties make it the perfect replacement for its weaker, organic counterpart. Advanced lubrication, flexibility in addition to its self-repairing mechanisms enables it to endure any type of inserted object with ease and allows any kind of offspring to pass through without complications. It seamlessly attaches to the hosting body and maintains immunity of most known STDs. Exceptional sensitivity, warmth regulation as well as pheromones will satisfy any kind of partner. Its internal workings are a mystery to all human minds.</ArchotechVagina.description>
+
+
+  <!-- Archotech乳房 -->
+
+  <ArchotechBreasts.label>远古科技乳房</ArchotechBreasts.label>
+  <ArchotechBreasts.description>一对 artificial乳房 build by an 远古科技. They can change shape into any desired appearance, at any time and wont interfere in the wearers activities. Their surface is smoother than any natural skin, while beeing harder to damage than plasteel and beeing able to heal themselves. Its internal workings are a mystery to all human minds.</ArchotechBreasts.description>
+
+
+  <!-- Archotech肛门 -->
+
+  <ArchotechAnus.label>远古科技肛门</ArchotechAnus.label>
+  <ArchotechAnus.description>An artificial肛门 build by an 远古科技. It's indistinguishable from a normal肛门. Unmatched strength and self-repairing properties make it almost impossible to destroy. Its internal workings are a mystery to all human minds.</ArchotechAnus.description>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<FloatDebugLog>Показать журнал отладки</FloatDebugLog>
+	<FloatAGRegen>Регенерировать AvoidGrids</FloatAGRegen>
+	<FloatFactionFixItems1>Исправить отношения фракций</FloatFactionFixItems1>
+	<FloatFactionFixItems2>Исправить лидеров фракций</FloatFactionFixItems2>
+	
+	<FloatToolsItems1>Семья животных подметание???</FloatToolsItems1>
+	<FloatToolsItems2>Удалить грязь (домашняя зона)</FloatToolsItems2>
+	<FloatToolsItems2Dev1>Реж.Разр.: Удалить грязь (эта карта)</FloatToolsItems2Dev1>
+	<FloatToolsItems2Dev2>Реж.Разр.: Удалить грязь (все карты)</FloatToolsItems2Dev2>
+	<FloatToolsItems2Snow>Убрать снег (домашняя зона)</FloatToolsItems2Snow>
+	<FloatToolsItems2SnowDev1>Реж.Разр.: Удалить снег (эта карта)</FloatToolsItems2SnowDev1>
+	<FloatToolsItems2SnowDev2>Реж.Разр.: Удалить снег (Все карты)</FloatToolsItems2SnowDev2>
+	<FloatToolsItems3>Удалить трупы на текущей карте</FloatToolsItems3>
+	<FloatToolsItems4>Удалить записи BattleLog</FloatToolsItems4>
+	<FloatToolsItems5>Удалить неподкрепленные сообщения</FloatToolsItems5>
+	<FloatToolsItems5Dev>Реж.Разр.: Удалить все сообщения</FloatToolsItems5Dev>
+
+	<QuickCloseLetStack>Закрыть все письма</QuickCloseLetStack>
+	<QuickUnlockSpeedLimit>Разблокировать нормальное ограничение скорости</QuickUnlockSpeedLimit>
+	<QuickOpenSettings>Изменить настройки RuntimeGC</QuickOpenSettings>
+
+	<FloatACModMetaData>Очистить ненужную информацию о моде</FloatACModMetaData>
+	<FloatACLanguageData>Очистить неиспользованные переводы</FloatACLanguageData>
+	<FloatACDefPackage>Очистить кэшированный DefPackage</FloatACDefPackage>
+	<FloatACModMetaDataCleared>Удалил ненужную информацию о моде</FloatACModMetaDataCleared>
+	<FloatACLanguageDataCleared>Очищены неиспользованные переводы</FloatACLanguageDataCleared>
+	<FloatACDefPackageCleared>Очищенный кешированный DefPackage</FloatACDefPackageCleared>
+</LanguageData>

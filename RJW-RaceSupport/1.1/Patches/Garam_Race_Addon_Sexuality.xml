@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Kurin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin, The Three Tailed Fox</li>
+		</mods>
+		<success>Always</success>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/Garam_RaceAddon.RaceAddonThingDef[defName = "Kurin"]/raceAddonSettings/basicSetting/raceSexuality</xpath>
+			<value>
+				<raceSexuality>0</raceSexuality>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

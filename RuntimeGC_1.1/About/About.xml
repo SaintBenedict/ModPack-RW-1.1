@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RuntimeGC(unofficial)</name>
+	<author>YAYO (Original by user19990313)</author>
+	<url></url>
+	<supportedVersions>
+  <li>1.1</li>
+	</supportedVersions>
+	<packageId>com.yayo.runtimeGC</packageId>
+	<description>This mode is unofficial mode. The original author should contact us if there are any problems with this unofficial mode. If the original author wants to delete it immediately.\n\nWorld pawn removal for lag relief\n\nFunction to alleviate various delay delays</description>
+</ModMetaData>

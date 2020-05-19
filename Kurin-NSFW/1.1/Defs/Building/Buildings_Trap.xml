@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef class="NineTailedFox.K" ParentName="BuildingBase">
+    <defName>DRNTF_NooseTrap</defName>
+    <label>Noose Trap</label>
+    <description>Kurin's special noose trap that can be quickly made with a small amount of ingredients. When you activate the trap, the noose binds the enemy. However, it has no effect on too large enemies and mechanoids.</description>
+    <thingClass>NineTailedFox.NooseTrap</thingClass>
+    <graphicData>
+      <texPath>Kurin/Building/Trap/NooseTrap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>2</Mass>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>-6</Beauty>
+      <TrapSpringChance>1.0</TrapSpringChance>
+    </statBases>
+    <costList>
+	  <Cloth>5</Cloth>
+    </costList>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <expandHomeArea>false</expandHomeArea>
+	  <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Kurin_NooseTrapHediff</defName>
+    <label>Noose</label>
+    <labelNoun>Lasso</labelNoun>
+	<description>Trapped by a noose</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>8000</min>
+          <max>10000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalSexRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] had anal sex with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>VaginalSexRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] had vaginal sex with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>OtherSexRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] had sex with [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>DoublePenetrationRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] was double-penetrated by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BreastjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] gave [RECIPIENT_nameDef] a breastjob.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>HandjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] received a handjob from [INITIATOR_nameDef].</li>
+				<li>sent-> [RECIPIENT_nameDef] was jerked off by [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FootjobRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] received a footjob from [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FingeringRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] fingered [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ScissoringRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] scissored with [INITIATOR_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>MutualMasturbationRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [RECIPIENT_nameDef] and [INITIATOR_nameDef] masturbated each other.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>FistingRP</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>sent-> [INITIATOR_nameDef] anally fisted [RECIPIENT_nameDef].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

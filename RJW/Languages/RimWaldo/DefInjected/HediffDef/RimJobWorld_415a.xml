@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RJW_Contraceptive.label>피임약</RJW_Contraceptive.label>
+  <RJW_Contraceptive.description>피임약은 한 분기동안 임신 확률을 크게 낮춰줍니다.</RJW_Contraceptive.description>
+  <RJW_Contraceptive.stages.0.label>피임됨</RJW_Contraceptive.stages.0.label>
+  <RJW_FertPill.label>배란약</RJW_FertPill.label>
+  <RJW_FertPill.description>임신 확률을 높여줍니다. 약간의 최음 효과가 있습니다.</RJW_FertPill.description>
+  <RJW_FertPill.stages.0.label>가임기</RJW_FertPill.stages.0.label>
+  <Armbinder.label>수갑</Armbinder.label>
+  <Armbinder.description>수갑. 팔을 몸 뒤쪽으로 구속하는 장치입니다.</Armbinder.description>
+  <Armbinder.labelNoun>수갑</Armbinder.labelNoun>
+  <ChastityBelt.label>정조대</ChastityBelt.label>
+  <ChastityBelt.description>정조대. 착용자의 보지와 항문에 접근을 제한합니다.</ChastityBelt.description>
+  <ChastityBelt.labelNoun>정조대</ChastityBelt.labelNoun>
+  <ChastityCage.label>정조대(남성용)</ChastityCage.label>
+  <ChastityCage.description>남성용 정조대. 착용자의 자지에 대한 접근을 제한합니다.</ChastityCage.description>
+  <ChastityCage.labelNoun>정조대(남성용)</ChastityCage.labelNoun>
+  <Chains.label>쇠사슬</Chains.label>
+  <Chains.description>사슬은 착용자에게 제약을 가합니다.</Chains.description>
+  <Chains.labelNoun>사슬</Chains.labelNoun>
+  <Yoke.label>멍에</Yoke.label>
+  <Yoke.description>착용자의 팔과 머리를 머리 위쪽으로 고정시킵니다.</Yoke.description>
+  <Yoke.labelNoun>멍에</Yoke.labelNoun>
+  <BoundHands.label>손 묶기</BoundHands.label>
+  <BoundHands.description>손을 묶습니다.</BoundHands.description>
+  <BoundHands.labelNoun>손 묶기</BoundHands.labelNoun>
+  <BoundLegs.label>다리 묶기</BoundLegs.label>
+  <BoundLegs.description>다리를 묶습니다.</BoundLegs.description>
+  <BoundLegs.labelNoun>다리 묶기</BoundLegs.labelNoun>
+  <ClosedGag.label>폐쇄형 재갈</ClosedGag.label>
+  <ClosedGag.description>착용자가 말하는 것을 제한하는 폐쇄형 재갈</ClosedGag.description>
+  <ClosedGag.labelNoun>폐쇄형 재갈</ClosedGag.labelNoun>
+  <OpenGag.label>개방형 재갈</OpenGag.label>
+  <OpenGag.description>착용자가 말하는 것을 제한하는 개방형 재갈</OpenGag.description>
+  <OpenGag.labelNoun>개방형 재갈</OpenGag.labelNoun>
+  <RJW_Restraints.label>구속 장치</RJW_Restraints.label>
+  <RJW_Restraints.description>구속 장치입니다.</RJW_Restraints.description>
+  <RJW_Restraints.labelNoun>구속 장치</RJW_Restraints.labelNoun>
+  <RJW_Cocoon.label>고치</RJW_Cocoon.label>
+  <RJW_Cocoon.description>아이가 태어날 때까지 보호하는 고치</RJW_Cocoon.description>
+  <RJW_Cocoon.labelNoun>고치</RJW_Cocoon.labelNoun>
+  <Hediff_Bukkake.label>부카케</Hediff_Bukkake.label>
+  <Hediff_Bukkake.description>사정 함.</Hediff_Bukkake.description>
+  <Hediff_Bukkake.stages.0.label>적음(1/4)</Hediff_Bukkake.stages.0.label>
+  <Hediff_Bukkake.stages.1.label>약간(2/4)</Hediff_Bukkake.stages.1.label>
+  <Hediff_Bukkake.stages.2.label>적셔짐(3/4)</Hediff_Bukkake.stages.2.label>
+  <Hediff_Bukkake.stages.3.label>가득참(4/4)</Hediff_Bukkake.stages.3.label>
+  <Hediff_Semen.label>정액</Hediff_Semen.label>
+  <Hediff_Semen.description>정액.</Hediff_Semen.description>
+  <Hediff_Semen.stages.0.label>적음(1/4)</Hediff_Semen.stages.0.label>
+  <Hediff_Semen.stages.1.label>약간(2/4)</Hediff_Semen.stages.1.label>
+  <Hediff_Semen.stages.2.label>적셔짐(3/4)</Hediff_Semen.stages.2.label>
+  <Hediff_Semen.stages.3.label>흘러내림(4/4)</Hediff_Semen.stages.3.label>
+  <Hediff_Semen.labelNoun>정액</Hediff_Semen.labelNoun>
+  <Hediff_InsectSpunk.label>곤충 정액</Hediff_InsectSpunk.label>
+  <Hediff_InsectSpunk.description>곤충 정액.</Hediff_InsectSpunk.description>
+  <Hediff_InsectSpunk.stages.0.label>적음(1/4)</Hediff_InsectSpunk.stages.0.label>
+  <Hediff_InsectSpunk.stages.1.label>약간(2/4)</Hediff_InsectSpunk.stages.1.label>
+  <Hediff_InsectSpunk.stages.2.label>적셔짐(3/4)</Hediff_InsectSpunk.stages.2.label>
+  <Hediff_InsectSpunk.stages.3.label>흘러내림(4/4)</Hediff_InsectSpunk.stages.3.label>
+  <Hediff_InsectSpunk.labelNoun>곤충 정액</Hediff_InsectSpunk.labelNoun>
+  <Hediff_MechaFluids.label>메카노이드 유체</Hediff_MechaFluids.label>
+  <Hediff_MechaFluids.description>메카노이드 유체.</Hediff_MechaFluids.description>
+  <Hediff_MechaFluids.stages.0.label>적음(1/4)</Hediff_MechaFluids.stages.0.label>
+  <Hediff_MechaFluids.stages.1.label>약간(2/4)</Hediff_MechaFluids.stages.1.label>
+  <Hediff_MechaFluids.stages.2.label>적셔짐(3/4)</Hediff_MechaFluids.stages.2.label>
+  <Hediff_MechaFluids.stages.3.label>흘러내림(4/4)</Hediff_MechaFluids.stages.3.label>
+  <Hediff_MechaFluids.labelNoun>메카노이드 유체</Hediff_MechaFluids.labelNoun>
+  <FeelingBroken.label>정신붕괴</FeelingBroken.label>
+  <FeelingBroken.description>정신이 붕괴되었습니다. 어떤 감정도 느껴지지 않습니다.</FeelingBroken.description>
+  <FeelingBroken.stages.0.label>초기증상(1/4)</FeelingBroken.stages.0.label>
+  <FeelingBroken.stages.1.label>흔들림(2/4)</FeelingBroken.stages.1.label>
+  <FeelingBroken.stages.2.label>망가짐(3/4)</FeelingBroken.stages.2.label>
+  <FeelingBroken.stages.3.label>무너짐(4/4)</FeelingBroken.stages.3.label>
+  <RJW_IUD.label>피임기구</RJW_IUD.label>
+  <RJW_IUD.description>임신을 막기위해 자궁에 삽입하는 구리로 만든 작은 장치.</RJW_IUD.description>
+  <IncreasedFertility.label>향상된 임신률</IncreasedFertility.label>
+  <IncreasedFertility.description>아이를 만들기 위해 생식력을 높입니다.</IncreasedFertility.description>
+  <DecreasedFertility.label>약화된 임신률</DecreasedFertility.label>
+  <DecreasedFertility.description>임신률이 떨어졌습니다.</DecreasedFertility.description>
+  <ImpregnationBlocker.label>초월공학 임신차단기</ImpregnationBlocker.label>
+  <ImpregnationBlocker.description>난소가 난자를 배출하지 못하게 하는 복잡한 장치</ImpregnationBlocker.description>
+  <FertilityEnhancer.label>초월공학 임신유도기</FertilityEnhancer.label>
+  <FertilityEnhancer.description>임신 가능성을 높이는 복잡한 장치</FertilityEnhancer.description>
+  <RJW_Orgasm.label>오르가즘</RJW_Orgasm.label>
+  <RJW_Orgasm.description>"오... 예, 하... 흥, 아아!"</RJW_Orgasm.description>
+  <RJW_Orgasm.stages.0.label>약함(1/3)</RJW_Orgasm.stages.0.label>
+  <RJW_Orgasm.stages.1.label>강함(2/3)</RJW_Orgasm.stages.1.label>
+  <RJW_Orgasm.stages.2.label>황홀함(3/3)</RJW_Orgasm.stages.2.label>
+  <TransportCums.description>안에 사정함.</TransportCums.description>
+  <TransportEggs.description>안에 산란함.</TransportEggs.description>
+  <Immunodeficiency.label>면역결핍증</Immunodeficiency.label>
+  <Immunodeficiency.description>질병에 매우 취약함.</Immunodeficiency.description>
+  <Immunodeficiency.stages.0.label>사소함(1/3)</Immunodeficiency.stages.0.label>
+  <Immunodeficiency.stages.1.label>진행됨(2/3)</Immunodeficiency.stages.1.label>
+  <Immunodeficiency.stages.2.label>극심함(3/3)</Immunodeficiency.stages.2.label>
+  <VirusPerma.label>바이러스 감염</VirusPerma.label>
+  <VirusPerma.description>바이러스 감염</VirusPerma.description>
+  <VirusPerma.injuryProps.destroyedLabel>질병으로 인해 손실됨</VirusPerma.injuryProps.destroyedLabel>
+  <VirusPerma.injuryProps.destroyedOutLabel>질병으로 인해 손실됨</VirusPerma.injuryProps.destroyedOutLabel>
+  <PegArm.label>의수</PegArm.label>
+  <PegArm.description>의수.</PegArm.description>
+  <PegArm.labelNoun>의수</PegArm.labelNoun>
+  <RJW_pregnancy.label>임신</RJW_pregnancy.label>
+  <RJW_pregnancy.description>배에 아기가 있습니다.</RJW_pregnancy.description>
+  <RJW_pregnancy.stages.0.label>초기(1/4)</RJW_pregnancy.stages.0.label>
+  <RJW_pregnancy.stages.1.label>중기(2/4)</RJW_pregnancy.stages.1.label>
+  <RJW_pregnancy.stages.2.label>후기(3/4)</RJW_pregnancy.stages.2.label>
+  <RJW_pregnancy.stages.3.label>만삭(4/4)</RJW_pregnancy.stages.3.label>
+  <RJW_pregnancy_beast.label>임신</RJW_pregnancy_beast.label>
+  <RJW_pregnancy_beast.description>배에 아기가 있습니다.</RJW_pregnancy_beast.description>
+  <RJW_pregnancy_beast.stages.0.label>초기(1/4)</RJW_pregnancy_beast.stages.0.label>
+  <RJW_pregnancy_beast.stages.1.label>중기(2/4)</RJW_pregnancy_beast.stages.1.label>
+  <RJW_pregnancy_beast.stages.2.label>후기(3/4)</RJW_pregnancy_beast.stages.2.label>
+  <RJW_pregnancy_beast.stages.3.label>만삭(4/4)</RJW_pregnancy_beast.stages.3.label>
+  <RJW_pregnancy_mech.label>임신</RJW_pregnancy_mech.label>
+  <RJW_pregnancy_mech.description>배에 아기가 있습니다.</RJW_pregnancy_mech.description>
+  <RJW_pregnancy_mech.stages.0.label>초기(1/4)</RJW_pregnancy_mech.stages.0.label>
+  <RJW_pregnancy_mech.stages.1.label>중기(2/4)</RJW_pregnancy_mech.stages.1.label>
+  <RJW_pregnancy_mech.stages.2.label>후기(3/4)</RJW_pregnancy_mech.stages.2.label>
+  <RJW_pregnancy_mech.stages.3.label>만삭(4/4)</RJW_pregnancy_mech.stages.3.label>
+  <RJW_BabyState.label>성장기</RJW_BabyState.label>
+  <RJW_BabyState.description>배에 아기가 있습니다.</RJW_BabyState.description>
+  <RJW_BabyState.stages.0.label>영아기(1/3)</RJW_BabyState.stages.0.label>
+  <RJW_BabyState.stages.1.label>유아기(2/3)</RJW_BabyState.stages.1.label>
+  <RJW_BabyState.stages.2.label>아동기(3/3)</RJW_BabyState.stages.2.label>
+  <RJW_NoManipulationFlag.label>어려서 활동이 제한됨</RJW_NoManipulationFlag.label>
+  <RJW_NoManipulationFlag.description>어려서 활동이 제한됨</RJW_NoManipulationFlag.description>
+  <size0.label>RJW 신체 부위 설정(PC)(Broken) :</size0.label>
+  <size0.description>부위 크기 변경</size0.description>
+  <size0.stages.0.label>왜소한/절벽</size0.stages.0.label>
+  <size0.stages.1.label>작은/조이는</size0.stages.1.label>
+  <size0.stages.2.label>평범한</size0.stages.2.label>
+  <size0.stages.3.label>큰/헐거운</size0.stages.3.label>
+  <size0.stages.4.label>거대한/처진</size0.stages.4.label>
+  <size0.stages.5.label>초대형</size0.stages.5.label>
+  <size1.label>RJW 신체 부위 설정(CE): 왜소한/절벽</size1.label>
+  <size1.description>부위 크기 변경</size1.description>
+  <size2.label>RJW 신체 부위 설정(CE): 작은/조이는</size2.label>
+  <size2.description>부위 크기 변경</size2.description>
+  <size3.label>RJW 신체 부위 설정(CE): 평범한</size3.label>
+  <size3.description>부위 크기 변경</size3.description>
+  <size4.label>RJW 신체 부위 설정(CE): 큰/헐거운</size4.label>
+  <size4.description>부위 크기 변경</size4.description>
+  <size5.label>RJW 신체 부위 설정(CE): 거대한/처진</size5.label>
+  <size5.description>부위 크기 변경</size5.description>
+  <size6.label>RJW 신체 부위 설정(CE): 터질듯한</size6.label>
+  <size6.description>부위 크기 변경</size6.description>
+  <AcuteHIV.label>급성 에이즈</AcuteHIV.label>
+  <AcuteHIV.description>성적 접촉을 통해 퍼지는 면역 결핍 바이러스입니다.</AcuteHIV.description>
+  <AcuteHIV.stages.0.label>검출됨(1/10)</AcuteHIV.stages.0.label>
+  <AcuteHIV.stages.1.label>경미함(2/10)</AcuteHIV.stages.1.label>
+  <AcuteHIV.stages.2.label>경미함(3/10)</AcuteHIV.stages.2.label>
+  <AcuteHIV.stages.3.label>경미함(4/10)</AcuteHIV.stages.3.label>
+  <AcuteHIV.stages.4.label>진행됨(5/10)</AcuteHIV.stages.4.label>
+  <AcuteHIV.stages.5.label>심각함(6/10)</AcuteHIV.stages.5.label>
+  <AcuteHIV.stages.6.label>심각함(7/10)</AcuteHIV.stages.6.label>
+  <AcuteHIV.stages.7.label>심각함(8/10)</AcuteHIV.stages.7.label>
+  <AcuteHIV.stages.8.label>극심함(9/10)</AcuteHIV.stages.8.label>
+  <AcuteHIV.stages.9.label>극심함(10/10)</AcuteHIV.stages.9.label>
+  <ChronicHIV.label>만성 에이즈</ChronicHIV.label>
+  <ChronicHIV.description>성적 접촉을 통해 퍼지는 면역 결핍 바이러스입니다.</ChronicHIV.description>
+  <ChronicHIV.stages.0.label>검출됨(1/10)</ChronicHIV.stages.0.label>
+  <ChronicHIV.stages.1.label>경미함(2/10)</ChronicHIV.stages.1.label>
+  <ChronicHIV.stages.2.label>경미함(3/10)</ChronicHIV.stages.2.label>
+  <ChronicHIV.stages.3.label>경미함(4/10)</ChronicHIV.stages.3.label>
+  <ChronicHIV.stages.4.label>진행됨(5/10)</ChronicHIV.stages.4.label>
+  <ChronicHIV.stages.5.label>심각함(6/10)</ChronicHIV.stages.5.label>
+  <ChronicHIV.stages.6.label>심각함(7/10)</ChronicHIV.stages.6.label>
+  <ChronicHIV.stages.7.label>심각함(8/10)</ChronicHIV.stages.7.label>
+  <ChronicHIV.stages.8.label>극심함(9/10)</ChronicHIV.stages.8.label>
+  <ChronicHIV.stages.9.label>극심함(10/10)</ChronicHIV.stages.9.label>
+  <Herpes.label>음부포진</Herpes.label>
+  <Herpes.description>성적 접촉을 통해 퍼지는 생식기의 염증입니다.</Herpes.description>
+  <Herpes.stages.0.label>경미함(1/3)</Herpes.stages.0.label>
+  <Herpes.stages.1.label>진행됨(2/3)</Herpes.stages.1.label>
+  <Herpes.stages.2.label>심각함(3/3)</Herpes.stages.2.label>
+  <Warts.label>곤지름</Warts.label>
+  <Warts.description>성적 접촉을 통해 퍼지는 생식기의 사마귀입니다.</Warts.description>
+  <Warts.stages.0.label>경미함(1/2)</Warts.stages.0.label>
+  <Warts.stages.1.label>심각함(2/2)</Warts.stages.1.label>
+  <Syphilis.label>매독</Syphilis.label>
+  <Syphilis.description>성적 접촉을 통해 퍼지는 박테리아 감염입니다.</Syphilis.description>
+  <Syphilis.stages.0.label>경미함(1/6)</Syphilis.stages.0.label>
+  <Syphilis.stages.1.label>진행됨(2/6)</Syphilis.stages.1.label>
+  <Syphilis.stages.2.label>심각함(3/6)</Syphilis.stages.2.label>
+  <Syphilis.stages.3.label>극심함(4/6)</Syphilis.stages.3.label>
+  <Syphilis.stages.4.label>극심함(5/6)</Syphilis.stages.4.label>
+  <Syphilis.stages.5.label>극심함(6/6)</Syphilis.stages.5.label>
+  <Boobitis.label>유방염</Boobitis.label>
+  <Boobitis.description>유방염 메카나이트는 전염성이 강한 메카나이트계 역병으로, 치료하지 않으면 유방을 무한히 성장시킵니다. 처음에는 번화계의 무해한 "사교 약물"로 만들어졌지만, 전 인류 감염에 사정권을 두었습니다.</Boobitis.description>
+  <Boobitis.stages.0.label>미묘하게 커짐(1/3)</Boobitis.stages.0.label>
+  <Boobitis.stages.1.label>눈에띄게 커짐(2/3)</Boobitis.stages.1.label>
+  <Boobitis.stages.2.label>엄청나게 커짐(3/3)</Boobitis.stages.2.label>
+  <Sterilized.label>불임</Sterilized.label>
+  <Sterilized.description>임신 할 수 없습니다.</Sterilized.description>
+  <Hediff_Submitting.label>스스로 엎드림</Hediff_Submitting.label>
+  <Hediff_Submitting.description>항복.</Hediff_Submitting.description>
+  <Hediff_RapeEnemyCD.label>자신의 차례를 기다림</Hediff_RapeEnemyCD.label>
+  <Hediff_RapeEnemyCD.description>"다음은 누구?"</Hediff_RapeEnemyCD.description>
+  <hediff_male2trap.label>남성에서 양성(남성)으로 성전환</hediff_male2trap.label>
+  <hediff_male2trap.description>차후 예정(description could be here.)</hediff_male2trap.description>
+  <hediff_male2trap.stages.0.label>무관심</hediff_male2trap.stages.0.label>
+  <hediff_male2trap.stages.1.label>납득</hediff_male2trap.stages.1.label>
+  <hediff_male2trap.stages.2.label>슬픔</hediff_male2trap.stages.2.label>
+  <hediff_male2trap.stages.3.label>분노</hediff_male2trap.stages.3.label>
+  <hediff_male2trap.stages.4.label>거부</hediff_male2trap.stages.4.label>
+  <hediff_male2female.label>남성에서 여성으로 성전환</hediff_male2female.label>
+  <hediff_male2female.description>차후 예정(description could be here.)</hediff_male2female.description>
+  <hediff_male2female.stages.0.label>무관심</hediff_male2female.stages.0.label>
+  <hediff_male2female.stages.1.label>납득</hediff_male2female.stages.1.label>
+  <hediff_male2female.stages.2.label>슬픔</hediff_male2female.stages.2.label>
+  <hediff_male2female.stages.3.label>분노</hediff_male2female.stages.3.label>
+  <hediff_male2female.stages.4.label>거부</hediff_male2female.stages.4.label>
+  <hediff_male2futa.label>남성에서 양성(여성)으로 성전환</hediff_male2futa.label>
+  <hediff_male2futa.description>차후 예정(description could be here.)</hediff_male2futa.description>
+  <hediff_male2futa.stages.0.label>무관심</hediff_male2futa.stages.0.label>
+  <hediff_male2futa.stages.1.label>납득</hediff_male2futa.stages.1.label>
+  <hediff_male2futa.stages.2.label>슬픔</hediff_male2futa.stages.2.label>
+  <hediff_male2futa.stages.3.label>분노</hediff_male2futa.stages.3.label>
+  <hediff_male2futa.stages.4.label>거부</hediff_male2futa.stages.4.label>
+  <hediff_female2trap.label>여성에서 양성(여성)으로 성전환</hediff_female2trap.label>
+  <hediff_female2trap.description>차후 예정(description could be here.)</hediff_female2trap.description>
+  <hediff_female2trap.stages.0.label>무관심</hediff_female2trap.stages.0.label>
+  <hediff_female2trap.stages.1.label>납득</hediff_female2trap.stages.1.label>
+  <hediff_female2trap.stages.2.label>슬픔</hediff_female2trap.stages.2.label>
+  <hediff_female2trap.stages.3.label>분노</hediff_female2trap.stages.3.label>
+  <hediff_female2trap.stages.4.label>거부</hediff_female2trap.stages.4.label>
+  <hediff_female2male.label>여성에서 남성으로 성전환</hediff_female2male.label>
+  <hediff_female2male.description>차후 예정(description could be here.)</hediff_female2male.description>
+  <hediff_female2male.stages.0.label>무관심</hediff_female2male.stages.0.label>
+  <hediff_female2male.stages.1.label>납득</hediff_female2male.stages.1.label>
+  <hediff_female2male.stages.2.label>슬픔</hediff_female2male.stages.2.label>
+  <hediff_female2male.stages.3.label>분노</hediff_female2male.stages.3.label>
+  <hediff_female2male.stages.4.label>거부</hediff_female2male.stages.4.label>
+  <hediff_female2futa.label>여성에서 양성(여성)으로 성전환</hediff_female2futa.label>
+  <hediff_female2futa.description>차후 예정(description could be here.)</hediff_female2futa.description>
+  <hediff_female2futa.stages.0.label>무관심</hediff_female2futa.stages.0.label>
+  <hediff_female2futa.stages.1.label>납득</hediff_female2futa.stages.1.label>
+  <hediff_female2futa.stages.2.label>슬픔</hediff_female2futa.stages.2.label>
+  <hediff_female2futa.stages.3.label>분노</hediff_female2futa.stages.3.label>
+  <hediff_female2futa.stages.4.label>거부</hediff_female2futa.stages.4.label>
+  <hediff_futa2trap.label>양성(여성)에서 양성(남성)로 성전환</hediff_futa2trap.label>
+  <hediff_futa2trap.description>차후 예정(description could be here.)</hediff_futa2trap.description>
+  <hediff_futa2trap.stages.0.label>무관심</hediff_futa2trap.stages.0.label>
+  <hediff_futa2trap.stages.1.label>납득</hediff_futa2trap.stages.1.label>
+  <hediff_futa2trap.stages.2.label>슬픔</hediff_futa2trap.stages.2.label>
+  <hediff_futa2trap.stages.3.label>분노</hediff_futa2trap.stages.3.label>
+  <hediff_futa2trap.stages.4.label>거부</hediff_futa2trap.stages.4.label>
+  <hediff_futa2male.label>양성(여성)에서 남성으로 성전환</hediff_futa2male.label>
+  <hediff_futa2male.description>차후 예정(description could be here.)</hediff_futa2male.description>
+  <hediff_futa2male.stages.0.label>무관심</hediff_futa2male.stages.0.label>
+  <hediff_futa2male.stages.1.label>납득</hediff_futa2male.stages.1.label>
+  <hediff_futa2male.stages.2.label>슬픔</hediff_futa2male.stages.2.label>
+  <hediff_futa2male.stages.3.label>분노</hediff_futa2male.stages.3.label>
+  <hediff_futa2male.stages.4.label>거부</hediff_futa2male.stages.4.label>
+  <hediff_futa2female.label>양성(여성)에서 여성으로 성전환</hediff_futa2female.label>
+  <hediff_futa2female.description>차후 예정(description could be here.)</hediff_futa2female.description>
+  <hediff_futa2female.stages.0.label>무관심</hediff_futa2female.stages.0.label>
+  <hediff_futa2female.stages.1.label>납득</hediff_futa2female.stages.1.label>
+  <hediff_futa2female.stages.2.label>슬픔</hediff_futa2female.stages.2.label>
+  <hediff_futa2female.stages.3.label>분노</hediff_futa2female.stages.3.label>
+  <hediff_futa2female.stages.4.label>거부</hediff_futa2female.stages.4.label>
+  <hediff_trap2futa.label>양성(남성)에서 양성(여성)으로 성전환</hediff_trap2futa.label>
+  <hediff_trap2futa.description>차후 예정(description could be here.)</hediff_trap2futa.description>
+  <hediff_trap2futa.stages.0.label>무관심</hediff_trap2futa.stages.0.label>
+  <hediff_trap2futa.stages.1.label>납득</hediff_trap2futa.stages.1.label>
+  <hediff_trap2futa.stages.2.label>슬픔</hediff_trap2futa.stages.2.label>
+  <hediff_trap2futa.stages.3.label>분노</hediff_trap2futa.stages.3.label>
+  <hediff_trap2futa.stages.4.label>거부</hediff_trap2futa.stages.4.label>
+  <hediff_trap2male.label>양성(남성)에서 남성으로 성전환</hediff_trap2male.label>
+  <hediff_trap2male.description>차후 예정(description could be here.)</hediff_trap2male.description>
+  <hediff_trap2male.stages.0.label>무관심</hediff_trap2male.stages.0.label>
+  <hediff_trap2male.stages.1.label>납득</hediff_trap2male.stages.1.label>
+  <hediff_trap2male.stages.2.label>슬픔</hediff_trap2male.stages.2.label>
+  <hediff_trap2male.stages.3.label>분노</hediff_trap2male.stages.3.label>
+  <hediff_trap2male.stages.4.label>거부</hediff_trap2male.stages.4.label>
+  <hediff_trap2female.label>양성(남성)에서 여성으로 성전환</hediff_trap2female.label>
+  <hediff_trap2female.description>차후 예정(description could be here.)</hediff_trap2female.description>
+  <hediff_trap2female.stages.0.label>무관심</hediff_trap2female.stages.0.label>
+  <hediff_trap2female.stages.1.label>납득</hediff_trap2female.stages.1.label>
+  <hediff_trap2female.stages.2.label>슬픔</hediff_trap2female.stages.2.label>
+  <hediff_trap2female.stages.3.label>분노</hediff_trap2female.stages.3.label>
+  <hediff_trap2female.stages.4.label>거부</hediff_trap2female.stages.4.label>
+  <hediff_was_boy.label>남자였음</hediff_was_boy.label>
+  <hediff_was_boy.description>이전 성별</hediff_was_boy.description>
+  <hediff_was_girl.label>여자였음</hediff_was_girl.label>
+  <hediff_was_girl.description>이전 성별</hediff_was_girl.description>
+  <hediff_was_futa.label>양성(여성)이었음</hediff_was_futa.label>
+  <hediff_was_futa.description>이전 성별</hediff_was_futa.description>
+  <hediff_was_trap.label>양성(남성)이었음</hediff_was_trap.label>
+  <hediff_was_trap.description>이전 성별</hediff_was_trap.description>
+  <HumpShroomEffect.label>최음 성분</HumpShroomEffect.label>
+  <HumpShroomEffect.description>최음 버섯의 최음 효과입니다.</HumpShroomEffect.description>
+  <HumpShroomTolerance.label>최음버섯 내성</HumpShroomTolerance.label>
+  <HumpShroomTolerance.description>최음 버섯의 효과에 내성이 생겼습니다.</HumpShroomTolerance.description>
+  <HumpShroomAddiction.label>최음버섯 중독</HumpShroomAddiction.label>
+  <HumpShroomAddiction.description>최읩 버섯의 효과에 중독되었습니다.</HumpShroomAddiction.description>
+  <HumpShroomAddiction.stages.1.label>금단 증상</HumpShroomAddiction.stages.1.label>
+
+</LanguageData>

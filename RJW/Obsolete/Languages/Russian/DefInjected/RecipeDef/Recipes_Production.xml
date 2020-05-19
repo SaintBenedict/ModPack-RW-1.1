@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MakeHololock.label>сделать hololock</MakeHololock.label>
+	<MakeHololock.description>Сделать голографический замок.</MakeHololock.description>
+	<MakeHololock.jobString>Делает голографический замок.</MakeHololock.jobString>
+
+	<MakeArmbinder.label>сделать наручники</MakeArmbinder.label>
+	<MakeArmbinder.description>Сделать наручники.</MakeArmbinder.description>
+	<MakeArmbinder.jobString>Делает наручники.</MakeArmbinder.jobString>
+
+	<MakeGag.label>сделать кляп</MakeGag.label>
+	<MakeGag.description>Сделать кляп.</MakeGag.description>
+	<MakeGag.jobString>Делает кляп.</MakeGag.jobString>
+
+	<MakeChastityBelt.label>сделать пояс верности</MakeChastityBelt.label>
+	<MakeChastityBelt.description>Сделать пояс верности.</MakeChastityBelt.description>
+	<MakeChastityBelt.jobString>Делает пояс верности.</MakeChastityBelt.jobString>
+</LanguageData>

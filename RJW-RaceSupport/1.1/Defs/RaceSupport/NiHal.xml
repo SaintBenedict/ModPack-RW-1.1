@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		<defName>HumanLike_Alien_Nihal</defName>
+		<raceNames>
+			<li>Alien_NiHal</li>
+		</raceNames>
+
+		<anuses>
+			<li>CloacalAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>CloacalVagina</li>
+		</femaleGenitals>
+		
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<maleGenitals>
+			<li>HemiPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Scales</li>
+		</tags>
+	</rjw.RaceGroupDef>
+</Defs>

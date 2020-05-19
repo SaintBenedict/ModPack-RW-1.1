@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+
+	<!-- -->
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg_HumanLike">
+		<defName>RJW_Insect_Arachne_Egg</defName>
+		<eggsize>1</eggsize>
+		<selffertilized>true</selffertilized>
+		<parentDefs>
+			<!--<li>Arachne</li>-->
+			<li>Arachne_PlayerColonist</li>
+			<li>ArachneMilitia_Destructive</li>
+			<li>ArachneMilitia_EMP</li>
+			<li>ArachneMilitia_Smoke</li>
+			<li>ArachneMilitia_Gunner</li>
+			<li>ArachneMilitia_Gunner_Acidifier</li>
+			<li>ArachneMilitia_Sniper</li>
+			<li>ArachneMilitia_Sniper_Acidifier</li>
+			<li>ArachneMilitia_Slasher</li>
+			<li>ArachneMilitia_Slasher_Acidifier</li>
+			<li>ArachneMilitia_Heavy</li>
+			<li>ArachneMilitia_Elite</li>
+			<li>ArachneMilitia_Assassin</li>
+			<li>ArachneMilitia_Assault</li>
+			<li>Arachne_Settler</li>
+			<li>Arachne_Colonist</li>
+			<li>Arachne_Trader</li>
+			<li>Arachne_Elder</li>
+			<li>Arachne_Soldier</li>
+			<li>Arachne_Valkyrie</li>
+			<li>Arachne_Scout</li>
+		</parentDefs>
+	</rjw.HediffDef_InsectEgg>
+
+</Defs>

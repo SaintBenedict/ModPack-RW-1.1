@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HIV.label>HIV</HIV.label>
+  <HIV.description>HIVは急性型と慢性型の2種類があります。どちらも同じ順序をたどり、  苦しめるように感染者の血液ろ過能力を奪っていきます。急性型は急激に進行しますが、感染者の免疫能力で進行を遅くすることができます。しかし、慢性型はとてもゆっくりと進行し、治療することは不可能です。治療によって進行を遅らせることはできます。</HIV.description>
+
+  <Herpes.label>ヘルペス</Herpes.label>
+  <Herpes.description>ヘルペスは不治ですが、非致死性の病です。感染者は感染部位に痛みと痒みを感じます。治療することで症状を抑えることができます。</Herpes.description>
+
+  <Warts.label>疣</Warts.label>
+  <Warts.description>性器疣贅は醜く、さまざまな痛みを引き起こします。治療は簡単で、致命的になることはありません。</Warts.description>
+
+  <Syphilis.label>梅毒</Syphilis.label>
+  <Syphilis.description>梅毒は精神的にとてもつらい病です。もし未治療で放置すると、欲求やムードに大きく影響するだけでなく、肝臓、腎臓、さらには脳に障害が出始め、最終的に死に至ります。しかし適切な処置を施せば簡単に治療することができます。</Syphilis.description>
+</LanguageData>

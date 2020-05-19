@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ForceOffArmbinder.label>アームバインダーを無理やり外す</ForceOffArmbinder.label>
+  <ForceOffArmbinder.description>腕に重大なダメージを負うかわりに、アームバインダーを鍵を使わずに無理やり外す</ForceOffArmbinder.description>
+  <ForceOffArmbinder.jobString>アームバインダーを無理やり外す</ForceOffArmbinder.jobString>
+
+  <ForceOffGag.label>猿轡を無理やり外す</ForceOffGag.label>
+  <ForceOffGag.description>重大なダメージを負うかわりに、猿轡を鍵を使わずに無理やり外す</ForceOffGag.description>
+  <ForceOffGag.jobString>アームバインダーを無理やり外す</ForceOffGag.jobString>
+
+  <ForceOffChastityBelt.label>貞操帯を無理やり外す</ForceOffChastityBelt.label>
+  <ForceOffChastityBelt.description>重大なダメージを負うかわりに、貞操帯を鍵を使わずに無理やり外す</ForceOffChastityBelt.description>
+  <ForceOffChastityBelt.jobString>アームバインダーを無理やり外す</ForceOffChastityBelt.jobString>
+</LanguageData>

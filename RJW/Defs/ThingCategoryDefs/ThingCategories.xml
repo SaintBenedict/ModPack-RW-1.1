@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Bondage</defName>
+		<label>Bondage gear</label>
+		<parent>Apparel</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+</Defs>

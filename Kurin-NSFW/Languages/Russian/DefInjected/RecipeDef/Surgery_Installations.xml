@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_InstallFakeTail.label>Установить фальшивый хвост Курин</DRNTF_InstallFakeTail.label>
+  <DRNTF_InstallFakeTail.description>Установить фальшивый хвост Курин.</DRNTF_InstallFakeTail.description>
+  <DRNTF_InstallFakeTail.jobString>Устанавливает фальшивый хвост Курин.</DRNTF_InstallFakeTail.jobString>
+
+  <DRNTF_InstallBionicEar.label>Установить бионическое ухо Курин</DRNTF_InstallBionicEar.label>
+  <DRNTF_InstallBionicEar.description>Установить бионическое ухо Курин.</DRNTF_InstallBionicEar.description>
+  <DRNTF_InstallBionicEar.jobString>Устанавливает бионическое ухо Курин.</DRNTF_InstallBionicEar.jobString>
+
+  <DRNTF_InstallBionicTail.label>Установить бионический хвост Курин</DRNTF_InstallBionicTail.label>
+  <DRNTF_InstallBionicTail.description>Установить бионический хвост Курин.</DRNTF_InstallBionicTail.description>
+  <DRNTF_InstallBionicTail.jobString>Устанавливает бионический хвост Курин.</DRNTF_InstallBionicTail.jobString>
+
+
+</LanguageData>

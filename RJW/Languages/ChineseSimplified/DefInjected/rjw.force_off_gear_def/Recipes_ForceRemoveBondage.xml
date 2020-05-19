@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ForceOffArmbinder.label>强制脱下手臂绷带</ForceOffArmbinder.label>
+  <ForceOffArmbinder.description>佩戴者会受伤。</ForceOffArmbinder.description>
+  <ForceOffArmbinder.jobString>正在强制脱下手臂绷带</ForceOffArmbinder.jobString>
+
+  <ForceOffBallGag.label>强制脱下口球</ForceOffBallGag.label>
+  <ForceOffBallGag.description>佩戴者会受伤。</ForceOffBallGag.description>
+  <ForceOffBallGag.jobString>正在强制脱下口球</ForceOffBallGag.jobString>
+
+  <ForceOffRingGag.label>强制脱下环状口塞</ForceOffRingGag.label>
+  <ForceOffRingGag.description>佩戴者会受伤。</ForceOffRingGag.description>
+  <ForceOffRingGag.jobString>正在强制脱下环状口塞</ForceOffRingGag.jobString>
+
+  <!--[Duplicated] <ForceOffChastityBelt.label>强制脱下chastity belt</ForceOffChastityBelt.label>-->
+  <!--[Duplicated] <ForceOffChastityBelt.description>Forcibly removes a chastity belt without the key 佩戴者会受伤。</ForceOffChastityBelt.description>-->
+  <!--[Duplicated] <ForceOffChastityBelt.jobString>Forcibly removing chastity belt.</ForceOffChastityBelt.jobString>-->
+
+  <ForceOffChastityBeltOpen.label>强制脱下半贞操带</ForceOffChastityBeltOpen.label>
+  <ForceOffChastityBeltOpen.description>佩戴者会受伤。</ForceOffChastityBeltOpen.description>
+  <ForceOffChastityBeltOpen.jobString>正在强制脱下半贞操带</ForceOffChastityBeltOpen.jobString>
+
+  <ForceOffChastityBelt.label>强制脱下贞操带</ForceOffChastityBelt.label>
+  <ForceOffChastityBelt.description>佩戴者会受伤。</ForceOffChastityBelt.description>
+  <ForceOffChastityBelt.jobString>正在强制脱下贞操带</ForceOffChastityBelt.jobString>
+
+
+</LanguageData>

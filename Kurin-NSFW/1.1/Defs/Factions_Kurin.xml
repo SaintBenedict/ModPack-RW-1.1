@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<FactionDef>
+	<defName>Kurin_Player</defName>
+	<label>Kurin's new base</label>
+	<description>It is the base of the Kurin.</description>
+	<settlementTexturePath>Kurin/Faction/Texture</settlementTexturePath>
+	<categoryTag>Kurin_Citizen</categoryTag>
+	<colorSpectrum>
+		<li>(1, 1, 1)</li>
+	</colorSpectrum>
+	<isPlayer>true</isPlayer>
+	<basicMemberKind>Kurin_Colonist</basicMemberKind>
+	<pawnSingular>kurin colonist</pawnSingular>
+	<pawnsPlural>kurin colonists</pawnsPlural>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Kurin_Citizen</li>
+			</categories>
+			<commonality>1</commonality>
+		</li>
+	</backstoryFilters>
+	<factionIconPath>Kurin/Faction/Texture</factionIconPath>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<startingTechprintsResearchTags>
+		<li>ClassicStart</li>
+		<li>ClassicStartTechprints</li>
+	</startingTechprintsResearchTags>
+	<hairTags>
+		<li>Kurin</li>
+		<li>Urban</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>DevilstrandCloth</li>
+			<li>Synthread</li>
+			<li>WoolAlpaca</li>
+			<li>WoolMuffalo</li>
+		</thingDefs>
+	</apparelStuffFilter>
+</FactionDef>
+
+<FactionDef ParentName="HumanFactionBase">
+	<defName>Kurin_Faction</defName>
+	<label>Republic Of Kurin</label>
+	<description>These are the forces of the Kurins who crashed decades ago.\nThere have been many incidents, but now there is enough power to protect their own people.</description>
+	<colorSpectrum>
+		<li>(1.0, 0.72, 0.27)</li>
+	</colorSpectrum>
+	<startingGoodwill>0~10</startingGoodwill>
+	<naturalColonyGoodwill>-100~100</naturalColonyGoodwill>
+	<pawnSingular>kurin</pawnSingular>
+	<pawnsPlural>kurins</pawnsPlural>
+	<listOrderPriority>248</listOrderPriority>
+	<settlementGenerationWeight>0.6</settlementGenerationWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<canMakeRandomly>true</canMakeRandomly>
+	<canSiege>false</canSiege>
+	<canStageAttacks>true</canStageAttacks>
+	<leaderTitle>president</leaderTitle>
+	<factionIconPath>Kurin/Faction/Texture</factionIconPath>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Outlander</li>
+			</categories>
+			<commonality>0.95</commonality>
+		</li>
+		<li>
+			<categories>
+				<li>Offworld</li>
+			</categories>
+			<commonality>0.05</commonality>
+		</li>
+	</backstoryFilters>
+	<geneticVariance>0</geneticVariance>
+	<hairTags>
+		<li>Rural</li>
+	</hairTags>
+	<caravanTraderKinds>
+		<li>Caravan_Outlander_BulkGoods</li>
+		<li>Caravan_Outlander_CombatSupplier</li>
+		<li>Caravan_Outlander_Exotic</li>
+		<li>Caravan_Outlander_PirateMerchant</li>
+	</caravanTraderKinds>
+	<visitorTraderKinds>
+		<li>Visitor_Outlander_Standard</li>
+	</visitorTraderKinds>
+	<baseTraderKinds>
+		<li>Base_Outlander_Standard</li>
+	</baseTraderKinds>
+	<allowedArrivalTemperatureRange>-30~45</allowedArrivalTemperatureRange>
+	<maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0,35)</li>
+			<li>(70, 50)</li>
+			<li>(700, 100)</li>
+			<li>(1300, 150)</li>
+			<li>(100000, 10000)</li>
+		</points>
+	</maxPawnCostPerTotalPointsCurve>
+	<pawnGroupMakers>
+		<li>
+			<kindDef>Combat</kindDef>
+			<options>
+				<Kurin_Scout>4</Kurin_Scout>
+				<Kurin_Savage>10</Kurin_Savage>
+				<Kurin_Initiate>10</Kurin_Initiate>
+				<Kurin_ELite_Scout>3</Kurin_ELite_Scout>
+				<Kurin_Recruit>7</Kurin_Recruit>
+				<Kurin_Ninja>2</Kurin_Ninja>
+				<Kurin_Trooper>6</Kurin_Trooper>
+				<Kurin_Slasher>5</Kurin_Slasher>
+				<Kurin_Sniper_H>4</Kurin_Sniper_H>
+				<Kurin_EliteTrooper>3</Kurin_EliteTrooper>
+				<Kurin_EliteSlasher>3</Kurin_EliteSlasher>
+				<Kurin_EliteSniper_H>2</Kurin_EliteSniper_H>
+				<Kurin_Elite>1</Kurin_Elite>
+			</options>
+		</li>
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<Kurin_Citizen>10</Kurin_Citizen>
+				<Kurin_Trader>4</Kurin_Trader>
+				<Kurin_Elite>6</Kurin_Elite>
+				<Kurin_Soldier>2</Kurin_Soldier>
+				<Kurin_EliteSoldier>1</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
+			</options>
+		</li>
+		<li>
+			<kindDef>Trader</kindDef>
+			<traders>
+				<Kurin_Trader>1</Kurin_Trader>
+			</traders>
+			<carriers>
+				<Muffalo>6</Muffalo>
+				<Dromedary>5</Dromedary>
+				<Alpaca>2</Alpaca>
+				<Elephant>1</Elephant>
+			</carriers>
+			<guards>
+				<Kurin_Vigilante>8</Kurin_Vigilante>
+				<Kurin_Soldier>6</Kurin_Soldier>
+				<Kurin_EliteSoldier>2</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
+			</guards>
+		</li>
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<Kurin_Vigilante>8</Kurin_Vigilante>
+				<Kurin_Soldier>12</Kurin_Soldier>
+				<Kurin_EliteSoldier>8</Kurin_EliteSoldier>
+				<Kurin_Sniper>4</Kurin_Sniper>
+				<Kurin_Nymph>1</Kurin_Nymph>
+			</options>
+		</li>
+	</pawnGroupMakers>
+	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+</FactionDef>
+
+<FactionDef ParentName="HumanFactionBase">
+	<defName>Kurin_Faction_Hostile</defName>
+	<label>Battle Foxes</label>
+	<description>Kurin who see combat as the only way of protecting their people.</description>
+	<colorSpectrum>
+      <li>(216, 89, 5)</li>
+	</colorSpectrum>
+	<startingGoodwill>-80</startingGoodwill>
+	<naturalColonyGoodwill>-100~-80</naturalColonyGoodwill>
+	<pawnSingular>kurin</pawnSingular>
+	<pawnsPlural>kurins</pawnsPlural>
+	<listOrderPriority>248</listOrderPriority>
+	<settlementGenerationWeight>0.5</settlementGenerationWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<canMakeRandomly>true</canMakeRandomly>
+	<canSiege>True</canSiege>
+	<canStageAttacks>true</canStageAttacks>
+	<leaderTitle>Head Fox</leaderTitle>
+	<factionIconPath>Kurin/Faction/Texture</factionIconPath>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Outlander</li>
+			</categories>
+			<commonality>0.95</commonality>
+		</li>
+		<li>
+			<categories>
+				<li>Offworld</li>
+			</categories>
+			<commonality>0.05</commonality>
+		</li>
+	</backstoryFilters>
+	<geneticVariance>0</geneticVariance>
+	<hairTags>
+		<li>Rural</li>
+	</hairTags>
+	<caravanTraderKinds>
+		<li>Caravan_Outlander_BulkGoods</li>
+		<li>Caravan_Outlander_CombatSupplier</li>
+		<li>Caravan_Outlander_Exotic</li>
+		<li>Caravan_Outlander_PirateMerchant</li>
+	</caravanTraderKinds>
+	<visitorTraderKinds>
+		<li>Visitor_Outlander_Standard</li>
+	</visitorTraderKinds>
+	<baseTraderKinds>
+		<li>Base_Outlander_Standard</li>
+	</baseTraderKinds>
+	<allowedArrivalTemperatureRange>-30~45</allowedArrivalTemperatureRange>
+	<maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0,35)</li>
+			<li>(70, 50)</li>
+			<li>(700, 100)</li>
+			<li>(1300, 150)</li>
+			<li>(100000, 10000)</li>
+		</points>
+	</maxPawnCostPerTotalPointsCurve>
+	<pawnGroupMakers>
+		<li>
+			<kindDef>Combat</kindDef>
+			<options>
+				<Kurin_Scout>4</Kurin_Scout>
+				<Kurin_Savage>10</Kurin_Savage>
+				<Kurin_Initiate>10</Kurin_Initiate>
+				<Kurin_ELite_Scout>3</Kurin_ELite_Scout>
+				<Kurin_Recruit>7</Kurin_Recruit>
+				<Kurin_Ninja>2</Kurin_Ninja>
+				<Kurin_Trooper>6</Kurin_Trooper>
+				<Kurin_Slasher>5</Kurin_Slasher>
+				<Kurin_Sniper_H>4</Kurin_Sniper_H>
+				<Kurin_EliteTrooper>3</Kurin_EliteTrooper>
+				<Kurin_EliteSlasher>3</Kurin_EliteSlasher>
+				<Kurin_EliteSniper_H>2</Kurin_EliteSniper_H>
+				<Kurin_Warlord1>1</Kurin_Warlord1>
+				<Kurin_Warlord2>1</Kurin_Warlord2>
+			</options>
+		</li>
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<Kurin_Trader>4</Kurin_Trader>
+				<Kurin_Elite>6</Kurin_Elite>
+				<Kurin_Soldier>10</Kurin_Soldier>
+				<Kurin_EliteSoldier>1</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
+			</options>
+		</li>
+		<li>
+			<kindDef>Trader</kindDef>
+			<traders>
+				<Kurin_Trader>1</Kurin_Trader>
+			</traders>
+			<carriers>
+				<Muffalo>6</Muffalo>
+				<Dromedary>5</Dromedary>
+				<Alpaca>2</Alpaca>
+				<Elephant>1</Elephant>
+			</carriers>
+			<guards>
+				<Kurin_Vigilante>8</Kurin_Vigilante>
+				<Kurin_Soldier>6</Kurin_Soldier>
+				<Kurin_EliteSoldier>2</Kurin_EliteSoldier>
+			</guards>
+		</li>
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<Kurin_Vigilante>8</Kurin_Vigilante>
+				<Kurin_Soldier>12</Kurin_Soldier>
+				<Kurin_EliteSoldier>8</Kurin_EliteSoldier>
+				<Kurin_Sniper>4</Kurin_Sniper>
+			</options>
+		</li>
+	</pawnGroupMakers>
+	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+</FactionDef>
+
+</Defs>

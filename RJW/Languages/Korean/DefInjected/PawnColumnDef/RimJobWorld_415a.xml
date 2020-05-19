@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IsWhore.headerTip>해당 정착민은 창부입니다.</IsWhore.headerTip>
+  <IsPrisoner.headerTip>해당 정착민은 죄수이거나 노예입니다.</IsPrisoner.headerTip>
+  <WhoreExperience.label>경험</WhoreExperience.label>
+  <WhoreExperience.headerTip>매춘 경험</WhoreExperience.headerTip>
+  <RoomAdjustmentOfWhore.label>방</RoomAdjustmentOfWhore.label>
+  <RoomAdjustmentOfWhore.headerTip>매춘실의 인상 -gt; 화대 형성 요인</RoomAdjustmentOfWhore.headerTip>
+  <PriceRangeOfWhore.label>화대</PriceRangeOfWhore.label>
+  <PriceRangeOfWhore.headerTip>창녀의 화대 범위</PriceRangeOfWhore.headerTip>
+  <EarnedMoneyByWhore.label>수입</EarnedMoneyByWhore.label>
+  <EarnedMoneyByWhore.headerTip>매상(총합)</EarnedMoneyByWhore.headerTip>
+  <CountOfWhore.label>고객수</CountOfWhore.label>
+  <CountOfWhore.headerTip>받은 고객수</CountOfWhore.headerTip>
+  <AverageMoneyByWhore.label>평균</AverageMoneyByWhore.label>
+  <AverageMoneyByWhore.headerTip>매상(평균)</AverageMoneyByWhore.headerTip>
+  <Mood.label>기분</Mood.label>
+  <Mood.headerTip>해당 정착민의 기분</Mood.headerTip>
+
+</LanguageData>

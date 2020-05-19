@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Human -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Human"]/race/lifeStageAges/li[2]/minAge</xpath>
+		<value>
+			<minAge>0.9</minAge>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Human"]/race/lifeStageAges/li[3]/minAge</xpath>
+		<value>
+			<minAge>3</minAge>
+		</value>
+	</Operation>
+  
+	<!--  RatKin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>NewRatkinPlus</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/race/lifeStageAges</xpath>
+			<value>
+				<lifeStageAges>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeToddler</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>2.7</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>11</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>16</minAge>
+				</li>
+				</lifeStageAges>
+			</value>
+			</match>
+	</Operation>
+	
+</Patch>
