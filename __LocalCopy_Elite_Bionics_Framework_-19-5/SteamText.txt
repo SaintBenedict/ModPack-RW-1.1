@@ -1,0 +1,50 @@
+A common framework to change body part max HP. Please check the changelog tab for the latest version.
+
+Package ID: V1024.EBFramework
+
+[h1]Quick Info and Compatibility[/h1]
+[list]
+[*]Requires HugsLib (warning should be given if you don't have HugsLib); place this mod below HugsLib
+[*]Place this mod above other mods that require this mod
+[*]Safe to add to existing saves
+[*]Depending on whether there are any dependencies loaded, safe to be removed
+[*]Should have no problems with most other mods, see below for more info
+GitHub repo link is here: https://github.com/Vectorial1024/EliteBionicsFramework
+[/list]
+[h1]Framework Description[/h1]
+Other modders may manipulate body parts through this framework. Currently, these manipulations are supported:
+[list]
+[*]Changing max HP of body part (v1.0.0)
+[*]Changing melee attack damage of bionics (v2.1.0)
+[/list]
+Note that, normally, when body part max HP is increased, the pain and bleeding rate will both also increase. This mod scales down the bleeding rate in order to avoid nonsensical instant-death sithations due to instant-bleed-out.
+
+However, pain levels are not touched to maintain balance. End users should aim for drugs, implants, or armor to reduce the pain of your soldiers/workers before and during battle.
+
+Modders (and perhaps end users too) may refer and subscribe to Elite Archotech ( https://steamcommunity.com/sharedfiles/filedetails/?id=1744648077 ), another mod under my name, for inspiartion and immediate usage.
+
+There are some documentation on GitHub for modders too.
+
+[h1]Known Issues[/h1]
+[list]
+[*]This framework will throw errors if it detects any mod that tries to get the max HP of body parts without using this framework.
+[*]This framework will continuously throw errors when Moody is also loaded. I am technically unable to fix this problem. Ask the guys developing Moody to have a look, and let them decide if they want to support this framework.
+[*]Uninstalling this mod may have problems: if, after uninstallation, your colonists have body parts where the injury magnitude is larger than the max HP (e.g. injury at 26, EBF part gives max HP = 35, but vanilla only gives max HP = 20), those body parts will very likely become destroyed. This is vanilla behavior.
+[/list]
+[h1]The GitHub Repo[/h1]
+Many things, including changelogs, non-Steam downloads, are on the GitHub repo of this mod. Link: https://github.com/Vectorial1024/EliteBionicsFramework
+
+[h1]Credits and Legal Stuff[/h1]
+[list]
+[*]RimWorld belongs to Ludeon Studio. Some textures used as illustration above are from RimWorld assets.
+[*]Harmony is provided by pardeike.
+[*]HugsLib is made by UnlimitedHugs.
+[*]Thanks to Neceros and Bar0th for finding a patching bug and suggesting a more resilient solution to how this mod patches vanilla code
+[/list]
+
+[h1]Support and Donation[/h1]
+You are welcome to buy me some coffee at Ko-Fi to support my work!
+https://ko-fi.com/vectorial1024
+
+[h1]Conclusion[/h1]
+Please report bugs and error messages below!

@@ -1,0 +1,9 @@
+Z:\Git\JecsTools\Assemblies\0JecsTools.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\JecsTools.csprojAssemblyReference.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\JecsTools.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\JecsTools.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\0JecsTools.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\0JecsTools.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\JecsTools.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\JecsTools.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\JecsTools\obj\Debug\0JecsTools.dll

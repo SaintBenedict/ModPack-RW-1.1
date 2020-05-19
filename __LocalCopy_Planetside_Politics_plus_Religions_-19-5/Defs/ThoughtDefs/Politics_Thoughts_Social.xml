@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <ThoughtDef>
+    <defName>PoliticalAlly</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_PoliticalAlly</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>same ideology</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PoliticalAdjacent</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_PoliticalAdjacent</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>similar ideology</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+<ThoughtDef>
+    <defName>PoliticalMisguided</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_PoliticalMisguided</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>misguided ideology</label>
+        <baseOpinionOffset>-5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PoliticalRivalry</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_PoliticalRivalry</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>rival ideology</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+<ThoughtDef>
+    <defName>PoliticalEnemy</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_PoliticalEnemy</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>anathema ideology</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

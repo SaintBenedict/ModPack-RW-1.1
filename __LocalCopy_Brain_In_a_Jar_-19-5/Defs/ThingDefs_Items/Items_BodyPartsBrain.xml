@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Brain</defName>
+		<label>brain</label>
+		<description>The brain is what tells what the body how to function.</description>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+    <defName>DroneBrain</defName>
+    <label>drone brain</label>
+    <description>An artificial Brain. It does not function as well as a natural brain, but it will keep the subject alive. Bareley.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+	  <Gold>5</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>AugmentedBrain</defName>
+    <label>augmented brain</label>
+    <description>A brain that has been enhanced with glitterworld medical tech. Provides greater awareness and better controll over the body.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+	  <Gold>10</Gold>
+	  <Brain>2</Brain>
+	  <MedicineUltratech>5</MedicineUltratech>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+</Defs>

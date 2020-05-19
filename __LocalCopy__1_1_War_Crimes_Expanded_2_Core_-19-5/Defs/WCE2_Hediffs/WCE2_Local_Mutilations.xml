@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	 <!-- Mutilation Memory-Causers -->
+	 
+	 <!--<HediffDef Name="WCE_MemoryCauserBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>1.0</initialSeverity>
+		<makesAlert>false</makesAlert>
+		<scenarioCanAdd>true</scenarioCanAdd>
+	</HediffDef>-->
+
+  <!-- Mutilations -->
+
+  <HediffDef Name="WCE2_DiseaseBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <!--<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>-->
+	<defaultLabelColor>(.78, 0.36, 0.36)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+	<scenarioCanAdd>true</scenarioCanAdd>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_Blindness</defName>
+    <label>gouged eye</label>
+    <cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+	<description>Total inability to see due to a gouged out eye.</description>
+    <stages>
+      <li>
+		<painOffset>.02</painOffset>
+        <partEfficiencyOffset>-1</partEfficiencyOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_HearingLoss</defName>
+    <label>punctured eardrum</label>
+    <cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+	<description>Inability to hear quiet sounds due to the violent destruction of the eardrum.</description>
+    <stages>
+      <li>
+			<painOffset>.02</painOffset>
+			<partEfficiencyOffset>-1.0</partEfficiencyOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_BadBack</defName>
+    <label>crooked back</label>
+    <labelNoun>a crooked back</labelNoun>
+	<description>Severe damage to the spinal column due to blunt-force trauma.  Makes it hard to move.</description>
+    <stages>
+      <li>
+		<painOffset>.05</painOffset>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_BashedTeeth</defName>
+    <label>knocked out teeth</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>bashed out teeth</labelNoun>
+	<description>Bashed in teeth that makes it hard to talk, but especially hard to eat.</description>
+    <stages>
+      <li>
+		<painOffset>.02</painOffset>
+		<capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_CutoutTongue</defName>
+    <label>cut out tongue</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>cut out tongue</labelNoun>
+	<description>A cut out tongue that makes it hard to eat, but even harder to talk.</description>
+    <stages>
+      <li>
+		<painOffset>.02</painOffset>
+		<capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_MangledHand</defName>
+    <label>mangled hand</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>mangled hand</labelNoun>
+	<description>A hand that has been broken and healed numerous times.  Doesn't work as well as a normal hand anymore and causes constant pain.</description>
+    <stages>
+      <li>
+		<painOffset>.02</painOffset>
+		<partEfficiencyOffset>-0.25</partEfficiencyOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_MutilatedFace</defName>
+    <label>mutilated face</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>mutilated face</labelNoun>
+	<description>A face that has been disfigured via cutting, acid, or some other method of torture.  Reduces social impact and makes the person rather hideous to look at.</description>
+    <stages>
+      <li>
+		<painOffset>.01</painOffset>
+		<statOffsets>
+          <PawnBeauty>-2</PawnBeauty>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_Branded</defName>
+    <label>slave brand</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>brand</labelNoun>
+	<priceImpact>false</priceImpact>
+	<description>A painful brand on the neck, much like a cattlebrand.  Often used by slavers to mark their handiwork and property.  Reduces social impact, but increases the pawn's royal point value when given to tribute collectors.</description>
+    <stages>
+      <li>
+		<painOffset>.01</painOffset>
+		<statOffsets>
+			<SocialImpact>-0.10</SocialImpact>
+			<NegotiationAbility>-0.25</NegotiationAbility>
+			<RoyalFavorValue>1.0</RoyalFavorValue>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_Lobotomized</defName>
+    <label>lobotomized</label>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+    <labelNoun>a lobotomy</labelNoun>
+	<description>Part of the brain has been excised, leaving the patient a drooling idiot who is capable of only basic functions.</description>
+    <stages>
+      <li>
+		<opinionOfOthersFactor>0</opinionOfOthersFactor>
+		<painFactor>0.0</painFactor>
+		<partIgnoreMissingHP>true</partIgnoreMissingHP>
+		<capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.5</setMax>
+          </li>
+		  <li>
+            <capacity>Talking</capacity>
+            <setMax>0.0</setMax>
+          </li>
+        </capMods>
+		<forgetMemoryThoughtMtbDays>.5</forgetMemoryThoughtMtbDays>
+		<statOffsets>
+			<GlobalLearningFactor>-2.0</GlobalLearningFactor>
+			<MentalBreakThreshold>-1</MentalBreakThreshold>
+			<!--<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>-->
+		</statOffsets>
+		<mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>2</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_Vivisected</defName>
+    <label>vivisected</label>
+    <labelNoun>a vivisection</labelNoun>
+	<lethalSeverity>1</lethalSeverity>
+	<tendable>true</tendable>
+	<minSeverity>0.001</minSeverity>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+	<description>The person has literally been cut open while alive, causing excrutiating pain.</description>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>3</severityPerDay>
+      </li>
+	  <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>2</baseTendDurationHours>
+        <severityPerDayTended>-4.0</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+		<li>
+		<vomitMtbDays>.5</vomitMtbDays>
+		<painOffset>1</painOffset>
+		<lifeThreatening>true</lifeThreatening>
+		<capMods>
+		<li>
+            <capacity>Moving</capacity>
+            <setMax>0.0</setMax>
+          </li>
+		  <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.0</setMax>
+          </li>
+		  </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_InducedComa</defName>
+    <label>induced coma</label>
+    <labelNoun>induced coma</labelNoun>
+	<tendable>true</tendable>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+	<initialSeverity>1</initialSeverity>
+	<maxSeverity>1</maxSeverity>
+	<minSeverity>0.001</minSeverity>
+	<priceImpact>false</priceImpact>
+	<description>An artifically induced coma, likely induced in response of medical or mental trauma.  While a patient can be kept in a coma for a long time, the longer one stays in a coma the worse things happen to them.</description>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+	  <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <severityPerDayTended>3.0</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>organ failure</label>
+        <lifeThreatening>true</lifeThreatening>
+		<deathMtbDays>2</deathMtbDays>
+        <vomitMtbDays>0.1</vomitMtbDays>
+		<painFactor>0.0</painFactor>
+		<hungerRateFactor>5.0</hungerRateFactor>
+		<naturalHealingFactor>0.0</naturalHealingFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.01</setMax>
+          </li>
+        </capMods>
+		<hediffGivers>
+			<li Class="HediffGiver_Random">
+              <hediff>ChemicalDamageSevere</hediff>
+              <mtbDays>0.50</mtbDays>
+              <partsToAffect>
+				<li>Liver</li>
+				<li>Kidney</li>
+				<li>Lung</li>
+				<li>Stomach</li>
+				<li>Heart</li>
+				<li>Brain</li>
+              </partsToAffect>
+			  <countToAffect>1</countToAffect>
+            </li>
+          </hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>poorly maintained</label>
+        <painFactor>0.0</painFactor>
+        <vomitMtbDays>0.25</vomitMtbDays>
+		<lifeThreatening>true</lifeThreatening>
+		<deathMtbDays>30</deathMtbDays>
+		<hungerRateFactor>1.50</hungerRateFactor>
+		<naturalHealingFactor>0.5</naturalHealingFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.01</setMax>
+          </li>
+        </capMods>
+		<hediffGivers>
+			<li Class="HediffGiver_Random">
+              <hediff>ChemicalDamageModerate</hediff>
+              <mtbDays>60</mtbDays>
+              <partsToAffect>
+				<li>Liver</li>
+				<li>Kidney</li>
+				<li>Lung</li>
+				<li>Stomach</li>
+				<li>Heart</li>
+				<li>Brain</li>
+              </partsToAffect>
+			  <countToAffect>1</countToAffect>
+            </li>
+          </hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.34</minSeverity>
+        <label>deep</label>
+        <painFactor>0</painFactor>
+		<hungerRateFactor>0.50</hungerRateFactor>
+		<naturalHealingFactor>1.25</naturalHealingFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.01</setMax>
+          </li>
+        </capMods>
+		<hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>Dementia</hediff>
+              <mtbDays>300</mtbDays>
+              <partsToAffect>
+				<li>Brain</li>
+              </partsToAffect>
+			  <countToAffect>1</countToAffect>
+            </li>
+			<li Class="HediffGiver_Random">
+              <hediff>ChemicalDamageModerate</hediff>
+              <mtbDays>600</mtbDays>
+              <partsToAffect>
+				<li>Liver</li>
+				<li>Kidney</li>
+				<li>Lung</li>
+				<li>Stomach</li>
+				<li>Heart</li>
+				<li>Brain</li>
+              </partsToAffect>
+			  <countToAffect>1</countToAffect>
+            </li>
+          </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+	
+  
+  <!--<HediffDef ParentName="WCE2_DiseaseBase">
+    <defName>WCE2_Sedated</defName>
+    <label>long term anesthetic</label>
+    <labelNoun>anesthetics</labelNoun>
+	<tendable>true</tendable>
+	<cureAllAtOnceIfCuredByItem>true</cureAllAtOnceIfCuredByItem>
+	<initialSeverity>1</initialSeverity>
+	<maxSeverity>1</maxSeverity>
+	<description>Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious.</description>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-.8</severityPerDay>
+      </li>
+	  <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>24</baseTendDurationHours>
+        <severityPerDayTended>50.0</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>wearing off</label>
+        <painFactor>0.95</painFactor>
+        <vomitMtbDays>4</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>50</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>woozy</label>
+        <painFactor>0.8</painFactor>
+        <vomitMtbDays>0.25</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <forgetMemoryThoughtMtbDays>5</forgetMemoryThoughtMtbDays>
+        <mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>sedated</label>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.01</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>-->
+
+</Defs>

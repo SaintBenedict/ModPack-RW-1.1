@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallEPOE_DetoxifierEnhancer.label>install detoxifier enhancer</InstallEPOE_DetoxifierEnhancer.label>
+<InstallEPOE_DetoxifierEnhancer.description>Install a detoxifier enhancer.</InstallEPOE_DetoxifierEnhancer.description>
+<InstallEPOE_DetoxifierEnhancer.jobString>Installing detoxifier enhancer.</InstallEPOE_DetoxifierEnhancer.jobString>
+
+<InstallEPOE_DetoxifierSyntheticLiver.label>install synthetic detoxifier liver</InstallEPOE_DetoxifierSyntheticLiver.label>
+<InstallEPOE_DetoxifierSyntheticLiver.description>Installs a synthetic detoxifier liver.</InstallEPOE_DetoxifierSyntheticLiver.description>
+<InstallEPOE_DetoxifierSyntheticLiver.jobString>Installing synthetic detoxifier liver.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
+
+<InstallEPOE_ImmunoenhancerSyntheticKidney.label>install synthetic immunoenhanced kidney</InstallEPOE_ImmunoenhancerSyntheticKidney.label>
+<InstallEPOE_ImmunoenhancerSyntheticKidney.description>Installs a synthetic immunoenhanced kidney.</InstallEPOE_ImmunoenhancerSyntheticKidney.description>
+<InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Installing synthetic immunoenhanced kidney.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
+
+<EPIA_RemoveDetoxifierEnhancer.label>remove detoxifier enhancer</EPIA_RemoveDetoxifierEnhancer.label>
+<EPIA_RemoveDetoxifierEnhancer.description>Remove detoxifier enhancer.</EPIA_RemoveDetoxifierEnhancer.description>
+<EPIA_RemoveDetoxifierEnhancer.jobString>Removing detoxifier enhancer.</EPIA_RemoveDetoxifierEnhancer.jobString>
+
+</LanguageData>

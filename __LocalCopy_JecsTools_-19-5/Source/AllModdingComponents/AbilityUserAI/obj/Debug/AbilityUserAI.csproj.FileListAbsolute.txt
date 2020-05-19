@@ -1,0 +1,9 @@
+Z:\Git\JecsTools\Assemblies\AbilityUserAI.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.csprojAssemblyReference.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Debug\AbilityUserAI.dll

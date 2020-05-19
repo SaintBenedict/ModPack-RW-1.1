@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MUR_SubsurfaceConduit>Subsurface Conduit</MUR_SubsurfaceConduit>
+	<MUR_SubsurfaceConduit_SteelCostName>Steel Cost</MUR_SubsurfaceConduit_SteelCostName>
+	<MUR_SubsurfaceConduit_SteelCostDesc>How much steel a single piece of conduit requires. Default: 3</MUR_SubsurfaceConduit_SteelCostDesc>
+	<MUR_SubsurfaceConduit_WorkCostName>Work Cost</MUR_SubsurfaceConduit_WorkCostName>
+	<MUR_SubsurfaceConduit_WorkCostDesc>How much work it takes to build a single piece of conduit. Default: 15</MUR_SubsurfaceConduit_WorkCostDesc>
+</LanguageData>

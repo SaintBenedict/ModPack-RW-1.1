@@ -1,0 +1,41 @@
+***Changes since (8.4.2020)***
+
+= New additions =
+
+HediffDef\HediffDefs_Bionics - <EPIA_CircadianRefresher.label>
+HediffDef\HediffDefs_Bionics - <EPIA_CircadianRefresher.labelNoun>
+HediffDef\HediffDefs_Bionics - <EPIA_CircadianRefresher.description>
+
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_InstallCircadianRefresher.label>
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_InstallCircadianRefresher.description>
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_InstallCircadianRefresher.jobString>
+
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_RemoveCircadianRefresher.label>
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_RemoveCircadianRefresher.description>
+RecipeDefs\Recipe_BionicProstheticsSurgery -<EPIA_RemoveCircadianRefresher.jobString>
+
+ThingDefs\Items_BodyPartsBionic - <EPIA_CircadianRefresher.label>
+ThingDefs\Items_BodyPartsBionic - <EPIA_CircadianRefresher.description>
+
+
+= Changes =
+
+HediffDef\HediffDefs_AdvancedBionics - <EPOE_AdvancedDrillArm.comps.0.tools.0.label>
+HediffDef\HediffDefs_AdvancedBionics - <EPOE_AdvancedFieldHand.comps.0.tools.0.label>
+HediffDef\HediffDefs_AdvancedBionics - <EPOE_AdvancedHandTalon.comps.0.tools.0.label>
+HediffDef\HediffDefs_AdvancedBionics - <EPOE_AdvancedElbowBlade.comps.0.tools.0.label>
+HediffDef\HediffDefs_AdvancedBionics - <EPOE_AdvancedKneeSpike.comps.0.tools.0.label>
+
+HediffDef\HediffDefs_Bionics - <EPOE_ScytherHandTalon.comps.0.tools.0.label>
+HediffDef\HediffDefs_Bionics - <EPOE_ScytherElbowBlade.comps.0.tools.0.label>
+HediffDef\HediffDefs_Bionics - <EPOE_ScytherKneeSpike.comps.0.tools.0.label>
+
+
+
+***Changes since (1.4.2020)***
+
+= New additions =
+
+RecipeDefs\Recipe_SyntheticsSurgery - <EPIA_RemoveDetoxifierEnhancer.label>
+RecipeDefs\Recipe_SyntheticsSurgery - <EPIA_RemoveDetoxifierEnhancer.description>
+RecipeDefs\Recipe_SyntheticsSurgery - <EPIA_RemoveDetoxifierEnhancer.jobString>

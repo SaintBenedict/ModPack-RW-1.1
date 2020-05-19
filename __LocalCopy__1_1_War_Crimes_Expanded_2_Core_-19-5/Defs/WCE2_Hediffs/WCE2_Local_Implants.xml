@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- Crude Implants -->
+
+  <HediffDef Name="WCE2_ImplantHediffBase" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(.78, 0.36, 0.36)</defaultLabelColor>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_SuturedMouth</defName>
+    <label>sutured mouth</label>
+    <labelNoun>a sutured mouth</labelNoun>
+	<isBad>false</isBad>
+	<description>Mouth sutured shut.</description>
+    <stages>
+      <li>
+		<painOffset>.03</painOffset>
+		<capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0.0</setMax>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<spawnThingOnRemoved>Cloth</spawnThingOnRemoved>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_SuturedEye</defName>
+    <label>sutured eye</label>
+    <labelNoun>a sutured eye</labelNoun>
+	<isBad>false</isBad>
+	<description>Eye sutured shut.</description>
+    <stages>
+      <li>
+		<painOffset>.02</painOffset>
+		<partEfficiencyOffset>-1</partEfficiencyOffset>
+      </li>
+    </stages>
+	<spawnThingOnRemoved>Cloth</spawnThingOnRemoved>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_SteelSpikes</defName>
+	<label>implanted steel spikes</label>
+    <labelNoun>a set of steel spikes</labelNoun>
+	<isBad>false</isBad>
+	<description>Steel Spikes.</description>
+    <stages>
+      <li>
+		<painOffset>.15</painOffset>
+		<partEfficiencyOffset>-.1</partEfficiencyOffset>
+		<vomitMtbDays>5</vomitMtbDays>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>steel spike</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>10.0</power>
+            <cooldownTime>3</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <!-- ================================== Organ Implants =====================================-->
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_HeartIrregulator</defName>
+    <label>heart irregulator</label>
+    <labelNoun>a heart irregulator</labelNoun>
+	<isBad>false</isBad>
+	<description>Heart Irregulator.</description>
+    <stages>
+      <li>
+		<partEfficiencyOffset>-.25</partEfficiencyOffset>
+		<hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>WCE2_Chestpains</hediff>
+              <mtbDays>2</mtbDays>
+              <partsToAffect>
+                <li>Heart</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_Chestpains</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_SleepDeprivator</defName>
+    <label>sleep deprivator</label>
+    <labelNoun>a sleep deprivator</labelNoun>
+	<description>Sleep Deprivator.</description>
+    <stages>
+      <li>
+		<restFallFactor>1.5</restFallFactor>
+		<statOffsets>
+			<RestRateMultiplier>-0.75</RestRateMultiplier>
+		</statOffsets>
+		<hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>WCE2_Lethargic</hediff>
+              <mtbDays>5</mtbDays>
+              <partsToAffect>
+                <li>Brain</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_Lethargic</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_PainAmplifier</defName>
+    <label>pain amplifier</label>
+    <labelNoun>a pain amplifier</labelNoun>
+	<description>Pain Amplifier.</description>
+	<isBad>false</isBad>
+    <stages>
+      <li>
+		<painFactor>1.25</painFactor>
+		<statOffsets>
+          <PainShockThreshold>0.20</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_SearingPain</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_AggressionAmplifier</defName>
+    <label>aggression amplifier</label>
+    <labelNoun>an aggression amplifier</labelNoun>
+	<isBad>false</isBad>
+	<description>Aggression Amplifier.</description>
+    <stages>
+      <li>
+		<socialFightChanceFactor>10.0</socialFightChanceFactor>
+		<statOffsets>
+          <MeleeHitChance>10</MeleeHitChance>
+        </statOffsets>
+		<mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>120</mtbDays>
+          </li>
+		  <li>
+            <mentalState>MurderousRage</mentalState>
+            <mtbDays>60</mtbDays>
+          </li>
+		  <li>
+            <mentalState>SadisticRage</mentalState>
+            <mtbDays>30</mtbDays>
+          </li>
+		  <li>
+            <mentalState>Tantrum</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+		  <li>
+            <mentalState>TargetedTantrum</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+		  <li>
+            <mentalState>BedroomTantrum</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_BlindingRage</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_PanicInducer</defName>
+    <label>panic inducer</label>
+    <labelNoun>a panic inducer</labelNoun>
+	<description>Panic Inducer.</description>
+    <stages>
+      <li>
+		<statOffsets>
+			<MentalBreakThreshold>0.20</MentalBreakThreshold>
+		</statOffsets>
+		<mentalStateGivers>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>15</mtbDays>
+          </li>
+		  <li>
+            <mentalState>Wander_Sad</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+		  <li>
+            <mentalState>Wander_OwnRoom</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+		  <li>
+            <mentalState>GiveUpExit</mentalState>
+            <mtbDays>120</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_PanicAttack</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_StomachClamp</defName>
+    <label>stomach clamp</label>
+    <labelNoun>a stomach clamp</labelNoun>
+	<isBad>false</isBad>
+	<makesSickThought>true</makesSickThought>
+	<description>Stomach Clamp.</description>
+    <stages>
+      <li>
+		<partEfficiencyOffset>-.2</partEfficiencyOffset>
+		<painOffset>.07</painOffset>
+		<vomitMtbDays>0.5</vomitMtbDays>
+		<statOffsets>
+		  <EatingSpeed>-0.25</EatingSpeed>
+		  <HungerRateMultiplier>0.25</HungerRateMultiplier>
+        </statOffsets>
+      </li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <vomit>true</vomit>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_HealingInhibitor</defName>
+    <label>healing inhibitor</label>
+    <labelNoun>a healing inhibitor</labelNoun>
+	<isBad>false</isBad>
+	<description>Healing inhibitor.</description>
+    <stages>
+		<li>
+			<naturalHealingFactor>0.75</naturalHealingFactor>
+			<statOffsets>
+				<ImmunityGainSpeed>-0.10</ImmunityGainSpeed>
+				<ToxicSensitivity>0.15</ToxicSensitivity>
+			</statOffsets>
+		</li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_CoagulantSuppressor</defName>
+    <label>coagulant suppressor</label>
+    <labelNoun>a coagulant suppressor</labelNoun>
+	<isBad>false</isBad>
+	<description>Coagulant Suppressor.</description>
+    <stages>
+		<li>
+			<totalBleedFactor>1.5</totalBleedFactor>
+		</li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_EmotionDestabilizer</defName>
+    <label>emotion destabilizer</label>
+    <labelNoun>an emotion destabilizer</labelNoun>
+	<isBad>false</isBad>
+	<description>Emotion destabilizer.</description>
+    <stages>
+		<li>
+			<opinionOfOthersFactor>5.0</opinionOfOthersFactor>
+			<socialFightChanceFactor>5.0</socialFightChanceFactor>
+		<mentalStateGivers>
+          <li>
+            <mentalState>TargetedInsultingSpree</mentalState>
+            <mtbDays>30</mtbDays>
+          </li>
+		  <li>
+            <mentalState>InsultingSpree</mentalState>
+            <mtbDays>15</mtbDays>
+          </li>
+        </mentalStateGivers>
+		</li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_MemoryExpulsor</defName>
+    <label>memory expulsor</label>
+    <labelNoun>a memory expulsor</labelNoun>
+	<isBad>false</isBad>
+	<description>Memory Expulsor.</description>
+    <stages>
+		<li>
+		<forgetMemoryThoughtMtbDays>1</forgetMemoryThoughtMtbDays>
+		<statOffsets>
+			<GlobalLearningFactor>-0.25</GlobalLearningFactor>
+		</statOffsets>
+		<mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+		</li>
+    </stages>
+	<comps>
+      <li Class="HediffCompProperties_SkillDecay">
+        <decayPerDayPercentageLevelCurve>
+          <points>
+            <li>(4, 0.05)</li>
+            <li>(12, 0.15)</li>
+            <li>(20, 0.25)</li>
+          </points>
+        </decayPerDayPercentageLevelCurve>
+    </li>
+	<li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_MemoryLoss</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_EMPRelay</defName>
+    <label>EMP relay</label>
+    <labelNoun>an EMP relay</labelNoun>
+	<isBad>false</isBad>
+	<description>EMP relay.</description>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_BrainShock</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="WCE2_ImplantHediffBase">
+    <defName>WCE2_EMPKillswitch</defName>
+    <label>EMP Killswitch</label>
+    <labelNoun>an EMP killswitch</labelNoun>
+	<isBad>false</isBad>
+	<description>EMP killswitch.</description>
+	<comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>WCE2_EMPKillswitchOn</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+  
+
+</Defs>

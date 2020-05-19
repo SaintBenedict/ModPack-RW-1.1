@@ -1,0 +1,8 @@
+Humanmeat as ingredient -20 -> -3 (same as eating insect meal)
+Humanmeat raw -25 -> -7 (same as eating regular raw food)
+Know prisoner died innocent now requires "Kind" trait
+Known organ harvested now requries "Kind" trair
+Butchered humanlike corpse -6 -> -1
+Know butchered humanlike corpse -6 > -1
+Witness death none ally now requires "Kind" trait
+Prisoner banished to die now requires "Kind" trait

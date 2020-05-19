@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <FSTitle>Faster Smoothing</FSTitle>
+  <FSSmoothLabel>Smoothing bonus</FSSmoothLabel>
+  <FSSmoothTooltip>Multiplies the speed at which all pawns smooth stone floors and walls. (Vanilla: 100%, Default: 300%)</FSSmoothTooltip>
+  <FSSPDescription>Faster smoothing bonus</FSSPDescription>
+</LanguageData>

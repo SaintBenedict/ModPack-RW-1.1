@@ -1,0 +1,11 @@
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompAnimated\bin\Release\CompAnimated.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompAnimated\bin\Release\0Harmony.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompAnimated\bin\Release\0Harmony.xml
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Release\CompAnimated.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Release\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\bin\Release\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\bin\Release\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Release\CompAnimated.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Release\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Release\CompAnimated.csprojAssemblyReference.cache

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<!--Skip -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AbilityDef[defName="Skip"]/comps</xpath>
+		<value>
+			<comps>
+			  <li Class = "CompProperties_AbilityTeleport">
+				<compClass>CompAbilityEffect_Teleport</compClass>
+				<destination>Selected</destination>
+				<requiresLineOfSight>True</requiresLineOfSight>
+				<range>24.9</range>
+				<clamorType>Ability</clamorType>
+				<clamorRadius>10</clamorRadius>
+				<destClamorType>Ability</destClamorType>
+				<destClamorRadius>10</destClamorRadius>
+				<stunTicks>18~50</stunTicks>        
+			  </li>
+			</comps>
+		</value>
+	</Operation>
+	
+	<!--Berserk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AbilityDef[defName="Berserk"]/verbProperties</xpath>
+		<value>
+			<verbProperties>
+				<warmupTime>0.25</warmupTime>
+				<range>16.5</range>
+				<targetParams>
+				<canTargetSelf>True</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				</targetParams>
+			</verbProperties>		
+		</value>
+	</Operation>
+	
+	<!--Berserk Pulse -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AbilityDef[defName="BerserkPulse"]/verbProperties</xpath>
+		<value>
+			<verbProperties>
+				<warmupTime>1</warmupTime>
+				<range>15.5</range>
+				<targetParams>
+				<canTargetSelf>True</canTargetSelf>
+				<canTargetLocations>True</canTargetLocations>
+				<canTargetAnimals>True</canTargetAnimals>
+				</targetParams>
+			</verbProperties>
+		</value>
+	</Operation>
+	
+</Patch>
+

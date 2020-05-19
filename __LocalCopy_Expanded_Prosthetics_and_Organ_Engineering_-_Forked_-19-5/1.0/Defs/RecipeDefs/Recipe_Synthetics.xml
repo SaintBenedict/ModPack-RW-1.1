@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIASurgerySynthetic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallMuscleStimulatorArms</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator in the arm.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing muscle stimulator.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorArms</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallMuscleStimulatorLegs</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator in the leg.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing muscle stimulator.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorLegs</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallAIChip</defName>
+		<label>install AI chip</label>
+		<description>Installs AI chip.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing AI chip.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIChip</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIChip</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallBionicHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Installs a synthetic heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic heart.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallSyntheticLung</defName>
+		<label>install synthetic lung</label>
+		<description>Installs a synthetic lung.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic lung.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SyntheticLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLung</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallBionicStomach</defName>
+		<label>install synthetic stomach</label>
+		<description>Installs a synthetic stomach.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic stomach.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicStomach</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallSyntheticLiver</defName>
+		<label>install synthetic liver</label>
+		<description>Installs a synthetic liver.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic liver.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SyntheticLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLiver</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallSyntheticKidney</defName>
+		<label>install synthetic kidney</label>
+		<description>Installs a synthetic kidney.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic kidney.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SyntheticKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticKidney</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>RemoveAIChip</defName>
+		<label>remove AI chip implant</label>
+		<description>Removes AI chip implant.</description>
+		<descriptionHyperlinks><ThingDef>AIChip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing AI chip implant.</jobString>
+		<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
+		<workAmount>3700</workAmount>
+		<removesHediff>AIChip</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveJoywire</defName>
+		<label>remove joywire</label>
+		<description>Remove joywire implant.</description>
+		<jobString>Removing joywire.</jobString>
+		<removesHediff>Joywire</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemovePainstopper</defName>
+		<label>remove painstopper</label>
+		<description>Remove painstoppper implant.</description>
+		<jobString>Removing painstopper.</jobString>
+		<removesHediff>Painstopper</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+
+
+
+	<!-- Debug recipes -->
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallSyntheticHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Installs an artificial heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing an artificial heart.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SyntheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySynthetic">
+		<defName>InstallSyntheticStomach</defName>
+		<label>install synthetic stomach</label>
+		<description>Installs a synthetic stomach.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing synthetic stomach.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SyntheticStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicStomach</addsHediff>
+	</RecipeDef>
+
+</Defs>

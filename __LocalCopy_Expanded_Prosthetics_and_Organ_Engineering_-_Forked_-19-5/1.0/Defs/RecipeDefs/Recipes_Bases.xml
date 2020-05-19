@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeBionicProsthesis" ParentName="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<researchPrerequisite>Bionics</researchPrerequisite>
+		<workAmount>26000</workAmount>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableBionics</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeAdvancedProsthesis" ParentName="RecipeBionicProsthesis"  Abstract="True">
+		<researchPrerequisite>AdvancedBionics</researchPrerequisite>
+		<workAmount>40000</workAmount>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeSyntheticOrgan" ParentName="EPIA_RecipeBaseProsthesis"  Abstract="True">
+		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>26000</workAmount>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_SurgeryRemoveImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>PoliticsPolemicsTech</defName>
+    <label>polemics</label>
+    <description>A well-constructed and aggressive advocacy on behalf of an ideology.  Better writers make better polemics but it will still be difficult to sway the intelligent and free-thinking.</description>
+    <tab>PoliticsandReligionsTab</tab>
+    <baseCost>800</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3.0</researchViewY>
+	<tags>
+      <li>ClassicStart</li>
+      <li>TribalStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PoliticsPoliticalTheoryTech</defName>
+    <label>advanced polemics</label>
+    <description>More advanced and complex administration requires more complex polemical discourse.  Required to write polemics for advanced forms of government and exotheologies.</description>
+    <tab>PoliticsandReligionsTab</tab>
+    <baseCost>1200</baseCost>
+    <techLevel>Medieval</techLevel>
+	<prerequisites>
+      <li>PoliticsPolemicsTech</li>
+    </prerequisites>
+    <researchViewX>1.5</researchViewX>
+    <researchViewY>3.0</researchViewY>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>  
+
+</Defs>

@@ -1,0 +1,7 @@
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\ThinkNodes - Release\Assemblies\ThinkNodes.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Release\ThinkNodes.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Release\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\ThinkNodes - Release\Assemblies\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Release\ThinkNodes.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Release\ThinkNodes.dll

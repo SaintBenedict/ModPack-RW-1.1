@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Brain In a Jar</name>
+	<author>TranslucencY</author>
+	<packageId>TranslucencY.BrainInAJar</packageId>
+	<description>Those raider brains will finally get some propper use! Just extract a few from some volunteers, plug them into the appropriate machienes and they will do the thinking for you!</description>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+</ModMetaData>

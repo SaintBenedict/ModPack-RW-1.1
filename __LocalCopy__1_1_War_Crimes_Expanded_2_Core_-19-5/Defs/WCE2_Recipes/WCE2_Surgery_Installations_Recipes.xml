@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--<RecipeDef Name="WCE2_Surgery" ParentName="SurgeryFlesh" Abstract="True">
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>-->
+	
+	<!-- Implants and removal recipes -->
+	
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_SutureMouth</defName>
+    <label>suture mouth shut</label>
+    <description>Suture mouth shut.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Suturing mouth shut.</jobString>
+    <workAmount>500</workAmount>
+	<!--<workSkill>Melee</workSkill>-->
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <!--<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>-->
+	<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Medicine>3</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+		<li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+    <addsHediff>WCE2_SuturedMouth</addsHediff>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_RemoveSutures</defName>
+    <label>remove stitches from mouth</label>
+    <description>Remove stitches from mouth.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing stitches.</jobString>
+    <workAmount>1000</workAmount>
+    <removesHediff>WCE2_SuturedMouth</removesHediff>
+	<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+	<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s stitches from their mouth.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+	<anesthetize>false</anesthetize>
+	<products>
+      <Cloth>3</Cloth>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_SutureEye</defName>
+    <label>suture eye shut</label>
+    <description>Suture eye shut.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Suturing eye shut.</jobString>
+    <workAmount>800</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+	<skillRequirements>
+      <Medicine>3</Medicine>
+    </skillRequirements>
+    <!--<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>-->
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_SuturedEye</addsHediff>
+	<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+		<li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_ImplantSteelSpikes</defName>
+    <label>implant steel spikes</label>
+    <description>Implant steel spikes in the victim's torso. Does nothing but cause pain - lots of it.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Implanting steel spikes.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+	<skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <!--<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>-->
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_SteelSpikes</addsHediff>
+	<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+		<li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_RemoveSuturesEye</defName>
+    <label>remove stitches from eye</label>
+    <description>Remove stitches from an eye.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing stitches.</jobString>
+    <workAmount>1000</workAmount>
+    <removesHediff>WCE2_SuturedEye</removesHediff>
+	<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s stitches from their eye.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+	<anesthetize>false</anesthetize>
+	<products>
+      <Cloth>3</Cloth>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_RemoveSteelSpikes</defName>
+    <label>remove steel spikes from torso</label>
+    <description>Remove implanted steel spikes.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing steel spikes.</jobString>
+    <workAmount>2000</workAmount>
+    <removesHediff>WCE2_SteelSpikes</removesHediff>
+	<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s steel spikes from their torso.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+	<anesthetize>true</anesthetize>
+	<surgerySuccessChanceFactor>75</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+	<products>
+      <Steel>25</Steel>
+    </products>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Tribal Stuff ====================-->
+
+	<ThingDef Name="WCE2_CraftableImplantTorture" Abstract="True">
+    <label>torture implant</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+	<stackLimit>5</stackLimit>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(154,124,104)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-4</Beauty>
+			<WorkToMake>500</WorkToMake>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <techLevel>Medieval</techLevel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <thingCategories>
+      <li>WCE2_BodyPartsTorture</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+	 <recipeMaker>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <!--<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>-->
+	  <!--<researchPrerequisite>WCE2_TribalRituals</researchPrerequisite>-->
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_CrudeTortureTools</defName>
+    <label>crude torture tools</label>
+    <description>Specialized tools for performing medieval torture methods.  Generally reusable!</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(105,105,105)</color>
+    </graphicData>
+	<isTechHediff>true</isTechHediff>
+	<costList>
+      <Steel>25</Steel>
+	  <Cloth>10</Cloth>
+    </costList>
+    <!--<thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>-->
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>WCE2_CrudeTorture</li>
+	  <!--<li>Poor</li>-->
+    </techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <recipeUsers>
+		<li>ElectricSmithy</li>
+		<li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+	</ThingDef>
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_MedicalTortureTools</defName>
+    <label>medical torture tools</label>
+    <description>Specialized surgical tools for medical torture.  Reusable!</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<techLevel>Industrial</techLevel>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(50,50,50)</color>
+    </graphicData>
+	<costList>
+      <Steel>50</Steel>
+	  <Cloth>30</Cloth>
+    </costList>
+    <!--<thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>-->
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.05</Mass>
+	  <WorkToMake>1500</WorkToMake>
+    </statBases>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_MedicalTorture</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_OrganModificationKit</defName>
+    <label>organ modification kit</label>
+    <description>Specialized tools and parts for any number of organ 'modification'.  Non-reusable.</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<techLevel>Industrial</techLevel>
+	<stackLimit>25</stackLimit>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(75,75,75)</color>
+    </graphicData>
+	<isTechHediff>true</isTechHediff>
+	<costList>
+      <Steel>5</Steel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <!--<thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>-->
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.05</Mass>
+	  <WorkToMake>1500</WorkToMake>
+    </statBases>
+    <techHediffsTags>
+      <li>WCE2_OrganModifications</li>
+	  <!--<li>Poor</li>-->
+    </techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_OrganDestabilization</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_NeutroamineIncubator</defName>
+    <label>neutroamine incubator</label>
+    <description>Specialized tools and parts for any number of organ 'modification'.  Non-reusable.</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<techLevel>Industrial</techLevel>
+	<stackLimit>5</stackLimit>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(115,195,205)</color>
+    </graphicData>
+	<costList>
+      <Steel>25</Steel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+	  <Neutroamine>1</Neutroamine>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>0.05</Mass>
+	  <WorkToMake>2500</WorkToMake>
+    </statBases>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_NeutroamineIncubation</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <skillRequirements>
+        <Crafting>3</Crafting>
+		<Medicine>8</Medicine>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_GrowthStimulator</defName>
+    <label>growth stimulator</label>
+    <description>Specialized tools and parts for any number of organ 'modification'.  Non-reusable.</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<techLevel>Industrial</techLevel>
+	<stackLimit>5</stackLimit>
+	<graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+	  <color>(123,69,66)</color>
+    </graphicData>
+	<costList>
+      <Steel>25</Steel>
+	  <Neutroamine>1</Neutroamine>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.05</Mass>
+	  <WorkToMake>2500</WorkToMake>
+    </statBases>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_QuestionableFoodProduction</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <skillRequirements>
+        <Crafting>3</Crafting>
+		<Medicine>4</Medicine>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="WCE2_CraftableImplantTorture">
+    <defName>WCE2_SlaveBrand</defName>
+    <label>slave brand</label>
+    <description>Specialized iron brand used for branding slaves.</description>
+	<descriptionHyperlinks><HediffDef>WCE2_Branded</HediffDef></descriptionHyperlinks>
+	<costList>
+      <Steel>5</Steel>
+    </costList>
+    <!--<thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>-->
+	<tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+	<isTechHediff>true</isTechHediff>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>WCE2_CrudeTorture</li>
+	  <li>WCE2_SlaveBrand</li>
+	  <!--<li>Poor</li>-->
+    </techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+	  <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+	  <recipeUsers>
+		<li>ElectricSmithy</li>
+		<li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+</Defs>

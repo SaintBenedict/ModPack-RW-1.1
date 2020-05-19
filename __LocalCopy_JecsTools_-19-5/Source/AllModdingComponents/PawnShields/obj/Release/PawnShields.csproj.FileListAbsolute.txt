@@ -1,0 +1,9 @@
+H:\SteamSSD\steamapps\common\RimWorld\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ShieldsCore\Assemblies\PawnShields.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.csprojAssemblyReference.cache
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ShieldsCore\Assemblies\PawnShields.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\PawnShields.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Release\PawnShields.dll

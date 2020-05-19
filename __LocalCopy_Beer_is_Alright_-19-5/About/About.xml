@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Beer is Alright</name>
+  <author>TheGoofyOne</author>
+  <url>about:blank</url>
+  <supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+  </supportedVersions>
+  <packageId>TheGoofyOne.BeerIsAlright</packageId>
+  <description>Beer is Alright.
+
+I was playing a game with tons of beer and set my colonists to have three a day to see the effect. In two months half my people had cirrosis. Kinda overkill I think.
+
+I decided to turn it down so three a day won't kill you by adjusting down dosage severity, and tolerance to addict. Everything else is the same and can happen in larger amounts, diseases, withdrawals etc.. 
+
+Compatibility - Should be completely. This tiny MOD uses xpath patching and overwrites no core files.
+
+Version 1.0 - Release
+
+
+	</description>
+</ModMetaData>

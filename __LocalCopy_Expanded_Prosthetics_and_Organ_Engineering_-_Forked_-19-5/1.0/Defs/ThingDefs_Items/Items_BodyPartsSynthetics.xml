@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="EPIASyntheticBase" ParentName="EPIASurrogateBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		</recipeMaker>
+	    <techLevel>Spacer</techLevel>
+		<techHediffsTags Inherit="False">
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories Inherit="False">
+			<li>SyntheticOrgans</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="EPIA_UpgradeSyntheticBase" ParentName="EPIASyntheticBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="EPIANeuroGraphicBase" ParentName="EPIASyntheticBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Vanilla overwrites, for now. -->
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Joywire</defName>
+		<label>joywire</label>
+		<description>This little brain implant will make you feel happy and relaxed.</description>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Painstopper</defName>
+		<label>painstopper</label>
+		<description>This brain implant will make you not feel pain.</description>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>		
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Redundant versions from original EPOE. -->
+
+	<ThingDef Name="EPIA_ObsoleteSynthetic" ParentName="EPIASyntheticBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemBionic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_ObsoleteSynthetic">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<description>Redundant item version. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes. This item can still be used for the standard surgery.</description> 
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Cloth>20</Cloth>
+			<Hyperweave>15</Hyperweave>
+			<Steel>30</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_ObsoleteSynthetic">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<description>Redundant item version. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes. This item can still be used for the standard surgery.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+	
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>MuscleStimulator</defName>
+		<label>muscle stimulator</label>
+		<description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</description>
+		<costList>
+			<Gold>2</Gold>
+			<Neutroamine>5</Neutroamine>
+			<Plasteel>35</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>AIChip</defName>
+		<label>AI chip</label>
+		<description>Through special chemicals and electric shocks this little chip is able to completely restore the user's consciousness and mobility. Requires brain surgery research before installing.</description>      
+		<costList>
+			<Silver>3</Silver>
+			<Gold>1</Gold>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>BionicHeart</defName>
+		<label>synthetic heart</label>
+		<description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</description>
+		<costList>
+			<Cloth>20</Cloth>
+			<Hyperweave>15</Hyperweave>
+			<Steel>30</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>BionicStomach</defName>
+		<label>synthetic stomach</label>
+		<description>An enhanced stomach augmented with chemical synthesizers that efficiently digest nearly any energy-bearing foodstuff. Unaffected by its own stomach acid.</description>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<description>An enhanced liver augmented with synthetic fibres to decrease rejection rate.</description>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate.</description>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>SyntheticSkin</defName>
+		<label>synthetic tissue</label>
+		<description>A patch of organo-synthetic tissue which can replace damaged areas.</description>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Synthread>10</Synthread>
+			<MedicineUltratech>1</MedicineUltratech>
+		</costList>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>NeuromuscularFramework</defName>
+		<label>neuromuscular framework</label>
+		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<MedicineUltratech>5</MedicineUltratech>
+			<Hyperweave>50</Hyperweave>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+		<generateAllowChance>0.5</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIANeuroGraphicBase">
+		<defName>NeurocureFramework</defName>
+		<label>neuro-cure framework</label>
+		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.</description>
+		<isTechHediff>false</isTechHediff>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>EPOE_NeurologicalTreatment</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<MedicineUltratech>15</MedicineUltratech>
+			<Hyperweave>25</Hyperweave>
+			<ComponentSpacer>2</ComponentSpacer>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
+		</costList>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+		<generateAllowChance>0.5</generateAllowChance>
+	</ThingDef>
+
+</Defs>

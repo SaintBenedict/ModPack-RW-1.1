@@ -1,0 +1,12 @@
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\bin\Release\CompLumbering.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\bin\Release\0Harmony.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\bin\Release\0Harmony.xml
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.csprojAssemblyReference.cache
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompLumbering\bin\Release\CompLumbering.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompLumbering\bin\Release\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompLumbering.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompLumbering\obj\Release\CompLumbering.csprojAssemblyReference.cache

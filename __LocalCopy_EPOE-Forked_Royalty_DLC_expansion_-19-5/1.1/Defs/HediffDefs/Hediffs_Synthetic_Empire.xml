@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 	<ThingDef Name="EPIA_BodyPartSyntheticImperialBase" ParentName="EPIASyntheticBase" Abstract="True">
+		<tradeTags>
+			<li>ImplantEmpireCommon</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef Name="EPIA_UpgradeSyntheticImperialBase" ParentName="EPIA_UpgradeSyntheticBase" Abstract="True">
+		<tradeTags>
+			<li>ImplantEmpireCommon</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+		</statBases>
+	</ThingDef>
+
+	<!-- Detoxifier enhancer -->
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>EPOE_DetoxifierEnhancer</defName>
+		<label>detoxifier enhancer</label>
+		<labelNoun>an detoxifier enhancer</labelNoun>
+		<description>An installed detoxifier enhancer.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_DetoxifierEnhancer</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_DetoxifierEnhancer</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.4</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>EPOE_DetoxifierEnhancer</defName>
+		<label>detoxifier enhancer</label>
+		<description>An analysis computer inspects the bloodstream, classifies harmful toxic substances, and rapidly prompts the body’s natural immune system to respond to them faster than it could alone. This reduces vulnerability to toxic effects.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_DetoxifierEnhancer</RecipeDef></descriptionHyperlinks>
+		<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MolecularAnalysis</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallEPOE_DetoxifierEnhancer</defName>
+		<label>install detoxifier enhancer</label>
+		<description>Install a detoxifier enhancer.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_DetoxifierEnhancer</ThingDef></descriptionHyperlinks>
+		<jobString>Installing detoxifier enhancer.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_DetoxifierEnhancer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>EPOE_DetoxifierEnhancer</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		  <li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_DetoxifierEnhancer</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveDetoxifierEnhancer</defName>
+		<label>remove detoxifier enhancer</label>
+		<description>Remove detoxifier enhancer.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_DetoxifierEnhancer</ThingDef></descriptionHyperlinks>
+		<jobString>Removing detoxifier enhancer.</jobString>
+		<removesHediff>EPOE_DetoxifierEnhancer</removesHediff>
+	</RecipeDef>
+
+	<!-- Synthetic detoxifier liver -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>EPOE_DetoxifierSyntheticLiver</defName>
+		<label>synthetic detoxifier liver</label>
+		<labelNoun>a synthetic detoxifier liver</labelNoun>
+		<description>An installed synthetic detoxifier liver.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_DetoxifierSyntheticLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_DetoxifierSyntheticLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.6</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticImperialBase">
+		<defName>EPOE_DetoxifierSyntheticLiver</defName>
+		<label>synthetic detoxifier liver</label>
+		<description>An enhanced liver augmented with synthetic fibres to decrease rejection rate. Upgraded further by integrating the detoxifier enhancer implant into it.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_DetoxifierSyntheticLiver</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>35</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_SyntheticOrgansIntegration</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>EPIA_UpgradeDetoxifierSyntheticLiver</defName>
+		<label>assemble synthetic detoxifier liver</label>
+		<description>Upgrade synthetic liver into synthetic detoxifier liver.</description>
+		<jobString>Upgrading synthetic liver.</jobString>
+		<researchPrerequisite>EPOE_SyntheticOrgansIntegration</researchPrerequisite>
+		<products>
+			<EPOE_DetoxifierSyntheticLiver>1</EPOE_DetoxifierSyntheticLiver>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_DetoxifierEnhancer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLiver</li>
+				<li>EPOE_DetoxifierEnhancer</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallEPOE_DetoxifierSyntheticLiver</defName>
+		<label>install synthetic detoxifier liver</label>
+		<description>Installs a synthetic detoxifier liver.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_DetoxifierSyntheticLiver</ThingDef></descriptionHyperlinks>
+		<jobString>Installing synthetic detoxifier liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_DetoxifierSyntheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_DetoxifierSyntheticLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_DetoxifierSyntheticLiver</addsHediff>
+	</RecipeDef>
+
+	<!-- Synthetic immunoenhanced kidney -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>EPOE_ImmunoenhancerSyntheticKidney</defName>
+		<label>synthetic immunoenhanced kidney</label>
+		<labelNoun>a synthetic immunoenhanced kidney</labelNoun>
+		<description>An installed synthetic immunoenhanced kidney.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_ImmunoenhancerSyntheticKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_ImmunoenhancerSyntheticKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.09</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticImperialBase">
+		<defName>EPOE_ImmunoenhancerSyntheticKidney</defName>
+		<label>synthetic immunoenhanced kidney</label>
+		<description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate. Upgraded further by integrating the immunoenhancer implant into it.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_ImmunoenhancerSyntheticKidney</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>35</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_SyntheticOrgansIntegration</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>EPIA_UpgradeImmunoenhancerSyntheticKidney</defName>
+		<label>assemble synthetic immunoenhanced kidney</label>
+		<description>Upgrade synthetic kidney into synthetic immunoenhanced kidney.</description>
+		<jobString>Upgrading synthetic kidney.</jobString>
+		<researchPrerequisite>EPOE_SyntheticOrgansIntegration</researchPrerequisite>
+		<products>
+			<EPOE_ImmunoenhancerSyntheticKidney>1</EPOE_ImmunoenhancerSyntheticKidney>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Immunoenhancer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticKidney</li>
+				<li>Immunoenhancer</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallEPOE_ImmunoenhancerSyntheticKidney</defName>
+		<label>install synthetic immunoenhanced kidney</label>
+		<description>Installs a synthetic immunoenhanced kidney.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_ImmunoenhancerSyntheticKidney</ThingDef></descriptionHyperlinks>
+		<jobString>Installing synthetic immunoenhanced kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_ImmunoenhancerSyntheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_ImmunoenhancerSyntheticKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_ImmunoenhancerSyntheticKidney</addsHediff>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Organ Destabilization ====================-->
+
+	<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallHeartIrregulator</defName>
+    <label>install heart irregulator</label>
+    <description>Heart irregulator.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing heart irregulator.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_HeartIrregulator</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<!--<researchPrerequisite>WCE2_OrganDestabilization</researchPrerequisite>-->
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallStomachClamp</defName>
+    <label>install stomach clamp</label>
+    <description>Stomach Clamp.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing stomach clamp.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_StomachClamp</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<!--<researchPrerequisite>WCE2_OrganDestabilization</researchPrerequisite>-->
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallHealingInhibitor</defName>
+    <label>install healing inhibitor</label>
+    <description>Healing inhibitor.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing healing inhibitor.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_HealingInhibitor</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<!--<researchPrerequisite>WCE2_OrganDestabilization</researchPrerequisite>-->
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallCoagulantSuppressor</defName>
+    <label>install coagulant suppressor</label>
+    <description>Coagulant Suppressor.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing coagulant suppressor.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_CoagulantSuppressor</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<!--<researchPrerequisite>WCE2_OrganDestabilization</researchPrerequisite>-->
+  </RecipeDef>
+  
+  <!--=============== Advanced Torture ====================-->
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallSleepDeprivator</defName>
+    <label>install sleep deprivator</label>
+    <description>Sleep Deprivator.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing sleep deprivator.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_SleepDeprivator</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallPainAmplifier</defName>
+    <label>install pain amplifier</label>
+    <description>Pain Amplifier.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing pain amplifier.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_PainAmplifier</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallAggressionAmplifier</defName>
+    <label>install aggression amplifier</label>
+    <description>Aggression Amplifier.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing aggression amplifier</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_AggressionAmplifier</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallPanicInducer</defName>
+    <label>install panic inducer</label>
+    <description>Panic Inducer.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing panic inducer.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_PanicInducer</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallEmotionDestabilizer</defName>
+    <label>install emotion destabilizer</label>
+    <description>Emotion destabilizer.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing emotion destabilizer.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_EmotionDestabilizer</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallMemoryExpulsor</defName>
+    <label>install memory expulsor</label>
+    <description>Memory Expulsor.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing memory expulsor.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_MemoryExpulsor</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallEMPRelay</defName>
+    <label>install EMP relay</label>
+    <description>EMP relay.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing EMP relay.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_EMPRelay</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallEMPKillswitch</defName>
+    <label>install EMP killswitch</label>
+    <description>EMP killswitch.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing EMP killswitch.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.20</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_EMPKillswitch</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_OrganModificationKit</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_OrganModificationKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <!--=============== Neutroamine Incubation ====================-->
+
+	<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallNeutroamineIncubator</defName>
+    <label>install neutroamine incubator</label>
+    <description>Neutroamine Incubator.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing neutroamine incubator.</jobString>
+    <workAmount>5000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_NeutroamineIncubator</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_NeutroamineIncubator</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_NeutroamineIncubator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_NeutroamineIncubation</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_HarvestNeutroamine</defName>
+    <label>harvest neutroamine</label>
+    <description>Harvest neutroamine from a growth.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Harvesting neutroamine.</jobString>
+    <workAmount>500</workAmount>
+    <removesHediff>WCE2_NeutroamineGrowth</removesHediff>
+	<surgerySuccessChanceFactor>10</surgerySuccessChanceFactor>
+	<anesthetize>true</anesthetize>
+	<successfullyRemovedHediffMessage>{0} has successfully harvested neutroamine from {1}</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>1</Medicine>
+    </skillRequirements>
+	<products>
+      <Neutroamine>2</Neutroamine>
+    </products>
+  </RecipeDef>
+  
+  <!--=============== Growth Stimulator ====================-->
+
+	<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InstallGrowthStimulator</defName>
+    <label>install growth stimulator</label>
+    <description>Growth Stimulator.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing growth stimulator.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+	<addsHediff>WCE2_GrowthStimulator</addsHediff>
+	<appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <skillRequirements>
+      <Medicine>4</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_GrowthStimulator</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>WCE2_MedicalTortureTools</li>
+		<li>WCE2_GrowthStimulator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_QuestionableFoodProduction</researchPrerequisite>
+  </RecipeDef>
+  
+
+</Defs>

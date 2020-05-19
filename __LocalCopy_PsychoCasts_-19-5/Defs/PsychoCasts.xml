@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Meditate</defName>
+    <label>meditate</label>
+    <description>Flush all thoughts from the caster's mind, rapidly draining entropy for a brief moment.</description>
+    <level>1</level>
+    <iconPath>CustomIcons/Meditate</iconPath>
+    <statBases>
+      <Ability_EntropyGain>5</Ability_EntropyGain>
+	  <Ability_Duration>1.5</Ability_Duration>	  
+    </statBases>
+	<targetRequired>False</targetRequired>
+    <verbProperties>
+      <warmupTime>2</warmupTime>
+	  <range>0.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Meditation</hediffDef>
+		<onlyBrain>True</onlyBrain>
+        <psychic>True</psychic>        
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+	<defName>Rally</defName>
+	<label>rally</label>
+	<description>Motivates everyone around the caster with a call to action, coupled with a wave psychic suggestions to enhance the effect.</description>
+	<level>1</level>
+	<iconPath>CustomIcons/Rally</iconPath>
+	<statBases>
+	  <Ability_EntropyGain>12</Ability_EntropyGain>
+	  <Ability_Duration>45</Ability_Duration>
+	  <Ability_EffectRadius>10.9</Ability_EffectRadius>
+	</statBases>
+	<targetRequired>False</targetRequired>
+	<verbProperties>
+      <warmupTime>1</warmupTime>
+	  <range>10.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+		<canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechs>False</canTargetMechs>
+		<onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+      </targetParams>
+    </verbProperties>
+	<comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Motivation</hediffDef>		
+        <psychic>True</psychic>
+		<durationMultiplier>PsychicSensitivity</durationMultiplier>		
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Nausea</defName>
+    <label>nausea</label>
+    <description>Induce dizziness in the target overwhelming them with nausea.</description>
+    <level>2</level>
+    <iconPath>CustomIcons/Nausea</iconPath>    
+    <statBases>
+      <Ability_EntropyGain>18</Ability_EntropyGain>
+      <Ability_Duration>5</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.45</warmupTime>
+      <range>17.9</range>
+      <targetParams>
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechs>False</canTargetMechs>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityForceJob">
+        <compClass>CompAbilityEffect_ForceJob</compClass>
+        <jobDef>Vomit</jobDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+        <goodwillImpact>-15</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+    <AbilityDef ParentName="PsycastBase">
+    <defName>Migraine</defName>
+    <label>migraine</label>
+    <description>Overload the target's senses, inducing a debilitating migraine.</description>
+    <level>2</level>
+    <iconPath>CustomIcons/Migraine</iconPath>    
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_Duration>30</Ability_Duration>
+    </statBases>
+    <verbProperties>
+	  <range>17.9</range>
+      <warmupTime>0.45</warmupTime>
+      <targetParams>		
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechs>False</canTargetMechs>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Headache</hediffDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+		<goodwillImpact>-20</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+    
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Pain_Shock</defName>
+    <label>pain shock</label>
+    <description>Stimulate pain receptors, causing pain and increasing sensitivity in the target.</description>
+    <level>3</level>
+    <iconPath>CustomIcons/PainShock</iconPath>    
+    <statBases>
+      <Ability_EntropyGain>24</Ability_EntropyGain>
+      <Ability_Duration>45</Ability_Duration>
+    </statBases>
+    <verbProperties>
+	  <range>18.9</range>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>		
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechs>False</canTargetMechs>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PainShock</hediffDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+		<goodwillImpact>-20</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Haste</defName>
+    <label>haste</label>
+    <description>Induce a minor surge of adrenaline, accelerating the target's movements.</description>
+    <level>3</level>
+    <iconPath>CustomIcons/Haste</iconPath>    
+    <statBases>
+      <Ability_EntropyGain>27</Ability_EntropyGain>
+      <Ability_Duration>20</Ability_Duration>
+    </statBases>
+    <verbProperties>
+	  <range>24.9</range>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>		
+	    <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+		<onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Haste</hediffDef>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>        
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Disarm</defName>
+    <label>disarm</label>
+    <description>Paralyze parts of the motor cortex, loosening the target's grip and forcing them to drop their weapon.</description>
+    <level>4</level>
+    <iconPath>CustomIcons/Disarm</iconPath>
+    <statBases>
+      <Ability_EntropyGain>35</Ability_EntropyGain>
+	  <Ability_Duration>5</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>17.9</range>
+      <targetParams>
+        <canTargetAnimals>True</canTargetAnimals>
+		<canTargetMechs>False</canTargetMechs>
+        <neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Disarm</hediffDef>
+        <onlyBrain>True</onlyBrain>
+        <psychic>True</psychic>
+        <goodwillImpact>-50</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Manhunt</defName>
+    <label>manhunt</label>
+    <description>Drive an animal into a manhunting rage. Focusing the pulse into a small area requires some concentration, but also greatly reduces the entropy's severity.</description>
+    <level>4</level>
+    <iconPath>CustomIcons/Manhunt</iconPath>
+    <statBases>
+      <Ability_EntropyGain>27</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>      
+    </statBases>
+    <verbProperties>
+      <warmupTime>1.4</warmupTime>
+      <targetParams>
+        <canTargetHumans>False</canTargetHumans>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>True</canTargetAnimals>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Manhunter</stateDef>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <goodwillImpact>-60</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Dread</defName>
+    <label>dread</label>
+    <description>Induce thoughts of terror in the target, forcing a momentary state of surrender.</description>
+    <level>5</level>
+    <iconPath>CustomIcons/Dread</iconPath>
+    <statBases>
+      <Ability_EntropyGain>45</Ability_EntropyGain>
+      <Ability_Duration>12</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.45</warmupTime>
+      <range>12.9</range>
+      <targetParams>
+	    <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>True</canTargetAnimals>
+        <neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>Dread</hediffDef>
+        <onlyBrain>True</onlyBrain>
+        <psychic>True</psychic>
+		<clamorType>Ability</clamorType>
+        <clamorRadius>10</clamorRadius>		
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+		<goodwillImpact>-75</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Entropy_Bond</defName>
+    <label>entropy bond</label>
+    <description>An advanced linking technique which allows the caster to create a second entropy link to further aid with entropy dissipitation. Bonds transfer less entropy than links, but have stronger connections.</description>
+    <level>5</level>
+    <iconPath>CustomIcons/EntropyBond</iconPath>
+    <statBases>
+      <Ability_EntropyGain>12</Ability_EntropyGain>      
+	  <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+	  <requireLineOfSight>True</requireLineOfSight>
+      <warmupTime>.7</warmupTime>
+	  <range>14.9</range>
+      <targetParams>
+        <onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+		<neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>EntropyBond</hediffDef>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <applyToSelf>True</applyToSelf>
+        <replaceExisting>False</replaceExisting>		
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Mass_Skip</defName>
+    <label>mass skip</label>
+    <description>Teleport targets in an area to a desired position not too far from the starting point.</description>
+    <level>6</level>
+    <iconPath>CustomIcons/MassSkip</iconPath>
+    <statBases>
+      <Ability_EntropyGain>50</Ability_EntropyGain>
+      <Ability_EffectRadius>5</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1.1</warmupTime>
+	  <range>20.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityTeleport">
+        <compClass>CompAbilityEffect_Teleport</compClass>
+        <destination>Selected</destination>
+        <requiresLineOfSight>True</requiresLineOfSight>
+        <range>20</range>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>10</clamorRadius>
+        <destClamorType>Ability</destClamorType>
+        <destClamorRadius>10</destClamorRadius>        
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>Shadow_Skip</defName>
+    <label>shadow skip</label>
+    <description>Obscures the caster from the senses of others and allows them skip a short distance, even through solid matter. Warning: This ability works best in locations the user is familiar with. Skipping into unknown locations is possible, however, doing so has been known to create temporal anomalies.</description>
+    <level>6</level>
+    <iconPath>CustomIcons/ShadowSkip</iconPath>    
+    <statBases>
+      <Ability_EntropyGain>60</Ability_EntropyGain>
+	  <Ability_Duration>10</Ability_Duration>
+    </statBases>	
+    <verbProperties>
+      <warmupTime>0.2</warmupTime>
+	  <range>.7</range>
+	  <requireLineOfSight>False</requireLineOfSight>
+      <targetParams>
+		<canTargetSelf>True</canTargetSelf>
+	  </targetParams>
+    </verbProperties>
+    <comps>
+	  <li Class = "CompProperties_AbilityTeleport">
+        <compClass>CompAbilityEffect_Teleport</compClass>
+        <destination>Selected</destination>
+        <requiresLineOfSight>False</requiresLineOfSight>
+        <range>14.9</range>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>10</clamorRadius>
+        <destClamorType>Ability</destClamorType>
+        <destClamorRadius>10</destClamorRadius>
+      </li>
+	  <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicInvisibility</hediffDef>		
+        <psychic>True</psychic>
+		<applyToSelf>True</applyToSelf>
+      </li>      
+	</comps>
+  </AbilityDef>
+  
+
+</Defs>

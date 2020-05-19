@@ -1,0 +1,17 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\boats\Assemblies\Rafts.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\boats\Rafts\Rafts\obj\Debug\Rafts.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\boats\Rafts\Rafts\obj\Debug\Rafts.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\boats\Rafts\Rafts\obj\Debug\Rafts.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\reusable-transport-pods\Source\obj\Debug\Source.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\reusable-transport-pods\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\reusable-transport-pods\Source\obj\Debug\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\reusable-transport-pods\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\power-tab\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\power-tab\Source\obj\Debug\Source.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\power-tab\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\power-tab\Source\obj\Debug\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PowerTab\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PowerTab\Source\obj\Debug\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PowerTab\Source\obj\Debug\Source.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PowerTab\Source\obj\Debug\Source.csproj.CopyComplete

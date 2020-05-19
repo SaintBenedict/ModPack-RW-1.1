@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RecipeDef Abstract="True" Name="MendBase">
+    <workerClass>MendAndRecycle.RecipeWorkerWithJob_Mend</workerClass>
+    <workSkill>Crafting</workSkill>
+    <ingredients/>
+    <recipeUsers>
+      <li>TableMending</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="MendBase">
+    <defName>MendSimpleApparel</defName>
+    <label>mend simple apparel</label>
+    <description>Mend simple apparel.</description>
+    <jobString>Mending.</jobString>
+    <workAmount>100</workAmount>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="MendBase">
+    <defName>MendComplexApparel</defName>
+    <label>mend complex apparel</label>
+    <description>Mend armor.</description>
+    <jobString>Mending.</jobString>
+    <workAmount>200</workAmount>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="MendBase">
+    <defName>MendSimpleWeapon</defName>
+    <label>repair simple weapon</label>
+    <description>Repair weapon.</description>
+    <jobString>Repairing.</jobString>
+    <workAmount>50</workAmount>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="MendBase">
+    <defName>MendComplexWeapon</defName>
+    <label>repair complex weapon</label>
+    <description>Repair weapon.</description>
+    <jobString>Repairing.</jobString>
+    <workAmount>200</workAmount>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <workerClass>MendAndRecycle.RecipeWorkerWithJob_Recycle</workerClass>
+    <defName>RecycleApparel</defName>
+    <label>recycle apparel</label>
+    <description>Recycle apparel into their basic components.</description>
+    <jobString>Recycling.</jobString>
+    <workAmount>100</workAmount>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+    <requiredGiverWorkType>Tailoring</requiredGiverWorkType>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+</Defs>

@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Mutiliations -->
+	
+	<RecipeDef Name="WCE2_Surgery" ParentName="SurgeryFlesh" Abstract="True">
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_BrandSlave</defName>
+    <label>brand as slave</label>
+    <description>Brand the patient on the neck with a red-hot poker, labelling them as a slave.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Branding slave.</jobString>
+    <workAmount>200</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_Branded</addsHediff>
+	<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_SlaveBrand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_SlaveBrand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_SlaveBrand>1</WCE2_SlaveBrand>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_MangleHand</defName>
+    <label>mangle hand</label>
+    <description>An operation that uses any number of specifically-designed tools to permanently mangle a hand.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Mangling hand.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+	<effectWorking>Smith</effectWorking>
+    <soundWorking>WCE2_MeleeHit_Wood</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+    <workSkill>Melee</workSkill>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_MangledHand</addsHediff>
+	<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_MutilateFace</defName>
+    <label>mutilate face</label>
+    <description>Mutilate the patient's face with any number of tools and/or chemicals, disfiguring them for life.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Mutilating face.</jobString>
+    <workAmount>1500</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+    <workSkill>Medicine</workSkill>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_MutilatedFace</addsHediff>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_BashTeeth</defName>
+    <label>rip teeth out</label>
+    <description>A 'delicate' operation where you take a pair of pliers and rip someone's teeth out - one by one, usually after knocking them loose with a hammer.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Knocking teeth out.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+	<effectWorking>Smith</effectWorking>
+    <soundWorking>WCE2_MeleeHit_Wood</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+    <workSkill>Melee</workSkill>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_BashedTeeth</addsHediff>
+	<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InjureSpine</defName>
+    <label>bash spine</label>
+    <description>A lovely operation during which the victim is lain out flat on a bed and bashed repeatedly in the spine with a hammer.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Bashing spine.</jobString>
+    <workAmount>2000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+	<effectWorking>Smith</effectWorking>
+    <soundWorking>WCE2_MeleeHit_Wood</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+    <workSkill>Melee</workSkill>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_BadBack</addsHediff>
+	<surgerySuccessChanceFactor>.75</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_CutoutTongue</defName>
+    <label>cut out tongue</label>
+    <description>Cut out their tongue so they can't talk properly.  Also affects eating, but in a lesser way.  Requires both tools and medicine to ensure they don't drown in their own blood.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Cutting tongue out.</jobString>
+    <workAmount>1500</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_CutoutTongue</addsHediff>
+	<surgerySuccessChanceFactor>.75</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+	  <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_PunctureEye</defName>
+    <label>gouge eye</label>
+    <description>Using a sharp surgeon's knife, rupture the eye.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Puncturing eye.</jobString>
+    <workAmount>1000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <!--<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>-->
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_Blindness</addsHediff>
+	<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_PunctureEardrum</defName>
+    <label>puncture eardrum</label>
+    <description>Puncture their eardrum.  Eardrum, meet sharp object.  Sharp object, meet eardrum.  Now kiss!</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Puncturing eardrum.</jobString>
+    <workAmount>500</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <!--<deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>-->
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_HearingLoss</addsHediff>
+	<surgerySuccessChanceFactor>.85</surgerySuccessChanceFactor>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_CrudeTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WCE2_CrudeTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_CrudeTortureTools>1</WCE2_CrudeTortureTools>
+    </products>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_CutOpen</defName>
+    <label>practice surgery</label>
+    <description>Practice surgery! Just randomly cut anywhere, its fine, fun, and good practice for all! Well, except the person you're doing it on.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Practicing Surgery.</jobString>
+    <workAmount>3000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WoundInfection</addsHediff>
+	<surgerySuccessChanceFactor>0</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+ 
+	<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_TraumaSavant</defName>
+    <label>make trauma savant</label>
+    <description>An easy-to-perform surgery that combines a log and the back of someone's head.  Has a relatively high failure rate, but I'm sure anyone trying to perform this is alright with that.  Often causes brain damage regardless if it works or not.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Making trauma savant.</jobString>
+	<effectWorking>Smith</effectWorking>
+    <soundWorking>WCE2_MeleeHit_Wood</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+    <workSkill>Melee</workSkill>
+    <workAmount>1000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>false</anesthetize>
+    <deathOnFailedSurgeryChance>.05</deathOnFailedSurgeryChance>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>TraumaSavant</addsHediff>
+	<surgerySuccessChanceFactor>.30</surgerySuccessChanceFactor>
+	<researchPrerequisite>WCE2_CrudeTorture</researchPrerequisite>
+	<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WoodLog>1</WoodLog>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_InduceComa</defName>
+    <label>induce artifical coma</label>
+    <description>Induce an artifical coma, keeping the patient effectively anesthesized for long periods of time.  Must be tended daily or else they may have catastrophic organ failure.  While safe for moderate periods of time, long periods of time may lead to the degradation of the brain and other organs.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Inducing Coma.</jobString>
+    <workAmount>1000</workAmount>
+	<anesthetize>false</anesthetize>
+    <addsHediff>WCE2_InducedComa</addsHediff>
+	<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+	 <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_WakeFromComa</defName>
+    <label>wake from coma</label>
+    <description>Wake the target from their artifically induced coma.  They'll take a little time to wake up.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing sedation.</jobString>
+	<anesthetize>false</anesthetize>
+    <workAmount>500</workAmount>
+    <removesHediff>WCE2_InducedComa</removesHediff>
+	<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+	<successfullyRemovedHediffMessage>{0} has successfully reversed the artifically induced coma from {1}.</successfullyRemovedHediffMessage>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_Vivisect</defName>
+    <label>perform vivisection</label>
+    <description>Practice surgery.. using vivisection.  A fantastic teaching tool (and form of torture), vivisection is the act of cutting open a living being to observe their internals.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Vivisecting.</jobString>
+    <workAmount>5000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+	<workSkillLearnFactor>30</workSkillLearnFactor>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_Vivisected</addsHediff>
+	<surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  <thingDefs>
+         <li>WCE2_MedicalTortureTools</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+		<researchPrerequisite>WCE2_MedicalTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE_RemoveVivisection</defName>
+    <label>reverse vivisection</label>
+    <description>Stitch a vivisected person back up.  Hopefully.  More difficult than actually doing the vivisection!</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Reversing vivisection.</jobString>
+    <workAmount>3000</workAmount>
+	<workSkillLearnFactor>20</workSkillLearnFactor>
+    <removesHediff>WCE2_Vivisected</removesHediff>
+	<surgerySuccessChanceFactor>.75</surgerySuccessChanceFactor>
+	<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+	<successfullyRemovedHediffMessage>{0} has successfully stitched {1} back up after having been vivisected.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+	<anesthetize>true</anesthetize>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_MedicalTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_Lobotomize</defName>
+    <label>lobotomize</label>
+    <description>Lobotomize the poor victim.  This procedure consists of severing parts of the brain from the rest of it.  Originally done as a way to 'cure' mental disorders, nowadays its just used to make people mostly-mindless.  Try not to screw it up, otherwise it's very likely they're dead.. requires industrial medicine and above.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Lobotomizing.</jobString>
+    <workAmount>5000</workAmount>
+	<isViolation>true</isViolation>
+	<anesthetize>true</anesthetize>
+    <deathOnFailedSurgeryChance>.50</deathOnFailedSurgeryChance>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WCE2_Lobotomized</addsHediff>
+	<surgerySuccessChanceFactor>.50</surgerySuccessChanceFactor>
+	<workSkillLearnFactor>25</workSkillLearnFactor>
+	<skillRequirements>
+      <Medicine>12</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+		<thingDefs>
+            <li>WCE2_MedicalTortureTools</li>
+          </thingDefs>
+	  <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+	<products>
+      <WCE2_MedicalTortureTools>1</WCE2_MedicalTortureTools>
+    </products>
+	<researchPrerequisite>WCE2_AdvancedTorture</researchPrerequisite>
+  </RecipeDef>
+  
+  <!--<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_Sedate</defName>
+    <label>sedate</label>
+    <description>Sedate the target.  This acts like anethesia, but is automatically renewed by a doctor until either removed or told to stop tending them.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Sedating.</jobString>
+    <workAmount>200</workAmount>
+	<anesthetize>false</anesthetize>
+    <addsHediff>WCE2_Sedated</addsHediff>
+	<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+	<appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+	 <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  </fixedIngredientFilter>
+  </RecipeDef>-->
+  
+  <!--<RecipeDef ParentName="WCE2_Surgery">
+    <defName>WCE2_RemoveSedation</defName>
+    <label>stop sedating</label>
+    <description>Remove the sedation from the target.  A quick and easy op, although it takes time for the effects to wear off.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing sedation.</jobString>
+	<anesthetize>true</anesthetize>
+    <workAmount>5</workAmount>
+    <removesHediff>WCE2_Sedated</removesHediff>
+	<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+	<successfullyRemovedHediffMessage>{0} has successfully removed the sedative from {1}.</successfullyRemovedHediffMessage>
+	<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+	  </fixedIngredientFilter>
+  </RecipeDef>-->
+ 
+</Defs>

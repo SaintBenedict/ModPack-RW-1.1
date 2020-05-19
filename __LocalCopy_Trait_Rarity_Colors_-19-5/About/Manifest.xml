@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Manifest>
+
+	<identifier>Trait Rarity Colors</identifier>
+	<version>1.0.0.1</version>
+	<incompatibleWith>
+		<li/>
+	</incompatibleWith>
+	<loadAfter>
+		<li/>
+	</loadAfter>
+
+</Manifest>

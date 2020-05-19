@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPIA_UpgradeAdvancedDrillArm.label>assemble advanced drill arm</EPIA_UpgradeAdvancedDrillArm.label>
+<EPIA_UpgradeAdvancedDrillArm.description>Upgrade drill arm into advanced drill arm.</EPIA_UpgradeAdvancedDrillArm.description>
+<EPIA_UpgradeAdvancedDrillArm.jobString>Upgrading drill arm.</EPIA_UpgradeAdvancedDrillArm.jobString>
+
+<EPIA_UpgradeAdvancedFieldHand.label>assemble advanced field hand</EPIA_UpgradeAdvancedFieldHand.label>
+<EPIA_UpgradeAdvancedFieldHand.description>Upgrade field hand into advanced field hand.</EPIA_UpgradeAdvancedFieldHand.description>
+<EPIA_UpgradeAdvancedFieldHand.jobString>Upgrading field hand.</EPIA_UpgradeAdvancedFieldHand.jobString>
+
+<EPIA_UpgradeAdvancedHandTalon.label>assemble advanced bionic hand talon</EPIA_UpgradeAdvancedHandTalon.label>
+<EPIA_UpgradeAdvancedHandTalon.description>Upgrade bionic hand talon into advanced bionic hand talon.</EPIA_UpgradeAdvancedHandTalon.description>
+<EPIA_UpgradeAdvancedHandTalon.jobString>Upgrading bionic hand talon.</EPIA_UpgradeAdvancedHandTalon.jobString>
+
+<EPIA_UpgradeAdvancedElbowBlade.label>assemble advanced bionic elbow blade</EPIA_UpgradeAdvancedElbowBlade.label>
+<EPIA_UpgradeAdvancedElbowBlade.description>Upgrade bionic elbow blade into advanced bionic elbow blade.</EPIA_UpgradeAdvancedElbowBlade.description>
+<EPIA_UpgradeAdvancedElbowBlade.jobString>Upgrading bionic elbow blade.</EPIA_UpgradeAdvancedElbowBlade.jobString>
+
+<EPIA_UpgradeAdvancedKneeSpike.label>assemble advanced bionic knee spike</EPIA_UpgradeAdvancedKneeSpike.label>
+<EPIA_UpgradeAdvancedKneeSpike.description>Upgrade bionic knee spike into advanced bionic knee spike.</EPIA_UpgradeAdvancedKneeSpike.description>
+<EPIA_UpgradeAdvancedKneeSpike.jobString>Upgrading bionic knee spike.</EPIA_UpgradeAdvancedKneeSpike.jobString>
+
+</LanguageData>

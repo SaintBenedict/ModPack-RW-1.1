@@ -1,0 +1,14 @@
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\CompActivatableEffect.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\0Harmony.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\CompOversizedWeapon.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\0Harmony.xml
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.csprojAssemblyReference.cache
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\CompActivatableEffect.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\bin\Release\CompOversizedWeapon.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompActivatableEffect.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Release\CompActivatableEffect.dll

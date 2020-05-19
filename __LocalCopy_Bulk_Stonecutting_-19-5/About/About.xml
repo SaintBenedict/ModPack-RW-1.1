@@ -1,0 +1,9 @@
+<ModMetaData>
+	<name>Bulk Stonecutting</name>
+	<author>Fuglypump and Neceros</author>
+	<supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>fuglypump.bulkstonecutting</packageId>
+	<description>Adds new bills to the Stonecutter's table which cuts 3 chunks at a time.</description>
+</ModMetaData>

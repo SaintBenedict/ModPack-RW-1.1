@@ -1,0 +1,10 @@
+Z:\Git\JecsTools\Assemblies\CompActivatableEffect.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csprojAssemblyReference.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompActivatableEffect.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompActivatableEffect\obj\Debug\CompActivatableEffect.dll

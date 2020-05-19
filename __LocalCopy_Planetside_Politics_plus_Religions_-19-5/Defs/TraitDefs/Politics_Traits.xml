@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ========================== Individual Liberty ============================ -->
+
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsRepublican</defName>
+		<commonality>20.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Republican</label>
+        	<description>{PAWN_nameDef} believes a republic to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsAnarchist</li>
+    		<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<PoliticalAdjacent>
+			<li>PoliticsDemocrat</li>
+		</PoliticalAdjacent>
+		<PoliticalMisguided>
+		    <li>PoliticsAnarchist</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsSocialist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>
+			<li>PoliticsFascist</li>
+    		<li>PoliticsCommunist</li>
+    		<li>PoliticsMonarchist</li>			    		
+			<li>PoliticsTheocrat</li>
+    		<li>PoliticsDespot</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>false</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsDemocrat</defName>
+		<commonality>20.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Democrat</label>
+        	<description>{PAWN_nameDef} believes a democracy to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<PoliticalAdjacent>
+			<li>PoliticsRepublican</li>
+		</PoliticalAdjacent>
+		<PoliticalMisguided>
+			<li>PoliticsAnarchist</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+			<li>PoliticsAnarchist</li>
+    		<li>PoliticsSocialist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>
+			<li>PoliticsFascist</li>
+    		<li>PoliticsCommunist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+    		<li>PoliticsDespot</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>false</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+	
+<!-- ========================== Collectivist ============================ -->
+	
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsFascist</defName>
+		<commonality>12.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Fascist</label>
+        	<description>{PAWN_nameDef} believes fascism to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<PoliticalAdjacent>
+			<li>PoliticsSocialist</li>
+		</PoliticalAdjacent>
+		<PoliticalMisguided>
+			<li>PoliticsDespot</li>
+			<li>PoliticsTheocrat</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>
+			<li>PoliticsMonarchist</li>
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>false</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+	
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsSocialist</defName>
+		<commonality>20</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Socialist</label>
+        	<description>{PAWN_nameDef} believes socialism to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<PoliticalAdjacent>
+			<li>PoliticsFascist</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalAdjacent>
+		<PoliticalMisguided>
+		    <li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsRepublican</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>
+			<li>PoliticsMonarchist</li>
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>false</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+	</PoliticsandReligions.TraitDef_PoliticsTrait>
+
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsCommunist</defName>
+		<commonality>12.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Communist</label>
+        	<description>{PAWN_nameDef} believes communism to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<PoliticalAdjacent>
+			<li>PoliticsSocialist</li>
+		</PoliticalAdjacent>
+		<PoliticalMisguided>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>		
+			<li>PoliticsMonarchist</li>
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>false</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+
+<!-- ========================== Autocratic ============================ -->	
+	
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsMonarchist</defName>
+		<commonality>10.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Monarchist</label>
+        	<description>{PAWN_nameDef} believes a monarchy to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<!-- <PoliticalAdjacent>
+		</PoliticalAdjacent> -->
+		<PoliticalMisguided>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>		
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>true</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsTheocrat</defName>
+		<commonality>8.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Theocrat</label>
+        	<description>{PAWN_nameDef} believes a theocracy to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsDespot</li>
+			<li>ReligionsAtheist</li>
+			<li>ReligionsAntitheist</li>
+			<li>ReligionsAgnostic</li>
+		</conflictingTraits>
+		<!-- <PoliticalAdjacent>
+		</PoliticalAdjacent> -->
+		<PoliticalMisguided>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsDespot</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>		
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>true</isTribalIdeology>
+		<isPirateIdeology>false</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>	
+
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsDespot</defName>
+		<commonality>5.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Despot</label>
+        	<description>{PAWN_nameDef} believes despotism to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsAnarchist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+		</conflictingTraits>
+		<!-- <PoliticalAdjacent>
+		</PoliticalAdjacent> -->
+		<PoliticalMisguided>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>		
+    		<li>PoliticsAnarchist</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>true</isTribalIdeology>
+		<isPirateIdeology>true</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>		
+	
+<!-- ========================== Anti-Government ============================ -->	
+	
+  <PoliticsandReligions.TraitDef_PoliticsTrait>
+    	<defName>PoliticsAnarchist</defName>
+		<commonality>10.0</commonality>
+    	<degreeDatas>
+      	<li>
+        	<label>Anarchist</label>
+        	<description>{PAWN_nameDef} believes self-rule to be the ideal form of governance.</description>
+      	</li>
+    	</degreeDatas>
+		<conflictingTraits>
+			<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</conflictingTraits>
+		<!-- <PoliticalAdjacent>
+		</PoliticalAdjacent> -->
+		<PoliticalMisguided>
+    		<li>PoliticsRepublican</li>
+			<li>PoliticsDemocrat</li>
+		</PoliticalMisguided>
+		<PoliticalRivalry>
+			<li>PoliticsFascist</li>
+			<li>PoliticsSocialist</li>
+			<li>PoliticsCommunist</li>
+		</PoliticalRivalry>
+		<PoliticalEnemy>
+			<li>PoliticsMonarchist</li>
+			<li>PoliticsTheocrat</li>
+			<li>PoliticsDespot</li>
+		</PoliticalEnemy>
+		<isTribalIdeology>true</isTribalIdeology>
+		<isPirateIdeology>true</isPirateIdeology>
+    </PoliticsandReligions.TraitDef_PoliticsTrait>
+	
+</Defs>

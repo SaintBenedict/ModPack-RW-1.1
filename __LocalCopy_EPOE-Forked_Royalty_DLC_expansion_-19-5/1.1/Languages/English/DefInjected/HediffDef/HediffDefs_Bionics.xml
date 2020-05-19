@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_ScytherHandTalon.label>bionic hand talon</EPOE_ScytherHandTalon.label>
+<EPOE_ScytherHandTalon.labelNoun>a bionic hand talon</EPOE_ScytherHandTalon.labelNoun>
+<EPOE_ScytherHandTalon.description>An installed bionic hand talon.</EPOE_ScytherHandTalon.description>
+<EPOE_ScytherHandTalon.comps.0.tools.0.label>talon</EPOE_ScytherHandTalon.comps.0.tools.0.label>
+
+<EPOE_ScytherElbowBlade.label>bionic elbow blade</EPOE_ScytherElbowBlade.label>
+<EPOE_ScytherElbowBlade.labelNoun>a bionic elbow blade</EPOE_ScytherElbowBlade.labelNoun>
+<EPOE_ScytherElbowBlade.description>An installed bionic elbow blade.</EPOE_ScytherElbowBlade.description>
+<EPOE_ScytherElbowBlade.comps.0.tools.0.label>blade</EPOE_ScytherElbowBlade.comps.0.tools.0.label>
+
+<EPOE_ScytherKneeSpike.label>bionic knee spike</EPOE_ScytherKneeSpike.label>
+<EPOE_ScytherKneeSpike.labelNoun>a bionic knee spike</EPOE_ScytherKneeSpike.labelNoun>
+<EPOE_ScytherKneeSpike.description>An installed bionic knee spike.</EPOE_ScytherKneeSpike.description>
+<EPOE_ScytherKneeSpike.comps.0.tools.0.label>spike</EPOE_ScytherKneeSpike.comps.0.tools.0.label>
+
+<EPIA_CircadianRefresher.label>circadian refresher</EPIA_CircadianRefresher.label>
+<EPIA_CircadianRefresher.labelNoun>a circadian refresher</EPIA_CircadianRefresher.labelNoun>
+<EPIA_CircadianRefresher.description>An installed circadian refresher.</EPIA_CircadianRefresher.description>
+
+</LanguageData>

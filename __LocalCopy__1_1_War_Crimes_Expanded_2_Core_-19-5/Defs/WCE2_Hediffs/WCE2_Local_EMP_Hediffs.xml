@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	 
+	 <!-- EMP Hediffs -->
+	 
+	<HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_Chestpains</defName>
+    <label>chest pains</label>
+    <labelNoun>a chest pain</labelNoun>
+    <description>Nearly debilitating chest pains caused by a heart irregulator or EMP damage to said irregulator.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500~15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<partEfficiencyOffset>-0.15</partEfficiencyOffset>
+		<painOffset>0.2</painOffset>
+		<hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>HeartAttack</hediff>
+              <mtbDays>15</mtbDays>
+              <partsToAffect>
+                <li>Heart</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+		 </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_Lethargic</defName>
+    <label>lethargic</label>
+    <labelNoun>lethargy</labelNoun>
+    <description>Induced extreme lethargy, mainly caused by a sleep deprivator or EMP damage to one.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500~15000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<restFallFactor>5.0</restFallFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+		</statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_SearingPain</defName>
+    <label>searing pain</label>
+    <labelNoun>searing pain</labelNoun>
+    <description>Searing pain caused by a malfunctioning pain amplifier.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500~7500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<painOffset>0.5</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_BlindingRage</defName>
+    <label>blinding rage</label>
+    <labelNoun>a blinding rage</labelNoun>
+    <description>A mindless, shock-enduced rage where only basic survival and aggression instincts happen - caused by a malfunctioning aggression amplifier.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>.01</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_PanicAttack</defName>
+    <label>panic attack</label>
+    <labelNoun>a panic attack</labelNoun>
+    <description>A sudden onset of a panic attack caused by a panic inducer hit by EMP.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<mentalStateGivers>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>.01</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_MemoryLoss</defName>
+    <label>memory loss</label>
+    <labelNoun>a loss of memory</labelNoun>
+    <description>A sudden onset of a panic attack caused by a panic inducer hit by EMP.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500~7500</disappearsAfterTicks>
+      </li>
+	  <li Class="HediffCompProperties_SkillDecay">
+        <decayPerDayPercentageLevelCurve>
+          <points>
+            <li>(4, 10.0)</li>
+            <li>(12, 30.0)</li>
+            <li>(20, 50.0)</li>
+          </points>
+        </decayPerDayPercentageLevelCurve>
+    </li>
+    </comps>
+    <stages>
+      <li>
+		<forgetMemoryThoughtMtbDays>.01</forgetMemoryThoughtMtbDays>
+		<mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>1</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_BrainShock</defName>
+    <label>brain shock</label>
+    <labelNoun>a brain shock</labelNoun>
+    <description>After-effects of an electrical shock to the brain.  This particular version is amplified due to an EMP Relay implant. Repeated exposure may fry the brain.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>7500~15000</disappearsAfterTicks>
+      </li>
+	  <li Class="HediffCompProperties_DamageBrain">
+        <mtbDaysPerStage>
+          <li>5.0</li>
+        </mtbDaysPerStage>
+        <damageAmount>1~1</damageAmount>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<vomitMtbDays>0.05</vomitMtbDays>
+		<capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>WCE2_EMPKillswitchOn</defName>
+    <label>brain charring</label>
+    <labelNoun>a brain charring</labelNoun>
+    <description>Rapid electrical frying of the brain, brought on by EMP damage to someone with an EMP Killswitch in their brain.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000~30000</disappearsAfterTicks>
+      </li>
+	  <li Class="HediffCompProperties_DamageBrain">
+        <mtbDaysPerStage>
+          <li>0.05</li>
+        </mtbDaysPerStage>
+        <damageAmount>2~3</damageAmount>
+      </li>
+    </comps>
+    <stages>
+      <li>
+		<vomitMtbDays>0.05</vomitMtbDays>
+		<capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

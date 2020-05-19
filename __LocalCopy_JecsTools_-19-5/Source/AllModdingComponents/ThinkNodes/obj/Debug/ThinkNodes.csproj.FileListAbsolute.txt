@@ -1,0 +1,8 @@
+Z:\Git\JecsTools\Assemblies\ThinkNodes.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\ThinkNodes\obj\Debug\ThinkNodes.csprojAssemblyReference.cache

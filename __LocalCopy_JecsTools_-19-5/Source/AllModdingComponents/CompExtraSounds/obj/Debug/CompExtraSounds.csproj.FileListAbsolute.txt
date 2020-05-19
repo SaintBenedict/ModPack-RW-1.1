@@ -1,0 +1,8 @@
+Z:\Git\JecsTools\Assemblies\CompExtraSounds.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompExtraSounds.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompExtraSounds\obj\Debug\CompExtraSounds.csprojAssemblyReference.cache

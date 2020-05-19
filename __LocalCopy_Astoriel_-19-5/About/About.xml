@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Astoriel</name>
+	<author>Roskii</author>
+	<packageId>Roskii.Astoriel</packageId>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	<description>Space Elves!!
+
+They are slightly faster and have slightly less health. They also have 1000 year lifespans and are immune to most aging effects (though they do get gray hair at 900).
+
+Features:
+-New Race
+-Npcs and new Faction
+
+**Please Use Show Hats with Hair**
+
+Discord: https://discord.gg/qBn5AHN
+If you enjoy my work, feel free to donate: Ko-fi.com/D1D38SDB
+
+Special thanks:
+Everyone in the Callistan Discord for all the ideas/chatting/encouragement!!
+Erdelf for humanoid races
+Chjees for all the great ideas/help/support!
+Chicken Plucker who is awesome xD
+You're all awesome!
+Note: Please make sure you're using the correct version of Alien Framework (its up on Github)</description>
+</ModMetaData>

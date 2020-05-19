@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/HediffDef[defName="PowerArm"]/stages</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/HediffDef[defName="PowerArm"]</xpath>
+			<value>
+				<stages>
+					<li>
+						<statOffsets>
+							<ConstructionSpeed>0.20</ConstructionSpeed>
+						</statOffsets>
+					</li>
+				</stages>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PowerArm"]/description</xpath>
+			<value>
+				<description>Unparalleled strength and dexterity, and with retractable claws. This arm has improved ergonomic function suitible for construction tasks.</description>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/HediffDef[defName="AdvancedPowerArm"]/stages</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/HediffDef[defName="AdvancedPowerArm"]</xpath>
+			<value>
+				<stages>
+					<li>
+						<statOffsets>
+							<ConstructionSpeed>0.35</ConstructionSpeed>
+						</statOffsets>
+					</li>
+				</stages>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="AdvancedPowerArm"]/description</xpath>
+			<value>
+				<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. This arm has further improved ergonomic function suitible for construction tasks.</description>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+<!-- Damn you MSE, making me have to do a VERY specific patch just for you. Not even sure if other medical mods should be compatible with MSE due to crazy overwrites. -->
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/HediffDef[@Name="MSE_AddedBodyPartBionicSpecialBase"]/stages</xpath>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="PowerArm"]/stages</xpath>
+			<value>
+				<stages Inherit="False">
+					<li>
+						<statOffsets>
+							<ConstructionSpeed>0.20</ConstructionSpeed>
+							<ArmorRating_Blunt>0.010</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.010</ArmorRating_Heat>
+							<ArmorRating_Sharp>0.010</ArmorRating_Sharp>
+						</statOffsets>
+					</li>
+				</stages>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="AdvancedPowerArm"]/stages</xpath>
+			<value>
+				<stages Inherit="False">
+					<li>
+						<statOffsets>
+							<ConstructionSpeed>0.35</ConstructionSpeed>
+							<ArmorRating_Blunt>0.020</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.020</ArmorRating_Heat>
+							<ArmorRating_Sharp>0.020</ArmorRating_Sharp>
+						</statOffsets>
+					</li>
+				</stages>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+</Patch>

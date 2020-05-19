@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="BodyPartAdvancedBionicBase"]</xpath>
+		<success>Always</success>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/ThingDef[@Name="BodyPartBionicImperialBase"]</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedSpecializedLimbs"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedCompactWeaponry"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_SyntheticOrgansIntegration"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="EPOE_BodyPartAdvancedBionicImperialBase"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="EPOE_BodyPartSyntheticImperialBase"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedDrillArm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedFieldHand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_DetoxifierEnhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_DetoxifierSyntheticLiver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ImmunoenhancerSyntheticKidney"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ToxicImmunoenhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedDrillArm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedFieldHand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_DetoxifierEnhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_DetoxifierSyntheticLiver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ImmunoenhancerSyntheticKidney"]</xpath>
+				</li>
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedSpecializedLimbs"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedCompactWeaponry"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="EPOE_SyntheticOrgansIntegration"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="EPOE_BodyPartAdvancedBionicImperialBase"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="EPOE_BodyPartSyntheticImperialBase"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedDrillArm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedFieldHand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ScytherKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_AdvancedKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_DetoxifierEnhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_DetoxifierSyntheticLiver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ImmunoenhancerSyntheticKidney"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="EPOE_ToxicImmunoenhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedDrillArm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedFieldHand"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedHandTalon"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedElbowBlade"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedKneeSpike"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_DetoxifierEnhancer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_DetoxifierSyntheticLiver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPOE_ImmunoenhancerSyntheticKidney"]</xpath>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+
+
+</Patch>

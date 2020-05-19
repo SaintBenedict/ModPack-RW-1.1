@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPIA_UpgradeBionicHandTalon.label>assemble bionic hand talon</EPIA_UpgradeBionicHandTalon.label>
+<EPIA_UpgradeBionicHandTalon.description>Upgrade hand talon into bionic hand talon.</EPIA_UpgradeBionicHandTalon.description>
+<EPIA_UpgradeBionicHandTalon.jobString>Upgrading hand talon.</EPIA_UpgradeBionicHandTalon.jobString>
+
+<EPIA_UpgradeBionicElbowBlade.label>assemble bionic elbow blade</EPIA_UpgradeBionicElbowBlade.label>
+<EPIA_UpgradeBionicElbowBlade.description>Upgrade elbow blade into bionic elbow blade.</EPIA_UpgradeBionicElbowBlade.description>
+<EPIA_UpgradeBionicElbowBlade.jobString>Upgrading elbow blade.</EPIA_UpgradeBionicElbowBlade.jobString>
+
+<EPIA_UpgradeBionicKneeSpike.label>assemble bionic knee spike</EPIA_UpgradeBionicKneeSpike.label>
+<EPIA_UpgradeBionicKneeSpike.description>Upgrade knee spike into bionic knee spike.</EPIA_UpgradeBionicKneeSpike.description>
+<EPIA_UpgradeBionicKneeSpike.jobString>Upgrading knee spike.</EPIA_UpgradeBionicKneeSpike.jobString>
+
+</LanguageData>

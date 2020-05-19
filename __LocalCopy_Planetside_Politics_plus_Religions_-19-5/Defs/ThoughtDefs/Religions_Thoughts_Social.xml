@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <ThoughtDef>
+    <defName>ReligionsSame</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_ReligionsSame</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>same religion</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ReligionsDifferent</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_ReligionsDifferent</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>moderate religious differences</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+<ThoughtDef>
+    <defName>ReligionsIntolerable</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>PoliticsandReligions.ThoughtWorker_ReligionsIntolerable</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>intolerable religious differences</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

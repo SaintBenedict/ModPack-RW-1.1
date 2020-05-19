@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+        <ThingCategoryDef>
+          <defName>Books</defName>
+          <label>Books</label>
+          <parent>Items</parent>
+          <iconPath>Item/Resource/Polemic/Polemic</iconPath>
+        </ThingCategoryDef>
+
+        <ThingCategoryDef>
+          <defName>Polemics</defName>
+          <label>Polemics</label>
+          <parent>Books</parent>
+          <iconPath>Item/Resource/Polemic/Polemic</iconPath>
+        </ThingCategoryDef>
+
+        <ThingCategoryDef>
+          <defName>Apologetics</defName>
+          <label>Apologetics</label>
+          <parent>Books</parent>
+          <iconPath>Item/Resource/Apologetic/Apologetic</iconPath>
+        </ThingCategoryDef>
+
+</Defs>

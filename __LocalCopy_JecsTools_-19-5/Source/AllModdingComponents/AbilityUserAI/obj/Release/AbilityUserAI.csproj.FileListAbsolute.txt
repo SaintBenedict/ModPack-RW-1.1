@@ -1,0 +1,10 @@
+H:\SteamSSD\steamapps\common\RimWorld\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LotRDev\Assemblies\AbilityUserAI.dll
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.csprojAssemblyReference.cache
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.csproj.CopyComplete
+H:\SteamSSD\steamapps\common\RimWorld\Mods\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LotRDev\Assemblies\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\1.1\Assemblies\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\AbilityUserAI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\AbilityUserAI\obj\Release\AbilityUserAI.dll

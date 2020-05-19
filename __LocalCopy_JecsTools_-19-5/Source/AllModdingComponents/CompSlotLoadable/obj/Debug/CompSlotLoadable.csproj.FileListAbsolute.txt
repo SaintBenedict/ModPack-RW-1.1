@@ -1,0 +1,9 @@
+Z:\Git\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Assemblies\CompSlotLoadable.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.csprojAssemblyReference.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompSlotLoadable.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompSlotLoadable\obj\Debug\CompSlotLoadable.dll

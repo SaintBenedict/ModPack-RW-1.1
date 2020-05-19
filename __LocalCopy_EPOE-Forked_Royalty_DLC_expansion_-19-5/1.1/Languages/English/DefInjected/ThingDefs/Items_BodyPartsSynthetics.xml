@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_DetoxifierEnhancer.label>detoxifier enhancer</EPOE_DetoxifierEnhancer.label>
+<EPOE_DetoxifierEnhancer.description>An analysis computer inspects the bloodstream, classifies harmful toxic substances, and rapidly prompts the body’s natural immune system to respond to them faster than it could alone. This reduces vulnerability to toxic effects.</EPOE_DetoxifierEnhancer.description>
+
+<EPOE_DetoxifierSyntheticLiver.label>synthetic detoxifier liver</EPOE_DetoxifierSyntheticLiver.label>
+<EPOE_DetoxifierSyntheticLiver.description>An enhanced liver augmented with synthetic fibres to decrease rejection rate. Upgraded further by integrating the detoxifier enhancer implant into it.</EPOE_DetoxifierSyntheticLiver.description>
+
+<EPOE_ImmunoenhancerSyntheticKidney.label>synthetic immunoenhanced kidney</EPOE_ImmunoenhancerSyntheticKidney.label>
+<EPOE_ImmunoenhancerSyntheticKidney.description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate. Upgraded further by integrating the immunoenhancer implant into it.</EPOE_ImmunoenhancerSyntheticKidney.description>
+
+</LanguageData>

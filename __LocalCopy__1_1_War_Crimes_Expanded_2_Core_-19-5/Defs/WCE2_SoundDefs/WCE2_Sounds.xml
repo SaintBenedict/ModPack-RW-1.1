@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  
+
+  <SoundDef>
+    <defName>WCE2_Pawn_Melee_Punch_HitBuilding</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+		<muteWhenPaused>True</muteWhenPaused> 
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Impact/PunchHitBuilding</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>19.56522</min>        
+          <max>31.52174</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8516304</min>        
+          <max>1.190761</max>
+        </pitchRange>
+		<sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>WCE2_MeleeHit_Wood</defName>  
+	<sustain>True</sustain> 
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxVoices>3</maxVoices>  
+	<priorityMode>PrioritizeNearest</priorityMode>  
+    <subSounds>
+      <li>
+		<muteWhenPaused>True</muteWhenPaused> 
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Impact/PunchHitBuilding</clipFolderPath>
+          </li>
+        </grains>      
+       <volumeRange>
+          <min>34.56522</min>        
+          <max>64.52174</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.8516304</min>        
+          <max>1.190761</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>
+		<sustainLoop>False</sustainLoop>
+		<sustainIntervalRange>
+          <min>0.3705882</min>        
+          <max>0.5941177</max>
+        </sustainIntervalRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

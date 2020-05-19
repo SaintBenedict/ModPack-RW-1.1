@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BrainInAJar</defName>
+		<label>Brain Processor</label>
+		<description>Harnesing the processing power of the encased brain, this device will boost the speed of your research projects by +25%. \nThere is no limit to the amount of Brain In a Jars that can be linked to a research bench.\</description>
+		<graphicData>
+			<texPath>BrainInJar/BrainInJar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>60</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Steel>100</Steel>
+			<Plasteel>50</Plasteel>
+			<Gold>25</Gold>
+			<Brain>1</Brain>
+		</costList>
+		<researchPrerequisites>
+			<li>BrainInAJar</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<!-- <thingClass>ThingWithComps</thingClass> -->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.25</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>99</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>4</glowRadius>
+			  <glowColor>(73,123,138,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>MiniBrainJar</defName>
+		<label>Brain In a Jar</label>
+		<description>The Brain In a Jar! One quarter the size of the processor at one quarter the power. Boosts research speed by +6%\</description>
+		<graphicData>
+			<texPath>BrainInJar/MiniBrainJar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>60</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>25</Steel>
+			<Plasteel>15</Plasteel>
+			<Gold>25</Gold>
+			<Brain>1</Brain>
+		</costList>
+		<researchPrerequisites>
+			<li>BrainInAJar</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<!-- <thingClass>ThingWithComps</thingClass> -->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>125</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.06</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>99</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>3</glowRadius>
+			  <glowColor>(73,123,138,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>DualBrain</defName>
+		<label>Dual-Brain Processor</label>
+		<description>Double the brains, more than double the output! Boosts research speed by +75%\</description>
+		<graphicData>
+			<texPath>BrainInJar/DualBrain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>60</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Mass>500</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<Steel>300</Steel>
+			<Plasteel>150</Plasteel>
+			<Gold>55</Gold>
+			<Brain>2</Brain>
+		</costList>
+		<researchPrerequisites>
+			<li>MultibrainProcessing</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<!-- <thingClass>ThingWithComps</thingClass> -->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>1000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.75</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>99</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>5</glowRadius>
+			  <glowColor>(73,123,138,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>QuadBrain</defName>
+		<label>Quad-Brain Processor</label>
+		<description>Linking 4 brains together for the ultimate boost! Boost research speed by +250%.\</description>
+		<graphicData>
+			<texPath>BrainInJar/QuadBrain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>60</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>3200</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Mass>800</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<Steel>500</Steel>
+			<Plasteel>300</Plasteel>
+			<Gold>150</Gold>
+			<Brain>4</Brain>
+		</costList>
+		<researchPrerequisites>
+			<li>MultibrainProcessing</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<!-- <thingClass>ThingWithComps</thingClass> -->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>2000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>2</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>99</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>5</glowRadius>
+			  <glowColor>(73,123,138,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>MasterBrain</defName>
+		<label>The Master Brain</label>
+		<description>The Master Brain in all of it's brain-ey glory! No idea is too complicated for this think-tank to grasp. Provides a 1000% boost to research speed, but produces heat quickly,</description>
+		<graphicData>
+			<texPath>BrainInJar/MasterBrain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>60</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>3200</MaxHitPoints>
+			<WorkToBuild>30000</WorkToBuild>
+			<Mass>1000</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(5,5)</size>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<Steel>700</Steel>
+			<Plasteel>450</Plasteel>
+			<Gold>200</Gold>
+			<Brain>10</Brain>
+			<AIPersonaCore>1</AIPersonaCore>
+		</costList>
+		<researchPrerequisites>
+			<li>MasterBrain</li>
+		</researchPrerequisites>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<!-- <thingClass>ThingWithComps</thingClass> -->
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>5000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>10</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+			  <compClass>CompHeatPusherPowered</compClass>
+			  <heatPerSecond>50</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Glower">
+			  <glowRadius>7</glowRadius>
+			  <glowColor>(73,123,138,0)</glowColor>
+			</li>
+			<!-- <li Class="CompProperties_Refuelable"> -->
+			  <!-- <fuelConsumptionRate>1000.0</fuelConsumptionRate> -->
+			  <!-- <fuelCapacity>50.0</fuelCapacity> -->
+			  <!-- <fuelFilter> -->
+			  	<!-- <thingDefs> -->
+				  <!-- <li>Brain</li> -->
+				<!-- </thingDefs> -->
+			  <!-- </fuelFilter> -->
+			  <!-- <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed> -->
+			  <!-- <initialFuelPercent>1</initialFuelPercent> -->
+			<!-- </li> -->
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+</Defs>

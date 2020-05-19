@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallEPOE_AdvancedDrillArm.label>install advanced drill arm</InstallEPOE_AdvancedDrillArm.label>
+<InstallEPOE_AdvancedDrillArm.description>Install an advanced drill arm.</InstallEPOE_AdvancedDrillArm.description>
+<InstallEPOE_AdvancedDrillArm.jobString>Installing advanced drill arm.</InstallEPOE_AdvancedDrillArm.jobString>
+
+<InstallEPOE_AdvancedFieldHand.label>install advanced field hand</InstallEPOE_AdvancedFieldHand.label>
+<InstallEPOE_AdvancedFieldHand.description>Install an advanced field hand.</InstallEPOE_AdvancedFieldHand.description>
+<InstallEPOE_AdvancedFieldHand.jobString>Installing advanced field hand.</InstallEPOE_AdvancedFieldHand.jobString>
+
+<InstallEPOE_AdvancedHandTalon.label>install advanced bionic hand talon</InstallEPOE_AdvancedHandTalon.label>
+<InstallEPOE_AdvancedHandTalon.description>Install an advanced bionic hand talon.</InstallEPOE_AdvancedHandTalon.description>
+<InstallEPOE_AdvancedHandTalon.jobString>Installing advanced bionic hand talon.</InstallEPOE_AdvancedHandTalon.jobString>
+
+<InstallEPOE_AdvancedElbowBlade.label>install advanced bionic elbow blade</InstallEPOE_AdvancedElbowBlade.label>
+<InstallEPOE_AdvancedElbowBlade.description>Install an advanced bionic elbow blade.</InstallEPOE_AdvancedElbowBlade.description>
+<InstallEPOE_AdvancedElbowBlade.jobString>Installing advanced bionic elbow blade.</InstallEPOE_AdvancedElbowBlade.jobString>
+
+<InstallEPOE_AdvancedKneeSpike.label>install advanced bionic knee spike</InstallEPOE_AdvancedKneeSpike.label>
+<InstallEPOE_AdvancedKneeSpike.description>Install an advanced bionic knee spike.</InstallEPOE_AdvancedKneeSpike.description>
+<InstallEPOE_AdvancedKneeSpike.jobString>Installing advanced bionic knee spike.</InstallEPOE_AdvancedKneeSpike.jobString>
+
+</LanguageData>

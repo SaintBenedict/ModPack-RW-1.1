@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional" >
+    <xpath>/Defs/StatDef[defName="SmoothingSpeed"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/StatDef[defName="SmoothingSpeed"]/parts</xpath>
+      <value>
+        <li Class="FasterSmooth.FasterSmoothing_StartPart" />
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/StatDef[defName="SmoothingSpeed"]</xpath>
+      <value>
+        <parts>
+          <li Class="FasterSmooth.FasterSmoothing_StartPart" />
+        </parts>
+      </value>
+    </nomatch>
+  </Operation>
+
+</Patch>

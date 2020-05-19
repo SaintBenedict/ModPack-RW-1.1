@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--There have been a hotfix with Royalty, changing the Compact Weaponry type prosthesis from added body parts into implants.-->
+	<!--Kept the old defs to not break people's game, and found a rework, that can keep them as added body parts with hopefully valid reasons.-->
+	
+	<ThingDef Name="EPIA_BodyPartAdvancedBionicImperialBase" ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase" Abstract="True">
+		<tradeTags>
+			<li>ImplantEmpireCommon</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Advanced drill arm -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPOE_AdvancedDrillArm</defName>
+		<label>advanced drill arm</label>
+		<labelNoun>an advanced drill arm</labelNoun>
+		<description>An installed advanced drill arm.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedDrillArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_AdvancedDrillArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>1.60</MiningSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>drill</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartAdvancedBionicImperialBase">
+		<defName>EPOE_AdvancedDrillArm</defName>
+		<label>advanced drill arm</label>
+		<description>A upgraded mechanical arm replacement for speeding up mining. It has a built-in snake drill, which allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. Capable of packing itself into a manageable compact form when not drilling, no longer as ungainly and slowing down movement like its original model.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_AdvancedDrillArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>115</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_AdvancedSpecializedLimbs</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedDrillArm</defName>
+		<label>assemble advanced drill arm</label>
+		<description>Upgrade drill arm into advanced drill arm.</description>
+		<jobString>Upgrading drill arm.</jobString>
+		<researchPrerequisite>EPOE_AdvancedSpecializedLimbs</researchPrerequisite>
+		<products>
+			<EPOE_AdvancedDrillArm>1</EPOE_AdvancedDrillArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DrillArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DrillArm</li>
+				<li>BionicArm</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallEPOE_AdvancedDrillArm</defName>
+		<label>install advanced drill arm</label>
+		<description>Install an advanced drill arm.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedDrillArm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced drill arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_AdvancedDrillArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_AdvancedDrillArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_AdvancedDrillArm</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced field hand -->
+
+		<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPOE_AdvancedFieldHand</defName>
+		<label>advanced field hand</label>
+		<labelNoun>an advanced field hand</labelNoun>
+		<description>An installed advanced field hand.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedFieldHand</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_AdvancedFieldHand</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>1.60</PlantWorkSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>knuckle</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>11</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartAdvancedBionicImperialBase">
+		<defName>EPOE_AdvancedFieldHand</defName>
+		<label>advanced field hand</label>
+		<description>This upgraded mechanical hand replacement is made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. Capable of packing itself into a manageable compact form when not doing plant work, no longer as ungainly and slowing down movement like its original model.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_AdvancedFieldHand</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>95</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>13</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_AdvancedSpecializedLimbs</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedFieldHand</defName>
+		<label>assemble advanced field hand</label>
+		<description>Upgrade field hand into advanced field hand.</description>
+		<jobString>Upgrading field hand.</jobString>
+		<researchPrerequisite>EPOE_AdvancedSpecializedLimbs</researchPrerequisite>
+		<products>
+			<EPOE_AdvancedFieldHand>1</EPOE_AdvancedFieldHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FieldHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FieldHand</li>
+				<li>BionicHand</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallEPOE_AdvancedFieldHand</defName>
+		<label>install advanced field hand</label>
+		<description>Install an advanced field hand.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedFieldHand</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced field hand.</jobString>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>EPOE_AdvancedFieldHand</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>EPOE_AdvancedFieldHand</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		  <li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_AdvancedFieldHand</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced hand talon (Ironic this version now uses the Scyther blades to make, rather then the previous def version.)-->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPOE_AdvancedHandTalon</defName>
+		<label>advanced bionic hand talon</label>
+		<labelNoun>an advanced bionic hand talon</labelNoun>
+		<description>An installed advanced bionic hand talon.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedHandTalon</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_AdvancedHandTalon</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeHitChance>10</MeleeHitChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>talon</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>21</power>
+						<armorPenetration>0.25</armorPenetration>
+						<cooldownTime>1.5</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartAdvancedBionicImperialBase">
+		<defName>EPOE_AdvancedHandTalon</defName>
+		<label>advanced bionic hand talon</label>
+		<description>A modified razor-sharp talon which extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the palm of the bionic hand.\n\nThe material of the hand talon is replaced by a special flexible piece of alloy that is found as a component of the Scyther blade. The increased flexibility, a newly added micro-computer to further support the bionic hand movements in close combat, have made this weaponized bionic into a deadly accurate melee combat support weapon.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_AdvancedHandTalon</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>75</Steel>
+			<Plasteel>55</Plasteel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ScytherBlade>1</ScytherBlade>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedHandTalon</defName>
+		<label>assemble advanced bionic hand talon</label>
+		<description>Upgrade bionic hand talon into advanced bionic hand talon.</description>
+		<jobString>Upgrading bionic hand talon.</jobString>
+		<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		<products>
+			<EPOE_AdvancedHandTalon>1</EPOE_AdvancedHandTalon>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_ScytherHandTalon</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_ScytherHandTalon</li>
+				<li>ScytherBlade</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallEPOE_AdvancedHandTalon</defName>
+		<label>install advanced bionic hand talon</label>
+		<description>Install an advanced bionic hand talon.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedHandTalon</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic hand talon.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				<thingDefs>
+					<li>EPOE_AdvancedHandTalon</li>
+				</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_AdvancedHandTalon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_AdvancedHandTalon</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced elbow blade (Ironic this version now uses the Scyther blades to make, rather then the previous def version.)-->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPOE_AdvancedElbowBlade</defName>
+		<label>advanced bionic elbow blade</label>
+		<labelNoun>an advanced bionic elbow blade</labelNoun>
+		<description>An installed advanced bionic elbow blade.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedElbowBlade</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_AdvancedElbowBlade</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeHitChance>2</MeleeHitChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>slice</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>24</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartAdvancedBionicImperialBase">
+		<defName>EPOE_AdvancedElbowBlade</defName>
+		<label>advanced bionic elbow blade</label>
+		<description>A replaced razor-sharp blade, originally from a deadly Scyther mechanoid, that extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks.\n\nThe more efficient Scyther blade have replaced the original blade in the previous bionic elbow blade model, making it more deadlier in melee combat.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_AdvancedElbowBlade</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>95</Steel>
+			<Plasteel>90</Plasteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<ScytherBlade>1</ScytherBlade>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedElbowBlade</defName>
+		<label>assemble advanced bionic elbow blade</label>
+		<description>Upgrade bionic elbow blade into advanced bionic elbow blade.</description>
+		<jobString>Upgrading bionic elbow blade.</jobString>
+		<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		<products>
+			<EPOE_AdvancedElbowBlade>1</EPOE_AdvancedElbowBlade>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_ScytherElbowBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_ScytherElbowBlade</li>
+				<li>ScytherBlade</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallEPOE_AdvancedElbowBlade</defName>
+		<label>install advanced bionic elbow blade</label>
+		<description>Install an advanced bionic elbow blade.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedElbowBlade</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic elbow blade.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+				<thingDefs>
+					<li>EPOE_AdvancedElbowBlade</li>
+				</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_AdvancedElbowBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_AdvancedElbowBlade</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced knee spike (Ironic this version now uses the Scyther blades to make, rather then the previous def version.)-->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPOE_AdvancedKneeSpike</defName>
+		<label>advanced bionic knee spike</label>
+		<labelNoun>an advanced bionic knee spike</labelNoun>
+		<description>An installed advanced bionic knee spike.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedKneeSpike</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_AdvancedKneeSpike</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>stab</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>28</power>
+						<cooldownTime>2.6</cooldownTime>
+						<armorPenetration>0.54</armorPenetration>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartAdvancedBionicImperialBase">
+		<defName>EPOE_AdvancedKneeSpike</defName>
+		<label>advanced bionic knee spike</label>
+		<description>A modified spike that extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks.\n\nBy reshaping the deadlier Scyther blade into a spike, the penetration power of this bionic weapon is increased, dealing more damage.</description>
+		<descriptionHyperlinks><RecipeDef>InstallEPOE_AdvancedKneeSpike</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>95</Steel>
+			<Plasteel>90</Plasteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<ScytherBlade>1</ScytherBlade>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedKneeSpike</defName>
+		<label>assemble advanced bionic knee spike</label>
+		<description>Upgrade bionic knee spike into advanced bionic knee spike.</description>
+		<jobString>Upgrading bionic knee spike.</jobString>
+		<researchPrerequisite>EPOE_AdvancedCompactWeaponry</researchPrerequisite>
+		<products>
+			<EPOE_AdvancedKneeSpike>1</EPOE_AdvancedKneeSpike>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_ScytherKneeSpike</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_ScytherKneeSpike</li>
+				<li>ScytherBlade</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallEPOE_AdvancedKneeSpike</defName>
+		<label>install advanced bionic knee spike</label>
+		<description>Install an advanced bionic knee spike.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_AdvancedKneeSpike</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic knee spike.</jobString>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>EPOE_AdvancedKneeSpike</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>EPOE_AdvancedKneeSpike</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		  <li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_AdvancedKneeSpike</addsHediff>
+	</RecipeDef>
+
+</Defs>

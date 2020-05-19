@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FasterSmoothing\Assemblies\FasterSmoothing.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FasterSmoothing\Source\FasterSmoothing\obj\Debug\FasterSmoothing.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FasterSmoothing\Source\FasterSmoothing\obj\Debug\FasterSmoothing.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FasterSmoothing\Source\FasterSmoothing\obj\Debug\FasterSmoothing.dll

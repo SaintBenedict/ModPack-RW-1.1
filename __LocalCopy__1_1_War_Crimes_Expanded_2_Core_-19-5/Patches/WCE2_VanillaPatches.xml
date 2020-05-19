@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+	<!-- =========== Slave Modifications =========== -->
+<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "Slave"]/techHediffsRequired</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Slave"]</xpath>
+			<value>
+				<techHediffsRequired>
+				<li>WCE2_SlaveBrand</li>
+			</techHediffsRequired>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Slave"]/techHediffsRequired</xpath>
+			<value>
+				<li>WCE2_SlaveBrand</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "Slave"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Slave"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Slave"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Tribal Player Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "Tribesperson"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribesperson"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribesperson"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Colonist Player Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "Colonist"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Colonist"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Colonist"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Colonist"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Colonist"]</xpath>
+			<value>
+				<techHediffsChance>0.08</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Colonist"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>0.08</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Tribal Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name = "TribalBase"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalBase"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalBase"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Warrior Body Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]/techHediffsMoney</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]</xpath>
+			<value>
+				<techHediffsMoney>50~150</techHediffsMoney>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]/techHediffsMoney</xpath>
+			<value>
+				<techHediffsMoney>150~150</techHediffsMoney>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]</xpath>
+			<value>
+				<techHediffsChance>0.25</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Warrior"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>0.25</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Warrior Body Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]/techHediffsMoney</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]</xpath>
+			<value>
+				<techHediffsMoney>50~150</techHediffsMoney>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]/techHediffsMoney</xpath>
+			<value>
+				<techHediffsMoney>150~150</techHediffsMoney>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]</xpath>
+			<value>
+				<techHediffsChance>0.25</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Hunter"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>0.25</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Berserker Body Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]/techHediffsMoney</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]</xpath>
+			<value>
+				<techHediffsMoney>250~250</techHediffsMoney>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]/techHediffsMoney</xpath>
+			<value>
+				<techHediffsMoney>250~250</techHediffsMoney>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]</xpath>
+			<value>
+				<techHediffsChance>0.50</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_Berserker"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>0.50</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Heavy Archer Body Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]/techHediffsMoney</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]</xpath>
+			<value>
+				<techHediffsMoney>250~250</techHediffsMoney>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]/techHediffsMoney</xpath>
+			<value>
+				<techHediffsMoney>250~250</techHediffsMoney>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]</xpath>
+			<value>
+				<techHediffsChance>0.50</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[defName = "Tribal_HeavyArcher"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>0.50</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Chieftain Body Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]/techHediffsMoney</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]</xpath>
+			<value>
+				<techHediffsMoney>200~300</techHediffsMoney>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]/techHediffsMoney</xpath>
+			<value>
+				<techHediffsMoney>200~300</techHediffsMoney>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+    <xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]/techHediffsChance</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]</xpath>
+			<value>
+				<techHediffsChance>1.0</techHediffsChance>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/PawnKindDef[@Name = "TribalChiefBase"]/techHediffsChance</xpath>
+			<value>
+				<techHediffsChance>1.0</techHediffsChance>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Pirate Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name = "PirateBase"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "PirateBase"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "PirateBase"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Outlander Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name = "OutlanderBase"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "OutlanderBase"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "OutlanderBase"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Mercenary Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name = "MercenaryBase"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "MercenaryBase"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "MercenaryBase"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- =========== Spacer Modifications =========== -->
+	<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name = "SpaceRefugeeBase"]/techHediffsTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "SpaceRefugeeBase"]</xpath>
+			<value>
+				<techHediffsTags>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+				</techHediffsTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/PawnKindDef[@Name = "SpaceRefugeeBase"]/techHediffsTags</xpath>
+			<value>
+					<li>WCE2_CrudeTorture</li>
+					<li>WCE2_OrganModifications</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+</Patch>
+

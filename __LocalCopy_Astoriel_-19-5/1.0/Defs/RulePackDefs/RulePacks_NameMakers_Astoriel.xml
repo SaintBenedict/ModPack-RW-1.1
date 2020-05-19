@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerAstorielUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>AstFirstMale->NameBanks/Names_First_Astoriel_Male</li>
+        <li>AstFirstFemale->NameBanks/Names_First_Astoriel_Female</li>
+        <li>AstLast->NameBanks/Names_Last_Astoriel</li>
+        <li>AstSyl->NameBanks/Names_Syllable_Astoriel</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerAstorielMale</defName>
+    <include>
+      <li>NamerAstorielUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)->[AstFirstMale] [AstLast]</li>
+		<li>r_name->[AstSyl][AstFirstMale] [AstSyl][AstSyl]</li>
+		<li>r_name->[AstSyl][AstFirstMale] [AstSyl][AstSyl][AstSyl]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerAstorielFemale</defName>
+    <include>
+      <li>NamerAstorielUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)->[AstFirstFemale] [AstLast]</li>
+		<li>r_name->[AstSyl][AstFirstFemale] [AstSyl][AstSyl]</li>
+		<li>r_name->[AstSyl][AstFirstFemale] [AstSyl][AstSyl][AstSyl]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

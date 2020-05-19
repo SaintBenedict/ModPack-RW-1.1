@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+	  <!-- hediffs -->
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Disarm</defName>
+		<label>disarm</label>
+		<description>Psychically-induced mental weakness, loosening grip completely.</description>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Manipulation</capacity>
+				<postFactor>0</postFactor>
+			  </li>          
+			</capMods>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Dread</defName>
+		<label>dread</label>
+		<description>Psychically-induced fear, causing a nervous breakdown.</description>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Moving</capacity>
+				<postFactor>0</postFactor>
+			  </li>          
+			</capMods>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Haste</defName>
+		<label>haste</label>
+		<description>Psychically-induced adrenaline, accelerating movement.</description>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Moving</capacity>
+				<postFactor>1.8</postFactor>
+			  </li>
+			  <li>
+				<capacity>Manipulation</capacity>
+				<postFactor>1.3</postFactor>
+			  </li>
+			</capMods>
+			<capacityFactorEffectMultiplier>PsychicSensitivity</capacityFactorEffectMultiplier>
+			<statOffsets>
+				<MoveSpeed>0.2</MoveSpeed>
+				<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>PainShock</defName>
+		<label>pain shock</label>
+		<description>Psychically-induced pain.</description>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<painOffset>0.2</painOffset>
+			<painFactor>1.3</painFactor>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>EntropyBond</defName>
+		<label>entropy bond</label>
+		<description>A psychic link with another individual. Gain or loss of psychic entropy incurred by one will be shared between both.</description>
+		<comps>
+		  <li Class="HediffCompProperties_EntropyLink">
+			<compClass>HediffComp_EntropyLink</compClass>
+			<entropyTransferAmount>0.3</entropyTransferAmount>
+		  </li>
+		  <li Class="HediffCompProperties_Link">
+			<maxDistance>20</maxDistance>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<statFactors>
+			  <PsychicEntropyGain>0.7</PsychicEntropyGain>
+			</statFactors>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Meditation</defName>
+		<label>meditation</label>
+		<description>A mental state of tranquility.</description>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statFactors>
+			  <PsychicEntropyRecoveryRate>9</PsychicEntropyRecoveryRate>			  
+			</statFactors>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Headache</defName>
+		<label>migraine</label>
+		<description>Psychically-induced migraine.</description>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<painOffset>0.1</painOffset>
+			<capMods>
+			  <li>            
+				<capacity>Consciousness</capacity>
+				<offset>-0.15</offset>
+			  </li>		  
+			</capMods>
+			<capacityFactorEffectMultiplier>PsychicSensitivity</capacityFactorEffectMultiplier>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <HediffDef ParentName = "PsycastHediffBase">
+		<defName>Motivation</defName>
+		<label>motivating rush</label>
+		<description>Psychically-induced motivation.</description>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<painFactor>0.95</painFactor>
+			<capMods>
+			  <li>
+				<capacity>Consciousness</capacity>
+				<offset>0.10</offset>
+			  </li>
+			  <li>
+				<capacity>Moving</capacity>
+				<offset>0.05</offset>
+			  </li>
+			  <li>
+				<capacity>Sight</capacity>
+				<offset>0.10</offset>
+			  </li>
+			  <li>
+				<capacity>BloodFiltration</capacity>
+				<offset>0.40</offset>
+			  </li>
+			  <li>
+				<capacity>BloodPumping</capacity>
+				<offset>0.10</offset>
+			  </li>
+			   <li>
+				<capacity>Metabolism</capacity>
+				<offset>0.20</offset>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>0.10</offset>
+			  </li>
+			</capMods>
+		  </li>
+		</stages>
+	  </HediffDef>
+
+      
+</Defs>

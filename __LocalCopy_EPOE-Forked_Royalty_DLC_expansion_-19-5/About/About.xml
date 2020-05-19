@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>EPOE-Forked: Royalty DLC expansion</name>
+	<author>Victorique, Aurani, Tarojun</author>
+    <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2008970276</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>vat.epoeforkedroyalty</packageId>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+			<downloadUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</downloadUrl>
+		</li>
+		<li>
+			<packageId>vat.epoeforked</packageId>
+			<displayName>Expanded Prosthetics and Organ Engineering - Forked</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1949064302</steamWorkshopUrl>
+		</li>
+    </modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>vat.epoeforked</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>Ykara.EPOE</li>
+	</incompatibleWith>
+	<description>Adds new prosthesis and three new improvement type research for the Royalty DLC.
+
+- Advanced drill arm (Removed movement speed penalty)
+- Advanced field hand (Removed movement speed penalty)
+- Bionic hand talon (Improved damage and melee accuracy)
+- Advanced hand talon (Further improved damage and melee accuracy)
+- Bionic elbow blade (Improved damage)
+- Advanced elbow blade (Further improved damage)
+- Bionic knee spike (Bionic leg version, with less movement speed bonus)
+- Advanced knee spike (Improved damage, normal bionic leg movement speed)
+- Detoxifier Enhancer (Toxic sensitivity reduction implant)
+- Synthetic detoxifier liver (Toxic sensitivity reduction organ replacement)
+- Synthetic immunoenhanced kidney (Immunity gain speed organ replacement)
+- Circadian refresher (Rest rate increase)
+
+The compact weaponry implants becomes artificial body parts in their upgrades.
+
+Power arm receives an improvement to keep up with what it can bring to the table, by literally making one faster! A slight change in their description can be noted.
+Power arm: new +20% construction speed
+Advanced power arm: new +35% construction speed
+
+
+Requires Royalty DLC and load this after EPOE-Forked.</description>
+</ModMetaData>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--============================== Main Categories ==============================-->
+
+	<!--<ResearchProjectDef>
+		<defName>WCE2_TribalRituals</defName>
+		<label>tribal ritualistic mutiliation</label>
+		<description>Allows ritualistic scarification, piercings, and tattoos for tribal socities.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+ 		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>-->
+	
+	<ResearchProjectDef>
+		<defName>WCE2_CrudeTorture</defName>
+		<label>crude torture methods</label>
+		<description>Crude torture involves generally unskilled mutilation and medieval implements of torture.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+ 		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+ 
+	<ResearchProjectDef>
+		<defName>WCE2_MedicalTorture</defName>
+		<label>medical torture methods</label>
+		<description>Medical torture entails more advanced torture and research methods, generally requiring a skilled doctor to perform.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>600</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WCE2_CrudeTorture</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>DrugProduction</li>
+		</hiddenPrerequisites>
+ 		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+ 
+	<ResearchProjectDef>
+		<defName>WCE2_OrganDestabilization</defName>
+		<label>organ destabilization</label>
+		<description>Details the fabrication and implantation of relatively crude cybernetics that destabilize organs, causing long-term pain and suffering.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>600</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WCE2_MedicalTorture</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>Machining</li>
+		</hiddenPrerequisites>
+ 		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>WCE2_QuestionableFoodProduction</defName>
+		<label>questionable food production</label>
+		<description>While butchering humanoids for meat has been a long standing practice of cannibals, methods exist that allow the growing and harvesting of meat and fungi in humanoid patients without killing them.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>800</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WCE2_MedicalTorture</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>MedicineProduction</li>
+		</hiddenPrerequisites>
+ 		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>WCE2_AdvancedTorture</defName>
+		<label>advanced torture methods</label>
+		<description>Knowledge of advanced medical torture including lobotomization and cruel brain implants.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>1000</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WCE2_OrganDestabilization</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>MedicineProduction</li>
+		</hiddenPrerequisites>
+ 		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>WCE2_NeutroamineIncubation</defName>
+		<label>neutroamine incubation</label>
+		<description>Horrific knowledge of how to incubate neutroamine in a person's body for continuous cultivation.</description>
+		<tab>WarCrimesExpanded2</tab>
+		<baseCost>1500</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WCE2_OrganDestabilization</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>MedicineProduction</li>
+		</hiddenPrerequisites>
+ 		<researchViewX>5</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+
+
+</Defs>

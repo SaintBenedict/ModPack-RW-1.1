@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Greyer morals (Continued)</name>
+    <packageId>Mlie.GreyerMorals</packageId>
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/GreyerMorals</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter />
+	<description>Update of sectoids mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=864631239
+
+Support-chat:
+https://discord.gg/SuhwVpM
+
+Non-steam version:
+https://github.com/emipa606/GreyerMorals
+	
+--- Original Description ---
+This mod reduces penalties for ill treating outsiders and cannibalism.
+
+
+Changes:
+
+Cannibalism
+Eat human meat as ingredient -20 -> -5
+Eat human meat raw -25 -> -10
+Butchered humanlike corpse -6 -> -3
+Know someone butchered humanlike corpse -6 > -3
+
+Prisoners
+Know guest/prisoner executed now requires "Kind" trait
+Know prisoner died innocent now requires "Kind" trait
+Know guest/prisoner organ harvested now requries "Kind" trait
+Know prisoner sold -3 -> 0
+Prisoner banished to die now requires "Kind" trait
+
+General
+Observed laying corpse stack limit 3 > 1
+Witness death for none ally now requires "Kind" trait
+Colonist banished now requires "Kind" trait
+Colonist banished to die -5 -> -3
+Wearing dead man's apparel now requires "Kind" trait
+Wearing human leather now requires "Kind" trait
+
+Works with exisiting saves.
+Feel free to leave suggestions.
+</description>
+</ModMetaData>

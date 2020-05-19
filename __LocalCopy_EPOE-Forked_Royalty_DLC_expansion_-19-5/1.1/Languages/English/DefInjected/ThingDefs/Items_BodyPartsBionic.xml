@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_ScytherHandTalon.label>bionic hand talon</EPOE_ScytherHandTalon.label>
+<EPOE_ScytherHandTalon.description>A razor-sharp talon which extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the palm of the bionic hand.\n\nThis weapon system have been integrated into a bionic hand, at a small cost to the efficiency of the original bionic hand. No longer needing to be careful in not injuring the user's biological hand, the hand talons are now sharper than ever.</EPOE_ScytherHandTalon.description>
+
+<EPOE_ScytherElbowBlade.label>bionic elbow blade</EPOE_ScytherElbowBlade.label>
+<EPOE_ScytherElbowBlade.description>A razor-sharp blade that extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks. Appearing without warning, it can be used for devastating slice attacks.\n\nThis weapon system have been integrated into a bionic arm, at a small cost to the efficiency of the original bionic arm. No longer needing to be careful in not injuring the user's biological arm, the elbow blade are now sharper than ever.</EPOE_ScytherElbowBlade.description>
+
+<EPOE_ScytherKneeSpike.label>bionic knee spike</EPOE_ScytherKneeSpike.label>
+<EPOE_ScytherKneeSpike.description>A spike that extends at will from a hidden opening on the front of the bionic knee. Appearing without warning, it can be used for devastating stabbing attacks.\n\nThis weapon system have been integrated into a bionic leg, at a small cost to the efficiency of the original bionic leg.</EPOE_ScytherKneeSpike.description>
+
+<EPIA_CircadianRefresher.label>circadian refresher</EPIA_CircadianRefresher.label>
+<EPIA_CircadianRefresher.description>An artificial gland. Produces chemicals and nanomachines that clear toxin buildup from the brain when the user is asleep and improving the quality of sleep.</EPIA_CircadianRefresher.description>
+
+</LanguageData>

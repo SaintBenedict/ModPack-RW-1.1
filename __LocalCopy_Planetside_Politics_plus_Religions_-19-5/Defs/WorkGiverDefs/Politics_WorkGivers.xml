@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>Politics_DoBillsWritePolemicSpot</defName>
+    <label>write polemic</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Research</workType>
+	<workTags>
+	  <li>Intellectual</li>
+	</workTags>
+    <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Politics_WritingSpot</li>
+    </fixedBillGiverDefs>
+    <verb>write</verb>
+    <gerund>writing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+	  <li>Consciousness</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Politics_DoBillsWritePolemicDesk</defName>
+    <label>write polemic</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Research</workType>
+	<workTags>
+	  <li>Intellectual</li>
+	</workTags>
+    <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Politics_WritingDesk</li>
+    </fixedBillGiverDefs>
+    <verb>write</verb>
+    <gerund>writing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+	  <li>Consciousness</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>

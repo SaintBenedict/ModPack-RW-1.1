@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageData>
+
+	<Children_DisableChildren_Title>Kinder deaktivieren</Children_DisableChildren_Title>
+	<Children_DisableChildren_Desc>Kolonisten sollten durch diese Mod keine Kinder mehr bekommen können. (Entfernt keine existierenden Kinder oder Schwangerschaften, welche unsichtbar sein können. Braucht einen Neustart des Spiels für manche Änderungen)</Children_DisableChildren_Desc>
+
+	<Children_GeneratedChildrenAge_Title>Alter Kind (Mensch)</Children_GeneratedChildrenAge_Title>
+	<Children_GeneratedChildrenAge_Desc>Das alter mit dem Kinder geboren werden.</Children_GeneratedChildrenAge_Desc>
+
+	<GeneratedChildrenLifeStage_Title>Kind: Lebensabschnitt (Alien)</GeneratedChildrenLifeStage_Title>
+	<GeneratedChildrenLifeStage_Desc>Definiert das Lebensabschnitts-Alter mit dem ein Kind geboren wird (anstatt des normalen Alters, da das Alter zwischen verschiedenen Alien-Rassen stark variieren kann - nimmt, falls kein passendes alter gefunden werden kann das Menschenalter(oben))</GeneratedChildrenLifeStage_Desc>
+
+	<GeneratedChildrenLifeStage_Desc_Baby>Neugeborenes</GeneratedChildrenLifeStage_Desc_Baby>
+	<GeneratedChildrenLifeStage_Desc_Toddler>Kleinkind</GeneratedChildrenLifeStage_Desc_Toddler>
+	<GeneratedChildrenLifeStage_Desc_Child>Kind</GeneratedChildrenLifeStage_Desc_Child>
+	<GeneratedChildrenLifeStage_Desc_Teenager>Jugendlich</GeneratedChildrenLifeStage_Desc_Teenager>
+	<GeneratedChildrenLifeStage_Desc_Adult>Erwachsen</GeneratedChildrenLifeStage_Desc_Adult>
+	<GeneratedChildrenLifeStage_Desc_HumanAge>Gleich mit Menschen (wie oben)</GeneratedChildrenLifeStage_Desc_HumanAge>
+
+	<Children_GeneratedChildrenLearnMinAge_Title>Min. Alter lernen</Children_GeneratedChildrenLearnMinAge_Title>
+	<Children_GeneratedChildrenLearnMinAge_Desc>Mindestalter ab dem in der Schule gelernt werden kann.</Children_GeneratedChildrenLearnMinAge_Desc>
+
+	<Children_GeneratedChildrenLearnMinAgeAndroid_Title>Min. Alter lernen (Android/Droid)</Children_GeneratedChildrenLearnMinAgeAndroid_Title>
+	<Children_GeneratedChildrenLearnMinAgeAndroid_Desc>Mindestalter ab dem in der Schule gelernt werden kann. (Android/Droid)</Children_GeneratedChildrenLearnMinAgeAndroid_Desc>
+
+	<Children_GeneratedChildrenLearnMaxAge_Title>Max. Alter lernen </Children_GeneratedChildrenLearnMaxAge_Title>
+	<Children_GeneratedChildrenLearnMaxAge_Desc>Alter bis zu dem in der Schule gelernt werden kann.</Children_GeneratedChildrenLearnMaxAge_Desc>
+
+	<Children_GeneratedChildrenTeachMinAge_Title>Lehren min. Alter</Children_GeneratedChildrenTeachMinAge_Title>
+	<Children_GeneratedChildrenTeachMinAge_Desc>Mindestalter ab dem in der Schule gelehrt werden kann.</Children_GeneratedChildrenTeachMinAge_Desc>
+	
+	<Children_GeneratedChildrenChance_Title>Basis-chance für Schwangerschaft</Children_GeneratedChildrenChance_Title>
+	<Children_GeneratedChildrenChance_Desc>0 - 100 wird von der Fruchtbarkeit beeinflusst</Children_GeneratedChildrenChance_Desc>
+
+	<Children_PregnancyDuration_Title>Parameter: Schwangerschaftsdauer</Children_PregnancyDuration_Title>
+	<Children_PregnancyDuration_Desc>0 - 1000% (Standard: Mensch: 100% = 45 days) [Rimworld muss neugestartet werden!]</Children_PregnancyDuration_Desc>
+
+	<Children_ReverseFertilityEnabled_Title>Fruchtbarkeit umkehren</Children_ReverseFertilityEnabled_Title>
+	<Children_ReverseFertilityEnabled_Desc>[Spiel neu laden!]Die Fruchtbarkeit von allen Kolonisten wird deaktiviert - die Medizin 'Fruchtbarkeitsverstärker' oder die medizinische Operation wird benötigt um Schwanger zu werden (Nicht für Tiere)</Children_ReverseFertilityEnabled_Desc>
+	
+	<Children_AlwaysShowPregnancyEnabled_Title>Schwangerschaft immer anzeigen</Children_AlwaysShowPregnancyEnabled_Title>
+	<Children_AlwaysShowPregnancyEnabled_Desc>Normalerweise wird die Schwangerschaft, vom Basis-Spiel her, erst nach 1/3 der Dauer angezeigt (Jedoch nicht für Tiere)</Children_AlwaysShowPregnancyEnabled_Desc>
+		
+	<Children_GetReproductionFromLifeStageEnabled_Title>Fruchtbarkeit aus Entwicklungsstadium</Children_GetReproductionFromLifeStageEnabled_Title>
+	<Children_GetReproductionFromLifeStageEnabled_Desc>Setzt die Fruchtbarkeit auf 0(Aus) basierend auf dem Entwicklungsstadium</Children_GetReproductionFromLifeStageEnabled_Desc>
+			
+	<Children_GetReproductionFromOldAgeEnabled_Title>Fruchtbarkeit hohes Alter</Children_GetReproductionFromOldAgeEnabled_Title>
+	<Children_GetReproductionFromOldAgeEnabled_Desc>Setzt die Fruchtbarkeit auf 0(Aus) in 3 Schritten im hohen Alter. (Deaktiviert mit BirdsAndBees) (('Lebenserwartung' - 'Alter für Letzten Lebensabschnitt') / 5, 2/5=100%, 3/5=80%, 4/5=50%, 5/5=0%)</Children_GetReproductionFromOldAgeEnabled_Desc>
+		
+	<Children_AlwaysHaveChildren_Title>Schwangerschaftschance immer 100%(TEST)</Children_AlwaysHaveChildren_Title>
+	<Children_AlwaysHaveChildren_Desc>Alle dies verhindernden Faktoren werden ignoriert.</Children_AlwaysHaveChildren_Desc>
+
+	<Children_MixedSpeciesChildrenAllowed_Title>Vermischte Spezies erlauben</Children_MixedSpeciesChildrenAllowed_Title>
+	<Children_MixedSpeciesChildrenAllowed_Desc>Können paare die unterschiedlichen spezies angehören Kinder haben? Resultiert, wenn an, in einer 50/50 Chance welche Spezies das Kind angehört</Children_MixedSpeciesChildrenAllowed_Desc>
+
+	<Children_ShowChildSpeciesDialogIfUnclearEnabled_Title>Spezies-Dialog anzeigen wenn unklar</Children_ShowChildSpeciesDialogIfUnclearEnabled_Title>
+	<Children_ShowChildSpeciesDialogIfUnclearEnabled_Desc>Es kann vorkommen das die Spezies der Eltern nicht zu 100% ermittelt werden kann, in diesen Fällen öffnet sich ein Fenster in dem diese ausgewählt werden kann.</Children_ShowChildSpeciesDialogIfUnclearEnabled_Desc>
+
+	<Children_AlwaysShowChildSpeciesDialogEnabled_Title>Spezies-Dialog immer anzeigen</Children_AlwaysShowChildSpeciesDialogEnabled_Title>
+	<Children_AlwaysShowChildSpeciesDialogEnabled_Desc>Es kann vorkommen das die Spezies der Eltern nicht zu 100% ermittelt werden kann, in diesen Fällen öffnet sich ein Fenster in dem diese ausgewählt werden kann.</Children_AlwaysShowChildSpeciesDialogEnabled_Desc>
+	
+	<Children_AndroidChildrenAllowed_Title>Androiden erlaubt</Children_AndroidChildrenAllowed_Title>
+	<Children_AndroidChildrenAllowed_Desc>[Spiel neu laden!]Können Androiden Kinder haben? (Das Spiel muss neu geladen werden!)</Children_AndroidChildrenAllowed_Desc>
+
+	<Children_DroidChildrenAllowed_Title>Roboter erlaubt</Children_DroidChildrenAllowed_Title>
+	<Children_DroidChildrenAllowed_Desc>[Spiel neu laden!]Können Roboter Kinder haben? (Das Spiel muss neu geladen werden!)</Children_DroidChildrenAllowed_Desc>
+
+	<Children_AvaliChildrenAllowed_Title>Avali erlaubt</Children_AvaliChildrenAllowed_Title>
+	<Children_AvaliChildrenAllowed_Desc>Die Avali haben eigene Routinen um Kinder zu bekommen.</Children_AvaliChildrenAllowed_Desc>
+
+	<Children_VampireChildrenAllowed_Title>Vampire erlaubt</Children_VampireChildrenAllowed_Title>
+	<Children_VampireChildrenAllowed_Desc>Können Vampire Kinder haben?</Children_VampireChildrenAllowed_Desc>
+	
+	<Children_VampireChildrenAreVampires_Title>Vampirismus vererbt</Children_VampireChildrenAreVampires_Title>
+	<Children_VampireChildrenAreVampires_Desc>Sind Kinder von Vampiren auch Vampire?</Children_VampireChildrenAreVampires_Desc>
+	
+	<Children_WerewolfChildrenAreWerewolfs_Title>Werwolf vererbt</Children_WerewolfChildrenAreWerewolfs_Title>
+	<Children_WerewolfChildrenAreWerewolfs_Desc>Sind Kinder von Werwölfen auch Werwölfe?</Children_WerewolfChildrenAreWerewolfs_Desc>
+	
+	<Children_WerewolfChildrenMinAgeFirstTransformation_Title>Werwolf min. Alter</Children_WerewolfChildrenMinAgeFirstTransformation_Title>
+	<Children_WerewolfChildrenMinAgeFirstTransformation_Desc>Ab welchem Alter transformieren sich Werwolf-Kinder zum ersten mal?</Children_WerewolfChildrenMinAgeFirstTransformation_Desc>
+	
+	<Children_WerewolfChildrenPregnancyDuration_Title>Werwolf: Schwangerschaftsdauer</Children_WerewolfChildrenPregnancyDuration_Title>
+	<Children_WerewolfChildrenPregnancyDuration_Desc>0 - 100% der normalen Dauer (100% = kein Unterschied zur normalen Dauer)</Children_WerewolfChildrenPregnancyDuration_Desc>
+
+	<Children_PostpartumEnabled_Title>Postpartum hinzufügen</Children_PostpartumEnabled_Title>
+	<Children_PostpartumEnabled_Desc>Fügt einen Debuff der Fruchtbarkeit hinzu der über eine Dauer von 50 Tagen geht und 3 Phasen hat (-100%,-80%,-50%)</Children_PostpartumEnabled_Desc>
+
+	<Children_NoMiscarriageEnabled_Title>Fehlgeburten deaktivieren</Children_NoMiscarriageEnabled_Title>
+	<Children_NoMiscarriageEnabled_Desc>Deaktiviert die Möglichkeit einer Fehlgeburt(vom Basisspiel) für Menschen/menschenähnliche Kolonisten</Children_NoMiscarriageEnabled_Desc>
+
+	<Children_OneChildEnabled_Title>'Hatte bereits einmal Kinder' Option</Children_OneChildEnabled_Title>
+	<Children_OneChildEnabled_Desc>Deaktiviert Fruchtbarkeit nach der Gebuhrt, so dass jeder nur einmal Kinder bekommt. (Dies kann durch eine Operation entfernt werden. Braucht einen Neustart des Spiels!)</Children_OneChildEnabled_Desc>
+
+	<Children_ShowFatherEnabled_Title>Vater anzeigen</Children_ShowFatherEnabled_Title>
+	<Children_ShowFatherEnabled_Desc>Zeigt den Vater im Gesundheits-Tab an</Children_ShowFatherEnabled_Desc>
+	
+	<Children_DebugTickDisabled_Title>Sex-Chancen boost abschalten</Children_DebugTickDisabled_Title>
+	<Children_DebugTickDisabled_Desc>Es ist möglich, dass es ein Problem mit den Chancen im Basis-Spiel gibt, deswegen boosted die Mod diese</Children_DebugTickDisabled_Desc>
+		
+	<Children_RandomBackstoryEnabled_Title>Zufälliger Hintergrund (Kindheit)</Children_RandomBackstoryEnabled_Title>
+	<Children_RandomBackstoryEnabled_Desc>Wählt einen zufälligen Hintergrund der einigermaßen passend ist statt: 'Kind der Kolonie'</Children_RandomBackstoryEnabled_Desc>
+		
+	<GeneratedChildrenInheritPercentage_Title>Fähigkeiten vererben in %</GeneratedChildrenInheritPercentage_Title>
+	<GeneratedChildrenInheritPercentage_Desc>Prozentanteil mit dem Fähigkeiten der Eltern vererbt werden (0=Alle Fähigkeiten Level 1) ((Elternteil1 + Elternteil2 Fähigkeitslevel / 2) * Prozentsatz) (Zufällig=Normale Fähigkeitsverteilung)</GeneratedChildrenInheritPercentage_Desc>
+
+	<GeneratedChildrenInheritPercentage_Desc_0>0%</GeneratedChildrenInheritPercentage_Desc_0>
+	<GeneratedChildrenInheritPercentage_Desc_25>25%</GeneratedChildrenInheritPercentage_Desc_25>
+	<GeneratedChildrenInheritPercentage_Desc_50>50%</GeneratedChildrenInheritPercentage_Desc_50>
+	<GeneratedChildrenInheritPercentage_Desc_75>75%</GeneratedChildrenInheritPercentage_Desc_75>
+	<GeneratedChildrenInheritPercentage_Desc_100>100%</GeneratedChildrenInheritPercentage_Desc_100>
+	<GeneratedChildrenInheritPercentage_Desc_RandomSkills>Zufällige Fähigkeiten</GeneratedChildrenInheritPercentage_Desc_RandomSkills>
+	<GeneratedChildrenInheritPercentage_Desc_StrongestAndRandom>Erbe 3 besten +Zufällig</GeneratedChildrenInheritPercentage_Desc_StrongestAndRandom>
+	
+	<GeneratedChildrenInheritTraits_Title>Charaktereigenschaftsvererbung</GeneratedChildrenInheritTraits_Title>
+	<GeneratedChildrenInheritTraits_Desc>Legt fest welche und wie Eigenschaften vererbt werden</GeneratedChildrenInheritTraits_Desc>
+
+	<GeneratedChildrenInheritTraits_Desc_NoTraits>Keine</GeneratedChildrenInheritTraits_Desc_NoTraits>
+	<GeneratedChildrenInheritTraits_Desc_InheritedTraits>Vererbte</GeneratedChildrenInheritTraits_Desc_InheritedTraits>
+	<GeneratedChildrenInheritTraits_Desc_InheritedAndRandomTraits>Vererbte und zufällige</GeneratedChildrenInheritTraits_Desc_InheritedAndRandomTraits>
+	<GeneratedChildrenInheritTraits_Desc_RandomTraits>Zufällige</GeneratedChildrenInheritTraits_Desc_RandomTraits>
+
+	<GeneratedChildrenInheritTraitCount_Title>Anzahl vererbter Charaktereigenschaften</GeneratedChildrenInheritTraitCount_Title>
+	<GeneratedChildrenInheritTraitCount_Desc>Wenn 'Charaktereigenschaften vererben' aktiv ist ('Max. Charaktereigenschaften' entfernt manche dieser wieder, wenn über dem Limit)</GeneratedChildrenInheritTraitCount_Desc>
+
+	<GeneratedChildrenInheritTraitCount_Desc_1each>1 von jedem</GeneratedChildrenInheritTraitCount_Desc_1each>
+	<GeneratedChildrenInheritTraitCount_Desc_2each>2 von jedem</GeneratedChildrenInheritTraitCount_Desc_2each>
+	<GeneratedChildrenInheritTraitCount_Desc_3each>3 von jedem</GeneratedChildrenInheritTraitCount_Desc_3each>
+	<GeneratedChildrenInheritTraitCount_Desc_1father>1 vom Vater</GeneratedChildrenInheritTraitCount_Desc_1father>
+	<GeneratedChildrenInheritTraitCount_Desc_2father>2 vom Vater</GeneratedChildrenInheritTraitCount_Desc_2father>
+	<GeneratedChildrenInheritTraitCount_Desc_3father>3 vom Vater</GeneratedChildrenInheritTraitCount_Desc_3father>
+	<GeneratedChildrenInheritTraitCount_Desc_1mother>1 von der Mutter</GeneratedChildrenInheritTraitCount_Desc_1mother>
+	<GeneratedChildrenInheritTraitCount_Desc_2mother>2 von der Mutter</GeneratedChildrenInheritTraitCount_Desc_2mother>
+	<GeneratedChildrenInheritTraitCount_Desc_3mother>3 von der Mutter</GeneratedChildrenInheritTraitCount_Desc_3mother>
+	<GeneratedChildrenInheritTraitCount_Desc_all>Alle vererben</GeneratedChildrenInheritTraitCount_Desc_all>
+	
+	<GeneratedChildrenTraitMax_Title>Max. Charaktereigenschaften</GeneratedChildrenTraitMax_Title>
+	<GeneratedChildrenTraitMax_Desc>Definiert die maximale Anzahl von Charaktereigenschaften (Es werden zufällig so lange Eigenschaften entfernt bis die Anzahl erreicht ist)</GeneratedChildrenTraitMax_Desc>
+	
+	<GeneratedChildrenTraitMax_Desc_One>1</GeneratedChildrenTraitMax_Desc_One>
+	<GeneratedChildrenTraitMax_Desc_Two>2</GeneratedChildrenTraitMax_Desc_Two>
+	<GeneratedChildrenTraitMax_Desc_Three>3 (Default)</GeneratedChildrenTraitMax_Desc_Three>
+	<GeneratedChildrenTraitMax_Desc_Four>4</GeneratedChildrenTraitMax_Desc_Four>
+	<GeneratedChildrenTraitMax_Desc_Five>5</GeneratedChildrenTraitMax_Desc_Five>
+	<GeneratedChildrenTraitMax_Desc_NoLimit>Kein Limit</GeneratedChildrenTraitMax_Desc_NoLimit>
+	
+	<GeneratedChildrenTraitScenario_Title>Szenario-Charaktereigenschaften</GeneratedChildrenTraitScenario_Title>
+	<GeneratedChildrenTraitScenario_Desc>Die anderen Charaktereigenschaften-Einstellungen können verhindern das diese korrekt erhalten werden oder Szenario-Charaktereigenschaften die nur am Start des Spiel gesetzt werden, werden standardmäßig nicht an Kinder weitergegeben - diese Einstellung reaktiviert diese Funktion.</GeneratedChildrenTraitScenario_Desc>
+	
+	<GeneratedChildrenTraitScenario_Desc_Off>Funktion abgeschaltet</GeneratedChildrenTraitScenario_Desc_Off>
+	<GeneratedChildrenTraitScenario_Desc_OnTop>Nach max. Charaktereigenschaften</GeneratedChildrenTraitScenario_Desc_OnTop>
+	<GeneratedChildrenTraitScenario_Desc_Inherit>Vererbt vor max. Charaktereigenschaften</GeneratedChildrenTraitScenario_Desc_Inherit>
+	<GeneratedChildrenTraitScenario_Desc_InheritOnTop>Vererbt nach max. Charaktereigenschaften (Standard)</GeneratedChildrenTraitScenario_Desc_InheritOnTop>
+	
+	<GeneratedChildrenLastName_Title>Nachnname</GeneratedChildrenLastName_Title>
+	<GeneratedChildrenLastName_Desc>Legt fest von wem das Kind den Nachnamen bekommt</GeneratedChildrenLastName_Desc>
+
+	<GeneratedChildrenLastName_Desc_NameMother>Mutter</GeneratedChildrenLastName_Desc_NameMother>
+	<GeneratedChildrenLastName_Desc_NameFather>Vater</GeneratedChildrenLastName_Desc_NameFather>
+	
+	<SchoolsOutMinFireDanger_Title>(Schulgebiet) Schulfrei wegen Feuergefahr</SchoolsOutMinFireDanger_Title>
+	<SchoolsOutMinFireDanger_Desc>Definiert ab welchem Feuerrisiko das Schulgebiet in der Schulzeit nicht länger berücksichtigt wird.</SchoolsOutMinFireDanger_Desc>
+
+	<SchoolsOutMinFireDanger_Desc_AllFires0>Alle Feuer</SchoolsOutMinFireDanger_Desc_AllFires0>
+	<SchoolsOutMinFireDanger_Desc_SmallFire30>Kleine Feuer</SchoolsOutMinFireDanger_Desc_SmallFire30>
+	<SchoolsOutMinFireDanger_Desc_MediumFire60>Mittlere Feuer</SchoolsOutMinFireDanger_Desc_MediumFire60>
+	<SchoolsOutMinFireDanger_Desc_LargeFire90>Große Feuer</SchoolsOutMinFireDanger_Desc_LargeFire90>
+	<SchoolsOutMinFireDanger_Desc_Off999>Aus (Ignoriert Feuer)</SchoolsOutMinFireDanger_Desc_Off999>
+	
+	<Children_TeacherNotTeaching>Kein lehrender Lehrer oder anderes Studienfach</Children_TeacherNotTeaching>
+	<Children_MissingTeacher>Kein Lehrer</Children_MissingTeacher>
+	<Children_MissingBlackboard>Keine Tafel gefunden</Children_MissingBlackboard>
+	
+	<Children_PawnToYoungSeeOptions>Zu jung, siehe Mod-Optionen</Children_PawnToYoungSeeOptions>
+	<Children_PawnToOldSeeOptions>Zu alt, siehe Mod-Optionen</Children_PawnToOldSeeOptions>
+	
+	<ChildrenMessageMedicalOperationPregFailure>{1} konnte nicht künstlich Schwanger werden, Grund: {0}</ChildrenMessageMedicalOperationPregFailure>
+	<ChildrenMessageMedicalOperationPregFailureMale>{1} konnte nicht künstlich Schwanger werden weil er ein Mann ist</ChildrenMessageMedicalOperationPregFailureMale>
+	<ChildrenMessageMedicalOperationPregFailureFertile>{1} hat keine Fruchtbarkeit und konnte nicht künstlich Schwanger werden</ChildrenMessageMedicalOperationPregFailureFertile>
+	
+	<ChildrenMessageMedicalOperationPregSuccessPartner>{1} ist nun künstlich Schwanger von {0}</ChildrenMessageMedicalOperationPregSuccessPartner>
+	<ChildrenMessageMedicalOperationPregSuccessSelf>{1} ist nun künstlich Schwanger ohne einen Partner</ChildrenMessageMedicalOperationPregSuccessSelf>
+	
+	<ChildrenMessageMedicalOperationRemovePregFailure>{1} war nicht Schwanger (Die Operation hatte keine Auswirkungen)</ChildrenMessageMedicalOperationRemovePregFailure>
+	<ChildrenMessageMedicalOperationRemovePregSuccess>Die Schwanger von {1} wurde erfolgreich durch die Operation abgebrochen</ChildrenMessageMedicalOperationRemovePregSuccess>
+	
+	<ChildrenMessageMedicalOperationDiscoverPregFailure>{1} ist nicht Schwanger</ChildrenMessageMedicalOperationDiscoverPregFailure>
+	<ChildrenMessageMedicalOperationDiscoverPregSuccess>{1} ist Schwanger! ({2} bis zur Gebuhrt)</ChildrenMessageMedicalOperationDiscoverPregSuccess>
+		
+	<ChildrenMessageMedicalOperationRemoveOneChildFailure>{1} hatte keinen 'Hatte bereits einmal Kinder' debuff (Die Operation hatte keine Auswirkungen)</ChildrenMessageMedicalOperationRemoveOneChildFailure>
+	<ChildrenMessageMedicalOperationRemoveOneChildSuccess>Der 'Hatte bereits einmal Kinder' debuff von {1} wurde erfolgreich durch die Operation entfernt</ChildrenMessageMedicalOperationRemoveOneChildSuccess>
+	
+	<ChildrenMessageNotLearningMuch>{1} lernt nicht mehr viel von {0} (Nachricht kann deaktiviert werden)</ChildrenMessageNotLearningMuch>
+	
+	<ChildrenMessageOldEnoughToWork>{1} ist nun alt genug zum arbeiten</ChildrenMessageOldEnoughToWork>
+	
+	<Children_PawnSizeEnabled_Title>Skalieren aktivieren</Children_PawnSizeEnabled_Title>
+	<Children_PawnSizeEnabled_Desc>[Spiel neu laden!]Jüngere Kolonisten werden, basierend auf ihrem alter, kleiner gezeichnet. (Das Spiel muss neu geladen werden!)</Children_PawnSizeEnabled_Desc>
+				
+	<Children_NoWorkYoungEnabled_Title>Junge Kinder können nicht arbeiten</Children_NoWorkYoungEnabled_Title>
+	<Children_NoWorkYoungEnabled_Desc>[Spiel neu laden!]Junge Kinder können keine Arbeiten durchführen (Menschen 0-3 / solbald sie 4 Jahre alt sind können sie Arbeiten). (Das Spiel muss neu geladen werden!)</Children_NoWorkYoungEnabled_Desc>
+				
+	<Children_NotLearningMessageEnabled_Title>Nachricht: Lernt nicht mehr viel</Children_NotLearningMessageEnabled_Title>
+	<Children_NotLearningMessageEnabled_Desc>Nachricht anzeigen: 'X lernt nicht mehr viel von Y'</Children_NotLearningMessageEnabled_Desc>
+		
+	<Children_AlwaysRenameFirstNameEnabled_Title>Umbennenung immer aktivieren</Children_AlwaysRenameFirstNameEnabled_Title>
+	<Children_AlwaysRenameFirstNameEnabled_Desc>Ermöglicht es den Namen von jedem Kolonisten zu ändern, aber überschreibt den normalen Namensdialog (Hauptsächlich um Kinder umzubennen, welche, bevor es diese Funktion gab, entstanden sind)</Children_AlwaysRenameFirstNameEnabled_Desc>
+	
+	<Children_DebugInfoMessagesEnabled_Title>Debug-Nachrichten loggen</Children_DebugInfoMessagesEnabled_Title>
+	<Children_DebugInfoMessagesEnabled_Desc>Debug-Nachrichten loggen</Children_DebugInfoMessagesEnabled_Desc>
+		
+	<Children_DebugErrorMessagesEnabled_Title>Fehler-Nachrichten loggen</Children_DebugErrorMessagesEnabled_Title>
+	<Children_DebugErrorMessagesEnabled_Desc>Fehler-Nachrichten loggen</Children_DebugErrorMessagesEnabled_Desc>
+		
+	<Children_RemoveMod_Title>Mod entfernen</Children_RemoveMod_Title>
+	<Children_RemoveMod_Desc>Öffnet ein neues Fenster mit dem die meisten Teile der Mod vom aktuellen Spiel entfernt werden können. (Muss in einem laufenden Spiel angeklickt werden)</Children_RemoveMod_Desc>	
+		
+	<Children_RemoveModMessage>Es wird versucht die meisten Teile der Mod von diesem Spiel zu entfernen. Nach dem Abschluss sollte das Spiel gespeichert werden bevor irgendetwas anderes angeklickt wird und danach sollte die Mod in der Modliste deaktiviert werden. (Es werden einige Fehlermeldungen beim ersten Laden des Spiel angezeigt werden (möglicherweise auch beim ersten Speichern), dies sollten aber keine großen Probleme sein)</Children_RemoveModMessage>
+	<Children_RemoveModCompeted>Die meisten Teile der Mod sollten jetzt entfernt worden sein. Das Spiel sollte gespeichert werden bevor irgendetwas anderes angeklickt wird.</Children_RemoveModCompeted>
+		
+	<Children_FixBrokenMap_Title>Versuche Karte zu reparieren</Children_FixBrokenMap_Title>
+	<Children_FixBrokenMap_Desc>Versucht die aktuell geladene Karte zu reparieren wenn diese durch inkorrektes entfernen der Mod nicht mehr läd (setzt alle zonen auf dieser Karte zurück - die Mod muss danach immer noch korrekt entfernt werden!)</Children_FixBrokenMap_Desc>	
+	
+	<ChildrenMessageSecondMother>2. Mutter</ChildrenMessageSecondMother>
+	<ChildrenMessagePartner>Partner</ChildrenMessagePartner>
+	<ChildrenMessageFather>Vater</ChildrenMessageFather>
+	<ChildrenMessageNoPartner>Kein Partner</ChildrenMessageNoPartner>
+	
+	<ChildrenMessageChooseSpecies>Wähle die Spezies für die Kinder von {0}</ChildrenMessageChooseSpecies>
+	<ChildrenMessageChooseSpeciesInfo>(Dieser Dialog wird angezeigt, weil die Spezies nicht zu 100% festegestellt werden konnte)</ChildrenMessageChooseSpeciesInfo>
+	<ChildrenMessageChooseSpeciesButton>Gewählte Spezies: </ChildrenMessageChooseSpeciesButton>
+
+	<Children_School>Schule</Children_School>
+	
+	<Children_SchoolTooltipOverride>Überschrieben durch Schulzeit</Children_SchoolTooltipOverride>
+	
+	<Children_DesignatorAreaSchoolExpand>Schulgebiet erweitern</Children_DesignatorAreaSchoolExpand>
+	<Children_DesignatorAreaSchoolExpandDesc>Kolonisten, die eine Schulzeit zugewiesen haben, werden in dieser Zeit in dem festgelegten Gebiet eingeschlossen.</Children_DesignatorAreaSchoolExpandDesc>
+	<Children_DesignatorAreaSchoolClear>Schulgebiet verkleinern</Children_DesignatorAreaSchoolClear>
+	<Children_DesignatorAreaSchoolClearDesc>Schulgebiet verkleinern</Children_DesignatorAreaSchoolClearDesc>
+	
+</LanguageData>

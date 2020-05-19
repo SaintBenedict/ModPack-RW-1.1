@@ -1,0 +1,9 @@
+Z:\Git\JecsTools\Assemblies\PawnShields.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.csprojAssemblyReference.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\PawnShields.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\PawnShields\obj\Debug\PawnShields.dll

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Medical IV</name>
+	<packageId>leion247138.MedicalHIV</packageId>
+	<author>leion247</author>
+	<supportedVersions>
+			<li>1.0</li>
+			<li>1.1</li>
+	</supportedVersions>
+	<description>Adds medical IV for early game medical rooms. They work with all beds, but not the sleeping spot.</description>
+</ModMetaData>

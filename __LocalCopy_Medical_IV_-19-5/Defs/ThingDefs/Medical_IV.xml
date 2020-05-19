@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================= Medical IV ======================= -->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>MedicalIV</defName>
+    <label>medical IV</label>
+    <graphicData>
+      <texPath>Things/Building/Medical_IV</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <offset>(0,0,-0.3)</offset>
+        <volume>(0.3, 0.3, 0.4)</volume>
+      </shadowData>
+      <damageData>
+        <rectN>(0.078125,0.46875,0.859375,0.53125)</rectN>
+        <rectS>(0.078125,0.46875,0.859375,0.53125)</rectS>
+        <rectE>(0.125,0.46875,0.625,0.296875)</rectE>
+        <rectW>(0.25,0.46875,0.625,0.296875)</rectW>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>SterileMaterials</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a bed.</description>
+    <size>(1,1)</size>
+    <costList>
+		<Steel>75</Steel>
+    </costList>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+	<building>
+		<ai_chillDestination>false</ai_chillDestination>
+	</building>
+    <comps>
+		<li Class="CompProperties_Facility">
+			<statOffsets>
+				<MedicalTendQualityOffset>0.025</MedicalTendQualityOffset>
+				<ImmunityGainSpeedFactor>0.01</ImmunityGainSpeedFactor>
+				<SurgerySuccessChanceFactor>0.05</SurgerySuccessChanceFactor>
+			</statOffsets>
+			<maxSimultaneous>1</maxSimultaneous>
+			<mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+		</li>
+	</comps>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+	</placeWorkers>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>

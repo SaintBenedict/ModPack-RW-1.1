@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_AdvancedDrillArm.label>advanced drill arm</EPOE_AdvancedDrillArm.label>
+<EPOE_AdvancedDrillArm.description>A upgraded mechanical arm replacement for speeding up mining. It has a built-in snake drill, which allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. Capable of packing itself into a manageable compact form when not drilling, no longer as ungainly and slowing down movement like its original model.</EPOE_AdvancedDrillArm.description>
+
+<EPOE_AdvancedFieldHand.label>advanced field hand</EPOE_AdvancedFieldHand.label>
+<EPOE_AdvancedFieldHand.description>This upgraded mechanical hand replacement is made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. Capable of packing itself into a manageable compact form when not doing plant work, no longer as ungainly and slowing down movement like its original model.</EPOE_AdvancedFieldHand.description>
+
+<EPOE_AdvancedHandTalon.label>advanced bionic hand talon</EPOE_AdvancedHandTalon.label>
+<EPOE_AdvancedHandTalon.description>A modified razor-sharp talon which extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the palm of the bionic hand.\n\nThe material of the hand talon is replaced by a special flexible piece of alloy that is found as a component of the Scyther blade. The increased flexibility, a newly added micro-computer to further support the bionic hand movements in close combat, have made this weaponized bionic into a deadly accurate melee combat support weapon.</EPOE_AdvancedHandTalon.description>
+
+<EPOE_AdvancedElbowBlade.label>advanced bionic elbow blade</EPOE_AdvancedElbowBlade.label>
+<EPOE_AdvancedElbowBlade.description>A replaced razor-sharp blade, originally from a deadly Scyther mechanoid, that extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks.\n\nThe more efficient Scyther blade have replaced the original blade in the previous bionic elbow blade model, making it more deadlier in melee combat.</EPOE_AdvancedElbowBlade.description>
+
+<EPOE_AdvancedKneeSpike.label>advanced bionic knee spike</EPOE_AdvancedKneeSpike.label>
+<EPOE_AdvancedKneeSpike.description>A modified spike that extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks.\n\nBy reshaping the deadlier Scyther blade into a spike, the penetration power of this bionic weapon is increased, dealing more damage.</EPOE_AdvancedKneeSpike.description>
+
+</LanguageData>

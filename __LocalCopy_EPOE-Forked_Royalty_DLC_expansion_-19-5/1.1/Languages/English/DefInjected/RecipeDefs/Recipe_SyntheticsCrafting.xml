@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPIA_UpgradeDetoxifierSyntheticLiver.label>assemble synthetic detoxifier liver</EPIA_UpgradeDetoxifierSyntheticLiver.label>
+<EPIA_UpgradeDetoxifierSyntheticLiver.description>Upgrade synthetic liver into synthetic detoxifier liver.</EPIA_UpgradeDetoxifierSyntheticLiver.description>
+<EPIA_UpgradeDetoxifierSyntheticLiver.jobString>Upgrading synthetic liver.</EPIA_UpgradeDetoxifierSyntheticLiver.jobString>
+
+<EPIA_UpgradeImmunoenhancerSyntheticKidney.label>assemble synthetic immunoenhanced kidney</EPIA_UpgradeImmunoenhancerSyntheticKidney.label>
+<EPIA_UpgradeImmunoenhancerSyntheticKidney.description>Upgrade synthetic kidney into synthetic immunoenhanced kidney.</EPIA_UpgradeImmunoenhancerSyntheticKidney.description>
+<EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>Upgrading synthetic kidney.</EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>
+
+</LanguageData>

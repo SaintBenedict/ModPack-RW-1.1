@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ModMetaData>
+	<name>Planetside Politics plus Religions</name>
+	<author>LegendaryMinuteman</author>
+		<supportedVersions>
+			<li>1.1</li>
+			<li>1.0</li>
+		</supportedVersions>
+	<packageId>LegendaryMinuteman.PPPR</packageId>
+	<url></url>
+	<description>Adds political ideologies as traits which create harmony or conflict among pawns.  With the addition of religions as well.
+Version 1.1.4</description>
+  </ModMetaData>

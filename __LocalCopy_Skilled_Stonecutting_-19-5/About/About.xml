@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Skilled Stonecutting</name>
+  <author>PinoChemicali</author>
+  <packageId>PinoChemicali.SkilledStonecutting</packageId>
+  <url>http://www.nexusmods.com/rimworld/mods/227/</url>
+  <supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+  </supportedVersions>
+  <description>Makes stonecutting give crafting skill increases (again). Also makes more skilled crafters create blocks more quickly.
+Note that the experience is gained all at once when a stonecutting job finishes.
+</description>
+</ModMetaData>

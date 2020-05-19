@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Torture Thoughts -->
+  
+  <ThoughtDef>
+    <defName>WCE2_SuturedEye</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_SuturedEye</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<stackLimit>2</stackLimit>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>sutured eye</label>
+			<description>My eye is sutured shut.  It itches, and I can't see! I want to open it, but trying hurts.</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>RC22_SuturedMouth</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_SuturedMouth</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>sutured mouth</label>
+			<description>I can't talk and I have to eat through a straw.  I just want to open my mouth and scream!</description>
+			<baseMoodEffect>-6</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_BadBack</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_BadBack</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<stackLimit>1</stackLimit>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>crooked back</label>
+			<description>They.. broke my back. It hurts so much and it hurts to move! I just want the pain to go away.</description>
+			<baseMoodEffect>-8</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_SteelSpikes</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_SteelSpikes</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+		<li>
+			<label>embedded steel spikes</label>
+			<description>Arrrghh they implanted steel spikes in my body.  It fucking hurts! That being said.. I could probably stab someone with these.</description>
+			<baseMoodEffect>-8</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_HearingLoss</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_HearingLoss</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<stackLimit>2</stackLimit>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>punctured eardrums</label>
+			<description>My ears! I can't hear very well anymore after they stabbed something sharp in there.</description>
+			<baseMoodEffect>-2</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_Blindness</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_Blindness</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<stackLimit>2</stackLimit>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>gouged eye</label>
+			<description>My eye were gouged out with a sharp piece of metal!</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_BashedTeeth</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_BashedTeeth</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>knocked out teeth</label>
+			<description>They went in and ripped my teeth out!</description>
+			<baseMoodEffect>-8</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_CutoutTongue</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_CutoutTongue</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>cut tongue out</label>
+			<description>Ey ut mah ung out!</description>
+			<baseMoodEffect>-8</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_MangledHand</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_MangledHand</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<stackLimit>2</stackLimit>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>mangled hand</label>
+			<description>They broke and rebroke my hand! I can't grasp things nearly as well as before and it hurts to try!</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_MutilatedFace</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_MutilatedFace</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>mutilated face</label>
+			<description>My face.. I'm so ugly now..</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_SlaveBrand</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_Branded</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+			<label>branded as slave</label>
+			<description>I have a slave brand on my neck.  It itches a bit, and people keep giving me dirty looks.</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_Lobotomized</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_Lobotomized</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+			<label>lobotomized</label>
+			<description>Ungh! Nurhuuurrduur!</description>
+			<baseMoodEffect>500</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_Vivisected</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_Vivisected</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>vivisected</label>
+			<description>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHH!!!! AAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!</description>
+			<baseMoodEffect>-150</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Implant Thoughts -->
+  
+  <ThoughtDef>
+    <defName>WCE2_HeartIrregulator</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_HeartIrregulator</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>heart palpatations</label>
+			<description>Ugh my heart feels funny, like its skipping a beat or beating too fast.</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_SleepDeprivator</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_SleepDeprivator</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>sleep deprivation</label>
+			<description>I can't sleep very well and I get tired easy.  What did they put in me?! I just want a good night's sleep again..</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_AggressionAmplifier</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_AggressionAmplifier</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+	  <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>aggression amplifier</label>
+			<description>I'm just so.. ANGRY all the time! Ugh I just want to hit something or hurt someone!</description>
+			<baseMoodEffect>-20</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_PanicInducer</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_PanicInducer</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>anxious</label>
+			<description>They put something in me.. I keep feeling I'm on the verge of a panic attack.</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_StomachClamp</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_StomachClamp</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>stomach cramps</label>
+			<description>Ever since I underwent that surgery I just feel like I have a constant stomach ache and want to barf..</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_HealingInhibitor</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_HealingInhibitor</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>healing inhibitor</label>
+			<description>I feel all woozy and every time I get even a little cut, it just doesn't seem to want to heal.</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_CoagulantSuppressor</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_CoagulantSuppressor</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>coagulant suppressor</label>
+			<description>It won't stop bleeding!!!</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_EmotionDestabilizer</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_EmotionDestabilizer</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>super emotional</label>
+			<description>I'm like, suuuuuper emotional AND I CAN'T FUCKING STOP!</description>
+			<baseMoodEffect>-10</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_MemoryExpulsor</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_MemoryExpulsor</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>forgetful</label>
+			<description>Uh.. what was I doing again?</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>WCE2_EMPRelay</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>WCE2_EMPRelay</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+	<nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+			<label>static buzz</label>
+			<description>They put something in my head.. and I think I'm picking up radio signals.  I can't shut them up either!</description>
+			<baseMoodEffect>-5</baseMoodEffect>
+		</li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

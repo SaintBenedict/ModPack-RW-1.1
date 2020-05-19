@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallEPOE_ScytherHandTalon.label>install bionic hand talon</InstallEPOE_ScytherHandTalon.label>
+<InstallEPOE_ScytherHandTalon.description>Install a bionic hand talon.</InstallEPOE_ScytherHandTalon.description>
+<InstallEPOE_ScytherHandTalon.jobString>Installing bionic hand talon.</InstallEPOE_ScytherHandTalon.jobString>
+
+<InstallEPOE_ScytherElbowBlade.label>install bionic elbow blade</InstallEPOE_ScytherElbowBlade.label>
+<InstallEPOE_ScytherElbowBlade.description>Install a bionic elbow blade.</InstallEPOE_ScytherElbowBlade.description>
+<InstallEPOE_ScytherElbowBlade.jobString>Installing bionic elbow blade.</InstallEPOE_ScytherElbowBlade.jobString>
+
+<InstallEPOE_ScytherKneeSpike.label>install bionic knee spike</InstallEPOE_ScytherKneeSpike.label>
+<InstallEPOE_ScytherKneeSpike.description>Install a bionic knee spike.</InstallEPOE_ScytherKneeSpike.description>
+<InstallEPOE_ScytherKneeSpike.jobString>Installing bionic knee spike.</InstallEPOE_ScytherKneeSpike.jobString>
+
+<EPIA_InstallCircadianRefresher.label>install circadian refresher</EPIA_InstallCircadianRefresher.label>
+<EPIA_InstallCircadianRefresher.description>Install a circadian refresher.</EPIA_InstallCircadianRefresher.description>
+<EPIA_InstallCircadianRefresher.jobString>Installing circadian refresher.</EPIA_InstallCircadianRefresher.jobString>
+
+<EPIA_RemoveCircadianRefresher.label>remove circadian refresher</EPIA_RemoveCircadianRefresher.label>
+<EPIA_RemoveCircadianRefresher.description>Remove circadian refresher.</EPIA_RemoveCircadianRefresher.description>
+<EPIA_RemoveCircadianRefresher.jobString>Removing circadian refresher.</EPIA_RemoveCircadianRefresher.jobString>
+
+</LanguageData>

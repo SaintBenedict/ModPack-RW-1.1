@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>Religions_UnfinishedApologetic</defName>
+    <label>unfinished apologetic</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedPolemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.RaceSettings>
+        <defName>astorielRaceSettings</defName>
+            <pawnKindSettings>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>AstorielColonist</li>
+                    </kindDefs>
+                    <chance>20.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+						<li>AstorielHunter</li>
+						<li>AstorielCommando</li>
+						<li>AstorielColonist</li>
+						<li>AstorielCommandoElite</li>
+						<li>AstorielRecruit</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </alienrefugeekinds>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+								<li>AstorielHunter</li>
+								<li>AstorielCommando</li>
+								<li>AstorielColonist</li>
+								<li>AstorielCommandoElite</li>
+								<li>AstorielRuler</li>
+								<li>AstorielRecruit</li>
+                            </kindDefs>
+                            <chance>50.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+</AlienRace.RaceSettings>
+</Defs>

@@ -1,0 +1,10 @@
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\bin\x86\Release\DeathRattle.dll
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\bin\x86\Release\DeathRattle.pdb
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\bin\x86\Release\0Harmony.dll
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\bin\x86\Release\HugsLib.dll
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\bin\x86\Release\HugsLib.xml
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\obj\x86\Release\DeathRattle.csprojAssemblyReference.cache
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\obj\x86\Release\DeathRattle.csproj.CoreCompileInputs.cache
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\obj\x86\Release\DeathRattle.csproj.CopyComplete
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\obj\x86\Release\DeathRattle.dll
+C:\workspace\rimworld\DeathRattle\Source\DeathRattle\obj\x86\Release\DeathRattle.pdb

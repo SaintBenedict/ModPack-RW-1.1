@@ -1,0 +1,5 @@
+D:\Steam\steamapps\common\RimWorld\Mods\DeathRattle\Source\DeathRattle\bin\Release\DeathRattle.dll
+D:\Steam\steamapps\common\RimWorld\Mods\DeathRattle\Source\DeathRattle\bin\Release\DeathRattle.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\DeathRattle\Source\DeathRattle\obj\Release\DeathRattle.dll
+D:\Steam\steamapps\common\RimWorld\Mods\DeathRattle\Source\DeathRattle\obj\Release\DeathRattle.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\DeathRattle\Source\DeathRattle\obj\Release\DeathRattle.csprojResolveAssemblyReference.cache

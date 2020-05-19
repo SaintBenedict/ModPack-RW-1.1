@@ -1,0 +1,8 @@
+Z:\Git\JecsTools\Assemblies\CompDeflector.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompDeflector.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompDeflector\obj\Debug\CompDeflector.csprojAssemblyReference.cache

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+		<defName>Astoriel</defName>
+		<label>astoriel camp</label>
+    <description>A camp of the Astoriel, who have been here for quite while and consider most species to be lesser to them.\n\nThey are arogant and rarely deal with outsiders.</description>
+    <pawnsPlural>astoriel</pawnsPlural>
+	<fixedName>Astoriel</fixedName>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Ruler</leaderTitle>
+    <colorSpectrum>
+      <li>(1, 0.89, 0.44)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>10</min>
+      <max>40</max>
+    </startingGoodwill>
+    <pawnNameMaker>NamerAstorielUtility</pawnNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Ultra</techLevel>
+	<backstoryCategories><li>Astoriel</li></backstoryCategories>
+	<hairTags>
+			<li>Urban</li>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+	</hairTags>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Astoriel_Standard</li>
+    </visitorTraderKinds>
+   <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+	<maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <AstorielColonist>5</AstorielColonist>
+          <AstorielSecurityGuard>9</AstorielSecurityGuard>
+          <AstorielRuler>10</AstorielRuler>
+          <AstorielRecruit>1</AstorielRecruit>
+          <AstorielHunter>5</AstorielHunter>
+          <AstorielCommando>5</AstorielCommando>
+          <AstorielCommandoElite>1</AstorielCommandoElite>
+        </options>
+      </li>
+	  <li>
+      <kindDef>Trader</kindDef>
+        <traders>
+          <AstorielTrader>1</AstorielTrader>
+        </traders>
+        <carriers>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+        </carriers>
+        <guards>
+          <AstorielSecurityGuard>9</AstorielSecurityGuard>
+          <AstorielRecruit>1</AstorielRecruit>
+          <AstorielHunter>5</AstorielHunter>
+          <AstorielCommando>2</AstorielCommando>
+        </guards>
+      </li>
+	  <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AstorielColonist>1</AstorielColonist>
+          <AstorielSecurityGuard>8</AstorielSecurityGuard>
+          <AstorielRuler>1</AstorielRuler>
+          <AstorielRecruit>1</AstorielRecruit>
+          <AstorielHunter>5</AstorielHunter>
+          <AstorielCommando>5</AstorielCommando>
+          <AstorielCommandoElite>2</AstorielCommandoElite>
+        </options>
+      </li>
+	  <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AstorielColonist>2</AstorielColonist>
+          <AstorielSecurityGuard>5</AstorielSecurityGuard>
+          <AstorielRuler>1</AstorielRuler>
+          <AstorielRecruit>1</AstorielRecruit>
+          <AstorielHunter>5</AstorielHunter>
+          <AstorielCommando>3</AstorielCommando>
+          <AstorielCommandoElite>2</AstorielCommandoElite>
+        </options>
+      </li>
+    </pawnGroupMakers>
+	<factionIconPath>World/WorldObjects/AstorielFactionBase</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/AstorielFactionBase</settlementTexturePath>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Synthread</li>
+			<li>Hyperweave</li>
+		</thingDefs>
+	</apparelStuffFilter>
+  </FactionDef>
+
+</Defs>

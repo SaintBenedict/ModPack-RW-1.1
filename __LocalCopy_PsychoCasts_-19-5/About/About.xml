@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>PsychoCasts</name>
+	<author>BoeDankles</author>
+	<supportedVersions>
+	<li>1.1</li>
+	</supportedVersions>
+	<packageId>boe.psychocasts</packageId>
+	<description>
+V1.1
+Requires Royalty.
+
+This mod expands psycast abilities by adding a variety of new psycasts, and as well as a few minor changes to a few existing casts to improve their function. So far this mod adds 12 new psycasts, but there may be more to come.
+
+
+Additional Psycasts:
+
+Meditate, Level 1: Flush all thoughts from the caster's mind, rapidly draining entropy for a brief moment.
+5 entropy gain
+Very briefly increases the caster's entropy recovery rate, clears about twice as much entropy as it costs, though actual amount varies depending on caster's sensitivity.
+
+Rally, Level 1: Motivates everyone around the caster with a call to action, coupled with a wave psychic suggestions to enhance the effect.
+12 entropy gain
+Gives everyone in a radius around the caster a buff to all capacities, similar to a short lived luciferium high.
+
+Nausea, Level 2: Induce dizziness in the target, overwhelming them with nausea.
+18 entropy gain
+Forces the target to vomit for several seconds, does not work on mechs.
+
+Migraine, Level 2: Overload the target's senses, inducing a debilitating migraine.
+20 entropy gain
+Debuff that lowers consciousness by 15% and inflicts 10% pain to the brain, does not work on mechs.
+
+Pain Shock, Level 3: Stimulate pain receptors, causing pain and increasing sensitivity in the target.
+22 entropy gain
+Debuff that inflicts 20% pain in the whole body and increases pain sensitivity to 130%, does not work on mechs.
+
+Haste, Level 3: Induce a minor surge of adrenaline, accelerating the target's movements.
+27 entropy gain
+Buff target's movement by x1.8 and manipulation by x1.3, as well as a flat 0.2 buff to move and work speed. Note: Lower level than Focus, but more expensive.
+
+Disarm, Level 4: Paralyze parts of the motor cortex, loosening the target's grip and forcing them to drop their weapon.
+35 entropy gain
+Debuff that lowers manipulation to 0, forcing their weapon to drop. Does not work on mechanoids.
+
+Manhunt, Level 4: Drive an animal into a manhunting rage. Focusing the pulse into a small area requires some concentration, but also greatly reduces the entropy's severity.
+27 entropy gain
+Single target manhunter pulse with longer warmup time.
+
+Dread, Level 5: Induce thoughts of terror in the target, forcing a momentary state of surrender.
+40 entropy gain
+Debuff that lowers moving to 0, forcing them to roll on the ground in panic. Does not work on mechs.
+
+Entropy Bond, Level 5: An advanced linking technique which allows the caster to create a second entropy link to further aid with entropy dissipitation. Bonds transfer less entropy than links, but have stronger connections.
+12 entropy gain
+Secondary entropy link that can't be replaced, it must expire or be broken by distance. Caster gains 70% of entropy while their partner gains 30%, stacks once with entropy link.
+Note: Having 2 active links gives the caster a great deal of freedom, but this can also be deadly for their partners. Use this ability carefully.
+
+Mass Skip, Level 6: Teleport targets in an area to a desired position not too far from the starting point.
+50 entropy gain
+Skip with an area of effect, can teleport multiple targets to a target point.
+
+Shadow Skip, Level 6: Obscure yourself from the senses of others and skip a short distance, even through solid matter. This ability works best in locations the user is familiar with. Skipping into unknown locations is possible, however, doing so has been known to create temporal anomalies.
+60 entropy gain
+Turns the caster invisible and lets them skip a short distance, without requiring line of sight. Must be cast on self, and cannot be cast again until the invisibility has worn off.
+
+Important: This lets users skip through walls but if you skip into a fogged area, it will remain fogged. For some reason, colonists line of sight doesn't seem to determine vision. While inside the fog, you can still order your colonist around and even dig through walls to reveal the area if needed, but enemies inside the fogged area (such as an ancient danger) will not "see" you until the fog is gone. For best results, only use it to go through walls when you know what's on the other side. I've included this because it's technically functional, just use a bit of imagination and think of it as inter-dimensional hocus pocus gone wrong.
+
+
+Changes:
+-Skip no longer incurs a goodwill penalty, this lets you use it to save allies without upsetting them
+-Skip's stun max duration shortened by 10 ticks
+-Berserk range increased to 16.5
+-Berserk pulse range increased to 15.5
+	</description>
+</ModMetaData>
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Faster Smoothing</name>
+  <author>Neceros</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>neceros.fastersmoothing</packageId>  
+  <description>Triples everyone's base wall and floor smoothing speed. It's not as much as it sounds, because pawns get so many bonuses from synergies. You get more bonus from a high construction skill, for instance.</description>
+</ModMetaData>

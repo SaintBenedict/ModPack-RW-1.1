@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	 <!-- Mutilation Memory-Causers -->
+	 
+	 <!--<HediffDef Name="WCE_MemoryCauserBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>1.0</initialSeverity>
+		<makesAlert>false</makesAlert>
+		<scenarioCanAdd>true</scenarioCanAdd>
+	</HediffDef>-->
+
+  <!-- Body Parts -->
+  
+  <HediffDef Name="WCE2_AddedBodyPartBase" ParentName="WCE2_ImplantHediffBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+  </HediffDef>
+
+</Defs>

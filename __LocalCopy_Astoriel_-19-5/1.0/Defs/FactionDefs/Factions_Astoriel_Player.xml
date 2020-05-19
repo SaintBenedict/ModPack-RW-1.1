@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="AstorielFactionBase">
+    <colorSpectrum>
+      <li>(1, 0.89, 0.44)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="AstorielFactionBase">
+    <defName>AstorielPlayerColony</defName>
+    <label>Astoriel</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Astoriel</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+	<pawnNameMaker>NamerAstorielUtility</pawnNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories><li>Astoriel</li></backstoryCategories>
+    <homeIconPath>World/WorldObjects/AstorielFactionBase</homeIconPath>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+	    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+	  <li>Urban</li>
+	  <li>Punk</li>
+	  <li>Rural</li>
+	  <li>Tribal</li>
+	</hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+
+</Defs>

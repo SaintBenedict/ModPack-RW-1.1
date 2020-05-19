@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>AnimalFoodRestrictionInTab</name>
+  <supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>hatti.animalfoodrestrictionintab</packageId>
+  <author>Hatti</author>
+  <description><![CDATA[Enabled FoodRestriction on the animal tab. This mod has a dependency to following mod, that enabled food restrictions for animals. https://steamcommunity.com/sharedfiles/filedetails/?id=1547017052&searchtext=animal+food
+  AnimalFoodRestrictionInTab mod must be after the dependant mod in the mod load order!]]>
+  </description>
+  <modDependencies>
+      <li>
+        <packageId>Jaxe.FoodRestrictions</packageId>
+        <displayName>Animal Food Restrictions</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1547017052</steamWorkshopUrl>
+      </li>
+    </modDependencies>
+	<loadAfter>
+		<li>Jaxe.FoodRestrictions</li>
+  </loadAfter>
+</ModMetaData>

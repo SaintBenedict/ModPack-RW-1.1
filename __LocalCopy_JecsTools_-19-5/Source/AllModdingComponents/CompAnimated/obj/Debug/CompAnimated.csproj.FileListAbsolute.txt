@@ -1,0 +1,8 @@
+Z:\Git\JecsTools\Assemblies\CompAnimated.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompAnimated\obj\Debug\CompAnimated.csprojAssemblyReference.cache

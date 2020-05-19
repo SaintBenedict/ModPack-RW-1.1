@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Carry Capacity Fixed</name>
+	<author>Smash Phil | Dr_Zhivago</author>
+	<url>https://github.com/DrZhivago1/Carry_Capacity_Fixed</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>smashphil.carrycapacityfixed</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	<description>
+This mod aims to increase pawn carrying capacity in inventory and through caravans.
+	</description>
+</ModMetaData>

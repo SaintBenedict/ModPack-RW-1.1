@@ -1,0 +1,8 @@
+Z:\Git\JecsTools\Assemblies\CompToggleDef.dll
+Z:\Git\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.csproj.CoreCompileInputs.cache
+Z:\Git\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.csproj.CopyComplete
+Z:\Git\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Assemblies\CompToggleDef.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\JecsTools\Source\AllModdingComponents\CompToggleDef\obj\Debug\CompToggleDef.csprojAssemblyReference.cache

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+	<!-- =======================  Bases ========================== -->
+
+  <ThingDef Name="PoliticsPolemicNeolithicBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+	<thingCategories>
+      <li>Polemics</li>
+    </thingCategories>
+	<stuffCategories>
+			<li>Leathery</li>
+	</stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <category>Item</category>
+    <pathCost>10</pathCost>
+    <useHitPoints>true</useHitPoints>
+	<selectable>true</selectable>	
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+	  <Mass>0.2</Mass>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>30</MarketValue>	
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+      <SellPriceFactor>0.25</SellPriceFactor>
+    </statBases>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>	
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Neolithic</techLevel>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>   
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>	  
+    </comps>
+    <recipeMaker>
+      <unfinishedThingDef>Politics_UnfinishedPolemic</unfinishedThingDef>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+		<li>Politics_WritingSpot</li>
+        <li>Politics_WritingDesk</li>
+      </recipeUsers>
+	  <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+      </defaultIngredientFilter>    
+    </recipeMaker>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="PoliticsPolemicNeolithicMakeableBase" ParentName="PoliticsPolemicNeolithicBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+		<li>Politics_WritingSpot</li>
+		<li>Politics_WritingDesk</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+      </defaultIngredientFilter>
+    </recipeMaker>
+	<workSkill>Intellectual</workSkill>
+  </ThingDef>
+
+  <ThingDef Name="PoliticsPolemicMedievalBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+	<thingCategories>
+      <li>Polemics</li>
+    </thingCategories>
+	<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+	</stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <category>Item</category>
+    <pathCost>10</pathCost>
+    <useHitPoints>true</useHitPoints>
+	<selectable>true</selectable>	
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+	  <Mass>0.2</Mass>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>30</MarketValue>	
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+      <SellPriceFactor>0.25</SellPriceFactor>
+    </statBases>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>	
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Medieval</techLevel>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>   
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>	  
+    </comps>
+    <recipeMaker>
+      <unfinishedThingDef>Politics_UnfinishedPolemic</unfinishedThingDef>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>Politics_WritingDesk</li>
+      </recipeUsers>
+	  <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+      </defaultIngredientFilter>    
+    </recipeMaker>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="PoliticsPolemicMedievalMakeableBase" ParentName="PoliticsPolemicMedievalBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+		<li>Politics_WritingDesk</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+      </defaultIngredientFilter>
+    </recipeMaker>
+	<workSkill>Intellectual</workSkill>
+  </ThingDef>
+ 
+	<!-- ===================== Neolithic ========================== -->
+
+    <ThingDef ParentName="PoliticsPolemicNeolithicBase">
+  <defName>Politics_Book_Anarchy</defName>
+  <label>polemic on anarchy</label>
+  <description>A structured argument demonstrating the virtues of self-determination.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <ThingDef ParentName="PoliticsPolemicNeolithicBase">
+  <defName>Politics_Book_Despotism</defName>
+  <label>polemic on despotism</label>
+  <description>A structured argument demonstrating the virtues of righteous conquest.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="PoliticsPolemicNeolithicBase">
+  <defName>Politics_Book_Monarchy</defName>
+  <label>polemic on monarchy</label>
+  <description>A structured argument demonstrating the virtues of a ruler established trough divine right.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <ThingDef ParentName="PoliticsPolemicNeolithicBase">
+  <defName>Politics_Book_Theocracy</defName>
+  <label>polemic on theocracy</label>
+  <description>A structured argument demonstrating the virtues of a government oriented by religous principles.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <!-- ===================== Medieval ========================== -->
+  
+    <ThingDef ParentName="PoliticsPolemicMedievalBase">
+  <defName>Politics_Book_Republic</defName>
+  <label>polemic on republics</label>
+  <description>A structured argument demonstrating the virtues of determining the transition of power through an election.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+      <ThingDef ParentName="PoliticsPolemicMedievalBase">
+  <defName>Politics_Book_Democracy</defName>
+  <label>polemic on democracy</label>
+  <description>A structured argument demonstrating the virtues of participation in government through suffrage.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="PoliticsPolemicMedievalBase">
+  <defName>Politics_Book_Socialism</defName>
+  <label>polemic on socialism</label>
+  <description>A structured argument demonstrating the virtues of facilitating the common interest before the individual.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="PoliticsPolemicMedievalBase">
+  <defName>Politics_Book_Communism</defName>
+  <label>polemic on communism</label>
+  <description>A structured argument demonstrating the virtues of rendering authority to the sole dominion of the ruling party.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+    <ThingDef ParentName="PoliticsPolemicMedievalBase">
+  <defName>Politics_Book_Fascism</defName>
+  <label>polemic on fascism</label>
+  <description>A structured argument demonstrating the virtues of remanding all aspects of society to the authority of the state.</description>
+    <graphicData>
+      <texPath>Item/Resource/Polemic/Polemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>    
+    <comps>
+	  <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use political polemic</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>PoliticsandReligions.CompUseEffect_SetPolitics</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>
