@@ -1,155 +1,155 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_VAE_Footwear_PlateBoots.label>プレートブーツを作る</Make_VAE_Footwear_PlateBoots.label>
-  <Make_VAE_Footwear_PlateBoots.description>プレートブーツを作る。</Make_VAE_Footwear_PlateBoots.description>
-  <Make_VAE_Footwear_PlateBoots.jobString>プレートブーツを作製中</Make_VAE_Footwear_PlateBoots.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
-
-  <Make_VAE_Footwear_MarineBoots.label>マリーンブーツを作る</Make_VAE_Footwear_MarineBoots.label>
-  <Make_VAE_Footwear_MarineBoots.description>マリーンブーツを作る。</Make_VAE_Footwear_MarineBoots.description>
-  <Make_VAE_Footwear_MarineBoots.jobString>マリーンブーツを作製中</Make_VAE_Footwear_MarineBoots.jobString>
+	<Make_VAE_Footwear_PlateBoots.label>プレートブーツを作る</Make_VAE_Footwear_PlateBoots.label>
+	<Make_VAE_Footwear_PlateBoots.description>プレートブーツを作る。</Make_VAE_Footwear_PlateBoots.description>
+	<Make_VAE_Footwear_PlateBoots.jobString>プレートブーツを作製中</Make_VAE_Footwear_PlateBoots.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_VAE_Handwear_PlateGloves.label>プレートグローブを作る</Make_VAE_Handwear_PlateGloves.label>
-  <Make_VAE_Handwear_PlateGloves.description>プレートグローブを作る。</Make_VAE_Handwear_PlateGloves.description>
-  <Make_VAE_Handwear_PlateGloves.jobString>プレートグローブを作製中</Make_VAE_Handwear_PlateGloves.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
-
-  <Make_VAE_Handwear_MarineGloves.label>マリーングローブを作る</Make_VAE_Handwear_MarineGloves.label>
-  <Make_VAE_Handwear_MarineGloves.description>マリーングローブを作る。</Make_VAE_Handwear_MarineGloves.description>
-  <Make_VAE_Handwear_MarineGloves.jobString>マリーングローブを作製中</Make_VAE_Handwear_MarineGloves.jobString>
+	<Make_VAE_Footwear_MarineBoots.label>マリーンブーツを作る</Make_VAE_Footwear_MarineBoots.label>
+	<Make_VAE_Footwear_MarineBoots.description>マリーンブーツを作る。</Make_VAE_Footwear_MarineBoots.description>
+	<Make_VAE_Footwear_MarineBoots.jobString>マリーンブーツを作製中</Make_VAE_Footwear_MarineBoots.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_VAE_Apparel_BulletproofVest.label>防弾ベストを作る</Make_VAE_Apparel_BulletproofVest.label>
-  <Make_VAE_Apparel_BulletproofVest.description>防弾ベストを作る。</Make_VAE_Apparel_BulletproofVest.description>
-  <Make_VAE_Apparel_BulletproofVest.jobString>防弾ベストを作製中</Make_VAE_Apparel_BulletproofVest.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
-
-  <Make_VAE_Apparel_GhillieSuit.label>ギリースーツを縫う</Make_VAE_Apparel_GhillieSuit.label>
-  <Make_VAE_Apparel_GhillieSuit.description>ギリースーツを縫う。</Make_VAE_Apparel_GhillieSuit.description>
-  <Make_VAE_Apparel_GhillieSuit.jobString>ギリースーツを裁縫中</Make_VAE_Apparel_GhillieSuit.jobString>
+	<Make_VAE_Handwear_PlateGloves.label>プレートグローブを作る</Make_VAE_Handwear_PlateGloves.label>
+	<Make_VAE_Handwear_PlateGloves.description>プレートグローブを作る。</Make_VAE_Handwear_PlateGloves.description>
+	<Make_VAE_Handwear_PlateGloves.jobString>プレートグローブを作製中</Make_VAE_Handwear_PlateGloves.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_VAE_Apparel_AdvancedVest.label>強化防弾ベストを作る</Make_VAE_Apparel_AdvancedVest.label>
-  <Make_VAE_Apparel_AdvancedVest.description>強化防弾ベストを作る。</Make_VAE_Apparel_AdvancedVest.description>
-  <Make_VAE_Apparel_AdvancedVest.jobString>強化防弾ベストを作製中</Make_VAE_Apparel_AdvancedVest.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
-
-  <Make_VAE_Apparel_HAZMATSuit.label>防護服を作る</Make_VAE_Apparel_HAZMATSuit.label>
-  <Make_VAE_Apparel_HAZMATSuit.description>防護服を作る。</Make_VAE_Apparel_HAZMATSuit.description>
-  <Make_VAE_Apparel_HAZMATSuit.jobString>防護服を作製中</Make_VAE_Apparel_HAZMATSuit.jobString>
+	<Make_VAE_Handwear_MarineGloves.label>マリーングローブを作る</Make_VAE_Handwear_MarineGloves.label>
+	<Make_VAE_Handwear_MarineGloves.description>マリーングローブを作る。</Make_VAE_Handwear_MarineGloves.description>
+	<Make_VAE_Handwear_MarineGloves.jobString>マリーングローブを作製中</Make_VAE_Handwear_MarineGloves.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
 
-  <Make_VAE_Apparel_Gambeson.label>ギャンベゾンを縫う</Make_VAE_Apparel_Gambeson.label>
-  <Make_VAE_Apparel_Gambeson.description>ギャンベゾンを縫う。</Make_VAE_Apparel_Gambeson.description>
-  <Make_VAE_Apparel_Gambeson.jobString>ギャンベゾンを裁縫中</Make_VAE_Apparel_Gambeson.jobString>
-
-  <Make_VAE_Apparel_QuiltedVest.label>キルティングベストを縫う</Make_VAE_Apparel_QuiltedVest.label>
-  <Make_VAE_Apparel_QuiltedVest.description>キルティングベストを縫う。</Make_VAE_Apparel_QuiltedVest.description>
-  <Make_VAE_Apparel_QuiltedVest.jobString>キルティングベストを裁縫中</Make_VAE_Apparel_QuiltedVest.jobString>
+	<Make_VAE_Apparel_BulletproofVest.label>防弾ベストを作る</Make_VAE_Apparel_BulletproofVest.label>
+	<Make_VAE_Apparel_BulletproofVest.description>防弾ベストを作る。</Make_VAE_Apparel_BulletproofVest.description>
+	<Make_VAE_Apparel_BulletproofVest.jobString>防弾ベストを作製中</Make_VAE_Apparel_BulletproofVest.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_VAE_Apparel_LightPlateArmor.label>ライトプレートアーマーを作る</Make_VAE_Apparel_LightPlateArmor.label>
-  <Make_VAE_Apparel_LightPlateArmor.description>ライトプレートアーマーを作る。</Make_VAE_Apparel_LightPlateArmor.description>
-  <Make_VAE_Apparel_LightPlateArmor.jobString>ライトプレートアーマーを作製中</Make_VAE_Apparel_LightPlateArmor.jobString>
-
-  <Make_VAE_Apparel_PlateShoulderpads.label>プレートショルダーパッドを作る</Make_VAE_Apparel_PlateShoulderpads.label>
-  <Make_VAE_Apparel_PlateShoulderpads.description>プレートショルダーパッドを作る。</Make_VAE_Apparel_PlateShoulderpads.description>
-  <Make_VAE_Apparel_PlateShoulderpads.jobString>プレートショルダーパッドを作製中</Make_VAE_Apparel_PlateShoulderpads.jobString>
-
-  <Make_VAE_Apparel_Chestplate.label>チェストプレートを作る</Make_VAE_Apparel_Chestplate.label>
-  <Make_VAE_Apparel_Chestplate.description>チェストプレートを作る。</Make_VAE_Apparel_Chestplate.description>
-  <Make_VAE_Apparel_Chestplate.jobString>チェストプレートを作製中</Make_VAE_Apparel_Chestplate.jobString>
-
-  <Make_VAE_Apparel_Chainmail.label>チェーンメイルアーマーを作る</Make_VAE_Apparel_Chainmail.label>
-  <Make_VAE_Apparel_Chainmail.description>チェーンメイルアーマーを作る。</Make_VAE_Apparel_Chainmail.description>
-  <Make_VAE_Apparel_Chainmail.jobString>チェーンメイルアーマーを作製中</Make_VAE_Apparel_Chainmail.jobString>
-
-  <Make_VAE_Apparel_PlateHelmet.label>プレートヘルムを作る</Make_VAE_Apparel_PlateHelmet.label>
-  <Make_VAE_Apparel_PlateHelmet.description>プレートヘルムを作る。</Make_VAE_Apparel_PlateHelmet.description>
-  <Make_VAE_Apparel_PlateHelmet.jobString>プレートヘルムを作製中</Make_VAE_Apparel_PlateHelmet.jobString>
+	<Make_VAE_Apparel_GhillieSuit.label>ギリースーツを縫う</Make_VAE_Apparel_GhillieSuit.label>
+	<Make_VAE_Apparel_GhillieSuit.description>ギリースーツを縫う。</Make_VAE_Apparel_GhillieSuit.description>
+	<Make_VAE_Apparel_GhillieSuit.jobString>ギリースーツを裁縫中</Make_VAE_Apparel_GhillieSuit.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
 
-  <Make_VAE_Apparel_WoodenArmor.label>木の鎧を作る</Make_VAE_Apparel_WoodenArmor.label>
-  <Make_VAE_Apparel_WoodenArmor.description>木の鎧を作る。</Make_VAE_Apparel_WoodenArmor.description>
-  <Make_VAE_Apparel_WoodenArmor.jobString>木の鎧を作製中</Make_VAE_Apparel_WoodenArmor.jobString>
-
-  <Make_VAE_Headgear_StoneWarMask.label>戦いの石仮面を作る</Make_VAE_Headgear_StoneWarMask.label>
-  <Make_VAE_Headgear_StoneWarMask.description>戦いの石仮面を作る。</Make_VAE_Headgear_StoneWarMask.description>
-  <Make_VAE_Headgear_StoneWarMask.jobString>戦いの石仮面を作製中</Make_VAE_Headgear_StoneWarMask.jobString>
+	<Make_VAE_Apparel_AdvancedVest.label>強化防弾ベストを作る</Make_VAE_Apparel_AdvancedVest.label>
+	<Make_VAE_Apparel_AdvancedVest.description>強化防弾ベストを作る。</Make_VAE_Apparel_AdvancedVest.description>
+	<Make_VAE_Apparel_AdvancedVest.jobString>強化防弾ベストを作製中</Make_VAE_Apparel_AdvancedVest.jobString>
 
 
-  <!-- Recipe Users: TableMachining, FabricationBench -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_VAE_Headgear_LightMarineHelmet.label>ライトマリーンヘルメットを作る</Make_VAE_Headgear_LightMarineHelmet.label>
-  <Make_VAE_Headgear_LightMarineHelmet.description>ライトマリーンヘルメットを作る。</Make_VAE_Headgear_LightMarineHelmet.description>
-  <Make_VAE_Headgear_LightMarineHelmet.jobString>ライトマリーンヘルメットを作製中</Make_VAE_Headgear_LightMarineHelmet.jobString>
-
-  <Make_VAE_Apparel_LightMarineArmor.label>ライトマリーンアーマーを作る</Make_VAE_Apparel_LightMarineArmor.label>
-  <Make_VAE_Apparel_LightMarineArmor.description>ライトマリーンアーマーを作る。</Make_VAE_Apparel_LightMarineArmor.description>
-  <Make_VAE_Apparel_LightMarineArmor.jobString>ライトマリーンアーマーを作製中</Make_VAE_Apparel_LightMarineArmor.jobString>
-
-  <Make_VAE_Headgear_HeavyMarineHelmet.label>ヘビーマリーンヘルメットを作る</Make_VAE_Headgear_HeavyMarineHelmet.label>
-  <Make_VAE_Headgear_HeavyMarineHelmet.description>ヘビーマリーンヘルメットを作る。</Make_VAE_Headgear_HeavyMarineHelmet.description>
-  <Make_VAE_Headgear_HeavyMarineHelmet.jobString>ヘビーマリーンヘルメットを作製中</Make_VAE_Headgear_HeavyMarineHelmet.jobString>
-
-  <Make_VAE_Apparel_HeavyMarineArmor.label>ヘビーマリーンアーマーを作る</Make_VAE_Apparel_HeavyMarineArmor.label>
-  <Make_VAE_Apparel_HeavyMarineArmor.description>ヘビーマリーンアーマーを作る。</Make_VAE_Apparel_HeavyMarineArmor.description>
-  <Make_VAE_Apparel_HeavyMarineArmor.jobString>ヘビーマリーンアーマーを作製中</Make_VAE_Apparel_HeavyMarineArmor.jobString>
+	<Make_VAE_Apparel_HAZMATSuit.label>防護服を作る</Make_VAE_Apparel_HAZMATSuit.label>
+	<Make_VAE_Apparel_HAZMATSuit.description>防護服を作る。</Make_VAE_Apparel_HAZMATSuit.description>
+	<Make_VAE_Apparel_HAZMATSuit.jobString>防護服を作製中</Make_VAE_Apparel_HAZMATSuit.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_VAE_Headgear_Balaclava.label>目出し帽を縫う</Make_VAE_Headgear_Balaclava.label>
-  <Make_VAE_Headgear_Balaclava.description>目出し帽を縫う。</Make_VAE_Headgear_Balaclava.description>
-  <Make_VAE_Headgear_Balaclava.jobString>目出し帽を裁縫中</Make_VAE_Headgear_Balaclava.jobString>
+	<Make_VAE_Apparel_Gambeson.label>ギャンベゾンを縫う</Make_VAE_Apparel_Gambeson.label>
+	<Make_VAE_Apparel_Gambeson.description>ギャンベゾンを縫う。</Make_VAE_Apparel_Gambeson.description>
+	<Make_VAE_Apparel_Gambeson.jobString>ギャンベゾンを裁縫中</Make_VAE_Apparel_Gambeson.jobString>
 
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
-
-  <Make_VAE_Headgear_NightVisionGoggles.label>暗視ゴーグルを作る</Make_VAE_Headgear_NightVisionGoggles.label>
-  <Make_VAE_Headgear_NightVisionGoggles.description>暗視ゴーグルを作る。</Make_VAE_Headgear_NightVisionGoggles.description>
-  <Make_VAE_Headgear_NightVisionGoggles.jobString>暗視ゴーグルを作製中</Make_VAE_Headgear_NightVisionGoggles.jobString>
-
-  <Make_VAE_Headgear_BallisticGoggles.label>射撃保護ゴーグルを作る</Make_VAE_Headgear_BallisticGoggles.label>
-  <Make_VAE_Headgear_BallisticGoggles.description>射撃保護ゴーグルを作る。</Make_VAE_Headgear_BallisticGoggles.description>
-  <Make_VAE_Headgear_BallisticGoggles.jobString>射撃保護ゴーグルを作製中</Make_VAE_Headgear_BallisticGoggles.jobString>
+	<Make_VAE_Apparel_QuiltedVest.label>キルティングベストを縫う</Make_VAE_Apparel_QuiltedVest.label>
+	<Make_VAE_Apparel_QuiltedVest.description>キルティングベストを縫う。</Make_VAE_Apparel_QuiltedVest.description>
+	<Make_VAE_Apparel_QuiltedVest.jobString>キルティングベストを裁縫中</Make_VAE_Apparel_QuiltedVest.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_VAE_Headgear_GhillieHood.label>ギリーフードを縫う</Make_VAE_Headgear_GhillieHood.label>
-  <Make_VAE_Headgear_GhillieHood.description>ギリーフードを縫う。</Make_VAE_Headgear_GhillieHood.description>
-  <Make_VAE_Headgear_GhillieHood.jobString>ギリーフードを裁縫中</Make_VAE_Headgear_GhillieHood.jobString>
+	<Make_VAE_Apparel_LightPlateArmor.label>ライトプレートアーマーを作る</Make_VAE_Apparel_LightPlateArmor.label>
+	<Make_VAE_Apparel_LightPlateArmor.description>ライトプレートアーマーを作る。</Make_VAE_Apparel_LightPlateArmor.description>
+	<Make_VAE_Apparel_LightPlateArmor.jobString>ライトプレートアーマーを作製中</Make_VAE_Apparel_LightPlateArmor.jobString>
+
+	<Make_VAE_Apparel_PlateShoulderpads.label>プレートショルダーパッドを作る</Make_VAE_Apparel_PlateShoulderpads.label>
+	<Make_VAE_Apparel_PlateShoulderpads.description>プレートショルダーパッドを作る。</Make_VAE_Apparel_PlateShoulderpads.description>
+	<Make_VAE_Apparel_PlateShoulderpads.jobString>プレートショルダーパッドを作製中</Make_VAE_Apparel_PlateShoulderpads.jobString>
+
+	<Make_VAE_Apparel_Chestplate.label>チェストプレートを作る</Make_VAE_Apparel_Chestplate.label>
+	<Make_VAE_Apparel_Chestplate.description>チェストプレートを作る。</Make_VAE_Apparel_Chestplate.description>
+	<Make_VAE_Apparel_Chestplate.jobString>チェストプレートを作製中</Make_VAE_Apparel_Chestplate.jobString>
+
+	<Make_VAE_Apparel_Chainmail.label>チェーンメイルアーマーを作る</Make_VAE_Apparel_Chainmail.label>
+	<Make_VAE_Apparel_Chainmail.description>チェーンメイルアーマーを作る。</Make_VAE_Apparel_Chainmail.description>
+	<Make_VAE_Apparel_Chainmail.jobString>チェーンメイルアーマーを作製中</Make_VAE_Apparel_Chainmail.jobString>
+
+	<Make_VAE_Apparel_PlateHelmet.label>プレートヘルムを作る</Make_VAE_Apparel_PlateHelmet.label>
+	<Make_VAE_Apparel_PlateHelmet.description>プレートヘルムを作る。</Make_VAE_Apparel_PlateHelmet.description>
+	<Make_VAE_Apparel_PlateHelmet.jobString>プレートヘルムを作製中</Make_VAE_Apparel_PlateHelmet.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
 
-  <Make_VAE_Headgear_HAZMATMask.label>防護マスクを作る</Make_VAE_Headgear_HAZMATMask.label>
-  <Make_VAE_Headgear_HAZMATMask.description>防護マスクを作る。</Make_VAE_Headgear_HAZMATMask.description>
-  <Make_VAE_Headgear_HAZMATMask.jobString>防護マスクを作製中</Make_VAE_Headgear_HAZMATMask.jobString>
+	<Make_VAE_Apparel_WoodenArmor.label>木の鎧を作る</Make_VAE_Apparel_WoodenArmor.label>
+	<Make_VAE_Apparel_WoodenArmor.description>木の鎧を作る。</Make_VAE_Apparel_WoodenArmor.description>
+	<Make_VAE_Apparel_WoodenArmor.jobString>木の鎧を作製中</Make_VAE_Apparel_WoodenArmor.jobString>
+
+	<Make_VAE_Headgear_StoneWarMask.label>戦いの石仮面を作る</Make_VAE_Headgear_StoneWarMask.label>
+	<Make_VAE_Headgear_StoneWarMask.description>戦いの石仮面を作る。</Make_VAE_Headgear_StoneWarMask.description>
+	<Make_VAE_Headgear_StoneWarMask.jobString>戦いの石仮面を作製中</Make_VAE_Headgear_StoneWarMask.jobString>
+
+
+	<!-- Recipe Users: TableMachining, FabricationBench -->
+
+	<Make_VAE_Headgear_LightMarineHelmet.label>ライトマリーンヘルメットを作る</Make_VAE_Headgear_LightMarineHelmet.label>
+	<Make_VAE_Headgear_LightMarineHelmet.description>ライトマリーンヘルメットを作る。</Make_VAE_Headgear_LightMarineHelmet.description>
+	<Make_VAE_Headgear_LightMarineHelmet.jobString>ライトマリーンヘルメットを作製中</Make_VAE_Headgear_LightMarineHelmet.jobString>
+
+	<Make_VAE_Apparel_LightMarineArmor.label>ライトマリーンアーマーを作る</Make_VAE_Apparel_LightMarineArmor.label>
+	<Make_VAE_Apparel_LightMarineArmor.description>ライトマリーンアーマーを作る。</Make_VAE_Apparel_LightMarineArmor.description>
+	<Make_VAE_Apparel_LightMarineArmor.jobString>ライトマリーンアーマーを作製中</Make_VAE_Apparel_LightMarineArmor.jobString>
+
+	<Make_VAE_Headgear_HeavyMarineHelmet.label>ヘビーマリーンヘルメットを作る</Make_VAE_Headgear_HeavyMarineHelmet.label>
+	<Make_VAE_Headgear_HeavyMarineHelmet.description>ヘビーマリーンヘルメットを作る。</Make_VAE_Headgear_HeavyMarineHelmet.description>
+	<Make_VAE_Headgear_HeavyMarineHelmet.jobString>ヘビーマリーンヘルメットを作製中</Make_VAE_Headgear_HeavyMarineHelmet.jobString>
+
+	<Make_VAE_Apparel_HeavyMarineArmor.label>ヘビーマリーンアーマーを作る</Make_VAE_Apparel_HeavyMarineArmor.label>
+	<Make_VAE_Apparel_HeavyMarineArmor.description>ヘビーマリーンアーマーを作る。</Make_VAE_Apparel_HeavyMarineArmor.description>
+	<Make_VAE_Apparel_HeavyMarineArmor.jobString>ヘビーマリーンアーマーを作製中</Make_VAE_Apparel_HeavyMarineArmor.jobString>
+
+
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
+
+	<Make_VAE_Headgear_Balaclava.label>目出し帽を縫う</Make_VAE_Headgear_Balaclava.label>
+	<Make_VAE_Headgear_Balaclava.description>目出し帽を縫う。</Make_VAE_Headgear_Balaclava.description>
+	<Make_VAE_Headgear_Balaclava.jobString>目出し帽を裁縫中</Make_VAE_Headgear_Balaclava.jobString>
+
+
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
+
+	<Make_VAE_Headgear_NightVisionGoggles.label>暗視ゴーグルを作る</Make_VAE_Headgear_NightVisionGoggles.label>
+	<Make_VAE_Headgear_NightVisionGoggles.description>暗視ゴーグルを作る。</Make_VAE_Headgear_NightVisionGoggles.description>
+	<Make_VAE_Headgear_NightVisionGoggles.jobString>暗視ゴーグルを作製中</Make_VAE_Headgear_NightVisionGoggles.jobString>
+
+	<Make_VAE_Headgear_BallisticGoggles.label>射撃保護ゴーグルを作る</Make_VAE_Headgear_BallisticGoggles.label>
+	<Make_VAE_Headgear_BallisticGoggles.description>射撃保護ゴーグルを作る。</Make_VAE_Headgear_BallisticGoggles.description>
+	<Make_VAE_Headgear_BallisticGoggles.jobString>射撃保護ゴーグルを作製中</Make_VAE_Headgear_BallisticGoggles.jobString>
+
+
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
+
+	<Make_VAE_Headgear_GhillieHood.label>ギリーフードを縫う</Make_VAE_Headgear_GhillieHood.label>
+	<Make_VAE_Headgear_GhillieHood.description>ギリーフードを縫う。</Make_VAE_Headgear_GhillieHood.description>
+	<Make_VAE_Headgear_GhillieHood.jobString>ギリーフードを裁縫中</Make_VAE_Headgear_GhillieHood.jobString>
+
+
+	<!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
+
+	<Make_VAE_Headgear_HAZMATMask.label>防護マスクを作る</Make_VAE_Headgear_HAZMATMask.label>
+	<Make_VAE_Headgear_HAZMATMask.description>防護マスクを作る。</Make_VAE_Headgear_HAZMATMask.description>
+	<Make_VAE_Headgear_HAZMATMask.jobString>防護マスクを作製中</Make_VAE_Headgear_HAZMATMask.jobString>
 
 </LanguageData>

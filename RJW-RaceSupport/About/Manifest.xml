@@ -3,11 +3,11 @@
 	<identifier>RJW-RaceSupport</identifier>
 	<version>7.3.0</version>
 	<dependencies>
-		<li>RimJobWorld</li>
+		<li>rim.job.world</li>
 	</dependencies>
 	<incompatibleWith />
 	<loadAfter>
-		<li>RimJobWorld</li>
+		<li>rim.job.world</li>
 	</loadAfter>
 	<suggests>
 	</suggests>

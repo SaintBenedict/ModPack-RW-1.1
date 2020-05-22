@@ -1,61 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>EvolvedOrgansRedux</identifier>
-    <version>1.1.5</version>
-    <!--<dependencies>
-        <li>E</li>
-    </dependencies>
-    <incompatibleWith>
-        <li>SomeOtherMod</li>
-    </incompatibleWith>
-    <loadBefore>
-        <li>HowManyModsDoesOneNeed &gt;= 9000.1</li>
-    </loadBefore> -->
-    <loadAfter> 
-        <!--FRAMEWORKS-->
-        <li>EliteBionicsFramework</li>
-        <li>QuestionableEthicsEnhanced</li>
-        <li>Rah'sBionicsandSurgeryExpansion</li>
-        <li>TheBirdsandtheBees</li>
-        <li>[1.0]SwimmingKit</li>
-        <li>NightVision</li>
-        <li>Rimatomics</li>
-        <li>Dubs-Bad-Hygiene</li>
-        <li>VerbExpansionFramework</li>
-        <li>ProstheticCombatFramework</li>
-        <li>SupremeMelee</li>
+	<identifier>EvolvedOrgansRedux</identifier>
+	<version>1.1.5</version>
+	<!--<dependencies>
+		<li>E</li>
+	</dependencies>
+	<incompatibleWith>
+		<li>SomeOtherMod</li>
+	</incompatibleWith>
+	<loadBefore>
+		<li>HowManyModsDoesOneNeed &gt;= 9000.1</li>
+	</loadBefore> -->
+	<loadAfter> 
+		<!--FRAMEWORKS-->
+		<li>V1024.EBFramework</li>
+		<li>Dubwise.DubsBadHygiene</li>
 
-        <!--RACE COMPATS-->
-        <!--Does not include naturally compatible races-->
-        <li>LeeaniPlayableRace</li>
-        <li>AvaliContinued</li>
-        <li>Kurin,TheThreeTailedFox</li>
-        <li>RaccRace</li>
-        <li>VulpineRacePack</li>
-        <li>NewRatkinPlus</li>
-        <li>LogannRace</li>
-        <li>Yabils:SpaceGremlins</li>
-        <li>Lizardmen</li>
-        <li>DragonianRace</li>
-        <li>ZabrakRace</li>
-        <li>Drow</li>
-        <li>Orassans</li>
-        <li>OnioftheRim</li>
-        <li>RabbieTheMoonrabbit</li>
-        <li>ArachneRace</li>
-        <li>KijinRace</li>
-        <li>Half-Dragons</li>
-        <li>KijinRace2.0</li>
-        <!--Gerzee Race is improperly specified in ModManager so no checks there-->
-        <li>Xenohumans</li>
-        <li>FerianRace</li>
-    </loadAfter>
-    <!--
-    <suggests>
-        <li>ExpansionMod &gt;= 1.5</li>
-        <li>OtherCoolMod</li>
-    </suggests> -->
-    <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://raw.githubusercontent.com/Xahkarias/EvolvedOrgansRedux/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/Xahkarias/EvolvedOrgansRedux/releases</downloadUri>
+		<!--RACE COMPATS-->
+		<!--Does not include naturally compatible races-->
+	</loadAfter>
+	<!--
+	<suggests>
+		<li>ExpansionMod &gt;= 1.5</li>
+		<li>OtherCoolMod</li>
+	</suggests> -->
+	<showCrossPromotions>true</showCrossPromotions>
+	<manifestUri>https://raw.githubusercontent.com/Xahkarias/EvolvedOrgansRedux/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/Xahkarias/EvolvedOrgansRedux/releases</downloadUri>
 </Manifest>

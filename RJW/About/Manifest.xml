@@ -3,11 +3,11 @@
 	<identifier>RimJobWorld</identifier>
 	<version>4.2.0</version>
 	<dependencies>
-		<li>HugsLib</li>
+		<li>UnlimitedHugs.HugsLib</li>
 	</dependencies>
 	<incompatibleWith />
 	<loadAfter>
-		<li>HugsLib</li>
+		<li>UnlimitedHugs.HugsLib</li>
 	</loadAfter>
 	<suggests>
 	</suggests>
