@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ##### Industrial ##### -->
-    <!-- +++++ Balaclava +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- ##### Industrial ##### -->
+	<!-- +++++ Balaclava +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_Balaclava</defName>
 		<label>balaclava</label>
 		<description>A full face textile mask. Hides the mimic and makes hard to read.</description>
@@ -12,7 +12,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.01</generateCommonality>
+		<generateCommonality>0.01</generateCommonality>
 		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -22,10 +22,10 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>2200</WorkToMake>
 			<Mass>0.35</Mass>
-            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2</EquipDelay>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -46,7 +46,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_MilitaryClothing</researchPrerequisite>
@@ -56,10 +56,10 @@
 			</recipeUsers>
 		</recipeMaker>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
 
-    <!-- +++++ Night Vision goggles +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- +++++ Night Vision goggles +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_NightVisionGoggles</defName>
 		<label>night vision goggles</label>
 		<description>A set of night vision goggles allowing the wearer to fire weapons with higher precision.</description>
@@ -69,7 +69,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.03</generateCommonality>
+		<generateCommonality>0.03</generateCommonality>
 		<costList>
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -82,8 +82,8 @@
 			<ArmorRating_Blunt>0</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 			<Insulation_Cold>0</Insulation_Cold>
- 			<Insulation_Heat>0</Insulation_Heat>
-            <EquipDelay>0.5</EquipDelay>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
@@ -105,7 +105,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -116,10 +116,10 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-    <!-- +++++ Ballistic Goggles +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- +++++ Ballistic Goggles +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_BallisticGoggles</defName>
 		<label>ballistic goggles</label>
 		<description>A pair of reinforced goggles capable of stopping a bullet.</description>
@@ -129,7 +129,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.05</generateCommonality>
+		<generateCommonality>0.05</generateCommonality>
 		<costList>
 			<Steel>30</Steel>
 		</costList>
@@ -141,8 +141,8 @@
 			<ArmorRating_Blunt>0.56</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.84</ArmorRating_Heat>
 			<Insulation_Cold>4</Insulation_Cold>
- 			<Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>0.6</EquipDelay>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>0.6</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.10</AimingDelayFactor>
@@ -164,7 +164,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -175,10 +175,10 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-    <!-- +++++ Ghillie Hood +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- +++++ Ghillie Hood +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_GhillieHood</defName>
 		<label>ghillie hood</label>
 		<description>A camouflage hood designed to resemble the environment. Gives user more time to aim precisely, but provides little to no defence.</description>
@@ -188,7 +188,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costList>
 			<Cloth>35</Cloth>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -201,8 +201,8 @@
 			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
- 			<Insulation_Heat>0</Insulation_Heat>
-            <EquipDelay>0.6</EquipDelay>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>0.6</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<HuntingStealth>0.20</HuntingStealth>
@@ -226,7 +226,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_MlitaryCamouflage</researchPrerequisite>
@@ -238,10 +238,10 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-    <!-- +++++ HAZMAT mask +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- +++++ HAZMAT mask +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_HAZMATMask</defName>
 		<label>HAZMAT mask</label>
 		<description>A full head gas mask, which alongside the HAZMAT suit provides a full protection from toxic and psychic effects.</description>
@@ -251,7 +251,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costStuffCount>35</costStuffCount>
 		<costList>
 			<Steel>20</Steel>
@@ -264,10 +264,10 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToMake>3500</WorkToMake>
 			<Mass>2</Mass>
-            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>1.4</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>10</EquipDelay>
+			<StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.4</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.25</PsychicSensitivity>
@@ -290,7 +290,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_HazardProtection</researchPrerequisite>
@@ -302,6 +302,6 @@
 			</recipeUsers>
 		</recipeMaker>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
 
 </Defs>
