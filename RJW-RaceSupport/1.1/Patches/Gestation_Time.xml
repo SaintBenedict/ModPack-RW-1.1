@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- 
+	<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "Human"]/race/gestationPeriodDays</xpath>
+			<value>
+				<gestationPeriodDays>5</gestationPeriodDays>
+			</value>
+	</Operation>
+	-->
+	
+	<!--  Arachne -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Arachne Race</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Arachne"]/race/gestationPeriodDays</xpath>
+			<value>
+				<gestationPeriodDays>200</gestationPeriodDays>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

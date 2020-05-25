@@ -7,7 +7,7 @@
 	<!-- -->
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg_HumanLike">
 		<defName>RJW_Insect_Arachne_Egg</defName>
-		<eggsize>1</eggsize>
+		<eggsize>2</eggsize>
 		<selffertilized>true</selffertilized>
 		<parentDefs>
 			<!--<li>Arachne</li>-->

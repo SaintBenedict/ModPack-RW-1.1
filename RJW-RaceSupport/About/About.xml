@@ -7,7 +7,7 @@
 	<supportedVersions>
 		<li>1.1</li>
 	</supportedVersions>
-	<packageId>Abraxas.RJWRaceSupport</packageId>
+	<packageId>Abraxas.RJW.RaceSupport</packageId>
 	
 	<modDependencies>
 		<li>
@@ -21,12 +21,6 @@
 			<displayName>Humanoid Alien Races</displayName>
 			<downloadUrl>https://github.com/RimWorld-CCL-Reborn/AlienRaces/releases</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>jecrell.jecstools</packageId>
-			<displayName>JecsTools</displayName>
-			<downloadUrl>https://github.com/jecrell/JecsTools/releases</downloadUrl>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=932008009</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

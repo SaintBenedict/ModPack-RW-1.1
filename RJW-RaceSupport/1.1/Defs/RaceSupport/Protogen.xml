@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<rjw.RaceGroupDef>
+		
+		<defName>Protogen</defName>
+		
+		<raceNames>
+			<li>Alien_Protogen</li>
+			<li>Alien_ProtogenNME</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+		    <li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>DinoAnus</li>
+			<li>HydraulicAnus</li>
+			<li>BionicAnus</li>
+		</anuses>
+		
+		<chanceanuses></chanceanuses>
+
+		<femaleBreasts>
+		    <li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>FeaturelessChest</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+		</femaleBreasts>
+		
+		<chancefemaleBreasts></chancefemaleBreasts>
+		
+		<femaleGenitals>
+		    <li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>DinoVagina</li>
+			<li>HydraulicVagina</li>
+			<li>BionicVagina</li>
+		</femaleGenitals>
+		
+		<chancefemaleGenitals></chancefemaleGenitals>
+
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<chancemaleBreasts></chancemaleBreasts>
+
+		<maleGenitals>
+		    <li>DinoPenis</li>
+			<li>DinoPenis</li>
+			<li>DinoPenis</li>
+			<li>DinoPenis</li>
+			<li>DinoPenis</li>
+			<li>HydraulicPenis</li>
+			<li>BionicPenis</li>
+		</maleGenitals>
+		
+		<chancemaleGenitals></chancemaleGenitals>
+		
+		<tags>
+			<li>Robot</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+</Defs>

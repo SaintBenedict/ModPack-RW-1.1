@@ -2,11 +2,15 @@
 
 <Defs>
 	<!-- Equiums. 1211945995. https://steamcommunity.com/sharedfiles/filedetails/?id=1211945995 -->
+	<!-- New Equiums. 2103376790. https://steamcommunity.com/sharedfiles/filedetails/?id=2103376790 -->
 	<rjw.RaceGroupDef>
 		<defName>Equiums_Horse_People</defName>
 		
 		<raceNames>
 			<li>Alien_Equium</li>
+			<li>Alien_DonkEquium</li>
+			<li>Alien_UniEquium</li>
+			<li>Alien_ZEquium</li>
 		</raceNames>
 		
 		<pawnKindNames>

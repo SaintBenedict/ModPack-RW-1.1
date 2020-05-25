@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- The Mimis -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>kemomimihouse</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>GenderBalancer</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<success>Normal</success>
+				<operations>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="hana" or defName="kon" or defName="siro"]/race/hasGenders</xpath>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="hana" or defName="kon" or defName="siro"]/comps</xpath>
+						<value>
+							<li Class="GenderBalancer.GenderBalanceSettings">
+								<maleGenderWeight>0</maleGenderWeight>
+								<femaleGenderWeight>1</femaleGenderWeight>
+								<noGenderWeight>0</noGenderWeight>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>kemomimihouse</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="hana" or defName="kon" or defName="siro" or defName="miko" or defName="akame" or defName="aome"]/race/lifeStageAges/li[2]/minAge</xpath>
+					<value>
+						<minAge>0.5</minAge>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="hana" or defName="kon" or defName="siro" or defName="miko" or defName="akame" or defName="aome"]/race/lifeStageAges/li[3]/minAge</xpath>
+					<value>
+						<minAge>1.5</minAge>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName="hana" or defName="kon" or defName="siro" or defName="miko" or defName="akame" or defName="aome"]/lifeStages/li[1]/bodyGraphicData/drawSize</xpath>
+					<value>
+						<drawSize>0.75</drawSize>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName="hana" or defName="kon" or defName="siro" or defName="miko" or defName="akame" or defName="aome"]/lifeStages/li[2]/bodyGraphicData/drawSize</xpath>
+					<value>
+						<drawSize>1.125</drawSize>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

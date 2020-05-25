@@ -6,7 +6,6 @@
 		<defName>Warhammer_Gor_Needle</defName>
 		
 		<raceNames>
-			<li>Alien_Bullgor</li>
 			<li>Alien_Gor</li>
 			<li>Alien_Ungor</li>
 		</raceNames>
@@ -27,7 +26,7 @@
 		<chancefemaleBreasts></chancefemaleBreasts>
 		
 		<femaleGenitals>
-			<li>Vagina</li>
+			<li>NarrowVagina</li>
 		</femaleGenitals>
 		
 		<chancefemaleGenitals></chancefemaleGenitals>
@@ -80,7 +79,7 @@
 		<chancefemaleBreasts></chancefemaleBreasts>
 		
 		<femaleGenitals>
-			<li>Vagina</li>
+			<li>HorseVagina</li>
 		</femaleGenitals>
 		
 		<chancefemaleGenitals></chancefemaleGenitals>
