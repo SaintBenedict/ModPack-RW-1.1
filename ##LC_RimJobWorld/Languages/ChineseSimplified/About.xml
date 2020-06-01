@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimJobWorld</name>
+	<author>Ed86</author>
+	<url>https://gitgud.io/Ed86/rjw</url>
+	<supportedVersions><li>1.1</li></supportedVersions>
+	<packageId>rim.job.world</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>Dalrae.GaramRaceAddon</li>
+		<li>IGNI.LostForest</li>
+	</incompatibleWith>
+	<description>MOD版本：4.2.0。
+汉化\校对：站在巨人们肩膀上的星尘ZERO、敏芳缘、湖心屿。
+M for Mature.
+将MOD排在MOD列表底部：
+Harmony、
+Core、
+HugsLib、
+其他MOD、
+RimJobWorld、
+RJW扩展补丁。
+赞助Ed86：https://www.patreon.com/Ed86。
+论坛：https://www.loverslab.com/files/file/7257-rimjobworld/。
+群聊：https://discord.gg/CXwHhv8。</description>
+</ModMetaData>

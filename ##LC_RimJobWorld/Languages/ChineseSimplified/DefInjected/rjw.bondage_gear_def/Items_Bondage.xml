@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- <ThingDef>
+		<defName>Simplelock</defName>
+		<label>Simple lock</label>
+		<description>A low-tech locking mechanism.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>400</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<pathCost>2</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/hololock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>Simplekey</defName>
+		<label>Simple key</label>
+		<description>A low-tech key. Releases matching lock.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>1</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_CryptoStamped" />
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompStampedApparelKey</compClass>
+				<useJob>UnlockBondageGear</useJob>
+				<useLabel>Unlock apparel</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompUnlockBondageGear</compClass>
+			</li>
+		</comps>
+		<pathCost>1</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/holokey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<ThingDef>
+		<defName>Genericlockpick</defName>
+		<label>Lock pick</label>
+		<description>A lock pick. Picks locks.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<generateCommonality>0.0</generateCommonality>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>0</Beauty>
+			<MarketValue>50</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="rjw.CompProperties_CryptoStamped" />
+			<li Class="CompProperties_Usable">
+				<compClass>rjw.CompStampedApparelKey</compClass>
+				<useJob>UnlockBondageGear</useJob>
+				<useLabel>Unlock apparel</useLabel>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>rjw.CompUnlockBondageGear</compClass>
+			</li>
+		</comps>
+		<pathCost>1</pathCost>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Bondage/holokey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+	</ThingDef> -->
+
+  <Armbinder.label>束手器</Armbinder.label>
+  <Armbinder.description>束手器可以阻止小人使用的手臂。</Armbinder.description>
+  <Armbinder.comps.2.useLabel>装备</Armbinder.comps.2.useLabel>
+
+  <!-- <rjw.bondage_gear_def ParentName="BondageGearBase">
+		<defName>Yoke</defName>
+		<label>yoke</label>
+		<description>A high-tech yoke. It prevents any pawn it's attached to from using their arms.</description>
+		<thingClass>rjw.yoke</thingClass>
+		<graphicData>
+			<texPath>Things\Pawn\Humanlike\Apparel\Bondage\Armbinder\armbinder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+			<MarketValue>850</MarketValue>
+			<Mass>4</Mass>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<Insulation_Cold>-4</Insulation_Cold>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Arms</li>
+				<li>LeftHand</li>
+				<li>RightHand</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things\Pawn\Humanlike\Apparel\Bondage\Armbinder\</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<soul_type>rjw.bondage_gear_soul</soul_type>
+		<equipped_hediff>Yoke</equipped_hediff>
+		<gives_bound_moodlet>true</gives_bound_moodlet>
+		<gives_gagged_moodlet>false</gives_gagged_moodlet>
+	</rjw.bondage_gear_def> -->
+
+  <BallGag.label>口球</BallGag.label>
+  <BallGag.description>一个高科技口球，可以阻止佩戴者说话。</BallGag.description>
+  <BallGag.comps.2.useLabel>装备</BallGag.comps.2.useLabel>
+
+  <RingGag.label>口环</RingGag.label>
+  <RingGag.description>口环堵嘴防止说话，允许口交互动。</RingGag.description>
+  <RingGag.comps.2.useLabel>装备</RingGag.comps.2.useLabel>
+
+	<ChastityBelt.label>贞操带</ChastityBelt.label>
+	<ChastityBelt.description>一个高科技的贞操带，可以防止任何性行为，甚至自慰。</ChastityBelt.description>
+	<ChastityBelt.comps.2.useLabel>装备</ChastityBelt.comps.2.useLabel>
+
+  <ChastityBeltO.label>贞操带（后开式）</ChastityBeltO.label>
+  <ChastityBeltO.description>贞操带允许肛交。</ChastityBeltO.description>
+  <ChastityBeltO.comps.2.useLabel>装备</ChastityBeltO.comps.2.useLabel>
+
+  <ChastityCage.label>贞操笼</ChastityCage.label>
+  <ChastityCage.description>男性的贞操笼，防止勃起。</ChastityCage.description>
+  <ChastityCage.comps.2.useLabel>装备</ChastityCage.comps.2.useLabel>
+
+	<PrisonerChains.label>链条</PrisonerChains.label>
+	<PrisonerChains.description>带袖口的链条，用于限制某人的行动能力和操作能力，防止格斗*建议配合口球使用。</PrisonerChains.description>
+	<PrisonerChains.comps.2.useLabel>装备</PrisonerChains.comps.2.useLabel>
+</LanguageData>

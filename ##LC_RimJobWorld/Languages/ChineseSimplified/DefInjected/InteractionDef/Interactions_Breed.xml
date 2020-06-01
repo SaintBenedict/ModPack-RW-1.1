@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AnalBreeding.label>肛门配种</AnalBreeding.label>
+	<AnalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->骑着[RECIPIENT_nameDef]并插进肛门。</AnalBreeding.logRulesInitiator.rulesStrings.0>
+	<AnalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]骑着并插进肛门。</AnalBreeding.logRulesRecipient.rulesStrings.0>
+
+	<VaginalBreeding.label>阴道配种</VaginalBreeding.label>
+	<VaginalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->骑着[RECIPIENT_nameDef]并插进阴道。</VaginalBreeding.logRulesInitiator.rulesStrings.0>
+	<VaginalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]骑着并插进阴道。</VaginalBreeding.logRulesRecipient.rulesStrings.0>
+
+	<OralBreeding.label>骑脸配种</OralBreeding.label>
+	<OralBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]被舔了阴部。</OralBreeding.logRulesInitiator.rulesStrings.0>
+	<OralBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]舔了阴部。</OralBreeding.logRulesRecipient.rulesStrings.0>
+
+	<ForcedFellatioBreeding.label>骑脸配种</ForcedFellatioBreeding.label>
+	<ForcedFellatioBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]被骑脸插入。</ForcedFellatioBreeding.logRulesInitiator.rulesStrings.0>
+	<ForcedFellatioBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被骑脸狂插。</ForcedFellatioBreeding.logRulesRecipient.rulesStrings.0>
+
+	<!-- This can only happen if the player disables the other types, which makes things go weird... -->
+
+	<ForcedOralBreeding.label>骑脸配种</ForcedOralBreeding.label>
+	<ForcedOralBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]被强行深喉性交。</ForcedOralBreeding.logRulesInitiator.rulesStrings.0>
+	<ForcedOralBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被强行深喉。</ForcedOralBreeding.logRulesRecipient.rulesStrings.0>
+
+	<!-- Another rare one, but needed to get the icons working right. -->
+
+	<FingeringBreeding.label>指交</FingeringBreeding.label>
+	<FingeringBreeding.logRulesInitiator.rulesStrings.0>r_logentry->指交了[RECIPIENT_nameDef]。</FingeringBreeding.logRulesInitiator.rulesStrings.0>
+	<FingeringBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]指交了。</FingeringBreeding.logRulesRecipient.rulesStrings.0>
+
+	<RequestBreeding.label>请求配种</RequestBreeding.label>
+	<RequestBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]被献给了[INITIATOR_nameDef]。</RequestBreeding.logRulesInitiator.rulesStrings.0>
+	<RequestBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被献给[INITIATOR_nameDef]。</RequestBreeding.logRulesRecipient.rulesStrings.0>
+
+	<RequestAnalBreeding.label>请求配种</RequestAnalBreeding.label>
+	<RequestAnalBreeding.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef]被献给了[INITIATOR_nameDef]。</RequestAnalBreeding.logRulesInitiator.rulesStrings.0>
+	<RequestAnalBreeding.logRulesRecipient.rulesStrings.0>r_logentry->被献给[INITIATOR_nameDef]。</RequestAnalBreeding.logRulesRecipient.rulesStrings.0>
+</LanguageData>

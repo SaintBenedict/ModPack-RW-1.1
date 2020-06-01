@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Used for JobDriver_RapeEnemyByMech. Mechs implant things when success rape. -->
+
+  <RJW_MicroComputer.label>机械胚胎</RJW_MicroComputer.label>
+  <RJW_MicroComputer.description>通过其中一个孔进入主机的小型计算机。能够分析生命体征和位置数据，并将这些信息反馈给植入者。</RJW_MicroComputer.description>
+</LanguageData>

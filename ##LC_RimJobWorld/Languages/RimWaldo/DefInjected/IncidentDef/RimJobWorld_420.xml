@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NymphJoins.label>색정광 합류</NymphJoins.label>
+  <NymphVisitor.label>색정광 방문객</NymphVisitor.label>
+  <NymphVisitorGroupEasy.label>색정광 습격(쉬움)</NymphVisitorGroupEasy.label>
+  <NymphVisitorGroupHard.label>색정광 습격(어려움)</NymphVisitorGroupHard.label>
+  <Disease_Boobitis.label>유방염 메카나이트</Disease_Boobitis.label>
+  <Disease_Boobitis.letterLabel>질병 (유방염 메카나이트)</Disease_Boobitis.letterLabel>
+  <TestInc.label>테스팅</TestInc.label>
+  <TestInc.letterText>무언가 일이 벌어짐</TestInc.letterText>
+  <TestInc.letterLabel>무언가 일이 벌어짐</TestInc.letterLabel>
+  <TestInc2.label>테스팅2</TestInc2.label>
+  <TestInc2.letterText>무언가 일이 벌어짐2</TestInc2.letterText>
+  <TestInc2.letterLabel>무언가 일이 벌어짐2</TestInc2.letterLabel>
+
+</LanguageData>

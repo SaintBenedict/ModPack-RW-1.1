@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GrowFlatBreasts.label>隆胸手术（飞机场）</GrowFlatBreasts.label>
+	<GrowFlatBreasts.description>用大量的草药配合彻底的按摩，使未发育的乳房萌动。</GrowFlatBreasts.description>
+	<GrowFlatBreasts.jobString>隆胸手术（飞机场）</GrowFlatBreasts.jobString>
+
+	<GrowSmallBreasts.label>隆胸手术（很小）</GrowSmallBreasts.label>
+	<GrowSmallBreasts.description>通过自由使用草药，配合强力按摩，为平坦的乳房增加体积。</GrowSmallBreasts.description>
+	<GrowSmallBreasts.jobString>隆胸手术（很小）</GrowSmallBreasts.jobString>
+
+	<GrowAverageBreasts.label>隆胸手术（平均）</GrowAverageBreasts.label>
+	<GrowAverageBreasts.description>轻轻擦伤乳房组织，然后涂上大剂量的草药，使小乳房肿胀。</GrowAverageBreasts.description>
+	<GrowAverageBreasts.jobString>隆胸手术（平均）</GrowAverageBreasts.jobString>
+
+	<GrowLargeBreasts.label>隆胸手术（很大）</GrowLargeBreasts.label>
+	<GrowLargeBreasts.description>通过擦伤乳房组织，然后注射从医药箱中获取的生长激素来填充普通的乳房。</GrowLargeBreasts.description>
+	<GrowLargeBreasts.jobString>隆胸手术（很大）</GrowLargeBreasts.jobString>
+
+	<GrowHugeBreasts.label>隆胸手术（巨型）</GrowHugeBreasts.label>
+	<GrowHugeBreasts.description>通过不断擦伤乳房组织来扩张已经很大的乳房，因为它正在被闪耀世界医药治愈。</GrowHugeBreasts.description>
+	<GrowHugeBreasts.jobString>隆胸手术（巨型）</GrowHugeBreasts.jobString>
+
+	<ShrinkBreastsSurgery.label>胸都给你拍平</ShrinkBreastsSurgery.label>
+	<ShrinkBreastsSurgery.description>通过手术减少自然乳房的大小。</ShrinkBreastsSurgery.description>
+	<ShrinkBreastsSurgery.jobString>胸都给你拍平。</ShrinkBreastsSurgery.jobString>
+</LanguageData>

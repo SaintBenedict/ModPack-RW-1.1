@@ -1,6 +1,5 @@
 <Patch>
-  <!-- Compatibility for CrunchyDuck's Slightly More Realistic Wool Production -->
-  <!--TODO: add these to fabric hampers-->
+  <!-- Compatibility for 1.0 version of CrunchyDuck's Slightly More Realistic Wool Production -->
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Slightly More Realistic Wool Production</li>
@@ -15,6 +14,12 @@
         </li>
         <li Class="PatchOperationAdd">
           <xpath>/Defs/ThingDef[defName="LWM_Pallet_Covered"]/building/fixedStorageSettings/filter/categories</xpath>
+          <value>
+            <li>fleeceCategory</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LWM_FabricHamper"]/building/fixedStorageSettings/filter/categories</xpath>
           <value>
             <li>fleeceCategory</li>
           </value>

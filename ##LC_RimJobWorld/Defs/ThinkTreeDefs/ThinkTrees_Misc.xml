@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThinkTreeDef>
+		<defName>CasualSexTree</defName>
+		<insertTag>Humanlike_PostMentalState</insertTag>
+		<insertPriority>12</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalHornyOrFrustrated">
+							<subNodes>
+								<li Class="JobGiver_DoLovin"/>
+								<li Class="rjw.JobGiver_JoininBed"/>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<ThinkTreeDef>
+		<defName>FapTree</defName>
+		<insertTag>Humanlike_PostMentalState</insertTag>
+		<insertPriority>11</insertPriority>
+		<!--TODO: give<tagToGive>SatisfyingNeeds</tagToGive> after some research-->
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ChancePerHour_Fappin">
+							<subNodes>
+								<li Class="JobGiver_DoLovin"/>
+								<li Class="rjw.JobGiver_DoFappin"/>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<!-- Check to "use" comfort prisoners before looking for work to do -->
+	<ThinkTreeDef>
+		<defName>ColonistSexualEmergencyTree</defName>
+		<insertTag>Humanlike_PostMain</insertTag>
+		<insertPriority>14</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalCanRapeCP">
+							<subNodes>
+								<li Class="rjw.ThinkNode_ChancePerHour_RapeCP">
+									<subNodes>
+										<li Class="rjw.JobGiver_ComfortPrisonerRape" />
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<ThinkTreeDef>
+		<defName>QuickSexTree</defName>
+		<insertTag>Humanlike_PostMentalState</insertTag>
+		<insertPriority>13</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalSexChecks">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalHornyOrFrustrated">
+							<subNodes>
+								<li Class="JobGiver_DoLovin"/>
+								<li Class="rjw.JobGiver_DoQuickie"/>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

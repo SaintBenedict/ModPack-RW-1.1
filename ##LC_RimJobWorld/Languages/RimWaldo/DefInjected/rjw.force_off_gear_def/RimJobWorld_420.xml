@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ForceOffArmbinder.label>수갑 해체</ForceOffArmbinder.label>
+  <ForceOffArmbinder.description>착용자의 심각한 부상을 감수하고, 열쇠없이 강제로 수갑을 해체합니다.</ForceOffArmbinder.description>
+  <ForceOffArmbinder.jobString>수갑 해체 중.</ForceOffArmbinder.jobString>
+  <ForceOffBallGag.label>재갈 해체</ForceOffBallGag.label>
+  <ForceOffBallGag.description>착용자의 심각한 부상을 감수하고, 열쇠없이 강제로 재갈을 해체합니다.</ForceOffBallGag.description>
+  <ForceOffBallGag.jobString>재갈 해체 중.</ForceOffBallGag.jobString>
+  <ForceOffRingGag.label>재갈 해체</ForceOffRingGag.label>
+  <ForceOffRingGag.description>착용자의 심각한 부상을 감수하고, 열쇠없이 강제로 재갈을 해체합니다.</ForceOffRingGag.description>
+  <ForceOffRingGag.jobString>재할 해체 중.</ForceOffRingGag.jobString>
+  <ForceOffChastityBelt.label>정조대 해체</ForceOffChastityBelt.label>
+  <ForceOffChastityBelt.description>착용자의 심각한 부상을 감수하고, 열쇠없이 정조대를 해체합니다.</ForceOffChastityBelt.description>
+  <ForceOffChastityBelt.jobString>정조대 해체 중.</ForceOffChastityBelt.jobString>
+  <ForceOffChastityBeltOpen.label>정조대 해체</ForceOffChastityBeltOpen.label>
+  <ForceOffChastityBeltOpen.description>착용자의 심각한 부상을 감수하고, 열쇠없이 정조대를 해체합니다.</ForceOffChastityBeltOpen.description>
+  <ForceOffChastityBeltOpen.jobString>정조대 해체 중.</ForceOffChastityBeltOpen.jobString>
+  <ForceOffChastityCage.label>남성용 정조대 해체</ForceOffChastityCage.label>
+  <ForceOffChastityCage.description>착용자의 심각한 부상을 감수하고, 열쇠없이 남성용 정조대를 해체합니다.</ForceOffChastityCage.description>
+  <ForceOffChastityCage.jobString>남성용 정조대 해체.</ForceOffChastityCage.jobString>
+
+</LanguageData>

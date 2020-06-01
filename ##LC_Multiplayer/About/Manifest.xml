@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Manifest>
+
+  <identifier>Multiplayer</identifier>
+  <version>0.5</version>
+  <manifestUri>https://raw.githubusercontent.com/rwmt/Multiplayer/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/rwmt/Multiplayer/releases/latest</downloadUri>
+
+</Manifest>

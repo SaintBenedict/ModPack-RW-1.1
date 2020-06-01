@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <Disease_Boobitis.label>乳腺机械感染</Disease_Boobitis.label>
-  <Disease_Boobitis.letterText>{0} 个你的 {1} 患有疾病 {2}.\n\n请为ta提供良好的治疗。\n\n这些 {1} 患有以下疾病:\n\n{3}</Disease_Boobitis.letterText>
-  <Disease_Boobitis.letterLabel>乳腺机械感染</Disease_Boobitis.letterLabel>
-
-
-</LanguageData>

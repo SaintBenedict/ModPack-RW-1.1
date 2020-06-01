@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WG_BestialityFM.label>动物性交（直接）</WG_BestialityFM.label>
+  <WG_BestialityFM.verb>配种（直接）</WG_BestialityFM.verb>
+  <WG_BestialityFM.gerund>配种（直接）</WG_BestialityFM.gerund>
+
+  <WG_BestialityFF.label>动物性交（上床）</WG_BestialityFF.label>
+  <WG_BestialityFF.verb>配种（上床）</WG_BestialityFF.verb>
+  <WG_BestialityFF.gerund>配种（上床）</WG_BestialityFF.gerund>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hediff_Submitting.label>自我屈服</Hediff_Submitting.label>
+  <Hediff_Submitting.description>躺在地上等着什么东西来上一发。</Hediff_Submitting.description>
+
+  <!-- prevents 10 job stacks error -->
+
+  <Hediff_RapeEnemyCD.label>强奸敌人冷却</Hediff_RapeEnemyCD.label>
+  <Hediff_RapeEnemyCD.description>“下一个是谁？”</Hediff_RapeEnemyCD.description>
+</LanguageData>

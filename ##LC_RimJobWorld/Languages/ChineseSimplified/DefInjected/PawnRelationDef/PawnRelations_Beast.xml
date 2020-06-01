@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RJW_Sire.label>父亲</RJW_Sire.label>
+	<RJW_Sire.labelFemale>母亲</RJW_Sire.labelFemale>
+
+	<RJW_Pup.label>儿子</RJW_Pup.label>
+	<RJW_Pup.labelFemale>女儿</RJW_Pup.labelFemale>
+</LanguageData>

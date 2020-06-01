@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ImprovedSleepingSpot.label>基础床垫</ImprovedSleepingSpot.label>
+	<ImprovedSleepingSpot.description>一个简单的为了休息和紧急情况使用的木质床垫。不是非常舒服，但建造很快。</ImprovedSleepingSpot.description>
+
+	<RJW_Bed.label>精致床</RJW_Bed.label>
+	<RJW_Bed.description>一套舒适的床垫和床单放在床架上以供休息。</RJW_Bed.description>
+
+	<RJW_DoubleBed.label>精致双人床</RJW_DoubleBed.label>
+	<RJW_DoubleBed.description>一张供俩人使用的双人床，这种款式有时会用在妓院里。</RJW_DoubleBed.description>
+
+	<RJW_RoyalBed.label>奢华双人床</RJW_RoyalBed.label>
+	<RJW_RoyalBed.description>一张高雅的镶金双人床，这种款式又是会用在高端妓院里。舒适且漂亮。</RJW_RoyalBed.description>
+</LanguageData>

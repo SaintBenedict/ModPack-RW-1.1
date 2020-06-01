@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--<rjw.MiscTranslationDef>
+		<defName>DesignatorComfortPrisoner</defName>
+		<targetClass>rjw.Designator_ComfortPrisoner</targetClass>
+		<label>comfort prisoner</label>
+		<description>Designate the prisoner as a tool to satisfy everyone's sexual need.</description>
+	</rjw.MiscTranslationDef>-->
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_vatgrown_sex_slave</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Vat-Grown Sex Slave</label>
+		<description>[PAWN_nameDef] was made to be a sex toy, rather than a human. During [PAWN_possessive] growing period, [PAWN_pronoun] was taught plenty of social and sex related skills to satisfy any demands of its owners.</description>
+		<stringA>SexSlave</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_feisty</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Feisty Nymph</label>
+		<description>[PAWN_nameDef] is a conqueror by nature and will punch you in a face if you try to say "No" to [PAWN_possessive] advances.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_curious</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Curious Nymph</label>
+		<description>[PAWN_nameDef] loves crafting various things, especially things that provide new experiences.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_tender</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Tender Nymph</label>
+		<description>[PAWN_nameDef] has a pair of charming eyes, and [PAWN_possessive] voice is soft and sweet. Due to [PAWN_possessive] previous nurse job, [PAWN_pronoun] tends people quite well.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_chatty</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Chatty Nymph</label>
+		<description>No one can be more loquacious than [PAWN_nameDef]. [PAWN_pronoun] has a flexible tongue, a sharp mind, and hot lips.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_broken</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Broken Nymph</label>
+		<description>[PAWN_nameDef] suffered some terrible things, [PAWN_pronoun] looks rather emaciated.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+</Defs>

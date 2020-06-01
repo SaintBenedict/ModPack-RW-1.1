@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HIV.label>에이즈</HIV.label>
+  <HIV.description>에이즈는 급성과 만성으로 나뉘며 감염된 정착민의 혈액 여과 수치를 감소시킵니다. 급성 에이즈는 병세가 빠르게 진행되지만 완치가 가능합니다. 만성 에이즈는 매우 천천히 진행되지만 완치가 불가능하며 치료를 통해 진행을 늦출 수 있습니다.</HIV.description>
+  <Herpes.label>생식기 포진</Herpes.label>
+  <Herpes.description>대상포진은 불치병이지만 생명에는 지장이 없습니다. 감염된 정착민은 환부에 통증과 가려움을 경험합니다. 치료를 통해 증상의 강도를 줄일 수 있습니다.</Herpes.description>
+  <Warts.label>곤지름</Warts.label>
+  <Warts.description>성기에 생긴 사마귀는 보기 흉하고 가렵습니다. 쉽게 완치됩니다.</Warts.description>
+  <Syphilis.label>매독</Syphilis.label>
+  <Syphilis.description>매독은 치명적인 성병입니다. 방치할 경우 뇌, 간, 신장에 영구적인 손상을 입히며 결국 죽음에 이르게 합니다. 하지만 적절한 치료가 제공된다면 완치할 수 있습니다.</Syphilis.description>
+  <Boobitis.label>유방염 메카나이트</Boobitis.label>
+  <Boobitis.description>유방염은 치료하지 않으면 유방을 끝도없이 성장시키는 전염성 강한 메카나이트계 역병입니다. 처음에는 "사교 약물"로 만들어졌지만, 변이가 발생하여 전인류에게 퍼저나갔습니다.</Boobitis.description>
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IsWhore.headerTip>小人是妓女</IsWhore.headerTip>
+  <IsPrisoner.headerTip>小人是囚犯或奴隶</IsPrisoner.headerTip>
+
+  <WhoreExperience.label>经验</WhoreExperience.label>
+  <WhoreExperience.headerTip>嫖娼经验</WhoreExperience.headerTip>
+
+  <RoomAdjustmentOfWhore.label>房间</RoomAdjustmentOfWhore.label>
+  <RoomAdjustmentOfWhore.headerTip>妓院印象-&gt;价格调整</RoomAdjustmentOfWhore.headerTip>
+
+  <PriceRangeOfWhore.label>价格</PriceRangeOfWhore.label>
+  <PriceRangeOfWhore.headerTip>妓女的价格范围</PriceRangeOfWhore.headerTip>
+
+  <EarnedMoneyByWhore.label>赚取</EarnedMoneyByWhore.label>
+  <EarnedMoneyByWhore.headerTip>赚取的钱（总计）</EarnedMoneyByWhore.headerTip>
+
+  <CountOfWhore.label>客户</CountOfWhore.label>
+  <CountOfWhore.headerTip>客户服务</CountOfWhore.headerTip>
+
+  <AverageMoneyByWhore.label>平均</AverageMoneyByWhore.label>
+  <AverageMoneyByWhore.headerTip>赚取的钱（平均）</AverageMoneyByWhore.headerTip>
+
+  <Mood.label>心情</Mood.label>
+  <Mood.headerTip>小人的心情</Mood.headerTip>
+</LanguageData>

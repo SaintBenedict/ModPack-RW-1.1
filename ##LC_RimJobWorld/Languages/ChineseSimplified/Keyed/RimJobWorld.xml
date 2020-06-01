@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Settings-->
+	<RJWSettingsOne>RJW-基础设置</RJWSettingsOne>
+		<NymphTamed>流莺加入</NymphTamed>
+		<NymphTamed_desc>允许流莺加入你的基地。</NymphTamed_desc>
+		<NymphWild>流莺袭击</NymphWild>
+		<NymphWild_desc>生成野生的流莺攻击殖民地。</NymphWild_desc>
+		<NymphRaidEasy>流莺袭击（简单）</NymphRaidEasy>
+		<NymphRaidEasy_desc>流莺决定去攻击你的殖民地。基本概率为10%</NymphRaidEasy_desc>
+		<NymphRaidHard>流莺袭击（困难）</NymphRaidHard>
+		<NymphRaidHard_desc>流莺认为这里现在是它们的殖民地（游戏结束）基本概率为1%</NymphRaidHard_desc>
+		<NymphPermanentManhunter>永久猎杀人类</NymphPermanentManhunter>
+		<NymphPermanentManhunter_desc>永久性猎杀人类袭击。</NymphPermanentManhunter_desc>
+
+		<FemaleFuta>允许扶她</FemaleFuta>
+		<FemaleFuta_desc>雌性作为扶她出现（+鸡鸡）</FemaleFuta_desc>
+		<MaleTrap>允许人妖</MaleTrap>
+		<MaleTrap_desc>雄性作为人妖出现（+胸部）</MaleTrap_desc>
+		<male_nymph_chance>男性流莺出现频率</male_nymph_chance>
+		<male_nymph_chance_desc>男性流莺出现频率\n有效范围：0-100\n默认：0。</male_nymph_chance_desc>
+		<futa_nymph_chance>扶她流莺出现频率</futa_nymph_chance>
+		<futa_nymph_chance_desc>扶她流莺出现频率 \n有效范围：0-100\n默认：0。</futa_nymph_chance_desc>
+		<futa_natives_chance>扶她土著出现频率</futa_natives_chance>
+		<futa_natives_chance_desc>扶她土著（任意派系）出现频率\n有效范围：0-100\n默认： 0。</futa_natives_chance_desc>
+		<futa_spacers_chance>扶她太空人出现频率</futa_spacers_chance>
+		<futa_spacers_chance_desc>扶她太空人出现频率\n有效范围：0 - 100\n默认：5。</futa_spacers_chance_desc>
+
+		<sexneed_decay_rate_name>性渴求倍率(%)</sexneed_decay_rate_name>
+		<sexneed_decay_rate_desc>0%表示无衰减。\n1000000%将使这个星球都狂暴。</sexneed_decay_rate_desc>
+		<SexMinimumAge>最低性爱年龄</SexMinimumAge>
+		<SexMinimumAge_desc>低于该年龄的小人将不会进行任何性行为。</SexMinimumAge_desc>
+		<SexFreeForAllAge>自由性爱年龄</SexFreeForAllAge>
+		<SexFreeForAllAge_desc>未达到该年龄的小人只会和年龄相差2岁的人发生性关系。</SexFreeForAllAge_desc>
+
+		<bestiality_enabled>启用恋兽癖</bestiality_enabled>
+		<bestiality_enabled_desc>启用兽交行为。泄欲而已。</bestiality_enabled_desc>
+		<animal_on_animal_enabled>启用异种动物间性行为</animal_on_animal_enabled>
+		<animal_on_animal_enabled_desc>启用异种动物间的性行为，这有可能造成怀孕。不论此项打开与否同物种间依旧会交配。</animal_on_animal_enabled_desc>
+		<necrophilia_enabled>启用奸尸</necrophilia_enabled>
+		<necrophilia_enabled_desc>允许小人亵渎尸体。仅对恋尸癖和心理变态小人有效。</necrophilia_enabled_desc>
+		<sounds_enabled>启用RJW音效</sounds_enabled>
+		<sounds_enabled_desc>启用RJW特定音效。注意，此选项不影响主体游戏运行：如果你完全禁用了声音可以无视此项。</sounds_enabled_desc>
+
+		<cum_filth>启用爱液飞溅</cum_filth>
+		<cum_filth_desc>啪啪啪后会产生污秽。请注意，禁用这将使游戏更容易，因为没有污垢需要清洗。</cum_filth_desc>
+		<cum_on_body>启用爱液飞溅在身体上</cum_on_body>
+		<cum_on_body_desc>启用后爱液会造成健康差异。
+
+</cum_on_body_desc>
+		<cum_on_body_amount_adjust>调整身体的爱液累积量</cum_on_body_amount_adjust>
+		<cum_on_body_amount_adjust_desc>所有小人的爱液累积量将乘以该数值。</cum_on_body_amount_adjust_desc>
+		<cum_overlays>启用爱液覆盖</cum_overlays>
+		<cum_overlays_desc>爱液贴图覆盖小人贴图（可能与更改小人外观的MOD冲突）</cum_overlays_desc>
+
+		<STD_enabled>启用STDs</STD_enabled>
+		<STD_enabled_desc>启用由于性行为而传播疾病。</STD_enabled_desc>
+		<STD_FromFloors>允许随机感染性病</STD_FromFloors>
+		<STD_FromFloors_desc>小人会因为肮脏的环境而感染性病。</STD_FromFloors_desc>
+
+		<RPG_hero_control_name>主角模式</RPG_hero_control_name>
+		<RPG_hero_control_desc>玩家允许设置一名小人当做自己的分身并无条件直接控制。</RPG_hero_control_desc>
+		<RPG_hero_control_HC_name>主角模式（硬核联机）</RPG_hero_control_HC_name>
+		<RPG_hero_control_HC_desc>硬核：玩家只能控制主角，去拿些润滑油来吧，你需要很多的ԅ(¯﹃¯ԅ)（适用于多人游戏）</RPG_hero_control_HC_desc>
+		<RPG_hero_control_Ironman_name>主角模式（永久死亡）</RPG_hero_control_Ironman_name>
+		<RPG_hero_control_Ironman_desc>硬核：玩家只能设定主角一次。</RPG_hero_control_Ironman_desc>
+
+		<!-- Rape stuff-->
+		<designated_freewill>已指定小人的自由意志</designated_freewill>
+		<designated_freewill_desc>为泄欲或配种而指定的小人可以主动引发性行为。</designated_freewill_desc>
+		<rape_enabled>启用强奸</rape_enabled>
+		<rape_enabled_desc>禁止该项使得人类强奸无法实现，有可能造成部分小人心情低落。</rape_enabled_desc>
+		<PrisonersBeating>强奸伴随殴打</PrisonersBeating>
+		<PrisonersBeating_desc>小人会在强奸受害者的同时把他们打得死去活来。</PrisonersBeating_desc>
+		<GentlePrisonersBeating>先生！求你了，温柔点！</GentlePrisonersBeating>
+		<GentlePrisonersBeating_desc>将殴打伤害降低至~0-1。</GentlePrisonersBeating_desc>
+		<ColonistCanCP>使殖民者能够强奸泄欲囚犯</ColonistCanCP>
+		<ColonistCanCP_desc>殖民者被允许强奸泄欲囚犯。</ColonistCanCP_desc>
+		<VisitorsCanCP>启用访客泄欲</VisitorsCanCP>
+		<VisitorsCanCP_desc>访客可以强奸泄欲囚犯</VisitorsCanCP_desc>
+		<AnimalsCanCP>启用动物泄欲</AnimalsCanCP>
+		<AnimalsCanCP_desc>允许动物强奸泄欲囚犯。需要开启动物强奸权利。</AnimalsCanCP_desc>
+		<NonFutaWomenRaping_MaxVulnerability>允许女性强奸的最高脆弱度（%）</NonFutaWomenRaping_MaxVulnerability>
+		<NonFutaWomenRaping_MaxVulnerability_desc>只有脆弱值低于此值的女性才会强奸他人。有效范围0%-300%</NonFutaWomenRaping_MaxVulnerability_desc>
+		<Rapee_MinVulnerability_human>允许人类被强奸的最低脆弱值（%）</Rapee_MinVulnerability_human>
+		<Rapee_MinVulnerability_human_desc>当人们的脆弱值高于这个数值的时候，他们就会成为他人强奸的目标。有效范围0%-300%</Rapee_MinVulnerability_human_desc>
+		<Rapee_MinVulnerability_animals>允许动物被强奸的最低脆弱值（%）</Rapee_MinVulnerability_animals>
+		<Rapee_MinVulnerability_animals_desc>脆弱值高于此值的动物会遭到恋兽癖的强奸有效范围0%-300%</Rapee_MinVulnerability_animals_desc>
+
+	<RJWSettingsFour>RJW-爬床设置</RJWSettingsFour>
+		<SettingHookupsEnabled>启用爬床（以下全部）</SettingHookupsEnabled>
+		<SettingHookupsEnabled_desc>控制单身小人是否可以与其他单身小人发生随意性关系。</SettingHookupsEnabled_desc>
+		<SettingQuickHookupsEnabled>启用打野战</SettingQuickHookupsEnabled>
+		<SettingQuickHookupsEnabled_desc>控制单身小人是否可以与其他单身小人打野战。警告：这可能会打断工作中的小人。</SettingQuickHookupsEnabled_desc>
+		<SettingNoHookupsDuringWorkHours>工作时间禁止爬床</SettingNoHookupsDuringWorkHours>
+		<SettingNoHookupsDuringWorkHours_desc>控制小人是否可以在工作时间寻求随意性行为。流莺不受此控制。</SettingNoHookupsDuringWorkHours_desc>
+		<SettingColonistsCanHookup>允许殖民者爬床</SettingColonistsCanHookup>
+		<SettingColonistsCanHookup_desc>控制殖民者是否允许随意性行为。访客和囚犯总是会的。</SettingColonistsCanHookup_desc>
+		<SettingColonistsCanHookupWithVisitor>殖民者可以和访客爬床</SettingColonistsCanHookupWithVisitor>
+		<SettingColonistsCanHookupWithVisitor_desc>控制小人是否可以与殖民地的访客随意发生性关系。</SettingColonistsCanHookupWithVisitor_desc>
+		<SettingCanHookupWithPrisoner>非囚犯可与囚犯爬床</SettingCanHookupWithPrisoner>
+		<SettingCanHookupWithPrisoner_desc>控制非囚犯小人是否可以与囚犯进行双方同意的性行为。这不受“泄欲囚犯”的指定影响，双方都是自愿的。囚犯们总是可以互相爬床！</SettingCanHookupWithPrisoner_desc>
+		<SettingVisitorsCanHookupWithColonists>访客可以和殖民者爬床</SettingVisitorsCanHookupWithColonists>
+		<SettingVisitorsCanHookupWithColonists_desc>控制访客小人包括殖民者是否作为随意性行为的潜在性伴侣。</SettingVisitorsCanHookupWithColonists_desc>
+		<SettingVisitorsCanHookupWithVisitors>访客可以和其他访客爬床</SettingVisitorsCanHookupWithVisitors>
+		<SettingVisitorsCanHookupWithVisitors_desc>控制访客小人是否将其他访客视为随意性行为的潜在伴侣。</SettingVisitorsCanHookupWithVisitors_desc>
+		<SettingPrisonersCanHookupWithNonPrisoner>囚犯可以与殖民者爬床</SettingPrisonersCanHookupWithNonPrisoner>
+		<SettingPrisonersCanHookupWithNonPrisoner_desc>控制囚犯包括非囚犯是否作为临时性伴侣。
+
+包括囚犯在内的小人只能和他们能接触到的人发生性关系，所以如果囚犯不能离开他们的牢房，这是没有意义的。</SettingPrisonersCanHookupWithNonPrisoner_desc>
+		<SettingPrisonersCanHookupWithPrisoner>囚犯可以和囚犯在一起爬床</SettingPrisonersCanHookupWithPrisoner>
+		<SettingPrisonersCanHookupWithPrisoner_desc>控制囚犯包括其他囚犯是否作为临时性伴侣。包括囚犯在内的小人只能和他们能接触到的人发生性关系，所以如果囚犯不能离开他们的牢房，这是没有意义的。</SettingPrisonersCanHookupWithPrisoner_desc>
+		<SettingNymphosCanPickAnyone>流莺可以挑选任何人</SettingNymphosCanPickAnyone>
+		<SettingNymphosCanPickAnyone_desc>控制性爱成瘾（“性欲过强”特性）小人是否会挑选任何可用的人。他们仍然遵守下面的出轨和隔壁老王的设置。</SettingNymphosCanPickAnyone_desc>
+		<SettingNymphosCanCheat>流莺可以出轨（当然是选择原谅她啦）</SettingNymphosCanCheat>
+		<SettingNymphosCanCheat_desc>控制性爱成瘾（“性欲过强”特性）小人在性饥渴时是否会给她的伴侣戴绿帽。</SettingNymphosCanCheat_desc>
+		<SettingNymphosCanHomewreck>流莺是隔壁老王</SettingNymphosCanHomewreck>
+		<SettingNymphosCanHomewreck_desc>控制性爱成瘾（“性欲过强”特性）小人是否会给已有伴侣的人送出绿帽一个。</SettingNymphosCanHomewreck_desc>
+		<SettingNymphosCanHomewreckReverse>流莺是隔壁老王（被动）</SettingNymphosCanHomewreckReverse>
+		<SettingNymphosCanHomewreckReverse_desc>控制性爱成瘾（“性欲过强”特征）小人是否接受性，即使那个人有伴侣。</SettingNymphosCanHomewreckReverse_desc>
+		<SettingHookupChanceForNonNymphos>每小时爬床率</SettingHookupChanceForNonNymphos>
+		<SettingHookupChanceForNonNymphos_desc>性饥渴的小人寻找随意性行为的几率。
+
+
+
+每小时只检查一次，只有小人完成当前工作时才检查。默认值为30%</SettingHookupChanceForNonNymphos_desc>
+		<SettingMinimumFuckabilityToHookup>爬床的最小性能力</SettingMinimumFuckabilityToHookup>
+		<SettingMinimumFuckabilityToHookup_desc>控制两个小人的吸引力（RJW）两个小人必须作其他考虑才能爬床。默认值为10%</SettingMinimumFuckabilityToHookup_desc>
+		<SettingMinimumAttractivenessToHookup>爬床的最小吸引力</SettingMinimumAttractivenessToHookup>
+		<SettingMinimumAttractivenessToHookup_desc>控制（RW原版）爬床前考虑对方的吸引力。默认值为50%流莺>0。</SettingMinimumAttractivenessToHookup_desc>
+		<SettingMinimumRelationshipToHookup>爬床的最低限度的好感</SettingMinimumRelationshipToHookup>
+		<SettingMinimumRelationshipToHookup_desc>控制每个人考虑一个爬床的最小的小人好感。默认值为20。流莺>0。</SettingMinimumRelationshipToHookup_desc>
+
+	<RJWDebugSettings>RJW-调试设置</RJWDebugSettings>
+		<!-- debug stuff-->
+		<whoringtab_enabled>启用嫖娼选项卡</whoringtab_enabled>
+		<submit_button_enabled>启用“自我屈服”按钮</submit_button_enabled>
+		<submit_button_enabled_desc>按下“自我屈服”按钮以允许你逃过更致命的伤害，放任自己被强奸，如果你认为荣耀大于生命，那就关闭吧。记住，如果你改变了主意，你随时可以修改这一项。</submit_button_enabled_desc>
+		<RJW_designation_box>显示RJWmod的按钮</RJW_designation_box>
+		<RJW_designation_box_desc>是否在小人控制GUI上显示RJW的按钮。</RJW_designation_box_desc>
+		<StackRjwParts_name>RJW部件堆叠显示</StackRjwParts_name>
+		<StackRjwParts_desc>将RJW部件堆叠显示在小人“健康”选项卡中（部件名x计数）</StackRjwParts_desc>
+		<maxDistancetowalk_name>性距离限制</maxDistancetowalk_name>
+		<maxDistancetowalk_desc>设定小人AI愿意做多少努力来到达性目的地/目标（小人路线）这会受到障碍物、小人移速和地形修正的影响。默认250~20个格子。如果设置小于100，则使用格子距离（距离为两点之间的直线）这可能减少路线计算的压力，但会忽略障碍（例如墙、山）这可能会使小人跨越大半个地图。</maxDistancetowalk_desc>
+
+		<!-- cheat stuff-->
+		<override_RJW_designation_checks_name>忽略限制条件</override_RJW_designation_checks_name>
+		<override_RJW_designation_checks_desc>可以忽略限制对所有殖民者设置三按钮，你作弊！</override_RJW_designation_checks_desc>
+		<override_control>直接控制</override_control>
+		<override_control_desc>玩家可以手动控制性活动。你作弊！</override_control_desc>
+		<AddTrait_Rapist>获得强奸犯特性</AddTrait_Rapist>
+		<AddTrait_Rapist_desc>强奸10次后有12%的几率获得强奸犯特性。你作弊！</AddTrait_Rapist_desc>
+		<AddTrait_Masocist>获得受虐狂特性</AddTrait_Masocist>
+		<AddTrait_Masocist_desc>精神崩坏（严重）后获得受虐狂特性。你作弊！</AddTrait_Masocist_desc>
+		<AddTrait_Nymphomaniac>获得性爱成瘾特性</AddTrait_Nymphomaniac>
+		<AddTrait_Nymphomaniac_desc>驼峰菇成瘾后获得性爱成瘾特性。你作弊！</AddTrait_Nymphomaniac_desc>
+		<AddTrait_Necrophiliac>获得恋尸癖特性</AddTrait_Necrophiliac>
+		<AddTrait_Necrophiliac_desc>亵渎10次尸体后有50%的几率获得恋尸癖特性。你作弊！</AddTrait_Necrophiliac_desc>
+		<AddTrait_Nerves>获得意志动荡特性</AddTrait_Nerves>
+		<AddTrait_Nerves_desc>精神崩坏（边缘）后获得意志动荡特性。你作弊！</AddTrait_Nerves_desc>
+		<AddTrait_Zoophiliac>获得恋兽癖特性</AddTrait_Zoophiliac>
+		<AddTrait_Zoophiliac_desc>兽交10次后有50%的几率获得恋兽癖特性。你作弊！</AddTrait_Zoophiliac_desc>
+
+		<!-- debug stuff-->
+		<ForbidKidnap>禁止绑架殖民者离开</ForbidKidnap>
+		<ForbidKidnap_desc>不许绑架。</ForbidKidnap_desc>
+		<override_lovin>替换原版爱爱</override_lovin>
+		<override_lovin_desc>用RJW爬床替换原版的爱爱。</override_lovin_desc>
+		<override_matin>替换原板交配</override_matin>
+		<override_matin_desc>用RJW配种替换原版交配。</override_matin_desc>
+		<WildMode_name>狂野模式</WildMode_name>
+		<WildMode_desc>实验-如果启用此选项，则不报告错误！所有的限制与前提条件都不复存在！享受最狂野的Rimworld吧！</WildMode_desc>
+		<GenderlessAsFuta_name>无性动物设为扶她</GenderlessAsFuta_name>
+		<GenderlessAsFuta_desc>自行承担风险！无性动物将被设为雌性，并有两套生殖器。</GenderlessAsFuta_desc>
+		<DevMode_name>开发者模式</DevMode_name>
+		<DevMode_desc>启用RimJobWorld日志记录和其他功能。您通常不希望启用此功能。</DevMode_desc>
+		<DebugLogJoinInBed>收集爬床的Debug日志信息</DebugLogJoinInBed>
+		<DebugLogJoinInBed_desc>启用一些垃圾的Debug日志，以帮助查找爬床中的错误。只有开发人员（或帮助他们找到bug的人）才应该启用此功能。</DebugLogJoinInBed_desc>
+		<DebugWhoring>收集嫖娼的Debug日志信息</DebugWhoring>
+		<DebugWhoring_desc>允许一些非常多的垃圾邮件的Debug日志，帮助查找嫖娼活动中的bug。只有开发人员（或帮助他们找到bug的人）才应该启用此功能。</DebugWhoring_desc>
+
+	<!-- Pregnancy stuff-->
+	<RJWSettingsTwo>RJW-怀孕设置</RJWSettingsTwo>
+		<RJWH_pregnancy>允许人型生物怀孕</RJWH_pregnancy>
+		<RJWH_pregnancy_desc>允许人与人之间使用RJW怀孕。</RJWH_pregnancy_desc>
+		<PregnantCoeffecientForHuman>人类怀孕率（%）</PregnantCoeffecientForHuman>
+		<PregnantCoeffecientForHuman_desc>人类怀孕几率百分比。有效范围：0-100%</PregnantCoeffecientForHuman_desc>
+		<RJWB_pregnancy>允许RJW人兽怀孕</RJWB_pregnancy>
+		<RJWB_pregnancy_desc>使用RJW人兽妊娠。</RJWB_pregnancy_desc>
+		<PregnantCoeffecientForAnimals>动物怀孕率（%）</PregnantCoeffecientForAnimals>
+		<PregnantCoeffecientForAnimals_desc>动物怀孕率百分比。有效范围：0-100%</PregnantCoeffecientForAnimals_desc>
+		<InterspeciesImpregnantionModifier>跨种族受孕修改 (%)</InterspeciesImpregnantionModifier>
+		<InterspeciesImpregnantionModifier_desc>更改受孕几率。 \n例如20%，将使同一物种的正常机会减少到20%\n数值区间: 0-100%</InterspeciesImpregnantionModifier_desc>
+		<UseParentMethod>DNA遗传</UseParentMethod>
+		<UseParentMethod_desc>打开：婴儿随机父母的DNA。\n关闭：婴儿与母亲一致。</UseParentMethod_desc>
+		<OffspringLookLikeTheirMother>类人DNA遗传</OffspringLookLikeTheirMother>
+		<OffspringLookLikeTheirMother_desc>管理类人的怀孕。100%意味着出生的婴儿将是母亲种族。0%意味着出生的婴儿将是父辈种族。有效范围：0-100%</OffspringLookLikeTheirMother_desc>
+		<OffspringIsHuman>兽交DNA遗传</OffspringIsHuman>
+		<OffspringIsHuman_desc>管理类人和动物怀孕。100%意味着出生的婴儿将是“母亲”种族。0%意味着出生的婴儿将是“父亲”种族。有效范围：0-100%</OffspringIsHuman_desc>
+		<OffspringIsHuman2>兽交DNA遗传</OffspringIsHuman2>
+		<OffspringIsHuman2_desc>管理类人和动物怀孕。向左生婴儿将是动物种族。向右出生的婴儿将是类人种族。</OffspringIsHuman2_desc>
+		<RJWA_pregnancy>启用RJW动物怀孕</RJWA_pregnancy>
+		<RJWA_pregnancy_desc>使用RJW动物之间的妊娠。</RJWA_pregnancy_desc>
+		<RJWI_pregnancy>允许RJW虫族怀孕</RJWI_pregnancy>
+		<RJWI_pregnancy_desc>使用RJW虫蛋妊娠。</RJWI_pregnancy_desc>
+		<egg_pregnancy_implant_anyone>虫卵植入过滤</egg_pregnancy_implant_anyone>
+		<egg_pregnancy_implant_anyone_desc>打开：任何有雌性产卵器者都可以植入虫卵。\n关闭：只有预定义的同一物种才能植入虫卵。</egg_pregnancy_implant_anyone_desc>
+		<egg_pregnancy_fertilize_anyone>虫卵受精过滤</egg_pregnancy_fertilize_anyone>
+		<egg_pregnancy_fertilize_anyone_desc>打开：任何有雄性产卵器的人都可以受精。\n关闭：只有预先定义的同一物种或与注入器相同类型才能使虫卵受精。</egg_pregnancy_fertilize_anyone_desc>
+
+		<MechanoidImplanting>允许机械族性交</MechanoidImplanting>
+		<MechanoidImplanting_desc>允许机械族爱抚或插入行为。</MechanoidImplanting_desc>
+
+		<CP_pregnancy>允许mod怀孕</CP_pregnancy>
+		<CP_pregnancy_desc>控制性交行为导致的怀孕为原版怀孕或是mod怀孕。</CP_pregnancy_desc>
+		<genetic_trait_filter>遗传特性过滤</genetic_trait_filter>
+		<genetic_trait_filter_desc>如果启用该选项，rjw/Defs/NonInheritedTraits.xml中的特性将不会继承给下一代。如果不启用，一切都将很公平。</genetic_trait_filter_desc>
+
+		<RJW_fertility_endAge_male>雄性最高生育年龄</RJW_fertility_endAge_male>
+		<RJW_fertility_endAge_male_desc>外星种族会根据他的寿命进行调整。同样的比例也用于动物和人类。</RJW_fertility_endAge_male_desc>
+		<RJW_fertility_endAge_female_humanlike>女性不孕年龄（人类）</RJW_fertility_endAge_female_humanlike>
+		<RJW_fertility_endAge_female_humanlike_desc>不像大多数动物，人类女性很早便开始不孕。为了平衡，所有外星人共用此项。</RJW_fertility_endAge_female_humanlike_desc>
+		<RJW_fertility_endAge_female_animal>雌性不孕年龄（动物）</RJW_fertility_endAge_female_animal>
+		<RJW_fertility_endAge_female_animal_desc>不像人类，大部分雌性动物在死前依旧适孕。</RJW_fertility_endAge_female_animal_desc>
+		<In_human_years>人类年龄</In_human_years>
+		<XofLifeExpectancy>%寿命</XofLifeExpectancy>
+
+		<InterspeciesDisabled>禁用跨种族。</InterspeciesDisabled>
+		<InterspeciesMaximum>同物种间平等。</InterspeciesMaximum>
+		<AlwaysMother>总是母亲的种族。</AlwaysMother>
+		<AlwaysFather>总是父亲的种族。</AlwaysFather>
+		<AlwaysBeast>一直随动物种族。</AlwaysBeast>
+		<AlwaysHumanlike>一直随类人种族。</AlwaysHumanlike>
+		<ComplexImpregnation>启用复杂跨种族怀孕计算</ComplexImpregnation>
+		<ComplexImpregnation_desc><![CDATA[启用后，物种间的受精机会取决于身体结构和大小的差异。
+举例：
+人类/翼人：~95%
+人类/女妖：~75%
+人类/狗：~30%
+人类/鸡：~5%
+狼/狗：~95%
+狼/鸡：~5%
+公鸡/女妖：~30%
+请注意，动物和人类怀孕设置进一步降低了机率。]]></ComplexImpregnation_desc>
+
+	<!-- sex types -->
+	<RJWSettingsThree>RJW-性设置</RJWSettingsThree>
+		<SexTypeFrequency>性姿势频率：
+
+[越高=越常见]</SexTypeFrequency>
+		<vaginal>阴道性交频率</vaginal>
+		<vaginal_desc>调节阴道性交的频率。注意，此频率受其他因素影响，如：洞洞是否可用、等。有效范围：1-200。默认：120。</vaginal_desc>
+		<cunnilingus>舔阴频率</cunnilingus>
+		<cunnilingus_desc>调节口腔阴交的频率。注意，此频率受其他因素影响，如：洞洞是否可用、强奸、等。有效范围：1-200。默认：80。</cunnilingus_desc>
+		<anal>肛交频率</anal>
+		<anal_desc>调节肛交频率（阴茎肛交）注意，此频率受其他因素影响，如：洞洞是否可用、强奸、等。有效范围：1-200。默认：80。</anal_desc>
+		<rimming>舔肛频率</rimming>
+		<rimming_desc>调节口腔肛交的频率。注意，此频率受其他因素影响，如：洞洞是否可用、等。有效范围：1-200。默认：40。</rimming_desc>
+		<fellatio>口交频率</fellatio>
+		<fellatio_desc>调节口交频率。注意，此频率受其他因素影响，如：洞洞是否可用、等。有效范围：1-200。默认：80。</fellatio_desc>
+		<handjob>手交频率</handjob>
+		<handjob_desc>调节手交频率。前提你得有手。注意，此频率受其他因素影响，如：揽客、等。有效范围：1-200。默认：80。</handjob_desc>
+		<mutual_masturbation>互相手淫频率</mutual_masturbation>
+		<mutual_masturbation_desc>调节互相手淫的频率（两个小人互相手淫）注意，此频率受其他因素影响，如：强奸、等。有效范围：1-200。默认：70。</mutual_masturbation_desc>
+		<double_penetration>双洞齐插频率</double_penetration>
+		<double_penetration_desc>调节双洞齐飞的频率，同时需要肛门和阴道。需要多根阴茎，如半阴茎（详见wiki-Hemipenis）注意，此频率受其他因素影响，如：洞洞是否可用、等。有效范围：1-200。默认：60。</double_penetration_desc>
+		<breastjob>乳交频率</breastjob>
+		<breastjob_desc>调节乳交频率。需要一个拥有乳房的小人，另一个则需要阴茎。注意，此频率受其他因素影响，如：揽客、强奸、等。有效范围：1-200。默认：50。</breastjob_desc>
+		<fingering>阴道指交频率</fingering>
+		<fingering_desc>调节阴道指交频率。需要一个又阴道的小人，和一个有手的小人。注意，此频率受其他因素影响，如：揽客、强奸、等。有效范围：1-200。默认：50。</fingering_desc>
+		<scissoring>剪刀腿频率</scissoring>
+		<scissoring_desc>调节磨豆豆的频率（一种交叉体位，两人双腿对夹互相磨阴蒂）需要两个小人都拥有阴道。有效范围：1-200。默认：50。</scissoring_desc>
+		<footjob>足交频率</footjob>
+		<footjob_desc>调节足交频率（用脚使阴茎迎来高潮）注意，此频率受其他因素影响，如：揽客、强奸、等。有效范围：1-200。默认：30。</footjob_desc>
+		<fisting>拳交频率</fisting>
+		<fisting_desc>调节肛门拳交频率（阴道不参与哦）需要一人有手。注意，此频率受其他因素影响，如：揽客、强奸、等。有效范围： 1-200。默认：30。</fisting_desc>
+		<sixtynine>69频率</sixtynine>
+		<sixtynine_desc>69频率（互口）需要两个小人都拥有生殖器。注意，此频率受其他因素影响，如：揽客、强奸、等。有效范围：1-200。默认：69。</sixtynine_desc>
+		<FapEverywhere>8说了，开冲！</FapEverywhere>
+		<FapEverywhere_desc>小人会随心所欲地自慰。</FapEverywhere_desc>
+		<FapInBed>在床上自慰</FapInBed>
+		<FapInBed_desc>小人会在床上自慰。</FapInBed_desc>
+
+		<Malesex>允许的男性性行为：</Malesex>
+		<FeMalesex>允许的女性性行为：</FeMalesex>
+		<AllowedSex.All>所有</AllowedSex.All>
+		<AllowedSex.Homo>同性</AllowedSex.Homo>
+		<AllowedSex.Nohomo>异性</AllowedSex.Nohomo>
+
+		<SexClothing>性的首选服装：</SexClothing>
+		<SexClothingNude>裸体</SexClothingNude>
+		<SexClothingHeadwear>只留头饰</SexClothingHeadwear>
+		<SexClothingFull>穿着整齐</SexClothingFull>
+
+		<RapeAttemptAlert>强奸前警报：</RapeAttemptAlert>
+		<RapeAttemptAlertAlways>始终启用</RapeAttemptAlertAlways>
+		<RapeAttemptAlertHumanlike>只有当目标是类人</RapeAttemptAlertHumanlike>
+		<RapeAttemptAlertColonist>只有目标是殖民者时</RapeAttemptAlertColonist>
+		<RapeAttemptAlertSilent>只显示通知</RapeAttemptAlertSilent>
+		<RapeAttemptAlertDisabled>禁用</RapeAttemptAlertDisabled>
+
+		<RapeAlert>强奸中警报：</RapeAlert>
+		<RapeAlertAlways>始终启用</RapeAlertAlways>
+		<RapeAlertHumanlike>只有当目标是类人</RapeAlertHumanlike>
+		<RapeAlertColonist>只有目标是殖民者</RapeAlertColonist>
+		<RapeAlertSilent>只显示通知</RapeAlertSilent>
+		<RapeAlertDisabled>禁用</RapeAlertDisabled>
+
+		<RapeAlertCP>泄欲囚犯警报</RapeAlertCP>
+		<RapeAlertCP_desc>当设为泄欲的小人被强奸时，显示警报。</RapeAlertCP_desc>
+		<RapeAlertBreeding>配种警报</RapeAlertBreeding>
+		<RapeAlertBreeding_desc>当设为配种目标的小人被强奸时，显示警报。</RapeAlertBreeding_desc>
+
+		<SexualitySpread1>性取向来源：</SexualitySpread1>
+		<SexualitySpread2>性世代为RJW传播。这只为性服务！对关系没有影响！</SexualitySpread2>
+		<SexualitySpreadVanilla>[从原版导入]</SexualitySpreadVanilla>
+		<SexualitySpreadPsychology>[从心理学MOD导入]</SexualitySpreadPsychology>
+		<SexualitySpreadIndividuality>[从[Syr]个性MOD导入]</SexualitySpreadIndividuality>
+
+		<SexualityAsexual>无性恋：</SexualityAsexual>
+		<SexualityPansexual>泛性恋：</SexualityPansexual>
+		<SexualityHeterosexual>异性恋：</SexualityHeterosexual>
+		<SexualityBisexual>双性恋：</SexualityBisexual>
+		<SexualityGay>同性恋：</SexualityGay>
+
+		<SexualityAsexual_desc>性欲低下或不存在，一般对性不感兴趣。</SexualityAsexual_desc>
+		<SexualityPansexual_desc>多性恋者完全无视性别。</SexualityPansexual_desc>
+		<SexualityHeterosexual_desc>异性恋者被“异性”所吸引。</SexualityHeterosexual_desc>
+		<SexualityBisexual_desc>双性恋者对男性和女性都有好感。</SexualityBisexual_desc>
+		<SexualityGay_desc>同性恋者被同性所吸引。</SexualityGay_desc>
+
+		<MaxQuirks>最多怪癖</MaxQuirks>
+		<MaxQuirks_desc>创建小人时可以得到的最多怪癖。</MaxQuirks_desc>
+
+	<!-- Mod strings -->
+	<!-- std -->
+	<RJW_Opportunistic_Infection_Message>{0}由于免疫系统的脆弱而感染。</RJW_Opportunistic_Infection_Message>
+	<!--RJW_Poisoned_by_Rimming_Message>{0}因{1}导致食物中毒</RJW_Poisoned_by_Rimming_Message-->
+	<RJW_Syphilis_Damage_Message>{0}由于感染{3}，导致{1}{2}永久损伤。</RJW_Syphilis_Damage_Message>
+
+	<!--Whore Activities-->
+	<RJW_VisitorAcceptWhore>{0}接受了{1}提出的性交易。</RJW_VisitorAcceptWhore>
+	<RJW_VisitorRejectWhore>{0}拒绝了{1}提出的性交易。</RJW_VisitorRejectWhore>
+	<RJW_VisitorSickWhore>{0}拒绝了性交易因为{1}看起来不健康。</RJW_VisitorSickWhore>
+
+	<!-- Notifications on right-clicking CP -->
+	<PawnCantRapeCP>目标不够健康或者位置不可到达。</PawnCantRapeCP>
+	<PawnCantRapeCP0>这个人不需要性交，有可能是不够健康，或者不能强奸。</PawnCantRapeCP0>
+	<PawnCantRapeCP1>这个人不是单身或者伴侣在身边。</PawnCantRapeCP1>
+	<PawnCantRapeCP2>这个人不是恋兽癖，所以不能强奸动物。</PawnCantRapeCP2>
+
+	<!--Submit button-->
+	<CommandSubmit>自我屈服</CommandSubmit>
+	<CommandSubmitDesc>躺在地上等着什么东西来上一发。</CommandSubmitDesc>
+
+	<!--Preganancy messages-->
+	<RJW_PregnantTitle>{0}怀孕了。</RJW_PregnantTitle>
+	<RJW_PregnantText>{0}怀孕了，很快她就要做母亲了。请注意，饥饿和创伤可能会导致她失去孩子。</RJW_PregnantText>
+	<RJW_Contractions>{0}出现了宫缩，她的孩子（们）就要出生了！</RJW_Contractions>
+	<RJW_GaveBirthTitle>孩子出生了。</RJW_GaveBirthTitle>
+	<RJW_GaveBirthText>{0}已成功产出</RJW_GaveBirthText>
+	<RJW_ABaby>她的宝宝。</RJW_ABaby>
+	<RJW_NBabies>她的{0}宝宝们。</RJW_NBabies>
+	<RJW_PregnantNormal>怀上了健康的孩子……</RJW_PregnantNormal>
+	<RJW_PregnantStrange>这孩子有点不寻常……</RJW_PregnantStrange>
+	<RJW_PregnantMechStrange>孩子有点奇怪……</RJW_PregnantMechStrange>
+	<RJW_GaveBirthEggTitle>产卵</RJW_GaveBirthEggTitle>
+	<RJW_GaveBirthEggText>{0}产出了卵</RJW_GaveBirthEggText>
+	<RJW_EggContractions>{0}发生了宫缩！即将产卵！</RJW_EggContractions>
+
+	<!--Breast size changes-->
+	<!--Should be "{PAWN_possessive} breasts..." but I couldn't get that to work correctly.-->
+	<RJW_BreastsHaveGrownFromBoobitis>乳房患上了机械感染</RJW_BreastsHaveGrownFromBoobitis>
+
+	<!--Comfort designation-->
+	<ForComfort>用于泄欲</ForComfort>
+	<ForComfortDesc>设为泄欲对象。</ForComfortDesc>
+	<ForComfortRefuseDesc>拒绝被用于泄欲。</ForComfortRefuseDesc>
+
+	<!--Whore-->
+	<ForService>设为妓女</ForService><!-- This field is not visible -->
+	<ForServiceDesc><![CDATA[启用勾搭：
+-会尝试与访客联系。
+-如果不忙，招待其他殖民者。
+-在工作中尽量避免自慰，可能会导致沮丧。]]></ForServiceDesc>
+	<ForServiceRefuseDesc>拒绝做妓女。</ForServiceRefuseDesc>
+
+	<!--Breeding designations-->
+	<ForBreeding>允许动物</ForBreeding>
+	<ForBreedingDesc>设为动物配种目标。</ForBreedingDesc>
+	<ForBreedingRefuseDesc>拒绝被动物骑在身上。</ForBreedingRefuseDesc>
+
+	<ForBreedingAnimalDesc>允许这只动物骑上指定的配种目标。</ForBreedingAnimalDesc>
+
+	<BreedMessage>正试图配种</BreedMessage>
+
+	<!--Milking-->
+	<ForMilking>指定为乳汁提供者</ForMilking>
+	<ForMilkingDesc>从这个生物获得乳汁。</ForMilkingDesc>
+
+	<!--Hero-->
+	<ForHero>设为主角</ForHero>
+	<ForHeroDesc><![CDATA[将小人设为玩家角色：
+-只能设置一次。
+-无法关闭。]]></ForHeroDesc>
+	<ForHeroRefuse1Desc>这是其他玩家的主角。</ForHeroRefuse1Desc>
+	<ForHeroRefuse2Desc>您无权更改设定。</ForHeroRefuse2Desc>
+
+	<!--Sexuality card-->
+	<SexcardTooltip>表现性欲</SexcardTooltip>
+	<WhorePrice>卖淫身价范围：</WhorePrice>
+	<Quirks>怪癖：</Quirks>
+	<NoQuirks>没有怪癖，原版。</NoQuirks>
+	<MessyQuirk><![CDATA[肮脏癖
+-增加液体输出。
+-性生活/自慰后很少打扫卫生。]]></MessyQuirk>
+	<PodophileQuirk><![CDATA[恋足癖（又名足崇拜者）
+-如果有选择的话，更喜欢与脚有关的性行为。
+-从足交中获得更高的满意度。]]></PodophileQuirk>
+	<TeratophileQuirk><![CDATA[畸胎怪癖（受畸形和毁容的吸引）
+-喜欢有着丑陋、丑绝人寰和恶心的呼吸声特性的伴侣。
+-发现伤疤很有吸引力。
+-如果喜欢动物，更喜欢更大更野的动物。]]></TeratophileQuirk>
+	<EndytophileQuirk><![CDATA[穿衣癖（穿衣服的性）
+-如果有选择的话，穿着衣服做爱。
+-从穿衣服的性爱中获得更多的满足感。
+-从裸体性爱中得到的满足感会降低。]]></EndytophileQuirk>
+	<ExhibitionistQuirk><![CDATA[裸露者
+-从公共性爱和手淫中获得更多的满足感。
+-如果有其他人在场，更容易自慰。]]></ExhibitionistQuirk>
+	<GerontophileQuirk><![CDATA[老年癖（吸引老年人）
+-喜欢老年性伴侣。
+-从与老人的性生活中获得更多的满足感。]]></GerontophileQuirk>
+	<SomnophileQuirk><![CDATA[嗜睡者（对睡眠/无意识伴侣的吸引力）
+-如果伴侣处于睡眠/无意识状态，从性中获得更多的满足感。
+-如果有强奸犯特性或心情非常沮丧，会试图强奸无意识的小人。]]></SomnophileQuirk>
+	<SapiosexualQuirk><![CDATA[智慧癖（对智力的吸引力）
+-被“聪明”的小人所吸引，比如速学者、聪明过人的小人。
+-讨厌没有智力的小人。]]></SapiosexualQuirk>
+	<FertileQuirk><![CDATA[善育的
+-具有异常高的基础生育能力。]]></FertileQuirk>
+	<InfertileQuirk><![CDATA[不育的
+-基础生育率低，不太可能有孩子。]]></InfertileQuirk>
+	<ImpregnationFetishQuirk><![CDATA[受精爱好者
+-从可能导致怀孕的性姿势中获得更多的满足感。
+-如果给予选择（并且伴侣有合适的部分）通常会有阴道性行为。]]></ImpregnationFetishQuirk>
+	<PregnancyFetishQuirk><![CDATA[孕妇癖
+-被明显怀孕的人吸引。]]></PregnancyFetishQuirk>
+	<IncubatorQuirk><![CDATA[小人生了这么多的蛋，她的身体已经适应了生蛋，生蛋的速度加快了。]]></IncubatorQuirk>
+	<BreederQuirk><![CDATA[小人生了这么多孩子，她的身体已经适应了繁殖，它的怀孕期更短，并且日后将会带来更多的后代。]]></BreederQuirk>
+	<VigorousQuirk><![CDATA[充满活力
+-精力充沛，不因做爱而感到疲倦。]]></VigorousQuirk>
+	<ChitinLoverQuirk><![CDATA[甲壳爱好者
+{pawn}喜爱光滑的甲壳质的外骨骼。{pawn_pronoun}偏爱和巨型蜘蛛或昆虫做性伴侣。]]></ChitinLoverQuirk>
+	<DemonLoverQuirk><![CDATA[恶魔爱好者
+{pawn}在追逐淘气的人。{pawn_pronoun}更喜欢{pawn_possessive}伙伴来自地狱的字面深度，或者{pawn_pronoun}至少会寻找这个部分。]]></DemonLoverQuirk>
+	<FeatherLoverQuirk><![CDATA[羽毛爱好者
+{pawn}喜欢绒毛。{pawn_pronoun}更喜欢鸟类或恐龙伴侣。因为恐龙是鸟，有羽毛，所以{pawn_pronoun}如果有机会会花很长时间解释。]]></FeatherLoverQuirk>
+	<FurLoverQuirk><![CDATA[皮毛爱好者
+{pawn}更喜欢一个有着厚厚的、奢华的、柔软的皮毛的伴侣。]]></FurLoverQuirk>
+	<PlantLoverQuirk><![CDATA[植物爱好者
+{pawn}喜欢告诉别人{pawn_possessive}要去给植物浇水，如果你知道我的意思（手冲冠军？）]]></PlantLoverQuirk>
+	<RobotLoverQuirk><![CDATA[机器人爱好者
+哪个更好，2D还是3D？{pawn}知道3D打印给你最好的两个世界。]]></RobotLoverQuirk>
+	<ScaleLoverQuirk><![CDATA[龙骑士
+谁不想操龙？绝对不是{pawn}。{pawn}就是想操一条龙。]]></ScaleLoverQuirk>
+	<SkinLoverQuirk><![CDATA[皮肤爱好者
+{pawn}更喜欢{pawn_possessive}伴侣拥有光滑敏感的皮肤，没有毛发或鳞片妨碍。幸运的是{pawn_objective}人类到处都是。]]></SkinLoverQuirk>
+	<SlimeLoverQuirk><![CDATA[史莱姆爱好者
+因为它们的滑性和可塑性，能变大、变粗、变紧、变成你想要的任何样子。如果你听{pawn}的话，你会听到一遍又一遍。]]></SlimeLoverQuirk>
+	<SexPartWants>想成为：</SexPartWants>
+</LanguageData>

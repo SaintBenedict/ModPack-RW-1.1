@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- (broken) -->
+
+  <size0.label>RJW部件尺寸设置（PC）（损坏）：</size0.label>
+  <size0.description>将部件尺寸更改为：</size0.description>
+  <size0.stages.0.label>飞机场/微型</size0.stages.0.label>
+  <size0.stages.1.label>很小/紧致</size0.stages.1.label>
+  <size0.stages.2.label>平均</size0.stages.2.label>
+  <size0.stages.3.label>很大/松弛</size0.stages.3.label>
+  <size0.stages.4.label>巨大/敞口</size0.stages.4.label>
+  <size0.stages.5.label>超大</size0.stages.5.label>
+
+  <!-- For use in CE -->
+
+  <size1.label>RJW部件尺寸设置（CE）：飞机场/微型</size1.label>
+  <size1.description>将部件尺寸更改为：</size1.description>
+
+  <size2.label>RJW部件尺寸设置（CE）：很小/紧致</size2.label>
+  <size2.description>将部件尺寸更改为：</size2.description>
+
+  <size3.label>RJW部件尺寸设置（CE）：平均</size3.label>
+  <size3.description>将部件尺寸更改为：</size3.description>
+
+  <size4.label>RJW部件尺寸设置（CE）：很大/松弛</size4.label>
+  <size4.description>将部件尺寸更改为：</size4.description>
+
+  <size5.label>RJW部件尺寸设置（CE）：巨大/敞口</size5.label>
+  <size5.description>将部件尺寸更改为：</size5.description>
+
+  <size6.label>RJW部件尺寸设置（CE）：超大</size6.label>
+  <size6.description>将部件尺寸更改为：</size6.description>
+</LanguageData>

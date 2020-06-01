@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Rimming.label>口交（舔肛门）</Rimming.label>
+  <Rimming.logRulesInitiator.rulesStrings.0>r_logentry->舔了[RECIPIENT_nameDef]的肛门。</Rimming.logRulesInitiator.rulesStrings.0>
+  <Rimming.logRulesRecipient.rulesStrings.0>r_logentry-被[INITIATOR_nameDef]舔了肛门。</Rimming.logRulesRecipient.rulesStrings.0>
+
+  <Cunnilingus.label>口交（舔阴）</Cunnilingus.label>
+  <Cunnilingus.logRulesInitiator.rulesStrings.0>r_logentry->舔了[RECIPIENT_nameDef]的阴部。</Cunnilingus.logRulesInitiator.rulesStrings.0>
+  <Cunnilingus.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]舔了阴部。</Cunnilingus.logRulesRecipient.rulesStrings.0>
+
+  <Fellatio.label>口交</Fellatio.label>
+  <Fellatio.logRulesInitiator.rulesStrings.0>r_logentry->吮吸[RECIPIENT_nameDef]的阴茎。</Fellatio.logRulesInitiator.rulesStrings.0>
+  <Fellatio.logRulesRecipient.rulesStrings.0>r_logentry->被[INITIATOR_nameDef]吮吸了阴茎。</Fellatio.logRulesRecipient.rulesStrings.0>
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Armbinder.label>수갑</Armbinder.label>
+  <Armbinder.description>수갑. 장착하면 양팔을 사용할 수 없게 됩니다.</Armbinder.description>
+  <Armbinder.comps.2.useLabel>착용</Armbinder.comps.2.useLabel>
+  <BallGag.label>구형 재갈</BallGag.label>
+  <BallGag.description>구형 재갈은 말을 못하게 합니다.</BallGag.description>
+  <BallGag.comps.2.useLabel>착용</BallGag.comps.2.useLabel>
+  <RingGag.label>원형 재갈</RingGag.label>
+  <RingGag.description>원형 재갈은 말은 못하게 하지만, 펠라는 허용해줍니다.</RingGag.description>
+  <RingGag.comps.2.useLabel>착용</RingGag.comps.2.useLabel>
+  <ChastityBelt.label>정조대</ChastityBelt.label>
+  <ChastityBelt.description>정조대. 장착하면 여성의 질과 항문에 대한 접근을 제한하여 어떤 형태의 성행위도 할 수 없게 됩니다.</ChastityBelt.description>
+  <ChastityBelt.comps.2.useLabel>착용</ChastityBelt.comps.2.useLabel>
+  <ChastityBeltO.label>개방형 정조대</ChastityBeltO.label>
+  <ChastityBeltO.description>항문 성교는 가능한 정조대</ChastityBeltO.description>
+  <ChastityBeltO.comps.2.useLabel>착용</ChastityBeltO.comps.2.useLabel>
+  <ChastityCage.label>남성용 정조대</ChastityCage.label>
+  <ChastityCage.description>남성의 발기를 막는 남성용 정조대</ChastityCage.description>
+  <ChastityCage.comps.2.useLabel>착용</ChastityCage.comps.2.useLabel>
+  <PrisonerChains.label>쇠사슬</PrisonerChains.label>
+  <PrisonerChains.description>팔에 장착하는 사슬. 착용자의 움직임과 자유를 제한하는데 유용합니다. *근접전 시도를 방지합니다.*재갈까지 물리면 확실하게 무력화됩니다.</PrisonerChains.description>
+  <PrisonerChains.comps.2.useLabel>착용</PrisonerChains.comps.2.useLabel>
+
+</LanguageData>

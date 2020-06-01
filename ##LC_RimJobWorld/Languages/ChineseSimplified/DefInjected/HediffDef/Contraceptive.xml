@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- As usual stolen from CnP -->
+
+	<RJW_Contraceptive.label>避孕</RJW_Contraceptive.label>
+  <RJW_Contraceptive.description>避孕药会严重影响四分之一的生育能力。</RJW_Contraceptive.description>
+	<RJW_Contraceptive.stages.0.label>避孕</RJW_Contraceptive.stages.0.label>
+</LanguageData>
